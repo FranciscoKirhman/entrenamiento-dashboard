@@ -1937,7 +1937,7 @@ Registro cronológico consolidado, mismo formato que el de Mopo. Cada fila corre
 
 ## 16 Aug 2026 — Poto 🍑
 
-**Hora:** no registrada (la app mostraba "4 hours ago" al momento de copiar los datos)  
+**Hora:** 2:30 PM  
 **Duración:** 1h 37m  
 **Volumen Hevy:** 6,734 kg  
 **Comentario:** Posturno y de vuelta en stgo🥳  
@@ -1969,3 +1969,94 @@ Registro cronológico consolidado, mismo formato que el de Mopo. Cada fila corre
 - **Stair Machine (Floors):** Fc max 178
 
 **Récords:** mejor volumen y 1RM en Lying Leg Curl (Machine) (32 kg × 15).
+
+## 17 Aug 2026 — De chill🐝
+
+**Hora:** 5:23 PM  
+**Duración:** 1h 18m  
+**Distancia:** 2,51 km  
+
+| Orden | Ejercicio | Serie | Carga | Reps/tiempo | RPE |
+|---:|---|---:|---:|---|---:|
+| 1 | Dead Bug | 1 | Peso corporal | 20 | 7 |
+| 1 | Dead Bug | 2 | Peso corporal | 20 | 7 |
+| 1 | Dead Bug | 3 | Peso corporal | 20 | 8 |
+| 2 | Reverse Crunch | 1 | Peso corporal | 15 | 7 |
+| 2 | Reverse Crunch | 2 | Peso corporal | 15 | 7,5 |
+| 2 | Reverse Crunch | 3 | Peso corporal | 15 | 8 |
+| 3 | Heel Taps | 1 | Peso corporal | 30 | 6 |
+| 3 | Heel Taps | 2 | Peso corporal | 30 | 6 |
+| 3 | Heel Taps | 3 | Peso corporal | 30 | 7 |
+| 4 | Walking | 1 | — | 2.5 km / 40m 0s | — |
+
+**Notas por ejercicio:**
+- **Heel Taps:** 1 repetición = 2 lados.
+- **Walking:** inclinación 15, velocidad 3.5–5.0.
+
+**Récords:** mejor duración y mejor distancia en Walking (2,5 km / 40 min).
+
+## 19 Aug 2026 — Piernas 🍗
+
+**Hora:** 4:26 PM  
+**Duración:** 1h 40m  
+**Volumen Hevy:** 7,002 kg  
+**Comentario:** Un frío  
+
+| Orden | Ejercicio | Serie | Carga | Reps/tiempo | RPE |
+|---:|---|---:|---:|---|---:|
+| 1 | Standing Cable Glute Kickbacks | 1 | 14 kg | 10 | 6 |
+| 1 | Standing Cable Glute Kickbacks | 2 | 27 kg | 12 | 7,5 |
+| 1 | Standing Cable Glute Kickbacks | 3 | 27 kg | 12 | 8,5 |
+| 1 | Standing Cable Glute Kickbacks | 4 | 27 kg | 12 | 8,5 |
+| 2 | Leg Press (Machine) | 1 | 80 kg | 15 | 7 |
+| 2 | Leg Press (Machine) | 2 | 130 kg | 10 | 9,5 |
+| 2 | Leg Press (Machine) | 3 | 120 kg | 10 | 10 |
+| 2 | Leg Press (Machine) | 4 | 100 kg | 12 | 8 |
+| 3 | Lying Leg Curl (Machine) | 1 | 27,5 kg | 12 | 8 |
+| 3 | Lying Leg Curl (Machine) | 2 | 27,5 kg | 12 | 8 |
+| 3 | Lying Leg Curl (Machine) | 3 | 27,5 kg | 12 | 9 |
+| 4 | Reverse Crunch | 1 | Peso corporal | 15 | 9 |
+| 4 | Reverse Crunch | 2 | Peso corporal | 15 | 9,5 |
+| 4 | Reverse Crunch | 3 | Peso corporal | 15 | 9,5 |
+| 5 | Lying Leg Raise | 1 | Peso corporal | 15 | 9 |
+| 5 | Lying Leg Raise | 2 | Peso corporal | 15 | 9,5 |
+| 5 | Lying Leg Raise | 3 | Peso corporal | 15 | 9,5 |
+| 6 | Stair Machine (Floors) | 1 | — | 40 pisos / 12m 15s | — |
+
+**Notas por ejercicio:**
+- **Standing Cable Glute Kickbacks:** hoy sin cruzar y flectando al volver. Se siente más pantorrilla e isquio que glúteo en el lado izquierdo. Descanso 1 min por pierna.
+- **Leg Press:** con 120 kg quedó en RIR 0; con 100 kg, RPE 8.
+
+## 20 Aug 2026 — Liviano
+
+**Hora:** 4:50 PM  
+**Duración:** 1h 48m  
+**Volumen Hevy:** 3,720 kg  
+
+| Orden | Ejercicio | Serie | Carga | Reps/tiempo | RPE |
+|---:|---|---:|---:|---|---:|
+| 1 | Hip Thrust (Barbell) | 1 | 60 kg | 10 | 6 |
+| 1 | Hip Thrust (Barbell) | 2 | 90 kg | 12 | 8 |
+| 1 | Hip Thrust (Barbell) | 3 | 90 kg | 12 | 8,5 |
+| 1 | Hip Thrust (Barbell) | 4 | 80 kg | 12 | 8,5 |
+| 2 | Respiración 90/90 pies en la pared | 1 | Peso corporal | 6 s | — |
+| 2 | Respiración 90/90 pies en la pared | 2 | Peso corporal | 6 s | — |
+| 2 | Respiración 90/90 pies en la pared | 3 | Peso corporal | 6 s | — |
+| 3 | Heel Taps | 1 | Peso corporal | 20 | 6 |
+| 3 | Heel Taps | 2 | Peso corporal | 20 | 6 |
+| 3 | Heel Taps | 3 | Peso corporal | 20 | 7 |
+| 4 | Side Plank | 1 | Peso corporal | 40 s | — |
+| 4 | Side Plank | 2 | Peso corporal | 42 s | — |
+| 4 | Side Plank | 3 | Peso corporal | 38 s | — |
+| 4 | Side Plank | 4 | Peso corporal | 42 s | — |
+| 5 | Reverse Crunch | 1 | Peso corporal | 15 | 8 |
+| 5 | Reverse Crunch | 2 | Peso corporal | 15 | 7,5 |
+| 5 | Reverse Crunch | 3 | Peso corporal | 15 | 9 |
+| 6 | Stair Machine (Floors) | 1 | — | 62 pisos / 20m 0s | — |
+
+**Notas por ejercicio:**
+- **Side Plank:** fueron 2 series por lado.
+- **Reverse Crunch:** rodilla al pecho.
+- **Stair Machine:** FC máx 180, nivel 4–8.
+
+**Récords:** mejor duración en Side Plank (42 s).

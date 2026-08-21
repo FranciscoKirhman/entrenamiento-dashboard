@@ -1019,26 +1019,26 @@
             ]
           },
           {
-            "name": "Glute Kickback (Machine)",
-            "notes": "Pelvis fija, el movimiento sale de la cadera. Sin arquear la lumbar para ganar rango.",
+            "name": "Back Extension (Weighted Hyperextension)",
+            "notes": "Reemplaza al Glute Kickback, que no te gusta. Trabaja lo mismo (glúteo e isquio) pero con carga axial y patrón de bisagra, que es más tu estilo. Disco al pecho, sube hasta alinear el cuerpo y no te hiperextiendas al final: la lumbar no tiene que arquearse para 'llegar más arriba'.",
             "sets": [
               {
                 "serie": "1",
-                "carga": "54 kg",
+                "carga": "40 kg",
                 "reps": "12-15",
                 "rir": "3",
                 "descanso": "90s"
               },
               {
                 "serie": "2",
-                "carga": "54 kg",
+                "carga": "50 kg",
                 "reps": "12-15",
                 "rir": "2",
                 "descanso": "90s"
               },
               {
                 "serie": "3",
-                "carga": "54 kg",
+                "carga": "50 kg",
                 "reps": "12-15",
                 "rir": "2",
                 "descanso": "90s"
@@ -8225,9 +8225,9 @@
       {
         "day": "Lun 17",
         "date": "2026-08-17",
-        "focus": "Recuperación — sin pesas",
+        "focus": "✓ Core + caminata — realizado",
         "tag": null,
-        "rationale": "El domingo 16 ya fue Hip Thrust cerca del fallo (RPE 9-10, rango reducido a 110kg). Menos de 24h después no corresponde repetir glúteo ni ninguna pesa.",
+        "rationale": "Hecho el 17 de agosto ('De chill'): Dead Bug 3×20, Reverse Crunch 3×15, Heel Taps 3×30 y 2,5 km de caminata inclinada (inclinación 15, 40 min) — récord de distancia y duración. Justo lo que pedía el día: cero carga de codo y trabajo de core sin fatiga de pierna.",
         "cardio": "Caminata 20-25 min, RPE 3. Debes poder hablar normal.",
         "warmup": [
           {
@@ -8341,7 +8341,7 @@
         "date": "2026-08-18",
         "focus": "Descanso",
         "tag": null,
-        "rationale": "Sin entreno, como siempre los martes.",
+        "rationale": "Descanso, como estaba planificado.",
         "cardio": null,
         "warmup": null,
         "stretch": null,
@@ -8350,9 +8350,9 @@
       {
         "day": "Mié 19",
         "date": "2026-08-19",
-        "focus": "Pierna B reducida",
+        "focus": "✓ Piernas — realizado",
         "tag": null,
-        "rationale": "Reglas fijas de esta rutina: series de aproximación no cuentan como trabajo; no subir peso a mitad de sesión; una rep con rango incompleto no cuenta; si la 1a serie de trabajo queda 2 RIR por debajo del objetivo, bajar carga (Hip Thrust/Leg Press -10kg, Kickback 23->18kg, resto -> bloque inferior); si hay dolor de codo, lumbar creciente o compensación evidente, terminar el ejercicio; nunca RIR 0. El RIR prescrito es un objetivo, no un resultado garantizado -- registrar el RIR real de cada serie. Cargas bajadas a lo consolidado: Leg Press base confiable 115kg (140kg exitoso el 4 ago pero fallido el 11 ago). Kickback en 23kg por la compensación de espalda del 16 ago.",
+        "rationale": "Hecho el 19 de agosto (7.002 kg). **El dato más importante de la semana:** en Leg Press anotaste 'con 120 RIR 0, con 100 RPE 8'. Eso significa que 120 kg es prácticamente tu máximo a esas repeticiones, no una carga de trabajo cómoda — y el plan del miércoles 26 tenía 120 kg a RIR 3, que era pedirte algo imposible. Ya está corregido a 105 kg. En el kickback probaste sin cruzar y flectando al volver: dijiste que se siente más pantorrilla e isquio que glúteo en el lado izquierdo. Lo dejamos anotado para revisar la técnica.",
         "cardio": "Escaladora 12 min, ritmo cómodo (RPE 4-5). Cierra la sesión con esto.",
         "warmup": [
           {
@@ -8596,9 +8596,9 @@
       {
         "day": "Jue 20",
         "date": "2026-08-20",
-        "focus": "Accesorio liviano + core (opcional)",
+        "focus": "✓ Liviano — realizado",
         "tag": null,
-        "rationale": "Opcional -- Francisco pidió explícitamente que mantenga 2 días opcionales reales con contenido, no solo cardio. Es liviano a propósito (RIR 3-4, machine) para que no compita con el volumen real de glúteo de la semana -- si prefieres, se puede saltar directo a cardio+core sin el Hip Thrust, es tu elección ese día.",
+        "rationale": "Hecho el 20 de agosto (3.720 kg): Hip Thrust 90×12 a RPE 8-8,5 (bajaste de los 110 del domingo, buena decisión), respiración 90/90, Heel Taps, Side Plank con récord de 42 s y escaladora 62 pisos. Era día opcional y lo usaste bien: carga moderada y mucho core.",
         "cardio": "Escaladora o caminadora 15-20 min, RPE 4 — este día el cardio es el plato principal.",
         "warmup": [
           {
@@ -8762,20 +8762,9 @@
       {
         "day": "Vie 21",
         "date": "2026-08-21",
-        "focus": "Descanso",
-        "tag": null,
-        "rationale": "Sin entreno, como siempre los viernes.",
-        "cardio": null,
-        "warmup": null,
-        "stretch": null,
-        "exercises": []
-      },
-      {
-        "day": "Sáb 22",
-        "date": "2026-08-22",
         "focus": "Técnica de pierna + cardio",
         "tag": null,
-        "rationale": "Reglas fijas de esta rutina: series de aproximación no cuentan como trabajo; no subir peso a mitad de sesión; una rep con rango incompleto no cuenta; si la 1a serie de trabajo queda 2 RIR por debajo del objetivo, bajar carga (Hip Thrust/Leg Press -10kg, Kickback 23->18kg, resto -> bloque inferior); si hay dolor de codo, lumbar creciente o compensación evidente, terminar el ejercicio; nunca RIR 0. El RIR prescrito es un objetivo, no un resultado garantizado -- registrar el RIR real de cada serie. Sentadilla en peso corporal a banco esta semana — foco 100% técnica. Step Up sin mancuernas: es el ejercicio exacto donde escribió \"Codo no aguanta\" el 5 de agosto.",
+        "rationale": "Se adelanta a hoy la sesión que estaba puesta para el sábado, porque mañana subes cerro y el domingo descansas. Encaja bien igual: aductor quedó en 1,2 series/semana (venía de 7,6) y cuádriceps en 7,0 — son el hueco de la semana, y esta sesión los cubre justo. Sentadilla sigue a peso corporal, foco en técnica, y Step Up sin mancuernas por el codo.",
         "cardio": "Escaladora 15 min, RPE 4-5 — o caminata inclinada 20 min si prefieres algo más suave.",
         "warmup": [
           {
@@ -9050,105 +9039,48 @@
         ]
       },
       {
-        "day": "Dom 23",
-        "date": "2026-08-23",
-        "focus": "Cardio suave + core (opcional)",
+        "day": "Sáb 22",
+        "date": "2026-08-22",
+        "focus": "Cerro — sin gimnasio",
         "tag": null,
-        "rationale": "Opcional -- día extra si quiere completar 5 en la semana. Se omite sin problema si sigue cansada, está posturno, o tiene síntomas premenstruales fuertes.",
-        "cardio": "Escaladora 15 min, RPE 4 — sin perseguir pisos ni pulsaciones.",
+        "rationale": "Día de cerro, no de descanso: subir carga glúteo, cuádriceps y gemelo bastante rato y cuenta como la sesión aeróbica larga de la semana. Por eso la sesión de pierna se movió al viernes y el domingo queda libre de verdad.",
+        "cardio": "El cerro es el cardio del día.",
         "warmup": [
           {
-            "name": "Bici o caminadora, 6 min, ritmo conversable",
-            "how": "Solo para subir temperatura y pulso. Debes poder hablar frases completas todo el rato."
+            "name": "Caminata suave los primeros 5-10 min",
+            "how": "No ataques la pendiente en frío: los primeros minutos suaves."
           },
           {
             "name": "Movilidad de tobillo contra pared, 10 por lado",
-            "how": "De pie frente a la pared, pie a un palmo. Lleva la rodilla a tocar la pared sin despegar el talón. Si llega fácil, aleja un poco más el pie."
+            "how": "El tobillo es la articulación que más trabaja en pendiente. Rodilla a la pared sin despegar el talón."
           }
         ],
         "stretch": [
           {
-            "name": "Flexor de cadera en estocada, 30 s por lado",
-            "how": "Rodilla atrás en el suelo, mete la pelvis hacia adelante (como escondiendo la cola) y aprieta el glúteo de atrás. Debes sentirlo adelante de la cadera de atrás."
+            "name": "Gemelo en pared, 40 s por lado",
+            "how": "Después de bajar — la bajada es lo que más carga el gemelo."
           },
           {
-            "name": "Glúteo figura-4 acostada, 30 s por lado",
-            "how": "Acostada, cruza el tobillo sobre la rodilla contraria y tira de la pierna de abajo hacia el pecho. Sin levantar la cabeza."
+            "name": "Cuádriceps de pie, 40 s por lado",
+            "how": "Talón al glúteo, rodillas juntas, pelvis metida."
           },
           {
-            "name": "Isquiotibiales acostada con banda, 30 s por lado",
-            "how": "Banda en el pie, sube la pierna estirada hasta sentir tensión detrás del muslo. La otra pierna queda estirada en el suelo."
+            "name": "Glúteo figura-4, 40 s por lado",
+            "how": "Sentada, tobillo sobre la rodilla contraria, pecho adelante con la espalda recta."
           }
         ],
-        "exercises": [
-          {
-            "name": "Hollow Hold (isometría)",
-            "notes": "Lumbar aplastada contra el piso, hombros y piernas apenas despegados, mirando al techo. Si se te arquea la espalda, sube un poco las piernas hasta que vuelva a pegarse.",
-            "sets": [
-              {
-                "serie": "1",
-                "carga": "Peso corporal",
-                "reps": "20-30 s",
-                "rir": "RPE 7",
-                "descanso": "60s"
-              },
-              {
-                "serie": "2",
-                "carga": "Peso corporal",
-                "reps": "20-30 s",
-                "rir": "RPE 7",
-                "descanso": "60s"
-              }
-            ]
-          },
-          {
-            "name": "Dead Bug",
-            "notes": "Boca arriba, brazos al techo y rodillas en 90°. Baja brazo y pierna contraria manteniendo la lumbar pegada al suelo. Si se despega, baja menos rango.",
-            "sets": [
-              {
-                "serie": "1",
-                "carga": "Peso corporal",
-                "reps": "10 por lado",
-                "rir": "3",
-                "descanso": "45s"
-              },
-              {
-                "serie": "2",
-                "carga": "Peso corporal",
-                "reps": "10 por lado",
-                "rir": "3",
-                "descanso": "45s"
-              },
-              {
-                "serie": "3",
-                "carga": "Peso corporal",
-                "reps": "10 por lado",
-                "rir": "3",
-                "descanso": "45s"
-              }
-            ]
-          },
-          {
-            "name": "Heel Taps",
-            "notes": "Acostada con rodillas dobladas, toca alternadamente cada talón llevando la mano al costado. Hombros despegados del suelo todo el rato.",
-            "sets": [
-              {
-                "serie": "1",
-                "carga": "Peso corporal",
-                "reps": "20 por lado",
-                "rir": "3",
-                "descanso": "45s"
-              },
-              {
-                "serie": "2",
-                "carga": "Peso corporal",
-                "reps": "20 por lado",
-                "rir": "3",
-                "descanso": "45s"
-              }
-            ]
-          }
-        ]
+        "exercises": []
+      },
+      {
+        "day": "Dom 23",
+        "date": "2026-08-23",
+        "focus": "Descanso",
+        "tag": null,
+        "rationale": "Descanso completo. Después del cerro conviene de verdad, y cierra una semana en que ya entrenaste lunes, miércoles, jueves y viernes.",
+        "cardio": "Nada. Si quieres moverte, caminata plana suave y listo.",
+        "warmup": null,
+        "stretch": null,
+        "exercises": []
       },
       {
         "day": "Lun 24",
@@ -9463,7 +9395,7 @@
         "exercises": [
           {
             "name": "Leg Press (Machine)",
-            "notes": "No probar 140kg esta sesión.",
+            "notes": "Corregido con tu propio dato del 19 de agosto: 120 kg te dio RIR 0 y 100 kg quedó en RPE 8. O sea 120 es casi tu máximo a estas repeticiones, no una carga de trabajo. Se baja a 105 kg, que debería caer en RIR 2-3 de verdad.",
             "sets": [
               {
                 "serie": "Aprox.1",
@@ -9488,14 +9420,14 @@
               },
               {
                 "serie": "Trabajo 1",
-                "carga": "120 kg",
+                "carga": "105 kg",
                 "reps": "10",
                 "rir": "objetivo 3",
                 "descanso": "2:30"
               },
               {
                 "serie": "Trabajo 2",
-                "carga": "120 kg",
+                "carga": "105 kg",
                 "reps": "10",
                 "rir": "objetivo 2",
                 "descanso": "2:30"
@@ -10636,7 +10568,7 @@
         "date": "2026-02-28",
         "dlabel": "28 feb",
         "title": "🍑 al fallo ft 🐻",
-        "hora": null,
+        "hora": "3:16 PM",
         "dur": "45m",
         "vol": "3,630",
         "com": null,
@@ -10714,11 +10646,11 @@
         "date": "2026-03-10",
         "dlabel": "10 mar",
         "title": "De nuevo piernas ft mp🐻",
-        "hora": null,
+        "hora": "4:36 PM",
         "dur": "46m",
         "vol": "5,265",
         "com": null,
-        "rec": "Récords: Squat (Smith Machine) (peso, volumen, 1RM); Leg Press (Machine) (peso, volumen, 1RM)",
+        "rec": "mejor peso, volumen y 1RM en Squat (Smith Machine) (50 kg × 8) y Leg Press (Machine) (120 kg × 3).",
         "exercises": [
           {
             "ej": "Squat (Smith Machine)",
@@ -10798,11 +10730,11 @@
         "date": "2026-03-13",
         "dlabel": "13 mar",
         "title": "🍑",
-        "hora": null,
+        "hora": "7:26 PM",
         "dur": "54m",
         "vol": "5,449",
         "com": null,
-        "rec": "Récords: Leg Press Horizontal (Machine) (peso, volumen, 1RM)",
+        "rec": "mejor peso, volumen y 1RM en Leg Press Horizontal (Machine) (80 kg × 12).",
         "exercises": [
           {
             "ej": "Leg Press Horizontal (Machine)",
@@ -10894,11 +10826,11 @@
         "date": "2026-03-15",
         "dlabel": "15 mar",
         "title": "💀💀💀",
-        "hora": null,
+        "hora": "12:22 PM",
         "dur": "57m",
         "vol": "1,350",
         "com": "El francisco haciéndome spotear como si yo me pudiera la barra",
-        "rec": "Récords: Bench Press (Barbell) (volumen)",
+        "rec": "mejor volumen en Bench Press (Barbell) (20 kg × 12).",
         "exercises": [
           {
             "ej": "Bench Press (Barbell)",
@@ -10966,11 +10898,11 @@
         "date": "2026-03-16",
         "dlabel": "16 mar",
         "title": "Espalda y poto😭",
-        "hora": null,
+        "hora": "8:44 PM",
         "dur": "1h 8m",
         "vol": "3,283",
         "com": null,
-        "rec": "Récords: Hip Thrust (Machine) (peso, volumen, 1RM); Bulgarian Split Squat (peso, volumen, 1RM)",
+        "rec": "mejor peso, volumen y 1RM en Hip Thrust (Machine) (43 kg × 9) y Bulgarian Split Squat (35 kg × 8).",
         "exercises": [
           {
             "ej": "Rear Delt Reverse Fly (Cable)",
@@ -11056,11 +10988,11 @@
         "date": "2026-03-27",
         "dlabel": "27 mar",
         "title": "Todo menos estudiar",
-        "hora": null,
+        "hora": "7:43 PM",
         "dur": "1h 1m",
         "vol": "2,588",
         "com": null,
-        "rec": "Récords: Deadlift (Barbell) (peso, 1RM)",
+        "rec": "mejor peso y 1RM en Deadlift (Barbell) (60 kg × 1).",
         "exercises": [
           {
             "ej": "Deadlift (Barbell)",
@@ -11140,11 +11072,11 @@
         "date": "2026-04-05",
         "dlabel": "05 abr",
         "title": "De vuelta🌚",
-        "hora": null,
+        "hora": "12:35 PM",
         "dur": "1h 4m",
         "vol": "6,600",
         "com": null,
-        "rec": "Récords: Deadlift (Barbell) (volumen, 1RM); Squat (Barbell) (peso, volumen, 1RM); Hip Abduction (Machine) (peso, volumen, 1RM)",
+        "rec": "mejor volumen y 1RM en Deadlift (Barbell) (50 kg × 12); mejor peso, volumen y 1RM en Squat (Barbell) (60 kg × 2) y Hip Abduction (Machine) (50 kg × 15).",
         "exercises": [
           {
             "ej": "Deadlift (Barbell)",
@@ -11254,7 +11186,7 @@
         "date": "2026-04-07",
         "dlabel": "07 abr",
         "title": "Yo en mi mente: 🦍",
-        "hora": null,
+        "hora": "7:23 PM",
         "dur": "1h 12m",
         "vol": "2,138",
         "com": null,
@@ -11344,11 +11276,11 @@
         "date": "2026-04-11",
         "dlabel": "11 abr",
         "title": "Localizado pal 🕳️",
-        "hora": null,
+        "hora": "3:20 PM",
         "dur": "37m",
         "vol": "5,440",
         "com": null,
-        "rec": "Récords: Seated Leg Curl (Machine) (peso, volumen, 1RM); Hip Abduction (Machine) (peso, 1RM); Leg Extension (Machine) (volumen)",
+        "rec": "mejor peso, volumen y 1RM en Seated Leg Curl (Machine) (40 kg × 5); mejor peso y 1RM en Hip Abduction (Machine) (60 kg × 12); mejor volumen en Leg Extension (Machine) (35 kg × 12).",
         "exercises": [
           {
             "ej": "Seated Leg Curl (Machine)",
@@ -11434,7 +11366,7 @@
         "date": "2026-04-13",
         "dlabel": "13 abr",
         "title": "Hice 1 barra sola (con 2 bandas)",
-        "hora": null,
+        "hora": "7:11 PM",
         "dur": "1h 49m",
         "vol": "5,058",
         "com": null,
@@ -11602,11 +11534,11 @@
         "date": "2026-04-16",
         "dlabel": "16 abr",
         "title": "Poto 🍑",
-        "hora": null,
+        "hora": "7:55 PM",
         "dur": "1h 31m",
         "vol": "5,660",
         "com": "Nerfeada por la 📐",
-        "rec": "Récords: Hip Thrust (Machine) (peso, volumen, 1RM)",
+        "rec": "mejor peso, volumen y 1RM en Hip Thrust (Machine) (50 kg × 8).",
         "exercises": [
           {
             "ej": "Leg Press (Machine)",
@@ -11734,11 +11666,11 @@
         "date": "2026-04-18",
         "dlabel": "18 abr",
         "title": "Core memory 🪵",
-        "hora": null,
+        "hora": "3:26 PM",
         "dur": "27m",
         "vol": "2,638",
         "com": null,
-        "rec": "Récords: Back Extension (Machine) (peso, volumen, 1RM)",
+        "rec": "mejor peso, volumen y 1RM en Back Extension (Machine) (61 kg × 15).",
         "exercises": [
           {
             "ej": "Knee Raise Parallel Bars",
@@ -11806,11 +11738,11 @@
         "date": "2026-04-20",
         "dlabel": "20 abr",
         "title": "🍑",
-        "hora": null,
+        "hora": "5:53 PM",
         "dur": "1h 31m",
         "vol": "6,037",
         "com": null,
-        "rec": "Récords: Hip Abduction (Machine) (peso, volumen, 1RM); Leg Extension (Machine) (peso, volumen, 1RM)",
+        "rec": "mejor peso, volumen y 1RM en Hip Abduction (Machine) (70,5 kg × 15) y Leg Extension (Machine) (47 kg × 11).",
         "exercises": [
           {
             "ej": "Hip Thrust (Barbell)",
@@ -11902,11 +11834,11 @@
         "date": "2026-04-21",
         "dlabel": "21 abr",
         "title": "🦍",
-        "hora": null,
+        "hora": "7:01 PM",
         "dur": "1h 19m",
         "vol": "2,146",
         "com": "Pumpeada",
-        "rec": "Récords: Overhead Triceps Extension (Cable) (volumen, 1RM)",
+        "rec": "mejor volumen y 1RM en Overhead Triceps Extension (Cable) (3,75 kg × 15).",
         "exercises": [
           {
             "ej": "Bicep Curl (Dumbbell)",
@@ -12022,11 +11954,11 @@
         "date": "2026-04-24",
         "dlabel": "24 abr",
         "title": "🦍",
-        "hora": null,
+        "hora": "8:51 PM",
         "dur": "1h 5m",
         "vol": "3,979",
         "com": null,
-        "rec": "Récords: Lat Pulldown (Machine) (volumen); Bent Over Row (Barbell) (peso, volumen, 1RM); Lat Pulldown (Cable) (peso)",
+        "rec": "mejor volumen en Lat Pulldown (Machine) (33 kg × 15); mejor peso, volumen y 1RM en Bent Over Row (Barbell) (30 kg × 7); mejor peso en Lat Pulldown (Cable) (35,5 kg × 7).",
         "exercises": [
           {
             "ej": "Lat Pulldown (Machine)",
@@ -12112,11 +12044,11 @@
         "date": "2026-04-26",
         "dlabel": "26 abr",
         "title": "Culoonas🌚 🍑",
-        "hora": null,
+        "hora": "12:38 PM",
         "dur": "1h 50m",
         "vol": "6,875",
         "com": null,
-        "rec": "Récords: Leg Press Horizontal (Machine) (peso, volumen, 1RM); Hip Thrust (Barbell) (peso, volumen, 1RM)",
+        "rec": "mejor peso, volumen y 1RM en Leg Press Horizontal (Machine) (85 kg × 12) y Hip Thrust (Barbell) (75 kg × 12).",
         "exercises": [
           {
             "ej": "Squat (Smith Machine)",
@@ -12202,11 +12134,11 @@
         "date": "2026-04-27",
         "dlabel": "27 abr",
         "title": "Hombros y core",
-        "hora": null,
+        "hora": "5:05 PM",
         "dur": "1h 45m",
         "vol": "1,860",
         "com": "Yo con la realidad alterada: 💪🏼",
-        "rec": "Récords: Shoulder Press (Dumbbell) (volumen, 1RM); Face Pull (peso, volumen, 1RM); Rear Delt Reverse Fly (Machine) (peso); Plank (duración); Lying Knee Raise (reps)",
+        "rec": "mejor volumen y 1RM en Shoulder Press (Dumbbell) (6 kg × 13); mejor peso, volumen y 1RM en Face Pull (13,75 kg × 15); mejor peso en Rear Delt Reverse Fly (Machine) (26 kg × 7); mejor duración en Plank (50s); mejor cantidad de repeticiones en Lying Knee Raise (30).",
         "exercises": [
           {
             "ej": "Shoulder Press (Dumbbell)",
@@ -12334,11 +12266,11 @@
         "date": "2026-04-28",
         "dlabel": "28 abr",
         "title": "🍑",
-        "hora": null,
+        "hora": "9:28 AM",
         "dur": "1h 28m",
         "vol": "10,153",
         "com": null,
-        "rec": "Récords: Hip Thrust (Barbell) (peso); Deadlift (Smith Machine) (volumen, 1RM); Hip Abduction (Machine) (peso, volumen, 1RM); Hip Adduction (Machine) (peso, volumen, 1RM)",
+        "rec": "mejor peso en Hip Thrust (Barbell) (80 kg × 9); mejor volumen y 1RM en Deadlift (Smith Machine) (40 kg × 9); mejor peso, volumen y 1RM en Hip Abduction (Machine) (75 kg × 15) y Hip Adduction (Machine) (47 kg × 15).",
         "exercises": [
           {
             "ej": "Hip Thrust (Barbell)",
@@ -12460,11 +12392,11 @@
         "date": "2026-04-30",
         "dlabel": "30 abr",
         "title": "Brazos y espalda ft 🥥",
-        "hora": null,
+        "hora": "5:04 PM",
         "dur": "1h 45m",
         "vol": "3,548",
         "com": "La coco por nada era este: 💪🏼",
-        "rec": "Récords: Bicep Curl (Dumbbell) (volumen, 1RM); Lat Pulldown (Cable) (peso, volumen, 1RM)",
+        "rec": "mejor volumen y 1RM en Bicep Curl (Dumbbell) (5 kg × 14); mejor peso, volumen y 1RM en Lat Pulldown (Cable) (38 kg × 9).",
         "exercises": [
           {
             "ej": "Bicep Curl (Dumbbell)",
@@ -12580,7 +12512,7 @@
         "date": "2026-05-03",
         "dlabel": "03 may",
         "title": "Pecho y triceps + 🍑 colado",
-        "hora": null,
+        "hora": "12:30 PM",
         "dur": "1h 16m",
         "vol": "1,818",
         "com": null,
@@ -12706,11 +12638,11 @@
         "date": "2026-05-04",
         "dlabel": "04 may",
         "title": "Patita de pollo",
-        "hora": null,
+        "hora": "8:26 PM",
         "dur": "2h 49m",
         "vol": "6,065",
         "com": "Se me olvidó apagarlo ups",
-        "rec": "Récords: Squat (Smith Machine) (volumen, 1RM); Leg Press (Machine) (1RM); Deadlift (Smith Machine) (peso, volumen, 1RM); Stair Machine (Floors) (duración)",
+        "rec": "mejor volumen y 1RM en Squat (Smith Machine) (50 kg × 10); mejor 1RM en Leg Press (Machine) (100 kg × 10); mejor peso, volumen y 1RM en Deadlift (Smith Machine) (40 kg × 10); mejor duración en Stair Machine (Floors) (54 pisos / 22m 0s).",
         "exercises": [
           {
             "ej": "Squat (Smith Machine)",
@@ -12814,11 +12746,11 @@
         "date": "2026-05-05",
         "dlabel": "05 may",
         "title": "Hombro y pecho ⚓️",
-        "hora": null,
+        "hora": "3:26 PM",
         "dur": "1h 31m",
         "vol": "1,192",
         "com": "🐻 is back",
-        "rec": "Récords: Chest Press (Machine) (1RM)",
+        "rec": "mejor 1RM en Chest Press (Machine) (19 kg × 9).",
         "exercises": [
           {
             "ej": "Bicep Curl (Dumbbell)",
@@ -12934,11 +12866,11 @@
         "date": "2026-05-07",
         "dlabel": "07 may",
         "title": "Espalda ✈️",
-        "hora": null,
+        "hora": "12:56 PM",
         "dur": "1h 36m",
         "vol": "4,098",
         "com": null,
-        "rec": "Récords: Pull Up (Assisted) (reps); Rear Delt Reverse Fly (Machine) (peso, 1RM); Face Pull (peso)",
+        "rec": "mejor cantidad de repeticiones en Pull Up (Assisted) (63,5 kg × 10); mejor peso y 1RM en Rear Delt Reverse Fly (Machine) (28,5 kg × 8); mejor peso en Face Pull (15 kg × 10).",
         "exercises": [
           {
             "ej": "Lat Pulldown (Machine)",
@@ -13078,11 +13010,11 @@
         "date": "2026-05-09",
         "dlabel": "09 may",
         "title": "Sábado de 🍑",
-        "hora": null,
+        "hora": "12:59 PM",
         "dur": "1h 34m",
         "vol": "5,487",
         "com": null,
-        "rec": "Récords: Hip Thrust (Barbell) (peso, volumen, 1RM); Goblet Squat (peso, volumen, 1RM)",
+        "rec": "mejor peso, volumen y 1RM en Hip Thrust (Barbell) (80 kg × 12) y Goblet Squat (16 kg × 15).",
         "exercises": [
           {
             "ej": "Hip Thrust (Barbell)",
@@ -13168,11 +13100,11 @@
         "date": "2026-05-11",
         "dlabel": "11 may",
         "title": "Pecho y hombro y cosas de hombre👨🏻‍❤️‍💋‍👨🏿",
-        "hora": null,
+        "hora": "7:12 PM",
         "dur": "1h 20m",
         "vol": "1,987",
         "com": null,
-        "rec": "Récords: Chest Press (Machine) (peso, volumen, 1RM); Overhead Press (Dumbbell) (peso, 1RM); Seated Lateral Raise (Dumbbell) (peso, volumen, 1RM)",
+        "rec": "mejor peso, volumen y 1RM en Chest Press (Machine) (19 kg × 12) y Seated Lateral Raise (Dumbbell) (4 kg × 12); mejor peso y 1RM en Overhead Press (Dumbbell) (8 kg × 8).",
         "exercises": [
           {
             "ej": "Bench Press (Barbell)",
@@ -13282,11 +13214,11 @@
         "date": "2026-05-12",
         "dlabel": "12 may",
         "title": "Me dijeron que era pierna 🦵",
-        "hora": null,
+        "hora": "6:00 PM",
         "dur": "1h 21m",
         "vol": "5,301",
         "com": null,
-        "rec": "Récords: Leg Press (Machine) (1RM); Triceps Rope Pushdown (peso, volumen, 1RM)",
+        "rec": "mejor 1RM en Leg Press (Machine) (120 kg × 9); mejor peso, volumen y 1RM en Triceps Rope Pushdown (11,25 kg × 13).",
         "exercises": [
           {
             "ej": "Squat (Barbell)",
@@ -13396,11 +13328,11 @@
         "date": "2026-05-14",
         "dlabel": "14 may",
         "title": "Poto",
-        "hora": null,
+        "hora": "6:27 PM",
         "dur": "1h 42m",
         "vol": "7,003",
         "com": "Hoy vali 🎺",
-        "rec": "Récords: Hip Adduction (Machine) (peso, volumen, 1RM); Rear Delt Reverse Fly (Machine) (volumen, 1RM)",
+        "rec": "mejor peso, volumen y 1RM en Hip Adduction (Machine) (54 kg × 15); mejor volumen y 1RM en Rear Delt Reverse Fly (Machine) (26 kg × 15).",
         "exercises": [
           {
             "ej": "Romanian Deadlift (Barbell)",
@@ -13510,11 +13442,11 @@
         "date": "2026-05-17",
         "dlabel": "17 may",
         "title": "Espalda y brazos 🦍",
-        "hora": null,
+        "hora": "2:01 PM",
         "dur": "1h 36m",
         "vol": "9,526",
         "com": "Smart isabel la católica🧐",
-        "rec": "Récords: Pull Up (Assisted) (reps); Lat Pulldown - Close Grip (Cable) (peso, volumen, 1RM)",
+        "rec": "mejor cantidad de repeticiones en Pull Up (Assisted) (54 kg × 12); mejor peso, volumen y 1RM en Lat Pulldown - Close Grip (Cable) (28,5 kg × 12).",
         "exercises": [
           {
             "ej": "Scapular Pull Ups",
@@ -13660,11 +13592,11 @@
         "date": "2026-05-18",
         "dlabel": "18 may",
         "title": "Pecho 🍒",
-        "hora": null,
+        "hora": "6:48 PM",
         "dur": "1h 27m",
         "vol": "2,665",
         "com": null,
-        "rec": "Récords: Incline Bench Press (Barbell) (volumen, 1RM); Seated Lateral Raise (Dumbbell) (peso, volumen, 1RM); Triceps Extension (Machine) (peso, volumen, 1RM); Seated Shoulder Press (Machine) (volumen, 1RM)",
+        "rec": "mejor volumen y 1RM en Incline Bench Press (Barbell) (20 kg × 12) y Seated Shoulder Press (Machine) (5 kg × 10); mejor peso, volumen y 1RM en Seated Lateral Raise (Dumbbell) (5 kg × 12) y Triceps Extension (Machine) (22,5 kg × 15).",
         "exercises": [
           {
             "ej": "Incline Bench Press (Barbell)",
@@ -13768,11 +13700,11 @@
         "date": "2026-05-19",
         "dlabel": "19 may",
         "title": "Piernas de 🐥",
-        "hora": null,
+        "hora": "3:29 PM",
         "dur": "1h 34m",
         "vol": "4,767",
         "com": "Dolorcito en la inserción proximal del cuad izq, lesionada?🥸",
-        "rec": "Récords: Standing Abductor (volumen, 1RM)",
+        "rec": "mejor volumen y 1RM en Standing Abductor (32 kg × 12).",
         "exercises": [
           {
             "ej": "Squat (Barbell)",
@@ -13876,11 +13808,11 @@
         "date": "2026-05-22",
         "dlabel": "22 may",
         "title": "Espalda y poto por alguna razon",
-        "hora": null,
+        "hora": "3:19 PM",
         "dur": "1h 40m",
         "vol": "6,332",
         "com": "Devoré hip thrust nada que decir",
-        "rec": "Récords: Lat Pulldown - Close Grip (Cable) (peso, volumen, 1RM); Bent Over Row (Barbell) (volumen, 1RM); Rear Delt Reverse Fly (Machine) (1RM); Hip Thrust (Barbell) (1RM)",
+        "rec": "mejor peso, volumen y 1RM en Lat Pulldown - Close Grip (Cable) (33 kg × 12); mejor volumen y 1RM en Bent Over Row (Barbell) (30 kg × 12); mejor 1RM en Rear Delt Reverse Fly (Machine) (28,5 kg × 11) y Hip Thrust (Barbell) (90 kg × 10).",
         "exercises": [
           {
             "ej": "Lat Pulldown - Close Grip (Cable)",
@@ -13972,11 +13904,11 @@
         "date": "2026-05-24",
         "dlabel": "24 may",
         "title": "Culoonas pt 2 🍑",
-        "hora": null,
+        "hora": "10:54 AM",
         "dur": "2h 3m",
         "vol": "6,798",
         "com": "Rompi poto",
-        "rec": "Récords: Hip Thrust (Barbell) (peso); Deadlift (Smith Machine) (peso, 1RM)",
+        "rec": "mejor peso en Hip Thrust (Barbell) (95 kg × 8); mejor peso y 1RM en Deadlift (Smith Machine) (50 kg × 8).",
         "exercises": [
           {
             "ej": "Hip Thrust (Barbell)",
@@ -14098,11 +14030,11 @@
         "date": "2026-05-26",
         "dlabel": "26 may",
         "title": "Espalñita🐒",
-        "hora": null,
+        "hora": "7:22 PM",
         "dur": "1h 17m",
         "vol": "2,534",
         "com": null,
-        "rec": "Récords: Shoulder Press (Dumbbell) (peso, volumen, 1RM); Seated Row (Machine) (peso, volumen, 1RM)",
+        "rec": "mejor peso, volumen y 1RM en Shoulder Press (Dumbbell) (7 kg × 12) y Seated Row (Machine) (35,5 kg × 12).",
         "exercises": [
           {
             "ej": "Pull Up (Assisted)",
@@ -14206,11 +14138,11 @@
         "date": "2026-06-01",
         "dlabel": "01 jun",
         "title": "Poto cortitoooo",
-        "hora": null,
+        "hora": "6:53 PM",
         "dur": "1h 34m",
         "vol": "7,528",
         "com": null,
-        "rec": "Récords: Hip Thrust (Barbell) (peso, 1RM); Romanian Deadlift (Barbell) (volumen)",
+        "rec": "mejor peso y 1RM en Hip Thrust (Barbell) (100 kg × 7); mejor volumen en Romanian Deadlift (Barbell) (50 kg × 10).",
         "exercises": [
           {
             "ej": "Hip Thrust (Barbell)",
@@ -14308,11 +14240,11 @@
         "date": "2026-06-02",
         "dlabel": "02 jun",
         "title": "Upper con mi mamá😌",
-        "hora": null,
+        "hora": "5:10 PM",
         "dur": "1h 30m",
         "vol": "2,402",
         "com": null,
-        "rec": "Récords: Bench Press (Barbell) (volumen); Shoulder Press (Dumbbell) (peso); Lateral Raise (Dumbbell) (peso, 1RM); Hammer Curl (Dumbbell) (peso, volumen, 1RM); Face Pull (peso, 1RM)",
+        "rec": "mejor volumen en Bench Press (Barbell) (25 kg × 10); mejor peso en Shoulder Press (Dumbbell) (8 kg × 6); mejor peso y 1RM en Lateral Raise (Dumbbell) (5 kg × 12) y Face Pull (16 kg × 12); mejor peso, volumen y 1RM en Hammer Curl (Dumbbell) (6 kg × 14).",
         "exercises": [
           {
             "ej": "Bench Press (Barbell)",
@@ -14434,11 +14366,11 @@
         "date": "2026-06-03",
         "dlabel": "03 jun",
         "title": "Piernas 🍗",
-        "hora": null,
+        "hora": "4:32 PM",
         "dur": "1h 31m",
         "vol": "4,410",
         "com": "Spm, debilidad",
-        "rec": "Récords: Squat (Barbell) (volumen, 1RM)",
+        "rec": "mejor volumen y 1RM en Squat (Barbell) (45 kg × 12).",
         "exercises": [
           {
             "ej": "Squat (Barbell)",
@@ -14506,11 +14438,11 @@
         "date": "2026-06-05",
         "dlabel": "05 jun",
         "title": "Espalda",
-        "hora": null,
+        "hora": "3:24 PM",
         "dur": "1h 5m",
         "vol": "2,435",
         "com": "Floppppp",
-        "rec": "Récords: Lat Pulldown (Cable) (peso); Incline Bench Press (Barbell) (volumen, 1RM)",
+        "rec": "mejor peso en Lat Pulldown (Cable) (40 kg × 8); mejor volumen y 1RM en Incline Bench Press (Barbell) (20 kg × 15).",
         "exercises": [
           {
             "ej": "Lat Pulldown (Cable)",
@@ -14602,11 +14534,11 @@
         "date": "2026-06-07",
         "dlabel": "07 jun",
         "title": "Full lower 🍗",
-        "hora": null,
+        "hora": "10:51 AM",
         "dur": "1h 55m",
         "vol": "11,485",
         "com": null,
-        "rec": "Récords: Squat (Barbell) (volumen, 1RM); Hip Thrust (Barbell) (1RM); Seated Leg Curl (Machine) (peso, volumen, 1RM); Hip Abduction (Machine) (peso, volumen, 1RM)",
+        "rec": "mejor volumen y 1RM en Squat (Barbell) (45 kg × 17); mejor 1RM en Hip Thrust (Barbell) (100 kg × 9); mejor peso, volumen y 1RM en Seated Leg Curl (Machine) (45 kg × 15) y Hip Abduction (Machine) (77,5 kg × 15).",
         "exercises": [
           {
             "ej": "Squat (Barbell)",
@@ -14722,11 +14654,11 @@
         "date": "2026-06-08",
         "dlabel": "08 jun",
         "title": "Upper",
-        "hora": null,
+        "hora": "12:00 PM",
         "dur": "1h 30m",
         "vol": "3,001",
         "com": null,
-        "rec": "Récords: Bench Press (Barbell) (volumen, 1RM); Preacher Curl (Machine) (peso, volumen, 1RM); Lateral Raise (Dumbbell) (peso, volumen, 1RM); Chest Press (Machine) (peso, volumen, 1RM)",
+        "rec": "mejor volumen y 1RM en Bench Press (Barbell) (25 kg × 12); mejor peso, volumen y 1RM en Preacher Curl (Machine) (20 kg × 16), Lateral Raise (Dumbbell) (10 kg × 14) y Chest Press (Machine) (21,5 kg × 12).",
         "exercises": [
           {
             "ej": "Bench Press (Barbell)",
@@ -14830,7 +14762,7 @@
         "date": "2026-06-11",
         "dlabel": "11 jun",
         "title": "🍑",
-        "hora": null,
+        "hora": "5:41 PM",
         "dur": "1h 20m",
         "vol": "5,210",
         "com": "Ayerr",
@@ -14914,11 +14846,11 @@
         "date": "2026-06-13",
         "dlabel": "13 jun",
         "title": "Upper",
-        "hora": null,
+        "hora": "2:29 PM",
         "dur": "1h 16m",
         "vol": "2,614",
         "com": null,
-        "rec": "Récords: Lat Pulldown (Cable) (volumen); Overhead Triceps Extension (Cable) (peso, volumen, 1RM)",
+        "rec": "mejor volumen en Lat Pulldown (Cable) (33 kg × 15); mejor peso, volumen y 1RM en Overhead Triceps Extension (Cable) (6,25 kg × 15).",
         "exercises": [
           {
             "ej": "Lat Pulldown (Cable)",
@@ -15010,11 +14942,11 @@
         "date": "2026-06-15",
         "dlabel": "15 jun",
         "title": "Piernas 🍗",
-        "hora": null,
+        "hora": "11:07 AM",
         "dur": "1h 38m",
         "vol": "10,289",
         "com": "Durisimo",
-        "rec": "Récords: Squat (Smith Machine) (peso, 1RM); Leg Press (Machine) (1RM); Leg Extension (Machine) (volumen, 1RM)",
+        "rec": "mejor peso y 1RM en Squat (Smith Machine) (55 kg × 8); mejor 1RM en Leg Press (Machine) (120 kg × 10); mejor volumen y 1RM en Leg Extension (Machine) (47 kg × 15).",
         "exercises": [
           {
             "ej": "Squat (Smith Machine)",
@@ -15142,11 +15074,11 @@
         "date": "2026-06-17",
         "dlabel": "17 jun",
         "title": "Espalda 🦍 y un poquito de biceps",
-        "hora": null,
+        "hora": "3:39 PM",
         "dur": "2h 18m",
         "vol": "5,003",
         "com": null,
-        "rec": "Récords: Bent Over Row (Barbell) (peso, volumen, 1RM); Bicep Curl (Dumbbell) (volumen, 1RM)",
+        "rec": "mejor peso, volumen y 1RM en Bent Over Row (Barbell) (40 kg × 13); mejor volumen y 1RM en Bicep Curl (Dumbbell) (5 kg × 15).",
         "exercises": [
           {
             "ej": "Lat Pulldown (Cable)",
@@ -15286,11 +15218,11 @@
         "date": "2026-06-22",
         "dlabel": "22 jun",
         "title": "Poto 🍑",
-        "hora": null,
+        "hora": "1:07 PM",
         "dur": "1h 37m",
         "vol": "13,584",
         "com": "Sorprendentemente strong ass",
-        "rec": "Récords: Romanian Deadlift (Barbell) (volumen, 1RM); Hip Thrust (Barbell) (volumen, 1RM); Hip Abduction (Machine) (volumen, 1RM); Hip Adduction (Machine) (peso, volumen, 1RM)",
+        "rec": "mejor volumen y 1RM en Romanian Deadlift (Barbell) (50 kg × 15), Hip Thrust (Barbell) (90 kg × 12) y Hip Abduction (Machine) (84,5 kg × 17); mejor peso, volumen y 1RM en Hip Adduction (Machine) (63,5 kg × 15).",
         "exercises": [
           {
             "ej": "Romanian Deadlift (Barbell)",
@@ -15388,11 +15320,11 @@
         "date": "2026-06-24",
         "dlabel": "24 jun",
         "title": "Bracitos",
-        "hora": null,
+        "hora": "3:58 PM",
         "dur": "1h 19m",
         "vol": "1,528",
         "com": null,
-        "rec": "Récords: Single Arm Lateral Raise (Cable) (peso, volumen, 1RM)",
+        "rec": "mejor peso, volumen y 1RM en Single Arm Lateral Raise (Cable) (2,5 kg × 11).",
         "exercises": [
           {
             "ej": "Single Arm Lateral Raise (Cable)",
@@ -15490,7 +15422,7 @@
         "date": "2026-06-26",
         "dlabel": "26 jun",
         "title": "Piernas 🍗",
-        "hora": null,
+        "hora": "4:19 PM",
         "dur": "1h 24m",
         "vol": "2,320",
         "com": "Durisimo",
@@ -15568,11 +15500,11 @@
         "date": "2026-06-29",
         "dlabel": "29 jun",
         "title": "Empuje?",
-        "hora": null,
+        "hora": "1:02 PM",
         "dur": "1h 57m",
         "vol": "4,398",
         "com": null,
-        "rec": "Récords: Bicep Curl (Dumbbell) (peso, volumen, 1RM); Leg Extension (Machine) (peso, 1RM); Face Pull (volumen); Plank (duración)",
+        "rec": "mejor peso, volumen y 1RM en Bicep Curl (Dumbbell) (6 kg × 15); mejor peso y 1RM en Leg Extension (Machine) (49,5 kg × 13); mejor volumen en Face Pull (15 kg × 15); mejor duración en Plank (1m 0s).",
         "exercises": [
           {
             "ej": "Bench Press (Barbell)",
@@ -15718,11 +15650,11 @@
         "date": "2026-06-30",
         "dlabel": "30 jun",
         "title": "Poto sin hip thrust😶‍🌫️",
-        "hora": null,
+        "hora": "11:58 AM",
         "dur": "53m",
         "vol": "3,938",
         "com": "En el icónico gym del poto",
-        "rec": "Récords: Dumbbell Step Up (peso, volumen, 1RM)",
+        "rec": "mejor peso, volumen y 1RM en Dumbbell Step Up (14 kg × 12).",
         "exercises": [
           {
             "ej": "Dumbbell Step Up",
@@ -15808,11 +15740,11 @@
         "date": "2026-07-04",
         "dlabel": "04 jul",
         "title": "Piernas 🍗",
-        "hora": null,
+        "hora": "1:10 PM",
         "dur": "1h 54m",
         "vol": "5,894",
         "com": null,
-        "rec": "Récords: Squat (Barbell) (1RM); Seated Leg Curl (Machine) (peso, volumen, 1RM); Leg Extension (Machine) (volumen, 1RM)",
+        "rec": "mejor 1RM en Squat (Barbell) (50 kg × 12); mejor peso, volumen y 1RM en Seated Leg Curl (Machine) (49,5 kg × 15); mejor volumen y 1RM en Leg Extension (Machine) (49,5 kg × 15).",
         "exercises": [
           {
             "ej": "Squat (Barbell)",
@@ -15922,11 +15854,11 @@
         "date": "2026-07-06",
         "dlabel": "06 jul",
         "title": "Empuje🦣",
-        "hora": null,
+        "hora": "2:12 PM",
         "dur": "2h 19m",
         "vol": "4,951",
         "com": "Stairmaster demoniaco",
-        "rec": "Récords: Incline Bench Press (Barbell) (peso); Cable Crunch (peso, volumen, 1RM)",
+        "rec": "mejor peso en Incline Bench Press (Barbell) (25 kg × 3); mejor peso, volumen y 1RM en Cable Crunch (25 kg × 15).",
         "exercises": [
           {
             "ej": "Incline Bench Press (Barbell)",
@@ -16084,11 +16016,11 @@
         "date": "2026-07-07",
         "dlabel": "07 jul",
         "title": "Poto 🍑 y piernas y todo",
-        "hora": null,
+        "hora": "6:02 PM",
         "dur": "2h 5m",
         "vol": "13,140",
         "com": "Rompí poto, no cerré las piernas, mi mayor logro ganarle al fk en hip thrust",
-        "rec": "Récords: Hip Thrust (Barbell) (volumen, 1RM); Leg Press (Machine) (volumen); Lying Leg Curl (Machine) (1RM); Hip Adduction (Machine) (peso, volumen, 1RM)",
+        "rec": "mejor volumen y 1RM en Hip Thrust (Barbell) (100 kg × 11); mejor volumen en Leg Press (Machine) (110 kg × 13); mejor 1RM en Lying Leg Curl (Machine) (32 kg × 10); mejor peso, volumen y 1RM en Hip Adduction (Machine) (66 kg × 15).",
         "exercises": [
           {
             "ej": "Hip Thrust (Barbell)",
@@ -16204,11 +16136,11 @@
         "date": "2026-07-08",
         "dlabel": "08 jul",
         "title": "Tracción 🦍",
-        "hora": null,
+        "hora": "1:05 PM",
         "dur": "1h 2m",
         "vol": "2,532",
         "com": "Breve",
-        "rec": "Récords: Pull Up (Assisted) (reps); Rear Delt Reverse Fly (Machine) (1RM); Chest Dip (Assisted) (reps)",
+        "rec": "mejor cantidad de repeticiones en Pull Up (Assisted) (61 kg × 13) y Chest Dip (Assisted) (68 kg × 15); mejor 1RM en Rear Delt Reverse Fly (Machine) (28,5 kg × 13).",
         "exercises": [
           {
             "ej": "Pull Up (Assisted)",
@@ -16306,11 +16238,11 @@
         "date": "2026-07-10",
         "dlabel": "10 jul",
         "title": "Piernas 🍗 y poto ft 🥥",
-        "hora": null,
+        "hora": "1:40 PM",
         "dur": "1h 50m",
         "vol": "9,714",
         "com": "Fortachonas de poto",
-        "rec": "Récords: Squat (Smith Machine) (volumen); Deadlift (Smith Machine) (volumen); Leg Press (Machine) (volumen); Leg Extension (Machine) (peso, 1RM); Standing Cable Glute Kickbacks (volumen, 1RM)",
+        "rec": "mejor volumen en Squat (Smith Machine) (45 kg × 12), Deadlift (Smith Machine) (50 kg × 10) y Leg Press (Machine) (100 kg × 15); mejor peso y 1RM en Leg Extension (Machine) (52 kg × 12); mejor volumen y 1RM en Standing Cable Glute Kickbacks (23 kg × 15).",
         "exercises": [
           {
             "ej": "Squat (Smith Machine)",
@@ -16432,7 +16364,7 @@
         "date": "2026-07-16",
         "dlabel": "16 jul",
         "title": "Poto 🍑",
-        "hora": null,
+        "hora": "2:25 PM",
         "dur": "1h 27m",
         "vol": "12,191",
         "com": null,
@@ -16546,11 +16478,11 @@
         "date": "2026-07-17",
         "dlabel": "17 jul",
         "title": "Piernas 🍗",
-        "hora": null,
+        "hora": "3:07 PM",
         "dur": "1h 31m",
         "vol": "9,059",
         "com": "Nada de superior, codo izq malo😶‍🌫️",
-        "rec": "Récords: Leg Press (Machine) (volumen, 1RM); Lying Leg Curl (Machine) (volumen, 1RM); Leg Extension (Machine) (volumen, 1RM)",
+        "rec": "mejor volumen y 1RM en Leg Press (Machine) (110 kg × 15), Lying Leg Curl (Machine) (32 kg × 12) y Leg Extension (Machine) (52 kg × 15).",
         "exercises": [
           {
             "ej": "Leg Press (Machine)",
@@ -16672,11 +16604,11 @@
         "date": "2026-07-21",
         "dlabel": "21 jul",
         "title": "Poto 🍑",
-        "hora": null,
+        "hora": "3:43 PM",
         "dur": "1h 56m",
         "vol": "10,267",
         "com": "Bien debilucho",
-        "rec": "Récords: Hip Thrust (Barbell) (peso, volumen); Back Extension (Weighted Hyperextension) (peso, volumen); Hack Squat (Machine) (peso, volumen, 1RM)",
+        "rec": "mejor peso y volumen en Hip Thrust (Barbell) (80 kg × 15) y Back Extension (Weighted Hyperextension) (33 kg × 12); mejor peso, volumen y 1RM en Hack Squat (Machine) (10 kg × 15).",
         "exercises": [
           {
             "ej": "Hip Thrust (Barbell)",
@@ -16780,11 +16712,11 @@
         "date": "2026-07-23",
         "dlabel": "23 jul",
         "title": "Piernas 🍗",
-        "hora": null,
+        "hora": "12:26 PM",
         "dur": "1h 43m",
         "vol": "7,983",
         "com": "Todo sin codo",
-        "rec": "Récords: Leg Press (Machine) (1RM); Standing Cable Glute Kickbacks (peso, 1RM)",
+        "rec": "mejor 1RM en Leg Press (Machine) (115 kg × 14); mejor peso y 1RM en Standing Cable Glute Kickbacks (27 kg × 12).",
         "exercises": [
           {
             "ej": "Hack Squat (Machine)",
@@ -16930,7 +16862,7 @@
         "date": "2026-07-26",
         "dlabel": "26 jul",
         "title": "Poto 🍑",
-        "hora": null,
+        "hora": "12:53 PM",
         "dur": "1h 17m",
         "vol": "6,277",
         "com": "Spm, lesionada",
@@ -17008,11 +16940,11 @@
         "date": "2026-07-28",
         "dlabel": "28 jul",
         "title": "🍗 y 🍑 ft 🥥🤪",
-        "hora": null,
+        "hora": "7:07 PM",
         "dur": "1h 48m",
         "vol": "18,333",
         "com": "Smartfit rancagua dijo nadie nunca. Rompiendo 🍑",
-        "rec": "Récords: Leg Press (Machine) (volumen, 1RM); Seated Leg Curl (Machine) (peso, volumen, 1RM)",
+        "rec": "mejor volumen y 1RM en Leg Press (Machine) (120 kg × 15); mejor peso, volumen y 1RM en Seated Leg Curl (Machine) (50 kg × 15).",
         "exercises": [
           {
             "ej": "Leg Press (Machine)",
@@ -17122,7 +17054,7 @@
         "date": "2026-07-30",
         "dlabel": "30 jul",
         "title": "Poto 🍑 en rcg",
-        "hora": null,
+        "hora": "6:28 PM",
         "dur": "1h 36m",
         "vol": "11,875",
         "com": null,
@@ -17236,11 +17168,11 @@
         "date": "2026-08-01",
         "dlabel": "01 ago",
         "title": "Poto 🍑",
-        "hora": null,
+        "hora": "1:13 PM",
         "dur": "2h 32m",
         "vol": "10,923",
         "com": null,
-        "rec": "Récords: Standing Cable Glute Kickbacks (volumen, 1RM); Back Extension (Machine) (peso, volumen, 1RM)",
+        "rec": "mejor volumen y 1RM en Standing Cable Glute Kickbacks (27 kg × 15); mejor peso, volumen y 1RM en Back Extension (Machine) (63,5 kg × 15).",
         "exercises": [
           {
             "ej": "Standing Cable Glute Kickbacks",
@@ -17356,11 +17288,11 @@
         "date": "2026-08-04",
         "dlabel": "04 ago",
         "title": "Piernas 🍗 y abs 🍫",
-        "hora": null,
+        "hora": "7:31 PM",
         "dur": "1h 7m",
         "vol": "8,730",
         "com": "Breve",
-        "rec": "Récords: Leg Press (Machine) (peso, volumen, 1RM)",
+        "rec": "mejor peso, volumen y 1RM en Leg Press (Machine) (140 kg × 15).",
         "exercises": [
           {
             "ej": "Leg Press (Machine)",
@@ -17494,7 +17426,7 @@
         "date": "2026-08-05",
         "dlabel": "05 ago",
         "title": "Poto 🍑",
-        "hora": null,
+        "hora": "5:57 PM",
         "dur": "1h 5m",
         "vol": "8,803",
         "com": "Hoy CHATA jajaja",
@@ -17584,11 +17516,11 @@
         "date": "2026-08-09",
         "dlabel": "09 ago",
         "title": "Poto 🍑",
-        "hora": null,
+        "hora": "11:58 AM",
         "dur": "57m",
         "vol": "8,208",
         "com": "Breve porque hay almuercito fam",
-        "rec": "Récords: Hip Thrust (Barbell) (volumen, 1RM)",
+        "rec": "mejor volumen y 1RM en Hip Thrust (Barbell) (100 kg × 13).",
         "exercises": [
           {
             "ej": "Hip Thrust (Barbell)",
@@ -17650,11 +17582,11 @@
         "date": "2026-08-11",
         "dlabel": "11 ago",
         "title": "Piernas 🍗 ft 🥥",
-        "hora": null,
+        "hora": "8:19 PM",
         "dur": "1h 5m",
         "vol": "8,934",
         "com": "Día ganado con la cooo🥥",
-        "rec": "Récords: Leg Extension (Machine) (peso, volumen, 1RM)",
+        "rec": "mejor peso, volumen y 1RM en Leg Extension (Machine) (52,5 kg × 15).",
         "exercises": [
           {
             "ej": "Leg Press (Machine)",
@@ -17746,11 +17678,11 @@
         "date": "2026-08-16",
         "dlabel": "16 ago",
         "title": "Poto 🍑",
-        "hora": null,
+        "hora": "2:30 PM",
         "dur": "1h 37m",
         "vol": "6,734",
         "com": "Posturno y de vuelta en stgo🥳",
-        "rec": "Récords: Lying Leg Curl (Machine) (volumen, 1RM)",
+        "rec": "mejor volumen y 1RM en Lying Leg Curl (Machine) (32 kg × 15).",
         "exercises": [
           {
             "ej": "Hip Thrust (Barbell)",
@@ -17852,6 +17784,318 @@
             "ej": "Crunch",
             "carga": "Peso corporal",
             "reps": "16",
+            "rpe": "—"
+          }
+        ]
+      },
+      {
+        "date": "2026-08-17",
+        "dlabel": "17 ago",
+        "title": "De chill🐝",
+        "hora": "5:23 PM",
+        "dur": "1h 18m",
+        "vol": null,
+        "com": null,
+        "rec": "mejor duración y mejor distancia en Walking (2,5 km / 40 min).",
+        "exercises": [
+          {
+            "ej": "Dead Bug",
+            "carga": "Peso corporal",
+            "reps": "20",
+            "rpe": "7"
+          },
+          {
+            "ej": "Dead Bug",
+            "carga": "Peso corporal",
+            "reps": "20",
+            "rpe": "7"
+          },
+          {
+            "ej": "Dead Bug",
+            "carga": "Peso corporal",
+            "reps": "20",
+            "rpe": "8"
+          },
+          {
+            "ej": "Reverse Crunch",
+            "carga": "Peso corporal",
+            "reps": "15",
+            "rpe": "7"
+          },
+          {
+            "ej": "Reverse Crunch",
+            "carga": "Peso corporal",
+            "reps": "15",
+            "rpe": "7,5"
+          },
+          {
+            "ej": "Reverse Crunch",
+            "carga": "Peso corporal",
+            "reps": "15",
+            "rpe": "8"
+          },
+          {
+            "ej": "Heel Taps",
+            "carga": "Peso corporal",
+            "reps": "30",
+            "rpe": "6"
+          },
+          {
+            "ej": "Heel Taps",
+            "carga": "Peso corporal",
+            "reps": "30",
+            "rpe": "6"
+          },
+          {
+            "ej": "Heel Taps",
+            "carga": "Peso corporal",
+            "reps": "30",
+            "rpe": "7"
+          },
+          {
+            "ej": "Walking",
+            "carga": "—",
+            "reps": "2.5 km / 40m 0s",
+            "rpe": "—"
+          }
+        ]
+      },
+      {
+        "date": "2026-08-19",
+        "dlabel": "19 ago",
+        "title": "Piernas 🍗",
+        "hora": "4:26 PM",
+        "dur": "1h 40m",
+        "vol": "7,002",
+        "com": "Un frío",
+        "rec": null,
+        "exercises": [
+          {
+            "ej": "Standing Cable Glute Kickbacks",
+            "carga": "14",
+            "reps": "10",
+            "rpe": "6"
+          },
+          {
+            "ej": "Standing Cable Glute Kickbacks",
+            "carga": "27",
+            "reps": "12",
+            "rpe": "7,5"
+          },
+          {
+            "ej": "Standing Cable Glute Kickbacks",
+            "carga": "27",
+            "reps": "12",
+            "rpe": "8,5"
+          },
+          {
+            "ej": "Standing Cable Glute Kickbacks",
+            "carga": "27",
+            "reps": "12",
+            "rpe": "8,5"
+          },
+          {
+            "ej": "Leg Press (Machine)",
+            "carga": "80",
+            "reps": "15",
+            "rpe": "7"
+          },
+          {
+            "ej": "Leg Press (Machine)",
+            "carga": "130",
+            "reps": "10",
+            "rpe": "9,5"
+          },
+          {
+            "ej": "Leg Press (Machine)",
+            "carga": "120",
+            "reps": "10",
+            "rpe": "10"
+          },
+          {
+            "ej": "Leg Press (Machine)",
+            "carga": "100",
+            "reps": "12",
+            "rpe": "8"
+          },
+          {
+            "ej": "Lying Leg Curl (Machine)",
+            "carga": "27,5",
+            "reps": "12",
+            "rpe": "8"
+          },
+          {
+            "ej": "Lying Leg Curl (Machine)",
+            "carga": "27,5",
+            "reps": "12",
+            "rpe": "8"
+          },
+          {
+            "ej": "Lying Leg Curl (Machine)",
+            "carga": "27,5",
+            "reps": "12",
+            "rpe": "9"
+          },
+          {
+            "ej": "Reverse Crunch",
+            "carga": "Peso corporal",
+            "reps": "15",
+            "rpe": "9"
+          },
+          {
+            "ej": "Reverse Crunch",
+            "carga": "Peso corporal",
+            "reps": "15",
+            "rpe": "9,5"
+          },
+          {
+            "ej": "Reverse Crunch",
+            "carga": "Peso corporal",
+            "reps": "15",
+            "rpe": "9,5"
+          },
+          {
+            "ej": "Lying Leg Raise",
+            "carga": "Peso corporal",
+            "reps": "15",
+            "rpe": "9"
+          },
+          {
+            "ej": "Lying Leg Raise",
+            "carga": "Peso corporal",
+            "reps": "15",
+            "rpe": "9,5"
+          },
+          {
+            "ej": "Lying Leg Raise",
+            "carga": "Peso corporal",
+            "reps": "15",
+            "rpe": "9,5"
+          },
+          {
+            "ej": "Stair Machine (Floors)",
+            "carga": "—",
+            "reps": "40 pisos / 12m 15s",
+            "rpe": "—"
+          }
+        ]
+      },
+      {
+        "date": "2026-08-20",
+        "dlabel": "20 ago",
+        "title": "Liviano",
+        "hora": "4:50 PM",
+        "dur": "1h 48m",
+        "vol": "3,720",
+        "com": null,
+        "rec": "mejor duración en Side Plank (42 s).",
+        "exercises": [
+          {
+            "ej": "Hip Thrust (Barbell)",
+            "carga": "60",
+            "reps": "10",
+            "rpe": "6"
+          },
+          {
+            "ej": "Hip Thrust (Barbell)",
+            "carga": "90",
+            "reps": "12",
+            "rpe": "8"
+          },
+          {
+            "ej": "Hip Thrust (Barbell)",
+            "carga": "90",
+            "reps": "12",
+            "rpe": "8,5"
+          },
+          {
+            "ej": "Hip Thrust (Barbell)",
+            "carga": "80",
+            "reps": "12",
+            "rpe": "8,5"
+          },
+          {
+            "ej": "Respiración 90/90 pies en la pared",
+            "carga": "Peso corporal",
+            "reps": "6 s",
+            "rpe": "—"
+          },
+          {
+            "ej": "Respiración 90/90 pies en la pared",
+            "carga": "Peso corporal",
+            "reps": "6 s",
+            "rpe": "—"
+          },
+          {
+            "ej": "Respiración 90/90 pies en la pared",
+            "carga": "Peso corporal",
+            "reps": "6 s",
+            "rpe": "—"
+          },
+          {
+            "ej": "Heel Taps",
+            "carga": "Peso corporal",
+            "reps": "20",
+            "rpe": "6"
+          },
+          {
+            "ej": "Heel Taps",
+            "carga": "Peso corporal",
+            "reps": "20",
+            "rpe": "6"
+          },
+          {
+            "ej": "Heel Taps",
+            "carga": "Peso corporal",
+            "reps": "20",
+            "rpe": "7"
+          },
+          {
+            "ej": "Side Plank",
+            "carga": "Peso corporal",
+            "reps": "40 s",
+            "rpe": "—"
+          },
+          {
+            "ej": "Side Plank",
+            "carga": "Peso corporal",
+            "reps": "42 s",
+            "rpe": "—"
+          },
+          {
+            "ej": "Side Plank",
+            "carga": "Peso corporal",
+            "reps": "38 s",
+            "rpe": "—"
+          },
+          {
+            "ej": "Side Plank",
+            "carga": "Peso corporal",
+            "reps": "42 s",
+            "rpe": "—"
+          },
+          {
+            "ej": "Reverse Crunch",
+            "carga": "Peso corporal",
+            "reps": "15",
+            "rpe": "8"
+          },
+          {
+            "ej": "Reverse Crunch",
+            "carga": "Peso corporal",
+            "reps": "15",
+            "rpe": "7,5"
+          },
+          {
+            "ej": "Reverse Crunch",
+            "carga": "Peso corporal",
+            "reps": "15",
+            "rpe": "9"
+          },
+          {
+            "ej": "Stair Machine (Floors)",
+            "carga": "—",
+            "reps": "62 pisos / 20m 0s",
             "rpe": "—"
           }
         ]
