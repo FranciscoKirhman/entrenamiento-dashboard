@@ -340,6 +340,22 @@ footer{ margin-top:44px; padding-top:18px; border-top:1px solid var(--border); c
   .tabs button{ margin-right:14px; font-size:13px; padding:10px 4px; }
 }
 @media (prefers-reduced-motion: reduce){ *{ transition:none !important; animation:none !important; } }
+
+.pastbox{ border:1px dashed var(--line); border-radius:12px; margin-bottom:14px; background:transparent; }
+.pastbox>summary{ list-style:none; cursor:pointer; padding:11px 14px; display:flex; align-items:center; gap:8px; }
+.pastbox>summary::-webkit-details-marker{ display:none; }
+.pastlabel{ font-family:'IBM Plex Mono',monospace; font-size:11px; font-weight:500; letter-spacing:.04em; text-transform:uppercase; color:var(--muted); }
+.pastbox>summary::after{ content:'▾'; color:var(--muted); font-size:11px; margin-left:auto; }
+.pastbox[open]>summary::after{ content:'▴'; }
+.pastbox[open]>summary{ border-bottom:1px dashed var(--line); }
+.pastinner{ padding:12px; }
+.daycard.past{ opacity:.72; }
+details.callout>summary.herosum{ list-style:none; cursor:pointer; display:flex; align-items:center; gap:10px; flex-wrap:wrap; }
+details.callout>summary.herosum::-webkit-details-marker{ display:none; }
+details.callout>summary.herosum::after{ content:'▾'; color:var(--accent-ink); opacity:.75; font-size:12px; margin-left:auto; }
+details.callout[open]>summary.herosum::after{ content:'▴'; }
+.herofocus{ font-family:'Oswald',sans-serif; font-size:19px; font-weight:600; letter-spacing:.01em; color:var(--accent-ink); }
+.herobody{ margin-top:12px; }
 </style>
 
 <div class="wrap">
@@ -630,16 +646,15 @@ footer{ margin-top:44px; padding-top:18px; border-top:1px solid var(--border); c
     var isToday = day.date === todayISO();
     var exHtml = day.exercises.map(renderExerciseBlock).join('');
     el.innerHTML =
-      '<div class="callout">'+
-      '<div class="tag">'+esc(day.day)+(isToday?' · hoy':' · próxima sesión')+'</div>'+
-      '<div>'+
-      '<h3>'+esc(day.focus)+'</h3>'+
+      '<details class="callout" id="heroDet" open><summary class="herosum">'+
+      '<span class="tag">'+esc(day.day)+(isToday?' · hoy':' · próxima sesión')+'</span>'+'<span class="herofocus">'+esc(day.focus)+'</span></summary>'+
+      '<div class="herobody">'+
       '<p class="herolede">'+esc(day.rationale)+'</p>'+
       renderBookend(day.warmup, 'Calentamiento', 'warmup')+
       exHtml+
       (day.cardio ? '<div class="herocardio">Cardio de cierre: '+esc(day.cardio)+'</div>' : '')+
       renderBookend(day.stretch, 'Estiramiento de cierre', 'stretch')+
-      '</div></div>';
+      '</div></details>';
   }
 
   // ---------------- week day cards (collapsible) ----------------
@@ -651,10 +666,11 @@ footer{ margin-top:44px; padding-top:18px; border-top:1px solid var(--border); c
       return;
     }
     var t = todayISO();
-    profile.WEEKDAYS.forEach(function(d){
+
+    function makeCard(d){
       var det = document.createElement('details');
       var isToday = d.date === t;
-      det.className = 'daycard' + (d.exercises.length === 0 ? ' rest' : '');
+      det.className = 'daycard' + (d.exercises.length === 0 ? ' rest' : '') + (d.date < t ? ' past' : '');
       det.open = isToday;
       var tagHtml = isToday ? '<span class="dtag">hoy</span>' : '';
       var exHtml = d.exercises.map(renderExerciseBlock).join('');
@@ -668,9 +684,26 @@ footer{ margin-top:44px; padding-top:18px; border-top:1px solid var(--border); c
         cardioHtml+
         renderBookend(d.stretch, 'Estiramiento de cierre', 'stretch')+
         '</div>';
-      wrap.appendChild(det);
-    });
+      return det;
+    }
+
+    var pasados = profile.WEEKDAYS.filter(function(d){ return d.date && d.date < t; });
+    var resto   = profile.WEEKDAYS.filter(function(d){ return !d.date || d.date >= t; });
+
+    if(pasados.length){
+      var box = document.createElement('details');
+      box.className = 'pastbox';
+      box.innerHTML = '<summary><span class="pastlabel">Ver ' + pasados.length + ' ' +
+        (pasados.length === 1 ? 'día anterior' : 'días anteriores') + '</span></summary>';
+      var inner = document.createElement('div');
+      inner.className = 'daycards pastinner';
+      pasados.forEach(function(d){ inner.appendChild(makeCard(d)); });
+      box.appendChild(inner);
+      wrap.appendChild(box);
+    }
+    resto.forEach(function(d){ wrap.appendChild(makeCard(d)); });
   }
+
 
   // ---------------- masthead chips + switch ----------------
   function renderChips(profile){
