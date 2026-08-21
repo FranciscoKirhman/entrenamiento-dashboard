@@ -1,0 +1,997 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sistema de entrenamiento</title>
+<style>
+@font-face{font-family:'Oswald';font-weight:600;font-style:normal;src:url(data:font/woff2;base64,{{OSWALD_600}}) format('woff2');font-display:swap;}
+@font-face{font-family:'Oswald';font-weight:700;font-style:normal;src:url(data:font/woff2;base64,{{OSWALD_700}}) format('woff2');font-display:swap;}
+@font-face{font-family:'IBM Plex Sans';font-weight:400;font-style:normal;src:url(data:font/woff2;base64,{{PLEXSANS_400}}) format('woff2');font-display:swap;}
+@font-face{font-family:'IBM Plex Sans';font-weight:500;font-style:normal;src:url(data:font/woff2;base64,{{PLEXSANS_500}}) format('woff2');font-display:swap;}
+@font-face{font-family:'IBM Plex Sans';font-weight:600;font-style:normal;src:url(data:font/woff2;base64,{{PLEXSANS_600}}) format('woff2');font-display:swap;}
+@font-face{font-family:'IBM Plex Mono';font-weight:400;font-style:normal;src:url(data:font/woff2;base64,{{PLEXMONO_400}}) format('woff2');font-display:swap;}
+@font-face{font-family:'IBM Plex Mono';font-weight:500;font-style:normal;src:url(data:font/woff2;base64,{{PLEXMONO_500}}) format('woff2');font-display:swap;}
+
+:root{
+  --bg:#EEF0F1; --surface:#FFFFFF; --surface-2:#E4E7E9; --surface-3:#DBDFE1;
+  --ink:#1B2024; --ink-muted:#5B646B; --ink-faint:#8A9198;
+  --border:#D7DADC;
+  --accent:#C4562A; --accent-ink:#FFFFFF; --accent-soft:#F2DDD3;
+  --secondary:#0E7FB0; --secondary-soft:#D6E9F0;
+  --good:#2F7A4E; --good-soft:#DCEEE1;
+  --warning:#8A5E10; --warning-soft:#F3E6C8;
+  --critical:#9A2F3F; --critical-soft:#F4DCE0;
+  --shadow: 0 1px 2px rgba(20,20,20,.04), 0 6px 20px -8px rgba(20,20,20,.12);
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --bg:#14171A; --surface:#1C2024; --surface-2:#262B30; --surface-3:#30363C;
+    --ink:#E7E5DE; --ink-muted:#9AA0A6; --ink-faint:#6E7479;
+    --border:#30353A;
+    --accent:#CC6A38; --accent-ink:#14171A; --accent-soft:#3A2A20;
+    --secondary:#2C97C4; --secondary-soft:#1B2E36;
+    --good:#5FBE84; --good-soft:#1B3024;
+    --warning:#E0B24E; --warning-soft:#332A16;
+    --critical:#E0728A; --critical-soft:#3A1E24;
+    --shadow: 0 1px 2px rgba(0,0,0,.3), 0 8px 24px -10px rgba(0,0,0,.5);
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#14171A; --surface:#1C2024; --surface-2:#262B30; --surface-3:#30363C;
+  --ink:#E7E5DE; --ink-muted:#9AA0A6; --ink-faint:#6E7479;
+  --border:#30353A;
+  --accent:#CC6A38; --accent-ink:#14171A; --accent-soft:#3A2A20;
+  --secondary:#2C97C4; --secondary-soft:#1B2E36;
+  --good:#5FBE84; --good-soft:#1B3024;
+  --warning:#E0B24E; --warning-soft:#332A16;
+  --critical:#E0728A; --critical-soft:#3A1E24;
+  color-scheme: dark;
+}
+:root[data-theme="light"]{
+  --bg:#EEF0F1; --surface:#FFFFFF; --surface-2:#E4E7E9; --surface-3:#DBDFE1;
+  --ink:#1B2024; --ink-muted:#5B646B; --ink-faint:#8A9198;
+  --border:#D7DADC;
+  --accent:#C4562A; --accent-ink:#FFFFFF; --accent-soft:#F2DDD3;
+  --secondary:#0E7FB0; --secondary-soft:#D6E9F0;
+  --good:#2F7A4E; --good-soft:#DCEEE1;
+  --warning:#8A5E10; --warning-soft:#F3E6C8;
+  --critical:#9A2F3F; --critical-soft:#F4DCE0;
+  color-scheme: light;
+}
+
+*{box-sizing:border-box;}
+body{
+  margin:0; background:var(--bg); color:var(--ink);
+  font-family:'IBM Plex Sans', ui-sans-serif, system-ui, sans-serif;
+  font-size:15px; line-height:1.55;
+  -webkit-font-smoothing:antialiased;
+}
+.wrap{ max-width:1080px; margin:0 auto; padding:28px 20px 80px; }
+::selection{ background:var(--accent-soft); }
+
+h1,h2,h3{ font-family:'Oswald', ui-sans-serif, sans-serif; font-weight:600; text-wrap:balance; letter-spacing:.2px; margin:0; }
+.num, .tabular{ font-variant-numeric: tabular-nums; }
+.mono{ font-family:'IBM Plex Mono', ui-monospace, monospace; }
+
+/* ---------- header ---------- */
+.masthead{
+  display:flex; align-items:flex-start; justify-content:space-between; gap:20px;
+  padding-bottom:20px; flex-wrap:wrap;
+}
+.masthead .eyebrow{
+  font-family:'IBM Plex Mono', monospace; font-size:11.5px; letter-spacing:.09em; text-transform:uppercase;
+  color:var(--accent); font-weight:500; margin:0 0 6px;
+}
+.masthead h1{ font-size:28px; line-height:1.1; }
+.cycleline{ margin:8px 0 0; }
+.cyclebadge{
+  display:inline-flex; align-items:center; gap:6px; font-family:'IBM Plex Mono'; font-size:11.5px; font-weight:500;
+  color:var(--accent); background:var(--accent-soft); border:1px solid var(--accent); border-radius:100px; padding:4px 12px;
+}
+.masthead .sub{ color:var(--ink-muted); font-size:14px; margin-top:10px; max-width:46ch; }
+.headright{ display:flex; flex-direction:column; align-items:flex-end; gap:10px; }
+.profile-switch{ display:flex; gap:4px; background:var(--surface-2); border:1px solid var(--border); border-radius:11px; padding:3px; }
+.profile-switch button{
+  font-family:'Oswald'; font-weight:600; font-size:13px; letter-spacing:.02em;
+  padding:7px 16px; border-radius:8px; border:none; background:transparent; color:var(--ink-muted);
+  cursor:pointer; transition:background .12s,color .12s;
+}
+.profile-switch button.active{ background:var(--accent); color:var(--accent-ink); }
+.profile-switch button:not(.active):hover{ background:var(--surface-3); color:var(--ink); }
+.chips{ display:flex; gap:8px; flex-wrap:wrap; justify-content:flex-end; }
+.chip{
+  font-size:12px; font-weight:500; padding:5px 11px; border-radius:100px;
+  background:var(--surface-2); border:1px solid var(--border); color:var(--ink-muted);
+  white-space:nowrap;
+}
+.chip b{ color:var(--ink); font-weight:600; }
+
+/* ---------- section tab nav ---------- */
+.tabs{
+  display:flex; gap:6px; border-bottom:1px solid var(--border); margin:22px 0 0; padding-bottom:0;
+  overflow-x:auto;
+}
+.tabs button{
+  font-family:'Oswald'; font-weight:600; font-size:14px; letter-spacing:.01em;
+  padding:11px 6px; margin-right:20px; border:none; background:transparent; color:var(--ink-faint);
+  cursor:pointer; border-bottom:2.5px solid transparent; white-space:nowrap; transition:color .12s,border-color .12s;
+}
+.tabs button.active{ color:var(--ink); border-bottom-color:var(--accent); }
+.tabs button:not(.active):hover{ color:var(--ink-muted); }
+.tabpanel{ display:none; }
+.tabpanel.active{ display:block; }
+
+section{ margin-top:36px; }
+section:first-child{ margin-top:26px; }
+.section-head{ display:flex; align-items:baseline; justify-content:space-between; gap:16px; margin-bottom:14px; flex-wrap:wrap;}
+.section-head h2{ font-size:20px; }
+.section-head .hint{ color:var(--ink-faint); font-size:12.5px; }
+.lede{ color:var(--ink-muted); font-size:14px; max-width:70ch; margin:-6px 0 16px; }
+
+.card{
+  background:var(--surface); border:1px solid var(--border); border-radius:14px;
+  padding:20px 22px; box-shadow:var(--shadow);
+}
+
+/* ---------- empty state ---------- */
+.empty{
+  border:1px dashed var(--border); border-radius:14px; padding:36px 24px; text-align:center;
+  color:var(--ink-faint); font-size:13.5px; background:var(--surface);
+}
+.empty b{ display:block; color:var(--ink-muted); font-family:'Oswald'; font-weight:600; font-size:15px; margin-bottom:6px; }
+
+/* ---------- exercise set-tables (shared: hero + day cards) ---------- */
+.ex-block{ margin-bottom:14px; }
+.ex-block:last-child{ margin-bottom:0; }
+.ex-block h5{ font-family:'IBM Plex Sans'; font-size:13.5px; font-weight:600; margin:0 0 6px; color:var(--ink); }
+table.settable{ width:100%; border-collapse:collapse; font-size:12px; }
+table.settable th{ text-align:right; font-weight:500; font-size:10px; text-transform:uppercase; letter-spacing:.04em; color:var(--ink-faint); padding:4px 8px; border-bottom:1px solid var(--border); }
+table.settable th:first-child{ text-align:left; }
+table.settable td{ text-align:right; padding:5px 8px; font-family:'IBM Plex Mono'; border-bottom:1px solid var(--border); color:var(--ink); }
+table.settable td:first-child{ text-align:left; font-family:'IBM Plex Sans'; color:var(--ink-muted); font-weight:500; }
+table.settable tr:last-child td{ border-bottom:none; }
+table.settable td.rir{ color:var(--accent); font-weight:600; }
+.ex-notes{ font-size:12px; color:var(--ink-faint); margin:6px 0 0; line-height:1.5; font-style:italic; }
+
+/* ---------- warmup / stretch bookends ---------- */
+.bookend{ margin-bottom:16px; padding-bottom:14px; border-bottom:1px dashed var(--border); }
+.bookend.stretch{ margin-top:16px; margin-bottom:0; padding-top:14px; padding-bottom:0; border-bottom:none; border-top:1px dashed var(--border); }
+.bookend .bk-label{ font-family:'IBM Plex Mono'; font-size:10px; font-weight:600; letter-spacing:.06em; text-transform:uppercase; color:var(--secondary); margin:0 0 6px; }
+.bookend ul{ margin:0; padding-left:18px; font-size:12.5px; color:var(--ink-muted); line-height:1.6; }
+.bookend ul li{ margin-bottom:6px; }
+.bookend ul li b{ color:var(--ink); font-weight:600; }
+.bookend .bk-how{ display:block; font-size:12px; color:var(--ink-muted); line-height:1.55; margin-top:1px; }
+
+/* ---------- next session hero ---------- */
+.callout{
+  display:grid; grid-template-columns: auto 1fr; gap:18px 24px;
+  background:linear-gradient(155deg, var(--accent-soft), var(--surface) 55%);
+  border:1px solid var(--border); border-radius:16px; padding:22px 24px;
+  position:relative; overflow:hidden;
+}
+.callout .tag{
+  font-family:'Oswald'; font-weight:700; font-size:13px; letter-spacing:.06em;
+  color:var(--accent-ink); background:var(--accent); padding:7px 14px; border-radius:9px;
+  height:fit-content; text-transform:uppercase; white-space:nowrap;
+}
+.callout h3{ font-size:19px; margin-bottom:6px; }
+.callout .herolede{ margin:0 0 14px; color:var(--ink-muted); font-size:14px; max-width:66ch; }
+.callout .herocardio{ font-size:12px; color:var(--secondary); font-family:'IBM Plex Mono'; margin-top:12px; padding-top:12px; border-top:1px dashed var(--border); }
+
+/* ---------- day cards (collapsible) ---------- */
+.daycards{ display:flex; flex-direction:column; gap:10px; }
+details.daycard{ background:var(--surface); border:1px solid var(--border); border-radius:12px; flex:none; }
+details.daycard.rest{ opacity:.72; }
+details.daycard summary{
+  cursor:pointer; list-style:none; padding:16px 20px; display:grid; grid-template-columns:104px 1fr; gap:18px; align-items:center;
+  border-radius:11px;
+}
+details.daycard[open] summary{ border-radius:11px 11px 0 0; }
+details.daycard summary::-webkit-details-marker{ display:none; }
+details.daycard summary::after{ content:'▾'; position:absolute; right:20px; color:var(--ink-faint); font-size:13px; transition:transform .15s; }
+details.daycard[open] summary::after{ transform:rotate(180deg); }
+details.daycard{ position:relative; }
+.daycard .dwhen{ display:flex; flex-direction:column; gap:6px; }
+.daycard .dday{ font-family:'Oswald'; font-weight:600; font-size:15px; }
+.daycard .dtag{ font-family:'IBM Plex Mono'; font-size:9.5px; font-weight:600; letter-spacing:.05em; text-transform:uppercase; background:var(--accent); color:var(--accent-ink); padding:2px 7px; border-radius:100px; width:fit-content; }
+.daycard h4{ font-size:14.5px; font-weight:600; margin:0; padding-right:22px; }
+.daycard .dbody{ padding:0 20px 18px 142px; }
+.daycard .drationale{ font-size:12.5px; color:var(--ink-muted); line-height:1.55; margin:12px 0 0; padding-top:12px; border-top:1px dashed var(--border); }
+.daycard .dcardio{ font-size:11.5px; color:var(--secondary); font-family:'IBM Plex Mono'; margin-top:8px; }
+@media (max-width:640px){
+  details.daycard summary{ grid-template-columns:1fr; gap:8px; }
+  .daycard .dbody{ padding:0 16px 16px; }
+}
+
+/* ---------- muscle bar chart ---------- */
+.legend{ display:flex; gap:18px; flex-wrap:wrap; font-size:12.5px; color:var(--ink-muted); margin-bottom:16px; }
+.legend .lg{ display:flex; align-items:center; gap:7px; }
+.legend .sw{ width:14px; height:8px; border-radius:2px; flex:none; }
+.legend .sw.bar{ background:var(--accent); }
+.legend .sw.band{ background:var(--secondary-soft); border:1px solid var(--secondary); }
+.legend .sw.tick{ background:var(--ink-faint); width:2px; height:12px; border-radius:0; }
+
+.mrow{ display:grid; grid-template-columns: 178px 1fr 84px; align-items:center; gap:14px; padding:11px 0; border-top:1px solid var(--border); }
+.mrow:first-of-type{ border-top:none; }
+.mrow .mname{ font-size:13.5px; font-weight:500; }
+.mrow .mtier{ display:block; font-size:11px; color:var(--ink-faint); font-weight:400; margin-top:1px; }
+.mrow .mex{ display:block; font-family:'IBM Plex Mono'; font-size:10.5px; color:var(--ink-faint); margin-top:3px; line-height:1.4; }
+.track{ position:relative; height:26px; }
+.track .axis-grid{ position:absolute; inset:0; }
+.track .axis-grid i{ position:absolute; top:0; bottom:0; width:1px; background:var(--border); }
+.track .band{ position:absolute; top:6px; bottom:6px; background:var(--secondary-soft); border-left:2px solid var(--secondary); border-right:2px solid var(--secondary); border-radius:2px; }
+.track .bar{ position:absolute; top:9px; bottom:9px; border-radius:3px; background:var(--accent); min-width:3px; }
+.track .bar.tier-good{ background:var(--good); }
+.track .bar.tier-warning{ background:var(--warning); }
+.track .bar.tier-critical{ background:var(--critical); }
+.track .hist-tick{ position:absolute; top:2px; bottom:2px; width:2px; background:var(--ink); opacity:.55; }
+.mrow .mval{ text-align:right; font-family:'IBM Plex Mono'; font-size:12.5px; display:flex; flex-direction:column; align-items:flex-end; gap:2px; }
+.mrow .mval .n{ font-weight:500; color:var(--ink); }
+.mrow .mval .u{ color:var(--ink-faint); font-size:10.5px; }
+.mrow .mtrend{ font-size:10px; font-weight:500; color:var(--ink-faint); }
+.mrow .mtrend.trend-up{ color:var(--secondary); }
+
+.tooltip{
+  position:fixed; pointer-events:none; z-index:50; background:var(--ink); color:var(--bg);
+  font-size:12px; padding:7px 10px; border-radius:8px; box-shadow:0 8px 24px rgba(0,0,0,.25);
+  opacity:0; transform:translate(-50%,-100%) translateY(-8px); transition:opacity .1s ease;
+  max-width:220px; line-height:1.4; font-family:'IBM Plex Sans';
+}
+.tooltip.show{ opacity:1; }
+.tooltip .tt-title{ font-weight:600; margin-bottom:2px; }
+.tooltip .tt-row{ display:flex; justify-content:space-between; gap:10px; opacity:.85; }
+
+details.tblview{ margin-top:14px; }
+details.tblview summary{ cursor:pointer; font-size:12.5px; color:var(--secondary); font-weight:500; list-style:none; }
+details.tblview summary::-webkit-details-marker{ display:none; }
+table.plain{ width:100%; border-collapse:collapse; margin-top:10px; font-size:13px; }
+table.plain th, table.plain td{ text-align:left; padding:7px 10px; border-bottom:1px solid var(--border); }
+table.plain th{ color:var(--ink-faint); font-weight:500; font-size:11.5px; text-transform:uppercase; letter-spacing:.04em; }
+table.plain td.num{ text-align:right; font-family:'IBM Plex Mono'; }
+.tblwrap{ overflow-x:auto; }
+
+/* ---------- cycles ---------- */
+.cycles{ display:flex; flex-direction:column; gap:10px; }
+.cyc{
+  display:grid; grid-template-columns: 128px 1fr; gap:18px; padding:16px 20px;
+  background:var(--surface); border:1px solid var(--border); border-radius:12px; position:relative;
+}
+.cyc.now{ border-color:var(--accent); box-shadow:0 0 0 1px var(--accent) inset; }
+.cyc .lvl{ font-family:'Oswald'; font-weight:600; font-size:14px; color:var(--ink-muted); }
+.cyc .lvl small{ display:block; font-family:'IBM Plex Mono'; font-weight:400; font-size:10.5px; color:var(--ink-faint); margin-top:3px; text-transform:none; letter-spacing:0; }
+.cyc .body h4{ font-family:'IBM Plex Sans'; font-size:14.5px; font-weight:600; margin:0 0 4px; }
+.cyc .body p{ margin:0; color:var(--ink-muted); font-size:13.5px; }
+.cyc .nowbadge{
+  position:absolute; top:-9px; right:16px; background:var(--accent); color:var(--accent-ink);
+  font-family:'IBM Plex Mono'; font-size:10px; font-weight:600; letter-spacing:.06em; padding:3px 9px; border-radius:100px;
+  text-transform:uppercase;
+}
+.cyc-arrow{ text-align:center; color:var(--ink-faint); font-size:13px; margin:-2px 0; }
+
+/* ---------- progression charts ---------- */
+.progrid{ display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:14px; }
+.pcard{ padding:16px 16px 14px; }
+.pcard .phead{ display:flex; align-items:baseline; justify-content:space-between; gap:8px; margin-bottom:2px; }
+.pcard h4{ font-size:13.5px; font-weight:600; margin:0; }
+.pcard .pmeta{ font-size:11.5px; color:var(--ink-faint); margin-bottom:6px; }
+.pcard svg{ width:100%; height:auto; overflow:visible; }
+.pcard .pchange{ font-size:12px; color:var(--ink-muted); margin-top:8px; padding-top:8px; border-top:1px dashed var(--border); line-height:1.5; }
+.pbadge{ font-family:'IBM Plex Mono'; font-size:10px; font-weight:500; letter-spacing:.02em; padding:3px 8px; border-radius:100px; background:var(--surface-2); color:var(--ink-muted); white-space:nowrap; flex:none; }
+
+/* ---------- historial completo ---------- */
+.hsearch{ display:flex; align-items:center; gap:10px; margin-bottom:14px; }
+.hsearch input{ flex:1; background:var(--surface-2); border:1px solid var(--border); border-radius:8px; padding:9px 12px; font-size:13px; color:var(--ink); font-family:'IBM Plex Sans'; outline:none; }
+.hsearch input::placeholder{ color:var(--ink-faint); }
+.hsearch input:focus{ border-color:var(--accent); }
+.hsearch .hcount{ font-size:11.5px; color:var(--ink-faint); font-family:'IBM Plex Mono'; white-space:nowrap; }
+.histlist{ display:flex; flex-direction:column; gap:9px; max-height:70vh; overflow-y:auto; padding-right:4px; }
+.histcard{ border:1px solid var(--border); border-radius:11px; background:var(--surface); box-shadow:var(--shadow); flex:none; }
+.histcard summary{ cursor:pointer; list-style:none; padding:14px 16px; display:flex; align-items:center; gap:12px; flex-wrap:wrap; transition:background .1s; border-radius:10px; }
+.histcard[open] summary{ border-radius:10px 10px 0 0; }
+.histcard summary:hover{ background:var(--surface-2); }
+.histcard summary::-webkit-details-marker{ display:none; }
+.histcard summary::before{ content:'▸'; color:var(--ink-faint); font-size:11px; display:inline-block; transition:transform .12s; width:9px; }
+.histcard[open] summary::before{ transform:rotate(90deg); }
+.hdate{ font-family:'IBM Plex Mono'; font-weight:600; font-size:12px; color:var(--accent); background:var(--accent-soft); border-radius:7px; padding:4px 9px; min-width:60px; text-align:center; }
+.hrec{ font-family:'IBM Plex Mono'; font-size:9.5px; font-weight:600; color:var(--accent); background:var(--accent-soft); padding:2px 7px; border-radius:100px; white-space:nowrap; }
+.htitle{ font-weight:600; font-size:13.5px; flex:1; min-width:120px; }
+.hmeta{ font-family:'IBM Plex Mono'; font-size:10.5px; color:var(--ink-faint); white-space:nowrap; }
+.hbody{ padding:0 16px 14px; border-top:1px solid var(--border); }
+.hcom{ font-size:12px; font-style:italic; color:var(--ink-muted); margin:10px 0; }
+.histtable th, .histtable td{ padding:5px 8px; font-size:11.5px; }
+.histtable{ margin-top:10px; }
+
+/* ---------- semaforo ---------- */
+.sema{ display:grid; grid-template-columns:repeat(auto-fit,minmax(230px,1fr)); gap:14px; }
+.slight{ border-radius:12px; padding:16px 18px; border:1px solid var(--border); }
+.slight .dot{ width:10px; height:10px; border-radius:50%; display:inline-block; margin-right:8px; }
+.slight h4{ font-size:14px; display:flex; align-items:center; margin:0 0 8px; }
+.slight ul{ margin:0; padding-left:18px; font-size:13px; color:var(--ink-muted); }
+.slight ul li{ margin-bottom:4px; }
+.slight.good{ background:var(--good-soft); }
+.slight.warning{ background:var(--warning-soft); }
+.slight.critical{ background:var(--critical-soft); }
+.slight.good .dot{ background:var(--good); }
+.slight.warning .dot{ background:var(--warning); }
+.slight.critical .dot{ background:var(--critical); }
+
+footer{ margin-top:44px; padding-top:18px; border-top:1px solid var(--border); color:var(--ink-faint); font-size:12px; display:flex; justify-content:space-between; flex-wrap:wrap; gap:8px;}
+
+@media (max-width:640px){
+  .wrap{ padding:20px 14px 60px; }
+  .masthead{ flex-direction:column; align-items:flex-start; }
+  .masthead h1{ font-size:24px; }
+  .headright{ align-items:flex-start; width:100%; }
+  .chips{ justify-content:flex-start; }
+  .mrow{ grid-template-columns: 104px 1fr 66px; gap:6px; }
+  .mrow .mex{ display:none; }
+  .callout{ grid-template-columns:1fr; padding:18px; }
+  .cyc{ grid-template-columns:1fr; gap:4px; }
+  .cycles{ gap:8px; }
+  .histlist{ max-height:65vh; }
+  .hsearch{ flex-wrap:wrap; }
+  .hsearch .hcount{ width:100%; text-align:left; }
+  .histcard .htitle{ min-width:100%; order:3; }
+  .progrid{ grid-template-columns:1fr; }
+  .sema{ grid-template-columns:1fr; }
+  section{ margin-top:28px; }
+  table.settable{ font-size:11px; }
+  .tabs{ gap:0; }
+  .tabs button{ margin-right:14px; font-size:13px; padding:10px 4px; }
+}
+@media (prefers-reduced-motion: reduce){ *{ transition:none !important; animation:none !important; } }
+</style>
+
+<div class="wrap">
+
+  <div class="masthead">
+    <div>
+      <p class="eyebrow">Coach adaptativo · basado en registro Hevy</p>
+      <h1 id="pageTitle">Sistema de entrenamiento</h1>
+      <p class="cycleline" id="cycleLine"></p>
+      <p class="sub">No es un plan fijo semana a semana — es un tablero que se recalcula con cada sesión que registras, para decidir qué entrenar según lo que de verdad llevas acumulado.</p>
+    </div>
+    <div class="headright">
+      <div class="profile-switch" id="profileSwitch"></div>
+      <div class="chips" id="profileChips"></div>
+    </div>
+  </div>
+
+  <nav class="tabs" id="tabNav">
+    <button data-tab="hoy" class="active">Hoy</button>
+    <button data-tab="progreso">Progreso</button>
+    <button data-tab="historial">Historial</button>
+    <button data-tab="guia">Guía</button>
+  </nav>
+
+  <div class="tabpanel active" data-panel="hoy">
+    <section id="next">
+      <div id="heroCallout"></div>
+    </section>
+
+    <section id="semana">
+      <div class="section-head">
+        <h2 id="semanaTitle">Esta semana y la próxima</h2>
+        <span class="hint">Toca un día para ver sus series — RIR y descanso incluidos</span>
+      </div>
+      <p class="lede">Cada ejercicio trae su tabla de series: peso, reps, RIR objetivo y descanso, calculados desde la última marca real. Si un día no calza, se puede mover — lo que no cambia es qué músculo toca primero, porque eso lo define el déficit, no el calendario.</p>
+      <div class="daycards" id="weekCards"></div>
+    </section>
+  </div>
+
+  <div class="tabpanel" data-panel="progreso">
+    <section id="musculos">
+      <div class="section-head">
+        <h2>Qué vamos a entrenar — series efectivas por músculo</h2>
+        <span class="hint" id="muscleHint">Ventana reciente · normalizado a series/semana</span>
+      </div>
+      <p class="lede">Cada músculo tiene un rango de series semanales que le sienta bien a tu nivel — esa es la banda gris. Si la barra de color no llega al borde izquierdo, entrenaste ese músculo menos de lo que conviene. La marca vertical blanca es tu promedio histórico; la flecha compara contra la ventana de 12 días anterior.</p>
+      <div class="card" id="muscleCard">
+        <div class="legend">
+          <div class="lg"><span class="sw bar" style="background:var(--critical)"></span> déficit agudo</div>
+          <div class="lg"><span class="sw bar" style="background:var(--warning)"></span> déficit leve/crónico</div>
+          <div class="lg"><span class="sw bar" style="background:var(--good)"></span> dentro de banda</div>
+          <div class="lg"><span class="sw tick"></span> promedio histórico</div>
+          <div class="lg"><span class="sw band"></span> banda objetivo</div>
+          <div class="lg">↑↓ vs. ventana anterior</div>
+        </div>
+        <div id="muscleChart"></div>
+        <details class="tblview">
+          <summary>Ver como tabla</summary>
+          <div class="tblwrap">
+          <table class="plain" id="muscleTable">
+            <thead><tr><th>Músculo</th><th class="num">Reciente /sem</th><th class="num">Histórico /sem</th><th class="num">Objetivo</th><th>Estado</th></tr></thead>
+            <tbody></tbody>
+          </table>
+          </div>
+        </details>
+      </div>
+    </section>
+
+    <section id="progresion">
+      <div class="section-head">
+        <h2>Progresión — real y proyectada</h2>
+        <span class="hint">Línea sólida = histórico · zona punteada = proyección 18 sem</span>
+      </div>
+      <p class="lede">La línea es tu peso máximo movido por sesión. La banda punteada es la proyección honesta a 18 semanas si entrenas bien y consistente — no una extrapolación optimista. Pasa el mouse sobre la banda para ver el razonamiento.</p>
+      <div class="progrid" id="progrid"></div>
+    </section>
+  </div>
+
+  <div class="tabpanel" data-panel="historial">
+    <section id="historial" style="margin-top:26px">
+      <div class="section-head">
+        <h2>Registro histórico completo</h2>
+        <span class="hint" id="histHint">más reciente primero</span>
+      </div>
+      <p class="lede">Cada sesión real copiada de Hevy, serie por serie. Busca por ejercicio, rutina o fecha para encontrar una marca anterior.</p>
+      <div class="card">
+        <div class="hsearch">
+          <input type="text" id="historySearch" placeholder="Buscar ejercicio, rutina o fecha… ej. 'bench', 'pull', 'jul'">
+          <span class="hcount" id="historyCount"></span>
+        </div>
+        <div class="histlist" id="historyList"></div>
+      </div>
+    </section>
+  </div>
+
+  <div class="tabpanel" data-panel="guia">
+    <section id="cardio" style="margin-top:26px">
+      <div class="section-head">
+        <h2>Cardio y déficit</h2>
+      </div>
+      <p class="lede">Bajar grasa se controla con el déficit calórico, no con el cardio — pero el cardio protege ese déficit sin tener que comer aún menos.</p>
+      <div class="card">
+        <ul style="margin:0;padding-left:20px;color:var(--ink-muted);font-size:14px;line-height:1.7">
+          <li><b style="color:var(--ink)">2–3 sesiones/semana</b> de 15–25 min a intensidad moderada (RPE 6–7) — Stair Machine o caminata inclinada. La diferencia es hacerlo consistente, no solo cuando sobra tiempo.</li>
+          <li><b style="color:var(--ink)">Pasos diarios</b> — la palanca más grande y la que nadie registra en Hevy. 8.000–10.000 pasos/día es un punto de partida razonable.</li>
+          <li><b style="color:var(--ink)">No subas el cardio si el rendimiento en la barra cae dos sesiones seguidas</b> — misma señal de fatiga del semáforo de abajo, solo que también puede venir del déficit calórico.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="ciclos">
+      <div class="section-head">
+        <h2>Cómo se organizan los ciclos</h2>
+        <span class="hint">Sin calendario fijo — cada nivel termina por gatillo, no por fecha</span>
+      </div>
+      <p class="lede">La jerarquía clásica (macro → meso → micro → sesión) se mantiene, pero cada bloque se cierra por una condición observable, no por la casilla del calendario.</p>
+      <div class="cycles">
+        <div class="cyc">
+          <div class="lvl">Macrociclo<small>~18 semanas</small></div>
+          <div class="body">
+            <h4>Bajar grasa antes del verano — cierra a mediados de diciembre</h4>
+            <p>Desde agosto hasta ~15 de diciembre de 2026 (verano en Chile), en déficit/mantenimiento, sin superávit. A mitad de camino (~octubre) se revisa el ritmo real de cambio de composición corporal.</p>
+          </div>
+        </div>
+        <div class="cyc-arrow">↓ se cierra si el objetivo cambia</div>
+        <div class="cyc now">
+          <div class="nowbadge">Bloque actual</div>
+          <div class="lvl">Mesociclo<small>4–6 semanas</small></div>
+          <div class="body">
+            <h4>Acumulación adaptativa</h4>
+            <p>Volumen dentro de las bandas del tablero, RIR 1–3, sin buscar 1RM. Termina cuando: (a) dos sesiones seguidas pierden rendimiento en los mismos compuestos, o (b) llevas ~6 semanas sin necesitar bajar carga.</p>
+          </div>
+        </div>
+        <div class="cyc-arrow">↓ se cierra por fatiga, no por día de la semana</div>
+        <div class="cyc now">
+          <div class="nowbadge">Ahora</div>
+          <div class="lvl">Microciclo<small>7–10 días rodantes</small></div>
+          <div class="body">
+            <h4>Ventana rodante, no semana de calendario</h4>
+            <p>No hay "lunes = push". Antes de cada sesión se mira el tablero de músculos: el grupo con mayor déficit define el foco del día.</p>
+          </div>
+        </div>
+        <div class="cyc-arrow">↓ una decisión por vez</div>
+        <div class="cyc">
+          <div class="lvl">Sesión<small>el día de hoy</small></div>
+          <div class="body">
+            <h4>Se elige, no se hereda de una plantilla</h4>
+            <p>Ejercicios, series y RIR salen del hueco más grande del tablero + cómo te sentiste en la sesión anterior.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="semaforo">
+      <div class="section-head">
+        <h2>Reglas de decisión</h2>
+        <span class="hint">Para leer el tablero sin tener que preguntar cada vez</span>
+      </div>
+      <div class="sema">
+        <div class="slight good">
+          <h4><span class="dot"></span>Verde — seguir</h4>
+          <ul>
+            <li>El grupo está dentro de su banda objetivo</li>
+            <li>Rendimiento estable o subiendo en los compuestos</li>
+            <li>Molestias leves o inexistentes</li>
+          </ul>
+        </div>
+        <div class="slight warning">
+          <h4><span class="dot"></span>Amarillo — priorizar</h4>
+          <ul>
+            <li>Grupo bajo su banda hace 7–10 días</li>
+            <li>Una o dos sesiones con menos reps de lo habitual</li>
+            <li>Acción: candidato para la próxima sesión, sin forzar</li>
+          </ul>
+        </div>
+        <div class="slight critical">
+          <h4><span class="dot"></span>Rojo — actuar ya</h4>
+          <ul>
+            <li>Grupo bajo su banda hace más de 10 días</li>
+            <li>Caída de rendimiento sostenida, o dolor articular</li>
+            <li>Acción: sesión dedicada ahora; si hay dolor, se ajusta el ejercicio</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    <span id="footerSource">Fuente: Registro_historico_consolidado.md</span>
+    <span>Se recalcula cada vez que agregas una sesión nueva al registro</span>
+  </footer>
+
+</div>
+
+<div class="tooltip" id="tooltip"></div>
+
+<script>
+(function(){
+  var tooltip = document.getElementById('tooltip');
+  function hideTooltip(){ tooltip.classList.remove('show'); }
+  function esc(s){ return (s==null?'':String(s)); }
+
+  var PROFILES = __PROFILES_JSON__;
+  var TIER_LABEL = {critical:'déficit agudo', warning:'déficit leve/crónico', good:'en banda'};
+  var PATTERN_LABEL = {
+    ascendente_claro: 'ascendente', meseta_oscilante: 'meseta',
+    volatil_sin_tendencia: 'volátil', insuficientes_datos: 'datos limitados'
+  };
+
+  var ns = 'http://www.w3.org/2000/svg';
+  function svgEl(tag, attrs){
+    var e = document.createElementNS(ns, tag);
+    for(var k in attrs) e.setAttribute(k, attrs[k]);
+    return e;
+  }
+
+  // ---------------- tab nav ----------------
+  document.querySelectorAll('#tabNav button').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      document.querySelectorAll('#tabNav button').forEach(function(b){ b.classList.remove('active'); });
+      document.querySelectorAll('.tabpanel').forEach(function(p){ p.classList.remove('active'); });
+      btn.classList.add('active');
+      document.querySelector('.tabpanel[data-panel="'+btn.dataset.tab+'"]').classList.add('active');
+      window.scrollTo(0,0);
+    });
+  });
+
+  // ---------------- shared: render one exercise as a set-table ----------------
+  function renderExerciseBlock(ex){
+    var rows = ex.sets.map(function(s){
+      var rirCell = (s.rir==='—' || s.rir==null) ? '—' : s.rir;
+      return '<tr><td>'+esc(s.serie)+'</td><td>'+esc(s.carga)+'</td><td>'+esc(s.reps)+'</td><td class="rir">'+esc(rirCell)+'</td><td>'+esc(s.descanso)+'</td></tr>';
+    }).join('');
+    return '<div class="ex-block">'+
+      '<h5>'+esc(ex.name)+'</h5>'+
+      '<div class="tblwrap"><table class="settable">'+
+      '<thead><tr><th>Serie</th><th>Carga</th><th>Reps</th><th>RIR</th><th>Descanso</th></tr></thead>'+
+      '<tbody>'+rows+'</tbody></table></div>'+
+      (ex.notes ? '<p class="ex-notes">'+esc(ex.notes)+'</p>' : '')+
+      '</div>';
+  }
+
+  function renderBookend(items, label, cls){
+    if(!items || !items.length) return '';
+    var lis = items.map(function(i){
+      if(typeof i === 'string') return '<li>'+esc(i)+'</li>';
+      return '<li><b>'+esc(i.name)+'</b>'+(i.how ? '<span class="bk-how">'+esc(i.how)+'</span>' : '')+'</li>';
+    }).join('');
+    return '<div class="bookend '+cls+'"><p class="bk-label">'+label+'</p><ul>'+lis+'</ul></div>';
+  }
+
+  // ---------------- cycle line ----------------
+  function renderCycle(profile){
+    var el = document.getElementById('cycleLine');
+    if(profile.cycle){
+      el.innerHTML = '<span class="cyclebadge">'+esc(profile.cycle.badge)+'</span>';
+      el.title = profile.cycle.detail || '';
+    } else {
+      el.innerHTML = '';
+    }
+  }
+
+  // ---------------- date-aware "today" (computed live, not hardcoded) ----------------
+  function todayISO(){
+    var d = new Date();
+    return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0');
+  }
+  function pickHeroIndex(weekdays){
+    var t = todayISO();
+    var idx = weekdays.findIndex(function(d){ return d.date === t; });
+    if(idx !== -1) return idx;
+    idx = weekdays.findIndex(function(d){ return d.date && d.date > t; });
+    if(idx !== -1) return idx;
+    for(var i = weekdays.length - 1; i >= 0; i--){ if(weekdays[i].date && weekdays[i].date <= t) return i; }
+    return 0;
+  }
+
+  // ---------------- hero callout ----------------
+  function renderHero(profile){
+    var el = document.getElementById('heroCallout');
+    el.innerHTML = '';
+    if(!profile.hasData || !profile.WEEKDAYS.length){
+      el.innerHTML = '<div class="empty"><b>Sin rutina cargada todavía</b>Cuando subas el registro de '+esc(profile.displayName)+', esta sección va a mostrar la próxima sesión sugerida'+(profile.note ? ' — '+esc(profile.note) : '')+'.</div>';
+      return;
+    }
+    var heroIdx = pickHeroIndex(profile.WEEKDAYS);
+    var day = profile.WEEKDAYS[heroIdx];
+    var isToday = day.date === todayISO();
+    var exHtml = day.exercises.map(renderExerciseBlock).join('');
+    el.innerHTML =
+      '<div class="callout">'+
+      '<div class="tag">'+esc(day.day)+(isToday?' · hoy':' · próxima sesión')+'</div>'+
+      '<div>'+
+      '<h3>'+esc(day.focus)+'</h3>'+
+      '<p class="herolede">'+esc(day.rationale)+'</p>'+
+      renderBookend(day.warmup, 'Calentamiento', 'warmup')+
+      exHtml+
+      (day.cardio ? '<div class="herocardio">Cardio de cierre: '+esc(day.cardio)+'</div>' : '')+
+      renderBookend(day.stretch, 'Estiramiento de cierre', 'stretch')+
+      '</div></div>';
+  }
+
+  // ---------------- week day cards (collapsible) ----------------
+  function renderWeekCards(profile){
+    var wrap = document.getElementById('weekCards');
+    wrap.innerHTML = '';
+    if(!profile.hasData || !profile.WEEKDAYS.length){
+      wrap.innerHTML = '<div class="empty"><b>Rutina de '+esc(profile.displayName)+' pendiente</b>Todavía no se ha subido un plan semanal para este usuario. Pásame el registro y lo armo igual que el de Mopo'+(profile.note ? ' — '+esc(profile.note) : '')+'.</div>';
+      return;
+    }
+    var t = todayISO();
+    profile.WEEKDAYS.forEach(function(d){
+      var det = document.createElement('details');
+      var isToday = d.date === t;
+      det.className = 'daycard' + (d.exercises.length === 0 ? ' rest' : '');
+      det.open = isToday;
+      var tagHtml = isToday ? '<span class="dtag">hoy</span>' : '';
+      var exHtml = d.exercises.map(renderExerciseBlock).join('');
+      var cardioHtml = d.cardio ? '<div class="dcardio">Cardio: '+esc(d.cardio)+'</div>' : '';
+      det.innerHTML =
+        '<summary><div class="dwhen"><span class="dday">'+esc(d.day)+'</span>'+tagHtml+'</div><h4>'+esc(d.focus)+'</h4></summary>'+
+        '<div class="dbody">'+
+        '<p class="drationale">'+esc(d.rationale)+'</p>'+
+        renderBookend(d.warmup, 'Calentamiento', 'warmup')+
+        exHtml+
+        cardioHtml+
+        renderBookend(d.stretch, 'Estiramiento de cierre', 'stretch')+
+        '</div>';
+      wrap.appendChild(det);
+    });
+  }
+
+  // ---------------- masthead chips + switch ----------------
+  function renderChips(profile){
+    var wrap = document.getElementById('profileChips');
+    wrap.innerHTML = '';
+    if(!profile.chips.length){
+      wrap.innerHTML = '<div class="chip">Sin datos todavía</div>';
+      return;
+    }
+    profile.chips.forEach(function(c){
+      var d = document.createElement('div');
+      d.className = 'chip';
+      d.innerHTML = esc(c.k)+' <b>'+esc(c.v)+'</b>';
+      wrap.appendChild(d);
+    });
+  }
+
+  function renderSwitch(activeKey){
+    var wrap = document.getElementById('profileSwitch');
+    wrap.innerHTML = '';
+    Object.keys(PROFILES).forEach(function(key){
+      var btn = document.createElement('button');
+      btn.textContent = PROFILES[key].displayName;
+      btn.className = key === activeKey ? 'active' : '';
+      btn.addEventListener('click', function(){ renderProfile(key); });
+      wrap.appendChild(btn);
+    });
+  }
+
+  // ---------------- muscle chart ----------------
+  var scaleMax = 18;
+  function pct(v){ return Math.max(0, Math.min(100, v/scaleMax*100)); }
+
+  function showTooltip(e, m){
+    tooltip.innerHTML = '<div class="tt-title">'+m.name+'</div>'+
+      '<div class="tt-row"><span>Reciente (12 días)</span><b class="mono">'+m.recent.toFixed(1)+'/sem</b></div>'+
+      '<div class="tt-row"><span>Ventana previa</span><b class="mono">'+(m.recent-m.trend).toFixed(1)+'/sem</b></div>'+
+      '<div class="tt-row"><span>Histórico</span><b class="mono">'+m.hist.toFixed(1)+'/sem</b></div>'+
+      '<div class="tt-row"><span>Objetivo</span><b class="mono">'+m.lo+'–'+m.hi+'/sem</b></div>'+
+      '<div style="margin-top:5px;opacity:.85">'+m.note+'</div>';
+    tooltip.style.left = e.clientX+'px';
+    tooltip.style.top = e.clientY+'px';
+    tooltip.classList.add('show');
+  }
+
+  function renderMuscles(profile){
+    var chartEl = document.getElementById('muscleChart');
+    var tbody = document.querySelector('#muscleTable tbody');
+    var card = document.getElementById('muscleCard');
+    chartEl.innerHTML = '';
+    tbody.innerHTML = '';
+    var prevEmpty = document.getElementById('musclesEmpty');
+    if(!profile.hasData || !profile.MUSCLES.length){
+      card.style.display = 'none';
+      if(!prevEmpty){
+        var d = document.createElement('div');
+        d.id = 'musclesEmpty';
+        d.className = 'empty';
+        card.parentNode.insertBefore(d, card);
+        prevEmpty = d;
+      }
+      prevEmpty.innerHTML = '<b>Sin datos</b>Aún no hay sesiones para calcular series por músculo'+(profile.note ? ' — '+esc(profile.note) : '')+'.';
+      prevEmpty.style.display = '';
+      return;
+    }
+    card.style.display = '';
+    if(prevEmpty) prevEmpty.style.display = 'none';
+
+    var gridTicks = [0,4,8,12,16];
+    profile.MUSCLES.forEach(function(m){
+      var row = document.createElement('div');
+      row.className = 'mrow';
+
+      var nameCol = document.createElement('div');
+      nameCol.innerHTML = '<span class="mname">'+m.name+'</span><span class="mtier">'+TIER_LABEL[m.tier]+'</span><span class="mex">'+m.ex+'</span>';
+
+      var track = document.createElement('div');
+      track.className = 'track';
+
+      var grid = document.createElement('div');
+      grid.className = 'axis-grid';
+      gridTicks.forEach(function(t){
+        var i = document.createElement('i');
+        i.style.left = pct(t)+'%';
+        grid.appendChild(i);
+      });
+      track.appendChild(grid);
+
+      var band = document.createElement('div');
+      band.className = 'band';
+      band.style.left = pct(m.lo)+'%';
+      band.style.width = (pct(m.hi)-pct(m.lo))+'%';
+      track.appendChild(band);
+
+      var bar = document.createElement('div');
+      bar.className = 'bar tier-'+m.tier;
+      bar.style.left = '0%';
+      bar.style.width = pct(m.recent)+'%';
+      track.appendChild(bar);
+
+      var tick = document.createElement('div');
+      tick.className = 'hist-tick';
+      tick.style.left = pct(m.hist)+'%';
+      track.appendChild(tick);
+
+      [band,bar,tick].forEach(function(el){
+        el.addEventListener('mousemove', function(e){ showTooltip(e, m); });
+        el.addEventListener('mouseleave', hideTooltip);
+      });
+      track.addEventListener('mousemove', function(e){ showTooltip(e, m); });
+      track.addEventListener('mouseleave', hideTooltip);
+
+      var trendCls = m.trend > 0.5 ? 'trend-up' : 'trend-flat';
+      var trendArrow = m.trend > 0.5 ? '↑' : (m.trend < -0.5 ? '↓' : '→');
+      var valCol = document.createElement('div');
+      valCol.className = 'mval';
+      valCol.innerHTML = '<span class="n">'+m.recent.toFixed(1)+'</span><span class="u"> / sem</span><span class="mtrend '+trendCls+'">'+trendArrow+' '+(m.trend>0?'+':'')+m.trend.toFixed(1)+'</span>';
+
+      row.appendChild(nameCol);
+      row.appendChild(track);
+      row.appendChild(valCol);
+      chartEl.appendChild(row);
+
+      var tr = document.createElement('tr');
+      tr.innerHTML = '<td>'+m.name+'</td><td class="num">'+m.recent.toFixed(1)+'</td><td class="num">'+m.hist.toFixed(1)+'</td><td class="num">'+m.lo+'–'+m.hi+'</td><td>'+TIER_LABEL[m.tier]+'</td>';
+      tbody.appendChild(tr);
+    });
+  }
+
+  // ---------------- progression charts ----------------
+  function renderLine(id, color, data, proj){
+    var svg = document.getElementById(id);
+    var W = 300, H = 150, PAD = {t:14,r:14,b:26,l:30};
+    var plotW = W - PAD.l - PAD.r, plotH = H - PAD.t - PAD.b;
+    var vals = data.map(function(p){return p.w;});
+    if(proj){ vals = vals.concat([proj.lo, proj.hi]); }
+    var min = Math.min.apply(null, vals), max = Math.max.apply(null, vals);
+    var yMin = Math.max(0, Math.floor((min-15)/10)*10), yMax = Math.ceil((max+10)/10)*10;
+    var realFrac = proj ? 0.66 : 1;
+    function X(i){ return PAD.l + (data.length===1?0:i/(data.length-1))*plotW*realFrac; }
+    function Y(v){ return PAD.t + (1-(v-yMin)/(yMax-yMin))*plotH; }
+
+    var steps = 3;
+    for(var s=0; s<=steps; s++){
+      var v = yMin + (yMax-yMin)*s/steps;
+      var y = Y(v);
+      svg.appendChild(svgEl('line',{x1:PAD.l,x2:W-PAD.r,y1:y,y2:y,stroke:'var(--border)','stroke-width':1}));
+      var lbl = svgEl('text',{x:PAD.l-6,y:y+3,'text-anchor':'end','font-size':9,fill:'var(--ink-faint)','font-family':'IBM Plex Mono'});
+      lbl.textContent = Math.round(v);
+      svg.appendChild(lbl);
+    }
+
+    var gradId = id+'-grad';
+    var defs = svgEl('defs',{});
+    var grad = svgEl('linearGradient',{id:gradId,x1:0,y1:0,x2:0,y2:1});
+    grad.appendChild(svgEl('stop',{offset:'0%','stop-color':color,'stop-opacity':0.22}));
+    grad.appendChild(svgEl('stop',{offset:'100%','stop-color':color,'stop-opacity':0}));
+    defs.appendChild(grad);
+    svg.appendChild(defs);
+
+    var areaPts = data.map(function(p,i){ return X(i)+','+Y(p.w); }).join(' L ');
+    var areaPath = 'M '+X(0)+','+Y(yMin)+' L '+areaPts+' L '+X(data.length-1)+','+Y(yMin)+' Z';
+    svg.appendChild(svgEl('path',{d:areaPath, fill:'url(#'+gradId+')', stroke:'none'}));
+
+    var linePts = data.map(function(p,i){ return X(i)+','+Y(p.w); }).join(' L ');
+    svg.appendChild(svgEl('path',{d:'M '+linePts, fill:'none', stroke:color, 'stroke-width':2, 'stroke-linecap':'round', 'stroke-linejoin':'round'}));
+
+    [0, data.length-1].forEach(function(i){
+      var t = svgEl('text',{x:X(i), y:H-8, 'text-anchor': i===0?'start':'end', 'font-size':9, fill:'var(--ink-faint)','font-family':'IBM Plex Mono'});
+      t.textContent = data[i].d;
+      svg.appendChild(t);
+    });
+
+    data.forEach(function(p,i){
+      var isLast = i===data.length-1;
+      var r = isLast ? 4.5 : 2.6;
+      var c = svgEl('circle',{cx:X(i), cy:Y(p.w), r:r, fill: isLast? color : 'var(--surface)', stroke:color, 'stroke-width':2});
+      svg.appendChild(c);
+      if(isLast){
+        var lt = svgEl('text',{x:X(i), y:Y(p.w)-10, 'text-anchor':'end','font-size':11,fill:color,'font-family':'IBM Plex Mono','font-weight':600});
+        lt.textContent = p.w+' kg';
+        svg.appendChild(lt);
+      }
+      var hit = svgEl('circle',{cx:X(i), cy:Y(p.w), r:9, fill:'transparent'});
+      hit.addEventListener('mousemove', function(e){
+        tooltip.innerHTML = '<div class="tt-title">'+p.d+'</div><div class="tt-row"><span>Peso máximo</span><b class="mono">'+p.w+' kg</b></div>';
+        tooltip.style.left = e.clientX+'px';
+        tooltip.style.top = e.clientY+'px';
+        tooltip.classList.add('show');
+      });
+      hit.addEventListener('mouseleave', hideTooltip);
+      svg.appendChild(hit);
+    });
+
+    if(proj){
+      var xStart = X(data.length-1);
+      var xEnd = PAD.l + plotW;
+      var yLo = Y(proj.lo), yHi = Y(proj.hi);
+      svg.appendChild(svgEl('rect',{x:xStart, y:yHi, width:(xEnd-xStart), height:Math.max(2,(yLo-yHi)), fill:'var(--secondary)','fill-opacity':0.16, stroke:'var(--secondary)','stroke-width':1.2,'stroke-dasharray':'3,3'}));
+      var rangeLbl = svgEl('text',{x:(xStart+xEnd)/2, y:(yHi+yLo)/2+3, 'text-anchor':'middle','font-size':9.5, fill:'var(--secondary)','font-family':'IBM Plex Mono','font-weight':600});
+      rangeLbl.textContent = proj.lo+'–'+proj.hi;
+      svg.appendChild(rangeLbl);
+      var xt = svgEl('text',{x:(xStart+xEnd)/2, y:H-8, 'text-anchor':'middle','font-size':8.5, fill:'var(--secondary)','font-family':'IBM Plex Mono'});
+      xt.textContent = '18 sem';
+      svg.appendChild(xt);
+      var bandHit = svgEl('rect',{x:xStart+9, y:PAD.t, width:Math.max(1,(xEnd-xStart-9)), height:plotH, fill:'transparent'});
+      bandHit.addEventListener('mousemove', function(e){
+        tooltip.innerHTML = '<div class="tt-title">Proyección a 18 semanas</div>'+
+          '<div class="tt-row"><span>Rango esperado</span><b class="mono">'+proj.lo+'–'+proj.hi+' kg</b></div>'+
+          '<div style="margin-top:5px;opacity:.85;max-width:230px">'+proj.rationale+'</div>';
+        tooltip.style.left = e.clientX+'px';
+        tooltip.style.top = e.clientY+'px';
+        tooltip.classList.add('show');
+      });
+      bandHit.addEventListener('mouseleave', hideTooltip);
+      svg.appendChild(bandHit);
+    }
+  }
+
+  function renderProgCards(profile){
+    var grid = document.getElementById('progrid');
+    grid.innerHTML = '';
+    if(!profile.hasData || !profile.CHARTS.length){
+      grid.innerHTML = '<div class="empty"><b>Sin historial suficiente</b>Se necesitan varias sesiones reales del mismo ejercicio para proyectar una tendencia.</div>';
+      return;
+    }
+    profile.CHARTS.forEach(function(c, idx){
+      var id = 'chart_'+idx;
+      var card = document.createElement('div');
+      card.className = 'pcard card';
+      card.innerHTML =
+        '<div class="phead"><h4>'+c.name+'</h4><span class="pbadge">'+(PATTERN_LABEL[c.pattern]||c.pattern)+'</span></div>'+
+        '<div class="pmeta">Proyección 18 sem: '+c.lo+'–'+c.hi+' kg · n='+c.data.length+' sesiones reales</div>'+
+        '<svg id="'+id+'" viewBox="0 0 300 150"></svg>'+
+        '<div class="pchange">'+c.change+'</div>';
+      grid.appendChild(card);
+      renderLine(id, 'var(--accent)', c.data, {lo:c.lo, hi:c.hi, rationale:c.rationale});
+    });
+  }
+
+  // ---------------- historial completo ----------------
+  function renderHistory(profile){
+    var container = document.getElementById('historyList');
+    var input = document.getElementById('historySearch');
+    var countEl = document.getElementById('historyCount');
+    container.innerHTML = '';
+    input.value = '';
+
+    if(!profile.hasData || !profile.SESSIONS_FULL.length){
+      container.innerHTML = '<div class="empty"><b>Sin sesiones registradas</b>Cuando subas el historial de '+esc(profile.displayName)+' va a aparecer acá, buscable igual que el de Mopo'+(profile.note ? ' — '+esc(profile.note) : '')+'.</div>';
+      countEl.textContent = '0 sesiones';
+      input.disabled = true;
+      return;
+    }
+    input.disabled = false;
+
+    var sorted = profile.SESSIONS_FULL.slice().reverse();
+    var cards = sorted.map(function(s){
+      var det = document.createElement('details');
+      det.className = 'histcard';
+      det.dataset.search = (s.dlabel+' '+s.title+' '+s.exercises.map(function(e){return e.ej;}).join(' ')).toLowerCase();
+
+      var metaBits = [];
+      if(s.dur) metaBits.push(s.dur);
+      if(s.vol) metaBits.push(s.vol+' kg');
+
+      var rowsHtml = s.exercises.map(function(e){
+        var cargaTxt = (e.carga==='—' || e.carga==='Peso corporal') ? e.carga : e.carga+' kg';
+        return '<tr><td>'+e.ej+'</td><td class="num">'+cargaTxt+'</td><td class="num">'+e.reps+'</td><td class="num">'+e.rpe+'</td></tr>';
+      }).join('');
+
+      var recBadge = s.rec ? '<span class="hrec">★ récord</span>' : '';
+      det.innerHTML =
+        '<summary><span class="hdate">'+s.dlabel+'</span><span class="htitle">'+s.title+'</span>'+recBadge+'<span class="hmeta">'+metaBits.join(' · ')+'</span></summary>'+
+        '<div class="hbody">'+
+        (s.com ? '<p class="hcom">"'+s.com+'"</p>' : '')+
+        (s.rec ? '<p class="hcom" style="color:var(--accent);font-style:normal">'+s.rec+'</p>' : '')+
+        '<div class="tblwrap"><table class="plain histtable"><thead><tr><th>Ejercicio</th><th class="num">Carga</th><th class="num">Reps/tiempo</th><th class="num">RPE</th></tr></thead><tbody>'+rowsHtml+'</tbody></table></div>'+
+        '</div>';
+      container.appendChild(det);
+      return det;
+    });
+
+    countEl.textContent = cards.length+' sesiones';
+
+    input.oninput = function(){
+      var q = input.value.trim().toLowerCase();
+      var visible = 0;
+      cards.forEach(function(c){
+        var match = !q || c.dataset.search.indexOf(q) !== -1;
+        c.style.display = match ? '' : 'none';
+        if(match) visible++;
+        c.open = q ? match : false;
+      });
+      countEl.textContent = q ? (visible+' de '+cards.length+' sesiones') : (cards.length+' sesiones');
+    };
+  }
+
+  // ---------------- orchestrator ----------------
+  function renderProfile(key){
+    var profile = PROFILES[key];
+    document.getElementById('pageTitle').textContent = 'Sistema de entrenamiento de ' + profile.displayName;
+    document.title = 'Sistema de entrenamiento — ' + profile.displayName;
+    renderSwitch(key);
+    renderChips(profile);
+    renderCycle(profile);
+    renderHero(profile);
+    renderWeekCards(profile);
+    renderMuscles(profile);
+    renderProgCards(profile);
+    renderHistory(profile);
+
+    var n = profile.SESSIONS_FULL.length;
+    document.getElementById('histHint').textContent = n ? (n+' sesiones · más reciente primero') : 'sin sesiones aún';
+    document.getElementById('muscleHint').textContent = (profile.hasData && profile.MUSCLES.length) ? 'Ventana reciente · normalizado a series/semana' : 'sin datos aún';
+    document.getElementById('footerSource').textContent = 'Fuente: Registro_historico_consolidado.md · ' + profile.displayName + (n ? (' · '+n+' sesiones') : '');
+    document.getElementById('semanaTitle').textContent = profile.hasData ? 'Esta semana y la próxima' : 'Esta semana y la próxima — sin datos';
+    hideTooltip();
+    window.scrollTo(0,0);
+  }
+
+  renderProfile('mopo');
+})();
+</script>
