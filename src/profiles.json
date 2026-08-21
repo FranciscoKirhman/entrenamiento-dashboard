@@ -874,10 +874,279 @@
       {
         "day": "Vie 21",
         "date": "2026-08-21",
+        "focus": "Pull — espalda y bíceps (moderado por el cerro)",
+        "tag": null,
+        "rationale": "**Cambio tras la auditoría, y es el correcto:** tenía puesto posterior porque femoral llevaba 7 días en cero, pero eso ignoraba que mañana subes cerro — que carga glúteo, isquio y gemelo un buen rato. Hacer posterior pesado hoy dejaba las dos cosas a medias. Espalda lleva 4 días (desde el 17), no interfiere nada con la subida, y el femoral no se pierde: se mueve al lunes, solo 3 días después y con las piernas frescas. Hoy va sin escaleras, mañana el cerro es el cardio.",
+        "cardio": "Sin escaleras hoy. Mañana el cerro ya trae cardio y carga de pierna de sobra.",
+        "warmup": [
+          {
+            "name": "Pass-through con banda o palo, 2×10",
+            "how": "Toma la banda más ancho que los hombros y pásala de adelante hacia atrás por encima de la cabeza con los codos estirados; si tira mucho, agarra más ancho."
+          },
+          {
+            "name": "Wall slides (deslizar brazos en la pared), 2×10",
+            "how": "De espalda a la pared, antebrazos y dorso de las manos pegados; sube y baja los brazos sin despegarlos y sin arquear la zona lumbar."
+          },
+          {
+            "name": "Band pull-apart, 2×15",
+            "how": "Brazos al frente a la altura del pecho, separa las manos estirando la banda y junta las escápulas; hombros abajo, sin subirlos a las orejas."
+          },
+          {
+            "name": "Face pull con banda, 2×15",
+            "how": "Tira la banda hacia la cara separando las manos y con los codos altos; termina con las manos a los lados de la cabeza y aguanta 1 segundo."
+          },
+          {
+            "name": "Y-T-W boca abajo en banco inclinado, 2×8 cada letra",
+            "how": "Sin peso o con 1-2 kg, dibuja cada letra con los brazos apretando las escápulas; lento, sin tirones ni impulso de espalda."
+          },
+          {
+            "name": "Series de aproximación con barra vacía, 2×12",
+            "how": "Antes de la primera serie pesada, dos series con barra vacía o muy liviana a ritmo controlado; te sirve para chequear cómo anda el hombro ese día."
+          },
+          {
+            "name": "Rotación externa con banda, 2×12 por lado",
+            "how": "Codo pegado al costado en 90°, gira el antebrazo hacia afuera contra la banda. **Usa la banda delgada** — con la dura te quedó molestia el 17."
+          }
+        ],
+        "stretch": [
+          {
+            "name": "Dislocaciones de hombro con banda o palo — 2 x 12 lentas",
+            "how": "Agarre bien ancho (más que hombros), brazos estirados, y lleva la banda de adelante hacia atrás por sobre la cabeza en 3 segundos sin arquear la espalda ni encoger el cuello; si el hombro pincha, abre más el agarre."
+          },
+          {
+            "name": "Colgado activo en barra — 3 x 30 seg",
+            "how": "Cuelga con hombros activos (omóplatos hacia abajo, sin quedar colgando muerto), respira profundo y deja caer las costillas; si molesta el hombro, deja la punta de los pies apoyada para sacarte peso."
+          }
+        ],
+        "exercises": [
+          {
+            "name": "Lat Pulldown",
+            "notes": "El 17 hiciste **una** serie a 77,5. Se consolida esa carga primero: dos series a 77,5 y la tercera a 80 solo si las anteriores salen a RIR 2 o mejor.",
+            "sets": [
+              {
+                "serie": "Aprox.",
+                "carga": "61 kg",
+                "reps": "12",
+                "rir": "4+",
+                "descanso": "2 min"
+              },
+              {
+                "serie": "1",
+                "carga": "77,5 kg",
+                "reps": "10-12",
+                "rir": "3",
+                "descanso": "3 min"
+              },
+              {
+                "serie": "2",
+                "carga": "77,5 kg",
+                "reps": "10-12",
+                "rir": "2",
+                "descanso": "3 min"
+              },
+              {
+                "serie": "3 (condicional)",
+                "carga": "80 kg",
+                "reps": "10-12",
+                "rir": "1-2",
+                "descanso": "3 min"
+              }
+            ]
+          },
+          {
+            "name": "Seated Row",
+            "notes": "El 17 la última repetición a 75 perdió rango. Primera serie a 70,5 y luego 75 buscando técnica limpia — corta antes de que se pierda el rango.",
+            "sets": [
+              {
+                "serie": "Aprox.",
+                "carga": "61 kg",
+                "reps": "12",
+                "rir": "4+",
+                "descanso": "2 min"
+              },
+              {
+                "serie": "1",
+                "carga": "70,5 kg",
+                "reps": "12",
+                "rir": "3",
+                "descanso": "3 min"
+              },
+              {
+                "serie": "2",
+                "carga": "75 kg",
+                "reps": "10-12",
+                "rir": "2",
+                "descanso": "3 min"
+              },
+              {
+                "serie": "3",
+                "carga": "75 kg",
+                "reps": "10-12",
+                "rir": "1-2",
+                "descanso": "3 min"
+              }
+            ]
+          },
+          {
+            "name": "Pull Up",
+            "notes": "2 series: ya hay 6 de jalón y remo antes.",
+            "sets": [
+              {
+                "serie": "1",
+                "carga": "Peso corporal",
+                "reps": "8",
+                "rir": "3",
+                "descanso": "3 min"
+              },
+              {
+                "serie": "2",
+                "carga": "Peso corporal",
+                "reps": "máximas",
+                "rir": "1-2",
+                "descanso": "3 min"
+              }
+            ]
+          },
+          {
+            "name": "Rear Delt Reverse Fly (Machine)",
+            "notes": "El 17 te dejó leve molestia después de la serie. Baja el ritmo de la excéntrica y no busques rango extra al final.",
+            "sets": [
+              {
+                "serie": "1",
+                "carga": "59 kg",
+                "reps": "12-15",
+                "rir": "3",
+                "descanso": "2 min"
+              },
+              {
+                "serie": "2",
+                "carga": "59 kg",
+                "reps": "12-15",
+                "rir": "2-3",
+                "descanso": "2 min"
+              }
+            ]
+          },
+          {
+            "name": "Preacher Curl (Machine)",
+            "notes": "46 kg salió a RPE 8,5 el 17 — se mantiene y buscas una repetición más.",
+            "sets": [
+              {
+                "serie": "1",
+                "carga": "46 kg",
+                "reps": "10-12",
+                "rir": "3",
+                "descanso": "2-3 min"
+              },
+              {
+                "serie": "2",
+                "carga": "46 kg",
+                "reps": "10-12",
+                "rir": "2",
+                "descanso": "2-3 min"
+              }
+            ]
+          },
+          {
+            "name": "Face Pull (sentado)",
+            "notes": "Sentado, como descubriste el 17. 2 series: es trabajo escapular, no necesita volumen de ejercicio principal.",
+            "sets": [
+              {
+                "serie": "1",
+                "carga": "25 kg",
+                "reps": "15",
+                "rir": "3",
+                "descanso": "90s"
+              },
+              {
+                "serie": "2",
+                "carga": "25 kg",
+                "reps": "15",
+                "rir": "2",
+                "descanso": "90s"
+              }
+            ]
+          },
+          {
+            "name": "Pallof Press — opcional",
+            "notes": "Opcional. Si vienes justo de tiempo o cargado, sáltalo: mañana es día largo.",
+            "sets": [
+              {
+                "serie": "1",
+                "carga": "15 kg",
+                "reps": "12 por lado",
+                "rir": "3",
+                "descanso": "90s"
+              },
+              {
+                "serie": "2",
+                "carga": "15 kg",
+                "reps": "12 por lado",
+                "rir": "2-3",
+                "descanso": "90s"
+              },
+              {
+                "serie": "3",
+                "carga": "15 kg",
+                "reps": "12 por lado",
+                "rir": "2-3",
+                "descanso": "90s"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "day": "Sáb 22",
+        "date": "2026-08-22",
+        "focus": "Cerro — sin gimnasio",
+        "tag": null,
+        "rationale": "Día de cerro. No es descanso: subir carga glúteo, cuádriceps y gemelo en excéntrico bastante rato, y cuenta como la sesión aeróbica larga de la semana. Por eso el viernes fue moderado y el domingo es descanso completo. Si vienes cargado de ayer, sube tranquilo y ya.",
+        "cardio": "El cerro es el cardio. Sin sesión extra.",
+        "warmup": [
+          {
+            "name": "Caminata de 5-10 min antes de empezar la subida",
+            "how": "Los primeros minutos suaves, sin atacar la pendiente en frío."
+          },
+          {
+            "name": "Rodilla a pared, 10 por lado",
+            "how": "Tobillo suelto antes de subir — es la articulación que más trabaja en pendiente."
+          }
+        ],
+        "stretch": [
+          {
+            "name": "Gemelo en pared, 40 s por lado",
+            "how": "Después de bajar. La bajada es lo que más carga el gemelo y el cuádriceps."
+          },
+          {
+            "name": "Cuádriceps de pie, 40 s por lado",
+            "how": "Talón al glúteo, rodillas juntas, pelvis metida."
+          },
+          {
+            "name": "Isquiotibiales de pie, 40 s por lado",
+            "how": "Suave, ya trabajaron el viernes."
+          }
+        ],
+        "exercises": []
+      },
+      {
+        "day": "Dom 23",
+        "date": "2026-08-23",
+        "focus": "Descanso",
+        "tag": null,
+        "rationale": "Descanso completo, como pediste. Después del cerro conviene de verdad — es tu día habitual y esta semana además cierra dos días seguidos de carga en pierna.",
+        "cardio": "Nada. Si querés moverte, caminata plana suave y listo.",
+        "warmup": null,
+        "stretch": null,
+        "exercises": []
+      },
+      {
+        "day": "Lun 24",
+        "date": "2026-08-24",
         "focus": "Posterior — femoral y glúteo",
         "tag": null,
-        "rationale": "El hueco real de la semana: femoral y glúteo llevan 7 días en cero (última vez el 14 de agosto), mientras cuádriceps, pecho y hombro están todos en banda o por encima. Va moderado a propósito — RIR 2-3 en vez de 1-2 y cardio corto — porque mañana subes cerro y no tiene sentido llegar con los isquios destruidos. El domingo de descanso te deja recuperar de las dos cosas.",
-        "cardio": "Escaladora 10 min, RPE 5 — corto a propósito, mañana el cerro es la sesión de cardio de verdad.",
+        "rationale": "Acá va el posterior que estaba puesto para el viernes. Femoral y glúteo son el hueco real (sin tocarse desde el 14 de agosto), y el lunes los entrenas con las piernas descansadas del cerro del sábado y el domingo libre — mejor rendimiento que apurarlos el viernes. Vuelve el volumen completo: el recorte del viernes era por el cerro, acá no aplica.",
+        "cardio": "Escaleras 12-15 min, RPE 5.",
         "warmup": [
           {
             "name": "Bici o caminadora, 6 min, ritmo conversable",
@@ -898,10 +1167,6 @@
           {
             "name": "Bisagra de cadera con palo, 10",
             "how": "Palo tocando nuca, espalda alta y sacro a la vez. Lleva la cadera atrás manteniendo los tres puntos en contacto — es el patrón del RDL de hoy."
-          },
-          {
-            "name": "Curl femoral nórdico excéntrico asistido, 5",
-            "how": "Arrodillado con los pies sujetos, baja lo más lento que puedas y empuja con las manos para volver. Solo 5, es preparación."
           }
         ],
         "stretch": [
@@ -959,7 +1224,7 @@
           },
           {
             "name": "Romanian Deadlift (Smith Machine)",
-            "notes": "En Smith, como el 14 de agosto, para que la carga sea comparable. Ese día 50 kg te dieron RPE 9-9,5 con poco descanso; hoy con 4 min entre series deberían salir más limpios. No subas de 50 hoy.",
+            "notes": "En Smith, como el 14. **8 repeticiones fijas**: ese día los 50×10 dieron RPE 9-9,5, así que se recorta el número de reps antes que el peso. Con 4 min de descanso deberían salir más limpias.",
             "sets": [
               {
                 "serie": "Aprox.",
@@ -971,21 +1236,21 @@
               {
                 "serie": "1",
                 "carga": "50 kg",
-                "reps": "8-10",
+                "reps": "8",
                 "rir": "3",
                 "descanso": "4 min"
               },
               {
                 "serie": "2",
                 "carga": "50 kg",
-                "reps": "8-10",
+                "reps": "8",
                 "rir": "2-3",
                 "descanso": "4 min"
               },
               {
                 "serie": "3",
                 "carga": "50 kg",
-                "reps": "8-10",
+                "reps": "8",
                 "rir": "2-3",
                 "descanso": "4 min"
               }
@@ -1020,7 +1285,7 @@
           },
           {
             "name": "Back Extension (Weighted Hyperextension)",
-            "notes": "Reemplaza al Glute Kickback, que no te gusta. Trabaja lo mismo (glúteo e isquio) pero con carga axial y patrón de bisagra, que es más tu estilo. Disco al pecho, sube hasta alinear el cuerpo y no te hiperextiendas al final: la lumbar no tiene que arquearse para 'llegar más arriba'.",
+            "notes": "Reemplaza al Glute Kickback, que no te gusta. Disco al pecho, sube hasta alinear el cuerpo sin hiperextender la lumbar al final.",
             "sets": [
               {
                 "serie": "1",
@@ -1047,7 +1312,7 @@
           },
           {
             "name": "Elevación de piernas colgado",
-            "notes": "Colgado de la barra, sube las rodillas enrollando la pelvis hacia las costillas. Sin balanceo — si te meces, baja las reps.",
+            "notes": "Enrolla la pelvis hacia las costillas, sin balanceo. Si te meces, baja las repeticiones.",
             "sets": [
               {
                 "serie": "1",
@@ -1069,330 +1334,6 @@
                 "reps": "máximas",
                 "rir": "2",
                 "descanso": "90s"
-              }
-            ]
-          },
-          {
-            "name": "Pallof Press",
-            "notes": "De lado a la polea, brazos al pecho y extiende al frente resistiendo la rotación. La cadera no se mueve. Anti-rotación, distinto al Reverse Crunch que ya hiciste miércoles y jueves.",
-            "sets": [
-              {
-                "serie": "1",
-                "carga": "15 kg",
-                "reps": "12 por lado",
-                "rir": "3",
-                "descanso": "60s"
-              },
-              {
-                "serie": "2",
-                "carga": "15 kg",
-                "reps": "12 por lado",
-                "rir": "2",
-                "descanso": "60s"
-              },
-              {
-                "serie": "3",
-                "carga": "15 kg",
-                "reps": "12 por lado",
-                "rir": "2",
-                "descanso": "60s"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "day": "Sáb 22",
-        "date": "2026-08-22",
-        "focus": "Cerro — sin gimnasio",
-        "tag": null,
-        "rationale": "Día de cerro. No es descanso: subir carga glúteo, cuádriceps y gemelo en excéntrico bastante rato, y cuenta como la sesión aeróbica larga de la semana. Por eso el viernes fue moderado y el domingo es descanso completo. Si vienes cargado de ayer, sube tranquilo y ya.",
-        "cardio": "El cerro es el cardio. Sin sesión extra.",
-        "warmup": [
-          {
-            "name": "Caminata de 5-10 min antes de empezar la subida",
-            "how": "Los primeros minutos suaves, sin atacar la pendiente en frío."
-          },
-          {
-            "name": "Rodilla a pared, 10 por lado",
-            "how": "Tobillo suelto antes de subir — es la articulación que más trabaja en pendiente."
-          }
-        ],
-        "stretch": [
-          {
-            "name": "Gemelo en pared, 40 s por lado",
-            "how": "Después de bajar. La bajada es lo que más carga el gemelo y el cuádriceps."
-          },
-          {
-            "name": "Cuádriceps de pie, 40 s por lado",
-            "how": "Talón al glúteo, rodillas juntas, pelvis metida."
-          },
-          {
-            "name": "Isquiotibiales de pie, 40 s por lado",
-            "how": "Suave, ya trabajaron el viernes."
-          }
-        ],
-        "exercises": []
-      },
-      {
-        "day": "Dom 23",
-        "date": "2026-08-23",
-        "focus": "Descanso",
-        "tag": null,
-        "rationale": "Descanso completo, como pediste. Después del cerro conviene de verdad — es tu día habitual y esta semana además cierra dos días seguidos de carga en pierna.",
-        "cardio": "Nada. Si querés moverte, caminata plana suave y listo.",
-        "warmup": null,
-        "stretch": null,
-        "exercises": []
-      },
-      {
-        "day": "Lun 24",
-        "date": "2026-08-24",
-        "focus": "Pull — espalda y bíceps",
-        "tag": null,
-        "rationale": "Arranque de semana con tracción, que es lo que mejor toleras el hombro. Lat Pulldown sube a 80 kg: el 17 hiciste 77,5×12 a RPE 8, que deja margen. Seated Row se queda en 75 kg hasta que salga a RPE 8 en vez de 9. Face Pull **sentado**, que fue el que te resultó fácil.",
-        "cardio": "Escaladora 15-20 min, RPE 5 — o caminata inclinada 30 min si prefieres leer.",
-        "warmup": [
-          {
-            "name": "Pass-through con banda o palo, 2×10",
-            "how": "Toma la banda más ancho que los hombros y pásala de adelante hacia atrás por encima de la cabeza con los codos estirados; si tira mucho, agarra más ancho."
-          },
-          {
-            "name": "Wall slides (deslizar brazos en la pared), 2×10",
-            "how": "De espalda a la pared, antebrazos y dorso de las manos pegados; sube y baja los brazos sin despegarlos y sin arquear la zona lumbar."
-          },
-          {
-            "name": "Band pull-apart, 2×15",
-            "how": "Brazos al frente a la altura del pecho, separa las manos estirando la banda y junta las escápulas; hombros abajo, sin subirlos a las orejas."
-          },
-          {
-            "name": "Face pull con banda, 2×15",
-            "how": "Tira la banda hacia la cara separando las manos y con los codos altos; termina con las manos a los lados de la cabeza y aguanta 1 segundo."
-          },
-          {
-            "name": "Y-T-W boca abajo en banco inclinado, 2×8 cada letra",
-            "how": "Sin peso o con 1-2 kg, dibuja cada letra con los brazos apretando las escápulas; lento, sin tirones ni impulso de espalda."
-          },
-          {
-            "name": "Series de aproximación con barra vacía, 2×12",
-            "how": "Antes de la primera serie pesada, dos series con barra vacía o muy liviana a ritmo controlado; te sirve para chequear cómo anda el hombro ese día."
-          },
-          {
-            "name": "Rotación externa con banda, 2×12 por lado",
-            "how": "Codo pegado al costado en 90°, gira el antebrazo hacia afuera contra la banda. **Usa la banda delgada** — con la dura te quedó molestia el 17."
-          }
-        ],
-        "stretch": [
-          {
-            "name": "Dislocaciones de hombro con banda o palo — 2 x 12 lentas",
-            "how": "Agarre bien ancho (más que hombros), brazos estirados, y lleva la banda de adelante hacia atrás por sobre la cabeza en 3 segundos sin arquear la espalda ni encoger el cuello; si el hombro pincha, abre más el agarre."
-          },
-          {
-            "name": "Colgado activo en barra — 3 x 30 seg",
-            "how": "Cuelga con hombros activos (omóplatos hacia abajo, sin quedar colgando muerto), respira profundo y deja caer las costillas; si molesta el hombro, deja la punta de los pies apoyada para sacarte peso."
-          }
-        ],
-        "exercises": [
-          {
-            "name": "Lat Pulldown",
-            "notes": "Sube a 80 kg. Pecho arriba, lleva los codos al bolsillo, sin echar el torso muy atrás.",
-            "sets": [
-              {
-                "serie": "Aprox.",
-                "carga": "61 kg",
-                "reps": "12",
-                "rir": "4+",
-                "descanso": "2 min"
-              },
-              {
-                "serie": "1",
-                "carga": "80 kg",
-                "reps": "10-12",
-                "rir": "3",
-                "descanso": "3 min"
-              },
-              {
-                "serie": "2",
-                "carga": "80 kg",
-                "reps": "10-12",
-                "rir": "2",
-                "descanso": "3 min"
-              },
-              {
-                "serie": "3",
-                "carga": "80 kg",
-                "reps": "10-12",
-                "rir": "1-2",
-                "descanso": "3 min"
-              }
-            ]
-          },
-          {
-            "name": "Seated Row",
-            "notes": "Se mantiene en 75 kg. El 17 la última repetición perdió rango — corta la serie antes de que eso pase.",
-            "sets": [
-              {
-                "serie": "Aprox.",
-                "carga": "61 kg",
-                "reps": "12",
-                "rir": "4+",
-                "descanso": "2 min"
-              },
-              {
-                "serie": "1",
-                "carga": "75 kg",
-                "reps": "10-12",
-                "rir": "3",
-                "descanso": "3 min"
-              },
-              {
-                "serie": "2",
-                "carga": "75 kg",
-                "reps": "10-12",
-                "rir": "2",
-                "descanso": "3 min"
-              },
-              {
-                "serie": "3",
-                "carga": "75 kg",
-                "reps": "10-12",
-                "rir": "1-2",
-                "descanso": "3 min"
-              }
-            ]
-          },
-          {
-            "name": "Pull Up",
-            "notes": "",
-            "sets": [
-              {
-                "serie": "1",
-                "carga": "Peso corporal",
-                "reps": "8",
-                "rir": "3",
-                "descanso": "3 min"
-              },
-              {
-                "serie": "2",
-                "carga": "Peso corporal",
-                "reps": "8",
-                "rir": "2",
-                "descanso": "3 min"
-              },
-              {
-                "serie": "3",
-                "carga": "Peso corporal",
-                "reps": "máximas",
-                "rir": "1-2",
-                "descanso": "3 min"
-              }
-            ]
-          },
-          {
-            "name": "Rear Delt Reverse Fly (Machine)",
-            "notes": "El 17 te dejó leve molestia después de la serie. Baja el ritmo de la excéntrica y no busques rango extra al final.",
-            "sets": [
-              {
-                "serie": "1",
-                "carga": "59 kg",
-                "reps": "12-15",
-                "rir": "3",
-                "descanso": "2 min"
-              },
-              {
-                "serie": "2",
-                "carga": "59 kg",
-                "reps": "12-15",
-                "rir": "2",
-                "descanso": "2 min"
-              },
-              {
-                "serie": "3",
-                "carga": "59 kg",
-                "reps": "12-15",
-                "rir": "1-2",
-                "descanso": "2 min"
-              }
-            ]
-          },
-          {
-            "name": "Preacher Curl (Machine)",
-            "notes": "46 kg salió a RPE 8,5 el 17 — se mantiene y buscas una repetición más.",
-            "sets": [
-              {
-                "serie": "1",
-                "carga": "46 kg",
-                "reps": "12-15",
-                "rir": "3",
-                "descanso": "2 min"
-              },
-              {
-                "serie": "2",
-                "carga": "46 kg",
-                "reps": "12-15",
-                "rir": "2",
-                "descanso": "2 min"
-              },
-              {
-                "serie": "3",
-                "carga": "46 kg",
-                "reps": "12-15",
-                "rir": "1-2",
-                "descanso": "2 min"
-              }
-            ]
-          },
-          {
-            "name": "Face Pull (sentado)",
-            "notes": "Sentado, como descubriste el 17 que te resulta mucho más cómodo de hombro.",
-            "sets": [
-              {
-                "serie": "1",
-                "carga": "25 kg",
-                "reps": "15",
-                "rir": "3",
-                "descanso": "90s"
-              },
-              {
-                "serie": "2",
-                "carga": "25 kg",
-                "reps": "15",
-                "rir": "2",
-                "descanso": "90s"
-              },
-              {
-                "serie": "3",
-                "carga": "25 kg",
-                "reps": "15",
-                "rir": "1-2",
-                "descanso": "90s"
-              }
-            ]
-          },
-          {
-            "name": "Plancha lateral con elevación",
-            "notes": "De lado, codo bajo el hombro, cadera arriba en línea. Sube y baja la cadera con control.",
-            "sets": [
-              {
-                "serie": "1",
-                "carga": "Peso corporal",
-                "reps": "12 por lado",
-                "rir": "3",
-                "descanso": "60s"
-              },
-              {
-                "serie": "2",
-                "carga": "Peso corporal",
-                "reps": "12 por lado",
-                "rir": "2",
-                "descanso": "60s"
-              },
-              {
-                "serie": "3",
-                "carga": "Peso corporal",
-                "reps": "12 por lado",
-                "rir": "1-2",
-                "descanso": "60s"
               }
             ]
           }
@@ -1618,7 +1559,7 @@
           },
           {
             "name": "Chest Fly (Machine)",
-            "notes": "Va último a propósito. El 20 cortaste en 2 series por el dolor de hombro y estuvo bien hecho — si vuelve a aparecer, corta igual y no pasa nada.",
+            "notes": "**2 series + tercera condicional.** El 20 cortaste en 2 por dolor de hombro y estuvo bien hecho — no tiene sentido prescribirte obligatoriamente la que ya decidiste no hacer.",
             "sets": [
               {
                 "serie": "1",
@@ -1635,10 +1576,10 @@
                 "descanso": "2 min"
               },
               {
-                "serie": "3",
+                "serie": "3 (condicional)",
                 "carga": "59 kg",
                 "reps": "12-15",
-                "rir": "1-2",
+                "rir": "2",
                 "descanso": "2 min"
               }
             ]
@@ -1677,7 +1618,7 @@
         "date": "2026-08-26",
         "focus": "Legs — cuádriceps",
         "tag": null,
-        "rationale": "Leg Press sube a **165 kg**: el 19 moviste 160×12 a RPE 7 en la primera serie de trabajo, con nota de 'muy buen rango'. No fue un tope. Sentadilla vuelve a barra libre a 90 kg — la última con barra fue el 13 a 85×10×3 a RPE 8,5, y el 19 en Smith llegaste a 80×12.",
+        "rationale": "Sentadilla vuelve a barra libre: la última con barra fue el 13 a 85×10×3 a RPE 8,5. **Corregido tras auditoría**: Leg Press se queda en 160 kg hasta completar las 3 series de 12 con técnica pareja — el 19 la serie 3 cayó a 10 repeticiones.",
         "cardio": "Escaladora 10-12 min, RPE 5-6 — corto, el día ya es pesado.",
         "warmup": [
           {
@@ -1760,7 +1701,7 @@
           },
           {
             "name": "Leg Press",
-            "notes": "165 kg, primer intento. Si la primera sale a RPE 9 o más, quédate ahí y no subas dentro de la sesión.",
+            "notes": "**Se mantiene en 160, no sube a 165.** El 19 hiciste 12/12/10 con RPE 7/8,5/8 — no completaste las 3 series de 12 limpias. Primero consolida 3×12 a 160 con RIR 2; subir repeticiones es progresión igual de válida que subir peso.",
             "sets": [
               {
                 "serie": "Aprox.",
@@ -1771,21 +1712,21 @@
               },
               {
                 "serie": "1",
-                "carga": "165 kg",
+                "carga": "160 kg",
                 "reps": "10-12",
                 "rir": "3",
                 "descanso": "3 min"
               },
               {
                 "serie": "2",
-                "carga": "165 kg",
+                "carga": "160 kg",
                 "reps": "10-12",
                 "rir": "2",
                 "descanso": "3 min"
               },
               {
                 "serie": "3",
-                "carga": "165 kg",
+                "carga": "160 kg",
                 "reps": "10-12",
                 "rir": "1-2",
                 "descanso": "3 min"
@@ -1880,7 +1821,7 @@
         "date": "2026-08-27",
         "focus": "Hombro y pecho — segunda dosis (prioridad)",
         "tag": null,
-        "rationale": "Segunda dosis semanal de tus dos prioridades, sin repetir banca plana pesada. Press militar de pie, que es de tus favoritos, y volumen de deltoide medio, que es lo que más aporta al ancho de hombro.",
+        "rationale": "Segunda dosis semanal de tus dos prioridades, sin repetir banca plana pesada. Press militar de pie, que es de tus favoritos, y volumen de deltoide medio, que es lo que más aporta al ancho de hombro. **Ajustado tras auditoría**: Incline se queda en 60 (no 65) porque esta semana ya sube la banca a 3 series; el press militar queda en 6-8 reps porque 40 kg te ha dado RPE 9-10; y el tríceps overhead baja a 21,25.",
         "cardio": "Escaladora 15-20 min, RPE 5.",
         "warmup": [
           {
@@ -1925,7 +1866,7 @@
         "exercises": [
           {
             "name": "Overhead Press (Barbell)",
-            "notes": "Costillas abajo y glúteo apretado para no compensar con la lumbar. Si el rango alto molesta el hombro, pásate a press sentado con respaldo.",
+            "notes": "Barra, de pie. Históricamente 40 kg te ha llevado a RPE 9-10, así que van 6-8 repeticiones y RIR 2, no más. Costillas abajo y glúteo apretado para no compensar con la lumbar.",
             "sets": [
               {
                 "serie": "Aprox.",
@@ -1937,29 +1878,29 @@
               {
                 "serie": "1",
                 "carga": "40 kg",
-                "reps": "6-9",
-                "rir": "3",
+                "reps": "6-8",
+                "rir": "2",
                 "descanso": "3 min"
               },
               {
                 "serie": "2",
                 "carga": "40 kg",
-                "reps": "6-9",
+                "reps": "6-8",
                 "rir": "2",
                 "descanso": "3 min"
               },
               {
                 "serie": "3",
                 "carga": "40 kg",
-                "reps": "6-9",
-                "rir": "1-2",
+                "reps": "6-8",
+                "rir": "2",
                 "descanso": "3 min"
               }
             ]
           },
           {
             "name": "Incline Bench Press (Barbell)",
-            "notes": "Sube a 65 kg. El 16 hiciste 60×10×3 con molestia; la aproximación gradual del 20 en banca plana no dio dolor, así que se replica acá.",
+            "notes": "**Se mantiene en 60, no sube a 65.** El 16 hiciste 60×10×3 pero con molestia de hombro, y esta semana ya se suma una serie a la banca plana. Consolida 60 primero.",
             "sets": [
               {
                 "serie": "Aprox.",
@@ -1969,65 +1910,58 @@
                 "descanso": "2 min"
               },
               {
-                "serie": "Aprox.",
-                "carga": "55 kg",
-                "reps": "5",
-                "rir": "4+",
-                "descanso": "2-3 min"
-              },
-              {
                 "serie": "1",
-                "carga": "65 kg",
+                "carga": "60 kg",
                 "reps": "8-10",
                 "rir": "3",
                 "descanso": "3 min"
               },
               {
                 "serie": "2",
-                "carga": "65 kg",
+                "carga": "60 kg",
                 "reps": "8-10",
                 "rir": "2",
                 "descanso": "3 min"
               },
               {
                 "serie": "3",
-                "carga": "65 kg",
+                "carga": "60 kg",
                 "reps": "8-10",
-                "rir": "1-2",
+                "rir": "2",
                 "descanso": "3 min"
               }
             ]
           },
           {
             "name": "Lateral Raise (Dumbbell)",
-            "notes": "Llegaste a 24 kg el 27 de julio. Vuelve a esa carga.",
+            "notes": "24 kg es el **total de las dos mancuernas** (12 por lado), como lo registra Hevy — no es comparable con los 7,5 kg por lado del cable. Llegaste a esta carga el 27 de julio.",
             "sets": [
               {
                 "serie": "1",
                 "carga": "24 kg",
-                "reps": "12-15",
+                "reps": "12",
                 "rir": "3",
                 "descanso": "90s"
               },
               {
                 "serie": "2",
                 "carga": "24 kg",
-                "reps": "12-15",
+                "reps": "12",
                 "rir": "2",
                 "descanso": "90s"
               },
               {
                 "serie": "3",
                 "carga": "24 kg",
-                "reps": "12-15",
-                "rir": "1-2",
+                "reps": "12",
+                "rir": "2",
                 "descanso": "90s"
               }
             ]
           },
           {
             "name": "Chest Fly (Machine)",
-            "notes": "",
+            "notes": "2 series: ya hay 3 de Incline en este día y 6 de pecho el martes.",
             "sets": [
               {
                 "serie": "1",
@@ -2041,40 +1975,33 @@
                 "carga": "54 kg",
                 "reps": "12-15",
                 "rir": "2",
-                "descanso": "2 min"
-              },
-              {
-                "serie": "3",
-                "carga": "54 kg",
-                "reps": "12-15",
-                "rir": "1-2",
                 "descanso": "2 min"
               }
             ]
           },
           {
             "name": "Overhead Triceps Extension (Cable)",
-            "notes": "Codos apuntando al frente y quietos; solo se mueve el antebrazo.",
+            "notes": "Se baja a 21,25 kg: en 23,75 has llegado a RPE 10 varias veces. Codos al frente y quietos.",
             "sets": [
               {
                 "serie": "1",
-                "carga": "23,75 kg",
-                "reps": "12-15",
+                "carga": "21,25 kg",
+                "reps": "10-12",
                 "rir": "3",
                 "descanso": "90s"
               },
               {
                 "serie": "2",
-                "carga": "23,75 kg",
-                "reps": "12-15",
+                "carga": "21,25 kg",
+                "reps": "10-12",
                 "rir": "2",
                 "descanso": "90s"
               },
               {
                 "serie": "3",
-                "carga": "23,75 kg",
-                "reps": "12-15",
-                "rir": "1-2",
+                "carga": "21,25 kg",
+                "reps": "10-12",
+                "rir": "2",
                 "descanso": "90s"
               }
             ]
@@ -2111,83 +2038,79 @@
       {
         "day": "Vie 28",
         "date": "2026-08-28",
-        "focus": "Posterior — femoral y glúteo",
+        "focus": "Pull — espalda y bíceps",
         "tag": null,
-        "rationale": "Segunda exposición de posterior de la semana. Depende de cómo salga hoy: si el RDL a 50 kg queda en RIR 2-3 con los 4 min de descanso, acá subes a 55. Si hoy volvió a costar como el 14, te quedas en 50.",
-        "cardio": "Escaladora 12-15 min, RPE 5.",
+        "rationale": "Segunda sesión de tracción de la semana. Progresión condicional del jalón: si el viernes 21 las dos series a 77,5 salieron a RIR 2 o mejor, acá la tercera va a 80. Si no, se repite 77,5 hasta consolidarlo.",
+        "cardio": "Escaleras 15-20 min, RPE 5.",
         "warmup": [
           {
-            "name": "Bici o caminadora, 6 min, ritmo conversable",
-            "how": "Solo para entrar en calor. Debes poder hablar frases completas."
+            "name": "Pass-through con banda o palo, 2×10",
+            "how": "Toma la banda más ancho que los hombros y pásala de adelante hacia atrás por encima de la cabeza con los codos estirados; si tira mucho, agarra más ancho."
           },
           {
-            "name": "Rodilla a pared, 10 por lado",
-            "how": "De pie frente a la pared, pie a un palmo. Lleva la rodilla a tocar la pared sin despegar el talón. Aleja el pie mientras siga llegando."
+            "name": "Wall slides (deslizar brazos en la pared), 2×10",
+            "how": "De espalda a la pared, antebrazos y dorso de las manos pegados; sube y baja los brazos sin despegarlos y sin arquear la zona lumbar."
           },
           {
-            "name": "90/90 de cadera, 6 cambios por lado",
-            "how": "Sentado en el suelo, una pierna adelante y otra al lado en 90°. Gira ambas rodillas al otro lado sin usar las manos, pecho arriba."
+            "name": "Band pull-apart, 2×15",
+            "how": "Brazos al frente a la altura del pecho, separa las manos estirando la banda y junta las escápulas; hombros abajo, sin subirlos a las orejas."
           },
           {
-            "name": "Puente de glúteo, 2×12 con pausa de 1 s",
-            "how": "Acostado, pies al ancho de cadera. Sube apretando el glúteo hasta alinear rodilla-cadera-hombro. Costillas abajo, no arquees la lumbar."
+            "name": "Face pull con banda, 2×15",
+            "how": "Tira la banda hacia la cara separando las manos y con los codos altos; termina con las manos a los lados de la cabeza y aguanta 1 segundo."
           },
           {
-            "name": "Bisagra de cadera con palo, 10",
-            "how": "Palo tocando nuca, espalda alta y sacro a la vez. Lleva la cadera atrás manteniendo los tres puntos en contacto — es el patrón del RDL de hoy."
+            "name": "Y-T-W boca abajo en banco inclinado, 2×8 cada letra",
+            "how": "Sin peso o con 1-2 kg, dibuja cada letra con los brazos apretando las escápulas; lento, sin tirones ni impulso de espalda."
           },
           {
-            "name": "Curl femoral nórdico excéntrico asistido, 5",
-            "how": "Arrodillado con los pies sujetos, baja lo más lento que puedas y empuja con las manos para volver. Solo 5, es preparación."
+            "name": "Series de aproximación con barra vacía, 2×12",
+            "how": "Antes de la primera serie pesada, dos series con barra vacía o muy liviana a ritmo controlado; te sirve para chequear cómo anda el hombro ese día."
+          },
+          {
+            "name": "Rotación externa con banda, 2×12 por lado",
+            "how": "Codo pegado al costado en 90°, gira el antebrazo hacia afuera contra la banda. **Usa la banda delgada** — con la dura te quedó molestia el 17."
           }
         ],
         "stretch": [
           {
-            "name": "Isquiotibiales de pie, 40 s por lado",
-            "how": "Talón en un banco bajo, pierna estirada, lleva la cadera atrás manteniendo la espalda recta. Tira desde la cadera, no redondeando."
+            "name": "Dislocaciones de hombro con banda o palo — 2 x 12 lentas",
+            "how": "Agarre bien ancho (más que hombros), brazos estirados, y lleva la banda de adelante hacia atrás por sobre la cabeza en 3 segundos sin arquear la espalda ni encoger el cuello; si el hombro pincha, abre más el agarre."
           },
           {
-            "name": "Flexor de cadera en estocada, 40 s por lado",
-            "how": "Rodilla atrás en el suelo, mete la pelvis (esconde la cola) y aprieta el glúteo de atrás."
-          },
-          {
-            "name": "Glúteo figura-4 sentado, 40 s por lado",
-            "how": "Sentado, cruza el tobillo sobre la rodilla contraria y lleva el pecho adelante con la espalda recta."
-          },
-          {
-            "name": "Gemelo en pared, 30 s por lado",
-            "how": "Manos en la pared, pierna atrás estirada, talón pegado al suelo. Ojo con esto que mañana subes cerro."
+            "name": "Colgado activo en barra — 3 x 30 seg",
+            "how": "Cuelga con hombros activos (omóplatos hacia abajo, sin quedar colgando muerto), respira profundo y deja caer las costillas; si molesta el hombro, deja la punta de los pies apoyada para sacarte peso."
           }
         ],
         "exercises": [
           {
-            "name": "Hip Thrust (Barbell)",
-            "notes": "Si hoy las 3 series a 100 salen a RIR 2, acá pruebas 105 en la última.",
+            "name": "Lat Pulldown",
+            "notes": "Condicional: si el viernes 21 las dos series a 77,5 salieron a RIR 2 o mejor, la tercera va a 80. Si no, repites 77,5 hasta consolidarlo.",
             "sets": [
               {
                 "serie": "Aprox.",
-                "carga": "60 kg",
-                "reps": "10",
+                "carga": "61 kg",
+                "reps": "12",
                 "rir": "4+",
                 "descanso": "2 min"
               },
               {
                 "serie": "1",
-                "carga": "100 kg",
+                "carga": "77,5 kg",
                 "reps": "10-12",
                 "rir": "3",
                 "descanso": "3 min"
               },
               {
                 "serie": "2",
-                "carga": "100 kg",
+                "carga": "77,5 kg",
                 "reps": "10-12",
                 "rir": "2",
                 "descanso": "3 min"
               },
               {
-                "serie": "3",
-                "carga": "100 kg",
+                "serie": "3 (condicional)",
+                "carga": "80 kg",
                 "reps": "10-12",
                 "rir": "1-2",
                 "descanso": "3 min"
@@ -2195,143 +2118,156 @@
             ]
           },
           {
-            "name": "Romanian Deadlift (Smith Machine)",
-            "notes": "Condicional: 55 kg solo si hoy 50 kg salió a RIR 2-3 sin que se te fuera el agarre. Si no, repites 50.",
+            "name": "Seated Row",
+            "notes": "El 17 la última repetición a 75 perdió rango. Primera serie a 70,5 y luego 75 buscando técnica limpia — corta antes de que se pierda el rango.",
             "sets": [
               {
                 "serie": "Aprox.",
-                "carga": "40 kg",
+                "carga": "61 kg",
+                "reps": "12",
+                "rir": "4+",
+                "descanso": "2 min"
+              },
+              {
+                "serie": "1",
+                "carga": "70,5 kg",
+                "reps": "12",
+                "rir": "3",
+                "descanso": "3 min"
+              },
+              {
+                "serie": "2",
+                "carga": "75 kg",
+                "reps": "10-12",
+                "rir": "2",
+                "descanso": "3 min"
+              },
+              {
+                "serie": "3",
+                "carga": "75 kg",
+                "reps": "10-12",
+                "rir": "1-2",
+                "descanso": "3 min"
+              }
+            ]
+          },
+          {
+            "name": "Pull Up",
+            "notes": "2 series: ya hay 6 de jalón y remo antes.",
+            "sets": [
+              {
+                "serie": "1",
+                "carga": "Peso corporal",
                 "reps": "8",
-                "rir": "4+",
-                "descanso": "2 min"
-              },
-              {
-                "serie": "1",
-                "carga": "50-55 kg",
-                "reps": "8-10",
                 "rir": "3",
-                "descanso": "4 min"
+                "descanso": "3 min"
               },
               {
                 "serie": "2",
-                "carga": "50-55 kg",
-                "reps": "8-10",
-                "rir": "2",
-                "descanso": "4 min"
-              },
-              {
-                "serie": "3",
-                "carga": "50-55 kg",
-                "reps": "8-10",
+                "carga": "Peso corporal",
+                "reps": "máximas",
                 "rir": "1-2",
-                "descanso": "4 min"
+                "descanso": "3 min"
               }
             ]
           },
           {
-            "name": "Seated Leg Curl",
-            "notes": "",
+            "name": "Rear Delt Reverse Fly (Machine)",
+            "notes": "El 17 te dejó leve molestia después de la serie. Baja el ritmo de la excéntrica y no busques rango extra al final.",
             "sets": [
               {
                 "serie": "1",
-                "carga": "63,5 kg",
-                "reps": "10-12",
+                "carga": "59 kg",
+                "reps": "12-15",
                 "rir": "3",
                 "descanso": "2 min"
               },
               {
                 "serie": "2",
-                "carga": "63,5 kg",
-                "reps": "10-12",
+                "carga": "59 kg",
+                "reps": "12-15",
                 "rir": "2",
                 "descanso": "2 min"
               },
               {
                 "serie": "3",
-                "carga": "63,5 kg",
-                "reps": "10-12",
-                "rir": "1-2",
+                "carga": "59 kg",
+                "reps": "12-15",
+                "rir": "2",
                 "descanso": "2 min"
               }
             ]
           },
           {
-            "name": "Back Extension (Weighted Hyperextension)",
-            "notes": "Disco al pecho, sube hasta alinear el cuerpo y no te hiperextiendas al final.",
+            "name": "Preacher Curl (Machine)",
+            "notes": "46 kg salió a RPE 8,5 el 17 — se mantiene y buscas una repetición más.",
             "sets": [
               {
                 "serie": "1",
-                "carga": "50 kg",
-                "reps": "12-15",
+                "carga": "46 kg",
+                "reps": "10-12",
                 "rir": "3",
-                "descanso": "90s"
+                "descanso": "2-3 min"
               },
               {
                 "serie": "2",
-                "carga": "50 kg",
-                "reps": "12-15",
+                "carga": "46 kg",
+                "reps": "10-12",
                 "rir": "2",
-                "descanso": "90s"
+                "descanso": "2-3 min"
               },
               {
                 "serie": "3",
-                "carga": "50 kg",
-                "reps": "12-15",
+                "carga": "46 kg",
+                "reps": "10-12",
                 "rir": "1-2",
-                "descanso": "90s"
+                "descanso": "2-3 min"
               }
             ]
           },
           {
-            "name": "Hip Abduction (seated)",
-            "notes": "",
+            "name": "Face Pull (sentado)",
+            "notes": "Sentado, como descubriste el 17. 2 series: es trabajo escapular, no necesita volumen de ejercicio principal.",
             "sets": [
               {
                 "serie": "1",
-                "carga": "82 kg",
-                "reps": "12-15",
+                "carga": "25 kg",
+                "reps": "15",
                 "rir": "3",
                 "descanso": "90s"
               },
               {
                 "serie": "2",
-                "carga": "82 kg",
-                "reps": "12-15",
+                "carga": "25 kg",
+                "reps": "15",
                 "rir": "2",
-                "descanso": "90s"
-              },
-              {
-                "serie": "3",
-                "carga": "82 kg",
-                "reps": "12-15",
-                "rir": "1-2",
                 "descanso": "90s"
               }
             ]
           },
           {
-            "name": "Reverse Crunch",
-            "notes": "Enrolla la pelvis, sin envión de piernas.",
+            "name": "Plancha lateral con elevación",
+            "notes": "De lado, codo bajo el hombro, cadera en línea. Sube y baja la cadera con control.",
             "sets": [
               {
                 "serie": "1",
                 "carga": "Peso corporal",
-                "reps": "15-20",
+                "reps": "12 por lado",
                 "rir": "3",
                 "descanso": "60s"
               },
               {
                 "serie": "2",
                 "carga": "Peso corporal",
-                "reps": "15-20",
+                "reps": "12 por lado",
                 "rir": "2",
                 "descanso": "60s"
               },
               {
                 "serie": "3",
                 "carga": "Peso corporal",
-                "reps": "15-20",
-                "rir": "1-2",
+                "reps": "12 por lado",
+                "rir": "2",
                 "descanso": "60s"
               }
             ]
@@ -2467,13 +2403,6 @@
                 "carga": "25 kg",
                 "reps": "15",
                 "rir": "2",
-                "descanso": "60s"
-              },
-              {
-                "serie": "3",
-                "carga": "25 kg",
-                "reps": "15",
-                "rir": "1-2",
                 "descanso": "60s"
               }
             ]
