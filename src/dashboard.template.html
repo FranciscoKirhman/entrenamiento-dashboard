@@ -356,6 +356,7 @@ details.callout>summary.herosum::after{ content:'▾'; color:var(--ink-muted); f
 details.callout[open]>summary.herosum::after{ content:'▴'; }
 .herofocus{ font-family:'Oswald',sans-serif; font-size:19px; font-weight:600; letter-spacing:.01em; color:var(--ink); }
 .herobody{ margin-top:12px; }
+.drationale strong,.herolede strong,.ex-notes strong,.bk-how strong{ font-weight:600; color:var(--ink); }
 </style>
 
 <div class="wrap">
@@ -594,15 +595,18 @@ details.callout[open]>summary.herosum::after{ content:'▴'; }
       '<div class="tblwrap"><table class="settable">'+
       '<thead><tr><th>Serie</th><th>Carga</th><th>Reps</th><th>RIR</th><th>Descanso</th></tr></thead>'+
       '<tbody>'+rows+'</tbody></table></div>'+
-      (ex.notes ? '<p class="ex-notes">'+esc(ex.notes)+'</p>' : '')+
+      (ex.notes ? '<p class="ex-notes">'+escMd(ex.notes)+'</p>' : '')+
       '</div>';
   }
+
+  // escapa y luego convierte **negrita** de markdown — el escape va primero, asi el texto sigue siendo seguro
+  function escMd(s){ return esc(s == null ? '' : s).replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>'); }
 
   function renderBookend(items, label, cls){
     if(!items || !items.length) return '';
     var lis = items.map(function(i){
       if(typeof i === 'string') return '<li>'+esc(i)+'</li>';
-      return '<li><b>'+esc(i.name)+'</b>'+(i.how ? '<span class="bk-how">'+esc(i.how)+'</span>' : '')+'</li>';
+      return '<li><b>'+esc(i.name)+'</b>'+(i.how ? '<span class="bk-how">'+escMd(i.how)+'</span>' : '')+'</li>';
     }).join('');
     return '<div class="bookend '+cls+'"><p class="bk-label">'+label+'</p><ul>'+lis+'</ul></div>';
   }
@@ -649,7 +653,7 @@ details.callout[open]>summary.herosum::after{ content:'▴'; }
       '<details class="callout" id="heroDet" open><summary class="herosum">'+
       '<span class="tag">'+esc(day.day)+(isToday?' · hoy':' · próxima sesión')+'</span>'+'<span class="herofocus">'+esc(day.focus)+'</span></summary>'+
       '<div class="herobody">'+
-      '<p class="herolede">'+esc(day.rationale)+'</p>'+
+      '<p class="herolede">'+escMd(day.rationale)+'</p>'+
       renderBookend(day.warmup, 'Calentamiento', 'warmup')+
       exHtml+
       (day.cardio ? '<div class="herocardio">Cardio de cierre: '+esc(day.cardio)+'</div>' : '')+
@@ -678,7 +682,7 @@ details.callout[open]>summary.herosum::after{ content:'▴'; }
       det.innerHTML =
         '<summary><div class="dwhen"><span class="dday">'+esc(d.day)+'</span>'+tagHtml+'</div><h4>'+esc(d.focus)+'</h4></summary>'+
         '<div class="dbody">'+
-        '<p class="drationale">'+esc(d.rationale)+'</p>'+
+        '<p class="drationale">'+escMd(d.rationale)+'</p>'+
         renderBookend(d.warmup, 'Calentamiento', 'warmup')+
         exHtml+
         cardioHtml+
