@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img" aria-label="Mapa muscular">
+  <g id="front">
+    <ellipse class="mm-body" cx="100" cy="31" rx="10.5" ry="13" fill="none" stroke="currentColor" stroke-width="1.2" opacity=".35"/>
+    <path class="mm-body" d="M 94 44 C 88 46 81 50 78 56 C 74 68 76 88 82 100 C 84 109 82 116 81 125 C 80 133 82 139 84 147 C 86 160 87 172 87 181 C 87 191 86 197 88 207 C 89 213 90 217 91 221 L 97 221 C 96 211 96 200 96 190 C 96 181 96 170 97 158 C 98 148 99 140 100 134 C 101 140 102 148 103 158 C 104 170 104 181 104 190 C 104 200 104 211 103 221 L 109 221 C 110 217 111 213 112 207 C 114 197 113 191 113 181 C 113 172 114 160 116 147 C 118 139 120 133 119 125 C 118 116 116 109 118 100 C 124 88 126 68 122 56 C 119 50 112 46 106 44 Z" fill="none" stroke="currentColor" stroke-width="1.2" opacity=".35"/>
+    <path class="mm-body" d="M 78 55 C 69 60 64 73 63 88 C 62 104 60 118 57 134 C 56 141 55 147 54 153 L 64 155 C 65 148 66 142 67 134 C 70 118 72 104 73 90 C 74 79 78 70 84 66 Z" fill="none" stroke="currentColor" stroke-width="1.2" opacity=".35"/>
+    <path class="mm-body" d="M 122 55 C 131 60 136 73 137 88 C 138 104 140 118 143 134 C 144 141 145 147 146 153 L 136 155 C 135 148 134 142 133 134 C 130 118 128 104 127 90 C 126 79 122 70 116 66 Z" fill="none" stroke="currentColor" stroke-width="1.2" opacity=".35"/>
+    <ellipse class="mm-body" cx="59" cy="163" rx="5" ry="7" transform="rotate(-10 59 163)" fill="none" stroke="currentColor" stroke-width="1.2" opacity=".35"/>
+    <ellipse class="mm-body" cx="141" cy="163" rx="5" ry="7" transform="rotate(10 141 163)" fill="none" stroke="currentColor" stroke-width="1.2" opacity=".35"/>
+    <path class="mm-body" d="M 91 221 C 90 226 87 229 84 231 C 82 232 82 235 85 235 L 97 235 C 98 231 98 226 97 221" fill="none" stroke="currentColor" stroke-width="1.2" opacity=".35"/>
+    <path class="mm-body" d="M 109 221 C 110 226 113 229 116 231 C 118 232 118 235 115 235 L 103 235 C 102 231 102 226 103 221" fill="none" stroke="currentColor" stroke-width="1.2" opacity=".35"/>
+    <path class="mm-part" data-m="Pecho" d="M 98.5 58.5 C 91 58.5 86 61 84.5 66 C 83.5 71.5 87 76.5 93 76.5 C 96.5 76.5 98.5 74 98.5 69.5 Z" fill="currentColor"/>
+    <path class="mm-part" data-m="Pecho" d="M 101.5 58.5 C 109 58.5 114 61 115.5 66 C 116.5 71.5 113 76.5 107 76.5 C 103.5 76.5 101.5 74 101.5 69.5 Z" fill="currentColor"/>
+    <ellipse class="mm-part" data-m="Delt ant/lat" cx="76.5" cy="63" rx="5.8" ry="8.5" transform="rotate(-15 76.5 63)" fill="currentColor"/>
+    <ellipse class="mm-part" data-m="Delt ant/lat" cx="123.5" cy="63" rx="5.8" ry="8.5" transform="rotate(15 123.5 63)" fill="currentColor"/>
+    <ellipse class="mm-part" data-m="Biceps" cx="68" cy="95" rx="4" ry="13" transform="rotate(-3 68 95)" fill="currentColor"/>
+    <ellipse class="mm-part" data-m="Biceps" cx="132" cy="95" rx="4" ry="13" transform="rotate(3 132 95)" fill="currentColor"/>
+    <ellipse class="mm-part" data-m="Antebrazo" cx="62" cy="130" rx="4" ry="13" transform="rotate(-5 62 130)" fill="currentColor"/>
+    <ellipse class="mm-part" data-m="Antebrazo" cx="138" cy="130" rx="4" ry="13" transform="rotate(5 138 130)" fill="currentColor"/>
+    <path class="mm-part" data-m="Core" d="M 100 81 C 103.5 81 106.5 84 106.5 89 C 106.5 100 105.5 111 103 119 C 101.5 122.5 98.5 122.5 97 119 C 94.5 111 93.5 100 93.5 89 C 93.5 84 96.5 81 100 81 Z" fill="currentColor"/>
+    <ellipse class="mm-part" data-m="Core" cx="87.5" cy="103" rx="3" ry="8.5" transform="rotate(6 87.5 103)" fill="currentColor"/>
+    <ellipse class="mm-part" data-m="Core" cx="112.5" cy="103" rx="3" ry="8.5" transform="rotate(-6 112.5 103)" fill="currentColor"/>
+    <path class="mm-part" data-m="Cuadriceps" d="M 89 137 C 93 138 94 147 93 158 C 92 168 91 176 89 178 C 86.5 176 85 168 85 158 C 85 147 85.5 138 89 137 Z" fill="currentColor"/>
+    <path class="mm-part" data-m="Cuadriceps" d="M 111 137 C 107 138 106 147 107 158 C 108 168 109 176 111 178 C 113.5 176 115 168 115 158 C 115 147 114.5 138 111 137 Z" fill="currentColor"/>
+    <ellipse class="mm-part" data-m="Aductor" cx="96.8" cy="152" rx="2.2" ry="13.5" transform="rotate(2 96.8 152)" fill="currentColor"/>
+    <ellipse class="mm-part" data-m="Aductor" cx="103.2" cy="152" rx="2.2" ry="13.5" transform="rotate(-2 103.2 152)" fill="currentColor"/>
+    <ellipse class="mm-part" data-m="Pantorrilla" cx="91" cy="199" rx="4.3" ry="12" transform="rotate(-2 91 199)" fill="currentColor"/>
+    <ellipse class="mm-part" data-m="Pantorrilla" cx="109" cy="199" rx="4.3" ry="12" transform="rotate(2 109 199)" fill="currentColor"/>
+    <text x="100" y="250" font-size="9" fill="currentColor" opacity=".5" text-anchor="middle">Frente</text>
+  </g>
+  <g id="back">
+    <ellipse class="mm-body" cx="300" cy="31" rx="10.5" ry="13" fill="none" stroke="currentColor" stroke-width="1.2" opacity=".35"/>
+    <path class="mm-body" d="M 294 44 C 288 46 281 50 278 56 C 274 68 276 88 282 100 C 284 109 282 116 281 125 C 280 133 282 139 284 147 C 286 160 287 172 287 181 C 287 191 286 197 288 207 C 289 213 290 217 291 221 L 297 221 C 296 211 296 200 296 190 C 296 181 296 170 297 158 C 298 148 299 140 300 134 C 301 140 302 148 303 158 C 304 170 304 181 304 190 C 304 200 304 211 303 221 L 309 221 C 310 217 311 213 312 207 C 314 197 313 191 313 181 C 313 172 314 160 316 147 C 318 139 320 133 319 125 C 318 116 316 109 318 100 C 324 88 326 68 322 56 C 319 50 312 46 306 44 Z" fill="none" stroke="currentColor" stroke-width="1.2" opacity=".35"/>
+    <path class="mm-body" d="M 278 55 C 269 60 264 73 263 88 C 262 104 260 118 257 134 C 256 141 255 147 254 153 L 264 155 C 265 148 266 142 267 134 C 270 118 272 104 273 90 C 274 79 278 70 284 66 Z" fill="none" stroke="currentColor" stroke-width="1.2" opacity=".35"/>
+    <path class="mm-body" d="M 322 55 C 331 60 336 73 337 88 C 338 104 340 118 343 134 C 344 141 345 147 346 153 L 336 155 C 335 148 334 142 333 134 C 330 118 328 104 327 90 C 326 79 322 70 316 66 Z" fill="none" stroke="currentColor" stroke-width="1.2" opacity=".35"/>
+    <ellipse class="mm-body" cx="259" cy="163" rx="5" ry="7" transform="rotate(-10 259 163)" fill="none" stroke="currentColor" stroke-width="1.2" opacity=".35"/>
+    <ellipse class="mm-body" cx="341" cy="163" rx="5" ry="7" transform="rotate(10 341 163)" fill="none" stroke="currentColor" stroke-width="1.2" opacity=".35"/>
+    <path class="mm-body" d="M 291 221 C 290 226 287 229 284 231 C 282 232 282 235 285 235 L 297 235 C 298 231 298 226 297 221" fill="none" stroke="currentColor" stroke-width="1.2" opacity=".35"/>
+    <path class="mm-body" d="M 309 221 C 310 226 313 229 316 231 C 318 232 318 235 315 235 L 303 235 C 302 231 302 226 303 221" fill="none" stroke="currentColor" stroke-width="1.2" opacity=".35"/>
+    <path class="mm-part" data-m="Trapecio" d="M 300 48 C 293 49 288 53 286 58 C 291 62 294.5 69 297 78 C 298.5 81 301.5 81 303 78 C 305.5 69 309 62 314 58 C 312 53 307 49 300 48 Z" fill="currentColor"/>
+    <ellipse class="mm-part" data-m="Delt posterior" cx="276.5" cy="63" rx="5.8" ry="8.5" transform="rotate(-15 276.5 63)" fill="currentColor"/>
+    <ellipse class="mm-part" data-m="Delt posterior" cx="323.5" cy="63" rx="5.8" ry="8.5" transform="rotate(15 323.5 63)" fill="currentColor"/>
+    <ellipse class="mm-part" data-m="Escapular" cx="287.5" cy="73" rx="5" ry="4" transform="rotate(-18 287.5 73)" fill="currentColor"/>
+    <ellipse class="mm-part" data-m="Escapular" cx="312.5" cy="73" rx="5" ry="4" transform="rotate(18 312.5 73)" fill="currentColor"/>
+    <path class="mm-part" data-m="Espalda" d="M 296 82 C 288 84 282 89 281 96 C 280 104 285 111 292 112 C 296 112 298 107 298 99 C 298 92 297 86 296 82 Z" fill="currentColor"/>
+    <path class="mm-part" data-m="Espalda" d="M 304 82 C 312 84 318 89 319 96 C 320 104 315 111 308 112 C 304 112 302 107 302 99 C 302 92 303 86 304 82 Z" fill="currentColor"/>
+    <ellipse class="mm-part" data-m="Triceps" cx="268" cy="95" rx="4" ry="13" transform="rotate(-3 268 95)" fill="currentColor"/>
+    <ellipse class="mm-part" data-m="Triceps" cx="332" cy="95" rx="4" ry="13" transform="rotate(3 332 95)" fill="currentColor"/>
+    <ellipse class="mm-part" data-m="Gluteo" cx="293.5" cy="129" rx="6" ry="9" transform="rotate(-8 293.5 129)" fill="currentColor"/>
+    <ellipse class="mm-part" data-m="Gluteo" cx="306.5" cy="129" rx="6" ry="9" transform="rotate(8 306.5 129)" fill="currentColor"/>
+    <ellipse class="mm-part" data-m="Abductor" cx="283.6" cy="131" rx="2.8" ry="7.5" transform="rotate(-12 283.6 131)" fill="currentColor"/>
+    <ellipse class="mm-part" data-m="Abductor" cx="316.4" cy="131" rx="2.8" ry="7.5" transform="rotate(12 316.4 131)" fill="currentColor"/>
+    <path class="mm-part" data-m="Femoral" d="M 291 141 C 296 143 297 152 296 162 C 295 171 293 176 291 177 C 288 176 286 171 285 162 C 284 152 286 143 291 141 Z" fill="currentColor"/>
+    <path class="mm-part" data-m="Femoral" d="M 309 141 C 304 143 303 152 304 162 C 305 171 307 176 309 177 C 312 176 314 171 315 162 C 316 152 314 143 309 141 Z" fill="currentColor"/>
+    <ellipse class="mm-part" data-m="Pantorrilla" cx="291" cy="199" rx="4.6" ry="12.5" transform="rotate(-2 291 199)" fill="currentColor"/>
+    <ellipse class="mm-part" data-m="Pantorrilla" cx="309" cy="199" rx="4.6" ry="12.5" transform="rotate(2 309 199)" fill="currentColor"/>
+    <text x="300" y="250" font-size="9" fill="currentColor" opacity=".5" text-anchor="middle">Espalda</text>
+  </g>
+</svg>
