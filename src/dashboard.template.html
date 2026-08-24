@@ -7,6 +7,10 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="Entreno">
 <meta name="theme-color" content="#1B2024">
+<script>
+// se aplica antes de pintar: si no, la pagina parpadea del tema del sistema al elegido
+(function(){try{var v=localStorage.getItem('tema');if(v==='dark'||v==='light')document.documentElement.dataset.theme=v;}catch(e){}})();
+</script>
 <style>
 @font-face{font-family:'Oswald';font-weight:600;font-style:normal;src:url(data:font/woff2;base64,{{OSWALD_600}}) format('woff2');font-display:swap;}
 @font-face{font-family:'Oswald';font-weight:700;font-style:normal;src:url(data:font/woff2;base64,{{OSWALD_700}}) format('woff2');font-display:swap;}
@@ -441,6 +445,9 @@ details.callout[open]>summary.herosum::after{ content:'▴'; }
 .isheet-x{ position:absolute; top:12px; right:12px; background:none; border:none; color:var(--ink-faint);
   font-size:16px; cursor:pointer; padding:4px 8px; }
 .isheet-note{ font-size:12px; color:var(--ink-faint); line-height:1.6; margin:14px 0 0; }
+.temabtn{ font-family:'IBM Plex Sans',sans-serif; font-size:12px; font-weight:600; padding:8px 13px; border-radius:100px;
+  border:1px solid var(--border); background:var(--surface-2); color:var(--ink-muted); cursor:pointer; white-space:nowrap; }
+.temabtn:hover{ color:var(--ink); border-color:var(--ink-faint); }
 </style>
 
 <div class="wrap">
@@ -454,6 +461,7 @@ details.callout[open]>summary.herosum::after{ content:'▴'; }
     </div>
     <div class="headright">
       <div class="profile-switch" id="profileSwitch"></div>
+      <button id="btnTema" class="temabtn" title="Cambiar entre claro, oscuro y automático"></button>
       <button id="btnInstalar" class="installbtn" hidden>Instalar como app</button>
       <div class="chips" id="profileChips"></div>
     </div>
@@ -1402,6 +1410,27 @@ details.callout[open]>summary.herosum::after{ content:'▴'; }
     });
   }
 
+
+
+  // ---------------- tema claro / oscuro / automatico ----------------
+  (function(){
+    var btn=document.getElementById('btnTema');
+    if(!btn) return;
+    var ORDEN=['auto','dark','light'];
+    var ETIQUETA={auto:'◐ Automático', dark:'● Oscuro', light:'○ Claro'};
+    function leer(){ try{ return localStorage.getItem('tema') || 'auto'; }catch(e){ return 'auto'; } }
+    function aplicar(v){
+      if(v==='auto') delete document.documentElement.dataset.theme;
+      else document.documentElement.dataset.theme=v;
+      btn.textContent=ETIQUETA[v];
+      var oscuro = v==='dark' || (v==='auto' && window.matchMedia('(prefers-color-scheme: dark)').matches);
+      var meta=document.querySelector('meta[name="theme-color"]');
+      if(meta) meta.setAttribute('content', oscuro ? '#1B2024' : '#FAF9F5');
+      try{ localStorage.setItem('tema', v); }catch(e){}
+    }
+    aplicar(leer());
+    btn.onclick=function(){ aplicar(ORDEN[(ORDEN.indexOf(leer())+1) % ORDEN.length]); };
+  })();
 
   // ---------------- instalar como app ----------------
   (function(){
