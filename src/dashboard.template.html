@@ -437,6 +437,7 @@ details.callout[open]>summary.herosum::after{ content:'▴'; }
 .installbtn:hover{ background:var(--accent); color:var(--accent-ink); }
 .isheet{ position:fixed; inset:0; background:rgba(0,0,0,.62); display:flex; align-items:center; justify-content:center;
   padding:20px; z-index:60; }
+.isheet[hidden]{ display:none; }   /* sin esto, display:flex le gana al atributo hidden y el panel no se cierra */
 .isheet-card{ background:var(--surface); border:1px solid var(--border); border-radius:16px; padding:22px 20px;
   max-width:380px; width:100%; position:relative; }
 .isheet-card h3{ font-family:'Oswald',sans-serif; font-size:20px; margin:0 0 14px; color:var(--ink); }
@@ -448,6 +449,11 @@ details.callout[open]>summary.herosum::after{ content:'▴'; }
 .temabtn{ font-family:'IBM Plex Sans',sans-serif; font-size:12px; font-weight:600; padding:8px 13px; border-radius:100px;
   border:1px solid var(--border); background:var(--surface-2); color:var(--ink-muted); cursor:pointer; white-space:nowrap; }
 .temabtn:hover{ color:var(--ink); border-color:var(--ink-faint); }
+.isheet-alt{ margin-top:14px; padding-top:12px; border-top:1px dashed var(--line); font-size:12px; color:var(--ink-faint); line-height:1.7; }
+.isheet-alt b{ color:var(--ink-muted); }
+.isheet-later{ margin-top:16px; width:100%; font-family:'IBM Plex Sans',sans-serif; font-size:13px; font-weight:600;
+  padding:10px; border-radius:10px; border:1px solid var(--border); background:transparent; color:var(--ink-muted); cursor:pointer; }
+.isheet-later:hover{ color:var(--ink); border-color:var(--ink-faint); }
 </style>
 
 <div class="wrap">
@@ -480,7 +486,9 @@ details.callout[open]>summary.herosum::after{ content:'▴'; }
       <button class="isheet-x" id="isheetX" aria-label="Cerrar">✕</button>
       <h3 id="isheetTitle">Instalar en tu teléfono</h3>
       <ol id="isheetSteps"></ol>
+      <div id="isheetAlt" class="isheet-alt"></div>
       <p class="isheet-note">Queda con ícono propio, a pantalla completa y funciona sin señal — útil en el subterráneo del gimnasio.</p>
+      <button class="isheet-later" id="isheetLater">Ahora no</button>
     </div>
   </div>
 
@@ -1429,47 +1437,13 @@ details.callout[open]>summary.herosum::after{ content:'▴'; }
       try{ localStorage.setItem('tema', v); }catch(e){}
     }
     aplicar(leer());
-    btn.onclick=function(){ aplicar(ORDEN[(ORDEN.indexOf(leer())+1) % ORDEN.length]); };
-  })();
-
-  // ---------------- instalar como app ----------------
-  (function(){
-    var btn=document.getElementById('btnInstalar');
-    var sheet=document.getElementById('installSheet');
-    var pasos=document.getElementById('isheetSteps');
-    var titulo=document.getElementById('isheetTitle');
-    if(!btn) return;
-
-    var yaInstalada = window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone === true;
-    if(yaInstalada) return;                        // ya la tiene en la pantalla de inicio
-
-    var ua=navigator.userAgent;
-    var esIOS = /iPad|iPhone|iPod/.test(ua) || (navigator.platform==='MacIntel' && navigator.maxTouchPoints>1);
-    var esSafari = esIOS && !/CriOS|FxiOS|EdgiOS|OPiOS/.test(ua);
-    var prompt=null;
-
-    window.addEventListener('beforeinstallprompt', function(e){
-      e.preventDefault(); prompt=e; btn.hidden=false;   // Android/Chrome: instalacion de verdad
-    });
-
-    function abrir(html, tit){
-      titulo.textContent=tit; pasos.innerHTML=html; sheet.hidden=false;
-    }
     btn.onclick=function(){
       if(prompt){ prompt.prompt(); prompt.userChoice.then(function(){ prompt=null; btn.hidden=true; }); return; }
-      if(esIOS && esSafari){
-        abrir('<li>Toca el botón <b>Compartir</b> ⬆︎ de Safari, abajo al centro.</li>'+
-              '<li>Baja en la lista y elige <b>Añadir a pantalla de inicio</b>.</li>'+
-              '<li>Toca <b>Añadir</b> arriba a la derecha.</li>', 'Instalar en tu iPhone');
-      } else if(esIOS){
-        abrir('<li>Abre este mismo enlace en <b>Safari</b> — Chrome y Firefox en iPhone no pueden instalar apps.</li>'+
-              '<li>Ahí toca <b>Compartir</b> ⬆︎ y luego <b>Añadir a pantalla de inicio</b>.</li>', 'Ábrelo en Safari');
-      } else {
-        abrir('<li>Abre el menú <b>⋮</b> del navegador.</li>'+
-              '<li>Elige <b>Instalar aplicación</b> o <b>Añadir a pantalla de inicio</b>.</li>', 'Instalar como app');
-      }
+      abrir();
     };
-    document.getElementById('isheetX').onclick=function(){ sheet.hidden=true; };
+    function cerrar(){ document.getElementById('installSheet').hidden=true; }
+    document.getElementById('isheetX').onclick=cerrar;
+    document.getElementById('isheetLater').onclick=cerrar;
     sheet.onclick=function(e){ if(e.target===sheet) sheet.hidden=true; };
 
     // en iOS no existe beforeinstallprompt: el boton se muestra igual, con instrucciones
