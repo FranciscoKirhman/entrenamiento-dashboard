@@ -55,6 +55,7 @@
   --good:#5FBE84; --good-soft:#1B3024;
   --warning:#E0B24E; --warning-soft:#332A16;
   --critical:#E0728A; --critical-soft:#3A1E24;
+  --shadow: 0 1px 2px rgba(0,0,0,.3), 0 8px 24px -10px rgba(0,0,0,.5);
   color-scheme: dark;
 }
 :root[data-theme="light"]{
@@ -66,6 +67,7 @@
   --good:#2F7A4E; --good-soft:#DCEEE1;
   --warning:#8A5E10; --warning-soft:#F3E6C8;
   --critical:#9A2F3F; --critical-soft:#F4DCE0;
+  --shadow: 0 1px 2px rgba(20,20,20,.04), 0 6px 20px -8px rgba(20,20,20,.12);
   color-scheme: light;
 }
 
@@ -799,12 +801,34 @@ details.callout[open]>summary.herosum::after{ content:'▴'; }
   // ---------------- cycle line ----------------
   function renderCycle(profile){
     var el = document.getElementById('cycleLine');
-    if(profile.cycle){
-      el.innerHTML = '<span class="cyclebadge">'+esc(profile.cycle.badge)+'</span>';
-      el.title = profile.cycle.detail || '';
-    } else {
-      el.innerHTML = '';
+    if(!profile.cycle){ el.innerHTML = ''; return; }
+    var c = profile.cycle, texto = c.badge || '';
+    // el badge venia escrito a mano y se quedaba pegado: el dia del ciclo y la semana
+    // del mesociclo se recalculan hoy, para que no contradigan a la pestana Guia
+    if(c.fur){
+      var dia = diaDeCiclo(c.fur, c.largo || 28, todayISO());
+      texto = texto.replace(/Día\s+\d+\s+del ciclo/i, 'Día '+dia+' del ciclo');
     }
+    if(c.meso && c.meso.inicio && c.meso.total){
+      var sem = semanaDeMeso(c.meso.inicio, c.meso.total, todayISO());
+      texto = texto.replace(/Semana\s+\d+\s+de\s+\d+/i, 'Semana '+sem+' de '+c.meso.total);
+    }
+    el.innerHTML = '<span class="cyclebadge">'+esc(texto)+'</span>';
+    el.title = c.detail || '';
+  }
+
+  function semanaDeMeso(inicio, total, iso){
+    var sem=Math.floor(diasEntre(inicio, iso)/7)+1;
+    return Math.min(Math.max(sem,1), total);        // no se pasa del largo del mesociclo
+  }
+
+  // Dias enteros entre dos fechas ISO. Va por UTC a proposito: restar dos Date locales
+  // se cae con el horario de verano (Chile cambia el 6 de septiembre) y devuelve
+  // 26,96 dias en vez de 27, que al redondear hacia abajo pierde un dia entero.
+  function diasEntre(isoA, isoB){
+    var a=isoA.split('-'), b=isoB.split('-');
+    var ua=Date.UTC(+a[0], +a[1]-1, +a[2]), ub=Date.UTC(+b[0], +b[1]-1, +b[2]);
+    return Math.round((ub-ua)/86400000);
   }
 
   // ---------------- date-aware "today" (computed live, not hardcoded) ----------------
@@ -1335,8 +1359,7 @@ details.callout[open]>summary.herosum::after{ content:'▴'; }
 
   // ---------------- dónde estás ahora: mesociclo + ciclo menstrual ----------------
   function diaDeCiclo(fur, largo, iso){
-    var a=new Date(fur+'T12:00:00'), b=new Date(iso+'T12:00:00');
-    var dif=Math.floor((b-a)/86400000);
+    var dif=diasEntre(fur, iso);
     return ((dif % largo) + largo) % largo + 1;      // 1..largo
   }
   function faseDe(d, regla, largo){
