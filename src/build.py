@@ -15,7 +15,9 @@ def build():
         tpl = tpl.replace("{{"+key+"}}", b64)
     profiles = json.load(open(os.path.join(SRC,"profiles.json"), encoding="utf-8"))
     tpl = tpl.replace("__PROFILES_JSON__", json.dumps(profiles, ensure_ascii=False))
-    assert "{{" not in tpl and "__PROFILES_JSON__" not in tpl, "quedaron placeholders sin reemplazar"
+    cuerpos = json.load(open(os.path.join(SRC,"bodypaths.json"), encoding="utf-8"))
+    tpl = tpl.replace("__BODYPATHS_JSON__", json.dumps(cuerpos, ensure_ascii=False, separators=(",",":")))
+    assert "{{" not in tpl and "__PROFILES_JSON__" not in tpl and "__BODYPATHS_JSON__" not in tpl, "quedaron placeholders sin reemplazar"
     assert 'name="viewport"' in tpl, "falta el meta viewport (rompe la vista movil)"
     out = os.path.join(ROOT,"index.html")
     open(out,"w",encoding="utf-8").write(tpl)

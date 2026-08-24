@@ -23,7 +23,7 @@
 :root{
   --bg:#EEF0F1; --surface:#FFFFFF; --surface-2:#E4E7E9; --surface-3:#DBDFE1;
   --ink:#1B2024; --ink-muted:#5B646B; --ink-faint:#8A9198;
-  --border:#D7DADC; --line:#E2E5E7;
+  --border:#D7DADC; --line:#E2E5E7; --body-base:#C7CDD1;
   --accent:#C4562A; --accent-ink:#FFFFFF; --accent-soft:#F2DDD3;
   --secondary:#0E7FB0; --secondary-soft:#D6E9F0;
   --good:#2F7A4E; --good-soft:#DCEEE1;
@@ -36,7 +36,7 @@
   :root{
     --bg:#14171A; --surface:#1C2024; --surface-2:#262B30; --surface-3:#30363C;
     --ink:#E7E5DE; --ink-muted:#9AA0A6; --ink-faint:#6E7479;
-    --border:#30353A; --line:#262B30;
+    --border:#30353A; --line:#262B30; --body-base:#363D43;
     --accent:#CC6A38; --accent-ink:#14171A; --accent-soft:#3A2A20;
     --secondary:#2C97C4; --secondary-soft:#1B2E36;
     --good:#5FBE84; --good-soft:#1B3024;
@@ -49,7 +49,7 @@
 :root[data-theme="dark"]{
   --bg:#14171A; --surface:#1C2024; --surface-2:#262B30; --surface-3:#30363C;
   --ink:#E7E5DE; --ink-muted:#9AA0A6; --ink-faint:#6E7479;
-  --border:#30353A; --line:#262B30;
+  --border:#30353A; --line:#262B30; --body-base:#363D43;
   --accent:#CC6A38; --accent-ink:#14171A; --accent-soft:#3A2A20;
   --secondary:#2C97C4; --secondary-soft:#1B2E36;
   --good:#5FBE84; --good-soft:#1B3024;
@@ -60,7 +60,7 @@
 :root[data-theme="light"]{
   --bg:#EEF0F1; --surface:#FFFFFF; --surface-2:#E4E7E9; --surface-3:#DBDFE1;
   --ink:#1B2024; --ink-muted:#5B646B; --ink-faint:#8A9198;
-  --border:#D7DADC; --line:#E2E5E7;
+  --border:#D7DADC; --line:#E2E5E7; --body-base:#C7CDD1;
   --accent:#C4562A; --accent-ink:#FFFFFF; --accent-soft:#F2DDD3;
   --secondary:#0E7FB0; --secondary-soft:#D6E9F0;
   --good:#2F7A4E; --good-soft:#DCEEE1;
@@ -326,6 +326,8 @@ table.plain td.num{ text-align:right; font-family:'IBM Plex Mono'; }
 .slight.critical .dot{ background:var(--critical); }
 
 footer{ margin-top:44px; padding-top:18px; border-top:1px solid var(--border); color:var(--ink-faint); font-size:12px; display:flex; justify-content:space-between; flex-wrap:wrap; gap:8px;}
+footer a{ color:var(--ink-muted); text-decoration:underline; text-underline-offset:2px; }
+footer a:hover{ color:var(--accent); }
 
 @media (max-width:640px){
   .wrap{ padding:20px 14px 60px; }
@@ -435,6 +437,25 @@ details.callout[open]>summary.herosum::after{ content:'▴'; }
 .installbtn{ font-family:'IBM Plex Sans',sans-serif; font-size:12px; font-weight:600; padding:8px 14px; border-radius:100px;
   border:1px solid var(--accent); background:transparent; color:var(--accent); cursor:pointer; white-space:nowrap; }
 .installbtn:hover{ background:var(--accent); color:var(--accent-ink); }
+/* mapa muscular — trazados de MuscleMap (MIT, Melih Colpan), ver src/vendor/musclemap/LICENSE */
+.bodywrap{ display:flex; gap:10px; justify-content:center; align-items:flex-start; margin:0 0 22px; }
+.bodyfig{ flex:1 1 0; min-width:0; max-width:230px; text-align:center;
+  margin:0; }   /* <figure> trae margin:1em 40px del navegador y se comia la mitad del ancho en el telefono */
+.bodyfig svg{ width:100%; height:auto; display:block; }
+.bodyfig figcaption{ font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:.14em;
+  text-transform:uppercase; color:var(--ink-faint); margin-top:6px; }
+.bodyfig path{ transition:opacity .12s ease; }
+/* hilo fino solo entre musculos coloreados: sin el, dos grupos del mismo tier se funden en una mancha */
+.bodyfig path.mm-grp{ stroke:var(--surface); stroke-width:.75px; vector-effect:non-scaling-stroke; }
+.bodyfig path.mm-base{ fill:var(--body-base); }
+.bodyfig path.mm-grp{ cursor:pointer; }
+.bodyfig path.mm-grp:hover{ opacity:.72; }
+.bodyfig path.mm-good{ fill:var(--good); }
+.bodyfig path.mm-warning{ fill:var(--warning); }
+.bodyfig path.mm-critical{ fill:var(--critical); }
+.bodyfig path.mm-none{ fill:var(--body-base); }
+.bodynote{ font-size:12px; color:var(--ink-faint); text-align:center; margin:-10px 0 20px; line-height:1.6; }
+@media(max-width:520px){ .bodyfig{ max-width:none; } }
 .isheet{ position:fixed; inset:0; background:rgba(0,0,0,.62); display:flex; align-items:center; justify-content:center;
   padding:20px; z-index:60; }
 .isheet[hidden]{ display:none; }   /* sin esto, display:flex le gana al atributo hidden y el panel no se cierra */
@@ -515,6 +536,8 @@ details.callout[open]>summary.herosum::after{ content:'▴'; }
       </div>
       <p class="lede">Cada músculo tiene un rango de series semanales que le sienta bien a tu nivel — esa es la banda gris. Si la barra de color no llega al borde izquierdo, entrenaste ese músculo menos de lo que conviene. La marca vertical blanca es tu promedio histórico; la flecha compara contra la ventana de 12 días anterior.</p>
       <div class="card" id="muscleCard">
+        <div class="bodywrap" id="bodyMap"></div>
+        <p class="bodynote" id="bodyMapNote"></p>
         <div class="legend">
           <div class="lg"><span class="sw bar" style="background:var(--critical)"></span> déficit agudo</div>
           <div class="lg"><span class="sw bar" style="background:var(--warning)"></span> déficit leve/crónico</div>
@@ -684,6 +707,7 @@ details.callout[open]>summary.herosum::after{ content:'▴'; }
   <footer>
     <span id="footerSource">Fuente: Registro_historico_consolidado.md</span>
     <span>Se recalcula cada vez que agregas una sesión nueva al registro</span>
+    <span>Diagrama anatómico: <a href="https://github.com/melihcolpan/MuscleMap" rel="noopener">MuscleMap</a> de Melih Colpan, licencia MIT</span>
   </footer>
 
 </div>
@@ -694,9 +718,33 @@ details.callout[open]>summary.herosum::after{ content:'▴'; }
 (function(){
   var tooltip = document.getElementById('tooltip');
   function hideTooltip(){ tooltip.classList.remove('show'); }
+  // en el telefono el tooltip se abre con un toque: cualquier toque fuera o un scroll lo cierra
+  document.addEventListener('click', hideTooltip);
+  window.addEventListener('scroll', hideTooltip, {passive:true});
   function esc(s){ return (s==null?'':String(s)); }
 
   var PROFILES = __PROFILES_JSON__;
+  /* Trazados anatomicos derivados de MuscleMap — https://github.com/melihcolpan/MuscleMap
+     Copyright (c) 2026 Melih Colpan. Licencia MIT; el texto completo va en
+     src/vendor/musclemap/LICENSE del repositorio. Convertidos de Swift a JSON
+     por src/musclemap_convert.py; la geometria no se modifico. */
+  var BODYPATHS = __BODYPATHS_JSON__;
+  // partes estructurales: se dibujan en gris para que la figura se lea como un cuerpo
+  var BODY_BASE = ['head','hair','neck','forearm','hands','calves','knees','tibialis','ankles','feet','serratus','hip-flexors'];
+  // cada grupo del tablero -> las piezas anatomicas que le corresponden
+  var BODY_GRUPOS = [
+    {re:/pecho/i,               slugs:['chest']},
+    {re:/core/i,                slugs:['abs','obliques']},
+    {re:/b[ií]ceps/i,           slugs:['biceps']},
+    {re:/tr[ií]ceps/i,          slugs:['triceps']},
+    {re:/hombro/i,              slugs:['deltoids']},
+    {re:/espalda/i,             slugs:['upper-back','lower-back','trapezius']},
+    {re:/gl[uú]teo|cadera/i,    slugs:['gluteal']},
+    {re:/femoral/i,             slugs:['hamstring']},
+    {re:/cu[aá]driceps/i,       slugs:['quadriceps']},
+    {re:/aductor|abductor/i,    slugs:['adductors']}
+  ];
+  var BODY_GENERO = {mopo:'male', mipi:'female'};
   var TIER_LABEL = {critical:'déficit agudo', warning:'déficit leve/crónico', good:'en banda'};
   var PATTERN_LABEL = {
     ascendente_claro: 'ascendente', meseta_oscilante: 'meseta',
@@ -885,9 +933,83 @@ details.callout[open]>summary.herosum::after{ content:'▴'; }
       '<div class="tt-row"><span>Histórico</span><b class="mono">'+m.hist.toFixed(1)+'/sem</b></div>'+
       '<div class="tt-row"><span>Objetivo</span><b class="mono">'+m.lo+'–'+m.hi+'/sem</b></div>'+
       '<div style="margin-top:5px;opacity:.85">'+m.note+'</div>';
-    tooltip.style.left = e.clientX+'px';
-    tooltip.style.top = e.clientY+'px';
     tooltip.classList.add('show');
+    // se posiciona despues de mostrarlo para poder medirlo y no dejarlo cortado en el borde
+    var r = tooltip.getBoundingClientRect();
+    var x = Math.min(e.clientX + 14, window.innerWidth  - r.width  - 10);
+    var y = Math.min(e.clientY + 14, window.innerHeight - r.height - 10);
+    tooltip.style.left = Math.max(10, x)+'px';
+    tooltip.style.top  = Math.max(10, y)+'px';
+  }
+
+  // ---------------- mapa muscular ----------------
+  function renderBodyMap(profile, clave){
+    var wrap = document.getElementById('bodyMap');
+    var nota = document.getElementById('bodyMapNote');
+    wrap.innerHTML = '';
+    nota.textContent = '';
+    var cuerpo = BODYPATHS[BODY_GENERO[clave] || 'male'];
+    if(!cuerpo || !profile.hasData || !profile.MUSCLES.length){ wrap.style.display='none'; return; }
+    wrap.style.display = '';
+
+    // slug -> grupo del tablero, resuelto desde los nombres reales de este perfil
+    var porSlug = {};
+    profile.MUSCLES.forEach(function(m){
+      for(var i=0;i<BODY_GRUPOS.length;i++){
+        if(BODY_GRUPOS[i].re.test(m.name)){
+          BODY_GRUPOS[i].slugs.forEach(function(sl){ porSlug[sl] = m; });
+          return;
+        }
+      }
+    });
+
+    var NS = 'http://www.w3.org/2000/svg';
+    [['front','Frente'],['back','Espalda']].forEach(function(par){
+      var lado = par[0];
+      var vista = cuerpo[lado];
+      if(!vista) return;
+      var fig = document.createElement('figure');
+      fig.className = 'bodyfig';
+      var svg = document.createElementNS(NS,'svg');
+      svg.setAttribute('viewBox', vista.viewBox.join(' '));
+      svg.setAttribute('role','img');
+      svg.setAttribute('aria-label','Vista '+par[1]+': músculos coloreados según el déficit de series de la ventana reciente');
+
+      Object.keys(vista.parts).forEach(function(slug){
+        var m = porSlug[slug];
+        var esBase = BODY_BASE.indexOf(slug) >= 0;
+        // los subgrupos (upper-chest, inner-quad, front-deltoid...) se solapan con los grupos
+        // principales: si no son base ni grupo del tablero, no se dibujan
+        if(!m && !esBase) return;
+        vista.parts[slug].forEach(function(d){
+          var p = document.createElementNS(NS,'path');
+          p.setAttribute('d', d);
+          if(m){
+            p.setAttribute('class','mm-grp mm-'+m.tier);
+            p.addEventListener('mousemove', function(e){ showTooltip(e, m); });
+            p.addEventListener('mouseleave', hideTooltip);
+            p.addEventListener('click', function(e){ e.stopPropagation(); showTooltip(e, m); });
+            var t = document.createElementNS(NS,'title');
+            t.textContent = m.name+' — '+m.recent.toFixed(1)+' series/sem (banda '+m.lo+'–'+m.hi+') · '+TIER_LABEL[m.tier];
+            p.appendChild(t);
+          } else {
+            p.setAttribute('class','mm-base');
+          }
+          svg.appendChild(p);
+        });
+      });
+
+      var cap = document.createElement('figcaption');
+      cap.textContent = par[1];
+      fig.appendChild(svg);
+      fig.appendChild(cap);
+      wrap.appendChild(fig);
+    });
+
+    var flojos = profile.MUSCLES.filter(function(m){ return m.tier==='critical'; }).map(function(m){ return m.name; });
+    nota.innerHTML = flojos.length
+      ? 'En rojo lo que está en déficit agudo: <b>'+flojos.map(esc).join(', ')+'</b>. Gris = no se calcula acá (antebrazo, gemelo, cuello).'
+      : 'Ningún grupo en déficit agudo. Gris = no se calcula acá (antebrazo, gemelo, cuello).';
   }
 
   function renderMuscles(profile){
@@ -1397,6 +1519,7 @@ details.callout[open]>summary.herosum::after{ content:'▴'; }
     renderHero(profile);
     renderWeekCards(profile);
     renderMuscles(profile);
+    renderBodyMap(profile, key);
     renderProgCards(profile);
     renderE1RM(profile);
     renderHeatmap(profile);
