@@ -9615,8 +9615,14 @@
       }
     ],
     "cycle": {
-      "badge": "Semana 2 · Acumulación",
-      "detail": "Femoral y glúteo son el hueco de la semana (7 días en cero). Viernes posterior moderado, sábado cerro, domingo descanso."
+      "badge": "Semana 2 de 5 · Acumulación",
+      "detail": "Mesociclo de acumulación de 5 semanas, con descarga en la semana 5.",
+      "meso": {
+        "semana": 2,
+        "total": 5,
+        "deload": 5,
+        "nota": "Mesociclo de acumulación de 5 semanas. Las semanas 1 a 4 suben carga o repeticiones — **una variable a la vez, no las dos** — y la semana 5 es descarga. Vas en la 2: esta semana suben banca (a 3 series), Lat Pulldown y Leg Press, mientras Incline y el resto se consolidan."
+      }
     }
   },
   "mipi": {
@@ -19652,8 +19658,17 @@
       }
     ],
     "cycle": {
-      "badge": "Semana de recuperación · codo en rehab",
-      "detail": "Rutina revisada tras auditoría externa: 16 ago ya fue sesión real (no repetir), cero carga de codo confirmada (Dumbbell Step Up fue el gatillante real, 5 ago), cargas bajadas a lo consolidado. Fechas de ciclo desde 24 ago son proyección, no certeza."
+      "badge": "Semana 2 de 2 · codo en rehab · Día 1 del ciclo",
+      "detail": "Mesociclo puente hasta el alta del codo (29 ago). El volumen de cada semana se ajusta a la fase del ciclo — ver la pestaña Guía.",
+      "fur": "2026-07-28",
+      "largo": 27,
+      "regla": 4,
+      "meso": {
+        "semana": 2,
+        "total": 2,
+        "deload": null,
+        "nota": "Mesociclo puente de 2 semanas, del 17 al 30 de agosto, mientras el codo termina de recuperarse. **Cierra el 29 de agosto** con el alta médica. La semana 1 (17-23) fue reducida a propósito porque caía en tu fase premenstrual; esta semana 2 vuelve al volumen normal. Después del alta empieza un mesociclo nuevo, ya con tren superior."
+      }
     },
     "note": null
   }

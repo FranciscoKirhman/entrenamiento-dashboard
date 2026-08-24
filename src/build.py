@@ -13,17 +13,9 @@ def build():
     for key, slug in FONTS.items():
         b64 = open(os.path.join(SRC,"fonts",slug+".b64"), encoding="utf-8").read().strip()
         tpl = tpl.replace("{{"+key+"}}", b64)
-    # diagrama del cuerpo (opcional): si existe src/body.svg se inserta, si no queda vacio
-    body = ""
-    bpath = os.path.join(SRC, "body.svg")
-    if os.path.exists(bpath):
-        body = open(bpath, encoding="utf-8").read().strip().replace("\n", " ")
-        body = body.replace("\\", "\\\\").replace("'", "\\'")
-    tpl = tpl.replace("__BODY_SVG__", body)
-
     profiles = json.load(open(os.path.join(SRC,"profiles.json"), encoding="utf-8"))
     tpl = tpl.replace("__PROFILES_JSON__", json.dumps(profiles, ensure_ascii=False))
-    assert "{{" not in tpl and "__PROFILES_JSON__" not in tpl and "__BODY_SVG__" not in tpl, "quedaron placeholders sin reemplazar"
+    assert "{{" not in tpl and "__PROFILES_JSON__" not in tpl, "quedaron placeholders sin reemplazar"
     assert 'name="viewport"' in tpl, "falta el meta viewport (rompe la vista movil)"
     out = os.path.join(ROOT,"index.html")
     open(out,"w",encoding="utf-8").write(tpl)

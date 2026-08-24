@@ -375,11 +375,6 @@ details.callout[open]>summary.herosum::after{ content:'▴'; }
 .e1rm-delta.up{ color:var(--good); } .e1rm-delta.down{ color:var(--warning); }
 #e1rmChart{ width:100%; height:auto; display:block; margin-top:6px; }
 .e1rm-foot{ font-size:12px; color:var(--ink-muted); line-height:1.55; margin-top:8px; }
-.musclemap{ margin-top:18px; padding-top:16px; border-top:1px dashed var(--line); }
-.musclemap svg{ width:100%; max-width:360px; height:auto; display:block; margin:0 auto; color:var(--accent); }
-.mm-body{ stroke:var(--ink-muted) !important; }
-.mm-part{ transition:opacity .2s; }
-.mm-legend{ display:flex; align-items:center; justify-content:center; gap:8px; margin-top:10px; font-size:11px; color:var(--ink-muted); font-family:'IBM Plex Mono',monospace; }
 .mm-scale{ display:flex; gap:2px; }
 .mm-scale i{ width:16px; height:9px; border-radius:2px; display:block; }
 .heatwrap{ overflow-x:auto; }
@@ -387,9 +382,51 @@ details.callout[open]>summary.herosum::after{ content:'▴'; }
 .heatgrid i{ width:11px; height:11px; border-radius:2px; background:var(--line); display:block; }
 .heatmon{ display:grid; grid-auto-flow:column; gap:3px; font-size:9px; color:var(--ink-faint);
   font-family:'IBM Plex Mono',monospace; margin-bottom:4px; min-width:max-content; }
-.heatfoot{ display:flex; align-items:center; gap:8px; margin-top:10px; font-size:11px; color:var(--ink-muted); font-family:'IBM Plex Mono',monospace; }
+.heatfoot{ display:flex; align-items:center; gap:5px; flex-wrap:wrap; margin-top:12px; font-size:11px; color:var(--ink-muted); font-family:'IBM Plex Mono',monospace; }
+.hf-n{ color:var(--ink); font-weight:600; font-size:13px; }
+.hf-sep{ opacity:.4; margin:0 3px; }
+.hf-key{ display:flex; align-items:center; gap:3px; margin-left:auto; }
+.hf-key i{ width:11px; height:11px; border-radius:2px; display:block; margin-left:5px; }
 .ex-super{ font-family:'IBM Plex Mono',monospace; font-size:9.5px; font-weight:600; letter-spacing:.05em; text-transform:uppercase;
   color:var(--accent); border:1px solid var(--accent); padding:1px 6px; border-radius:100px; margin-left:8px; vertical-align:middle; }
+
+.pdet{ margin-top:8px; border-top:1px dashed var(--line); }
+.pdet>summary{ list-style:none; cursor:pointer; font-family:'IBM Plex Mono',monospace; font-size:10.5px; letter-spacing:.04em;
+  text-transform:uppercase; color:var(--ink-muted); padding:8px 0 6px; display:flex; align-items:center; }
+.pdet>summary::-webkit-details-marker{ display:none; }
+.pdet>summary::after{ content:'▾'; margin-left:auto; }
+.pdet[open]>summary::after{ content:'▴'; }
+.pstats{ display:grid; grid-template-columns:repeat(3,1fr); gap:8px; margin:4px 0 12px; }
+.pstats div{ display:flex; flex-direction:column; gap:2px; }
+.pstats b{ font-family:'Oswald',sans-serif; font-size:17px; font-weight:600; color:var(--ink); }
+.pstats b.up{ color:var(--good); } .pstats b.down{ color:var(--warning); }
+.pstats small{ font-size:10px; color:var(--ink-faint); line-height:1.3; }
+.pdet-why{ font-size:12px; color:var(--ink-muted); line-height:1.6; margin:0 0 10px; }
+.pdet-tbl td.up{ color:var(--good); } .pdet-tbl td.down{ color:var(--warning); }
+.pdet-tbl{ font-size:12px; }
+
+.estado-card{ margin-bottom:12px; }
+.est-top{ display:flex; align-items:center; gap:9px; flex-wrap:wrap; margin-bottom:12px; }
+.est-tag{ font-family:'IBM Plex Mono',monospace; font-size:9.5px; font-weight:600; letter-spacing:.06em; text-transform:uppercase;
+  background:var(--accent); color:var(--accent-ink); padding:3px 8px; border-radius:100px; }
+.est-h{ font-family:'Oswald',sans-serif; font-size:19px; font-weight:600; color:var(--ink); }
+.est-pct{ margin-left:auto; font-family:'IBM Plex Mono',monospace; font-size:12px; color:var(--ink-muted); }
+.est-fase{ margin-left:auto; font-family:'IBM Plex Mono',monospace; font-size:11px; font-weight:600; padding:3px 9px; border-radius:100px; color:#14171A; }
+.est-dots{ display:flex; gap:5px; margin-bottom:12px; }
+.est-dots i{ flex:1; height:7px; border-radius:100px; background:var(--line); display:block; }
+.est-dots i.done{ background:var(--accent); opacity:.5; }
+.est-dots i.now{ background:var(--accent); box-shadow:0 0 0 3px color-mix(in srgb, var(--accent) 25%, transparent); }
+.est-ciclo{ display:flex; gap:2px; margin-bottom:10px; }
+.est-ciclo i{ flex:1; height:26px; border-radius:3px; display:block; opacity:.55; }
+.est-ciclo i.hoy{ opacity:1; outline:2px solid var(--ink); outline-offset:2px; }
+.f-regla{ background:#D45B6A; } .f-folicular{ background:#5FB98E; } .f-ovul{ background:#E0B33C; }
+.f-lutea{ background:#5B9BD5; } .f-premens{ background:#B07AC4; }
+.est-leg{ display:flex; flex-wrap:wrap; gap:10px; margin-bottom:12px; font-size:10.5px; color:var(--ink-muted); font-family:'IBM Plex Mono',monospace; }
+.est-leg span{ display:flex; align-items:center; gap:4px; }
+.est-leg i{ width:9px; height:9px; border-radius:2px; display:block; }
+.est-txt{ font-size:13px; color:var(--ink-muted); line-height:1.65; margin:0; }
+.est-txt b{ color:var(--ink); }
+.est-nota{ font-size:11px; color:var(--ink-faint); line-height:1.5; margin:8px 0 0; }
 </style>
 
 <div class="wrap">
@@ -447,7 +484,6 @@ details.callout[open]>summary.herosum::after{ content:'▴'; }
           <div class="lg">↑↓ vs. ventana anterior</div>
         </div>
         <div id="muscleChart"></div>
-        <div class="musclemap" id="muscleMap"></div>
         <details class="tblview">
           <summary>Ver como tabla</summary>
           <div class="tblwrap">
@@ -509,6 +545,11 @@ details.callout[open]>summary.herosum::after{ content:'▴'; }
   </div>
 
   <div class="tabpanel" data-panel="guia">
+    <section id="estado">
+      <div class="section-head"><h2>Dónde estás ahora</h2><span class="hint" id="estadoHint"></span></div>
+      <div id="estadoBox"></div>
+    </section>
+
     <section id="cardio" style="margin-top:26px">
       <div class="section-head">
         <h2>Cardio y déficit</h2>
@@ -994,10 +1035,26 @@ details.callout[open]>summary.herosum::after{ content:'▴'; }
       var id = 'chart_'+idx;
       var card = document.createElement('div');
       card.className = 'pcard card';
+      var pri=c.data[0], ult=c.data[c.data.length-1];
+      var dif=ult.w-pri.w, pct=pri.w?(dif/pri.w*100):0;
       card.innerHTML =
         '<div class="phead"><h4>'+c.name+'</h4><span class="pbadge">'+(PATTERN_LABEL[c.pattern]||c.pattern)+'</span></div>'+
         '<div class="pmeta">Proyección 18 sem: '+c.lo+'–'+c.hi+' kg · n='+c.data.length+' sesiones reales</div>'+
         '<svg id="'+id+'" viewBox="0 0 300 150"></svg>'+
+        '<details class="pdet"><summary>Ver detalle</summary><div class="pdet-body">'+
+          '<div class="pstats">'+
+            '<div><b>'+ult.w+' kg</b><small>último · '+esc(ult.d)+'</small></div>'+
+            '<div><b class="'+(dif>=0?'up':'down')+'">'+(dif>=0?'+':'')+dif.toFixed(1)+' kg</b><small>'+(dif>=0?'+':'')+pct.toFixed(1)+'% desde '+esc(pri.d)+'</small></div>'+
+            '<div><b>'+Math.max.apply(null,c.data.map(function(p){return p.w;}))+' kg</b><small>máximo histórico</small></div>'+
+          '</div>'+
+          '<p class="pdet-why"><b>Por qué esa proyección:</b> '+escMd(c.rationale||'')+'</p>'+
+          '<div class="tblwrap"><table class="plain pdet-tbl"><thead><tr><th>Sesión</th><th class="num">Peso tope</th><th class="num">Cambio</th></tr></thead><tbody>'+
+          c.data.map(function(p,k){
+            var d0 = k? (p.w-c.data[k-1].w) : 0;
+            return '<tr><td>'+esc(p.d)+'</td><td class="num">'+p.w+' kg</td><td class="num '+(d0>0?'up':(d0<0?'down':''))+'">'+(k?((d0>0?'+':'')+d0.toFixed(1)):'—')+'</td></tr>';
+          }).join('')+
+          '</tbody></table></div>'+
+        '</div></details>'+
         '<div class="pchange">'+c.change+'</div>';
       grid.appendChild(card);
       renderLine(id, 'var(--accent)', c.data, {lo:c.lo, hi:c.hi, rationale:c.rationale});
@@ -1005,17 +1062,7 @@ details.callout[open]>summary.herosum::after{ content:'▴'; }
   }
 
 
-  var BODY_SVG = '__BODY_SVG__';
 
-  // los nombres del tablero no son los mismos que los del diagrama
-  var MM_ALIAS = {
-    'Glúteo / cadera':'Gluteo', 'Cuádriceps':'Cuadriceps', 'Tríceps':'Triceps', 'Bíceps':'Biceps',
-    'Hombro (empuje)':'Delt ant/lat', 'Hombro':'Delt ant/lat',
-    'Aductor / abductor':'Aductor', 'Femoral':'Femoral', 'Espalda':'Espalda', 'Pecho':'Pecho', 'Core':'Core'
-  };
-  // grupos que el diagrama pinta con el valor de otro (no los medimos por separado todavía)
-  var MM_ESPEJO = { 'Abductor':'Aductor / abductor', 'Escapular':'Espalda', 'Delt posterior':'Espalda',
-                    'Trapecio':'Espalda', 'Antebrazo':'Biceps', 'Pantorrilla':null };
 
   // ---------------- 1RM estimado (Epley) ----------------
   function e1rmOf(w, reps){
@@ -1123,6 +1170,74 @@ details.callout[open]>summary.herosum::after{ content:'▴'; }
     });
   }
 
+
+  // ---------------- dónde estás ahora: mesociclo + ciclo menstrual ----------------
+  function diaDeCiclo(fur, largo, iso){
+    var a=new Date(fur+'T12:00:00'), b=new Date(iso+'T12:00:00');
+    var dif=Math.floor((b-a)/86400000);
+    return ((dif % largo) + largo) % largo + 1;      // 1..largo
+  }
+  function faseDe(d, regla, largo){
+    if(d<=regla) return {k:'regla', t:'Menstruación'};
+    if(d<=Math.floor(largo/2)-1) return {k:'folicular', t:'Folicular'};
+    if(d<=Math.floor(largo/2)+1) return {k:'ovul', t:'Ovulación'};
+    if(d<=largo-5) return {k:'lutea', t:'Lútea media'};
+    return {k:'premens', t:'Premenstrual'};
+  }
+  var FASE_INFO = {
+    regla:     'La fuerza se mantiene — lo que baja son las ganas, no el rendimiento. Por eso el plan no recorta cargas estos días.',
+    folicular: 'Tu mejor ventana: energía alta y buena recuperación. Es donde tiene más sentido empujar cargas o buscar un récord.',
+    ovul:      'Sigue siendo buena ventana de rendimiento. Ojo con la laxitud articular en movimientos muy inestables.',
+    lutea:     'Rendimiento normal. Puede subir un poco la temperatura y el cansancio, sin que la fuerza caiga.',
+    premens:   'La ventana que tú misma reportas como la más dura: cansancio extremo y todo cuesta más. Acá el plan baja series y sube el RIR a propósito — no es que estés floja, está diseñado así.'
+  };
+
+  function renderEstado(profile){
+    var box=document.getElementById('estadoBox'), hint=document.getElementById('estadoHint');
+    if(!box) return;
+    box.innerHTML=''; if(hint) hint.textContent='';
+    var c=profile.cycle||{}, html='';
+
+    // --- mesociclo ---
+    if(c.meso){
+      var m=c.meso, pct=Math.round(m.semana/m.total*100);
+      var puntos='';
+      for(var i=1;i<=m.total;i++){
+        puntos+='<i class="'+(i<m.semana?'done':(i===m.semana?'now':''))+'" title="Semana '+i+(m.deload===i?' — descarga':'')+'"></i>';
+      }
+      html+='<div class="card estado-card">'+
+        '<div class="est-top"><span class="est-tag">Mesociclo</span><span class="est-h">Semana '+m.semana+' de '+m.total+'</span><span class="est-pct">'+pct+'%</span></div>'+
+        '<div class="est-dots">'+puntos+'</div>'+
+        '<p class="est-txt">'+escMd(m.nota||'')+'</p></div>';
+    }
+
+    // --- ciclo menstrual ---
+    if(c.fur){
+      var largo=c.largo||28, regla=c.regla||4;
+      var d=diaDeCiclo(c.fur, largo, todayISO());
+      var f=faseDe(d, regla, largo);
+      var barras='';
+      for(var k=1;k<=largo;k++){
+        var fk=faseDe(k, regla, largo);
+        barras+='<i class="f-'+fk.k+(k===d?' hoy':'')+'" title="Día '+k+' — '+fk.t+'"></i>';
+      }
+      html+='<div class="card estado-card">'+
+        '<div class="est-top"><span class="est-tag">Ciclo</span><span class="est-h">Día '+d+' de '+largo+'</span><span class="est-fase f-'+f.k+'">'+f.t+'</span></div>'+
+        '<div class="est-ciclo">'+barras+'</div>'+
+        '<div class="est-leg">'+
+          '<span><i class="f-regla"></i>Regla</span><span><i class="f-folicular"></i>Folicular</span>'+
+          '<span><i class="f-ovul"></i>Ovulación</span><span><i class="f-lutea"></i>Lútea</span><span><i class="f-premens"></i>Premenstrual</span>'+
+        '</div>'+
+        '<p class="est-txt"><b>'+f.t+'.</b> '+FASE_INFO[f.k]+'</p>'+
+        '<p class="est-nota">Proyectado desde tu última regla ('+esc(c.fur)+') con ciclo de '+largo+' días. Si no calza con la realidad, avísame y se recalcula.</p>'+
+        '</div>';
+    }
+
+    if(!html){ box.innerHTML='<div class="empty"><b>Sin datos de ciclo</b>Cuando haya un mesociclo definido aparece acá.</div>'; return; }
+    box.innerHTML=html;
+    if(hint) hint.textContent='se actualiza solo con la fecha';
+  }
+
   // ---------------- heatmap de constancia ----------------
   function renderHeatmap(profile){
     var wrap=document.getElementById('heatmap'), hint=document.getElementById('heatHint');
@@ -1133,68 +1248,45 @@ details.callout[open]>summary.herosum::after{ content:'▴'; }
 
     var porDia={};
     ses.forEach(function(s){ porDia[s.date]=(porDia[s.date]||0)+1; });
+
+    // arranca en la primera sesion real, no seis meses fijos: nada de meses vacios de relleno
+    var fechas=Object.keys(porDia).sort();
+    var ini=new Date(fechas[0]+'T12:00:00');
+    ini.setDate(1);                                  // desde el 1 de ese mes
+    while(ini.getDay()!==1) ini.setDate(ini.getDate()-1);  // cuadra a lunes
     var hoy=new Date(todayISO()+'T12:00:00');
-    var ini=new Date(hoy); ini.setDate(ini.getDate()-181);       // ~6 meses
-    while(ini.getDay()!==1) ini.setDate(ini.getDate()-1);        // arranca en lunes
 
     var MES=['ene','feb','mar','abr','may','jun','jul','ago','sep','oct','nov','dic'];
     var meses=document.createElement('div'); meses.className='heatmon';
     var grid=document.createElement('div'); grid.className='heatgrid';
-    var cur=new Date(ini), total=0, ultimoMes=-1, semanas=0;
+    var cur=new Date(ini), total=0, ultimoMes=-1, semanas=0, maxDia=0, diasCon=0;
     while(cur<=hoy){
       if(cur.getDay()===1){
         semanas++;
         var et=document.createElement('span');
-        et.textContent = (cur.getMonth()!==ultimoMes) ? MES[cur.getMonth()] : '';
+        et.textContent=(cur.getMonth()!==ultimoMes)?MES[cur.getMonth()]:'';
         ultimoMes=cur.getMonth(); meses.appendChild(et);
       }
       var iso=cur.getFullYear()+'-'+String(cur.getMonth()+1).padStart(2,'0')+'-'+String(cur.getDate()).padStart(2,'0');
-      var n=porDia[iso]||0; total+=n;
+      var n=porDia[iso]||0; total+=n; if(n>0) diasCon++; if(n>maxDia) maxDia=n;
       var cel=document.createElement('i');
-      if(n>0){
-        cel.style.background='var(--accent)';
-        cel.style.opacity = n>=2 ? 1 : 0.62;
-      }
-      cel.title = iso + (n ? (' — '+n+(n>1?' sesiones':' sesión')) : ' — sin entrenar');
+      if(n>0){ cel.style.background='var(--accent)'; cel.style.opacity=n>=2?1:0.6; }
+      cel.title=iso+(n?(' — '+n+(n>1?' sesiones':' sesión')):' — sin entrenar');
       grid.appendChild(cel);
       cur.setDate(cur.getDate()+1);
     }
     meses.style.gridTemplateColumns='repeat('+semanas+',14px)';
     wrap.appendChild(meses); wrap.appendChild(grid);
 
+    var dias=Math.round((hoy-ini)/86400000)+1;
     var pie=document.createElement('div'); pie.className='heatfoot';
-    pie.innerHTML='<span>'+total+' sesiones en ~6 meses</span><span style="margin-left:auto">menos</span>'+
-      '<span class="mm-scale"><i style="background:var(--line)"></i><i style="background:var(--accent);opacity:.62"></i><i style="background:var(--accent)"></i></span><span>más</span>';
+    pie.innerHTML='<span class="hf-n">'+total+'</span><span>sesiones en '+dias+' días</span>'+
+      '<span class="hf-sep">·</span><span class="hf-n">'+(total/(dias/7)).toFixed(1)+'</span><span>por semana</span>'+
+      '<span class="hf-key"><i style="background:var(--line)"></i>0'+
+      '<i style="background:var(--accent);opacity:.6"></i>1'+
+      '<i style="background:var(--accent)"></i>'+(maxDia>=2?'2+':'2')+'</span>';
     wrap.appendChild(pie);
-    hint.textContent='últimos 6 meses · un cuadro por día';
-  }
-
-  // ---------------- mapa muscular ----------------
-  function renderMuscleMap(profile){
-    var wrap=document.getElementById('muscleMap');
-    if(!wrap) return;
-    wrap.innerHTML='';
-    if(!profile.hasData || !profile.MUSCLES || !profile.MUSCLES.length || typeof BODY_SVG === 'undefined') return;
-    wrap.innerHTML = BODY_SVG +
-      '<div class="mm-legend"><span>menos trabajo</span><span class="mm-scale">'+
-      '<i style="background:var(--accent);opacity:.15"></i><i style="background:var(--accent);opacity:.4"></i>'+
-      '<i style="background:var(--accent);opacity:.7"></i><i style="background:var(--accent);opacity:1"></i>'+
-      '</span><span>más</span></div>';
-
-    var porGrupo={};
-    profile.MUSCLES.forEach(function(m){ porGrupo[MM_ALIAS[m.name] || m.name] = m.recent; });
-    var vals=Object.keys(porGrupo).map(function(k){return porGrupo[k];});
-    var mx=Math.max.apply(null, vals.concat([1]));
-    wrap.querySelectorAll('.mm-part').forEach(function(el){
-      var g=el.getAttribute('data-m');
-      var v=porGrupo[g];
-      if(v == null && MM_ESPEJO[g]){ v = porGrupo[MM_ALIAS[MM_ESPEJO[g]] || MM_ESPEJO[g]]; }
-      if(v == null){ el.style.opacity=0.08; el.setAttribute('title', g+' — sin datos'); return; }
-      el.style.opacity = 0.12 + 0.88*(v/mx);
-      var ti=document.createElementNS('http://www.w3.org/2000/svg','title');
-      ti.textContent = g+' — '+v.toFixed(1)+' series/semana';
-      el.appendChild(ti);
-    });
+    hint.textContent='desde '+fechas[0].slice(8)+'/'+fechas[0].slice(5,7)+' · '+diasCon+' días entrenados';
   }
 
   // ---------------- historial completo ----------------
@@ -1267,9 +1359,9 @@ details.callout[open]>summary.herosum::after{ content:'▴'; }
     renderWeekCards(profile);
     renderMuscles(profile);
     renderProgCards(profile);
-    renderMuscleMap(profile);
     renderE1RM(profile);
     renderHeatmap(profile);
+    renderEstado(profile);
     renderHistory(profile);
 
     var n = profile.SESSIONS_FULL.length;
