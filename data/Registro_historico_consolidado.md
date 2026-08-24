@@ -1,4 +1,4 @@
-# Historial de entrenamiento por fecha — 29 de mayo al 20 de agosto de 2026
+# Historial de entrenamiento por fecha — 29 de mayo al 21 de agosto de 2026
 
 Registro cronológico consolidado. Cada fila corresponde a una serie real copiada desde Hevy. Los volúmenes oficiales se conservan sin reemplazarlos por cálculos derivados.
 
@@ -1573,3 +1573,45 @@ Registro cronológico consolidado. Cada fila corresponde a una serie real copiad
 - **Bench Press:** aproximación sin dolor, calentamiento bien, descanso 3:30 entre series.
 - **Chest Fly:** leve dolor en el hombro izquierdo después de las 2 últimas; dolor de hombro izquierdo leve persistente. **Paró de hacer series para evitar empeorarlo** (hizo 2 de las 3 programadas).
 - **Reverse Crunch:** técnica nueva, es difícil.
+
+## 21 Aug 2026 — Afternoon workout 💪
+
+**Hora:** 4:38 PM  
+**Duración:** 1h 27m  
+**Volumen Hevy:** 10,243 kg  
+
+| Orden | Ejercicio | Serie | Carga | Reps/tiempo | RPE |
+|---:|---|---:|---:|---|---:|
+| 1 | Lat Pulldown (Cable) | 1 | 61 kg | 12 | 6 |
+| 1 | Lat Pulldown (Cable) | 2 | 77,5 kg | 11 | 8,5 |
+| 1 | Lat Pulldown (Cable) | 3 | 77,5 kg | 10 | 8,5 |
+| 1 | Lat Pulldown (Cable) | 4 | 80 kg | 12 | 9 |
+| 2 | Seated Row (Machine) | 1 | 61 kg | 12 | 6 |
+| 2 | Seated Row (Machine) | 2 | 70,5 kg | 12 | 8,5 |
+| 2 | Seated Row (Machine) | 3 | 75 kg | 12 | 8,5 |
+| 2 | Seated Row (Machine) | 4 | 75 kg | 13 | 9,5 |
+| 3 | Preacher Curl (Barbell) | 1 | 30 kg | 12 | 9 |
+| 3 | Preacher Curl (Barbell) | 2 | 30 kg | 10 | 8 |
+| 4 | Face Pull | 1 | 25 kg | 15 | 7 |
+| 4 | Face Pull | 2 | 26,25 kg | 15 | 7 |
+| 5 | Cable Core Pallof Press | 1 | 15 kg | 11 | 9 |
+| 5 | Cable Core Pallof Press | 2 | 11,25 kg | 15 | 8 |
+| 5 | Cable Core Pallof Press | 3 | 12,5 kg | 15 | 8 |
+| 6 | Pull Up | 1 | Peso corporal | 8 | 8 |
+| 6 | Pull Up | 2 | Peso corporal | 11 | 9 |
+| 7 | Hollow Rock | 1 | Peso corporal | 30 s | — |
+| 7 | Hollow Rock | 2 | Peso corporal | 48 s | — |
+| 8 | Dead Bug | 1 | Peso corporal | 10 | 7 |
+| 8 | Dead Bug | 2 | Peso corporal | 10 | 7 |
+| 8 | Dead Bug | 3 | Peso corporal | 10 | 7 |
+| 9 | Lying Leg Raise | 1 | Peso corporal | 12 | 8 |
+| 9 | Lying Leg Raise | 2 | Peso corporal | 12 | 8,5 |
+| 9 | Lying Leg Raise | 3 | Peso corporal | 12 | 8,5 |
+| 10 | Plank | 1 | Peso corporal (isométrico) | 44 s | — |
+| 10 | Plank | 2 | Peso corporal (isométrico) | 53 s | — |
+| 10 | Plank | 3 | Peso corporal (isométrico) | 34 s | — |
+
+**Notas por ejercicio:**
+- **Cable Core Pallof Press:** difícil, primera vez que lo hace. Empezó con 15 kg (RPE 9) y bajó a 11,25–12,5 kg para completar las series.
+
+**Récords:** mejor peso, mejor volumen y mejor 1RM en Lat Pulldown (80 kg × 12); mejor volumen y mejor 1RM en Seated Row (75 kg × 13).

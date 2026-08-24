@@ -1145,7 +1145,7 @@
         "date": "2026-08-24",
         "focus": "Posterior — femoral y glúteo",
         "tag": null,
-        "rationale": "Acá va el posterior que estaba puesto para el viernes. Femoral y glúteo son el hueco real (sin tocarse desde el 14 de agosto), y el lunes los entrenas con las piernas descansadas del cerro del sábado y el domingo libre — mejor rendimiento que apurarlos el viernes. Vuelve el volumen completo: el recorte del viernes era por el cerro, acá no aplica.",
+        "rationale": "🤝 **Día para entrenar con Mipi.** Los dos parten con Hip Thrust **a 100 kg y 3 min de descanso** — misma barra, mismos discos, alternando series. Ella hace 3×8 y tú 3×10-12, así que te tocará una serie un poco más larga.\n\nAcá va el posterior que estaba puesto para el viernes. Femoral y glúteo son el hueco real (sin tocarse desde el 14 de agosto), y el lunes los entrenas con las piernas descansadas del cerro del sábado y el domingo libre — mejor rendimiento que apurarlos el viernes. Vuelve el volumen completo: el recorte del viernes era por el cerro, acá no aplica.",
         "cardio": "Escaleras 12-15 min, RPE 5.",
         "warmup": [
           {
@@ -1618,7 +1618,7 @@
         "date": "2026-08-26",
         "focus": "Legs — cuádriceps",
         "tag": null,
-        "rationale": "Sentadilla vuelve a barra libre: la última con barra fue el 13 a 85×10×3 a RPE 8,5. **Corregido tras auditoría**: Leg Press se queda en 160 kg hasta completar las 3 series de 12 con técnica pareja — el 19 la serie 3 cayó a 10 repeticiones.",
+        "rationale": "🤝 **Día para entrenar con Mipi.** Comparten la prensa: tú a 160 kg y ella a 105, alternando series mientras el otro descansa (tú 3 min, ella 2:30 — calza casi solo). Ojo con dejar la máquina en su posición de respaldo entre series.\n\nSentadilla vuelve a barra libre: la última con barra fue el 13 a 85×10×3 a RPE 8,5. **Corregido tras auditoría**: Leg Press se queda en 160 kg hasta completar las 3 series de 12 con técnica pareja — el 19 la serie 3 cayó a 10 repeticiones.",
         "cardio": "Escaladora 10-12 min, RPE 5-6 — corto, el día ya es pesado.",
         "warmup": [
           {
@@ -1821,7 +1821,7 @@
         "date": "2026-08-27",
         "focus": "Hombro y pecho — segunda dosis (prioridad)",
         "tag": null,
-        "rationale": "Segunda dosis semanal de tus dos prioridades, sin repetir banca plana pesada. Press militar de pie, que es de tus favoritos, y volumen de deltoide medio, que es lo que más aporta al ancho de hombro. **Ajustado tras auditoría**: Incline se queda en 60 (no 65) porque esta semana ya sube la banca a 3 series; el press militar queda en 6-8 reps porque 40 kg te ha dado RPE 9-10; y el tríceps overhead baja a 21,25.",
+        "rationale": "🤝 *Pueden ir juntos, aunque sin ejercicios en común:* ella tiene día liviano opcional y tú hombro/pecho — con el codo aún en rehabilitación no puede acompañarte en nada de tren superior.\n\nSegunda dosis semanal de tus dos prioridades, sin repetir banca plana pesada. Press militar de pie, que es de tus favoritos, y volumen de deltoide medio, que es lo que más aporta al ancho de hombro. **Ajustado tras auditoría**: Incline se queda en 60 (no 65) porque esta semana ya sube la banca a 3 series; el press militar queda en 6-8 reps porque 40 kg te ha dado RPE 9-10; y el tríceps overhead baja a 21,25.",
         "cardio": "Escaladora 15-20 min, RPE 5.",
         "warmup": [
           {
@@ -2279,7 +2279,7 @@
         "date": "2026-08-29",
         "focus": "Brazos y core — sesión corta",
         "tag": null,
-        "rationale": "Corta a propósito: los fines de semana el gimnasio cierra a las 4, así que este día cabe en menos de una hora y el cardio queda opcional. Brazos directo, que sube poco la fatiga general.",
+        "rationale": "🤝 **Día para entrenar con Mipi.** Trabajo distinto (tú brazos, ella pierna técnica) pero pueden ir juntos: el bloque de core del final quedó igual al de ella para que lo hagan a la par, y los dos cierran con escaleras.\n\nCorta a propósito: los fines de semana el gimnasio cierra a las 4, así que este día cabe en menos de una hora y el cardio queda opcional. Brazos directo, que sube poco la fatiga general.",
         "cardio": "Opcional — si alcanzas antes del cierre, 15 min de escaladora. Si no, sáltalo.",
         "warmup": [
           {
@@ -2435,29 +2435,56 @@
             ]
           },
           {
-            "name": "Plancha con disco",
-            "notes": "Plancha con un disco en la espalda alta. Costillas abajo, glúteo apretado.",
+            "name": "Plancha frontal",
+            "notes": "Igual que la de Mipi, para hacerla juntos. Codos bajo los hombros, glúteo apretado y costillas abajo; corta cuando la cadera empiece a caer.",
             "sets": [
               {
                 "serie": "1",
-                "carga": "Peso corporal o disco",
-                "reps": "45 s",
+                "carga": "Peso corporal",
+                "reps": "30-40 s",
                 "rir": "RPE 7-8",
-                "descanso": "90s"
+                "descanso": "60s"
               },
               {
                 "serie": "2",
-                "carga": "Peso corporal o disco",
-                "reps": "45 s",
+                "carga": "Peso corporal",
+                "reps": "30-40 s",
                 "rir": "RPE 7-8",
-                "descanso": "90s"
+                "descanso": "60s"
               },
               {
                 "serie": "3",
-                "carga": "Peso corporal o disco",
-                "reps": "45 s",
+                "carga": "Peso corporal",
+                "reps": "30-40 s",
                 "rir": "RPE 7-8",
-                "descanso": "90s"
+                "descanso": "60s"
+              }
+            ]
+          },
+          {
+            "name": "Dead Bug",
+            "notes": "Se suma para que coincida con el core de Mipi. Boca arriba, brazos al techo y rodillas en 90°; baja brazo y pierna contraria manteniendo la lumbar pegada al suelo.",
+            "sets": [
+              {
+                "serie": "1",
+                "carga": "Peso corporal",
+                "reps": "10 por lado",
+                "rir": "3",
+                "descanso": "45s"
+              },
+              {
+                "serie": "2",
+                "carga": "Peso corporal",
+                "reps": "10 por lado",
+                "rir": "3",
+                "descanso": "45s"
+              },
+              {
+                "serie": "3",
+                "carga": "Peso corporal",
+                "reps": "10 por lado",
+                "rir": "2",
+                "descanso": "45s"
               }
             ]
           }
@@ -2676,12 +2703,16 @@
           {
             "d": "17 ago",
             "w": 77.5
+          },
+          {
+            "d": "21 ago",
+            "w": 80.0
           }
         ],
         "pattern": "meseta_oscilante",
-        "lo": 80,
+        "lo": 82,
         "hi": 92,
-        "change": "Si el peso tope no sube mucho, lo que debería mejorar es la consistencia en tocar 82-87kg cada semana (en vez de caer a 63-68kg como pasaba en junio), llegar a 10 reps en vez de 8 con esa carga, y sentir menor RPE al mismo peso.",
+        "change": "Récord el 21 de agosto: 80 kg × 12 a RPE 9, después de dos series a 77,5. Banda movida a 82–92 kg.",
         "rationale": "Los datos muestran alta variabilidad sesión a sesión (extremos de 54 a 101kg, y luego un rango de 63.5-89kg entre el 13/6 y el 3/8, CV~11%) sin progresión lineal clara, pero las últimas 4 sesiones (75, 77.5, 77.5, 87kg) se agrupan en la banda alta cerca del rango ya objetivo del plan (82-87kg), indicando que el atleta llegó a una meseta oscilante en ese nivel más que una tendencia ascendente sostenida. Para un avanzado en déficit/mantenimiento sin superávit calórico, la evidencia de fuerza predice ganancias lentas y no lineales, por lo que proyectar 80-92kg a 18 semanas (apenas ~5kg sobre el mejor dato histórico de 89kg) es conservador y realista, no una extrapolación optimista de la mejor sesión."
       },
       {
@@ -9399,6 +9430,186 @@
             "rpe": "—"
           }
         ]
+      },
+      {
+        "date": "2026-08-21",
+        "dlabel": "21 ago",
+        "title": "Afternoon workout 💪",
+        "hora": "4:38 PM",
+        "dur": "1h 27m",
+        "vol": "10,243",
+        "com": null,
+        "rec": "mejor peso, mejor volumen y mejor 1RM en Lat Pulldown (80 kg × 12); mejor volumen y mejor 1RM en Seated Row (75 kg × 13).",
+        "exercises": [
+          {
+            "ej": "Lat Pulldown (Cable)",
+            "carga": "61",
+            "reps": "12",
+            "rpe": "6"
+          },
+          {
+            "ej": "Lat Pulldown (Cable)",
+            "carga": "77,5",
+            "reps": "11",
+            "rpe": "8,5"
+          },
+          {
+            "ej": "Lat Pulldown (Cable)",
+            "carga": "77,5",
+            "reps": "10",
+            "rpe": "8,5"
+          },
+          {
+            "ej": "Lat Pulldown (Cable)",
+            "carga": "80",
+            "reps": "12",
+            "rpe": "9"
+          },
+          {
+            "ej": "Seated Row (Machine)",
+            "carga": "61",
+            "reps": "12",
+            "rpe": "6"
+          },
+          {
+            "ej": "Seated Row (Machine)",
+            "carga": "70,5",
+            "reps": "12",
+            "rpe": "8,5"
+          },
+          {
+            "ej": "Seated Row (Machine)",
+            "carga": "75",
+            "reps": "12",
+            "rpe": "8,5"
+          },
+          {
+            "ej": "Seated Row (Machine)",
+            "carga": "75",
+            "reps": "13",
+            "rpe": "9,5"
+          },
+          {
+            "ej": "Preacher Curl (Barbell)",
+            "carga": "30",
+            "reps": "12",
+            "rpe": "9"
+          },
+          {
+            "ej": "Preacher Curl (Barbell)",
+            "carga": "30",
+            "reps": "10",
+            "rpe": "8"
+          },
+          {
+            "ej": "Face Pull",
+            "carga": "25",
+            "reps": "15",
+            "rpe": "7"
+          },
+          {
+            "ej": "Face Pull",
+            "carga": "26,25",
+            "reps": "15",
+            "rpe": "7"
+          },
+          {
+            "ej": "Cable Core Pallof Press",
+            "carga": "15",
+            "reps": "11",
+            "rpe": "9"
+          },
+          {
+            "ej": "Cable Core Pallof Press",
+            "carga": "11,25",
+            "reps": "15",
+            "rpe": "8"
+          },
+          {
+            "ej": "Cable Core Pallof Press",
+            "carga": "12,5",
+            "reps": "15",
+            "rpe": "8"
+          },
+          {
+            "ej": "Pull Up",
+            "carga": "Peso corporal",
+            "reps": "8",
+            "rpe": "8"
+          },
+          {
+            "ej": "Pull Up",
+            "carga": "Peso corporal",
+            "reps": "11",
+            "rpe": "9"
+          },
+          {
+            "ej": "Hollow Rock",
+            "carga": "Peso corporal",
+            "reps": "30 s",
+            "rpe": "—"
+          },
+          {
+            "ej": "Hollow Rock",
+            "carga": "Peso corporal",
+            "reps": "48 s",
+            "rpe": "—"
+          },
+          {
+            "ej": "Dead Bug",
+            "carga": "Peso corporal",
+            "reps": "10",
+            "rpe": "7"
+          },
+          {
+            "ej": "Dead Bug",
+            "carga": "Peso corporal",
+            "reps": "10",
+            "rpe": "7"
+          },
+          {
+            "ej": "Dead Bug",
+            "carga": "Peso corporal",
+            "reps": "10",
+            "rpe": "7"
+          },
+          {
+            "ej": "Lying Leg Raise",
+            "carga": "Peso corporal",
+            "reps": "12",
+            "rpe": "8"
+          },
+          {
+            "ej": "Lying Leg Raise",
+            "carga": "Peso corporal",
+            "reps": "12",
+            "rpe": "8,5"
+          },
+          {
+            "ej": "Lying Leg Raise",
+            "carga": "Peso corporal",
+            "reps": "12",
+            "rpe": "8,5"
+          },
+          {
+            "ej": "Plank",
+            "carga": "Peso corporal (isométrico)",
+            "reps": "44 s",
+            "rpe": "—"
+          },
+          {
+            "ej": "Plank",
+            "carga": "Peso corporal (isométrico)",
+            "reps": "53 s",
+            "rpe": "—"
+          },
+          {
+            "ej": "Plank",
+            "carga": "Peso corporal (isométrico)",
+            "reps": "34 s",
+            "rpe": "—"
+          }
+        ]
       }
     ],
     "cycle": {
@@ -10416,7 +10627,7 @@
         "date": "2026-08-24",
         "focus": "Glúteo A (regla proyectada, día de ciclo 1)",
         "tag": null,
-        "rationale": "Reglas fijas de esta rutina: series de aproximación no cuentan como trabajo; no subir peso a mitad de sesión; una rep con rango incompleto no cuenta; si la 1a serie de trabajo queda 2 RIR por debajo del objetivo, bajar carga (Hip Thrust/Leg Press -10kg, Kickback 23->18kg, resto -> bloque inferior); si hay dolor de codo, lumbar creciente o compensación evidente, terminar el ejercicio; nunca RIR 0. El RIR prescrito es un objetivo, no un resultado garantizado -- registrar el RIR real de cada serie. Fecha de regla proyectada desde su FUR (28 jul), no confirmada. Hip Thrust vuelve a 100kg consolidado. El 9 ago ya hizo 100kg x12/13/12/8 (el x8 fue a RPE10) -- por eso el RIR objetivo baja de 3 a 2 entre series de trabajo, no se asume RIR2 desde la primera.",
+        "rationale": "🤝 **Día para entrenar con Mipi.** Coincide con el día de posterior de Mopo y los dos abren con Hip Thrust a 100 kg — pueden alternar series en la misma barra sin cambiar discos. Después cada uno sigue con lo suyo: tú búlgara y abducción, él RDL y curl femoral.\n\nReglas fijas de esta rutina: series de aproximación no cuentan como trabajo; no subir peso a mitad de sesión; una rep con rango incompleto no cuenta; si la 1a serie de trabajo queda 2 RIR por debajo del objetivo, bajar carga (Hip Thrust/Leg Press -10kg, Kickback 23->18kg, resto -> bloque inferior); si hay dolor de codo, lumbar creciente o compensación evidente, terminar el ejercicio; nunca RIR 0. El RIR prescrito es un objetivo, no un resultado garantizado -- registrar el RIR real de cada serie. Fecha de regla proyectada desde su FUR (28 jul), no confirmada. Hip Thrust vuelve a 100kg consolidado. El 9 ago ya hizo 100kg x12/13/12/8 (el x8 fue a RPE10) -- por eso el RIR objetivo baja de 3 a 2 entre series de trabajo, no se asume RIR2 desde la primera.",
         "cardio": "Escaladora 12 min, RPE 4-5.",
         "warmup": [
           {
@@ -10659,7 +10870,7 @@
         "date": "2026-08-26",
         "focus": "Pierna B (regla proyectada, día de ciclo 3)",
         "tag": null,
-        "rationale": "Reglas fijas de esta rutina: series de aproximación no cuentan como trabajo; no subir peso a mitad de sesión; una rep con rango incompleto no cuenta; si la 1a serie de trabajo queda 2 RIR por debajo del objetivo, bajar carga (Hip Thrust/Leg Press -10kg, Kickback 23->18kg, resto -> bloque inferior); si hay dolor de codo, lumbar creciente o compensación evidente, terminar el ejercicio; nunca RIR 0. El RIR prescrito es un objetivo, no un resultado garantizado -- registrar el RIR real de cada serie. Leg Press en 120kg. Se sacó Step Up de este día (ya aparece el 22 y Bulgarian el 24 -- mantenerlo acumulaba demasiado volumen directo de cuádriceps/unilateral). Solo sube el peso respecto a la semana anterior, no el peso y el número de series a la vez: Leg Press y Leg Curl quedan en 2 series de trabajo, igual que el 19. **Progresión condicional**: 120kg en Leg Press y 27,5kg en Lying Leg Curl solo si el miércoles 19 se completó con rango completo, RIR real >= objetivo, sin dolor/compensación y técnica comparable entre series. Si no se cumplió: repetir Leg Press 115kg x10 x2 y Lying Leg Curl 25kg x12 x2 exactamente igual que el 19. Kickback: mantener 23kg solo si no cruza la pierna ni usa espalda -- si no, bajar a 18kg x12 x2.",
+        "rationale": "🤝 **Día para entrenar con Mipi.** Coincide con el día de cuádriceps de Mopo. Comparten la prensa alternando series (él 160 kg, tú 105) — mientras uno empuja el otro descansa.\n\nReglas fijas de esta rutina: series de aproximación no cuentan como trabajo; no subir peso a mitad de sesión; una rep con rango incompleto no cuenta; si la 1a serie de trabajo queda 2 RIR por debajo del objetivo, bajar carga (Hip Thrust/Leg Press -10kg, Kickback 23->18kg, resto -> bloque inferior); si hay dolor de codo, lumbar creciente o compensación evidente, terminar el ejercicio; nunca RIR 0. El RIR prescrito es un objetivo, no un resultado garantizado -- registrar el RIR real de cada serie. Leg Press en 120kg. Se sacó Step Up de este día (ya aparece el 22 y Bulgarian el 24 -- mantenerlo acumulaba demasiado volumen directo de cuádriceps/unilateral). Solo sube el peso respecto a la semana anterior, no el peso y el número de series a la vez: Leg Press y Leg Curl quedan en 2 series de trabajo, igual que el 19. **Progresión condicional**: 120kg en Leg Press y 27,5kg en Lying Leg Curl solo si el miércoles 19 se completó con rango completo, RIR real >= objetivo, sin dolor/compensación y técnica comparable entre series. Si no se cumplió: repetir Leg Press 115kg x10 x2 y Lying Leg Curl 25kg x12 x2 exactamente igual que el 19. Kickback: mantener 23kg solo si no cruza la pierna ni usa espalda -- si no, bajar a 18kg x12 x2.",
         "cardio": "Escaladora 15 min, RPE 4-5.",
         "warmup": [
           {
@@ -10905,7 +11116,7 @@
         "date": "2026-08-27",
         "focus": "Accesorio liviano + core (opcional)",
         "tag": null,
-        "rationale": "Opcional, mismo criterio que el jueves 20 -- liviano a propósito, salteable.",
+        "rationale": "🤝 *Pueden ir juntos:* Mopo tiene hombro y pecho ese día. Tú vas con tu sesión liviana, sin tocar nada de tren superior hasta el alta del 29.\n\nOpcional, mismo criterio que el jueves 20 -- liviano a propósito, salteable.",
         "cardio": "Escaladora o caminadora 15-20 min, RPE 4.",
         "warmup": [
           {
@@ -11082,7 +11293,7 @@
         "date": "2026-08-29",
         "focus": "Pierna técnica + reevaluación del codo",
         "tag": null,
-        "rationale": "No se programa nada de tren superior este día -- press, remo, jalón, Face Pull o peso muerto quedan fuera hasta tener por escrito diagnóstico, movimientos autorizados, carga inicial y criterio de progresión del profesional tratante. La fecha de alta no es, por sí sola, autorización. Sentadilla se mantiene en peso corporal a banco (no Smith): ante incertidumbre real sobre el diagnóstico, la ausencia de dolor no prueba tolerancia, mejor esperar la indicación clínica antes de reintroducir cualquier variante con barra.",
+        "rationale": "🤝 **Día para entrenar con Mipi.** Mopo va el mismo día con brazos y core. Su bloque de core quedó igual al tuyo (Dead Bug y plancha) para que lo hagan a la par, y los dos cierran con escaleras.\n\nNo se programa nada de tren superior este día -- press, remo, jalón, Face Pull o peso muerto quedan fuera hasta tener por escrito diagnóstico, movimientos autorizados, carga inicial y criterio de progresión del profesional tratante. La fecha de alta no es, por sí sola, autorización. Sentadilla se mantiene en peso corporal a banco (no Smith): ante incertidumbre real sobre el diagnóstico, la ausencia de dolor no prueba tolerancia, mejor esperar la indicación clínica antes de reintroducir cualquier variante con barra.",
         "cardio": "Escaladora 15-18 min, RPE 4-5.",
         "warmup": [
           {
