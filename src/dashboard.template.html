@@ -1,6 +1,12 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Sistema de entrenamiento</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icon-180.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Entreno">
+<meta name="theme-color" content="#1B2024">
 <style>
 @font-face{font-family:'Oswald';font-weight:600;font-style:normal;src:url(data:font/woff2;base64,{{OSWALD_600}}) format('woff2');font-display:swap;}
 @font-face{font-family:'Oswald';font-weight:700;font-style:normal;src:url(data:font/woff2;base64,{{OSWALD_700}}) format('woff2');font-display:swap;}
@@ -357,6 +363,32 @@ details.callout[open]>summary.herosum::after{ content:'▴'; }
 .herofocus{ font-family:'Oswald',sans-serif; font-size:19px; font-weight:600; letter-spacing:.01em; color:var(--ink); }
 .herobody{ margin-top:12px; }
 .drationale strong,.herolede strong,.ex-notes strong,.bk-how strong{ font-weight:600; color:var(--ink); }
+
+.e1rm-pick{ display:flex; flex-wrap:wrap; gap:6px; margin-bottom:14px; }
+.e1rm-pick button{ font-family:'IBM Plex Sans',sans-serif; font-size:12px; font-weight:500; padding:6px 11px; border-radius:100px;
+  border:1px solid var(--line); background:transparent; color:var(--ink-muted); cursor:pointer; }
+.e1rm-pick button.on{ background:var(--accent); border-color:var(--accent); color:var(--accent-ink); }
+.e1rm-top{ display:flex; align-items:baseline; gap:10px; flex-wrap:wrap; margin-bottom:4px; }
+.e1rm-big{ font-family:'Oswald',sans-serif; font-size:34px; font-weight:700; line-height:1; color:var(--ink); }
+.e1rm-unit{ font-size:14px; color:var(--ink-muted); }
+.e1rm-delta{ font-family:'IBM Plex Mono',monospace; font-size:12px; font-weight:500; }
+.e1rm-delta.up{ color:var(--good); } .e1rm-delta.down{ color:var(--warning); }
+#e1rmChart{ width:100%; height:auto; display:block; margin-top:6px; }
+.e1rm-foot{ font-size:12px; color:var(--ink-muted); line-height:1.55; margin-top:8px; }
+.musclemap{ margin-top:18px; padding-top:16px; border-top:1px dashed var(--line); }
+.musclemap svg{ width:100%; max-width:360px; height:auto; display:block; margin:0 auto; color:var(--ink); }
+.mm-part{ transition:opacity .2s; }
+.mm-legend{ display:flex; align-items:center; justify-content:center; gap:8px; margin-top:10px; font-size:11px; color:var(--ink-muted); font-family:'IBM Plex Mono',monospace; }
+.mm-scale{ display:flex; gap:2px; }
+.mm-scale i{ width:16px; height:9px; border-radius:2px; display:block; }
+.heatwrap{ overflow-x:auto; }
+.heatgrid{ display:grid; grid-auto-flow:column; grid-template-rows:repeat(7,11px); gap:3px; min-width:max-content; padding-bottom:4px; }
+.heatgrid i{ width:11px; height:11px; border-radius:2px; background:var(--line); display:block; }
+.heatmon{ display:grid; grid-auto-flow:column; gap:3px; font-size:9px; color:var(--ink-faint);
+  font-family:'IBM Plex Mono',monospace; margin-bottom:4px; min-width:max-content; }
+.heatfoot{ display:flex; align-items:center; gap:8px; margin-top:10px; font-size:11px; color:var(--ink-muted); font-family:'IBM Plex Mono',monospace; }
+.ex-super{ font-family:'IBM Plex Mono',monospace; font-size:9.5px; font-weight:600; letter-spacing:.05em; text-transform:uppercase;
+  color:var(--accent); border:1px solid var(--accent); padding:1px 6px; border-radius:100px; margin-left:8px; vertical-align:middle; }
 </style>
 
 <div class="wrap">
@@ -377,6 +409,7 @@ details.callout[open]>summary.herosum::after{ content:'▴'; }
   <nav class="tabs" id="tabNav">
     <button data-tab="hoy" class="active">Hoy</button>
     <button data-tab="progreso">Progreso</button>
+    <button data-tab="fuerza">Fuerza</button>
     <button data-tab="historial">Historial</button>
     <button data-tab="guia">Guía</button>
   </nav>
@@ -413,6 +446,7 @@ details.callout[open]>summary.herosum::after{ content:'▴'; }
           <div class="lg">↑↓ vs. ventana anterior</div>
         </div>
         <div id="muscleChart"></div>
+        <div class="musclemap" id="muscleMap"></div>
         <details class="tblview">
           <summary>Ver como tabla</summary>
           <div class="tblwrap">
@@ -435,7 +469,28 @@ details.callout[open]>summary.herosum::after{ content:'▴'; }
     </section>
   </div>
 
+  <div class="tabpanel" data-panel="fuerza">
+    <section id="e1rm">
+      <div class="section-head">
+        <h2>Fuerza estimada — 1RM por ejercicio</h2>
+        <span class="hint" id="e1rmHint"></span>
+      </div>
+      <p class="lede">El 1RM estimado combina peso y repeticiones en un solo número (fórmula de Epley), así que sube aunque no cambies el peso: hacer 80&nbsp;kg×10 vale más que 80&nbsp;kg×8. Es la mejor forma de ver si de verdad estás progresando cuando las cargas se estancan. Elige un ejercicio para ver su curva.</p>
+      <div class="card">
+        <div class="e1rm-pick" id="e1rmPick"></div>
+        <div class="e1rm-top" id="e1rmTop"></div>
+        <svg id="e1rmChart" viewBox="0 0 320 170"></svg>
+        <div class="e1rm-foot" id="e1rmFoot"></div>
+      </div>
+    </section>
+  </div>
+
   <div class="tabpanel" data-panel="historial">
+    <section id="heat">
+      <div class="section-head"><h2>Constancia</h2><span class="hint" id="heatHint"></span></div>
+      <div class="card"><div class="heatwrap" id="heatmap"></div></div>
+    </section>
+
     <section id="historial" style="margin-top:26px">
       <div class="section-head">
         <h2>Registro histórico completo</h2>
@@ -591,7 +646,7 @@ details.callout[open]>summary.herosum::after{ content:'▴'; }
       return '<tr><td>'+esc(s.serie)+'</td><td>'+esc(s.carga)+'</td><td>'+esc(s.reps)+'</td><td class="rir">'+esc(rirCell)+'</td><td>'+esc(s.descanso)+'</td></tr>';
     }).join('');
     return '<div class="ex-block">'+
-      '<h5>'+esc(ex.name)+'</h5>'+
+      '<h5>'+esc(ex.name)+(ex.superset ? '<span class="ex-super" title="Superserie: encadénalo con el siguiente ejercicio y descansa recién al terminar los dos">superserie</span>' : '')+'</h5>'+
       '<div class="tblwrap"><table class="settable">'+
       '<thead><tr><th>Serie</th><th>Carga</th><th>Reps</th><th>RIR</th><th>Descanso</th></tr></thead>'+
       '<tbody>'+rows+'</tbody></table></div>'+
@@ -948,6 +1003,199 @@ details.callout[open]>summary.herosum::after{ content:'▴'; }
     });
   }
 
+
+  var BODY_SVG = '__BODY_SVG__';
+
+  // los nombres del tablero no son los mismos que los del diagrama
+  var MM_ALIAS = {
+    'Glúteo / cadera':'Gluteo', 'Cuádriceps':'Cuadriceps', 'Tríceps':'Triceps', 'Bíceps':'Biceps',
+    'Hombro (empuje)':'Delt ant/lat', 'Hombro':'Delt ant/lat',
+    'Aductor / abductor':'Aductor', 'Femoral':'Femoral', 'Espalda':'Espalda', 'Pecho':'Pecho', 'Core':'Core'
+  };
+  // grupos que el diagrama pinta con el valor de otro (no los medimos por separado todavía)
+  var MM_ESPEJO = { 'Abductor':'Aductor / abductor', 'Escapular':'Espalda', 'Delt posterior':'Espalda',
+                    'Trapecio':'Espalda', 'Antebrazo':'Biceps', 'Pantorrilla':null };
+
+  // ---------------- 1RM estimado (Epley) ----------------
+  function e1rmOf(w, reps){
+    if(!(w > 0) || !(reps > 0) || reps > 15) return 0;   // sobre 15 reps la formula deja de ser fiable
+    return w * (1 + reps / 30);
+  }
+  function numCarga(c){
+    if(c == null) return 0;
+    var s = String(c).replace(/\s|kg/gi,'').replace(',', '.');
+    return /^[\d.]+$/.test(s) ? parseFloat(s) : 0;
+  }
+  // serie de 1RM estimado por ejercicio, tomando el mejor set de cada sesion
+  function e1rmSeries(profile){
+    var porEj = {};
+    (profile.SESSIONS_FULL || []).forEach(function(s){
+      var mejorPorEj = {};
+      (s.exercises || []).forEach(function(e){
+        var w = numCarga(e.carga), r = parseInt(e.reps, 10);
+        var v = e1rmOf(w, r);
+        if(v > 0 && v > (mejorPorEj[e.ej] || 0)) mejorPorEj[e.ej] = v;
+      });
+      Object.keys(mejorPorEj).forEach(function(ej){
+        (porEj[ej] = porEj[ej] || []).push({ d: s.dlabel, date: s.date, v: Math.round(mejorPorEj[ej] * 10) / 10 });
+      });
+    });
+    return Object.keys(porEj)
+      .filter(function(ej){ return porEj[ej].length >= 3; })   // con menos de 3 puntos no hay curva que mirar
+      .map(function(ej){ return { name: ej, pts: porEj[ej] }; })
+      .sort(function(a,b){ return b.pts.length - a.pts.length; });
+  }
+
+  var _e1rmSel = null;
+  function renderE1RM(profile){
+    var pick = document.getElementById('e1rmPick');
+    var svg  = document.getElementById('e1rmChart');
+    var top  = document.getElementById('e1rmTop');
+    var foot = document.getElementById('e1rmFoot');
+    var hint = document.getElementById('e1rmHint');
+    pick.innerHTML=''; svg.innerHTML=''; top.innerHTML=''; foot.innerHTML='';
+
+    var series = e1rmSeries(profile);
+    if(!series.length){
+      hint.textContent = 'sin datos';
+      foot.innerHTML = '<div class="empty"><b>Todavía no hay curvas</b>Hace falta al menos un ejercicio repetido en 3 sesiones distintas.</div>';
+      return;
+    }
+    hint.textContent = series.length + ' ejercicios con historial';
+    if(!_e1rmSel || !series.some(function(s){ return s.name === _e1rmSel; })) _e1rmSel = series[0].name;
+
+    series.slice(0, 14).forEach(function(s){
+      var b = document.createElement('button');
+      b.textContent = s.name.replace(/\s*\((Barbell|Machine|Cable|Dumbbell|Smith Machine)\)/,'');
+      b.title = s.name;
+      if(s.name === _e1rmSel) b.className = 'on';
+      b.onclick = function(){ _e1rmSel = s.name; renderE1RM(profile); };
+      pick.appendChild(b);
+    });
+
+    var cur = series.filter(function(s){ return s.name === _e1rmSel; })[0];
+    dibujaE1RM(svg, cur.pts);
+
+    var ult = cur.pts[cur.pts.length-1], pri = cur.pts[0];
+    var dif = ult.v - pri.v, pct = pri.v ? (dif/pri.v*100) : 0;
+    top.innerHTML = '<span class="e1rm-big">'+ult.v.toFixed(1)+'</span><span class="e1rm-unit">kg estimados · '+esc(ult.d)+'</span>'+
+      '<span class="e1rm-delta '+(dif>=0?'up':'down')+'">'+(dif>=0?'+':'')+dif.toFixed(1)+' kg ('+(dif>=0?'+':'')+pct.toFixed(1)+'%) desde '+esc(pri.d)+'</span>';
+    var max = cur.pts.reduce(function(a,b){ return b.v>a.v?b:a; }, cur.pts[0]);
+    foot.textContent = esc(cur.name)+' · '+cur.pts.length+' sesiones · máximo '+max.v.toFixed(1)+' kg el '+max.d+
+      '. Estimado desde tu mejor serie de cada sesión, solo con series de 15 repeticiones o menos.';
+  }
+
+  function dibujaE1RM(svg, pts){
+    var W=320,H=170,P={t:14,r:12,b:26,l:34};
+    var pw=W-P.l-P.r, ph=H-P.t-P.b;
+    var vs=pts.map(function(p){return p.v;});
+    var mn=Math.min.apply(null,vs), mx=Math.max.apply(null,vs);
+    if(mx===mn){ mx=mn+5; mn=Math.max(0,mn-5); }
+    var pad=(mx-mn)*0.15; var y0=Math.max(0,mn-pad), y1=mx+pad;
+    function X(i){ return P.l + (pts.length===1?pw/2:i/(pts.length-1)*pw); }
+    function Y(v){ return P.t + (1-(v-y0)/(y1-y0))*ph; }
+
+    for(var s=0;s<=3;s++){
+      var v=y0+(y1-y0)*s/3, y=Y(v);
+      svg.appendChild(svgEl('line',{x1:P.l,x2:W-P.r,y1:y,y2:y,stroke:'var(--line)','stroke-width':1}));
+      var lb=svgEl('text',{x:P.l-6,y:y+3,'text-anchor':'end','font-size':9,fill:'var(--ink-faint)','font-family':'IBM Plex Mono'});
+      lb.textContent=Math.round(v); svg.appendChild(lb);
+    }
+    var gid='e1rmgrad';
+    var defs=svgEl('defs',{}); var g=svgEl('linearGradient',{id:gid,x1:0,y1:0,x2:0,y2:1});
+    g.appendChild(svgEl('stop',{offset:'0%','stop-color':'var(--accent)','stop-opacity':0.25}));
+    g.appendChild(svgEl('stop',{offset:'100%','stop-color':'var(--accent)','stop-opacity':0}));
+    defs.appendChild(g); svg.appendChild(defs);
+
+    var d=pts.map(function(p,i){return X(i)+','+Y(p.v);}).join(' L ');
+    svg.appendChild(svgEl('path',{d:'M '+P.l+','+Y(y0)+' L '+d+' L '+X(pts.length-1)+','+Y(y0)+' Z',fill:'url(#'+gid+')',stroke:'none'}));
+    svg.appendChild(svgEl('path',{d:'M '+d,fill:'none',stroke:'var(--accent)','stroke-width':2,'stroke-linecap':'round','stroke-linejoin':'round'}));
+    pts.forEach(function(p,i){
+      var c=svgEl('circle',{cx:X(i),cy:Y(p.v),r:i===pts.length-1?3.5:2,fill:'var(--accent)'});
+      var ti=svgEl('title',{}); ti.textContent=p.d+' — '+p.v.toFixed(1)+' kg'; c.appendChild(ti);
+      svg.appendChild(c);
+    });
+    [0,pts.length-1].forEach(function(i){
+      if(pts.length<2 && i>0) return;
+      var tx=svgEl('text',{x:X(i),y:H-8,'text-anchor':i===0?'start':'end','font-size':9,fill:'var(--ink-faint)','font-family':'IBM Plex Mono'});
+      tx.textContent=pts[i].d; svg.appendChild(tx);
+    });
+  }
+
+  // ---------------- heatmap de constancia ----------------
+  function renderHeatmap(profile){
+    var wrap=document.getElementById('heatmap'), hint=document.getElementById('heatHint');
+    if(!wrap) return;
+    wrap.innerHTML='';
+    var ses=profile.SESSIONS_FULL||[];
+    if(!ses.length){ hint.textContent='sin sesiones'; return; }
+
+    var porDia={};
+    ses.forEach(function(s){ porDia[s.date]=(porDia[s.date]||0)+1; });
+    var hoy=new Date(todayISO()+'T12:00:00');
+    var ini=new Date(hoy); ini.setDate(ini.getDate()-181);       // ~6 meses
+    while(ini.getDay()!==1) ini.setDate(ini.getDate()-1);        // arranca en lunes
+
+    var MES=['ene','feb','mar','abr','may','jun','jul','ago','sep','oct','nov','dic'];
+    var meses=document.createElement('div'); meses.className='heatmon';
+    var grid=document.createElement('div'); grid.className='heatgrid';
+    var cur=new Date(ini), total=0, ultimoMes=-1, semanas=0;
+    while(cur<=hoy){
+      if(cur.getDay()===1){
+        semanas++;
+        var et=document.createElement('span');
+        et.textContent = (cur.getMonth()!==ultimoMes) ? MES[cur.getMonth()] : '';
+        ultimoMes=cur.getMonth(); meses.appendChild(et);
+      }
+      var iso=cur.getFullYear()+'-'+String(cur.getMonth()+1).padStart(2,'0')+'-'+String(cur.getDate()).padStart(2,'0');
+      var n=porDia[iso]||0; total+=n;
+      var cel=document.createElement('i');
+      if(n>0){
+        cel.style.background='var(--accent)';
+        cel.style.opacity = n>=2 ? 1 : 0.62;
+      }
+      cel.title = iso + (n ? (' — '+n+(n>1?' sesiones':' sesión')) : ' — sin entrenar');
+      grid.appendChild(cel);
+      cur.setDate(cur.getDate()+1);
+    }
+    meses.style.gridTemplateColumns='repeat('+semanas+',14px)';
+    wrap.appendChild(meses); wrap.appendChild(grid);
+
+    var pie=document.createElement('div'); pie.className='heatfoot';
+    pie.innerHTML='<span>'+total+' sesiones en ~6 meses</span><span style="margin-left:auto">menos</span>'+
+      '<span class="mm-scale"><i style="background:var(--line)"></i><i style="background:var(--accent);opacity:.62"></i><i style="background:var(--accent)"></i></span><span>más</span>';
+    wrap.appendChild(pie);
+    hint.textContent='últimos 6 meses · un cuadro por día';
+  }
+
+  // ---------------- mapa muscular ----------------
+  function renderMuscleMap(profile){
+    var wrap=document.getElementById('muscleMap');
+    if(!wrap) return;
+    wrap.innerHTML='';
+    if(!profile.hasData || !profile.MUSCLES || !profile.MUSCLES.length || typeof BODY_SVG === 'undefined') return;
+    wrap.innerHTML = BODY_SVG +
+      '<div class="mm-legend"><span>menos trabajo</span><span class="mm-scale">'+
+      '<i style="background:var(--accent);opacity:.15"></i><i style="background:var(--accent);opacity:.4"></i>'+
+      '<i style="background:var(--accent);opacity:.7"></i><i style="background:var(--accent);opacity:1"></i>'+
+      '</span><span>más</span></div>';
+
+    var porGrupo={};
+    profile.MUSCLES.forEach(function(m){ porGrupo[MM_ALIAS[m.name] || m.name] = m.recent; });
+    var vals=Object.keys(porGrupo).map(function(k){return porGrupo[k];});
+    var mx=Math.max.apply(null, vals.concat([1]));
+    wrap.querySelectorAll('.mm-part').forEach(function(el){
+      var g=el.getAttribute('data-m');
+      var v=porGrupo[g];
+      if(v == null && MM_ESPEJO[g]){ v = porGrupo[MM_ALIAS[MM_ESPEJO[g]] || MM_ESPEJO[g]]; }
+      if(v == null){ el.style.opacity=0.08; el.setAttribute('title', g+' — sin datos'); return; }
+      el.style.opacity = 0.12 + 0.88*(v/mx);
+      var ti=document.createElementNS('http://www.w3.org/2000/svg','title');
+      ti.textContent = g+' — '+v.toFixed(1)+' series/semana';
+      el.appendChild(ti);
+    });
+  }
+
   // ---------------- historial completo ----------------
   function renderHistory(profile){
     var container = document.getElementById('historyList');
@@ -1018,6 +1266,9 @@ details.callout[open]>summary.herosum::after{ content:'▴'; }
     renderWeekCards(profile);
     renderMuscles(profile);
     renderProgCards(profile);
+    renderMuscleMap(profile);
+    renderE1RM(profile);
+    renderHeatmap(profile);
     renderHistory(profile);
 
     var n = profile.SESSIONS_FULL.length;
@@ -1027,6 +1278,12 @@ details.callout[open]>summary.herosum::after{ content:'▴'; }
     document.getElementById('semanaTitle').textContent = profile.hasData ? 'Esta semana y la próxima' : 'Esta semana y la próxima — sin datos';
     hideTooltip();
     window.scrollTo(0,0);
+  }
+
+  if('serviceWorker' in navigator){
+    window.addEventListener('load', function(){
+      navigator.serviceWorker.register('sw.js').catch(function(){ /* sin conexion: no pasa nada */ });
+    });
   }
 
   renderProfile('mopo');

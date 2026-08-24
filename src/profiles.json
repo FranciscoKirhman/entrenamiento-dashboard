@@ -2335,7 +2335,7 @@
           },
           {
             "name": "Hammer Curl (Dumbbell)",
-            "notes": "Agarre neutro, suele ser más amable con el hombro que el curl supino.",
+            "notes": "Agarre neutro, suele ser más amable con el hombro que el curl supino. Encadénalo con el Triceps Pushdown: bíceps y tríceps no compiten entre sí, y te ahorra tiempo el día que el gimnasio cierra a las 4.",
             "sets": [
               {
                 "serie": "1",
@@ -2358,7 +2358,8 @@
                 "rir": "1-2",
                 "descanso": "90s"
               }
-            ]
+            ],
+            "superset": true
           },
           {
             "name": "Triceps Pushdown",
@@ -2432,7 +2433,8 @@
                 "rir": "1-2",
                 "descanso": "60s"
               }
-            ]
+            ],
+            "superset": true
           },
           {
             "name": "Plancha frontal",
@@ -10075,7 +10077,8 @@
                 "rir": "3",
                 "descanso": "45s"
               }
-            ]
+            ],
+            "superset": true
           },
           {
             "name": "Dead Bug",
@@ -10255,7 +10258,8 @@
                 "rir": "2",
                 "descanso": "60s"
               }
-            ]
+            ],
+            "superset": true
           },
           {
             "name": "Heel Taps",
@@ -10493,7 +10497,8 @@
                 "rir": "RPE 7",
                 "descanso": "60s"
               }
-            ]
+            ],
+            "superset": true
           },
           {
             "name": "Dead Bug",
@@ -10810,7 +10815,8 @@
                 "rir": "3",
                 "descanso": "45s"
               }
-            ]
+            ],
+            "superset": true
           },
           {
             "name": "V Up (o Sit Up si cuesta)",
@@ -11053,7 +11059,8 @@
                 "rir": "3",
                 "descanso": "45s"
               }
-            ]
+            ],
+            "superset": true
           },
           {
             "name": "Cable Crunch",
@@ -11233,7 +11240,8 @@
                 "rir": "3",
                 "descanso": "45s"
               }
-            ]
+            ],
+            "superset": true
           },
           {
             "name": "Heel Taps",
@@ -11469,7 +11477,8 @@
                 "rir": "RPE 7",
                 "descanso": "60s"
               }
-            ]
+            ],
+            "superset": true
           },
           {
             "name": "Dead Bug",
@@ -11597,7 +11606,8 @@
                 "rir": "RPE 7",
                 "descanso": "60s"
               }
-            ]
+            ],
+            "superset": true
           },
           {
             "name": "Dead Bug",
