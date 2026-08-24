@@ -1252,8 +1252,7 @@ details.callout[open]>summary.herosum::after{ content:'▴'; }
     // arranca en la primera sesion real, no seis meses fijos: nada de meses vacios de relleno
     var fechas=Object.keys(porDia).sort();
     var ini=new Date(fechas[0]+'T12:00:00');
-    ini.setDate(1);                                  // desde el 1 de ese mes
-    while(ini.getDay()!==1) ini.setDate(ini.getDate()-1);  // cuadra a lunes
+    while(ini.getDay()!==1) ini.setDate(ini.getDate()-1);  // lunes de la semana de la primera sesion
     var hoy=new Date(todayISO()+'T12:00:00');
 
     var MES=['ene','feb','mar','abr','may','jun','jul','ago','sep','oct','nov','dic'];
