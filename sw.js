@@ -1,6 +1,6 @@
 // Cachea el tablero para que funcione sin señal en el gimnasio.
 // Estrategia: red primero (para ver siempre el plan actualizado), cache como respaldo.
-const CACHE = 'entreno-v1';
+const CACHE = 'entreno-v2';
 const ASSETS = ['./', './index.html', './manifest.webmanifest', './icon-180.png'];
 
 self.addEventListener('install', e => {
@@ -16,13 +16,24 @@ self.addEventListener('activate', e => {
 
 self.addEventListener('fetch', e => {
   if (e.request.method !== 'GET') return;
+  const url = new URL(e.request.url);
+  if (url.origin !== location.origin) return;      // lo externo pasa sin tocar
+
+  // GitHub Pages sirve index.html con cache-control: max-age=600. Un fetch normal se
+  // resuelve desde la cache HTTP del navegador, asi que "red primero" devolvia el tablero
+  // de hasta 10 minutos atras y ademas lo guardaba como si fuera lo ultimo.
+  // cache:'reload' obliga a ir a la red de verdad; si no hay señal, cae al respaldo.
+  const aLaRed = new Request(url.href, { cache: 'reload', credentials: 'same-origin' });
+
   e.respondWith(
-    fetch(e.request)
+    fetch(aLaRed)
       .then(res => {
-        const copy = res.clone();
-        caches.open(CACHE).then(c => c.put(e.request, copy)).catch(() => {});
+        if (res && res.ok) {
+          const copia = res.clone();
+          caches.open(CACHE).then(c => c.put(url.href, copia)).catch(() => {});
+        }
         return res;
       })
-      .catch(() => caches.match(e.request).then(r => r || caches.match('./index.html')))
+      .catch(() => caches.match(url.href).then(r => r || caches.match('./index.html')))
   );
 });

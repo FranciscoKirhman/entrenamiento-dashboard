@@ -1560,7 +1560,7 @@ details.callout[open]>summary.herosum::after{ content:'▴'; }
 
   if('serviceWorker' in navigator){
     window.addEventListener('load', function(){
-      navigator.serviceWorker.register('sw.js').catch(function(){ /* sin conexion: no pasa nada */ });
+      navigator.serviceWorker.register('sw.js', {updateViaCache:'none'}).catch(function(){ /* sin conexion: no pasa nada */ });
     });
   }
 
