@@ -17,6 +17,10 @@
    {
     "k": "Series",
     "v": "3 de trabajo"
+   },
+   {
+    "k": "Leg Press base",
+    "v": "180 kg (12 reps a RPE 8, 26 ago)"
    }
   ],
   "hasData": true,
@@ -106,7 +110,7 @@
     "hi": 14,
     "tier": "warning",
     "trend": 0.0,
-    "note": "Sentadilla 90×8 y prensa el miércoles. Ojo: las dos primeras series de trabajo de prensa salieron a 180 kg sin querer, y a 12 repeticiones — es récord real, no error de registro.",
+    "note": "Sentadilla 90×8 y prensa el miércoles. **La prensa a 180 kg × 12 es marca real, no error de registro**: la hizo dos veces, a RPE 8 y 8,5. 160 quedaba en RPE 7 — o sea que la carga prescrita estaba corta. Desde el próximo día de pierna la base es 180 kg, y se queda ahí hasta completar las tres series de 12.",
     "ex": "Squat, Leg Press, Leg Extension"
    },
    {
@@ -128,7 +132,7 @@
     "hi": 22,
     "tier": "good",
     "trend": 8.1,
-    "note": "Banda subida: hacer core todos los días es una decisión, no un descuido, así que el objetivo ahora refleja eso (12–22 series efectivas por semana ≈ 2 a 4 series diarias). 19,2 cae justo dentro. Un aviso honesto: el abdomen marcado depende del porcentaje de grasa, no de sumar más series — el volumen de core ya no es el factor limitante.",
+    "note": "Banda subida a 12–22: hacer core todos los días es una decisión, no un descuido, y el objetivo ahora lo refleja (≈2 a 4 series diarias). 19,2 cae dentro. Y tienes razón en lo otro: construir el músculo abdominal ahora es lo correcto, porque cuando bajes grasa tiene que haber algo debajo que se vea. Por eso el core lleva carga real (Cable Crunch, Pallof, colgado) y no solo isométricos.",
     "ex": "Reverse Crunch, Plank"
    }
   ],
@@ -1821,7 +1825,7 @@
     "date": "2026-08-27",
     "tag": null,
     "focus": "Pull — espalda y bíceps",
-    "rationale": "**Cambio de orden respecto de lo planificado: hoy es Pull, no la segunda dosis de hombro y pecho.** La razón está en los números después de tus tres sesiones de esta semana: espalda quedó en **8,2 series/semana contra una banda de 12–16**, y el último jalón fue el 21 — seis días. Pecho (11,7) y hombro (11,1) ya están **dentro de banda** con el push del martes, así que una segunda dosis hoy los empujaría por encima mientras espalda y bíceps siguen a un tercio del objetivo. Se suma que el martes anotaste molestia en el hombro izquierdo en banca, press de hombro y elevación lateral: correr el empuje al viernes deja **tres días entre sesiones de press en vez de dos**, sin sacar nada del programa. La semana mantiene exactamente el mismo contenido, solo cambia el orden de estos dos días.",
+    "rationale": "🤝 **Día para entrenar con Mipi.** A ella le dieron el alta del codo, así que entra contigo en el **Lat Pulldown** — es su primera espalda en 50 días y va liviano (26 kg), así que pueden alternar en la misma máquina cambiando el pin. El resto de su sesión es pierna y el resto de la tuya es tirón: no calzan más que ahí, y no hacía falta moverlo.\n\n**Cambio de orden respecto de lo planificado: hoy es Pull, no la segunda dosis de hombro y pecho.** La razón está en los números después de tus tres sesiones de esta semana: espalda quedó en **8,2 series/semana contra una banda de 12–16**, y el último jalón fue el 21 — seis días. Pecho (11,7) y hombro (11,1) ya están **dentro de banda** con el push del martes, así que una segunda dosis hoy los empujaría por encima mientras espalda y bíceps siguen a un tercio del objetivo. Se suma que el martes anotaste molestia en el hombro izquierdo en banca, press de hombro y elevación lateral: correr el empuje al viernes deja **tres días entre sesiones de press en vez de dos**, sin sacar nada del programa. La semana mantiene exactamente el mismo contenido, solo cambia el orden de estos dos días.",
     "cardio": "Escaleras 15-20 min, RPE 5.",
     "warmup": [
      {
@@ -10038,8 +10042,8 @@
   "displayName": "Mipi",
   "chips": [
    {
-    "k": "Alta de codo",
-    "v": "29 ago 2026 (no auto-autoriza tren superior)"
+    "k": "Codo",
+    "v": "dado de alta · tren superior habilitado"
    },
    {
     "k": "Hip Thrust base",
@@ -10108,7 +10112,7 @@
     "hi": 24,
     "tier": "good",
     "trend": 19.2,
-    "note": "Banda subida al objetivo real: core todos los días. Durante la rehabilitación del codo el core fue casi todo el trabajo disponible, por eso 26,2 — está en el techo de la banda, no fuera de control. Igual que para Mopo: lo que marca el abdomen es el porcentaje de grasa, no más series.",
+    "note": "Banda subida a 12–24, al objetivo real: core todos los días. Durante la rehabilitación del codo fue casi todo el trabajo disponible, por eso 26,2. Con el alta, parte de ese volumen puede migrar a tren superior sin perder el objetivo: el abdomen necesita músculo debajo, y eso se construye con carga (Cable Crunch), no sumando planchas.",
     "ex": "Reverse Crunch, Dead Bug, Heel Taps"
    },
    {
@@ -10119,7 +10123,7 @@
     "hi": 14,
     "tier": "critical",
     "trend": 0.0,
-    "note": "Cero series de gimnasio en la ventana, pero el miércoles hubo **boulder** y eso es tirón de espalda con peso corporal — no aparece en el conteo porque no está en Hevy. El codo aguantó sin molestias. Alta el sábado 29.",
+    "note": "Cero series de gimnasio en la ventana y 50 días sin espalda dirigida, pero el codo está **dado de alta** y el boulder del miércoles ya fue tirón con peso corporal sin molestias. Hoy vuelve con Lat Pulldown liviano junto a Mopo. Tu tope viejo era 35,5 kg × 13 a RPE 9 — ahí está el techo al que volver, sin apuro.",
     "ex": "Lat Pulldown, Seated Row, Pull Up"
    },
    {
@@ -10130,7 +10134,7 @@
     "hi": 10,
     "tier": "critical",
     "trend": 0.0,
-    "note": "Sin trabajo desde el 6 de julio. El boulder no lo cubre. Vuelve con el alta del sábado 29.",
+    "note": "Codo dado de alta. Vuelve desde el sábado 29; el boulder no lo cubre.",
     "ex": "Bench Press, Chest Press, Chest Fly"
    },
    {
@@ -10141,7 +10145,7 @@
     "hi": 10,
     "tier": "critical",
     "trend": 0.0,
-    "note": "Sin trabajo dirigido desde el 8 de julio. El boulder del miércoles metió algo de hombro con peso corporal, sin molestias. Vuelve con el alta del sábado.",
+    "note": "Codo dado de alta. Vuelve desde el sábado 29 con el mesociclo nuevo, empezando por press con mancuernas antes que barra.",
     "ex": "Shoulder Press, Lateral Raise, Face Pull"
    },
    {
@@ -10152,7 +10156,7 @@
     "hi": 8,
     "tier": "critical",
     "trend": 0.0,
-    "note": "Cero en el conteo, pero el boulder del miércoles carga bíceps y agarre directamente, y salió sin dolor. Es el músculo que más compromete el codo, así que igual es el último que vuelve con carga externa.",
+    "note": "Codo dado de alta. Es el músculo que más lo carga, así que vuelve después de la espalda: primero tirones, después curl directo.",
     "ex": "Bicep Curl, Preacher Curl"
    },
    {
@@ -10163,7 +10167,7 @@
     "hi": 8,
     "tier": "critical",
     "trend": 0.0,
-    "note": "Cincuenta y dos días. Igual que el bíceps: espera al alta y al criterio del profesional.",
+    "note": "Codo dado de alta. Junto con el bíceps es el que más lo compromete: entra al final de la reintroducción, no al principio.",
     "ex": "Triceps Pushdown, Overhead Extension"
    }
   ],
@@ -11538,7 +11542,7 @@
     "date": "2026-08-27",
     "tag": null,
     "focus": "Pierna B",
-    "rationale": "**Día 7 del ciclo — fase folicular, tu mejor ventana.** Energía y recuperación altas. **Esta es la sesión de pierna del miércoles**, que no se hizo porque fueron a boulder. Como los entrenamientos se te han hecho fáciles y el lunes las tres series de Hip Thrust a 100 × 8 salieron a **RPE 7** cuando el objetivo era RIR 3 — o sea justo en el blanco y con margen — hoy sube el volumen, no la carga: **una tercera serie de trabajo** en prensa, kickback y curl femoral. Una variable a la vez, como dice tu propia regla. El peso se queda igual a propósito: si esas terceras series salen otra vez a RPE 7, el lunes suben los kilos. Los huecos que esto tapa son cuádriceps (5,8 contra una banda de 8–14) y femoral (3,5 contra 6–10, ocho días sin tocarlo). Nada de tren superior con carga externa hasta el alta del sábado 29 — aunque el codo aguantó bien el boulder de ayer, eso se conversa con el profesional, no se adelanta acá.",
+    "rationale": "**Codo dado de alta — vuelve el tren superior.** Entrenan juntos hoy: Mopo hace Pull y tú entras con él en el **Lat Pulldown**, que es tu primera espalda en 50 días. Va deliberadamente liviano (26 kg contra tu tope viejo de 35,5): hoy se trata de que el codo vea carga controlada, no de cansarte. El resto es la **sesión de pierna del miércoles**, que no se hizo porque fueron a boulder — y ese boulder ya te dijo que el codo aguanta peso corporal y agarre sin problema. Estás en **día 7, fase folicular**: tu mejor ventana. Como los entrenamientos se te han hecho fáciles y el lunes las tres series de Hip Thrust a 100 × 8 salieron a **RPE 7** con objetivo RIR 3 — justo en el blanco y con margen — hoy sube el volumen, no la carga: **una tercera serie de trabajo** en prensa, kickback y curl femoral. Una variable a la vez. Si esas terceras series vuelven a salir a RPE 7, el lunes suben los kilos.",
     "cardio": "Escaladora 15 min, RPE 4-5.",
     "warmup": [
      {
@@ -11648,6 +11652,33 @@
         "descanso": "2:30"
        }
       ]
+     },
+     {
+      "name": "Lat Pulldown (Cable)",
+      "sets": [
+       {
+        "serie": "Aprox.",
+        "carga": "19 kg",
+        "reps": "12",
+        "rir": "5",
+        "descanso": "60s"
+       },
+       {
+        "serie": "Trabajo 1",
+        "carga": "26 kg",
+        "reps": "12",
+        "rir": "objetivo 4",
+        "descanso": "90s"
+       },
+       {
+        "serie": "Trabajo 2",
+        "carga": "26 kg",
+        "reps": "12",
+        "rir": "objetivo 4",
+        "descanso": "90s"
+       }
+      ],
+      "cue": "Primera espalda en 50 días y primer tirón con carga externa desde el alta. Agarre ancho, codos hacia los bolsillos, sin colgarse hacia atrás. 26 kg es deliberadamente poco: tu tope viejo era 35,5 kg a RPE 9, así que esto queda en RIR 4 de sobra. El punto de hoy es que el codo vea carga controlada, no cansarte. Si sale sin nada raro, el sábado sube."
      },
      {
       "name": "Standing Cable Glute Kickback",
@@ -20485,8 +20516,8 @@
    }
   ],
   "cycle": {
-   "badge": "Semana 2 de 2 · codo en rehab · Día 4 del ciclo",
-   "detail": "Mesociclo puente hasta el alta del codo (29 ago). El volumen de cada semana se ajusta a la fase del ciclo — ver la pestaña Guía.",
+   "badge": "Semana 2 de 2 · Día 4 del ciclo",
+   "detail": "Mesociclo puente cerrado con el alta del codo. El volumen de cada semana se ajusta a la fase del ciclo — ver la pestaña Guía.",
    "fur": "2026-08-21",
    "largo": 27,
    "regla": 4,
@@ -20494,7 +20525,7 @@
     "semana": 2,
     "total": 2,
     "deload": null,
-    "nota": "Mesociclo puente de 2 semanas, del 17 al 30 de agosto, mientras el codo termina de recuperarse. **Cierra el 29 de agosto** con el alta médica. La semana 1 (17-23) se redujo a propósito porque caía en tu fase premenstrual. Esta semana 2 vuelve al volumen normal y además **te pilla en fase folicular desde el martes**, que es tu mejor ventana — si te sientes con energía, es real, no es impresión.",
+    "nota": "Mesociclo puente de 2 semanas, del 17 al 30 de agosto, mientras el codo terminaba de recuperarse. **Cerrado: el codo está dado de alta.** La semana 1 (17-23) se redujo a propósito porque caía en fase premenstrual. Esta semana 2 vuelve al volumen normal y además **te pilla en fase folicular**, tu mejor ventana. Desde el sábado 29 arranca un mesociclo nuevo con el tren superior de vuelta.",
     "inicio": "2026-08-17"
    }
   },
