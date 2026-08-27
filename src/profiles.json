@@ -10112,7 +10112,7 @@
     "hi": 24,
     "tier": "good",
     "trend": 19.2,
-    "note": "Banda subida a 12–24, al objetivo real: core todos los días. Durante la rehabilitación del codo fue casi todo el trabajo disponible, por eso 26,2. Con el alta, parte de ese volumen puede migrar a tren superior sin perder el objetivo: el abdomen necesita músculo debajo, y eso se construye con carga (Cable Crunch), no sumando planchas.",
+    "note": "Banda subida a 12–24, al objetivo real: core todos los días. Durante la rehabilitación del codo fue casi todo el trabajo disponible, por eso 26,2. **Sin Cable Crunch** — no le gusta; el trabajo lateral va con plancha lateral con elevación y el de abdomen bajo con reverse crunch y descenso de piernas lento. Ojo con una consecuencia: el Cable Crunch era el único movimiento abdominal con carga externa, y ahora el bloque es todo peso corporal. Si el objetivo es tener músculo debajo para cuando baje la grasa, en algún momento hay que volver a cargar — con una placa en el pecho en el reverse crunch, o colgado. No urge, pero conviene tenerlo presente antes de que el core sea solo isométricos.",
     "ex": "Reverse Crunch, Dead Bug, Heel Taps"
    },
    {
@@ -11482,31 +11482,31 @@
       "superset": true
      },
      {
-      "name": "Cable Crunch",
-      "notes": "De rodillas frente a la polea alta, cuerda en la nuca. Baja llevando las costillas hacia la pelvis enrollando la espalda; la cadera queda quieta. Sin tirar con los brazos — ojo con el codo, mantén los brazos pasivos.",
+      "name": "Plancha lateral con elevación",
       "sets": [
        {
         "serie": "1",
-        "carga": "20 kg",
-        "reps": "12-15",
-        "rir": "2",
+        "carga": "Peso corporal",
+        "reps": "12 por lado",
+        "rir": "3",
         "descanso": "60s"
        },
        {
         "serie": "2",
-        "carga": "20 kg",
-        "reps": "12-15",
+        "carga": "Peso corporal",
+        "reps": "12 por lado",
         "rir": "2",
         "descanso": "60s"
        },
        {
         "serie": "3",
-        "carga": "20 kg",
-        "reps": "12-15",
+        "carga": "Peso corporal",
+        "reps": "12 por lado",
         "rir": "2",
         "descanso": "60s"
        }
-      ]
+      ],
+      "cue": "De lado, codo bajo el hombro y cuerpo en línea. Baja la cadera hasta casi tocar el suelo y súbela apretando el oblicuo de abajo. Sin rotar el pecho hacia el suelo. **Reemplaza al Cable Crunch, que no te gusta** — y es el mismo que hace Mopo hoy, así que lo pueden hacer a la par."
      },
      {
       "name": "Plancha frontal",
@@ -11777,31 +11777,31 @@
       "superset": true
      },
      {
-      "name": "Cable Crunch",
-      "notes": "De rodillas frente a la polea alta, cuerda en la nuca. Baja llevando las costillas hacia la pelvis enrollando la espalda; la cadera queda quieta. Sin tirar con los brazos — ojo con el codo, mantén los brazos pasivos.",
+      "name": "Plancha lateral con elevación",
       "sets": [
        {
         "serie": "1",
-        "carga": "20 kg",
-        "reps": "12-15",
-        "rir": "2",
+        "carga": "Peso corporal",
+        "reps": "12 por lado",
+        "rir": "3",
         "descanso": "60s"
        },
        {
         "serie": "2",
-        "carga": "20 kg",
-        "reps": "12-15",
+        "carga": "Peso corporal",
+        "reps": "12 por lado",
         "rir": "2",
         "descanso": "60s"
        },
        {
         "serie": "3",
-        "carga": "20 kg",
-        "reps": "12-15",
+        "carga": "Peso corporal",
+        "reps": "12 por lado",
         "rir": "2",
         "descanso": "60s"
        }
-      ]
+      ],
+      "cue": "De lado, codo bajo el hombro y cuerpo en línea. Baja la cadera hasta casi tocar el suelo y súbela apretando el oblicuo de abajo. Sin rotar el pecho hacia el suelo. **Reemplaza al Cable Crunch, que no te gusta** — y es el mismo que hace Mopo hoy, así que lo pueden hacer a la par."
      },
      {
       "name": "Plancha frontal",
@@ -20529,7 +20529,7 @@
     "inicio": "2026-08-17"
    }
   },
-  "note": null,
+  "note": "Cable Crunch fuera: no le gusta. Alternativas válidas: rodillas al pecho, reverse crunch o plancha lateral con elevación.",
   "fuente": "Registro_historico_Mipi.md"
  }
 }
