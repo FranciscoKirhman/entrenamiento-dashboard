@@ -10653,32 +10653,31 @@
       ]
      },
      {
-      "name": "Cable Crunch",
-      "notes": "De rodillas frente a la polea alta, cuerda en la nuca. Baja llevando las costillas hacia la pelvis enrollando la espalda; la cadera queda quieta. Sin tirar con los brazos — ojo con el codo, mantén los brazos pasivos.",
+      "name": "Reverse Crunch",
       "sets": [
        {
         "serie": "1",
-        "carga": "20 kg",
-        "reps": "12-15",
-        "rir": "2",
+        "carga": "Peso corporal",
+        "reps": "15",
+        "rir": "3",
         "descanso": "60s"
        },
        {
         "serie": "2",
-        "carga": "20 kg",
-        "reps": "12-15",
+        "carga": "Peso corporal",
+        "reps": "15",
         "rir": "2",
         "descanso": "60s"
        },
        {
         "serie": "3",
-        "carga": "20 kg",
-        "reps": "12-15",
+        "carga": "Peso corporal",
+        "reps": "15",
         "rir": "2",
         "descanso": "60s"
        }
       ],
-      "superset": true
+      "cue": "Rodilla al pecho, afirmada en la barrita. Es lo que hiciste ese día en vez del Cable Crunch — el plan queda alineado con la realidad."
      },
      {
       "name": "Heel Taps",
