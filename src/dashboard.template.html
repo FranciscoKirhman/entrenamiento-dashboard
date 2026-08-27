@@ -1552,7 +1552,7 @@ details.callout[open]>summary.herosum::after{ content:'▴'; }
     var n = profile.SESSIONS_FULL.length;
     document.getElementById('histHint').textContent = n ? (n+' sesiones · más reciente primero') : 'sin sesiones aún';
     document.getElementById('muscleHint').textContent = (profile.hasData && profile.MUSCLES.length) ? 'Ventana reciente · normalizado a series/semana' : 'sin datos aún';
-    document.getElementById('footerSource').textContent = 'Fuente: Registro_historico_consolidado.md · ' + profile.displayName + (n ? (' · '+n+' sesiones') : '');
+    document.getElementById('footerSource').textContent = 'Fuente: ' + (profile.fuente || 'Registro_historico_consolidado.md') + ' · ' + profile.displayName + (n ? (' · '+n+' sesiones') : '');
     document.getElementById('semanaTitle').textContent = profile.hasData ? 'Esta semana y la próxima' : 'Esta semana y la próxima — sin datos';
     hideTooltip();
     window.scrollTo(0,0);

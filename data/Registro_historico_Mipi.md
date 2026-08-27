@@ -2134,3 +2134,13 @@ Registro cronológico consolidado, mismo formato que el de Mopo. Cada fila corre
 - **Stair Machine:** FC máx 169, nivel 5.
 
 *Entrenó junto a Francisco: los dos con Hip Thrust a 100 kg alternando en la misma barra (él 5:53 PM). Las tres series de trabajo a 100 × 8 salieron a RPE 7 — el objetivo era RIR 3/3/2, así que quedó exactamente donde debía y con margen.*
+
+## 26 Aug 2026 — Boulder 🧗
+
+**Fuente:** reportado por Francisco, no quedó registrado en Hevy — sin volumen ni duración oficiales.
+
+No hubo sesión de gimnasio este día (la pierna B se corrió al jueves 27). Sí hubo boulder por la tarde.
+
+**Notas:**
+- **Codo:** aguantó bien. Sin problema con el propio peso ni subiendo en la pared, tampoco con cargas pesadas de agarre.
+- Es la primera carga real de tren superior en unos 50 días, y salió sin molestias — dato relevante para el alta del sábado 29.

@@ -1720,3 +1720,13 @@ Registro cronológico consolidado. Cada fila corresponde a una serie real copiad
 - **Leg Press:** los 160 se sintieron más pesados de lo normal; después se dio cuenta de que en las dos primeras series de trabajo estaba haciendo 180 sin querer.
 
 **Récords:** mejor peso, mejor volumen y mejor 1RM en Leg Press (180 kg × 12).
+
+## 26 Aug 2026 — Boulder 🧗
+
+**Fuente:** reportado por Francisco, no quedó registrado en Hevy — sin volumen ni duración oficiales.
+
+Sesión de boulder por la tarde, después del entrenamiento de pierna de la mañana.
+
+**Notas:**
+- Escalada en pared con peso corporal.
+- Carga real de tirón, agarre, espalda y bíceps que no aparece en ningún total de Hevy.

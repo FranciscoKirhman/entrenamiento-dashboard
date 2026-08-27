@@ -95,7 +95,7 @@
     "hi": 12,
     "tier": "good",
     "trend": 4.1,
-    "note": "11,1 sobre una banda de 8–12: cumplido. El martes hubo molestia en el hombro izquierdo en banca, press de hombro y elevación lateral, así que el segundo día de empuje se corre al viernes y quedan tres días entre sesiones de press en vez de dos.",
+    "note": "11,1 sobre una banda de 8–12: cumplido. Molestia leve en el hombro izquierdo confirmada, en banca, press de hombro y elevación lateral — el Chest Fly no dio problema. El segundo día de empuje se corrió al viernes, así quedan tres días entre sesiones de press en vez de dos. Nada más que eso: si molesta el viernes, cambia el press militar por mancuernas en inclinado y sigue.",
     "ex": "Shoulder Press, Lateral Raise, Rear Delt Reverse Fly"
    },
    {
@@ -124,11 +124,11 @@
     "name": "Core",
     "recent": 19.2,
     "hist": 4.9,
-    "lo": 4,
-    "hi": 8,
+    "lo": 12,
+    "hi": 22,
     "tier": "good",
     "trend": 8.1,
-    "note": "19,2 es un conteo literal: cada serie de plancha, hollow y elevación de piernas cuenta igual que una serie pesada. La banda 4–8 se escribió pensando en trabajo abdominal duro, no en isométricos. Léelo como 'de sobra', no como exceso a corregir.",
+    "note": "Banda subida: hacer core todos los días es una decisión, no un descuido, así que el objetivo ahora refleja eso (12–22 series efectivas por semana ≈ 2 a 4 series diarias). 19,2 cae justo dentro. Un aviso honesto: el abdomen marcado depende del porcentaje de grasa, no de sumar más series — el volumen de core ya no es el factor limitante.",
     "ex": "Reverse Crunch, Plank"
    }
   ],
@@ -3042,6 +3042,17 @@
       "rpe": "—"
      }
     ]
+   },
+   {
+    "date": "2026-08-26",
+    "dlabel": "26 ago",
+    "title": "Boulder 🧗",
+    "hora": null,
+    "dur": null,
+    "vol": null,
+    "com": null,
+    "rec": null,
+    "exercises": []
    },
    {
     "date": "2026-08-25",
@@ -10020,7 +10031,8 @@
     "nota": "Mesociclo de acumulación de 5 semanas. Las semanas 1 a 4 suben carga o repeticiones — **una variable a la vez, no las dos** — y la semana 5 es descarga. Vas en la 2: esta semana suben banca (a 3 series), Lat Pulldown y Leg Press, mientras Incline y el resto se consolidan.",
     "inicio": "2026-08-17"
    }
-  }
+  },
+  "fuente": "Registro_historico_consolidado.md"
  },
  "mipi": {
   "displayName": "Mipi",
@@ -10092,11 +10104,11 @@
     "name": "Core",
     "recent": 26.2,
     "hist": 3.8,
-    "lo": 6,
-    "hi": 12,
+    "lo": 12,
+    "hi": 24,
     "tier": "good",
     "trend": 19.2,
-    "note": "26,2 es conteo literal de series, planchas incluidas: durante la rehabilitación del codo el core fue casi todo el trabajo disponible. No es un problema, es lo que se pudo hacer.",
+    "note": "Banda subida al objetivo real: core todos los días. Durante la rehabilitación del codo el core fue casi todo el trabajo disponible, por eso 26,2 — está en el techo de la banda, no fuera de control. Igual que para Mopo: lo que marca el abdomen es el porcentaje de grasa, no más series.",
     "ex": "Reverse Crunch, Dead Bug, Heel Taps"
    },
    {
@@ -10107,7 +10119,7 @@
     "hi": 14,
     "tier": "critical",
     "trend": 0.0,
-    "note": "Cincuenta días sin trabajo de espalda por el codo. El alta es el sábado 29.",
+    "note": "Cero series de gimnasio en la ventana, pero el miércoles hubo **boulder** y eso es tirón de espalda con peso corporal — no aparece en el conteo porque no está en Hevy. El codo aguantó sin molestias. Alta el sábado 29.",
     "ex": "Lat Pulldown, Seated Row, Pull Up"
    },
    {
@@ -10118,7 +10130,7 @@
     "hi": 10,
     "tier": "critical",
     "trend": 0.0,
-    "note": "Cincuenta y dos días sin pecho por el codo. Vuelve cuando haya alta.",
+    "note": "Sin trabajo desde el 6 de julio. El boulder no lo cubre. Vuelve con el alta del sábado 29.",
     "ex": "Bench Press, Chest Press, Chest Fly"
    },
    {
@@ -10129,7 +10141,7 @@
     "hi": 10,
     "tier": "critical",
     "trend": 0.0,
-    "note": "Cincuenta días sin hombro por el codo. Vuelve cuando haya alta.",
+    "note": "Sin trabajo dirigido desde el 8 de julio. El boulder del miércoles metió algo de hombro con peso corporal, sin molestias. Vuelve con el alta del sábado.",
     "ex": "Shoulder Press, Lateral Raise, Face Pull"
    },
    {
@@ -10140,7 +10152,7 @@
     "hi": 8,
     "tier": "critical",
     "trend": 0.0,
-    "note": "Cincuenta y nueve días. El bíceps es el que más directamente carga el codo, así que es el último que debería volver.",
+    "note": "Cero en el conteo, pero el boulder del miércoles carga bíceps y agarre directamente, y salió sin dolor. Es el músculo que más compromete el codo, así que igual es el último que vuelve con carga externa.",
     "ex": "Bicep Curl, Preacher Curl"
    },
    {
@@ -11526,7 +11538,7 @@
     "date": "2026-08-27",
     "tag": null,
     "focus": "Pierna B",
-    "rationale": "**Día 7 del ciclo — fase folicular, tu mejor ventana.** Energía y recuperación altas: si las cargas se sienten fáciles, súbelas dentro de lo que dice la tabla. **Esta es la sesión de pierna del miércoles**, que no quedó registrada en Hevy — si sí la hiciste, avísame y la devuelvo a su lugar. Los huecos reales hoy son femoral (ocho días sin tocarlo) y aductor. Del lunes queda una buena noticia: las tres series de Hip Thrust a 100 × 8 salieron a **RPE 7**, y el objetivo era RIR 3/3/2 — o sea que diste exactamente en el blanco y todavía con margen. Nada de tren superior hasta el alta del codo el sábado 29.",
+    "rationale": "**Día 7 del ciclo — fase folicular, tu mejor ventana.** Energía y recuperación altas. **Esta es la sesión de pierna del miércoles**, que no se hizo porque fueron a boulder. Como los entrenamientos se te han hecho fáciles y el lunes las tres series de Hip Thrust a 100 × 8 salieron a **RPE 7** cuando el objetivo era RIR 3 — o sea justo en el blanco y con margen — hoy sube el volumen, no la carga: **una tercera serie de trabajo** en prensa, kickback y curl femoral. Una variable a la vez, como dice tu propia regla. El peso se queda igual a propósito: si esas terceras series salen otra vez a RPE 7, el lunes suben los kilos. Los huecos que esto tapa son cuádriceps (5,8 contra una banda de 8–14) y femoral (3,5 contra 6–10, ocho días sin tocarlo). Nada de tren superior con carga externa hasta el alta del sábado 29 — aunque el codo aguantó bien el boulder de ayer, eso se conversa con el profesional, no se adelanta acá.",
     "cardio": "Escaladora 15 min, RPE 4-5.",
     "warmup": [
      {
@@ -11627,6 +11639,13 @@
         "reps": "10",
         "rir": "objetivo 2",
         "descanso": "2:30"
+       },
+       {
+        "serie": "Trabajo 3",
+        "carga": "105 kg",
+        "reps": "10",
+        "rir": "objetivo 1-2",
+        "descanso": "2:30"
        }
       ]
      },
@@ -11654,6 +11673,13 @@
         "reps": "12 por lado",
         "rir": "objetivo 2",
         "descanso": "75s"
+       },
+       {
+        "serie": "Trabajo 3",
+        "carga": "23 kg",
+        "reps": "12 por lado",
+        "rir": "objetivo 1-2",
+        "descanso": "75s"
        }
       ]
      },
@@ -11680,6 +11706,13 @@
         "carga": "27,5 kg",
         "reps": "12",
         "rir": "objetivo 2",
+        "descanso": "90s"
+       },
+       {
+        "serie": "Trabajo 3",
+        "carga": "27,5 kg",
+        "reps": "12",
+        "rir": "objetivo 1-2",
         "descanso": "90s"
        }
       ]
@@ -12597,6 +12630,17 @@
    }
   ],
   "SESSIONS_FULL": [
+   {
+    "date": "2026-08-26",
+    "dlabel": "26 ago",
+    "title": "Boulder 🧗",
+    "hora": null,
+    "dur": null,
+    "vol": null,
+    "com": null,
+    "rec": null,
+    "exercises": []
+   },
    {
     "date": "2026-08-24",
     "dlabel": "24 ago",
@@ -20454,6 +20498,7 @@
     "inicio": "2026-08-17"
    }
   },
-  "note": null
+  "note": null,
+  "fuente": "Registro_historico_Mipi.md"
  }
 }
