@@ -1615,3 +1615,108 @@ Registro cronológico consolidado. Cada fila corresponde a una serie real copiad
 - **Cable Core Pallof Press:** difícil, primera vez que lo hace. Empezó con 15 kg (RPE 9) y bajó a 11,25–12,5 kg para completar las series.
 
 **Récords:** mejor peso, mejor volumen y mejor 1RM en Lat Pulldown (80 kg × 12); mejor volumen y mejor 1RM en Seated Row (75 kg × 13).
+
+## 24 Aug 2026 — Evening workout 🏋️
+
+**Hora:** 5:53 PM  
+**Duración:** 1h 53m  
+**Volumen Hevy:** 8,416 kg  
+
+| Orden | Ejercicio | Serie | Carga | Reps/tiempo | RPE |
+|---:|---|---:|---:|---|---:|
+| 1 | Hip Thrust (Barbell) | 1 | 60 kg | 8 | 6 |
+| 1 | Hip Thrust (Barbell) | 2 | 100 kg | 12 | 8 |
+| 1 | Hip Thrust (Barbell) | 3 | 100 kg | 12 | 8,5 |
+| 1 | Hip Thrust (Barbell) | 4 | 100 kg | 10 | 8 |
+| 2 | Seated Leg Curl (Machine) | 1 | 61 kg | 12 | 7,5 |
+| 2 | Seated Leg Curl (Machine) | 2 | 63,5 kg | 12 | 8,5 |
+| 2 | Seated Leg Curl (Machine) | 3 | 63,5 kg | 12 | 8,5 |
+| 3 | Romanian Deadlift (Smith Machine) | 1 | 40 kg | 12 | 7 |
+| 3 | Romanian Deadlift (Smith Machine) | 2 | 50 kg | 12 | 8 |
+| 3 | Romanian Deadlift (Smith Machine) | 3 | 50 kg | 12 | 8,5 |
+| 3 | Romanian Deadlift (Smith Machine) | 4 | 50 kg | 12 | 8,5 |
+| 4 | Hanging Knee Raise | 1 | Peso corporal | 12 | 7 |
+| 4 | Hanging Knee Raise | 2 | Peso corporal | 12 | 8 |
+| 4 | Hanging Knee Raise | 3 | Peso corporal | 16 | 9,5 |
+| 5 | Stair Machine (Floors) | 1 | — | 50 pisos / 14m 15s | — |
+
+**Récords:** mejor volumen y mejor 1RM en Romanian Deadlift (50 kg × 12); mejores repeticiones en Hanging Knee Raise (16).
+
+*Entrenó junto a Paloma, los dos con Hip Thrust a 100 kg alternando en la misma barra (ella 5:56 PM).*
+
+## 25 Aug 2026 — Afternoon workout 💪
+
+**Hora:** 3:14 PM  
+**Duración:** 2h 14m  
+**Volumen Hevy:** 10,775 kg  
+**Comentario:** 💪🏻💪🏻💪🏻  
+
+| Orden | Ejercicio | Serie | Carga | Reps/tiempo | RPE |
+|---:|---|---:|---:|---|---:|
+| 1 | Bench Press (Barbell) | 1 | 20 kg | 12 | — |
+| 1 | Bench Press (Barbell) | 2 | 40 kg | 10 | — |
+| 1 | Bench Press (Barbell) | 3 | 60 kg | 5 | — |
+| 1 | Bench Press (Barbell) | 4 | 70 kg | 3 | — |
+| 1 | Bench Press (Barbell) | 5 | 80 kg | 10 | 8 |
+| 1 | Bench Press (Barbell) | 6 | 80 kg | 10 | 8,5 |
+| 1 | Bench Press (Barbell) | 7 | 80 kg | 10 | 8,5 |
+| 2 | Shoulder Press (Dumbbell) | 1 | 32 kg | 8 | 6 |
+| 2 | Shoulder Press (Dumbbell) | 2 | 40 kg | 10 | 7,5 |
+| 2 | Shoulder Press (Dumbbell) | 3 | 40 kg | 10 | 8,5 |
+| 2 | Shoulder Press (Dumbbell) | 4 | 40 kg | 8 | — |
+| 3 | Chest Press (Machine) | 1 | 80 kg | 8 | 7,5 |
+| 3 | Chest Press (Machine) | 2 | 80 kg | 8 | 8 |
+| 3 | Chest Press (Machine) | 3 | 80 kg | 8 | 8,5 |
+| 4 | Single Arm Lateral Raise (Cable) | 1 | 7,5 kg | 15 | 8 |
+| 4 | Single Arm Lateral Raise (Cable) | 2 | 7,5 kg | 15 | 8,5 |
+| 4 | Single Arm Lateral Raise (Cable) | 3 | 7,5 kg | 15 | 9 |
+| 5 | Triceps Pushdown | 1 | 30 kg | 15 | 7 |
+| 5 | Triceps Pushdown | 2 | 30 kg | 15 | 8 |
+| 5 | Triceps Pushdown | 3 | 30 kg | 15 | 8 |
+| 6 | Chest Fly (Machine) | 1 | 59 kg | 15 | 8 |
+| 6 | Chest Fly (Machine) | 2 | 59 kg | 12 | 8,5 |
+| 6 | Chest Fly (Machine) | 3 | 54 kg | 12 | 9 |
+| 7 | Hanging Knee Raise | 1 | Peso corporal | 15 | 8 |
+| 7 | Hanging Knee Raise | 2 | Peso corporal | 15 | 8,5 |
+| 7 | Hanging Knee Raise | 3 | Peso corporal | 16 | 9 |
+| 8 | Stair Machine (Floors) | 1 | — | 65 pisos / 20m 0s | — |
+
+**Notas por ejercicio:**
+- **Bench Press:** molestias en el hombro izquierdo.
+- **Shoulder Press:** también molestias en el hombro izquierdo.
+- **Single Arm Lateral Raise:** leve dolor en el hombro izquierdo después de este ejercicio.
+- **Chest Fly:** hombro firme, sorprendentemente.
+
+## 26 Aug 2026 — Morning workout ☀️
+
+**Hora:** 11:35 AM  
+**Duración:** 1h 14m  
+**Volumen Hevy:** 16,096 kg  
+**Comentario:** Big day tomorrow  
+
+| Orden | Ejercicio | Serie | Carga | Reps/tiempo | RPE |
+|---:|---|---:|---:|---|---:|
+| 1 | Squat (Barbell) | 1 | 20 kg | 12 | 6 |
+| 1 | Squat (Barbell) | 2 | 60 kg | 6 | 6 |
+| 1 | Squat (Barbell) | 3 | 85 kg | 10 | 8,5 |
+| 1 | Squat (Barbell) | 4 | 90 kg | 8 | 8,5 |
+| 2 | Leg Press (Machine) | 1 | 100 kg | 10 | 6 |
+| 2 | Leg Press (Machine) | 2 | 180 kg | 12 | 8 |
+| 2 | Leg Press (Machine) | 3 | 180 kg | 12 | 8,5 |
+| 2 | Leg Press (Machine) | 4 | 160 kg | 12 | 7 |
+| 3 | Leg Extension (Machine) | 1 | 66 kg | 12 | 8,5 |
+| 3 | Leg Extension (Machine) | 2 | 66 kg | 12 | 8,5 |
+| 3 | Leg Extension (Machine) | 3 | 66 kg | 12 | 9 |
+| 4 | Hip Adduction (Machine) | 1 | 84,5 kg | 18 | 7,5 |
+| 4 | Hip Adduction (Machine) | 2 | 84,5 kg | 18 | 8 |
+| 4 | Hip Adduction (Machine) | 3 | 84,5 kg | 15 | 7,5 |
+| 5 | Hanging Knee Raise | 1 | Peso corporal | 12 | 7 |
+| 5 | Hanging Knee Raise | 2 | Peso corporal | 12 | 7 |
+| 5 | Hanging Knee Raise | 3 | Peso corporal | 12 | 7 |
+| 6 | Stair Machine (Floors) | 1 | — | 44 pisos / 12m 0s | — |
+
+**Notas por ejercicio:**
+- **Squat:** cansador, leve dolor de espalda baja en la última serie.
+- **Leg Press:** los 160 se sintieron más pesados de lo normal; después se dio cuenta de que en las dos primeras series de trabajo estaba haciendo 180 sin querer.
+
+**Récords:** mejor peso, mejor volumen y mejor 1RM en Leg Press (180 kg × 12).

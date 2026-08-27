@@ -2060,3 +2060,77 @@ Registro cronológico consolidado, mismo formato que el de Mopo. Cada fila corre
 - **Stair Machine:** FC máx 180, nivel 4–8.
 
 **Récords:** mejor duración en Side Plank (42 s).
+
+## 21 Aug 2026 — Poto + abs🍫
+
+**Hora:** 4:57 PM  
+**Duración:** 1h 5m  
+**Volumen Hevy:** 3,540 kg  
+
+| Orden | Ejercicio | Serie | Carga | Reps/tiempo | RPE |
+|---:|---|---:|---:|---|---:|
+| 1 | Box Squat (Barbell) | 1 | 0 kg | 9 | 6 |
+| 1 | Box Squat (Barbell) | 2 | 0 kg | 12 | 6 |
+| 1 | Box Squat (Barbell) | 3 | 0 kg | 12 | 7 |
+| 1 | Box Squat (Barbell) | 4 | 0 kg | 12 | 6 |
+| 2 | Step Up | 1 | Peso corporal | 20 | 7 |
+| 2 | Step Up | 2 | Peso corporal | 20 | 7,5 |
+| 2 | Step Up | 3 | Peso corporal | 20 | 7 |
+| 3 | Leg Extension (Machine) | 1 | 33 kg | 12 | 6 |
+| 3 | Leg Extension (Machine) | 2 | 45 kg | 12 | 8 |
+| 3 | Leg Extension (Machine) | 3 | 45 kg | 12 | 8 |
+| 4 | Hip Abduction (Machine) | 1 | 40 kg | 15 | 6 |
+| 4 | Hip Abduction (Machine) | 2 | 61 kg | 12 | 6 |
+| 4 | Hip Abduction (Machine) | 3 | 61 kg | 12 | 7 |
+| 5 | Hollow Rock | 1 | Peso corporal | 29 s | — |
+| 5 | Hollow Rock | 2 | Peso corporal | 30 s | — |
+| 6 | Dead Bug | 1 | Peso corporal | 20 | 6 |
+| 6 | Dead Bug | 2 | Peso corporal | 20 | 7 |
+| 6 | Dead Bug | 3 | Peso corporal | 20 | 7,5 |
+| 7 | Lying Leg Raise | 1 | Peso corporal | 15 | 8 |
+| 7 | Lying Leg Raise | 2 | Peso corporal | 12 | 9 |
+| 7 | Lying Leg Raise | 3 | Peso corporal | 12 | 9 |
+| 8 | Plank | 1 | Peso corporal (isométrico) | 21 s | — |
+| 8 | Plank | 2 | Peso corporal (isométrico) | 26 s | — |
+| 8 | Plank | 3 | Peso corporal (isométrico) | 29 s | — |
+
+*Box Squat y Step Up quedaron registrados en Hevy con 0 kg, por eso no suman al volumen.*
+
+## 24 Aug 2026 — Poto 🍑
+
+**Hora:** 5:56 PM  
+**Duración:** 1h 34m  
+**Volumen Hevy:** 6,342 kg  
+
+| Orden | Ejercicio | Serie | Carga | Reps/tiempo | RPE |
+|---:|---|---:|---:|---|---:|
+| 1 | Hip Thrust (Barbell) | 1 | 60 kg | 10 | 7 |
+| 1 | Hip Thrust (Barbell) | 2 | 80 kg | 6 | 6 |
+| 1 | Hip Thrust (Barbell) | 3 | 90 kg | 3 | 6 |
+| 1 | Hip Thrust (Barbell) | 4 | 100 kg | 8 | 7 |
+| 1 | Hip Thrust (Barbell) | 5 | 100 kg | 8 | 7 |
+| 1 | Hip Thrust (Barbell) | 6 | 100 kg | 8 | 7 |
+| 2 | Bulgarian Split Squat | 1 | 0 kg | 10 | 6 |
+| 2 | Bulgarian Split Squat | 2 | 0 kg | 12 | 7 |
+| 2 | Bulgarian Split Squat | 3 | 0 kg | 12 | 7,5 |
+| 3 | Hip Abduction (Machine) | 1 | 54 kg | 12 | 6 |
+| 3 | Hip Abduction (Machine) | 2 | 82 kg | 12 | 8,5 |
+| 3 | Hip Abduction (Machine) | 3 | 80 kg | 12 | 8 |
+| 4 | Reverse Crunch | 1 | Peso corporal | 15 | 8 |
+| 4 | Reverse Crunch | 2 | Peso corporal | 15 | 8,5 |
+| 4 | Reverse Crunch | 3 | Peso corporal | 15 | 8,5 |
+| 5 | V Up | 1 | Peso corporal | 10 | 9 |
+| 6 | Jackknife Sit Up | 1 | Peso corporal | 10 | 9 |
+| 6 | Jackknife Sit Up | 2 | Peso corporal | 10 | 9,5 |
+| 7 | Side Plank | 1 | Peso corporal | 41 s | — |
+| 7 | Side Plank | 2 | Peso corporal | 41 s | — |
+| 7 | Side Plank | 3 | Peso corporal | 41 s | — |
+| 7 | Side Plank | 4 | Peso corporal | 42 s | — |
+| 8 | Stair Machine (Floors) | 1 | — | 39 pisos / 13m 30s | — |
+
+**Notas por ejercicio:**
+- **Reverse Crunch:** rodilla al pecho, afirmada en la barrita.
+- **V Up:** le salen mal, los cambió por Jackknife Sit Up.
+- **Stair Machine:** FC máx 169, nivel 5.
+
+*Entrenó junto a Francisco: los dos con Hip Thrust a 100 kg alternando en la misma barra (él 5:53 PM). Las tres series de trabajo a 100 × 8 salieron a RPE 7 — el objetivo era RIR 3/3/2, así que quedó exactamente donde debía y con margen.*
