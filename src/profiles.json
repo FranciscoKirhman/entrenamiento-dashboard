@@ -2585,27 +2585,27 @@
        },
        {
         "serie": "1",
-        "carga": "55 kg",
+        "carga": "52,5 kg",
         "reps": "10-12",
         "rir": "3",
         "descanso": "2:30"
        },
        {
         "serie": "2",
-        "carga": "55 kg",
+        "carga": "52,5 kg",
         "reps": "10-12",
         "rir": "2",
         "descanso": "2:30"
        },
        {
         "serie": "3",
-        "carga": "55 kg",
+        "carga": "52,5 kg",
         "reps": "10-12",
         "rir": "2",
         "descanso": "2:30"
        }
       ],
-      "cue": "De 50 a 55. El 24 hiciste cuatro series de 50 × 12 a RPE 8-8,5 con récord de volumen — estaba corto."
+      "cue": "De 50 a 52,5. **Corregido a la baja**: había puesto 55, que es +10% de golpe. El dato real es que a 50 kg el RPE bajó de 8,83 a 8,33 dentro de agosto — eso da para un paso normal, no para un salto. Si las tres series de 52,5 × 12 salen a RPE 8 o menos, el lunes siguiente van los 55."
      },
      {
       "name": "Seated Leg Curl (Machine)",
@@ -2829,27 +2829,27 @@
       "sets": [
        {
         "serie": "1",
-        "carga": "85 kg",
+        "carga": "82,5 kg (o 85 si la máquina no tiene el paso)",
         "reps": "8-10",
         "rir": "3",
         "descanso": "2 min"
        },
        {
         "serie": "2",
-        "carga": "85 kg",
+        "carga": "82,5 kg (o 85 si la máquina no tiene el paso)",
         "reps": "8-10",
         "rir": "2",
         "descanso": "2 min"
        },
        {
         "serie": "3",
-        "carga": "85 kg",
+        "carga": "82,5 kg (o 85 si la máquina no tiene el paso)",
         "reps": "8-10",
         "rir": "2",
         "descanso": "2 min"
        }
       ],
-      "cue": "De 80 a 85: las tres series de 80 × 8 salieron a RPE 7,5-8,5."
+      "cue": "De 80 a 82,5. Había puesto 85, que es +6% de una vez en una máquina; el RPE bajó de 8,5 a 8,0, que da para un paso, no para dos."
      },
      {
       "name": "Single Arm Lateral Raise (Cable)",
@@ -3005,27 +3005,27 @@
        },
        {
         "serie": "1",
-        "carga": "92,5 kg",
+        "carga": "90 kg",
         "reps": "8",
         "rir": "3",
         "descanso": "3 min"
        },
        {
         "serie": "2",
-        "carga": "92,5 kg",
+        "carga": "90 kg",
         "reps": "8",
         "rir": "2",
         "descanso": "3 min"
        },
        {
         "serie": "3",
-        "carga": "92,5 kg",
+        "carga": "90 kg",
         "reps": "8",
         "rir": "2",
         "descanso": "3 min"
        }
       ],
-      "cue": "De 90 a 92,5. El 26 hiciste 90 × 8 a RPE 8,5 con **leve dolor lumbar en la última** — si vuelve, corta la serie ahí; no lo arrastres a la prensa que viene después."
+      "cue": "**Se queda en 90 y esto también lo corrijo**: había puesto 92,5. Los 90 kg son tu techo desde el 26 de junio — los has tocado tres veces en 61 días y nunca has completado tres series de trabajo ahí. El 26 hiciste una sola serie de 90 × 8. El objetivo de hoy son **las tres series a 90**, no un kilo más. Si vuelve el dolor lumbar de la última vez, corta la serie ahí y no lo arrastres a la prensa."
      },
      {
       "name": "Leg Press (Machine)",
@@ -3242,27 +3242,27 @@
        },
        {
         "serie": "1",
-        "carga": "77,5 kg",
+        "carga": "75 kg",
         "reps": "12",
         "rir": "3",
         "descanso": "2:30"
        },
        {
         "serie": "2",
-        "carga": "77,5 kg",
+        "carga": "75 kg",
         "reps": "12",
         "rir": "2",
         "descanso": "2:30"
        },
        {
         "serie": "3",
-        "carga": "77,5 kg",
+        "carga": "75 kg",
         "reps": "12",
         "rir": "2",
         "descanso": "2:30"
        }
       ],
-      "cue": "🤝 Ella también hace remo sentado (26 kg). De 75 a 77,5."
+      "cue": "🤝 Ella también hace remo sentado (26 kg). **El peso NO sube, y esto es lo contrario de lo que había puesto.** Revisando solo agosto, a carga fija el RPE del remo **subió** de 8,40 a 8,60: se está poniendo más difícil, no más fácil. Eso es fatiga acumulada, no falta de estímulo. Tres series limpias de 75 × 12 a RPE 8,5 o menos, y recién ahí subimos."
      },
      {
       "name": "Pull Up",
@@ -3296,27 +3296,27 @@
       "sets": [
        {
         "serie": "1",
-        "carga": "48,5 kg",
+        "carga": "46 kg",
         "reps": "10-12",
         "rir": "3",
         "descanso": "90s"
        },
        {
         "serie": "2",
-        "carga": "48,5 kg",
+        "carga": "46 kg",
         "reps": "10-12",
         "rir": "2",
         "descanso": "90s"
        },
        {
         "serie": "3",
-        "carga": "48,5 kg",
+        "carga": "46 kg",
         "reps": "10-12",
         "rir": "2",
         "descanso": "90s"
        }
       ],
-      "cue": "De 46 a 48,5. Ayer las tres a 46 × 12 salieron a RPE 7,5-8,5. Bíceps va en 3,5 contra 6-10."
+      "cue": "**Se queda en 46**, corregido: había puesto 48,5. Dentro de agosto la carga media de este ejercicio ya subió un 30% (de 35 a 46 kg). Ayer las tres series a 46 × 12 salieron a 7,5, 8 y 8,5 — está en el punto justo. Consolidar antes de volver a subir."
      },
      {
       "name": "Rear Delt Reverse Fly (Machine)",
@@ -3485,7 +3485,7 @@
         "descanso": "3 min"
        }
       ],
-      "cue": "Se mantiene en 40: a ese peso te ha dado RPE 9-9,5, así que el trabajo es consolidar 6-8 limpias. **Si el hombro izquierdo molesta, cámbialo por press con mancuernas en inclinado**, que el 25 no dio problema."
+      "cue": "Se mantiene en 40 kg. **El problema del press militar no es el peso: es que lo has hecho 3 veces en 3 meses** — 29 de mayo, 29 de junio y 9 de julio. Lleva clavado en 40 kg desde mayo porque no se entrena, no porque se haya estancado. Este mesociclo lo tiene fijo los viernes: cuatro semanas seguidas a 40 kg valen más que un intento aislado a 45. Si el hombro izquierdo molesta, cámbialo por mancuernas en inclinado."
      },
      {
       "name": "Incline Bench Press (Barbell)",
@@ -11557,7 +11557,7 @@
     "semana": 3,
     "total": 5,
     "deload": 5,
-    "nota": "Mesociclo de acumulación de 5 semanas. Las semanas 1 a 4 suben carga o repeticiones — **una variable a la vez, no las dos** — y la semana 5 es descarga. Vas en la 2: esta semana suben banca (a 3 series), Lat Pulldown y Leg Press, mientras Incline y el resto se consolidan.",
+    "nota": "Mesociclo de acumulación de 5 semanas. Vas en la **3**. **Revisión de los números, 28 de agosto:** el RPE de julio y el de agosto no son la misma escala — antes de agosto el 85% de tus series de trabajo estaban anotadas en RPE 9 o más, diez semanas seguidas, y desde que las prescripciones traen RIR la mediana bajó a 8. Eso no fue perder fuerza: fue que la escala se calibró. Cualquier comparación que cruce esa frontera no sirve. Midiendo solo dentro de agosto, **sube de verdad**: banca (RPE 8,93→8,00 a 80 kg), prensa (+22% de carga con RPE plano), press de hombro (8,75→8,25), Chest Press, RDL y Leg Extension. **Y hay tres que se están poniendo más difíciles a carga fija**: remo sentado (8,40→8,60), Rear Delt (8,17→8,75) y abducción (8,00→9,00) — esos no suben. **Tres están claramente cortos** (RPE de trabajo bajo 7,7): aducción de cadera, Triceps Pushdown y Face Pull. Ahí es donde hay margen real, y coincide con que tríceps es tu déficit agudo. **Sin descarga real en 14 semanas.** La semana 5 es la primera planificada, y con este historial importa.",
     "inicio": "2026-08-17"
    }
   },
