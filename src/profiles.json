@@ -2064,7 +2064,7 @@
     "date": "2026-08-28",
     "tag": null,
     "focus": "Hombro y pecho — segunda dosis (prioridad)",
-    "rationale": "🤝 *Pueden ir juntos, aunque sin ejercicios en común:* ella tiene día liviano opcional y tú hombro/pecho — con el codo aún en rehabilitación no puede acompañarte en nada de tren superior.\n\nSegunda dosis semanal de tus dos prioridades, sin repetir banca plana pesada. Press militar de pie, que es de tus favoritos, y volumen de deltoide medio, que es lo que más aporta al ancho de hombro. **Ajustado tras auditoría**: Incline se queda en 60 (no 65) porque esta semana ya sube la banca a 3 series; el press militar queda en 6-8 reps porque 40 kg te ha dado RPE 9-10; y el tríceps overhead baja a 21,25. **Movido desde el jueves**: espalda tenía seis días sin trabajo y pasó adelante. Si el hombro izquierdo sigue molestando en el press militar, cambia a press con mancuernas en banco inclinado, que fue el que el martes no dio problema.",
+    "rationale": "🤝 **Mipi entrena contigo hoy**: le toca su primera sesión de tren superior completa post alta y comparten **Chest Fly y elevación lateral** (ella con cargas de entrada, 12 kg y 5 kg). Bíceps y tríceps directos ella todavía no los hace.\n\n🤝 *Pueden ir juntos, aunque sin ejercicios en común:* ella tiene día liviano opcional y tú hombro/pecho — con el codo aún en rehabilitación no puede acompañarte en nada de tren superior.\n\nSegunda dosis semanal de tus dos prioridades, sin repetir banca plana pesada. Press militar de pie, que es de tus favoritos, y volumen de deltoide medio, que es lo que más aporta al ancho de hombro. **Ajustado tras auditoría**: Incline se queda en 60 (no 65) porque esta semana ya sube la banca a 3 series; el press militar queda en 6-8 reps porque 40 kg te ha dado RPE 9-10; y el tríceps overhead baja a 21,25. **Movido desde el jueves**: espalda tenía seis días sin trabajo y pasó adelante. Si el hombro izquierdo sigue molestando en el press militar, cambia a press con mancuernas en banco inclinado, que fue el que el martes no dio problema.",
     "cardio": "Escaladora 15-20 min, RPE 5.",
     "warmup": [
      {
@@ -10062,24 +10062,24 @@
   "MUSCLES": [
    {
     "name": "Glúteo / cadera",
-    "recent": 9.3,
+    "recent": 7.0,
     "hist": 5.6,
     "lo": 10,
     "hi": 16,
     "tier": "warning",
-    "trend": 0.5,
-    "note": "Justo bajo la banda. El lunes las tres series de Hip Thrust a 100 × 8 salieron a RPE 7 — el objetivo era RIR 3/3/2, así que quedó exactamente donde debía y con margen para subir.",
+    "trend": -4.1,
+    "note": "Baja a 7,0 porque la ventana de 12 días dejó atrás sesiones viejas, no porque hayas entrenado menos. Ayer el kickback llegó a 23 kg × 12, pero las últimas dos series a RPE 9 compensando con lumbar: el peso está bien, lo que sobra son repeticiones al fallo.",
     "ex": "Hip Thrust, Glute Kickback, Back Extension"
    },
    {
     "name": "Cuádriceps",
-    "recent": 5.8,
-    "hist": 6.2,
+    "recent": 8.2,
+    "hist": 6.3,
     "lo": 8,
     "hi": 14,
-    "tier": "warning",
-    "trend": -2.4,
-    "note": "Baja porque el miércoles no quedó registrado. Si no entrenaste, la sesión de pierna se corre a hoy.",
+    "tier": "good",
+    "trend": 2.4,
+    "note": "Dentro de banda: la prensa a 105 kg salió completa, tres series de 10-11 a RPE 7-8. Pendiente el rango — el tirón en la inserción aparece al flexionar al máximo, así que se acorta el recorrido, no el peso.",
     "ex": "Leg Press, Squat, Leg Extension"
    },
    {
@@ -10088,53 +10088,53 @@
     "hist": 1.9,
     "lo": 6,
     "hi": 10,
-    "tier": "critical",
-    "trend": 2.9,
+    "tier": "warning",
+    "trend": 1.2,
     "note": "Ocho días sin femoral — el hueco más claro. Entra hoy con curl femoral acostada.",
     "ex": "Lying/Seated Leg Curl, RDL"
    },
    {
     "name": "Aductor / abductor",
     "recent": 1.8,
-    "hist": 2.8,
+    "hist": 2.7,
     "lo": 6,
     "hi": 12,
     "tier": "critical",
     "trend": -1.1,
-    "note": "1,8 contra 6–12. La abducción del lunes fue buena (82 kg × 12) pero es un solo día; falta el lado aductor.",
+    "note": "1,8 contra 6–12 y cuatro días sin tocarlo: es el hueco que queda en pierna. Entra el sábado con Hip Adduction.",
     "ex": "Hip Abduction, Hip Adduction"
    },
    {
     "name": "Core",
-    "recent": 26.2,
-    "hist": 3.8,
+    "recent": 27.4,
+    "hist": 3.9,
     "lo": 12,
     "hi": 24,
     "tier": "good",
-    "trend": 19.2,
+    "trend": 25.1,
     "note": "Banda subida a 12–24, al objetivo real: core todos los días. Durante la rehabilitación del codo fue casi todo el trabajo disponible, por eso 26,2. **Sin Cable Crunch** — no le gusta; el trabajo lateral va con plancha lateral con elevación y el de abdomen bajo con reverse crunch y descenso de piernas lento. Ojo con una consecuencia: el Cable Crunch era el único movimiento abdominal con carga externa, y ahora el bloque es todo peso corporal. Si el objetivo es tener músculo debajo para cuando baje la grasa, en algún momento hay que volver a cargar — con una placa en el pecho en el reverse crunch, o colgado. No urge, pero conviene tenerlo presente antes de que el core sea solo isométricos.",
     "ex": "Reverse Crunch, Dead Bug, Heel Taps"
    },
    {
     "name": "Espalda",
-    "recent": 0.0,
+    "recent": 1.2,
     "hist": 2.9,
     "lo": 8,
     "hi": 14,
     "tier": "critical",
-    "trend": 0.0,
-    "note": "Cero series de gimnasio en la ventana y 50 días sin espalda dirigida, pero el codo está **dado de alta** y el boulder del miércoles ya fue tirón con peso corporal sin molestias. Hoy vuelve con Lat Pulldown liviano junto a Mopo. Tu tope viejo era 35,5 kg × 13 a RPE 9 — ahí está el techo al que volver, sin apuro.",
+    "trend": 1.2,
+    "note": "Ya no está en cero: **1,2 series/semana** tras el jalón de ayer, el primero post alta. Salió sin dolor, solo aprensión, con los 26 kg prescritos. Hoy entra el tirón horizontal (Seated Row, 24 kg contra tu base vieja de 31). Sube desde acá sesión a sesión, no de golpe.",
     "ex": "Lat Pulldown, Seated Row, Pull Up"
    },
    {
     "name": "Pecho",
     "recent": 0.0,
-    "hist": 1.8,
+    "hist": 1.7,
     "lo": 4,
     "hi": 10,
     "tier": "critical",
     "trend": 0.0,
-    "note": "Codo dado de alta. Vuelve desde el sábado 29; el boulder no lo cubre.",
+    "note": "Entra hoy con Chest Fly a 12 kg, que era tu peso de entrada antes. Es el pectoral que menos flexiona el codo bajo carga: los brazos van estirados.",
     "ex": "Bench Press, Chest Press, Chest Fly"
    },
    {
@@ -10145,7 +10145,7 @@
     "hi": 10,
     "tier": "critical",
     "trend": 0.0,
-    "note": "Codo dado de alta. Vuelve desde el sábado 29 con el mesociclo nuevo, empezando por press con mancuernas antes que barra.",
+    "note": "Entra hoy con elevación lateral a 5 kg. El codo va fijo, no trabaja. Tu base vieja era 10 kg pero siempre a RPE 10 — se vuelve desde la mitad.",
     "ex": "Shoulder Press, Lateral Raise, Face Pull"
    },
    {
@@ -10156,7 +10156,7 @@
     "hi": 8,
     "tier": "critical",
     "trend": 0.0,
-    "note": "Codo dado de alta. Es el músculo que más lo carga, así que vuelve después de la espalda: primero tirones, después curl directo.",
+    "note": "Todavía no. Es el que carga el codo de frente; entra la semana que viene, después de tres o cuatro sesiones de tirón sin síntomas.",
     "ex": "Bicep Curl, Preacher Curl"
    },
    {
@@ -10167,7 +10167,7 @@
     "hi": 8,
     "tier": "critical",
     "trend": 0.0,
-    "note": "Codo dado de alta. Junto con el bíceps es el que más lo compromete: entra al final de la reintroducción, no al principio.",
+    "note": "Todavía no, igual que el bíceps. Los dos entran al final de la reintroducción, no al principio.",
     "ex": "Triceps Pushdown, Overhead Extension"
    }
   ],
@@ -11834,20 +11834,156 @@
    {
     "day": "Vie 28",
     "date": "2026-08-28",
-    "focus": "Descanso",
-    "tag": null,
-    "rationale": "**Día 8 del ciclo — fase folicular.** Tu mejor ventana: energía y recuperación altas. Si las cargas se sienten fáciles, súbelas dentro de lo que dice la tabla. Sin entreno, como siempre los viernes. Folicular temprana proyectada (día de ciclo 5).",
-    "cardio": null,
+    "focus": "Tren superior — vuelta real",
+    "tag": "entreno",
+    "rationale": "**Hoy era descanso y lo cambio porque te sentiste bien y quieres ir — pero cambia el qué, no solo el cuándo: hoy toca tren superior, no pierna.** Ayer las piernas se llevaron todo: prensa 3×105 completas, kickback hasta RPE 9 con la lumbar compensando en las últimas, y curl femoral hasta 38 kg. Repetir pierna hoy sería encima de eso. El tren superior es lo contrario: viene de 50 días en cero y ayer el codo pasó su primera prueba — *sin dolor, solo miedito*, y con los 26 kg que estaban prescritos. **Sí puedes usar el codo.** Lo que cambia es cómo: hoy van tirón horizontal, pecho con brazos estirados y elevación lateral, que son los tres que menos lo flexionan bajo carga. **Bíceps y tríceps directos todavía no** — esos son los que lo cargan de frente y entran la semana que viene, cuando lleves tres o cuatro sesiones sin síntomas. 🤝 Mopo tiene hombro y pecho hoy: el Chest Fly y la elevación lateral son los mismos, los pueden hacer a la par. Una cosa más, y es la importante: **en tu historial de tren superior casi todas las series están a RPE 9,5 o 10.** Entrenabas al fallo en todo. Hoy los RIR objetivo son 3 y 4 de verdad, y las cargas están puestas para que sobren. Volver de una lesión con la misma intensidad de antes es la forma más rápida de volver a salir.",
+    "cardio": "Escaladora 12-15 min, RPE 4-5. Suave: ayer ya fueron 52 pisos.",
     "warmup": null,
     "stretch": null,
-    "exercises": []
+    "exercises": [
+     {
+      "name": "Seated Row (Machine)",
+      "sets": [
+       {
+        "serie": "Aprox.",
+        "carga": "15 kg",
+        "reps": "12",
+        "rir": "5",
+        "descanso": "60s"
+       },
+       {
+        "serie": "Trabajo 1",
+        "carga": "24 kg",
+        "reps": "12",
+        "rir": "objetivo 4",
+        "descanso": "90s"
+       },
+       {
+        "serie": "Trabajo 2",
+        "carga": "24 kg",
+        "reps": "12",
+        "rir": "objetivo 4",
+        "descanso": "90s"
+       },
+       {
+        "serie": "Trabajo 3",
+        "carga": "24 kg",
+        "reps": "12",
+        "rir": "objetivo 3",
+        "descanso": "90s"
+       }
+      ],
+      "cue": "Tirón horizontal: vector distinto al jalón de ayer, y el que menos carga el codo de los dos. Codos pegados al cuerpo, junta los omóplatos y suelta lento. Tu base vieja era 31 kg, así que 24 es a propósito poco. **RIR 4 significa que te sobran cuatro repeticiones cuando paras.** Si terminas la serie sin sentir que podrías haber hecho varias más, era mucho peso."
+     },
+     {
+      "name": "Chest Fly (Machine)",
+      "sets": [
+       {
+        "serie": "Aprox.",
+        "carga": "7 kg",
+        "reps": "15",
+        "rir": "5",
+        "descanso": "60s"
+       },
+       {
+        "serie": "Trabajo 1",
+        "carga": "12 kg",
+        "reps": "15",
+        "rir": "objetivo 4",
+        "descanso": "75s"
+       },
+       {
+        "serie": "Trabajo 2",
+        "carga": "12 kg",
+        "reps": "15",
+        "rir": "objetivo 3",
+        "descanso": "75s"
+       }
+      ],
+      "cue": "🤝 Mopo hace este mismo ejercicio hoy. Va primero el pecho de los dos porque **el codo casi no participa**: los brazos van estirados, no se flexionan bajo carga. 12 kg era tu peso de entrada antes (RPE 6), no tu peso de trabajo — hoy es justo eso, entrada."
+     },
+     {
+      "name": "Lateral Raise (Dumbbell)",
+      "sets": [
+       {
+        "serie": "Trabajo 1",
+        "carga": "5 kg",
+        "reps": "15",
+        "rir": "objetivo 4",
+        "descanso": "60s"
+       },
+       {
+        "serie": "Trabajo 2",
+        "carga": "5 kg",
+        "reps": "15",
+        "rir": "objetivo 3",
+        "descanso": "60s"
+       },
+       {
+        "serie": "Trabajo 3",
+        "carga": "5 kg",
+        "reps": "15",
+        "rir": "objetivo 3",
+        "descanso": "60s"
+       }
+      ],
+      "cue": "🤝 También lo hace Mopo hoy. El codo va quieto en un ángulo fijo, no trabaja. Sube hasta la altura del hombro, no más, y baja lento. Antes hacías 10 kg pero a RPE 10 siempre: hoy 5 kg y que sobre."
+     },
+     {
+      "name": "Reverse Crunch",
+      "sets": [
+       {
+        "serie": "1",
+        "carga": "Peso corporal",
+        "reps": "15",
+        "rir": "3",
+        "descanso": "60s"
+       },
+       {
+        "serie": "2",
+        "carga": "Peso corporal",
+        "reps": "15",
+        "rir": "2",
+        "descanso": "60s"
+       },
+       {
+        "serie": "3",
+        "carga": "Peso corporal",
+        "reps": "15",
+        "rir": "2",
+        "descanso": "60s"
+       }
+      ],
+      "cue": "Rodilla al pecho, afirmada en la barrita, como lo venías haciendo."
+     },
+     {
+      "name": "Plancha lateral con elevación",
+      "sets": [
+       {
+        "serie": "1",
+        "carga": "Peso corporal",
+        "reps": "10 por lado",
+        "rir": "3",
+        "descanso": "60s"
+       },
+       {
+        "serie": "2",
+        "carga": "Peso corporal",
+        "reps": "10 por lado",
+        "rir": "3",
+        "descanso": "60s"
+       }
+      ],
+      "cue": "**Dijiste que sientes que no sabes hacerlo, así que acá va completo.** De lado, codo justo debajo del hombro, rodillas o pies apoyados, cuerpo en una línea recta desde la cabeza hasta las rodillas. Desde ahí baja la cadera despacio hasta casi rozar el suelo y súbela hasta pasar la línea, apretando el costado de abajo — el que está contra el suelo, no el de arriba. Ese apretón en la cintura de abajo es la señal de que está bien hecho. Si el pecho se gira hacia el suelo o la cadera se va hacia atrás, perdiste la línea: para ahí. Si a 12 por lado no sentías nada, casi seguro era eso. Baja a 10 y hazlas lentas."
+     }
+    ]
    },
    {
     "day": "Sáb 29",
     "date": "2026-08-29",
-    "focus": "Pierna técnica + reevaluación del codo",
+    "focus": "Pierna con rango corregido",
     "tag": null,
-    "rationale": "🤝 **Día para entrenar con Mopo.** Mopo va el mismo día con brazos y core. Su bloque de core quedó igual al tuyo (Dead Bug y plancha) para que lo hagan a la par, y los dos cierran con escaleras.\n\nNo se programa nada de tren superior este día -- press, remo, jalón, Face Pull o peso muerto quedan fuera hasta tener por escrito diagnóstico, movimientos autorizados, carga inicial y criterio de progresión del profesional tratante. La fecha de alta no es, por sí sola, autorización. Sentadilla se mantiene en peso corporal a banco (no Smith): ante incertidumbre real sobre el diagnóstico, la ausencia de dolor no prueba tolerancia, mejor esperar la indicación clínica antes de reintroducir cualquier variante con barra.",
+    "rationale": "El codo ya está de alta, así que no hay reevaluación pendiente: esto es pierna normal. **El cambio real de hoy es el rango en prensa y sentadilla.** Ayer anotaste dolorcito y rigidez en la inserción del cuádriceps en la cadera *al flexionar al máximo* — eso es final de rango, no la carga: los 105 kg salieron bien las tres series. Baja hasta donde la cadera se mueva sin tironear y para ahí, aunque te sobre recorrido. Perder cinco centímetros abajo no te quita nada del estímulo y saca el pinchazo. Del kickback: las últimas dos series salieron a RPE 9 y compensaste con lumbar. La regla para hoy es al revés — **la serie termina cuando la espalda se empieza a mover**, aunque queden repeticiones. Con 23 kg estás en el peso correcto; lo que sobra son repeticiones al fallo.",
     "cardio": "Escaladora 15-18 min, RPE 4-5.",
     "warmup": [
      {
@@ -12660,6 +12796,162 @@
    }
   ],
   "SESSIONS_FULL": [
+   {
+    "date": "2026-08-27",
+    "dlabel": "27 ago",
+    "title": "Piernas + sprinkle de codo✨",
+    "hora": "5:47 PM",
+    "dur": "1h 55m",
+    "vol": "8,169",
+    "com": "VOLVIÓ EL CODO EN GLORIA Y MAJESTAD",
+    "rec": null,
+    "exercises": [
+     {
+      "ej": "Lat Pulldown (Cable)",
+      "carga": "19",
+      "reps": "12",
+      "rpe": "6"
+     },
+     {
+      "ej": "Lat Pulldown (Cable)",
+      "carga": "26",
+      "reps": "12",
+      "rpe": "7"
+     },
+     {
+      "ej": "Lat Pulldown (Cable)",
+      "carga": "25",
+      "reps": "12",
+      "rpe": "7"
+     },
+     {
+      "ej": "Leg Press (Machine)",
+      "carga": "40",
+      "reps": "12",
+      "rpe": "6"
+     },
+     {
+      "ej": "Leg Press (Machine)",
+      "carga": "80",
+      "reps": "8",
+      "rpe": "6"
+     },
+     {
+      "ej": "Leg Press (Machine)",
+      "carga": "100",
+      "reps": "5",
+      "rpe": "7"
+     },
+     {
+      "ej": "Leg Press (Machine)",
+      "carga": "105",
+      "reps": "10",
+      "rpe": "8"
+     },
+     {
+      "ej": "Leg Press (Machine)",
+      "carga": "105",
+      "reps": "10",
+      "rpe": "7"
+     },
+     {
+      "ej": "Leg Press (Machine)",
+      "carga": "105",
+      "reps": "11",
+      "rpe": "8"
+     },
+     {
+      "ej": "Standing Cable Glute Kickback",
+      "carga": "14",
+      "reps": "12",
+      "rpe": "6"
+     },
+     {
+      "ej": "Standing Cable Glute Kickback",
+      "carga": "23",
+      "reps": "12",
+      "rpe": "8"
+     },
+     {
+      "ej": "Standing Cable Glute Kickback",
+      "carga": "23",
+      "reps": "12",
+      "rpe": "9"
+     },
+     {
+      "ej": "Standing Cable Glute Kickback",
+      "carga": "23",
+      "reps": "12",
+      "rpe": "9"
+     },
+     {
+      "ej": "Seated Leg Curl (Machine)",
+      "carga": "15",
+      "reps": "12",
+      "rpe": "6"
+     },
+     {
+      "ej": "Seated Leg Curl (Machine)",
+      "carga": "33",
+      "reps": "12",
+      "rpe": "7,5"
+     },
+     {
+      "ej": "Seated Leg Curl (Machine)",
+      "carga": "35,5",
+      "reps": "12",
+      "rpe": "8"
+     },
+     {
+      "ej": "Seated Leg Curl (Machine)",
+      "carga": "38",
+      "reps": "12",
+      "rpe": "7,5"
+     },
+     {
+      "ej": "Lying Leg Raise",
+      "carga": "Peso corporal",
+      "reps": "15",
+      "rpe": "8"
+     },
+     {
+      "ej": "Lying Leg Raise",
+      "carga": "Peso corporal",
+      "reps": "15",
+      "rpe": "9"
+     },
+     {
+      "ej": "Lying Leg Raise",
+      "carga": "Peso corporal",
+      "reps": "15",
+      "rpe": "9"
+     },
+     {
+      "ej": "Side Plank con elevación",
+      "carga": "Peso corporal",
+      "reps": "12 por lado",
+      "rpe": "—"
+     },
+     {
+      "ej": "Side Plank con elevación",
+      "carga": "Peso corporal",
+      "reps": "12 por lado",
+      "rpe": "—"
+     },
+     {
+      "ej": "Side Plank con elevación",
+      "carga": "Peso corporal",
+      "reps": "12 por lado",
+      "rpe": "—"
+     },
+     {
+      "ej": "Stair Machine (Floors)",
+      "carga": "—",
+      "reps": "52 pisos / 15m 10s",
+      "rpe": "—"
+     }
+    ]
+   },
    {
     "date": "2026-08-26",
     "dlabel": "26 ago",

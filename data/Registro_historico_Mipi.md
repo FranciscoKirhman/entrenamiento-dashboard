@@ -2144,3 +2144,46 @@ No hubo sesión de gimnasio este día (la pierna B se corrió al jueves 27). Sí
 **Notas:**
 - **Codo:** aguantó bien. Sin problema con el propio peso ni subiendo en la pared, tampoco con cargas pesadas de agarre.
 - Es la primera carga real de tren superior en unos 50 días, y salió sin molestias — dato relevante para el alta del sábado 29.
+
+## 27 Aug 2026 — Piernas + sprinkle de codo✨
+
+**Hora:** 5:47 PM  
+**Duración:** 1h 55m  
+**Volumen Hevy:** 8,169 kg  
+**Comentario:** VOLVIÓ EL CODO EN GLORIA Y MAJESTAD  
+
+| Orden | Ejercicio | Serie | Carga | Reps/tiempo | RPE |
+|---:|---|---:|---:|---|---:|
+| 1 | Lat Pulldown (Cable) | 1 | 19 kg | 12 | 6 |
+| 1 | Lat Pulldown (Cable) | 2 | 26 kg | 12 | 7 |
+| 1 | Lat Pulldown (Cable) | 3 | 25 kg | 12 | 7 |
+| 2 | Leg Press (Machine) | 1 | 40 kg | 12 | 6 |
+| 2 | Leg Press (Machine) | 2 | 80 kg | 8 | 6 |
+| 2 | Leg Press (Machine) | 3 | 100 kg | 5 | 7 |
+| 2 | Leg Press (Machine) | 4 | 105 kg | 10 | 8 |
+| 2 | Leg Press (Machine) | 5 | 105 kg | 10 | 7 |
+| 2 | Leg Press (Machine) | 6 | 105 kg | 11 | 8 |
+| 3 | Standing Cable Glute Kickback | 1 | 14 kg | 12 | 6 |
+| 3 | Standing Cable Glute Kickback | 2 | 23 kg | 12 | 8 |
+| 3 | Standing Cable Glute Kickback | 3 | 23 kg | 12 | 9 |
+| 3 | Standing Cable Glute Kickback | 4 | 23 kg | 12 | 9 |
+| 4 | Seated Leg Curl (Machine) | 1 | 15 kg | 12 | 6 |
+| 4 | Seated Leg Curl (Machine) | 2 | 33 kg | 12 | 7,5 |
+| 4 | Seated Leg Curl (Machine) | 3 | 35,5 kg | 12 | 8 |
+| 4 | Seated Leg Curl (Machine) | 4 | 38 kg | 12 | 7,5 |
+| 5 | Lying Leg Raise | 1 | Peso corporal | 15 | 8 |
+| 5 | Lying Leg Raise | 2 | Peso corporal | 15 | 9 |
+| 5 | Lying Leg Raise | 3 | Peso corporal | 15 | 9 |
+| 6 | Side Plank con elevación | 1 | Peso corporal | 12 por lado | — |
+| 6 | Side Plank con elevación | 2 | Peso corporal | 12 por lado | — |
+| 6 | Side Plank con elevación | 3 | Peso corporal | 12 por lado | — |
+| 7 | Stair Machine (Floors) | 1 | — | 52 pisos / 15m 10s | — |
+
+**Notas por ejercicio:**
+- **Lat Pulldown:** primero post codo. Feeling good, sin dolor, solo miedito. Hizo los 26 kg prescritos.
+- **Leg Press:** al flexionar al máximo, dolorcito y rigidez en la inserción del cuádriceps en la cadera. Completó las tres series de trabajo a 105 kg (10, 10 y 11 reps).
+- **Standing Cable Glute Kickback:** técnica de la Shlomit; cansó más que la anterior y en las últimas series compensó con lumbar. Sigue buscando la técnica.
+- **Seated Leg Curl:** reemplazó al Lying Leg Curl porque la máquina estaba ocupada. Subió hasta 38 kg y la última serie salió a RPE 7,5, más fácil que la de 35,5.
+- **Side Plank con elevación:** fueron 3 × 12 por lado. Quedó registrado como "1 s" porque Hevy pedía tiempo. Dice que no está segura de hacerlo bien.
+
+*Primera sesión con el codo dado de alta. El Lat Pulldown se hizo junto a Francisco, que ese día tenía Pull.*
