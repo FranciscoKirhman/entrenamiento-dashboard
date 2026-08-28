@@ -1730,3 +1730,37 @@ Sesión de boulder por la tarde, después del entrenamiento de pierna de la mañ
 **Notas:**
 - Escalada en pared con peso corporal.
 - Carga real de tirón, agarre, espalda y bíceps que no aparece en ningún total de Hevy.
+
+## 27 Aug 2026 — Evening workout 🏋️
+
+**Hora:** 5:45 PM  
+**Duración:** 1h 45m  
+**Volumen Hevy:** 11,873 kg  
+
+| Orden | Ejercicio | Serie | Carga | Reps/tiempo | RPE |
+|---:|---|---:|---:|---|---:|
+| 1 | Lat Pulldown (Cable) | 1 | 61 kg | 12 | 6 |
+| 1 | Lat Pulldown (Cable) | 2 | 77,5 kg | 12 | 7,5 |
+| 1 | Lat Pulldown (Cable) | 3 | 77,5 kg | 10 | 8 |
+| 1 | Lat Pulldown (Cable) | 4 | 80 kg | 12 | 8,5 |
+| 2 | Pull Up | 1 | Peso corporal | 8 | 7,5 |
+| 2 | Pull Up | 2 | Peso corporal | 12 | 9 |
+| 3 | Preacher Curl (Machine) | 1 | 46 kg | 12 | 7,5 |
+| 3 | Preacher Curl (Machine) | 2 | 46 kg | 12 | 8 |
+| 3 | Preacher Curl (Machine) | 3 | 46 kg | 12 | 8,5 |
+| 4 | Seated Row (Machine) | 1 | 61 kg | 12 | 7 |
+| 4 | Seated Row (Machine) | 2 | 70,5 kg | 12 | 8 |
+| 4 | Seated Row (Machine) | 3 | 75 kg | 12 | 8,5 |
+| 5 | Rear Delt Reverse Fly (Machine) | 1 | 59 kg | 9 | 9 |
+| 5 | Rear Delt Reverse Fly (Machine) | 2 | 59 kg | 12 | 9 |
+| 5 | Rear Delt Reverse Fly (Machine) | 3 | 59 kg | 12 | 9,5 |
+| 6 | Face Pull | 1 | 26,5 kg | 15 | 7 |
+| 6 | Face Pull | 2 | 26,5 kg | 15 | 8 |
+| 7 | Side Plank | 1 | Peso corporal | 31 s | — |
+| 8 | Stair Machine (Floors) | 1 | — | 85 pisos / 23m 2s | — |
+
+**Notas por ejercicio:**
+- **Rear Delt Reverse Fly:** llegó cansado y la primera serie la hizo sin descansar; después tomó 2 min para la segunda. Las tres salieron a RPE 9-9,5.
+- **Side Plank:** anotó el criterio por serie (1ª RIR 3 con 60 s de descanso, 2ª RIR 2, 3ª RIR), pero en Hevy quedó registrada una sola serie de 31 s.
+
+*Sesión junto a Paloma, que hizo su primer Lat Pulldown después del alta del codo.*
