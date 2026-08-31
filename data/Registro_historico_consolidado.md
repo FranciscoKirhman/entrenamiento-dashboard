@@ -1764,3 +1764,70 @@ Sesión de boulder por la tarde, después del entrenamiento de pierna de la mañ
 - **Side Plank:** anotó el criterio por serie (1ª RIR 3 con 60 s de descanso, 2ª RIR 2, 3ª RIR), pero en Hevy quedó registrada una sola serie de 31 s.
 
 *Sesión junto a Paloma, que hizo su primer Lat Pulldown después del alta del codo.*
+
+## 28 Aug 2026 — Afternoon workout 💪
+
+**Hora:** 2:25 PM  
+**Duración:** 1h 11m  
+**Volumen Hevy:** 6,742 kg  
+
+| Orden | Ejercicio | Serie | Carga | Reps/tiempo | RPE |
+|---:|---|---:|---:|---|---:|
+| 1 | Overhead Press (Barbell) | 1 | 20 kg | 10 | 6 |
+| 1 | Overhead Press (Barbell) | 2 | 40 kg | 8 | 8 |
+| 1 | Overhead Press (Barbell) | 3 | 40 kg | 8 | 8,5 |
+| 1 | Overhead Press (Barbell) | 4 | 40 kg | 7 | 9 |
+| 2 | Lateral Raise (Dumbbell) | 1 | 24 kg | 12 | 9 |
+| 2 | Lateral Raise (Dumbbell) | 2 | 24 kg | 12 | 8,5 |
+| 2 | Lateral Raise (Dumbbell) | 3 | 17,5 kg | 13 | 9 |
+| 3 | Incline Bench Press (Barbell) | 1 | 40 kg | 8 | 6 |
+| 3 | Incline Bench Press (Barbell) | 2 | 60 kg | 8 | 8,5 |
+| 3 | Incline Bench Press (Barbell) | 3 | 60 kg | 10 | 8,5 |
+| 3 | Incline Bench Press (Barbell) | 4 | 60 kg | 10 | 9 |
+| 4 | Overhead Triceps Extension (Cable) | 1 | 21,25 kg | 10 | 8,5 |
+| 4 | Overhead Triceps Extension (Cable) | 2 | 21,25 kg | 10 | 9 |
+| 4 | Overhead Triceps Extension (Cable) | 3 | 21,25 kg | 11 | 9,5 |
+| 5 | Cable Core Pallof Press | 1 | 15 kg | 12 | 8,5 |
+| 5 | Cable Core Pallof Press | 2 | 15 kg | 12 | 9 |
+| 5 | Cable Core Pallof Press | 3 | 15 kg | 12 | 9,5 |
+| 6 | Chest Fly (Machine) | 1 | 54 kg | 15 | 7,5 |
+| 6 | Chest Fly (Machine) | 2 | 54 kg | 15 | 8,5 |
+
+**Notas por ejercicio:**
+- **Lateral Raise:** "perdí fuerza" — bajó de 24 kg a 17,5 kg en la tercera serie.
+- **Incline Bench Press:** leve molestia sin dolor. Tomó poca cafeína, con poca energía y poco motivado, aunque se sintió bien en general.
+
+**Récords:** mejor 1RM en Cable Core Pallof Press (15 kg × 12).
+
+*Chest Fly quedó en 2 series de las 3 planificadas.*
+
+## 29 Aug 2026 — Morning workout ☀️
+
+**Hora:** 12:00 PM  
+**Duración:** 59m  
+**Volumen Hevy:** 4,139 kg  
+
+| Orden | Ejercicio | Serie | Carga | Reps/tiempo | RPE |
+|---:|---|---:|---:|---|---:|
+| 1 | Bicep Curl (Dumbbell) | 1 | 28 kg | 12 | 8 |
+| 1 | Bicep Curl (Dumbbell) | 2 | 28 kg | 11 | 8 |
+| 1 | Bicep Curl (Dumbbell) | 3 | 28 kg | 11 | 9 |
+| 2 | Hammer Curl (Dumbbell) | 1 | 28 kg | 12 | 7,5 |
+| 2 | Hammer Curl (Dumbbell) | 2 | 28 kg | 12 | 8 |
+| 2 | Hammer Curl (Dumbbell) | 3 | 28 kg | 12 | 9 |
+| 3 | Triceps Pushdown | 1 | 30 kg | 15 | 8 |
+| 3 | Triceps Pushdown | 2 | 30 kg | 15 | 8 |
+| 3 | Triceps Pushdown | 3 | 30 kg | 15 | 8 |
+| 4 | Face Pull | 1 | 26,5 kg | 15 | 7 |
+| 4 | Face Pull | 2 | 28,75 kg | 15 | 8 |
+| 5 | Plank | 1 | Peso corporal (isométrico) | 40 s | — |
+| 5 | Plank | 2 | Peso corporal (isométrico) | 40 s | — |
+| 5 | Plank | 3 | Peso corporal (isométrico) | 40 s | — |
+| 6 | Dead Bug | 1 | Peso corporal | 10 | 7 |
+| 6 | Dead Bug | 2 | Peso corporal | 10 | 7 |
+| 6 | Dead Bug | 3 | Peso corporal | 10 | 7 |
+
+**Notas por ejercicio:**
+- **Hammer Curl:** no lo hizo en superserie y cree que tampoco habría podido.
+
+*Face Pull quedó en 2 series de las 3 planificadas. Sesión junto a Paloma.*

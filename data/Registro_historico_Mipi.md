@@ -2187,3 +2187,84 @@ No hubo sesión de gimnasio este día (la pierna B se corrió al jueves 27). Sí
 - **Side Plank con elevación:** fueron 3 × 12 por lado. Quedó registrado como "1 s" porque Hevy pedía tiempo. Dice que no está segura de hacerlo bien.
 
 *Primera sesión con el codo dado de alta. El Lat Pulldown se hizo junto a Francisco, que ese día tenía Pull.*
+
+## 28 Aug 2026 — Superior y abs
+
+**Hora:** 2:18 PM  
+**Duración:** 1h 20m  
+**Volumen Hevy:** 2,294 kg  
+
+| Orden | Ejercicio | Serie | Carga | Reps/tiempo | RPE |
+|---:|---|---:|---:|---|---:|
+| 1 | Chest Fly (Machine) | 1 | 7 kg | 15 | 6 |
+| 1 | Chest Fly (Machine) | 2 | 12 kg | 15 | 6 |
+| 1 | Chest Fly (Machine) | 3 | 14,5 kg | 15 | 7 |
+| 2 | Seated Row (Machine) | 1 | 15 kg | 12 | 6 |
+| 2 | Seated Row (Machine) | 2 | 24 kg | 12 | 7 |
+| 2 | Seated Row (Machine) | 3 | 24 kg | 12 | 7,5 |
+| 2 | Seated Row (Machine) | 4 | 24 kg | 12 | 7 |
+| 3 | Lateral Raise (Dumbbell) | 1 | 5 kg | 15 | 8,5 |
+| 3 | Lateral Raise (Dumbbell) | 2 | 4 kg | 15 | 9 |
+| 3 | Lateral Raise (Dumbbell) | 3 | 4 kg | 12 | 9,5 |
+| 4 | Bicep Curl (Dumbbell) | 1 | 4 kg | 12 | 7 |
+| 4 | Bicep Curl (Dumbbell) | 2 | 4 kg | 12 | 8 |
+| 4 | Bicep Curl (Dumbbell) | 3 | 4 kg | 12 | 8 |
+| 5 | Reverse Crunch | 1 | Peso corporal | 15 | 7,5 |
+| 5 | Reverse Crunch | 2 | Peso corporal | 15 | 8 |
+| 5 | Reverse Crunch | 3 | Peso corporal | 15 | 8 |
+| 6 | Side Plank con elevación | 1 | Peso corporal | 12 por lado | — |
+| 6 | Side Plank con elevación | 2 | Peso corporal | 12 por lado | — |
+| 6 | Side Plank con elevación | 3 | Peso corporal | 12 por lado | — |
+| 7 | Jackknife Sit Up | 1 | Peso corporal | 12 | 8,5 |
+| 7 | Jackknife Sit Up | 2 | Peso corporal | 12 | 9 |
+| 7 | Jackknife Sit Up | 3 | Peso corporal | 11 | 10 |
+| 8 | Russian Twist (Weighted) | 1 | 6 kg | 20 | 6 |
+| 8 | Russian Twist (Weighted) | 2 | 6 kg | 20 | 7 |
+| 8 | Russian Twist (Weighted) | 3 | 6 kg | 30 | 7 |
+
+**Notas por ejercicio:**
+- **Chest Fly:** fácil. Subió sola de los 12 kg prescritos a 14,5 kg.
+- **Lateral Raise:** "nunca fueron 10 kilos, siempre hacía 5 por lado". Los 5 kg se sintieron pesados y bajó a 4 kg.
+- **Reverse Crunch:** rodilla al pecho y pies al cielo, brazos a los lados.
+- **Side Plank con elevación:** fueron 3 × 12 por lado. Sigue sin sentirlo. Quedó registrado como "1 s" porque Hevy pedía tiempo.
+
+**Récords:** mejor peso, mejor volumen y mejor 1RM en Russian Twist (6 kg).
+
+*Primera sesión completa de tren superior después del alta del codo. Sin molestias en el codo en ningún ejercicio.*
+
+## 29 Aug 2026 — Liviano
+
+**Hora:** 12:02 PM  
+**Duración:** 55m  
+**Volumen Hevy:** 4,980 kg  
+
+| Orden | Ejercicio | Serie | Carga | Reps/tiempo | RPE |
+|---:|---|---:|---:|---|---:|
+| 1 | Box Squat (Barbell) | 1 | 0 kg | 15 | 6 |
+| 1 | Box Squat (Barbell) | 2 | 0 kg | 15 | 6 |
+| 1 | Box Squat (Barbell) | 3 | 0 kg | 15 | 7 |
+| 2 | Hip Adduction (Machine) | 1 | 40 kg | 15 | 6 |
+| 2 | Hip Adduction (Machine) | 2 | 61 kg | 12 | 7 |
+| 2 | Hip Adduction (Machine) | 3 | 63,5 kg | 12 | 7,5 |
+| 2 | Hip Adduction (Machine) | 4 | 63,5 kg | 12 | 8 |
+| 3 | Leg Extension (Machine) | 1 | 33 kg | 12 | 6 |
+| 3 | Leg Extension (Machine) | 2 | 50 kg | 12 | 9 |
+| 3 | Leg Extension (Machine) | 3 | 47 kg | 12 | 9 |
+| 3 | Leg Extension (Machine) | 4 | 47 kg | 12 | 9,5 |
+| 4 | Hollow Rock | 1 | Peso corporal | 20 s | — |
+| 4 | Hollow Rock | 2 | Peso corporal | 16 s | — |
+| 5 | Dead Bug | 1 | Peso corporal | 20 | 7,5 |
+| 5 | Dead Bug | 2 | Peso corporal | 20 | 7,5 |
+| 5 | Dead Bug | 3 | Peso corporal | 20 | 8 |
+| 6 | Jackknife Sit Up | 1 | Peso corporal | 12 | 8,5 |
+| 6 | Jackknife Sit Up | 2 | Peso corporal | 12 | 9,5 |
+| 7 | Plank | 1 | Peso corporal (isométrico) | 16 s | — |
+| 7 | Plank | 2 | Peso corporal (isométrico) | 5 s | — |
+| 7 | Plank | 3 | Peso corporal (isométrico) | 15 s | — |
+
+**Notas por ejercicio:**
+- **Box Squat:** "estoy lista para volver a hacer con peso".
+- **Leg Extension:** se siente pesadita. Subió a 50 kg y bajó a 47 para las dos últimas.
+- **Hollow Rock:** no lo puede hacer con los brazos a los lados, se le despega la espalda del suelo.
+
+*Sesión junto a Francisco.*

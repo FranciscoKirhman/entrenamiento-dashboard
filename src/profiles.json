@@ -31,26 +31,26 @@
     "hist": 3.8,
     "lo": 6,
     "hi": 10,
-    "tier": "warning",
+    "tier": "critical",
     "trend": 0.0,
     "note": "RDL y curl femoral del lunes, cuatro series de RDL a 50 kg con récord de volumen. Sigue bajo de banda pero ya no en cero.",
     "ex": "Romanian Deadlift, Seated Leg Curl"
    },
    {
     "name": "Tríceps",
-    "recent": 1.8,
-    "hist": 5.0,
+    "recent": 5.2,
+    "hist": 5.3,
     "lo": 6,
     "hi": 10,
-    "tier": "critical",
-    "trend": -1.7,
+    "tier": "warning",
+    "trend": 1.7,
     "note": "Pushdown del martes. Sube respecto de la ventana anterior pero sigue bajo de banda; el sábado es el día de brazos.",
     "ex": "Triceps Pushdown, Overhead Extension, Skullcrusher"
    },
    {
     "name": "Glúteo / cadera",
     "recent": 1.8,
-    "hist": 4.3,
+    "hist": 4.2,
     "lo": 8,
     "hi": 12,
     "tier": "critical",
@@ -60,56 +60,56 @@
    },
    {
     "name": "Espalda",
-    "recent": 12.2,
-    "hist": 8.8,
+    "recent": 8.8,
+    "hist": 8.6,
     "lo": 12,
     "hi": 16,
-    "tier": "good",
-    "trend": 7.5,
+    "tier": "warning",
+    "trend": 0.6,
     "note": "8,2 contra una banda de 12–16 y seis días sin tocarla — el último Pull fue el 21. Es el hueco más grande del tablero y por eso el jalón se adelanta a hoy.",
     "ex": "Lat Pulldown, Seated Row, Pull Up"
    },
    {
     "name": "Bíceps",
-    "recent": 3.5,
-    "hist": 4.9,
+    "recent": 6.4,
+    "hist": 5.3,
     "lo": 6,
     "hi": 10,
-    "tier": "warning",
-    "trend": 1.7,
+    "tier": "good",
+    "trend": 4.1,
     "note": "1,8 contra 6–10, también desde el 21. Viene incluido en el Pull de hoy (Preacher y Hammer).",
     "ex": "Preacher Curl, Bicep Curl, Hammer Curl"
    },
    {
     "name": "Pecho",
-    "recent": 9.9,
-    "hist": 8.8,
+    "recent": 12.8,
+    "hist": 9.0,
     "lo": 10,
     "hi": 14,
-    "tier": "warning",
-    "trend": 4.7,
+    "tier": "good",
+    "trend": 7.6,
     "note": "Dentro de banda tras el push del martes (banca 80×10×3). No necesita segunda dosis hoy; se mueve al viernes.",
     "ex": "Bench Press, Incline Bench, Chest Fly"
    },
    {
     "name": "Hombro (empuje)",
-    "recent": 12.2,
-    "hist": 10.5,
+    "recent": 13.4,
+    "hist": 10.8,
     "lo": 8,
     "hi": 12,
     "tier": "good",
-    "trend": 3.4,
+    "trend": 1.7,
     "note": "11,1 sobre una banda de 8–12: cumplido. Molestia leve en el hombro izquierdo confirmada, en banca, press de hombro y elevación lateral — el Chest Fly no dio problema. El segundo día de empuje se corrió al viernes, así quedan tres días entre sesiones de press en vez de dos. Nada más que eso: si molesta el viernes, cambia el press militar por mancuernas en inclinado y sigue.",
     "ex": "Shoulder Press, Lateral Raise, Rear Delt Reverse Fly"
    },
    {
     "name": "Cuádriceps",
     "recent": 9.9,
-    "hist": 7.8,
+    "hist": 7.7,
     "lo": 10,
     "hi": 14,
     "tier": "warning",
-    "trend": 0.0,
+    "trend": 4.7,
     "note": "Sentadilla 90×8 y prensa el miércoles. **La prensa a 180 kg × 12 es marca real, no error de registro**: la hizo dos veces, a RPE 8 y 8,5. 160 quedaba en RPE 7 — o sea que la carga prescrita estaba corta. Desde el próximo día de pierna la base es 180 kg, y se queda ahí hasta completar las tres series de 12.",
     "ex": "Squat, Leg Press, Leg Extension"
    },
@@ -120,18 +120,18 @@
     "lo": 4,
     "hi": 8,
     "tier": "warning",
-    "trend": -4.1,
+    "trend": -1.2,
     "note": "Hip Adduction del miércoles, 84,5 kg × 18. Dentro de lo razonable para el rol accesorio que cumple.",
     "ex": "Hip Adduction, Hip Abduction"
    },
    {
     "name": "Core",
-    "recent": 18.1,
-    "hist": 4.8,
+    "recent": 22.8,
+    "hist": 5.4,
     "lo": 12,
     "hi": 22,
     "tier": "good",
-    "trend": 5.3,
+    "trend": 11.1,
     "note": "Banda subida a 12–22: hacer core todos los días es una decisión, no un descuido, y el objetivo ahora lo refleja (≈2 a 4 series diarias). 19,2 cae dentro. Y tienes razón en lo otro: construir el músculo abdominal ahora es lo correcto, porque cuando bajes grasa tiene que haber algo debajo que se vea. Por eso el core lleva carga real (Cable Crunch, Pallof, colgado) y no solo isométricos.",
     "ex": "Reverse Crunch, Plank"
    }
@@ -4326,6 +4326,246 @@
    }
   ],
   "SESSIONS_FULL": [
+   {
+    "date": "2026-08-29",
+    "dlabel": "29 ago",
+    "title": "Morning workout ☀️",
+    "hora": "12:00 PM",
+    "dur": "59m",
+    "vol": "4,139",
+    "com": null,
+    "rec": null,
+    "exercises": [
+     {
+      "ej": "Bicep Curl (Dumbbell)",
+      "carga": "28",
+      "reps": "12",
+      "rpe": "8"
+     },
+     {
+      "ej": "Bicep Curl (Dumbbell)",
+      "carga": "28",
+      "reps": "11",
+      "rpe": "8"
+     },
+     {
+      "ej": "Bicep Curl (Dumbbell)",
+      "carga": "28",
+      "reps": "11",
+      "rpe": "9"
+     },
+     {
+      "ej": "Hammer Curl (Dumbbell)",
+      "carga": "28",
+      "reps": "12",
+      "rpe": "7,5"
+     },
+     {
+      "ej": "Hammer Curl (Dumbbell)",
+      "carga": "28",
+      "reps": "12",
+      "rpe": "8"
+     },
+     {
+      "ej": "Hammer Curl (Dumbbell)",
+      "carga": "28",
+      "reps": "12",
+      "rpe": "9"
+     },
+     {
+      "ej": "Triceps Pushdown",
+      "carga": "30",
+      "reps": "15",
+      "rpe": "8"
+     },
+     {
+      "ej": "Triceps Pushdown",
+      "carga": "30",
+      "reps": "15",
+      "rpe": "8"
+     },
+     {
+      "ej": "Triceps Pushdown",
+      "carga": "30",
+      "reps": "15",
+      "rpe": "8"
+     },
+     {
+      "ej": "Face Pull",
+      "carga": "26,5",
+      "reps": "15",
+      "rpe": "7"
+     },
+     {
+      "ej": "Face Pull",
+      "carga": "28,75",
+      "reps": "15",
+      "rpe": "8"
+     },
+     {
+      "ej": "Plank",
+      "carga": "Peso corporal (isométrico)",
+      "reps": "40 s",
+      "rpe": "—"
+     },
+     {
+      "ej": "Plank",
+      "carga": "Peso corporal (isométrico)",
+      "reps": "40 s",
+      "rpe": "—"
+     },
+     {
+      "ej": "Plank",
+      "carga": "Peso corporal (isométrico)",
+      "reps": "40 s",
+      "rpe": "—"
+     },
+     {
+      "ej": "Dead Bug",
+      "carga": "Peso corporal",
+      "reps": "10",
+      "rpe": "7"
+     },
+     {
+      "ej": "Dead Bug",
+      "carga": "Peso corporal",
+      "reps": "10",
+      "rpe": "7"
+     },
+     {
+      "ej": "Dead Bug",
+      "carga": "Peso corporal",
+      "reps": "10",
+      "rpe": "7"
+     }
+    ]
+   },
+   {
+    "date": "2026-08-28",
+    "dlabel": "28 ago",
+    "title": "Afternoon workout 💪",
+    "hora": "2:25 PM",
+    "dur": "1h 11m",
+    "vol": "6,742",
+    "com": null,
+    "rec": "mejor 1RM en Cable Core Pallof Press (15 kg × 12).",
+    "exercises": [
+     {
+      "ej": "Overhead Press (Barbell)",
+      "carga": "20",
+      "reps": "10",
+      "rpe": "6"
+     },
+     {
+      "ej": "Overhead Press (Barbell)",
+      "carga": "40",
+      "reps": "8",
+      "rpe": "8"
+     },
+     {
+      "ej": "Overhead Press (Barbell)",
+      "carga": "40",
+      "reps": "8",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Overhead Press (Barbell)",
+      "carga": "40",
+      "reps": "7",
+      "rpe": "9"
+     },
+     {
+      "ej": "Lateral Raise (Dumbbell)",
+      "carga": "24",
+      "reps": "12",
+      "rpe": "9"
+     },
+     {
+      "ej": "Lateral Raise (Dumbbell)",
+      "carga": "24",
+      "reps": "12",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Lateral Raise (Dumbbell)",
+      "carga": "17,5",
+      "reps": "13",
+      "rpe": "9"
+     },
+     {
+      "ej": "Incline Bench Press (Barbell)",
+      "carga": "40",
+      "reps": "8",
+      "rpe": "6"
+     },
+     {
+      "ej": "Incline Bench Press (Barbell)",
+      "carga": "60",
+      "reps": "8",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Incline Bench Press (Barbell)",
+      "carga": "60",
+      "reps": "10",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Incline Bench Press (Barbell)",
+      "carga": "60",
+      "reps": "10",
+      "rpe": "9"
+     },
+     {
+      "ej": "Overhead Triceps Extension (Cable)",
+      "carga": "21,25",
+      "reps": "10",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Overhead Triceps Extension (Cable)",
+      "carga": "21,25",
+      "reps": "10",
+      "rpe": "9"
+     },
+     {
+      "ej": "Overhead Triceps Extension (Cable)",
+      "carga": "21,25",
+      "reps": "11",
+      "rpe": "9,5"
+     },
+     {
+      "ej": "Cable Core Pallof Press",
+      "carga": "15",
+      "reps": "12",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Cable Core Pallof Press",
+      "carga": "15",
+      "reps": "12",
+      "rpe": "9"
+     },
+     {
+      "ej": "Cable Core Pallof Press",
+      "carga": "15",
+      "reps": "12",
+      "rpe": "9,5"
+     },
+     {
+      "ej": "Chest Fly (Machine)",
+      "carga": "54",
+      "reps": "15",
+      "rpe": "7,5"
+     },
+     {
+      "ej": "Chest Fly (Machine)",
+      "carga": "54",
+      "reps": "15",
+      "rpe": "8,5"
+     }
+    ]
+   },
    {
     "date": "2026-08-27",
     "dlabel": "27 ago",
@@ -11588,22 +11828,22 @@
    {
     "name": "Glúteo / cadera",
     "recent": 7.0,
-    "hist": 5.6,
+    "hist": 5.5,
     "lo": 10,
     "hi": 16,
     "tier": "warning",
-    "trend": -4.1,
+    "trend": -2.3,
     "note": "Baja a 7,0 porque la ventana de 12 días dejó atrás sesiones viejas, no porque hayas entrenado menos. Ayer el kickback llegó a 23 kg × 12, pero las últimas dos series a RPE 9 compensando con lumbar: el peso está bien, lo que sobra son repeticiones al fallo.",
     "ex": "Hip Thrust, Glute Kickback, Back Extension"
    },
    {
     "name": "Cuádriceps",
-    "recent": 8.2,
+    "recent": 10.5,
     "hist": 6.3,
     "lo": 8,
     "hi": 14,
     "tier": "good",
-    "trend": 2.4,
+    "trend": 7.0,
     "note": "Dentro de banda: la prensa a 105 kg salió completa, tres series de 10-11 a RPE 7-8. Pendiente el rango — el tirón en la inserción aparece al flexionar al máximo, así que se acorta el recorrido, no el peso.",
     "ex": "Leg Press, Squat, Leg Extension"
    },
@@ -11620,74 +11860,74 @@
    },
    {
     "name": "Aductor / abductor",
-    "recent": 1.8,
-    "hist": 2.7,
+    "recent": 3.5,
+    "hist": 2.8,
     "lo": 6,
     "hi": 12,
-    "tier": "critical",
-    "trend": -1.1,
+    "tier": "warning",
+    "trend": 2.3,
     "note": "1,8 contra 6–12 y cuatro días sin tocarlo: es el hueco que queda en pierna. Entra el sábado con Hip Adduction.",
     "ex": "Hip Abduction, Hip Adduction"
    },
    {
     "name": "Core",
-    "recent": 27.4,
-    "hist": 3.9,
+    "recent": 34.4,
+    "hist": 4.6,
     "lo": 12,
     "hi": 24,
     "tier": "good",
-    "trend": 25.1,
+    "trend": 28.0,
     "note": "Banda subida a 12–24, al objetivo real: core todos los días. Durante la rehabilitación del codo fue casi todo el trabajo disponible, por eso 26,2. **Sin Cable Crunch** — no le gusta; el trabajo lateral va con plancha lateral con elevación y el de abdomen bajo con reverse crunch y descenso de piernas lento. Ojo con una consecuencia: el Cable Crunch era el único movimiento abdominal con carga externa, y ahora el bloque es todo peso corporal. Si el objetivo es tener músculo debajo para cuando baje la grasa, en algún momento hay que volver a cargar — con una placa en el pecho en el reverse crunch, o colgado. No urge, pero conviene tenerlo presente antes de que el core sea solo isométricos.",
     "ex": "Reverse Crunch, Dead Bug, Heel Taps"
    },
    {
     "name": "Espalda",
-    "recent": 1.2,
-    "hist": 2.9,
+    "recent": 2.9,
+    "hist": 3.0,
     "lo": 8,
     "hi": 14,
     "tier": "critical",
-    "trend": 1.2,
+    "trend": 2.9,
     "note": "Ya no está en cero: **1,2 series/semana** tras el jalón de ayer, el primero post alta. Salió sin dolor, solo aprensión, con los 26 kg prescritos. Hoy entra el tirón horizontal (Seated Row, 24 kg contra tu base vieja de 31). Sube desde acá sesión a sesión, no de golpe.",
     "ex": "Lat Pulldown, Seated Row, Pull Up"
    },
    {
     "name": "Pecho",
-    "recent": 0.0,
-    "hist": 1.7,
+    "recent": 0.6,
+    "hist": 1.8,
     "lo": 4,
     "hi": 10,
     "tier": "critical",
-    "trend": 0.0,
+    "trend": 0.6,
     "note": "Entra hoy con Chest Fly a 12 kg, que era tu peso de entrada antes. Es el pectoral que menos flexiona el codo bajo carga: los brazos van estirados.",
     "ex": "Bench Press, Chest Press, Chest Fly"
    },
    {
     "name": "Hombro",
-    "recent": 0.0,
+    "recent": 0.6,
     "hist": 3.4,
     "lo": 4,
     "hi": 10,
     "tier": "critical",
-    "trend": 0.0,
+    "trend": 0.6,
     "note": "Entra hoy con elevación lateral a 5 kg. El codo va fijo, no trabaja. Tu base vieja era 10 kg pero siempre a RPE 10 — se vuelve desde la mitad.",
     "ex": "Shoulder Press, Lateral Raise, Face Pull"
    },
    {
     "name": "Bíceps",
-    "recent": 0.0,
-    "hist": 1.4,
+    "recent": 1.8,
+    "hist": 1.5,
     "lo": 3,
     "hi": 8,
-    "tier": "critical",
-    "trend": 0.0,
+    "tier": "warning",
+    "trend": 1.8,
     "note": "Todavía no. Es el que carga el codo de frente; entra la semana que viene, después de tres o cuatro sesiones de tirón sin síntomas.",
     "ex": "Bicep Curl, Preacher Curl"
    },
    {
     "name": "Tríceps",
     "recent": 0.0,
-    "hist": 1.2,
+    "hist": 1.1,
     "lo": 3,
     "hi": 8,
     "tier": "critical",
@@ -15336,6 +15576,306 @@
    }
   ],
   "SESSIONS_FULL": [
+   {
+    "date": "2026-08-29",
+    "dlabel": "29 ago",
+    "title": "Liviano",
+    "hora": "12:02 PM",
+    "dur": "55m",
+    "vol": "4,980",
+    "com": null,
+    "rec": null,
+    "exercises": [
+     {
+      "ej": "Box Squat (Barbell)",
+      "carga": "0",
+      "reps": "15",
+      "rpe": "6"
+     },
+     {
+      "ej": "Box Squat (Barbell)",
+      "carga": "0",
+      "reps": "15",
+      "rpe": "6"
+     },
+     {
+      "ej": "Box Squat (Barbell)",
+      "carga": "0",
+      "reps": "15",
+      "rpe": "7"
+     },
+     {
+      "ej": "Hip Adduction (Machine)",
+      "carga": "40",
+      "reps": "15",
+      "rpe": "6"
+     },
+     {
+      "ej": "Hip Adduction (Machine)",
+      "carga": "61",
+      "reps": "12",
+      "rpe": "7"
+     },
+     {
+      "ej": "Hip Adduction (Machine)",
+      "carga": "63,5",
+      "reps": "12",
+      "rpe": "7,5"
+     },
+     {
+      "ej": "Hip Adduction (Machine)",
+      "carga": "63,5",
+      "reps": "12",
+      "rpe": "8"
+     },
+     {
+      "ej": "Leg Extension (Machine)",
+      "carga": "33",
+      "reps": "12",
+      "rpe": "6"
+     },
+     {
+      "ej": "Leg Extension (Machine)",
+      "carga": "50",
+      "reps": "12",
+      "rpe": "9"
+     },
+     {
+      "ej": "Leg Extension (Machine)",
+      "carga": "47",
+      "reps": "12",
+      "rpe": "9"
+     },
+     {
+      "ej": "Leg Extension (Machine)",
+      "carga": "47",
+      "reps": "12",
+      "rpe": "9,5"
+     },
+     {
+      "ej": "Hollow Rock",
+      "carga": "Peso corporal",
+      "reps": "20 s",
+      "rpe": "—"
+     },
+     {
+      "ej": "Hollow Rock",
+      "carga": "Peso corporal",
+      "reps": "16 s",
+      "rpe": "—"
+     },
+     {
+      "ej": "Dead Bug",
+      "carga": "Peso corporal",
+      "reps": "20",
+      "rpe": "7,5"
+     },
+     {
+      "ej": "Dead Bug",
+      "carga": "Peso corporal",
+      "reps": "20",
+      "rpe": "7,5"
+     },
+     {
+      "ej": "Dead Bug",
+      "carga": "Peso corporal",
+      "reps": "20",
+      "rpe": "8"
+     },
+     {
+      "ej": "Jackknife Sit Up",
+      "carga": "Peso corporal",
+      "reps": "12",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Jackknife Sit Up",
+      "carga": "Peso corporal",
+      "reps": "12",
+      "rpe": "9,5"
+     },
+     {
+      "ej": "Plank",
+      "carga": "Peso corporal (isométrico)",
+      "reps": "16 s",
+      "rpe": "—"
+     },
+     {
+      "ej": "Plank",
+      "carga": "Peso corporal (isométrico)",
+      "reps": "5 s",
+      "rpe": "—"
+     },
+     {
+      "ej": "Plank",
+      "carga": "Peso corporal (isométrico)",
+      "reps": "15 s",
+      "rpe": "—"
+     }
+    ]
+   },
+   {
+    "date": "2026-08-28",
+    "dlabel": "28 ago",
+    "title": "Superior y abs",
+    "hora": "2:18 PM",
+    "dur": "1h 20m",
+    "vol": "2,294",
+    "com": null,
+    "rec": "mejor peso, mejor volumen y mejor 1RM en Russian Twist (6 kg).",
+    "exercises": [
+     {
+      "ej": "Chest Fly (Machine)",
+      "carga": "7",
+      "reps": "15",
+      "rpe": "6"
+     },
+     {
+      "ej": "Chest Fly (Machine)",
+      "carga": "12",
+      "reps": "15",
+      "rpe": "6"
+     },
+     {
+      "ej": "Chest Fly (Machine)",
+      "carga": "14,5",
+      "reps": "15",
+      "rpe": "7"
+     },
+     {
+      "ej": "Seated Row (Machine)",
+      "carga": "15",
+      "reps": "12",
+      "rpe": "6"
+     },
+     {
+      "ej": "Seated Row (Machine)",
+      "carga": "24",
+      "reps": "12",
+      "rpe": "7"
+     },
+     {
+      "ej": "Seated Row (Machine)",
+      "carga": "24",
+      "reps": "12",
+      "rpe": "7,5"
+     },
+     {
+      "ej": "Seated Row (Machine)",
+      "carga": "24",
+      "reps": "12",
+      "rpe": "7"
+     },
+     {
+      "ej": "Lateral Raise (Dumbbell)",
+      "carga": "5",
+      "reps": "15",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Lateral Raise (Dumbbell)",
+      "carga": "4",
+      "reps": "15",
+      "rpe": "9"
+     },
+     {
+      "ej": "Lateral Raise (Dumbbell)",
+      "carga": "4",
+      "reps": "12",
+      "rpe": "9,5"
+     },
+     {
+      "ej": "Bicep Curl (Dumbbell)",
+      "carga": "4",
+      "reps": "12",
+      "rpe": "7"
+     },
+     {
+      "ej": "Bicep Curl (Dumbbell)",
+      "carga": "4",
+      "reps": "12",
+      "rpe": "8"
+     },
+     {
+      "ej": "Bicep Curl (Dumbbell)",
+      "carga": "4",
+      "reps": "12",
+      "rpe": "8"
+     },
+     {
+      "ej": "Reverse Crunch",
+      "carga": "Peso corporal",
+      "reps": "15",
+      "rpe": "7,5"
+     },
+     {
+      "ej": "Reverse Crunch",
+      "carga": "Peso corporal",
+      "reps": "15",
+      "rpe": "8"
+     },
+     {
+      "ej": "Reverse Crunch",
+      "carga": "Peso corporal",
+      "reps": "15",
+      "rpe": "8"
+     },
+     {
+      "ej": "Side Plank con elevación",
+      "carga": "Peso corporal",
+      "reps": "12 por lado",
+      "rpe": "—"
+     },
+     {
+      "ej": "Side Plank con elevación",
+      "carga": "Peso corporal",
+      "reps": "12 por lado",
+      "rpe": "—"
+     },
+     {
+      "ej": "Side Plank con elevación",
+      "carga": "Peso corporal",
+      "reps": "12 por lado",
+      "rpe": "—"
+     },
+     {
+      "ej": "Jackknife Sit Up",
+      "carga": "Peso corporal",
+      "reps": "12",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Jackknife Sit Up",
+      "carga": "Peso corporal",
+      "reps": "12",
+      "rpe": "9"
+     },
+     {
+      "ej": "Jackknife Sit Up",
+      "carga": "Peso corporal",
+      "reps": "11",
+      "rpe": "10"
+     },
+     {
+      "ej": "Russian Twist (Weighted)",
+      "carga": "6",
+      "reps": "20",
+      "rpe": "6"
+     },
+     {
+      "ej": "Russian Twist (Weighted)",
+      "carga": "6",
+      "reps": "20",
+      "rpe": "7"
+     },
+     {
+      "ej": "Russian Twist (Weighted)",
+      "carga": "6",
+      "reps": "30",
+      "rpe": "7"
+     }
+    ]
+   },
    {
     "date": "2026-08-27",
     "dlabel": "27 ago",
