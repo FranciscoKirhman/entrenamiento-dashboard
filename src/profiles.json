@@ -182,6 +182,10 @@
      {
       "name": "Colgado activo en barra — 3 x 30 seg",
       "how": "Cuelga con hombros activos (omóplatos hacia abajo, sin quedar colgando muerto), respira profundo y deja caer las costillas; si molesta el hombro, deja la punta de los pies apoyada para sacarte peso."
+     },
+     {
+      "name": "Bíceps y antebrazo en pared, 30 s por lado",
+      "how": "Palma en la pared con el brazo estirado y los dedos hacia atrás; gira el cuerpo al lado contrario. Va por el trabajo de curl y agarre."
      }
     ],
     "exercises": [
@@ -404,8 +408,8 @@
     "tag": null,
     "rationale": "Estaba planificado empuje y no entrenaste — sin problema, el jueves lo cubriste igual. Queda como el día de descanso de la semana.",
     "cardio": null,
-    "warmup": null,
-    "stretch": null,
+    "warmup": [],
+    "stretch": [],
     "exercises": []
    },
    {
@@ -920,6 +924,10 @@
      {
       "name": "Colgado activo en barra — 3 x 30 seg",
       "how": "Cuelga con hombros activos (omóplatos hacia abajo, sin quedar colgando muerto), respira profundo y deja caer las costillas; si molesta el hombro, deja la punta de los pies apoyada para sacarte peso."
+     },
+     {
+      "name": "Bíceps y antebrazo en pared, 30 s por lado",
+      "how": "Palma en la pared con el brazo estirado y los dedos hacia atrás; gira el cuerpo al lado contrario. Va por el trabajo de curl y agarre."
      }
     ],
     "exercises": [
@@ -1107,30 +1115,8 @@
     "tag": null,
     "rationale": "Día de cerro. No es descanso: subir carga glúteo, cuádriceps y gemelo en excéntrico bastante rato, y cuenta como la sesión aeróbica larga de la semana. Por eso el viernes fue moderado y el domingo es descanso completo. Si vienes cargado de ayer, sube tranquilo y ya.",
     "cardio": "El cerro es el cardio. Sin sesión extra.",
-    "warmup": [
-     {
-      "name": "Caminata de 5-10 min antes de empezar la subida",
-      "how": "Los primeros minutos suaves, sin atacar la pendiente en frío."
-     },
-     {
-      "name": "Rodilla a pared, 10 por lado",
-      "how": "Tobillo suelto antes de subir — es la articulación que más trabaja en pendiente."
-     }
-    ],
-    "stretch": [
-     {
-      "name": "Gemelo en pared, 40 s por lado",
-      "how": "Después de bajar. La bajada es lo que más carga el gemelo y el cuádriceps."
-     },
-     {
-      "name": "Cuádriceps de pie, 40 s por lado",
-      "how": "Talón al glúteo, rodillas juntas, pelvis metida."
-     },
-     {
-      "name": "Isquiotibiales de pie, 40 s por lado",
-      "how": "Suave, ya trabajaron el viernes."
-     }
-    ],
+    "warmup": [],
+    "stretch": [],
     "exercises": []
    },
    {
@@ -1140,8 +1126,8 @@
     "tag": null,
     "rationale": "Descanso completo, como pediste. Después del cerro conviene de verdad — es tu día habitual y esta semana además cierra dos días seguidos de carga en pierna.",
     "cardio": "Nada. Si querés moverte, caminata plana suave y listo.",
-    "warmup": null,
-    "stretch": null,
+    "warmup": [],
+    "stretch": [],
     "exercises": []
    },
    {
@@ -1388,6 +1374,10 @@
      {
       "name": "Colgado activo en barra — 3 x 30 seg",
       "how": "Cuelga con hombros activos (omóplatos hacia abajo, sin quedar colgando muerto), respira profundo y deja caer las costillas; si molesta el hombro, deja la punta de los pies apoyada para sacarte peso."
+     },
+     {
+      "name": "Cuello y trapecio, 20 s por lado",
+      "how": "Oreja al hombro sin subir el hombro, ayudando con la mano. El trapecio se carga en todo el empuje por encima de la cabeza."
      }
     ],
     "exercises": [
@@ -1865,6 +1855,10 @@
      {
       "name": "Colgado activo en barra — 3 x 30 seg",
       "how": "Cuelga con hombros activos (omóplatos hacia abajo, sin quedar colgando muerto), respira profundo y deja caer las costillas; si molesta el hombro, deja la punta de los pies apoyada para sacarte peso."
+     },
+     {
+      "name": "Bíceps y antebrazo en pared, 30 s por lado",
+      "how": "Palma en la pared con el brazo estirado y los dedos hacia atrás; gira el cuerpo al lado contrario. Va por el trabajo de curl y agarre."
      }
     ],
     "exercises": [
@@ -2068,42 +2062,50 @@
     "cardio": "Escaladora 15-20 min, RPE 5.",
     "warmup": [
      {
-      "name": "Pass-through con banda o palo, 2×10",
-      "how": "Toma la banda más ancho que los hombros y pásala de adelante hacia atrás por encima de la cabeza con los codos estirados; si tira mucho, agarra más ancho."
+      "name": "Bici o caminadora, 5-6 min, ritmo conversable",
+      "how": "Solo para subir temperatura y pulso. Debes poder hablar frases completas todo el rato. Si terminas sin aliento, ibas muy fuerte."
      },
      {
-      "name": "Wall slides (deslizar brazos en la pared), 2×10",
-      "how": "De espalda a la pared, antebrazos y dorso de las manos pegados; sube y baja los brazos sin despegarlos y sin arquear la zona lumbar."
+      "name": "Círculos de hombro, 10 hacia atrás y 10 adelante",
+      "how": "De pie, brazos sueltos. Círculos grandes y lentos, llevando el hombro atrás y abajo al final de cada vuelta."
      },
      {
-      "name": "Band pull-apart, 2×15",
-      "how": "Brazos al frente a la altura del pecho, separa las manos estirando la banda y junta las escápulas; hombros abajo, sin subirlos a las orejas."
+      "name": "Dislocaciones con banda o palo, 12 repeticiones",
+      "how": "Agarre ancho, brazos estirados. Pasa el palo de adelante hacia atrás por sobre la cabeza sin doblar los codos. Si no llega, abre más las manos."
      },
      {
-      "name": "Face pull con banda, 2×15",
-      "how": "Tira la banda hacia la cara separando las manos y con los codos altos; termina con las manos a los lados de la cabeza y aguanta 1 segundo."
+      "name": "Rotación externa con banda, 15 por lado",
+      "how": "Codo pegado al costado en 90°. Abre el antebrazo hacia afuera contra la banda y vuelve lento. Es lo que más protege el hombro izquierdo."
      },
      {
-      "name": "Y-T-W boca abajo en banco inclinado, 2×8 cada letra",
-      "how": "Sin peso o con 1-2 kg, dibuja cada letra con los brazos apretando las escápulas; lento, sin tirones ni impulso de espalda."
+      "name": "Deslizamiento en pared (wall slide), 10 repeticiones",
+      "how": "Espalda y brazos contra la pared, codos en 90°. Sube los brazos sin despegar muñecas ni codos. Si se despegan, sube menos."
      },
      {
-      "name": "Series de aproximación con barra vacía, 2×12",
-      "how": "Antes de la primera serie pesada, dos series con barra vacía o muy liviana a ritmo controlado; te sirve para chequear cómo anda el hombro ese día."
+      "name": "Plancha en pared con empuje (serrato), 15 s",
+      "how": "Manos en la pared, empuja separando los omóplatos como si quisieras alejarte. Sostén arriba."
      },
      {
-      "name": "Rotación externa con banda, 2×12 por lado",
-      "how": "Codo pegado al costado en 90°, gira el antebrazo hacia afuera contra la banda. **Usa la banda delgada** — con la dura te quedó molestia el 17."
+      "name": "Series de aproximación del primer ejercicio",
+      "how": "Las que están en la tabla, marcadas como Aprox. Suben la carga de a poco hasta el peso de trabajo. No cuentan como series efectivas."
      }
     ],
     "stretch": [
      {
-      "name": "Dislocaciones de hombro con banda o palo — 2 x 12 lentas",
-      "how": "Agarre bien ancho (más que hombros), brazos estirados, y lleva la banda de adelante hacia atrás por sobre la cabeza en 3 segundos sin arquear la espalda ni encoger el cuello; si el hombro pincha, abre más el agarre."
+      "name": "Pectoral en marco de puerta, 30 s por lado",
+      "how": "Antebrazo apoyado en el marco, codo a la altura del hombro. Gira el pecho hacia el lado contrario."
      },
      {
-      "name": "Colgado activo en barra — 3 x 30 seg",
-      "how": "Cuelga con hombros activos (omóplatos hacia abajo, sin quedar colgando muerto), respira profundo y deja caer las costillas; si molesta el hombro, deja la punta de los pies apoyada para sacarte peso."
+      "name": "Dorsal colgado de la barra, 30 s",
+      "how": "Cuelga relajado dejando que el peso estire el costado."
+     },
+     {
+      "name": "Tríceps sobre la cabeza, 30 s por lado",
+      "how": "Codo arriba apuntando al techo, empuja suave con la otra mano."
+     },
+     {
+      "name": "Cuello y trapecio, 20 s por lado",
+      "how": "Oreja al hombro, sin subir el hombro. Ayuda con la mano."
      }
     ],
     "exercises": [
@@ -2287,26 +2289,42 @@
     "cardio": "Opcional — si alcanzas antes del cierre, 15 min de escaladora. Si no, sáltalo.",
     "warmup": [
      {
-      "name": "Bici o caminadora, 5 min RPE 3",
-      "how": "Solo para entrar en calor, ritmo conversable."
+      "name": "Bici o caminadora, 5-6 min, ritmo conversable",
+      "how": "Solo para subir temperatura y pulso. Debes poder hablar frases completas todo el rato. Si terminas sin aliento, ibas muy fuerte."
      },
      {
-      "name": "Band pull-apart, 2×15",
-      "how": "Banda al frente a la altura del pecho, brazos casi estirados, junta las escápulas."
+      "name": "Círculos de muñeca y codo, 15 en cada sentido",
+      "how": "Puños cerrados, círculos de muñeca; después flexiona y estira el codo completo. Barato y evita molestias en el codo."
      },
      {
-      "name": "Rotación externa con banda, 2×12 por lado",
-      "how": "Codo pegado al costado en 90°, gira el antebrazo hacia afuera contra la banda. **Usa la banda delgada** — con la dura te quedó molestia el 17."
+      "name": "Dislocaciones con banda, 12 repeticiones",
+      "how": "Agarre ancho, brazos estirados, palo de adelante hacia atrás sin doblar codos."
+     },
+     {
+      "name": "Curl y extensión con banda liviana, 15 de cada uno",
+      "how": "Sin buscar cansancio: es para que el codo y el antebrazo lleguen con sangre."
+     },
+     {
+      "name": "Series de aproximación del primer ejercicio",
+      "how": "Las que están en la tabla, marcadas como Aprox. Suben la carga de a poco hasta el peso de trabajo. No cuentan como series efectivas."
      }
     ],
     "stretch": [
      {
-      "name": "Colgado activo de la barra, 2×20 s",
-      "how": "Colgado con los hombros activos (no muertos). Descomprime y suelta el dorsal."
+      "name": "Dorsal colgado de la barra, 30 s",
+      "how": "Cuelga relajado y respira."
      },
      {
-      "name": "Tríceps overhead, 30 s por lado",
-      "how": "Codo arriba junto a la oreja, empuja suave con la otra mano."
+      "name": "Bíceps y antebrazo en pared, 30 s por lado",
+      "how": "Palma en la pared con el brazo estirado y los dedos hacia atrás; gira el cuerpo al lado contrario."
+     },
+     {
+      "name": "Pectoral en marco de puerta, 30 s por lado",
+      "how": "Antebrazo en el marco, codo a la altura del hombro."
+     },
+     {
+      "name": "Cuello y trapecio, 20 s por lado",
+      "how": "Oreja al hombro, sin encoger."
      }
     ],
     "exercises": [
@@ -2503,8 +2521,8 @@
     "tag": null,
     "rationale": "Tu día habitual de descanso. Si te dan ganas de moverte, correr suave o nadar — pero sin pesas.",
     "cardio": "Opcional y suave: correr 20-30 min a ritmo conversable, o natación.",
-    "warmup": null,
-    "stretch": null,
+    "warmup": [],
+    "stretch": [],
     "exercises": []
    },
    {
@@ -2514,28 +2532,32 @@
     "focus": "Posterior — glúteo y femoral (prioridad)",
     "warmup": [
      {
-      "name": "Bici o caminadora, 6 min, ritmo conversable",
-      "how": "Solo para entrar en calor. Debes poder hablar frases completas."
+      "name": "Bici o caminadora, 5-6 min, ritmo conversable",
+      "how": "Solo para subir temperatura y pulso. Debes poder hablar frases completas todo el rato. Si terminas sin aliento, ibas muy fuerte."
      },
      {
-      "name": "Rodilla a pared, 10 por lado",
-      "how": "De pie frente a la pared, pie a un palmo. Lleva la rodilla a tocar la pared sin despegar el talón. Aleja el pie mientras siga llegando."
+      "name": "Círculos de cadera de pie, 8 por lado",
+      "how": "Apóyate en algo, rodilla a la altura de la cadera, círculos grandes hacia afuera."
      },
      {
-      "name": "90/90 de cadera, 6 cambios por lado",
-      "how": "Sentado en el suelo, una pierna adelante y otra al lado en 90°. Gira ambas rodillas al otro lado sin usar las manos, pecho arriba."
+      "name": "Bisagra de cadera con palo, 12 repeticiones",
+      "how": "Palo pegado a la espalda tocando cabeza, espalda alta y cola. Echa la cadera atrás manteniendo los tres puntos en contacto. Ese es el patrón del RDL."
      },
      {
-      "name": "Puente de glúteo, 2×12 con pausa de 1 s",
-      "how": "Acostado, pies al ancho de cadera. Sube apretando el glúteo hasta alinear rodilla-cadera-hombro. Costillas abajo, no arquees la lumbar."
+      "name": "Puente de glúteo, 12 con pausa de 1 s",
+      "how": "Sube apretando el glúteo hasta alinear rodilla-cadera-hombro y aguanta 1 s. La costilla queda abajo, sin arquear."
      },
      {
-      "name": "Bisagra de cadera con palo, 10",
-      "how": "Palo tocando nuca, espalda alta y sacro a la vez. Lleva la cadera atrás manteniendo los tres puntos en contacto — es el patrón del RDL de hoy."
+      "name": "Puente a una pierna, 8 por lado",
+      "how": "Mismo puente pero con una pierna estirada. Si la cadera se cae hacia un lado, baja las repeticiones."
      },
      {
-      "name": "Curl femoral nórdico excéntrico asistido, 5",
-      "how": "Arrodillado con los pies sujetos, baja lo más lento que puedas y empuja con las manos para volver. Solo 5, es preparación."
+      "name": "Dead bug lento, 8 por lado",
+      "how": "Boca arriba, brazos al techo y rodillas en 90°. Baja un brazo y la pierna contraria con la lumbar pegada al suelo."
+     },
+     {
+      "name": "Series de aproximación del primer ejercicio",
+      "how": "Las que están en la tabla, marcadas como Aprox. Suben la carga de a poco hasta el peso de trabajo. No cuentan como series efectivas."
      }
     ],
     "exercises": [
@@ -2699,20 +2721,28 @@
     "cardio": "Escaleras 15 min, RPE 5.",
     "stretch": [
      {
-      "name": "Isquiotibiales de pie, 40 s por lado",
-      "how": "Talón en un banco bajo, pierna estirada, lleva la cadera atrás manteniendo la espalda recta. Tira desde la cadera, no redondeando."
+      "name": "Flexor de cadera en estocada, 30 s por lado",
+      "how": "Rodilla atrás en el suelo, mete la pelvis adelante como escondiendo la cola y aprieta el glúteo de atrás."
      },
      {
-      "name": "Flexor de cadera en estocada, 40 s por lado",
-      "how": "Rodilla atrás en el suelo, mete la pelvis (esconde la cola) y aprieta el glúteo de atrás."
+      "name": "Glúteo figura-4 acostado, 30 s por lado",
+      "how": "Cruza el tobillo sobre la rodilla contraria y tira de la pierna de abajo al pecho."
      },
      {
-      "name": "Glúteo figura-4 sentado, 40 s por lado",
-      "how": "Sentado, cruza el tobillo sobre la rodilla contraria y lleva el pecho adelante con la espalda recta."
+      "name": "Isquiotibiales acostado con banda, 30 s por lado",
+      "how": "Banda en el pie, sube la pierna estirada hasta sentir tensión detrás del muslo."
      },
      {
-      "name": "Gemelo en pared, 30 s por lado",
-      "how": "Manos en la pared, pierna atrás estirada, talón pegado al suelo. Ojo con esto que mañana subes cerro."
+      "name": "Aductor en mariposa, 30 s",
+      "how": "Plantas juntas, deja caer las rodillas. Empuja suave con los codos, sin rebotar."
+     },
+     {
+      "name": "Cuádriceps de pie, 30 s por lado",
+      "how": "Talón al glúteo, rodillas juntas y pelvis metida."
+     },
+     {
+      "name": "Pantorrilla en pared, 30 s por lado",
+      "how": "Pierna atrás estirada, talón pegado al suelo."
      }
     ],
     "rationale": "**Semana 3 de 5 — la acumulación sigue subiendo.** Arranca por lo que peor está: glúteo en **1,8 series/semana contra una banda de 8-12** y femoral en 3,5 contra 6-10. Son los dos peores números de tu tablero y llevan cuatro días sin tocarse. 🤝 **Entrenas con Mipi**: los dos abren con Hip Thrust y los dos suben a 105 kg, así que la barra queda igual entre series. Suben Hip Thrust (100→105) y RDL (50→55). El resto se mantiene: una variable a la vez."
@@ -2724,28 +2754,32 @@
     "focus": "Push — pecho y hombro",
     "warmup": [
      {
-      "name": "Bici o caminadora, 6 min, ritmo conversable",
-      "how": "Solo para entrar en calor. Debes poder hablar frases completas."
+      "name": "Bici o caminadora, 5-6 min, ritmo conversable",
+      "how": "Solo para subir temperatura y pulso. Debes poder hablar frases completas todo el rato. Si terminas sin aliento, ibas muy fuerte."
      },
      {
-      "name": "Rodilla a pared, 10 por lado",
-      "how": "De pie frente a la pared, pie a un palmo. Lleva la rodilla a tocar la pared sin despegar el talón. Aleja el pie mientras siga llegando."
+      "name": "Círculos de hombro, 10 hacia atrás y 10 adelante",
+      "how": "De pie, brazos sueltos. Círculos grandes y lentos, llevando el hombro atrás y abajo al final de cada vuelta."
      },
      {
-      "name": "90/90 de cadera, 6 cambios por lado",
-      "how": "Sentado en el suelo, una pierna adelante y otra al lado en 90°. Gira ambas rodillas al otro lado sin usar las manos, pecho arriba."
+      "name": "Dislocaciones con banda o palo, 12 repeticiones",
+      "how": "Agarre ancho, brazos estirados. Pasa el palo de adelante hacia atrás por sobre la cabeza sin doblar los codos. Si no llega, abre más las manos."
      },
      {
-      "name": "Puente de glúteo, 2×12 con pausa de 1 s",
-      "how": "Acostado, pies al ancho de cadera. Sube apretando el glúteo hasta alinear rodilla-cadera-hombro. Costillas abajo, no arquees la lumbar."
+      "name": "Rotación externa con banda, 15 por lado",
+      "how": "Codo pegado al costado en 90°. Abre el antebrazo hacia afuera contra la banda y vuelve lento. Es lo que más protege el hombro izquierdo."
      },
      {
-      "name": "Bisagra de cadera con palo, 10",
-      "how": "Palo tocando nuca, espalda alta y sacro a la vez. Lleva la cadera atrás manteniendo los tres puntos en contacto — es el patrón del RDL de hoy."
+      "name": "Deslizamiento en pared (wall slide), 10 repeticiones",
+      "how": "Espalda y brazos contra la pared, codos en 90°. Sube los brazos sin despegar muñecas ni codos. Si se despegan, sube menos."
      },
      {
-      "name": "Curl femoral nórdico excéntrico asistido, 5",
-      "how": "Arrodillado con los pies sujetos, baja lo más lento que puedas y empuja con las manos para volver. Solo 5, es preparación."
+      "name": "Plancha en pared con empuje (serrato), 15 s",
+      "how": "Manos en la pared, empuja separando los omóplatos como si quisieras alejarte. Sostén arriba."
+     },
+     {
+      "name": "Series de aproximación del primer ejercicio",
+      "how": "Las que están en la tabla, marcadas como Aprox. Suben la carga de a poco hasta el peso de trabajo. No cuentan como series efectivas."
      }
     ],
     "exercises": [
@@ -2791,11 +2825,11 @@
       "cue": "De 80 a 82,5. El 25 hiciste 80 × 10 tres veces a RPE 8-8,5. **Si el hombro izquierdo molesta como ese día, baja el rango antes que el peso**: para el descenso donde el codo pasa la línea del torso."
      },
      {
-      "name": "Shoulder Press (Dumbbell)",
+      "name": "Overhead Press (Barbell)",
       "sets": [
        {
         "serie": "Aprox.",
-        "carga": "24 kg",
+        "carga": "20 kg",
         "reps": "10",
         "rir": "5",
         "descanso": "90s"
@@ -2803,26 +2837,26 @@
        {
         "serie": "1",
         "carga": "40 kg",
-        "reps": "10",
+        "reps": "6-8",
         "rir": "3",
-        "descanso": "2:30"
+        "descanso": "3 min"
        },
        {
         "serie": "2",
         "carga": "40 kg",
-        "reps": "10",
+        "reps": "6-8",
         "rir": "2",
-        "descanso": "2:30"
+        "descanso": "3 min"
        },
        {
         "serie": "3",
         "carga": "40 kg",
-        "reps": "10",
+        "reps": "6-8",
         "rir": "2",
-        "descanso": "2:30"
+        "descanso": "3 min"
        }
       ],
-      "cue": "El peso no sube: el 25 la tercera serie se te cayó a 8 repeticiones. La meta es **las tres a 10** antes de tocar los kilos."
+      "cue": "**Toma slot fijo los martes.** Su problema nunca fue el peso: lo hiciste 3 veces en 3 meses (29 may, 29 jun, 9 jul) y por eso lleva clavado en 40 kg desde mayo. Reemplaza al press con mancuernas para no duplicar patrón. El viernes 28 salió 8@8, 8@8,5, 7@9 — repeticiones cayendo, así que 40 se queda otra semana."
      },
      {
       "name": "Chest Press (Machine)",
@@ -2856,54 +2890,54 @@
       "sets": [
        {
         "serie": "1",
-        "carga": "7,5 kg",
+        "carga": "20 kg",
         "reps": "15",
         "rir": "3",
         "descanso": "60s"
        },
        {
         "serie": "2",
-        "carga": "7,5 kg",
+        "carga": "20 kg",
         "reps": "15",
         "rir": "2",
         "descanso": "60s"
        },
        {
         "serie": "3",
-        "carga": "7,5 kg",
+        "carga": "20 kg",
         "reps": "15",
         "rir": "2",
         "descanso": "60s"
        }
       ],
-      "cue": "Se mantiene. Fue uno de los tres donde apareció la molestia el 25: si vuelve, baja a 5 kg y sube las repeticiones."
+      "cue": "**Baja de 24 a 20 kg.** Llevas semanas a 24 con *todas* las series entre RPE 9 y 9,5, y el viernes apareció el 'perdí fuerza' con la caída a 17,5. Eso no es progresión, es una carga crónicamente alta. Busca RPE 8 y que la tercera serie salga igual que la primera."
      },
      {
       "name": "Triceps Pushdown",
       "sets": [
        {
         "serie": "1",
-        "carga": "32,5 kg",
+        "carga": "30 kg",
         "reps": "12-15",
         "rir": "3",
         "descanso": "75s"
        },
        {
         "serie": "2",
-        "carga": "32,5 kg",
+        "carga": "30 kg",
         "reps": "12-15",
         "rir": "2",
         "descanso": "75s"
        },
        {
         "serie": "3",
-        "carga": "32,5 kg",
+        "carga": "30 kg",
         "reps": "12-15",
         "rir": "2",
         "descanso": "75s"
        }
       ],
-      "cue": "De 30 a 32,5. **Tríceps está en 1,8 contra una banda de 6-10** — es el otro déficit agudo de la semana, así que hoy y el sábado son sus dos dosis."
+      "cue": "**Se queda en 30, corregido**: había puesto 32,5, pero el RPE a esa misma carga subió de 7,5 a 8, 8, 8 entre el 25 y el 29. Se puso más difícil, no más fácil."
      },
      {
       "name": "Elevación de piernas colgado",
@@ -2936,20 +2970,20 @@
     "cardio": "Escaleras 12-15 min, RPE 4-5.",
     "stretch": [
      {
-      "name": "Isquiotibiales de pie, 40 s por lado",
-      "how": "Talón en un banco bajo, pierna estirada, lleva la cadera atrás manteniendo la espalda recta. Tira desde la cadera, no redondeando."
+      "name": "Pectoral en marco de puerta, 30 s por lado",
+      "how": "Antebrazo apoyado en el marco, codo a la altura del hombro. Gira el pecho hacia el lado contrario."
      },
      {
-      "name": "Flexor de cadera en estocada, 40 s por lado",
-      "how": "Rodilla atrás en el suelo, mete la pelvis (esconde la cola) y aprieta el glúteo de atrás."
+      "name": "Dorsal colgado de la barra, 30 s",
+      "how": "Cuelga relajado dejando que el peso estire el costado."
      },
      {
-      "name": "Glúteo figura-4 sentado, 40 s por lado",
-      "how": "Sentado, cruza el tobillo sobre la rodilla contraria y lleva el pecho adelante con la espalda recta."
+      "name": "Tríceps sobre la cabeza, 30 s por lado",
+      "how": "Codo arriba apuntando al techo, empuja suave con la otra mano."
      },
      {
-      "name": "Gemelo en pared, 30 s por lado",
-      "how": "Manos en la pared, pierna atrás estirada, talón pegado al suelo. Ojo con esto que mañana subes cerro."
+      "name": "Cuello y trapecio, 20 s por lado",
+      "how": "Oreja al hombro, sin subir el hombro. Ayuda con la mano."
      }
     ],
     "rationale": "Segundo déficit de la semana: **tríceps en 1,8 contra 6-10**. Entra hoy en el push y vuelve el sábado en el día de brazos. Pecho quedó en 9,9, justo debajo de su banda, así que suben banca (80→82,5) y Chest Press (80→85). El press de hombro **no sube**: el 25 la tercera serie cayó a 8 repeticiones con 40 kg. Primero las tres a 10. Sobre el hombro izquierdo: mismo criterio de siempre, si molesta se acorta el rango, no se suspende nada."
@@ -2961,28 +2995,32 @@
     "focus": "Legs — cuádriceps",
     "warmup": [
      {
-      "name": "Bici o caminadora, 6 min, ritmo conversable",
-      "how": "Solo para entrar en calor. Debes poder hablar frases completas."
+      "name": "Bici o caminadora, 5-6 min, ritmo conversable",
+      "how": "Solo para subir temperatura y pulso. Debes poder hablar frases completas todo el rato. Si terminas sin aliento, ibas muy fuerte."
      },
      {
-      "name": "Rodilla a pared, 10 por lado",
-      "how": "De pie frente a la pared, pie a un palmo. Lleva la rodilla a tocar la pared sin despegar el talón. Aleja el pie mientras siga llegando."
+      "name": "Movilidad de tobillo contra pared, 10 por lado",
+      "how": "De pie frente a la pared, pie a un palmo. Lleva la rodilla a tocar la pared sin despegar el talón. Si llega fácil, aleja más el pie."
+     },
+     {
+      "name": "Círculos de cadera de pie, 8 por lado",
+      "how": "Apóyate en algo, levanta una rodilla a la altura de la cadera y dibuja círculos grandes hacia afuera. Que se mueva la cadera, no la espalda."
      },
      {
       "name": "90/90 de cadera, 6 cambios por lado",
-      "how": "Sentado en el suelo, una pierna adelante y otra al lado en 90°. Gira ambas rodillas al otro lado sin usar las manos, pecho arriba."
+      "how": "Sentado en el suelo, una pierna adelante y otra al lado, ambas en 90°. Gira las dos rodillas al otro lado sin usar las manos."
      },
      {
-      "name": "Puente de glúteo, 2×12 con pausa de 1 s",
-      "how": "Acostado, pies al ancho de cadera. Sube apretando el glúteo hasta alinear rodilla-cadera-hombro. Costillas abajo, no arquees la lumbar."
+      "name": "Puente de glúteo, 12 con pausa de 1 s",
+      "how": "Acostado, pies al ancho de cadera. Sube apretando el glúteo hasta alinear rodilla-cadera-hombro y aguanta 1 s arriba. Sin arquear la lumbar."
      },
      {
-      "name": "Bisagra de cadera con palo, 10",
-      "how": "Palo tocando nuca, espalda alta y sacro a la vez. Lleva la cadera atrás manteniendo los tres puntos en contacto — es el patrón del RDL de hoy."
+      "name": "Abducción con banda sentado, 15 repeticiones",
+      "how": "Banda sobre las rodillas. Abre las rodillas contra la banda y vuelve lento. Debes sentirlo al lado del glúteo, no en el muslo."
      },
      {
-      "name": "Curl femoral nórdico excéntrico asistido, 5",
-      "how": "Arrodillado con los pies sujetos, baja lo más lento que puedas y empuja con las manos para volver. Solo 5, es preparación."
+      "name": "Series de aproximación del primer ejercicio",
+      "how": "Las que están en la tabla, marcadas como Aprox. Suben la carga de a poco hasta el peso de trabajo. No cuentan como series efectivas."
      }
     ],
     "exercises": [
@@ -3146,20 +3184,28 @@
     "cardio": "Escaleras 15 min, RPE 5.",
     "stretch": [
      {
-      "name": "Isquiotibiales de pie, 40 s por lado",
-      "how": "Talón en un banco bajo, pierna estirada, lleva la cadera atrás manteniendo la espalda recta. Tira desde la cadera, no redondeando."
+      "name": "Flexor de cadera en estocada, 30 s por lado",
+      "how": "Rodilla atrás en el suelo, mete la pelvis adelante como escondiendo la cola y aprieta el glúteo de atrás."
      },
      {
-      "name": "Flexor de cadera en estocada, 40 s por lado",
-      "how": "Rodilla atrás en el suelo, mete la pelvis (esconde la cola) y aprieta el glúteo de atrás."
+      "name": "Glúteo figura-4 acostado, 30 s por lado",
+      "how": "Cruza el tobillo sobre la rodilla contraria y tira de la pierna de abajo al pecho."
      },
      {
-      "name": "Glúteo figura-4 sentado, 40 s por lado",
-      "how": "Sentado, cruza el tobillo sobre la rodilla contraria y lleva el pecho adelante con la espalda recta."
+      "name": "Isquiotibiales acostado con banda, 30 s por lado",
+      "how": "Banda en el pie, sube la pierna estirada hasta sentir tensión detrás del muslo."
      },
      {
-      "name": "Gemelo en pared, 30 s por lado",
-      "how": "Manos en la pared, pierna atrás estirada, talón pegado al suelo. Ojo con esto que mañana subes cerro."
+      "name": "Aductor en mariposa, 30 s",
+      "how": "Plantas juntas, deja caer las rodillas. Empuja suave con los codos, sin rebotar."
+     },
+     {
+      "name": "Cuádriceps de pie, 30 s por lado",
+      "how": "Talón al glúteo, rodillas juntas y pelvis metida."
+     },
+     {
+      "name": "Pantorrilla en pared, 30 s por lado",
+      "how": "Pierna atrás estirada, talón pegado al suelo."
      }
     ],
     "rationale": "**Cuádriceps en 9,9, justo debajo de su banda de 10-14.** 🤝 Comparten la prensa con Mipi alternando series. La prensa **no sube**: 180 kg es la base nueva desde el accidente del 26 y el objetivo es completar las tres series ahí. Suben sentadilla (90→92,5) y aducción (84,5→89 con menos repeticiones)."
@@ -3171,28 +3217,32 @@
     "focus": "Pull — espalda y bíceps",
     "warmup": [
      {
-      "name": "Bici o caminadora, 6 min, ritmo conversable",
-      "how": "Solo para entrar en calor. Debes poder hablar frases completas."
+      "name": "Bici o caminadora, 5-6 min, ritmo conversable",
+      "how": "Solo para subir temperatura y pulso. Debes poder hablar frases completas todo el rato. Si terminas sin aliento, ibas muy fuerte."
      },
      {
-      "name": "Rodilla a pared, 10 por lado",
-      "how": "De pie frente a la pared, pie a un palmo. Lleva la rodilla a tocar la pared sin despegar el talón. Aleja el pie mientras siga llegando."
+      "name": "Círculos de hombro, 10 por lado",
+      "how": "Brazos sueltos, círculos grandes y lentos."
      },
      {
-      "name": "90/90 de cadera, 6 cambios por lado",
-      "how": "Sentado en el suelo, una pierna adelante y otra al lado en 90°. Gira ambas rodillas al otro lado sin usar las manos, pecho arriba."
+      "name": "Movilidad torácica sentado, 8 por lado",
+      "how": "Sentado, manos en la nuca, gira el pecho hacia un lado sin mover la cadera. Es rotación de la espalda alta, no de la baja."
      },
      {
-      "name": "Puente de glúteo, 2×12 con pausa de 1 s",
-      "how": "Acostado, pies al ancho de cadera. Sube apretando el glúteo hasta alinear rodilla-cadera-hombro. Costillas abajo, no arquees la lumbar."
+      "name": "Face Pull con banda, 15 repeticiones",
+      "how": "Banda a la altura de la cara. Tira separando las manos y llevando los codos atrás. Hombros abajo, no encogidos."
      },
      {
-      "name": "Bisagra de cadera con palo, 10",
-      "how": "Palo tocando nuca, espalda alta y sacro a la vez. Lleva la cadera atrás manteniendo los tres puntos en contacto — es el patrón del RDL de hoy."
+      "name": "Activación de dorsal con banda, 12 repeticiones",
+      "how": "Banda alta, brazos estirados. Baja los brazos rectos hacia los muslos apretando la axila. Sin doblar el codo."
      },
      {
-      "name": "Curl femoral nórdico excéntrico asistido, 5",
-      "how": "Arrodillado con los pies sujetos, baja lo más lento que puedas y empuja con las manos para volver. Solo 5, es preparación."
+      "name": "Colgarse de la barra, 20 s",
+      "how": "Cuelga relajado y luego aprieta los omóplatos hacia abajo un par de veces. Prepara el hombro para el jalón."
+     },
+     {
+      "name": "Series de aproximación del primer ejercicio",
+      "how": "Las que están en la tabla, marcadas como Aprox. Suben la carga de a poco hasta el peso de trabajo. No cuentan como series efectivas."
      }
     ],
     "exercises": [
@@ -3403,20 +3453,20 @@
     "cardio": "Escaleras 15-20 min, RPE 5.",
     "stretch": [
      {
-      "name": "Isquiotibiales de pie, 40 s por lado",
-      "how": "Talón en un banco bajo, pierna estirada, lleva la cadera atrás manteniendo la espalda recta. Tira desde la cadera, no redondeando."
+      "name": "Dorsal colgado de la barra, 30 s",
+      "how": "Cuelga relajado y respira."
      },
      {
-      "name": "Flexor de cadera en estocada, 40 s por lado",
-      "how": "Rodilla atrás en el suelo, mete la pelvis (esconde la cola) y aprieta el glúteo de atrás."
+      "name": "Bíceps y antebrazo en pared, 30 s por lado",
+      "how": "Palma en la pared con el brazo estirado y los dedos hacia atrás; gira el cuerpo al lado contrario."
      },
      {
-      "name": "Glúteo figura-4 sentado, 40 s por lado",
-      "how": "Sentado, cruza el tobillo sobre la rodilla contraria y lleva el pecho adelante con la espalda recta."
+      "name": "Pectoral en marco de puerta, 30 s por lado",
+      "how": "Antebrazo en el marco, codo a la altura del hombro."
      },
      {
-      "name": "Gemelo en pared, 30 s por lado",
-      "how": "Manos en la pared, pierna atrás estirada, talón pegado al suelo. Ojo con esto que mañana subes cerro."
+      "name": "Cuello y trapecio, 20 s por lado",
+      "how": "Oreja al hombro, sin encoger."
      }
     ],
     "rationale": "🤝 **El día que más calza con Mipi**: es su único día de tren superior de la semana y comparten jalón y remo. Espalda ya está en banda (12,2) gracias al Pull de ayer, así que acá se trata de sostenerla y de subir bíceps, que va en 3,5 contra 6-10. Dos cosas del registro de ayer: **entra una tercera serie de dominadas** (12 repeticiones a RPE 9 dice que sobraba capacidad), y el Rear Delt **no sube de peso** — tres series a RPE 9-9,5 con la primera sin descanso es fatiga, no progreso. Descanso fijo de 2 min."
@@ -3425,73 +3475,146 @@
     "date": "2026-09-04",
     "day": "Vie 4",
     "tag": "entreno",
-    "focus": "Hombro y pecho — segunda dosis",
+    "focus": "Pierna 2 — glúteo y femoral + pecho",
     "warmup": [
      {
-      "name": "Bici o caminadora, 6 min, ritmo conversable",
-      "how": "Solo para entrar en calor. Debes poder hablar frases completas."
+      "name": "Bici o caminadora, 5-6 min, ritmo conversable",
+      "how": "Solo para subir temperatura y pulso. Debes poder hablar frases completas todo el rato. Si terminas sin aliento, ibas muy fuerte."
      },
      {
-      "name": "Rodilla a pared, 10 por lado",
-      "how": "De pie frente a la pared, pie a un palmo. Lleva la rodilla a tocar la pared sin despegar el talón. Aleja el pie mientras siga llegando."
+      "name": "Círculos de cadera de pie, 8 por lado",
+      "how": "Apóyate en algo, rodilla a la altura de la cadera, círculos grandes hacia afuera."
      },
      {
-      "name": "90/90 de cadera, 6 cambios por lado",
-      "how": "Sentado en el suelo, una pierna adelante y otra al lado en 90°. Gira ambas rodillas al otro lado sin usar las manos, pecho arriba."
+      "name": "Bisagra de cadera con palo, 12 repeticiones",
+      "how": "Palo pegado a la espalda tocando cabeza, espalda alta y cola. Echa la cadera atrás manteniendo los tres puntos en contacto. Ese es el patrón del RDL."
      },
      {
-      "name": "Puente de glúteo, 2×12 con pausa de 1 s",
-      "how": "Acostado, pies al ancho de cadera. Sube apretando el glúteo hasta alinear rodilla-cadera-hombro. Costillas abajo, no arquees la lumbar."
+      "name": "Puente de glúteo, 12 con pausa de 1 s",
+      "how": "Sube apretando el glúteo hasta alinear rodilla-cadera-hombro y aguanta 1 s. La costilla queda abajo, sin arquear."
      },
      {
-      "name": "Bisagra de cadera con palo, 10",
-      "how": "Palo tocando nuca, espalda alta y sacro a la vez. Lleva la cadera atrás manteniendo los tres puntos en contacto — es el patrón del RDL de hoy."
+      "name": "Puente a una pierna, 8 por lado",
+      "how": "Mismo puente pero con una pierna estirada. Si la cadera se cae hacia un lado, baja las repeticiones."
      },
      {
-      "name": "Curl femoral nórdico excéntrico asistido, 5",
-      "how": "Arrodillado con los pies sujetos, baja lo más lento que puedas y empuja con las manos para volver. Solo 5, es preparación."
+      "name": "Dead bug lento, 8 por lado",
+      "how": "Boca arriba, brazos al techo y rodillas en 90°. Baja un brazo y la pierna contraria con la lumbar pegada al suelo."
+     },
+     {
+      "name": "Rotación externa con banda, 15 por lado",
+      "how": "Codo pegado al costado en 90°, abre el antebrazo contra la banda. Va antes del Incline por el hombro izquierdo."
+     },
+     {
+      "name": "Dislocaciones con banda o palo, 12 repeticiones",
+      "how": "Agarre ancho, brazos estirados, de adelante hacia atrás sin doblar codos."
+     },
+     {
+      "name": "Series de aproximación del primer ejercicio",
+      "how": "Las que están en la tabla, marcadas como Aprox. Suben la carga de a poco hasta el peso de trabajo. No cuentan como series efectivas."
      }
     ],
     "exercises": [
      {
-      "name": "Overhead Press (Barbell)",
+      "name": "Back Extension (Weighted Hyperextension)",
+      "sets": [
+       {
+        "serie": "1",
+        "carga": "63,5 kg",
+        "reps": "15",
+        "rir": "3",
+        "descanso": "90s"
+       },
+       {
+        "serie": "2",
+        "carga": "63,5 kg",
+        "reps": "15",
+        "rir": "2",
+        "descanso": "90s"
+       },
+       {
+        "serie": "3",
+        "carga": "63,5 kg",
+        "reps": "15",
+        "rir": "2",
+        "descanso": "90s"
+       }
+      ],
+      "cue": "Segunda exposición semanal de glúteo y femoral, que es lo que el tablero pide a gritos. Distinta al Hip Thrust del lunes: menos fatiga sistémica, mismo objetivo."
+     },
+     {
+      "name": "Seated Leg Curl (Machine)",
       "sets": [
        {
         "serie": "Aprox.",
-        "carga": "20 kg",
+        "carga": "45 kg",
+        "reps": "12",
+        "rir": "4+",
+        "descanso": "60s"
+       },
+       {
+        "serie": "1",
+        "carga": "66 kg",
+        "reps": "12",
+        "rir": "3",
+        "descanso": "2 min"
+       },
+       {
+        "serie": "2",
+        "carga": "66 kg",
+        "reps": "12",
+        "rir": "2",
+        "descanso": "2 min"
+       },
+       {
+        "serie": "3",
+        "carga": "66 kg",
+        "reps": "12",
+        "rir": "2",
+        "descanso": "2 min"
+       }
+      ],
+      "cue": "Segunda dosis de femoral en la semana. Con una sola no había forma de salir del 3,5."
+     },
+     {
+      "name": "Hip Adduction (Machine)",
+      "sets": [
+       {
+        "serie": "1",
+        "carga": "89 kg",
+        "reps": "15",
+        "rir": "3",
+        "descanso": "75s"
+       },
+       {
+        "serie": "2",
+        "carga": "89 kg",
+        "reps": "15",
+        "rir": "2",
+        "descanso": "75s"
+       },
+       {
+        "serie": "3",
+        "carga": "89 kg",
+        "reps": "15",
+        "rir": "2",
+        "descanso": "75s"
+       }
+      ],
+      "cue": "Segunda exposición de aductor (3,5 contra banda 4-8)."
+     },
+     {
+      "name": "Incline Bench Press (Barbell)",
+      "sets": [
+       {
+        "serie": "Aprox.",
+        "carga": "40 kg",
         "reps": "8",
         "rir": "5",
         "descanso": "90s"
        },
        {
         "serie": "1",
-        "carga": "40 kg",
-        "reps": "6-8",
-        "rir": "3",
-        "descanso": "3 min"
-       },
-       {
-        "serie": "2",
-        "carga": "40 kg",
-        "reps": "6-8",
-        "rir": "2",
-        "descanso": "3 min"
-       },
-       {
-        "serie": "3",
-        "carga": "40 kg",
-        "reps": "6-8",
-        "rir": "2",
-        "descanso": "3 min"
-       }
-      ],
-      "cue": "Se mantiene en 40 kg. **El problema del press militar no es el peso: es que lo has hecho 3 veces en 3 meses** — 29 de mayo, 29 de junio y 9 de julio. Lleva clavado en 40 kg desde mayo porque no se entrena, no porque se haya estancado. Este mesociclo lo tiene fijo los viernes: cuatro semanas seguidas a 40 kg valen más que un intento aislado a 45. Si el hombro izquierdo molesta, cámbialo por mancuernas en inclinado."
-     },
-     {
-      "name": "Incline Bench Press (Barbell)",
-      "sets": [
-       {
-        "serie": "1",
         "carga": "62,5 kg",
         "reps": "10",
         "rir": "3",
@@ -3512,88 +3635,34 @@
         "descanso": "2:30"
        }
       ],
-      "cue": "De 60 a 62,5. Las tres a 60 × 10 salieron a RPE 8-9."
-     },
-     {
-      "name": "Lateral Raise (Dumbbell)",
-      "sets": [
-       {
-        "serie": "1",
-        "carga": "12 kg",
-        "reps": "15",
-        "rir": "3",
-        "descanso": "60s"
-       },
-       {
-        "serie": "2",
-        "carga": "12 kg",
-        "reps": "15",
-        "rir": "2",
-        "descanso": "60s"
-       },
-       {
-        "serie": "3",
-        "carga": "12 kg",
-        "reps": "15",
-        "rir": "2",
-        "descanso": "60s"
-       }
-      ],
-      "cue": "Hombro medio, que es lo que más aporta al ancho."
+      "cue": "De 60 a 62,5. El pecho **sí se queda** en el viernes: va en 12,8 dentro de una banda de 10-14, y si sacara los dos días de empuje se caería fuera."
      },
      {
       "name": "Chest Fly (Machine)",
       "sets": [
        {
         "serie": "1",
-        "carga": "59 kg",
-        "reps": "12-15",
+        "carga": "54 kg",
+        "reps": "15",
         "rir": "3",
         "descanso": "75s"
        },
        {
         "serie": "2",
-        "carga": "59 kg",
-        "reps": "12-15",
+        "carga": "54 kg",
+        "reps": "15",
         "rir": "2",
         "descanso": "75s"
        },
        {
         "serie": "3",
-        "carga": "59 kg",
-        "reps": "12-15",
+        "carga": "54 kg",
+        "reps": "15",
         "rir": "2",
         "descanso": "75s"
        }
       ],
-      "cue": "El 25 fue el único de los cuatro de empuje donde anotaste *hombro firme*. Se mantiene."
-     },
-     {
-      "name": "Overhead Triceps Extension (Cable)",
-      "sets": [
-       {
-        "serie": "1",
-        "carga": "21,25 kg",
-        "reps": "12-15",
-        "rir": "3",
-        "descanso": "75s"
-       },
-       {
-        "serie": "2",
-        "carga": "21,25 kg",
-        "reps": "12-15",
-        "rir": "2",
-        "descanso": "75s"
-       },
-       {
-        "serie": "3",
-        "carga": "21,25 kg",
-        "reps": "12-15",
-        "rir": "2",
-        "descanso": "75s"
-       }
-      ],
-      "cue": "Segunda dosis de tríceps de la semana. A 20 kg venías haciendo RPE 9,5-10, así que 21,25 con menos repeticiones al fallo."
+      "cue": "Va antes que el core esta vez: las últimas dos sesiones quedó en 2 series de 3 porque llegaba al final."
      },
      {
       "name": "Elevación de piernas colgado",
@@ -3620,29 +3689,41 @@
         "descanso": "60s"
        }
       ],
-      "cue": "Sin balancearte. Si te columpias, baja las repeticiones."
+      "cue": "Sin balancearte."
      }
     ],
     "cardio": "Escaleras 12 min, RPE 4-5.",
     "stretch": [
      {
-      "name": "Isquiotibiales de pie, 40 s por lado",
-      "how": "Talón en un banco bajo, pierna estirada, lleva la cadera atrás manteniendo la espalda recta. Tira desde la cadera, no redondeando."
+      "name": "Flexor de cadera en estocada, 30 s por lado",
+      "how": "Rodilla atrás en el suelo, mete la pelvis adelante como escondiendo la cola y aprieta el glúteo de atrás."
      },
      {
-      "name": "Flexor de cadera en estocada, 40 s por lado",
-      "how": "Rodilla atrás en el suelo, mete la pelvis (esconde la cola) y aprieta el glúteo de atrás."
+      "name": "Glúteo figura-4 acostado, 30 s por lado",
+      "how": "Cruza el tobillo sobre la rodilla contraria y tira de la pierna de abajo al pecho."
      },
      {
-      "name": "Glúteo figura-4 sentado, 40 s por lado",
-      "how": "Sentado, cruza el tobillo sobre la rodilla contraria y lleva el pecho adelante con la espalda recta."
+      "name": "Isquiotibiales acostado con banda, 30 s por lado",
+      "how": "Banda en el pie, sube la pierna estirada hasta sentir tensión detrás del muslo."
      },
      {
-      "name": "Gemelo en pared, 30 s por lado",
-      "how": "Manos en la pared, pierna atrás estirada, talón pegado al suelo. Ojo con esto que mañana subes cerro."
+      "name": "Aductor en mariposa, 30 s",
+      "how": "Plantas juntas, deja caer las rodillas. Empuja suave con los codos, sin rebotar."
+     },
+     {
+      "name": "Cuádriceps de pie, 30 s por lado",
+      "how": "Talón al glúteo, rodillas juntas y pelvis metida."
+     },
+     {
+      "name": "Pantorrilla en pared, 30 s por lado",
+      "how": "Pierna atrás estirada, talón pegado al suelo."
+     },
+     {
+      "name": "Pectoral en marco de puerta, 30 s por lado",
+      "how": "Antebrazo en el marco, codo a la altura del hombro. Va por el trabajo de Incline y Fly."
      }
     ],
-    "rationale": "Segunda dosis de tus dos prioridades. Mipi no entrena los viernes, así que este día es solo tuyo. El press militar se queda en 40 kg — a ese peso te ha dado RPE 9-9,5 y lo que falta es consolidarlo, no subirlo. Sube Incline (60→62,5) y el tríceps overhead (20→21,25)."
+    "rationale": "**Este día cambia de identidad: deja de ser la segunda dosis de hombro y pecho, y pasa a ser tu tercer día de pierna.** Dijiste que sientes que te faltan piernas y los números te dan la razón con margen: tu tren inferior va en **18,7 series/semana contra una banda sumada de 28-44** — el 67% del mínimo — mientras el superior va en 46,6 dentro de 42-62. El reparto real es 29% pierna / 71% torso cuando las bandas piden 40/60. En las últimas dos semanas hiciste **siete días de torso puro y cero de pierna pura**. El único grupo que está *por encima* de su banda es hombro (13,4 contra 8-12), así que la serie sale justo de donde sobra: se van el press militar y la elevación lateral de este día (el press militar se muda al martes, donde tiene slot fijo) y entran glúteo, femoral y aductor. El pecho se queda porque va en 12,8 dentro de 10-14: sacarlo lo dejaría corto. Con esto pasas a 3 días de pierna y 3 de torso, y el reparto se acerca al 40/60."
    },
    {
     "date": "2026-09-05",
@@ -3651,28 +3732,24 @@
     "focus": "Brazos y core — sesión corta",
     "warmup": [
      {
-      "name": "Bici o caminadora, 6 min, ritmo conversable",
-      "how": "Solo para entrar en calor. Debes poder hablar frases completas."
+      "name": "Bici o caminadora, 5-6 min, ritmo conversable",
+      "how": "Solo para subir temperatura y pulso. Debes poder hablar frases completas todo el rato. Si terminas sin aliento, ibas muy fuerte."
      },
      {
-      "name": "Rodilla a pared, 10 por lado",
-      "how": "De pie frente a la pared, pie a un palmo. Lleva la rodilla a tocar la pared sin despegar el talón. Aleja el pie mientras siga llegando."
+      "name": "Círculos de muñeca y codo, 15 en cada sentido",
+      "how": "Puños cerrados, círculos de muñeca; después flexiona y estira el codo completo. Barato y evita molestias en el codo."
      },
      {
-      "name": "90/90 de cadera, 6 cambios por lado",
-      "how": "Sentado en el suelo, una pierna adelante y otra al lado en 90°. Gira ambas rodillas al otro lado sin usar las manos, pecho arriba."
+      "name": "Dislocaciones con banda, 12 repeticiones",
+      "how": "Agarre ancho, brazos estirados, palo de adelante hacia atrás sin doblar codos."
      },
      {
-      "name": "Puente de glúteo, 2×12 con pausa de 1 s",
-      "how": "Acostado, pies al ancho de cadera. Sube apretando el glúteo hasta alinear rodilla-cadera-hombro. Costillas abajo, no arquees la lumbar."
+      "name": "Curl y extensión con banda liviana, 15 de cada uno",
+      "how": "Sin buscar cansancio: es para que el codo y el antebrazo lleguen con sangre."
      },
      {
-      "name": "Bisagra de cadera con palo, 10",
-      "how": "Palo tocando nuca, espalda alta y sacro a la vez. Lleva la cadera atrás manteniendo los tres puntos en contacto — es el patrón del RDL de hoy."
-     },
-     {
-      "name": "Curl femoral nórdico excéntrico asistido, 5",
-      "how": "Arrodillado con los pies sujetos, baja lo más lento que puedas y empuja con las manos para volver. Solo 5, es preparación."
+      "name": "Series de aproximación del primer ejercicio",
+      "how": "Las que están en la tabla, marcadas como Aprox. Suben la carga de a poco hasta el peso de trabajo. No cuentan como series efectivas."
      }
     ],
     "exercises": [
@@ -3835,20 +3912,20 @@
     "cardio": "Escaleras 15-20 min, RPE 4-5, junto a Mipi.",
     "stretch": [
      {
-      "name": "Isquiotibiales de pie, 40 s por lado",
-      "how": "Talón en un banco bajo, pierna estirada, lleva la cadera atrás manteniendo la espalda recta. Tira desde la cadera, no redondeando."
+      "name": "Dorsal colgado de la barra, 30 s",
+      "how": "Cuelga relajado y respira."
      },
      {
-      "name": "Flexor de cadera en estocada, 40 s por lado",
-      "how": "Rodilla atrás en el suelo, mete la pelvis (esconde la cola) y aprieta el glúteo de atrás."
+      "name": "Bíceps y antebrazo en pared, 30 s por lado",
+      "how": "Palma en la pared con el brazo estirado y los dedos hacia atrás; gira el cuerpo al lado contrario."
      },
      {
-      "name": "Glúteo figura-4 sentado, 40 s por lado",
-      "how": "Sentado, cruza el tobillo sobre la rodilla contraria y lleva el pecho adelante con la espalda recta."
+      "name": "Pectoral en marco de puerta, 30 s por lado",
+      "how": "Antebrazo en el marco, codo a la altura del hombro."
      },
      {
-      "name": "Gemelo en pared, 30 s por lado",
-      "how": "Manos en la pared, pierna atrás estirada, talón pegado al suelo. Ojo con esto que mañana subes cerro."
+      "name": "Cuello y trapecio, 20 s por lado",
+      "how": "Oreja al hombro, sin encoger."
      }
     ],
     "rationale": "🤝 **Coincide con el opcional de brazos y core de Mipi**: comparten plancha lateral, dead bug y las escaleras. Corta a propósito, el gimnasio cierra a las 4. Tercera y última dosis de tríceps de la semana — con esta sale del 1,8 en el que está. Bíceps y hammer **bajan de peso y suben repeticiones**: a 32 kg las series se te caen a 8-10 con RPE 9,5, y lo que falta es volumen."
@@ -3858,52 +3935,10 @@
     "day": "Dom 6",
     "tag": "descanso",
     "focus": "Descanso",
-    "warmup": [
-     {
-      "name": "Bici o caminadora, 6 min, ritmo conversable",
-      "how": "Solo para entrar en calor. Debes poder hablar frases completas."
-     },
-     {
-      "name": "Rodilla a pared, 10 por lado",
-      "how": "De pie frente a la pared, pie a un palmo. Lleva la rodilla a tocar la pared sin despegar el talón. Aleja el pie mientras siga llegando."
-     },
-     {
-      "name": "90/90 de cadera, 6 cambios por lado",
-      "how": "Sentado en el suelo, una pierna adelante y otra al lado en 90°. Gira ambas rodillas al otro lado sin usar las manos, pecho arriba."
-     },
-     {
-      "name": "Puente de glúteo, 2×12 con pausa de 1 s",
-      "how": "Acostado, pies al ancho de cadera. Sube apretando el glúteo hasta alinear rodilla-cadera-hombro. Costillas abajo, no arquees la lumbar."
-     },
-     {
-      "name": "Bisagra de cadera con palo, 10",
-      "how": "Palo tocando nuca, espalda alta y sacro a la vez. Lleva la cadera atrás manteniendo los tres puntos en contacto — es el patrón del RDL de hoy."
-     },
-     {
-      "name": "Curl femoral nórdico excéntrico asistido, 5",
-      "how": "Arrodillado con los pies sujetos, baja lo más lento que puedas y empuja con las manos para volver. Solo 5, es preparación."
-     }
-    ],
+    "warmup": [],
     "exercises": [],
     "cardio": "",
-    "stretch": [
-     {
-      "name": "Isquiotibiales de pie, 40 s por lado",
-      "how": "Talón en un banco bajo, pierna estirada, lleva la cadera atrás manteniendo la espalda recta. Tira desde la cadera, no redondeando."
-     },
-     {
-      "name": "Flexor de cadera en estocada, 40 s por lado",
-      "how": "Rodilla atrás en el suelo, mete la pelvis (esconde la cola) y aprieta el glúteo de atrás."
-     },
-     {
-      "name": "Glúteo figura-4 sentado, 40 s por lado",
-      "how": "Sentado, cruza el tobillo sobre la rodilla contraria y lleva el pecho adelante con la espalda recta."
-     },
-     {
-      "name": "Gemelo en pared, 30 s por lado",
-      "how": "Manos en la pared, pierna atrás estirada, talón pegado al suelo. Ojo con esto que mañana subes cerro."
-     }
-    ],
+    "stretch": [],
     "rationale": "Domingo libre, como siempre. Cierra la semana 3 de 5: si esta semana salió completa, la 4 sube por última vez antes de la descarga."
    }
   ],
@@ -11944,8 +11979,8 @@
     "tag": null,
     "rationale": "Esta sesión ya ocurrió de verdad: Hip Thrust hasta 110kg con rango reducido en las últimas series (\"con 110 subo menos\"), Lying Leg Curl, Standing Cable Glute Kickback con compensación de espalda a 27kg, Stair Machine 51 pisos, Reverse Crunch, Crunch. Generó fatiga real en glúteo/isquios.",
     "cardio": null,
-    "warmup": null,
-    "stretch": null,
+    "warmup": [],
+    "stretch": [],
     "exercises": []
    },
    {
@@ -12069,8 +12104,8 @@
     "tag": null,
     "rationale": "Descanso, como estaba planificado.",
     "cardio": null,
-    "warmup": null,
-    "stretch": null,
+    "warmup": [],
+    "stretch": [],
     "exercises": []
    },
    {
@@ -12773,30 +12808,8 @@
     "tag": null,
     "rationale": "Día de cerro, no de descanso: subir carga glúteo, cuádriceps y gemelo bastante rato y cuenta como la sesión aeróbica larga de la semana. Por eso la sesión de pierna se movió al viernes y el domingo queda libre de verdad.",
     "cardio": "El cerro es el cardio del día.",
-    "warmup": [
-     {
-      "name": "Caminata suave los primeros 5-10 min",
-      "how": "No ataques la pendiente en frío: los primeros minutos suaves."
-     },
-     {
-      "name": "Movilidad de tobillo contra pared, 10 por lado",
-      "how": "El tobillo es la articulación que más trabaja en pendiente. Rodilla a la pared sin despegar el talón."
-     }
-    ],
-    "stretch": [
-     {
-      "name": "Gemelo en pared, 40 s por lado",
-      "how": "Después de bajar — la bajada es lo que más carga el gemelo."
-     },
-     {
-      "name": "Cuádriceps de pie, 40 s por lado",
-      "how": "Talón al glúteo, rodillas juntas, pelvis metida."
-     },
-     {
-      "name": "Glúteo figura-4, 40 s por lado",
-      "how": "Sentada, tobillo sobre la rodilla contraria, pecho adelante con la espalda recta."
-     }
-    ],
+    "warmup": [],
+    "stretch": [],
     "exercises": []
    },
    {
@@ -12806,8 +12819,8 @@
     "tag": null,
     "rationale": "Descanso completo. Después del cerro conviene de verdad, y cierra una semana en que ya entrenaste lunes, miércoles, jueves y viernes.",
     "cardio": "Nada. Si quieres moverte, caminata plana suave y listo.",
-    "warmup": null,
-    "stretch": null,
+    "warmup": [],
+    "stretch": [],
     "exercises": []
    },
    {
@@ -13050,8 +13063,8 @@
     "tag": null,
     "rationale": "**Día 5 del ciclo — fase folicular.** Tu mejor ventana: energía y recuperación altas. Si las cargas se sienten fáciles, súbelas dentro de lo que dice la tabla. Regla proyectada, día de ciclo 2. Coincide con su día fijo sin entreno.",
     "cardio": null,
-    "warmup": null,
-    "stretch": null,
+    "warmup": [],
+    "stretch": [],
     "exercises": []
    },
    {
@@ -13603,8 +13616,54 @@
     "tag": "entreno",
     "rationale": "**Hoy era descanso y lo cambio porque te sentiste bien y quieres ir — pero cambia el qué, no solo el cuándo: hoy toca tren superior, no pierna.** Ayer las piernas se llevaron todo: prensa 3×105 completas, kickback hasta RPE 9 con la lumbar compensando en las últimas, y curl femoral hasta 38 kg. Repetir pierna hoy sería encima de eso. El tren superior es lo contrario: viene de 50 días en cero y ayer el codo pasó su primera prueba — *sin dolor, solo miedito*, y con los 26 kg que estaban prescritos. **Sí puedes usar el codo.** Lo que cambia es cómo: hoy van tirón horizontal, pecho con brazos estirados y elevación lateral, que son los tres que menos lo flexionan bajo carga. **Bíceps entra hoy, como pediste.** Me había puesto más conservador de la cuenta: el boulder del miércoles ya fue flexión de codo cargada contra tu propio peso, bastante más exigente que un curl liviano, y salió sin nada. Van dos series a 4 kg con RIR 4 — se mide, no se prueba el límite. Tríceps queda para la otra semana, que ese sí no ha tenido ninguna prueba todavía. 🤝 Mopo tiene hombro y pecho hoy: el Chest Fly y la elevación lateral son los mismos, los pueden hacer a la par. Una cosa más, y es la importante: **en tu historial de tren superior casi todas las series están a RPE 9,5 o 10.** Entrenabas al fallo en todo. Hoy los RIR objetivo son 3 y 4 de verdad, y las cargas están puestas para que sobren. Volver de una lesión con la misma intensidad de antes es la forma más rápida de volver a salir.",
     "cardio": "Escaladora 12-15 min, RPE 4-5. Suave: ayer ya fueron 52 pisos.",
-    "warmup": null,
-    "stretch": null,
+    "warmup": [
+     {
+      "name": "Bici o caminadora, 5-6 min, ritmo conversable",
+      "how": "Solo para subir temperatura y pulso. Debes poder hablar frases completas todo el rato. Si terminas sin aliento, ibas muy fuerte."
+     },
+     {
+      "name": "Círculos de hombro, 10 por lado",
+      "how": "Brazos sueltos, círculos grandes y lentos."
+     },
+     {
+      "name": "Movilidad torácica sentado, 8 por lado",
+      "how": "Sentado, manos en la nuca, gira el pecho hacia un lado sin mover la cadera. Es rotación de la espalda alta, no de la baja."
+     },
+     {
+      "name": "Face Pull con banda, 15 repeticiones",
+      "how": "Banda a la altura de la cara. Tira separando las manos y llevando los codos atrás. Hombros abajo, no encogidos."
+     },
+     {
+      "name": "Activación de dorsal con banda, 12 repeticiones",
+      "how": "Banda alta, brazos estirados. Baja los brazos rectos hacia los muslos apretando la axila. Sin doblar el codo."
+     },
+     {
+      "name": "Colgarse de la barra, 20 s",
+      "how": "Cuelga relajado y luego aprieta los omóplatos hacia abajo un par de veces. Prepara el hombro para el jalón."
+     },
+     {
+      "name": "Series de aproximación del primer ejercicio",
+      "how": "Las que están en la tabla, marcadas como Aprox. Suben la carga de a poco hasta el peso de trabajo. No cuentan como series efectivas."
+     }
+    ],
+    "stretch": [
+     {
+      "name": "Dorsal colgado de la barra, 30 s",
+      "how": "Cuelga relajado y respira."
+     },
+     {
+      "name": "Bíceps y antebrazo en pared, 30 s por lado",
+      "how": "Palma en la pared con el brazo estirado y los dedos hacia atrás; gira el cuerpo al lado contrario."
+     },
+     {
+      "name": "Pectoral en marco de puerta, 30 s por lado",
+      "how": "Antebrazo en el marco, codo a la altura del hombro."
+     },
+     {
+      "name": "Cuello y trapecio, 20 s por lado",
+      "how": "Oreja al hombro, sin encoger."
+     }
+    ],
     "exercises": [
      {
       "name": "Seated Row (Machine)",
@@ -13772,12 +13831,12 @@
     "cardio": "Escaladora 15-18 min, RPE 4-5.",
     "warmup": [
      {
-      "name": "Bici o caminadora, 6 min, ritmo conversable",
-      "how": "Solo para subir temperatura y pulso. Debes poder hablar frases completas todo el rato."
+      "name": "Bici o caminadora, 5-6 min, ritmo conversable",
+      "how": "Solo para subir temperatura y pulso. Debes poder hablar frases completas todo el rato. Si terminas sin aliento, ibas muy fuerte."
      },
      {
       "name": "Movilidad de tobillo contra pared, 10 por lado",
-      "how": "De pie frente a la pared, pie a un palmo. Lleva la rodilla a tocar la pared sin despegar el talón. Si llega fácil, aleja un poco más el pie."
+      "how": "De pie frente a la pared, pie a un palmo. Lleva la rodilla a tocar la pared sin despegar el talón. Si llega fácil, aleja más el pie."
      },
      {
       "name": "Círculos de cadera de pie, 8 por lado",
@@ -13785,49 +13844,45 @@
      },
      {
       "name": "90/90 de cadera, 6 cambios por lado",
-      "how": "Sentada en el suelo, una pierna adelante y otra al lado, ambas en 90°. Gira las dos rodillas al otro lado sin usar las manos. Pecho arriba."
+      "how": "Sentado en el suelo, una pierna adelante y otra al lado, ambas en 90°. Gira las dos rodillas al otro lado sin usar las manos."
      },
      {
       "name": "Puente de glúteo, 12 con pausa de 1 s",
-      "how": "Acostada, pies al ancho de cadera. Sube apretando el glúteo hasta alinear rodilla-cadera-hombro, aguanta 1 s arriba. No arquees la zona lumbar: la costilla queda abajo."
+      "how": "Acostado, pies al ancho de cadera. Sube apretando el glúteo hasta alinear rodilla-cadera-hombro y aguanta 1 s arriba. Sin arquear la lumbar."
      },
      {
-      "name": "Abducción con banda sentada, 15",
-      "how": "Banda por sobre las rodillas, sentada. Abre las rodillas contra la banda y vuelve lento. Debes sentirlo en el lado del glúteo, no en el muslo."
+      "name": "Abducción con banda sentado, 15 repeticiones",
+      "how": "Banda sobre las rodillas. Abre las rodillas contra la banda y vuelve lento. Debes sentirlo al lado del glúteo, no en el muslo."
      },
      {
-      "name": "Patada de glúteo en cuadrupedia, 12 por lado",
-      "how": "En cuatro apoyos, sube el talón al techo con la rodilla doblada. Sin arquear la espalda: si la espalda se mueve, subiste demasiado."
-     },
-     {
-      "name": "Dead bug lento, 8 por lado",
-      "how": "Boca arriba, brazos al techo y rodillas en 90°. Baja un brazo y la pierna contraria manteniendo la zona lumbar pegada al suelo. Si se despega, baja menos."
-     },
-     {
-      "name": "Sentadilla a banco sin peso, 8",
-      "how": "Siéntate lento hasta rozar el banco y sube. Rodillas apuntando hacia los pies, pecho arriba. Es para grabar el patrón, no para cansarte."
+      "name": "Series de aproximación del primer ejercicio",
+      "how": "Las que están en la tabla, marcadas como Aprox. Suben la carga de a poco hasta el peso de trabajo. No cuentan como series efectivas."
      }
     ],
     "stretch": [
      {
       "name": "Flexor de cadera en estocada, 30 s por lado",
-      "how": "Rodilla atrás en el suelo, mete la pelvis hacia adelante (como escondiendo la cola) y aprieta el glúteo de atrás. Debes sentirlo adelante de la cadera de atrás."
+      "how": "Rodilla atrás en el suelo, mete la pelvis adelante como escondiendo la cola y aprieta el glúteo de atrás."
      },
      {
-      "name": "Glúteo figura-4 acostada, 30 s por lado",
-      "how": "Acostada, cruza el tobillo sobre la rodilla contraria y tira de la pierna de abajo hacia el pecho. Sin levantar la cabeza."
+      "name": "Glúteo figura-4 acostado, 30 s por lado",
+      "how": "Cruza el tobillo sobre la rodilla contraria y tira de la pierna de abajo al pecho."
      },
      {
-      "name": "Isquiotibiales acostada con banda, 30 s por lado",
-      "how": "Banda en el pie, sube la pierna estirada hasta sentir tensión detrás del muslo. La otra pierna queda estirada en el suelo."
+      "name": "Isquiotibiales acostado con banda, 30 s por lado",
+      "how": "Banda en el pie, sube la pierna estirada hasta sentir tensión detrás del muslo."
      },
      {
       "name": "Aductor en mariposa, 30 s",
-      "how": "Sentada, plantas de los pies juntas, deja caer las rodillas. Empuja suave con los codos, sin rebotar."
+      "how": "Plantas juntas, deja caer las rodillas. Empuja suave con los codos, sin rebotar."
+     },
+     {
+      "name": "Cuádriceps de pie, 30 s por lado",
+      "how": "Talón al glúteo, rodillas juntas y pelvis metida."
      },
      {
       "name": "Pantorrilla en pared, 30 s por lado",
-      "how": "Manos en la pared, pierna atrás estirada y talón pegado al suelo. Debes sentirlo en el gemelo."
+      "how": "Pierna atrás estirada, talón pegado al suelo."
      }
     ],
     "exercises": [
@@ -14032,26 +14087,42 @@
     "cardio": "Escaladora 15 min, RPE 4.",
     "warmup": [
      {
-      "name": "Bici o caminadora, 6 min, ritmo conversable",
-      "how": "Solo para subir temperatura y pulso. Debes poder hablar frases completas todo el rato."
+      "name": "Caminadora o escaladora, 5 min, ritmo conversable",
+      "how": "Solo para subir temperatura. Debes poder hablar frases completas."
      },
      {
-      "name": "Movilidad de tobillo contra pared, 10 por lado",
-      "how": "De pie frente a la pared, pie a un palmo. Lleva la rodilla a tocar la pared sin despegar el talón. Si llega fácil, aleja un poco más el pie."
+      "name": "Círculos de cadera de pie, 8 por lado",
+      "how": "Apóyate en algo, rodilla a la altura de la cadera, círculos grandes."
+     },
+     {
+      "name": "Gato-camello, 10 repeticiones",
+      "how": "En cuatro apoyos, arquea y redondea la espalda lento. Despierta la zona lumbar antes del core."
+     },
+     {
+      "name": "Puente de glúteo, 12 con pausa de 1 s",
+      "how": "Sube apretando el glúteo, aguanta 1 s. La costilla queda abajo."
+     },
+     {
+      "name": "Dead bug lento, 6 por lado",
+      "how": "Lumbar pegada al suelo. Si se despega, baja menos el brazo y la pierna."
      }
     ],
     "stretch": [
      {
-      "name": "Flexor de cadera en estocada, 30 s por lado",
-      "how": "Rodilla atrás en el suelo, mete la pelvis hacia adelante (como escondiendo la cola) y aprieta el glúteo de atrás. Debes sentirlo adelante de la cadera de atrás."
+      "name": "Cobra suave, 30 s",
+      "how": "Boca abajo, empuja el pecho arriba con los brazos sin forzar la lumbar. Estira el abdomen que acabas de trabajar."
      },
      {
-      "name": "Glúteo figura-4 acostada, 30 s por lado",
-      "how": "Acostada, cruza el tobillo sobre la rodilla contraria y tira de la pierna de abajo hacia el pecho. Sin levantar la cabeza."
+      "name": "Postura del niño, 30 s",
+      "how": "De rodillas, cadera a los talones, brazos estirados adelante."
      },
      {
-      "name": "Isquiotibiales acostada con banda, 30 s por lado",
-      "how": "Banda en el pie, sube la pierna estirada hasta sentir tensión detrás del muslo. La otra pierna queda estirada en el suelo."
+      "name": "Glúteo figura-4 acostado, 30 s por lado",
+      "how": "Cruza el tobillo sobre la rodilla contraria y tira al pecho."
+     },
+     {
+      "name": "Cuello y trapecio, 20 s por lado",
+      "how": "Oreja al hombro, sin encoger."
      }
     ],
     "exercises": [
@@ -14132,43 +14203,69 @@
     "focus": "Inferior A — glúteo y posterior",
     "warmup": [
      {
-      "name": "Bici o caminadora, 6 min, ritmo conversable",
-      "how": "Solo para subir temperatura y pulso. Debes poder hablar frases completas todo el rato."
-     },
-     {
-      "name": "Movilidad de tobillo contra pared, 10 por lado",
-      "how": "De pie frente a la pared, pie a un palmo. Lleva la rodilla a tocar la pared sin despegar el talón. Si llega fácil, aleja un poco más el pie."
+      "name": "Bici o caminadora, 5-6 min, ritmo conversable",
+      "how": "Solo para subir temperatura y pulso. Debes poder hablar frases completas todo el rato. Si terminas sin aliento, ibas muy fuerte."
      },
      {
       "name": "Círculos de cadera de pie, 8 por lado",
-      "how": "Apóyate en algo, levanta una rodilla a la altura de la cadera y dibuja círculos grandes hacia afuera. Que se mueva la cadera, no la espalda."
+      "how": "Apóyate en algo, rodilla a la altura de la cadera, círculos grandes hacia afuera."
      },
      {
-      "name": "90/90 de cadera, 6 cambios por lado",
-      "how": "Sentada en el suelo, una pierna adelante y otra al lado, ambas en 90°. Gira las dos rodillas al otro lado sin usar las manos. Pecho arriba."
+      "name": "Bisagra de cadera con palo, 12 repeticiones",
+      "how": "Palo pegado a la espalda tocando cabeza, espalda alta y cola. Echa la cadera atrás manteniendo los tres puntos en contacto. Ese es el patrón del RDL."
      },
      {
       "name": "Puente de glúteo, 12 con pausa de 1 s",
-      "how": "Acostada, pies al ancho de cadera. Sube apretando el glúteo hasta alinear rodilla-cadera-hombro, aguanta 1 s arriba. No arquees la zona lumbar: la costilla queda abajo."
+      "how": "Sube apretando el glúteo hasta alinear rodilla-cadera-hombro y aguanta 1 s. La costilla queda abajo, sin arquear."
      },
      {
-      "name": "Abducción con banda sentada, 15",
-      "how": "Banda por sobre las rodillas, sentada. Abre las rodillas contra la banda y vuelve lento. Debes sentirlo en el lado del glúteo, no en el muslo."
-     },
-     {
-      "name": "Patada de glúteo en cuadrupedia, 12 por lado",
-      "how": "En cuatro apoyos, sube el talón al techo con la rodilla doblada. Sin arquear la espalda: si la espalda se mueve, subiste demasiado."
+      "name": "Puente a una pierna, 8 por lado",
+      "how": "Mismo puente pero con una pierna estirada. Si la cadera se cae hacia un lado, baja las repeticiones."
      },
      {
       "name": "Dead bug lento, 8 por lado",
-      "how": "Boca arriba, brazos al techo y rodillas en 90°. Baja un brazo y la pierna contraria manteniendo la zona lumbar pegada al suelo. Si se despega, baja menos."
+      "how": "Boca arriba, brazos al techo y rodillas en 90°. Baja un brazo y la pierna contraria con la lumbar pegada al suelo."
      },
      {
-      "name": "Sentadilla a banco sin peso, 8",
-      "how": "Siéntate lento hasta rozar el banco y sube. Rodillas apuntando hacia los pies, pecho arriba. Es para grabar el patrón, no para cansarte."
+      "name": "Series de aproximación del primer ejercicio",
+      "how": "Las que están en la tabla, marcadas como Aprox. Suben la carga de a poco hasta el peso de trabajo. No cuentan como series efectivas."
      }
     ],
     "exercises": [
+     {
+      "name": "Box Squat (Barbell)",
+      "sets": [
+       {
+        "serie": "Aprox.",
+        "carga": "Barra sola",
+        "reps": "12",
+        "rir": "5",
+        "descanso": "60s"
+       },
+       {
+        "serie": "Trabajo 1",
+        "carga": "20 kg",
+        "reps": "12",
+        "rir": "objetivo 4",
+        "descanso": "90s"
+       },
+       {
+        "serie": "Trabajo 2",
+        "carga": "20 kg",
+        "reps": "12",
+        "rir": "objetivo 3",
+        "descanso": "90s"
+       },
+       {
+        "serie": "Trabajo 3",
+        "carga": "20 kg",
+        "reps": "12",
+        "rir": "objetivo 3",
+        "descanso": "90s"
+       }
+      ],
+      "cue": "**Vuelve con peso, como pediste.** 20 kg sobre la barra: llevabas semanas a 0 kg saliendo a RPE 6-7, o sea sin estímulo. Siéntate lento hasta rozar el banco y sube. Va primero porque es el patrón que hay que reaprender con carga, no al final cuando estés cansada. Si 20 se sienten fáciles las tres series, el lunes siguiente van 25."
+     },
      {
       "name": "Hip Thrust (Barbell)",
       "sets": [
@@ -14323,50 +14420,88 @@
         "descanso": "60s"
        }
       ],
-      "cue": "Rodilla al pecho, afirmada en la barrita."
+      "cue": "Rodilla al pecho y pies al cielo, brazos a los lados, como lo haces tú."
      },
      {
-      "name": "Plancha lateral con elevación",
+      "name": "Bird Dog",
       "sets": [
        {
         "serie": "1",
         "carga": "Peso corporal",
         "reps": "10 por lado",
         "rir": "3",
-        "descanso": "60s"
+        "descanso": "45s"
        },
        {
         "serie": "2",
         "carga": "Peso corporal",
         "reps": "10 por lado",
         "rir": "3",
-        "descanso": "60s"
+        "descanso": "45s"
+       },
+       {
+        "serie": "3",
+        "carga": "Peso corporal",
+        "reps": "10 por lado",
+        "rir": "3",
+        "descanso": "45s"
        }
       ],
-      "cue": "Codo bajo el hombro, cuerpo en línea. El apretón va en el costado de abajo, el que está contra el suelo. Si el pecho se gira, para ahí."
+      "cue": "En cuatro apoyos, estira un brazo y la pierna contraria hasta la línea del cuerpo, sostén 2 s y vuelve. Que no se mueva la cadera: si se va de lado, llega menos lejos. Es antirrotación, el mismo trabajo que la plancha lateral pero mucho más fácil de sentir."
+     },
+     {
+      "name": "Plancha con rodillas apoyadas",
+      "sets": [
+       {
+        "serie": "1",
+        "carga": "Peso corporal",
+        "reps": "25-30 s",
+        "rir": "RPE 7",
+        "descanso": "45s"
+       },
+       {
+        "serie": "2",
+        "carga": "Peso corporal",
+        "reps": "25-30 s",
+        "rir": "RPE 7",
+        "descanso": "45s"
+       },
+       {
+        "serie": "3",
+        "carga": "Peso corporal",
+        "reps": "25-30 s",
+        "rir": "RPE 7",
+        "descanso": "45s"
+       }
+      ],
+      "cue": "**Reemplaza a la plancha normal, que se te cae** (16s, 5s, 15s la última vez). Rodillas apoyadas, codos bajo los hombros, cuerpo en línea recta de la cabeza a las rodillas. Aprieta glúteo y esconde un poco la cola. Cuando aguantes 3 × 45 s con la forma intacta, recién ahí pasamos a la de pies."
      }
     ],
     "cardio": "Escaleras 15 min, RPE 5.",
     "stretch": [
      {
       "name": "Flexor de cadera en estocada, 30 s por lado",
-      "how": "Rodilla atrás en el suelo, mete la pelvis hacia adelante (como escondiendo la cola) y aprieta el glúteo de atrás. Debes sentirlo adelante de la cadera de atrás."
+      "how": "Rodilla atrás en el suelo, mete la pelvis adelante como escondiendo la cola y aprieta el glúteo de atrás."
      },
      {
-      "name": "Glúteo figura-4 acostada, 30 s por lado",
-      "how": "Acostada, cruza el tobillo sobre la rodilla contraria y tira de la pierna de abajo hacia el pecho. Sin levantar la cabeza."
+      "name": "Glúteo figura-4 acostado, 30 s por lado",
+      "how": "Cruza el tobillo sobre la rodilla contraria y tira de la pierna de abajo al pecho."
      },
      {
-      "name": "Isquiotibiales acostada con banda, 30 s por lado",
-      "how": "Banda en el pie, sube la pierna estirada hasta sentir tensión detrás del muslo. La otra pierna queda estirada en el suelo."
+      "name": "Isquiotibiales acostado con banda, 30 s por lado",
+      "how": "Banda en el pie, sube la pierna estirada hasta sentir tensión detrás del muslo."
      },
      {
       "name": "Aductor en mariposa, 30 s",
-      "how": "Sentada, plantas de los pies juntas, deja caer las rodillas. Empuja suave con los codos, sin rebotar."
+      "how": "Plantas juntas, deja caer las rodillas. Empuja suave con los codos, sin rebotar."
+     },
+     {
+      "name": "Cuádriceps de pie, 30 s por lado",
+      "how": "Talón al glúteo, rodillas juntas y pelvis metida."
      },
      {
       "name": "Pantorrilla en pared, 30 s por lado",
-      "how": "Manos en la pared, pierna atrás estirada y talón pegado al suelo. Debes sentirlo en el gemelo."
+      "how": "Pierna atrás estirada, talón pegado al suelo."
      }
     ],
     "rationale": "**Día 11 del ciclo — folicular, tu mejor ventana.** Arranca la estructura nueva: 1 día de tren superior, 2 de inferior y 2 opcionales. Este es el primero de los dos firmes de pierna, y cae en el mejor día de la semana para empujar. 🤝 **Entrenas con Mopo**: él también abre con Hip Thrust, alternan en la misma barra. Sube a 105 kg — el 24 las tres series a 100 × 8 salieron a RPE 7 con objetivo RIR 3, así que había margen de sobra."
@@ -14389,12 +14524,12 @@
     "focus": "Inferior B — cuádriceps y aductor",
     "warmup": [
      {
-      "name": "Bici o caminadora, 6 min, ritmo conversable",
-      "how": "Solo para subir temperatura y pulso. Debes poder hablar frases completas todo el rato."
+      "name": "Bici o caminadora, 5-6 min, ritmo conversable",
+      "how": "Solo para subir temperatura y pulso. Debes poder hablar frases completas todo el rato. Si terminas sin aliento, ibas muy fuerte."
      },
      {
       "name": "Movilidad de tobillo contra pared, 10 por lado",
-      "how": "De pie frente a la pared, pie a un palmo. Lleva la rodilla a tocar la pared sin despegar el talón. Si llega fácil, aleja un poco más el pie."
+      "how": "De pie frente a la pared, pie a un palmo. Lleva la rodilla a tocar la pared sin despegar el talón. Si llega fácil, aleja más el pie."
      },
      {
       "name": "Círculos de cadera de pie, 8 por lado",
@@ -14402,27 +14537,19 @@
      },
      {
       "name": "90/90 de cadera, 6 cambios por lado",
-      "how": "Sentada en el suelo, una pierna adelante y otra al lado, ambas en 90°. Gira las dos rodillas al otro lado sin usar las manos. Pecho arriba."
+      "how": "Sentado en el suelo, una pierna adelante y otra al lado, ambas en 90°. Gira las dos rodillas al otro lado sin usar las manos."
      },
      {
       "name": "Puente de glúteo, 12 con pausa de 1 s",
-      "how": "Acostada, pies al ancho de cadera. Sube apretando el glúteo hasta alinear rodilla-cadera-hombro, aguanta 1 s arriba. No arquees la zona lumbar: la costilla queda abajo."
+      "how": "Acostado, pies al ancho de cadera. Sube apretando el glúteo hasta alinear rodilla-cadera-hombro y aguanta 1 s arriba. Sin arquear la lumbar."
      },
      {
-      "name": "Abducción con banda sentada, 15",
-      "how": "Banda por sobre las rodillas, sentada. Abre las rodillas contra la banda y vuelve lento. Debes sentirlo en el lado del glúteo, no en el muslo."
+      "name": "Abducción con banda sentado, 15 repeticiones",
+      "how": "Banda sobre las rodillas. Abre las rodillas contra la banda y vuelve lento. Debes sentirlo al lado del glúteo, no en el muslo."
      },
      {
-      "name": "Patada de glúteo en cuadrupedia, 12 por lado",
-      "how": "En cuatro apoyos, sube el talón al techo con la rodilla doblada. Sin arquear la espalda: si la espalda se mueve, subiste demasiado."
-     },
-     {
-      "name": "Dead bug lento, 8 por lado",
-      "how": "Boca arriba, brazos al techo y rodillas en 90°. Baja un brazo y la pierna contraria manteniendo la zona lumbar pegada al suelo. Si se despega, baja menos."
-     },
-     {
-      "name": "Sentadilla a banco sin peso, 8",
-      "how": "Siéntate lento hasta rozar el banco y sube. Rodillas apuntando hacia los pies, pecho arriba. Es para grabar el patrón, no para cansarte."
+      "name": "Series de aproximación del primer ejercicio",
+      "how": "Las que están en la tabla, marcadas como Aprox. Suben la carga de a poco hasta el peso de trabajo. No cuentan como series efectivas."
      }
     ],
     "exercises": [
@@ -14479,27 +14606,27 @@
        },
        {
         "serie": "Trabajo 1",
-        "carga": "61 kg",
+        "carga": "63,5 kg",
         "reps": "15",
         "rir": "objetivo 3",
         "descanso": "75s"
        },
        {
         "serie": "Trabajo 2",
-        "carga": "61 kg",
+        "carga": "63,5 kg",
         "reps": "15",
         "rir": "objetivo 2",
         "descanso": "75s"
        },
        {
         "serie": "Trabajo 3",
-        "carga": "61 kg",
+        "carga": "63,5 kg",
         "reps": "15",
         "rir": "objetivo 2",
         "descanso": "75s"
        }
       ],
-      "cue": "**Este es el hueco más grande de tu pierna**: 1,8 series/semana contra una banda de 6–12. Tu base es 65 kg pero siempre a RPE 9-10, así que arranca en 61 y que sobre."
+      "cue": "De 61 a 63,5, que es lo que hiciste sola el sábado a RPE 7,5-8. Sigue siendo tu hueco más grande en pierna."
      },
      {
       "name": "Leg Extension (Machine)",
@@ -14513,20 +14640,20 @@
        },
        {
         "serie": "Trabajo 1",
-        "carga": "45 kg",
+        "carga": "47 kg",
         "reps": "12",
-        "rir": "objetivo 3",
+        "rir": "objetivo 3 · tope RPE 8",
         "descanso": "75s"
        },
        {
         "serie": "Trabajo 2",
-        "carga": "45 kg",
+        "carga": "47 kg",
         "reps": "12",
-        "rir": "objetivo 2",
+        "rir": "objetivo 3 · tope RPE 8",
         "descanso": "75s"
        }
       ],
-      "cue": "45 kg × 12 es lo que hiciste el 21 a RPE 8. Se mantiene."
+      "cue": "De 45 a 47. El sábado probaste 50 y te dio RPE 9; bajaste sola a 47 y aun así salió 9 y 9,5. 47 es tu carga, pero **con tope RPE 8** — la del sábado se te fue al fallo. Si a 47 llegas a 9, baja a 45."
      },
      {
       "name": "Step Up",
@@ -14549,54 +14676,112 @@
       "cue": "El que pediste. Banco a la altura de la rodilla, sube empujando con el talón de arriba y baja controlando — sin impulsarte con la pierna de abajo."
      },
      {
-      "name": "Reverse Crunch",
+      "name": "Crunch corto",
       "sets": [
        {
         "serie": "1",
         "carga": "Peso corporal",
         "reps": "15",
         "rir": "2",
-        "descanso": "60s"
+        "descanso": "45s"
        },
        {
         "serie": "2",
         "carga": "Peso corporal",
         "reps": "15",
         "rir": "2",
-        "descanso": "60s"
+        "descanso": "45s"
        },
        {
         "serie": "3",
         "carga": "Peso corporal",
         "reps": "15",
         "rir": "2",
-        "descanso": "60s"
+        "descanso": "45s"
        }
       ],
-      "cue": "Rodilla al pecho, afirmada en la barrita."
+      "cue": "**Reemplaza al Jackknife y al V-Up**, que te salen a RPE 9,5-10. Rodillas dobladas, manos en el pecho. Despega solo los omóplatos llevando las costillas a la pelvis; la zona baja no se mueve. Recorrido corto a propósito."
+     },
+     {
+      "name": "Russian Twist (Weighted)",
+      "sets": [
+       {
+        "serie": "1",
+        "carga": "6 kg",
+        "reps": "20",
+        "rir": "3",
+        "descanso": "45s"
+       },
+       {
+        "serie": "2",
+        "carga": "6 kg",
+        "reps": "20",
+        "rir": "3",
+        "descanso": "45s"
+       },
+       {
+        "serie": "3",
+        "carga": "6 kg",
+        "reps": "20",
+        "rir": "3",
+        "descanso": "45s"
+       }
+      ],
+      "cue": "El que sí sientes: tres récords a RPE 6-7. Sentada, pies en el suelo si cuesta, gira el disco de lado a lado tocando el suelo. Gira el pecho, no solo los brazos."
+     },
+     {
+      "name": "Puente de glúteo con marcha",
+      "sets": [
+       {
+        "serie": "1",
+        "carga": "Peso corporal",
+        "reps": "10 por lado",
+        "rir": "3",
+        "descanso": "45s"
+       },
+       {
+        "serie": "2",
+        "carga": "Peso corporal",
+        "reps": "10 por lado",
+        "rir": "3",
+        "descanso": "45s"
+       },
+       {
+        "serie": "3",
+        "carga": "Peso corporal",
+        "reps": "10 por lado",
+        "rir": "3",
+        "descanso": "45s"
+       }
+      ],
+      "cue": "Arriba en puente, despega un pie unos centímetros sin que la cadera se caiga de ese lado. Alterna. Trabaja abdomen y glúteo a la vez."
      }
     ],
     "cardio": "Escaladora 15 min, RPE 4-5.",
     "stretch": [
      {
       "name": "Flexor de cadera en estocada, 30 s por lado",
-      "how": "Rodilla atrás en el suelo, mete la pelvis hacia adelante (como escondiendo la cola) y aprieta el glúteo de atrás. Debes sentirlo adelante de la cadera de atrás."
+      "how": "Rodilla atrás en el suelo, mete la pelvis adelante como escondiendo la cola y aprieta el glúteo de atrás."
      },
      {
-      "name": "Glúteo figura-4 acostada, 30 s por lado",
-      "how": "Acostada, cruza el tobillo sobre la rodilla contraria y tira de la pierna de abajo hacia el pecho. Sin levantar la cabeza."
+      "name": "Glúteo figura-4 acostado, 30 s por lado",
+      "how": "Cruza el tobillo sobre la rodilla contraria y tira de la pierna de abajo al pecho."
      },
      {
-      "name": "Isquiotibiales acostada con banda, 30 s por lado",
-      "how": "Banda en el pie, sube la pierna estirada hasta sentir tensión detrás del muslo. La otra pierna queda estirada en el suelo."
+      "name": "Isquiotibiales acostado con banda, 30 s por lado",
+      "how": "Banda en el pie, sube la pierna estirada hasta sentir tensión detrás del muslo."
      },
      {
       "name": "Aductor en mariposa, 30 s",
-      "how": "Sentada, plantas de los pies juntas, deja caer las rodillas. Empuja suave con los codos, sin rebotar."
+      "how": "Plantas juntas, deja caer las rodillas. Empuja suave con los codos, sin rebotar."
+     },
+     {
+      "name": "Cuádriceps de pie, 30 s por lado",
+      "how": "Talón al glúteo, rodillas juntas y pelvis metida."
      },
      {
       "name": "Pantorrilla en pared, 30 s por lado",
-      "how": "Manos en la pared, pierna atrás estirada y talón pegado al suelo. Debes sentirlo en el gemelo."
+      "how": "Pierna atrás estirada, talón pegado al suelo."
      }
     ],
     "rationale": "**Día 13 — ovulación.** Segundo día firme de pierna, y el otro con Mopo: comparten la prensa alternando series. Dos cosas apuntadas: la prensa **no sube de peso, corrige rango** (el tirón en la inserción del cuádriceps aparece al flexionar al máximo, no por la carga), y entra Hip Adduction en serio, que es tu hueco más grande en pierna — 1,8 contra una banda de 6–12."
@@ -14608,40 +14793,32 @@
     "focus": "Tren superior — el día completo",
     "warmup": [
      {
-      "name": "Bici o caminadora, 6 min, ritmo conversable",
-      "how": "Solo para subir temperatura y pulso. Debes poder hablar frases completas todo el rato."
+      "name": "Bici o caminadora, 5-6 min, ritmo conversable",
+      "how": "Solo para subir temperatura y pulso. Debes poder hablar frases completas todo el rato. Si terminas sin aliento, ibas muy fuerte."
      },
      {
-      "name": "Movilidad de tobillo contra pared, 10 por lado",
-      "how": "De pie frente a la pared, pie a un palmo. Lleva la rodilla a tocar la pared sin despegar el talón. Si llega fácil, aleja un poco más el pie."
+      "name": "Círculos de hombro, 10 por lado",
+      "how": "Brazos sueltos, círculos grandes y lentos."
      },
      {
-      "name": "Círculos de cadera de pie, 8 por lado",
-      "how": "Apóyate en algo, levanta una rodilla a la altura de la cadera y dibuja círculos grandes hacia afuera. Que se mueva la cadera, no la espalda."
+      "name": "Movilidad torácica sentado, 8 por lado",
+      "how": "Sentado, manos en la nuca, gira el pecho hacia un lado sin mover la cadera. Es rotación de la espalda alta, no de la baja."
      },
      {
-      "name": "90/90 de cadera, 6 cambios por lado",
-      "how": "Sentada en el suelo, una pierna adelante y otra al lado, ambas en 90°. Gira las dos rodillas al otro lado sin usar las manos. Pecho arriba."
+      "name": "Face Pull con banda, 15 repeticiones",
+      "how": "Banda a la altura de la cara. Tira separando las manos y llevando los codos atrás. Hombros abajo, no encogidos."
      },
      {
-      "name": "Puente de glúteo, 12 con pausa de 1 s",
-      "how": "Acostada, pies al ancho de cadera. Sube apretando el glúteo hasta alinear rodilla-cadera-hombro, aguanta 1 s arriba. No arquees la zona lumbar: la costilla queda abajo."
+      "name": "Activación de dorsal con banda, 12 repeticiones",
+      "how": "Banda alta, brazos estirados. Baja los brazos rectos hacia los muslos apretando la axila. Sin doblar el codo."
      },
      {
-      "name": "Abducción con banda sentada, 15",
-      "how": "Banda por sobre las rodillas, sentada. Abre las rodillas contra la banda y vuelve lento. Debes sentirlo en el lado del glúteo, no en el muslo."
+      "name": "Colgarse de la barra, 20 s",
+      "how": "Cuelga relajado y luego aprieta los omóplatos hacia abajo un par de veces. Prepara el hombro para el jalón."
      },
      {
-      "name": "Patada de glúteo en cuadrupedia, 12 por lado",
-      "how": "En cuatro apoyos, sube el talón al techo con la rodilla doblada. Sin arquear la espalda: si la espalda se mueve, subiste demasiado."
-     },
-     {
-      "name": "Dead bug lento, 8 por lado",
-      "how": "Boca arriba, brazos al techo y rodillas en 90°. Baja un brazo y la pierna contraria manteniendo la zona lumbar pegada al suelo. Si se despega, baja menos."
-     },
-     {
-      "name": "Sentadilla a banco sin peso, 8",
-      "how": "Siéntate lento hasta rozar el banco y sube. Rodillas apuntando hacia los pies, pecho arriba. Es para grabar el patrón, no para cansarte."
+      "name": "Series de aproximación del primer ejercicio",
+      "how": "Las que están en la tabla, marcadas como Aprox. Suben la carga de a poco hasta el peso de trabajo. No cuentan como series efectivas."
      }
     ],
     "exercises": [
@@ -14691,88 +14868,88 @@
        },
        {
         "serie": "Trabajo 1",
-        "carga": "26 kg",
+        "carga": "27 kg",
         "reps": "12",
         "rir": "objetivo 3",
         "descanso": "90s"
        },
        {
         "serie": "Trabajo 2",
-        "carga": "26 kg",
+        "carga": "27 kg",
         "reps": "12",
         "rir": "objetivo 3",
         "descanso": "90s"
        },
        {
         "serie": "Trabajo 3",
-        "carga": "26 kg",
+        "carga": "27 kg",
         "reps": "12",
         "rir": "objetivo 2",
         "descanso": "90s"
        }
       ],
-      "cue": "🤝 Él hace remo sentado también. Sube de 24 a 26. Tu base vieja era 31, pero a RPE 8-10: se llega de nuevo por abajo."
+      "cue": "🤝 Mopo hace remo también. De 24 a 27: el viernes los 24 salieron a RPE 7, 7,5 y 7 — las tres cómodas."
      },
      {
       "name": "Chest Press (Machine)",
       "sets": [
        {
         "serie": "Aprox.",
-        "carga": "10 kg",
+        "carga": "12 kg",
         "reps": "12",
         "rir": "5",
         "descanso": "60s"
        },
        {
         "serie": "Trabajo 1",
-        "carga": "15 kg",
+        "carga": "17 kg",
         "reps": "12",
         "rir": "objetivo 4",
         "descanso": "90s"
        },
        {
         "serie": "Trabajo 2",
-        "carga": "15 kg",
+        "carga": "17 kg",
         "reps": "12",
         "rir": "objetivo 3",
         "descanso": "90s"
        },
        {
         "serie": "Trabajo 3",
-        "carga": "15 kg",
+        "carga": "17 kg",
         "reps": "12",
         "rir": "objetivo 3",
         "descanso": "90s"
        }
       ],
-      "cue": "Primer press horizontal post codo. Tu base vieja era 21,5–24 kg pero **todas esas series están registradas a RPE 9,5 y 10** — se entra en 15 y se sube de a poco."
+      "cue": "De 15 a 17. El viernes el Chest Fly a 14,5 te salió *fácil* (RPE 7) y el codo no dijo nada en toda la sesión. Tu base vieja de Chest Press era 21,5-24 kg, pero **todas esas series están anotadas a RPE 9,5 y 10**, así que se vuelve por abajo."
      },
      {
       "name": "Lateral Raise (Dumbbell)",
       "sets": [
        {
         "serie": "Trabajo 1",
-        "carga": "5 kg",
+        "carga": "4 kg",
         "reps": "15",
         "rir": "objetivo 3",
         "descanso": "60s"
        },
        {
         "serie": "Trabajo 2",
-        "carga": "5 kg",
+        "carga": "4 kg",
         "reps": "15",
         "rir": "objetivo 3",
         "descanso": "60s"
        },
        {
         "serie": "Trabajo 3",
-        "carga": "5 kg",
+        "carga": "4 kg",
         "reps": "15",
         "rir": "objetivo 2",
         "descanso": "60s"
        }
       ],
-      "cue": "Codo fijo, sube hasta la altura del hombro y baja lento."
+      "cue": "**4 kg, no 5.** Y una corrección de dato importante: tus '10 kg' históricos eran **5 por mano** — Hevy registraba el par. Nunca estuviste a la mitad de tu nivel viejo: estás casi en él. Los 5 kg del viernes te dieron RPE 8,5 y bajaste sola a 4. Esa es tu carga."
      },
      {
       "name": "Bicep Curl (Dumbbell)",
@@ -14822,47 +14999,104 @@
       "cue": "**Primer tríceps directo desde la lesión.** Dos series y con RIR 4: es el que menos prueba lleva. Codos apuntando al techo y quietos; si molesta, se saca y se avisa."
      },
      {
-      "name": "Plancha lateral con elevación",
+      "name": "Dead Bug",
       "sets": [
        {
         "serie": "1",
         "carga": "Peso corporal",
-        "reps": "10 por lado",
+        "reps": "20 por lado",
         "rir": "3",
-        "descanso": "60s"
+        "descanso": "45s"
        },
        {
         "serie": "2",
         "carga": "Peso corporal",
-        "reps": "10 por lado",
+        "reps": "20 por lado",
         "rir": "3",
-        "descanso": "60s"
+        "descanso": "45s"
+       },
+       {
+        "serie": "3",
+        "carga": "Peso corporal",
+        "reps": "20 por lado",
+        "rir": "3",
+        "descanso": "45s"
        }
       ],
-      "cue": "Codo bajo el hombro, cuerpo en línea. El apretón va en el costado de abajo, el que está contra el suelo. Si el pecho se gira, para ahí."
+      "cue": "Lumbar pegada al suelo todo el rato. Ya lo haces bien a 20 repeticiones."
+     },
+     {
+      "name": "Plancha lateral con rodillas, sostenida",
+      "sets": [
+       {
+        "serie": "1",
+        "carga": "Peso corporal",
+        "reps": "15-20 s por lado",
+        "rir": "RPE 7",
+        "descanso": "45s"
+       },
+       {
+        "serie": "2",
+        "carga": "Peso corporal",
+        "reps": "15-20 s por lado",
+        "rir": "RPE 7",
+        "descanso": "45s"
+       },
+       {
+        "serie": "3",
+        "carga": "Peso corporal",
+        "reps": "15-20 s por lado",
+        "rir": "RPE 7",
+        "descanso": "45s"
+       }
+      ],
+      "cue": "**Reemplaza a la de elevación, la que no sentías.** Sin subir ni bajar la cadera: solo sostener. De lado, rodillas dobladas y apoyadas, codo bajo el hombro, cadera arriba en línea con rodilla y hombro. El apretón va en el costado de abajo. Si con rodillas apoyadas tampoco lo sientes, avísame y cambiamos el ejercicio, no la explicación."
+     },
+     {
+      "name": "Heel Taps",
+      "sets": [
+       {
+        "serie": "1",
+        "carga": "Peso corporal",
+        "reps": "20",
+        "rir": "3",
+        "descanso": "45s"
+       },
+       {
+        "serie": "2",
+        "carga": "Peso corporal",
+        "reps": "20",
+        "rir": "3",
+        "descanso": "45s"
+       },
+       {
+        "serie": "3",
+        "carga": "Peso corporal",
+        "reps": "20",
+        "rir": "3",
+        "descanso": "45s"
+       }
+      ],
+      "cue": "Acostada, rodillas dobladas, toca el talón con la mano del mismo lado alternando. Oblicuos, fácil de sentir."
      }
     ],
     "cardio": "Escaleras 12 min, RPE 4.",
     "stretch": [
      {
-      "name": "Flexor de cadera en estocada, 30 s por lado",
-      "how": "Rodilla atrás en el suelo, mete la pelvis hacia adelante (como escondiendo la cola) y aprieta el glúteo de atrás. Debes sentirlo adelante de la cadera de atrás."
+      "name": "Dorsal colgado de la barra, 30 s",
+      "how": "Cuelga relajado y respira."
      },
      {
-      "name": "Glúteo figura-4 acostada, 30 s por lado",
-      "how": "Acostada, cruza el tobillo sobre la rodilla contraria y tira de la pierna de abajo hacia el pecho. Sin levantar la cabeza."
+      "name": "Bíceps y antebrazo en pared, 30 s por lado",
+      "how": "Palma en la pared con el brazo estirado y los dedos hacia atrás; gira el cuerpo al lado contrario."
      },
      {
-      "name": "Isquiotibiales acostada con banda, 30 s por lado",
-      "how": "Banda en el pie, sube la pierna estirada hasta sentir tensión detrás del muslo. La otra pierna queda estirada en el suelo."
+      "name": "Pectoral en marco de puerta, 30 s por lado",
+      "how": "Antebrazo en el marco, codo a la altura del hombro."
      },
      {
-      "name": "Aductor en mariposa, 30 s",
-      "how": "Sentada, plantas de los pies juntas, deja caer las rodillas. Empuja suave con los codos, sin rebotar."
-     },
-     {
-      "name": "Pantorrilla en pared, 30 s por lado",
-      "how": "Manos en la pared, pierna atrás estirada y talón pegado al suelo. Debes sentirlo en el gemelo."
+      "name": "Cuello y trapecio, 20 s por lado",
+      "how": "Oreja al hombro, sin encoger."
      }
     ],
     "rationale": "**Día 14 — ovulación, todavía en tu buena ventana.** Este es *el* día de tren superior de la semana, así que lleva un movimiento por patrón: jalón vertical, remo horizontal, press, hombro, bíceps y tríceps. 🤝 Mopo tiene Pull hoy: comparten el jalón y el remo. **Entra el tríceps directo**, el último que faltaba de la reintroducción, con dos series y RIR 4. Con un solo día de tren superior a la semana la frecuencia es baja para recuperar 50 días perdidos — si quieres acelerar, el martes opcional es el lugar para meter una segunda dosis corta sin romper tu estructura."
@@ -14874,40 +15108,24 @@
     "focus": "Opcional — brazos y core con Mopo",
     "warmup": [
      {
-      "name": "Bici o caminadora, 6 min, ritmo conversable",
-      "how": "Solo para subir temperatura y pulso. Debes poder hablar frases completas todo el rato."
+      "name": "Bici o caminadora, 5-6 min, ritmo conversable",
+      "how": "Solo para subir temperatura y pulso. Debes poder hablar frases completas todo el rato. Si terminas sin aliento, ibas muy fuerte."
      },
      {
-      "name": "Movilidad de tobillo contra pared, 10 por lado",
-      "how": "De pie frente a la pared, pie a un palmo. Lleva la rodilla a tocar la pared sin despegar el talón. Si llega fácil, aleja un poco más el pie."
+      "name": "Círculos de muñeca y codo, 15 en cada sentido",
+      "how": "Puños cerrados, círculos de muñeca; después flexiona y estira el codo completo. Barato y evita molestias en el codo."
      },
      {
-      "name": "Círculos de cadera de pie, 8 por lado",
-      "how": "Apóyate en algo, levanta una rodilla a la altura de la cadera y dibuja círculos grandes hacia afuera. Que se mueva la cadera, no la espalda."
+      "name": "Dislocaciones con banda, 12 repeticiones",
+      "how": "Agarre ancho, brazos estirados, palo de adelante hacia atrás sin doblar codos."
      },
      {
-      "name": "90/90 de cadera, 6 cambios por lado",
-      "how": "Sentada en el suelo, una pierna adelante y otra al lado, ambas en 90°. Gira las dos rodillas al otro lado sin usar las manos. Pecho arriba."
+      "name": "Curl y extensión con banda liviana, 15 de cada uno",
+      "how": "Sin buscar cansancio: es para que el codo y el antebrazo lleguen con sangre."
      },
      {
-      "name": "Puente de glúteo, 12 con pausa de 1 s",
-      "how": "Acostada, pies al ancho de cadera. Sube apretando el glúteo hasta alinear rodilla-cadera-hombro, aguanta 1 s arriba. No arquees la zona lumbar: la costilla queda abajo."
-     },
-     {
-      "name": "Abducción con banda sentada, 15",
-      "how": "Banda por sobre las rodillas, sentada. Abre las rodillas contra la banda y vuelve lento. Debes sentirlo en el lado del glúteo, no en el muslo."
-     },
-     {
-      "name": "Patada de glúteo en cuadrupedia, 12 por lado",
-      "how": "En cuatro apoyos, sube el talón al techo con la rodilla doblada. Sin arquear la espalda: si la espalda se mueve, subiste demasiado."
-     },
-     {
-      "name": "Dead bug lento, 8 por lado",
-      "how": "Boca arriba, brazos al techo y rodillas en 90°. Baja un brazo y la pierna contraria manteniendo la zona lumbar pegada al suelo. Si se despega, baja menos."
-     },
-     {
-      "name": "Sentadilla a banco sin peso, 8",
-      "how": "Siéntate lento hasta rozar el banco y sube. Rodillas apuntando hacia los pies, pecho arriba. Es para grabar el patrón, no para cansarte."
+      "name": "Series de aproximación del primer ejercicio",
+      "how": "Las que están en la tabla, marcadas como Aprox. Suben la carga de a poco hasta el peso de trabajo. No cuentan como series efectivas."
      }
     ],
     "exercises": [
@@ -14976,30 +15194,37 @@
         "descanso": "60s"
        }
       ],
-      "cue": "Rodilla al pecho, afirmada en la barrita."
+      "cue": "Rodilla al pecho y pies al cielo, brazos a los lados, como lo haces tú."
      },
      {
-      "name": "Plancha lateral con elevación",
+      "name": "Russian Twist (Weighted)",
       "sets": [
        {
         "serie": "1",
-        "carga": "Peso corporal",
-        "reps": "10 por lado",
+        "carga": "6 kg",
+        "reps": "20",
         "rir": "3",
-        "descanso": "60s"
+        "descanso": "45s"
        },
        {
         "serie": "2",
-        "carga": "Peso corporal",
-        "reps": "10 por lado",
+        "carga": "6 kg",
+        "reps": "20",
         "rir": "3",
-        "descanso": "60s"
+        "descanso": "45s"
+       },
+       {
+        "serie": "3",
+        "carga": "6 kg",
+        "reps": "20",
+        "rir": "3",
+        "descanso": "45s"
        }
       ],
-      "cue": "Codo bajo el hombro, cuerpo en línea. El apretón va en el costado de abajo, el que está contra el suelo. Si el pecho se gira, para ahí."
+      "cue": "El que sí sientes: tres récords a RPE 6-7. Sentada, pies en el suelo si cuesta, gira el disco de lado a lado tocando el suelo. Gira el pecho, no solo los brazos."
      },
      {
-      "name": "Dead Bug",
+      "name": "Bird Dog",
       "sets": [
        {
         "serie": "1",
@@ -15023,30 +15248,53 @@
         "descanso": "45s"
        }
       ],
-      "cue": "Lumbar pegada al suelo."
+      "cue": "En cuatro apoyos, estira un brazo y la pierna contraria hasta la línea del cuerpo, sostén 2 s y vuelve. Que no se mueva la cadera: si se va de lado, llega menos lejos. Es antirrotación, el mismo trabajo que la plancha lateral pero mucho más fácil de sentir."
+     },
+     {
+      "name": "Plancha con rodillas apoyadas",
+      "sets": [
+       {
+        "serie": "1",
+        "carga": "Peso corporal",
+        "reps": "25-30 s",
+        "rir": "RPE 7",
+        "descanso": "45s"
+       },
+       {
+        "serie": "2",
+        "carga": "Peso corporal",
+        "reps": "25-30 s",
+        "rir": "RPE 7",
+        "descanso": "45s"
+       },
+       {
+        "serie": "3",
+        "carga": "Peso corporal",
+        "reps": "25-30 s",
+        "rir": "RPE 7",
+        "descanso": "45s"
+       }
+      ],
+      "cue": "**Reemplaza a la plancha normal, que se te cae** (16s, 5s, 15s la última vez). Rodillas apoyadas, codos bajo los hombros, cuerpo en línea recta de la cabeza a las rodillas. Aprieta glúteo y esconde un poco la cola. Cuando aguantes 3 × 45 s con la forma intacta, recién ahí pasamos a la de pies."
      }
     ],
     "cardio": "Escaleras 15-20 min, RPE 4-5, junto a Mopo.",
     "stretch": [
      {
-      "name": "Flexor de cadera en estocada, 30 s por lado",
-      "how": "Rodilla atrás en el suelo, mete la pelvis hacia adelante (como escondiendo la cola) y aprieta el glúteo de atrás. Debes sentirlo adelante de la cadera de atrás."
+      "name": "Dorsal colgado de la barra, 30 s",
+      "how": "Cuelga relajado y respira."
      },
      {
-      "name": "Glúteo figura-4 acostada, 30 s por lado",
-      "how": "Acostada, cruza el tobillo sobre la rodilla contraria y tira de la pierna de abajo hacia el pecho. Sin levantar la cabeza."
+      "name": "Bíceps y antebrazo en pared, 30 s por lado",
+      "how": "Palma en la pared con el brazo estirado y los dedos hacia atrás; gira el cuerpo al lado contrario."
      },
      {
-      "name": "Isquiotibiales acostada con banda, 30 s por lado",
-      "how": "Banda en el pie, sube la pierna estirada hasta sentir tensión detrás del muslo. La otra pierna queda estirada en el suelo."
+      "name": "Pectoral en marco de puerta, 30 s por lado",
+      "how": "Antebrazo en el marco, codo a la altura del hombro."
      },
      {
-      "name": "Aductor en mariposa, 30 s",
-      "how": "Sentada, plantas de los pies juntas, deja caer las rodillas. Empuja suave con los codos, sin rebotar."
-     },
-     {
-      "name": "Pantorrilla en pared, 30 s por lado",
-      "how": "Manos en la pared, pierna atrás estirada y talón pegado al suelo. Debes sentirlo en el gemelo."
+      "name": "Cuello y trapecio, 20 s por lado",
+      "how": "Oreja al hombro, sin encoger."
      }
     ],
     "rationale": "**Día 16 — lútea media.** Segundo opcional de la semana y el que mejor calza con Mopo: él tiene brazos y core el sábado, así que van los mismos. Corto a propósito, el gimnasio cierra a las 4. Si la semana ya se sintió cargada, se salta sin culpa: los tres días firmes ya están hechos."
@@ -15056,68 +15304,10 @@
     "day": "Dom 6",
     "tag": "descanso",
     "focus": "Descanso",
-    "warmup": [
-     {
-      "name": "Bici o caminadora, 6 min, ritmo conversable",
-      "how": "Solo para subir temperatura y pulso. Debes poder hablar frases completas todo el rato."
-     },
-     {
-      "name": "Movilidad de tobillo contra pared, 10 por lado",
-      "how": "De pie frente a la pared, pie a un palmo. Lleva la rodilla a tocar la pared sin despegar el talón. Si llega fácil, aleja un poco más el pie."
-     },
-     {
-      "name": "Círculos de cadera de pie, 8 por lado",
-      "how": "Apóyate en algo, levanta una rodilla a la altura de la cadera y dibuja círculos grandes hacia afuera. Que se mueva la cadera, no la espalda."
-     },
-     {
-      "name": "90/90 de cadera, 6 cambios por lado",
-      "how": "Sentada en el suelo, una pierna adelante y otra al lado, ambas en 90°. Gira las dos rodillas al otro lado sin usar las manos. Pecho arriba."
-     },
-     {
-      "name": "Puente de glúteo, 12 con pausa de 1 s",
-      "how": "Acostada, pies al ancho de cadera. Sube apretando el glúteo hasta alinear rodilla-cadera-hombro, aguanta 1 s arriba. No arquees la zona lumbar: la costilla queda abajo."
-     },
-     {
-      "name": "Abducción con banda sentada, 15",
-      "how": "Banda por sobre las rodillas, sentada. Abre las rodillas contra la banda y vuelve lento. Debes sentirlo en el lado del glúteo, no en el muslo."
-     },
-     {
-      "name": "Patada de glúteo en cuadrupedia, 12 por lado",
-      "how": "En cuatro apoyos, sube el talón al techo con la rodilla doblada. Sin arquear la espalda: si la espalda se mueve, subiste demasiado."
-     },
-     {
-      "name": "Dead bug lento, 8 por lado",
-      "how": "Boca arriba, brazos al techo y rodillas en 90°. Baja un brazo y la pierna contraria manteniendo la zona lumbar pegada al suelo. Si se despega, baja menos."
-     },
-     {
-      "name": "Sentadilla a banco sin peso, 8",
-      "how": "Siéntate lento hasta rozar el banco y sube. Rodillas apuntando hacia los pies, pecho arriba. Es para grabar el patrón, no para cansarte."
-     }
-    ],
+    "warmup": [],
     "exercises": [],
     "cardio": "",
-    "stretch": [
-     {
-      "name": "Flexor de cadera en estocada, 30 s por lado",
-      "how": "Rodilla atrás en el suelo, mete la pelvis hacia adelante (como escondiendo la cola) y aprieta el glúteo de atrás. Debes sentirlo adelante de la cadera de atrás."
-     },
-     {
-      "name": "Glúteo figura-4 acostada, 30 s por lado",
-      "how": "Acostada, cruza el tobillo sobre la rodilla contraria y tira de la pierna de abajo hacia el pecho. Sin levantar la cabeza."
-     },
-     {
-      "name": "Isquiotibiales acostada con banda, 30 s por lado",
-      "how": "Banda en el pie, sube la pierna estirada hasta sentir tensión detrás del muslo. La otra pierna queda estirada en el suelo."
-     },
-     {
-      "name": "Aductor en mariposa, 30 s",
-      "how": "Sentada, plantas de los pies juntas, deja caer las rodillas. Empuja suave con los codos, sin rebotar."
-     },
-     {
-      "name": "Pantorrilla en pared, 30 s por lado",
-      "how": "Manos en la pared, pierna atrás estirada y talón pegado al suelo. Debes sentirlo en el gemelo."
-     }
-    ],
+    "stretch": [],
     "rationale": "**Día 17 — lútea.** Descanso completo. La semana cierra con 3 días firmes (lunes, miércoles y jueves) más los dos opcionales que hayas tomado."
    }
   ],
