@@ -21,25 +21,29 @@
    {
     "k": "Leg Press base",
     "v": "180 kg (12 reps a RPE 8, 26 ago)"
+   },
+   {
+    "k": "Discos",
+    "v": "mínimo 2,5 kg (no hay de 1,25)"
    }
   ],
   "hasData": true,
   "MUSCLES": [
    {
     "name": "Femoral",
-    "recent": 3.5,
-    "hist": 3.8,
+    "recent": 7.0,
+    "hist": 4.1,
     "lo": 6,
     "hi": 10,
-    "tier": "critical",
-    "trend": 0.0,
+    "tier": "good",
+    "trend": 3.5,
     "note": "RDL y curl femoral del lunes, cuatro series de RDL a 50 kg con récord de volumen. Sigue bajo de banda pero ya no en cero.",
     "ex": "Romanian Deadlift, Seated Leg Curl"
    },
    {
     "name": "Tríceps",
     "recent": 5.2,
-    "hist": 5.3,
+    "hist": 5.2,
     "lo": 6,
     "hi": 10,
     "tier": "warning",
@@ -49,74 +53,74 @@
    },
    {
     "name": "Glúteo / cadera",
-    "recent": 1.8,
-    "hist": 4.2,
+    "recent": 5.2,
+    "hist": 4.5,
     "lo": 8,
     "hi": 12,
-    "tier": "critical",
-    "trend": -3.4,
+    "tier": "warning",
+    "trend": 3.4,
     "note": "Solo el Hip Thrust del lunes cae dentro de la ventana de 12 días. No está abandonado, está concentrado en un solo día: vuelve el sábado.",
     "ex": "Hip Thrust, Back Extension, Good Morning"
    },
    {
     "name": "Espalda",
-    "recent": 8.8,
-    "hist": 8.6,
+    "recent": 4.1,
+    "hist": 8.3,
     "lo": 12,
     "hi": 16,
-    "tier": "warning",
-    "trend": 0.6,
+    "tier": "critical",
+    "trend": -8.7,
     "note": "8,2 contra una banda de 12–16 y seis días sin tocarla — el último Pull fue el 21. Es el hueco más grande del tablero y por eso el jalón se adelanta a hoy.",
     "ex": "Lat Pulldown, Seated Row, Pull Up"
    },
    {
     "name": "Bíceps",
-    "recent": 6.4,
-    "hist": 5.3,
+    "recent": 5.2,
+    "hist": 5.1,
     "lo": 6,
     "hi": 10,
-    "tier": "good",
-    "trend": 4.1,
+    "tier": "warning",
+    "trend": 1.7,
     "note": "1,8 contra 6–10, también desde el 21. Viene incluido en el Pull de hoy (Preacher y Hammer).",
     "ex": "Preacher Curl, Bicep Curl, Hammer Curl"
    },
    {
     "name": "Pecho",
-    "recent": 12.8,
-    "hist": 9.0,
+    "recent": 8.8,
+    "hist": 8.7,
     "lo": 10,
     "hi": 14,
-    "tier": "good",
-    "trend": 7.6,
+    "tier": "warning",
+    "trend": -0.5,
     "note": "Dentro de banda tras el push del martes (banca 80×10×3). No necesita segunda dosis hoy; se mueve al viernes.",
     "ex": "Bench Press, Incline Bench, Chest Fly"
    },
    {
     "name": "Hombro (empuje)",
-    "recent": 13.4,
-    "hist": 10.8,
+    "recent": 10.5,
+    "hist": 10.5,
     "lo": 8,
     "hi": 12,
     "tier": "good",
-    "trend": 1.7,
+    "trend": -4.1,
     "note": "11,1 sobre una banda de 8–12: cumplido. Molestia leve en el hombro izquierdo confirmada, en banca, press de hombro y elevación lateral — el Chest Fly no dio problema. El segundo día de empuje se corrió al viernes, así quedan tres días entre sesiones de press en vez de dos. Nada más que eso: si molesta el viernes, cambia el press militar por mancuernas en inclinado y sigue.",
     "ex": "Shoulder Press, Lateral Raise, Rear Delt Reverse Fly"
    },
    {
     "name": "Cuádriceps",
-    "recent": 9.9,
-    "hist": 7.7,
+    "recent": 9.3,
+    "hist": 8.0,
     "lo": 10,
     "hi": 14,
     "tier": "warning",
-    "trend": 4.7,
+    "trend": -1.2,
     "note": "Sentadilla 90×8 y prensa el miércoles. **La prensa a 180 kg × 12 es marca real, no error de registro**: la hizo dos veces, a RPE 8 y 8,5. 160 quedaba en RPE 7 — o sea que la carga prescrita estaba corta. Desde el próximo día de pierna la base es 180 kg, y se queda ahí hasta completar las tres series de 12.",
     "ex": "Squat, Leg Press, Leg Extension"
    },
    {
     "name": "Aductor / abductor",
     "recent": 3.5,
-    "hist": 3.2,
+    "hist": 3.3,
     "lo": 4,
     "hi": 8,
     "tier": "warning",
@@ -126,12 +130,12 @@
    },
    {
     "name": "Core",
-    "recent": 22.8,
-    "hist": 5.4,
+    "recent": 14.6,
+    "hist": 5.7,
     "lo": 12,
     "hi": 22,
     "tier": "good",
-    "trend": 11.1,
+    "trend": -8.7,
     "note": "Banda subida a 12–22: hacer core todos los días es una decisión, no un descuido, y el objetivo ahora lo refleja (≈2 a 4 series diarias). 19,2 cae dentro. Y tienes razón en lo otro: construir el músculo abdominal ahora es lo correcto, porque cuando bajes grasa tiene que haber algo debajo que se vea. Por eso el core lleva carga real (Cable Crunch, Pallof, colgado) y no solo isométricos.",
     "ex": "Reverse Crunch, Plank"
    }
@@ -2607,21 +2611,21 @@
        },
        {
         "serie": "1",
-        "carga": "52,5 kg",
+        "carga": "50 kg",
         "reps": "10-12",
         "rir": "3",
         "descanso": "2:30"
        },
        {
         "serie": "2",
-        "carga": "52,5 kg",
+        "carga": "50 kg",
         "reps": "10-12",
         "rir": "2",
         "descanso": "2:30"
        },
        {
         "serie": "3",
-        "carga": "52,5 kg",
+        "carga": "50 kg",
         "reps": "10-12",
         "rir": "2",
         "descanso": "2:30"
@@ -4361,6 +4365,252 @@
    }
   ],
   "SESSIONS_FULL": [
+   {
+    "date": "2026-09-01",
+    "dlabel": "01 sep",
+    "title": "Afternoon workout 💪",
+    "hora": "4:21 PM",
+    "dur": "1h 48m",
+    "vol": "15,594",
+    "com": null,
+    "rec": null,
+    "exercises": [
+     {
+      "ej": "Leg Press (Machine)",
+      "carga": "100",
+      "reps": "10",
+      "rpe": "6"
+     },
+     {
+      "ej": "Leg Press (Machine)",
+      "carga": "180",
+      "reps": "12",
+      "rpe": "7,5"
+     },
+     {
+      "ej": "Leg Press (Machine)",
+      "carga": "180",
+      "reps": "12",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Leg Press (Machine)",
+      "carga": "160",
+      "reps": "12",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Squat (Barbell)",
+      "carga": "20",
+      "reps": "12",
+      "rpe": "—"
+     },
+     {
+      "ej": "Squat (Barbell)",
+      "carga": "60",
+      "reps": "6",
+      "rpe": "—"
+     },
+     {
+      "ej": "Squat (Barbell)",
+      "carga": "90",
+      "reps": "8",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Squat (Barbell)",
+      "carga": "90",
+      "reps": "8",
+      "rpe": "9"
+     },
+     {
+      "ej": "Hip Adduction (Machine)",
+      "carga": "89",
+      "reps": "15",
+      "rpe": "8"
+     },
+     {
+      "ej": "Hip Adduction (Machine)",
+      "carga": "89",
+      "reps": "15",
+      "rpe": "8"
+     },
+     {
+      "ej": "Hip Adduction (Machine)",
+      "carga": "84,5",
+      "reps": "15",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Leg Extension (Machine)",
+      "carga": "66",
+      "reps": "12",
+      "rpe": "8"
+     },
+     {
+      "ej": "Leg Extension (Machine)",
+      "carga": "66",
+      "reps": "12",
+      "rpe": "9"
+     },
+     {
+      "ej": "Leg Extension (Machine)",
+      "carga": "66",
+      "reps": "12",
+      "rpe": "9"
+     },
+     {
+      "ej": "Hanging Knee Raise",
+      "carga": "Peso corporal",
+      "reps": "15",
+      "rpe": "7"
+     },
+     {
+      "ej": "Hanging Knee Raise",
+      "carga": "Peso corporal",
+      "reps": "15",
+      "rpe": "7,5"
+     },
+     {
+      "ej": "Hanging Knee Raise",
+      "carga": "Peso corporal",
+      "reps": "15",
+      "rpe": "7,5"
+     },
+     {
+      "ej": "Stair Machine (Floors)",
+      "carga": "—",
+      "reps": "64 pisos / 20m 0s",
+      "rpe": "—"
+     }
+    ]
+   },
+   {
+    "date": "2026-08-31",
+    "dlabel": "31 ago",
+    "title": "Evening workout 🏋️",
+    "hora": "5:37 PM",
+    "dur": "1h 35m",
+    "vol": "12,254",
+    "com": null,
+    "rec": null,
+    "exercises": [
+     {
+      "ej": "Hip Thrust (Barbell)",
+      "carga": "60",
+      "reps": "10",
+      "rpe": "6"
+     },
+     {
+      "ej": "Hip Thrust (Barbell)",
+      "carga": "100",
+      "reps": "12",
+      "rpe": "8"
+     },
+     {
+      "ej": "Hip Thrust (Barbell)",
+      "carga": "100",
+      "reps": "12",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Hip Thrust (Barbell)",
+      "carga": "100",
+      "reps": "12",
+      "rpe": "9"
+     },
+     {
+      "ej": "Seated Leg Curl (Machine)",
+      "carga": "45",
+      "reps": "12",
+      "rpe": "6"
+     },
+     {
+      "ej": "Seated Leg Curl (Machine)",
+      "carga": "66",
+      "reps": "12",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Seated Leg Curl (Machine)",
+      "carga": "66",
+      "reps": "12",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Seated Leg Curl (Machine)",
+      "carga": "66",
+      "reps": "12",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Romanian Deadlift (Smith Machine)",
+      "carga": "40",
+      "reps": "12",
+      "rpe": "6"
+     },
+     {
+      "ej": "Romanian Deadlift (Smith Machine)",
+      "carga": "50",
+      "reps": "12",
+      "rpe": "8"
+     },
+     {
+      "ej": "Romanian Deadlift (Smith Machine)",
+      "carga": "50",
+      "reps": "12",
+      "rpe": "8"
+     },
+     {
+      "ej": "Romanian Deadlift (Smith Machine)",
+      "carga": "50",
+      "reps": "12",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Back Extension (Machine)",
+      "carga": "63,5",
+      "reps": "15",
+      "rpe": "7"
+     },
+     {
+      "ej": "Back Extension (Machine)",
+      "carga": "63,5",
+      "reps": "15",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Back Extension (Machine)",
+      "carga": "63,5",
+      "reps": "15",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Hanging Knee Raise",
+      "carga": "Peso corporal",
+      "reps": "15",
+      "rpe": "7"
+     },
+     {
+      "ej": "Hanging Knee Raise",
+      "carga": "Peso corporal",
+      "reps": "15",
+      "rpe": "8"
+     },
+     {
+      "ej": "Hanging Knee Raise",
+      "carga": "Peso corporal",
+      "reps": "15",
+      "rpe": "8"
+     },
+     {
+      "ej": "Stair Machine (Floors)",
+      "carga": "—",
+      "reps": "52 pisos / 15m 0s",
+      "rpe": "—"
+     }
+    ]
+   },
    {
     "date": "2026-08-29",
     "dlabel": "29 ago",
@@ -11836,7 +12086,8 @@
     "inicio": "2026-08-17"
    }
   },
-  "fuente": "Registro_historico_consolidado.md"
+  "fuente": "Registro_historico_consolidado.md",
+  "weekNote": "**Semana 3 · lunes y martes hechos, 27.848 kg entre los dos.** Adelantaste el día de cuádriceps al martes, así que **el empuje quedó pendiente** — pecho cayó a 8,8 (banda 10-14) y espalda a 4,1 (banda 12-16), que es el hueco grande de ahora. Femoral ya salió del rojo (3,5 → 7,0). La prensa a 180 aguantó dos series de 12; falta la tercera. Ojo: **el gimnasio no tiene discos de 1,25 kg**, así que las cargas van de 2,5 en 2,5 — el RDL a 52,5 no era posible y quedó anotado."
  },
  "mipi": {
   "displayName": "Mipi",
@@ -11862,63 +12113,63 @@
   "MUSCLES": [
    {
     "name": "Glúteo / cadera",
-    "recent": 7.0,
+    "recent": 5.2,
     "hist": 5.5,
     "lo": 10,
     "hi": 16,
     "tier": "warning",
-    "trend": -2.3,
+    "trend": -4.1,
     "note": "Baja a 7,0 porque la ventana de 12 días dejó atrás sesiones viejas, no porque hayas entrenado menos. Ayer el kickback llegó a 23 kg × 12, pero las últimas dos series a RPE 9 compensando con lumbar: el peso está bien, lo que sobra son repeticiones al fallo.",
     "ex": "Hip Thrust, Glute Kickback, Back Extension"
    },
    {
     "name": "Cuádriceps",
-    "recent": 10.5,
-    "hist": 6.3,
+    "recent": 12.8,
+    "hist": 6.7,
     "lo": 8,
     "hi": 14,
     "tier": "good",
-    "trend": 7.0,
+    "trend": 4.6,
     "note": "Dentro de banda: la prensa a 105 kg salió completa, tres series de 10-11 a RPE 7-8. Pendiente el rango — el tirón en la inserción aparece al flexionar al máximo, así que se acorta el recorrido, no el peso.",
     "ex": "Leg Press, Squat, Leg Extension"
    },
    {
     "name": "Femoral",
     "recent": 3.5,
-    "hist": 1.9,
+    "hist": 2.0,
     "lo": 6,
     "hi": 10,
     "tier": "warning",
-    "trend": 1.2,
+    "trend": -0.6,
     "note": "Ocho días sin femoral — el hueco más claro. Entra hoy con curl femoral acostada.",
     "ex": "Lying/Seated Leg Curl, RDL"
    },
    {
     "name": "Aductor / abductor",
-    "recent": 3.5,
-    "hist": 2.8,
+    "recent": 5.8,
+    "hist": 3.0,
     "lo": 6,
     "hi": 12,
     "tier": "warning",
-    "trend": 2.3,
+    "trend": 5.2,
     "note": "1,8 contra 6–12 y cuatro días sin tocarlo: es el hueco que queda en pierna. Entra el sábado con Hip Adduction.",
     "ex": "Hip Abduction, Hip Adduction"
    },
    {
     "name": "Core",
-    "recent": 34.4,
-    "hist": 4.6,
+    "recent": 30.3,
+    "hist": 5.3,
     "lo": 12,
     "hi": 24,
     "tier": "good",
-    "trend": 28.0,
+    "trend": 9.9,
     "note": "Banda subida a 12–24, al objetivo real: core todos los días. Durante la rehabilitación del codo fue casi todo el trabajo disponible, por eso 26,2. **Sin Cable Crunch** — no le gusta; el trabajo lateral va con plancha lateral con elevación y el de abdomen bajo con reverse crunch y descenso de piernas lento. Ojo con una consecuencia: el Cable Crunch era el único movimiento abdominal con carga externa, y ahora el bloque es todo peso corporal. Si el objetivo es tener músculo debajo para cuando baje la grasa, en algún momento hay que volver a cargar — con una placa en el pecho en el reverse crunch, o colgado. No urge, pero conviene tenerlo presente antes de que el core sea solo isométricos.",
     "ex": "Reverse Crunch, Dead Bug, Heel Taps"
    },
    {
     "name": "Espalda",
     "recent": 2.9,
-    "hist": 3.0,
+    "hist": 2.9,
     "lo": 8,
     "hi": 14,
     "tier": "critical",
@@ -11929,7 +12180,7 @@
    {
     "name": "Pecho",
     "recent": 0.6,
-    "hist": 1.8,
+    "hist": 1.7,
     "lo": 4,
     "hi": 10,
     "tier": "critical",
@@ -11940,7 +12191,7 @@
    {
     "name": "Hombro",
     "recent": 0.6,
-    "hist": 3.4,
+    "hist": 3.3,
     "lo": 4,
     "hi": 10,
     "tier": "critical",
@@ -11951,7 +12202,7 @@
    {
     "name": "Bíceps",
     "recent": 1.8,
-    "hist": 1.5,
+    "hist": 1.4,
     "lo": 3,
     "hi": 8,
     "tier": "warning",
@@ -14716,31 +14967,31 @@
       "cue": "**Reemplaza al Jackknife y al V-Up**, que te salen a RPE 9,5-10. Rodillas dobladas, manos en el pecho. Despega solo los omóplatos llevando las costillas a la pelvis; la zona baja no se mueve. Recorrido corto a propósito."
      },
      {
-      "name": "Russian Twist (Weighted)",
+      "name": "Heel Taps",
       "sets": [
        {
         "serie": "1",
-        "carga": "6 kg",
+        "carga": "Peso corporal",
         "reps": "20",
         "rir": "3",
         "descanso": "45s"
        },
        {
         "serie": "2",
-        "carga": "6 kg",
+        "carga": "Peso corporal",
         "reps": "20",
         "rir": "3",
         "descanso": "45s"
        },
        {
         "serie": "3",
-        "carga": "6 kg",
+        "carga": "Peso corporal",
         "reps": "20",
         "rir": "3",
         "descanso": "45s"
        }
       ],
-      "cue": "El que sí sientes: tres récords a RPE 6-7. Sentada, pies en el suelo si cuesta, gira el disco de lado a lado tocando el suelo. Gira el pecho, no solo los brazos."
+      "cue": "**Reemplaza al Russian Twist**, que dijiste que te sale con muy mala técnica — y tienes razón en cambiarlo: girar con peso sentada es difícil de hacer bien y fácil de hacer con la espalda. Este trabaja lo mismo (oblicuos) tirado en el suelo, sin peso y sin girar la columna. Acostada, rodillas dobladas y pies apoyados. Levanta apenas los omóplatos y toca el talón del mismo lado con la mano, alternando. Recorrido corto y lateral. La mirada al techo, no al ombligo."
      },
      {
       "name": "Puente de glúteo con marcha",
@@ -14767,7 +15018,7 @@
         "descanso": "45s"
        }
       ],
-      "cue": "Arriba en puente, despega un pie unos centímetros sin que la cadera se caiga de ese lado. Alterna. Trabaja abdomen y glúteo a la vez."
+      "cue": "**Sobre los calambres en el isquio**: pasa cuando el pie queda muy adelante y el isquio hace el trabajo que le toca al glúteo. Acerca los talones hasta casi tocar los glúteos y empuja el suelo **con el talón**, no con la punta. Debes sentir el glúteo apretando arriba. Si igual acalambra, baja a 6 por lado y sube desde ahí. No es lesión, es un músculo haciendo de más."
      }
     ],
     "cardio": "Escaladora 15 min, RPE 4-5.",
@@ -15155,20 +15406,24 @@
     "focus": "Opcional — brazos y core con Mopo",
     "warmup": [
      {
-      "name": "Bici o caminadora, 5-6 min, ritmo conversable",
-      "how": "Solo para subir temperatura y pulso. Debes poder hablar frases completas todo el rato. Si terminas sin aliento, ibas muy fuerte."
+      "name": "Bici 6 min, resistencia baja",
+      "how": "Antes de cualquier cosa con rodilla. La bici es lo que mejor lubrica la articulación: 6 min sin esfuerzo, solo pedaleando."
      },
      {
-      "name": "Círculos de muñeca y codo, 15 en cada sentido",
-      "how": "Puños cerrados, círculos de muñeca; después flexiona y estira el codo completo. Barato y evita molestias en el codo."
+      "name": "Movilidad de tobillo contra pared, 10 por lado",
+      "how": "Rodilla a tocar la pared sin despegar el talón. Si el tobillo no se mueve, la rodilla compensa — y ahí aparecen los tirones."
      },
      {
-      "name": "Dislocaciones con banda, 12 repeticiones",
-      "how": "Agarre ancho, brazos estirados, palo de adelante hacia atrás sin doblar codos."
+      "name": "Extensión de rodilla sin peso sentada, 15 por lado",
+      "how": "Sentada al borde del banco, estira la rodilla del todo y aprieta 1 s arriba. Manda sangre al tendón antes de cargarlo."
      },
      {
-      "name": "Curl y extensión con banda liviana, 15 de cada uno",
-      "how": "Sin buscar cansancio: es para que el codo y el antebrazo lleguen con sangre."
+      "name": "Sentadilla a banco sin peso, 10",
+      "how": "Siéntate lento hasta rozar el banco y sube. Es el ensayo del patrón, no un ejercicio."
+     },
+     {
+      "name": "Puente de glúteo, 12 con pausa de 1 s",
+      "how": "Sube apretando el glúteo hasta alinear rodilla-cadera-hombro. La costilla queda abajo."
      },
      {
       "name": "Series de aproximación del primer ejercicio",
@@ -15244,31 +15499,31 @@
       "cue": "Rodilla al pecho y pies al cielo, brazos a los lados, como lo haces tú."
      },
      {
-      "name": "Russian Twist (Weighted)",
+      "name": "Heel Taps",
       "sets": [
        {
         "serie": "1",
-        "carga": "6 kg",
+        "carga": "Peso corporal",
         "reps": "20",
         "rir": "3",
         "descanso": "45s"
        },
        {
         "serie": "2",
-        "carga": "6 kg",
+        "carga": "Peso corporal",
         "reps": "20",
         "rir": "3",
         "descanso": "45s"
        },
        {
         "serie": "3",
-        "carga": "6 kg",
+        "carga": "Peso corporal",
         "reps": "20",
         "rir": "3",
         "descanso": "45s"
        }
       ],
-      "cue": "El que sí sientes: tres récords a RPE 6-7. Sentada, pies en el suelo si cuesta, gira el disco de lado a lado tocando el suelo. Gira el pecho, no solo los brazos."
+      "cue": "**Reemplaza al Russian Twist**, que dijiste que te sale con muy mala técnica — y tienes razón en cambiarlo: girar con peso sentada es difícil de hacer bien y fácil de hacer con la espalda. Este trabaja lo mismo (oblicuos) tirado en el suelo, sin peso y sin girar la columna. Acostada, rodillas dobladas y pies apoyados. Levanta apenas los omóplatos y toca el talón del mismo lado con la mano, alternando. Recorrido corto y lateral. La mirada al techo, no al ombligo."
      },
      {
       "name": "Bird Dog",
@@ -15813,6 +16068,330 @@
    }
   ],
   "SESSIONS_FULL": [
+   {
+    "date": "2026-09-01",
+    "dlabel": "01 sep",
+    "title": "Piernas🍗",
+    "hora": "4:00 PM",
+    "dur": "2h 0m",
+    "vol": "10,288",
+    "com": null,
+    "rec": null,
+    "exercises": [
+     {
+      "ej": "Leg Press (Machine)",
+      "carga": "40",
+      "reps": "12",
+      "rpe": "6"
+     },
+     {
+      "ej": "Leg Press (Machine)",
+      "carga": "80",
+      "reps": "6",
+      "rpe": "6"
+     },
+     {
+      "ej": "Leg Press (Machine)",
+      "carga": "105",
+      "reps": "12",
+      "rpe": "7"
+     },
+     {
+      "ej": "Leg Press (Machine)",
+      "carga": "105",
+      "reps": "12",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Leg Press (Machine)",
+      "carga": "105",
+      "reps": "12",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Hip Adduction (Machine)",
+      "carga": "40",
+      "reps": "15",
+      "rpe": "6"
+     },
+     {
+      "ej": "Hip Adduction (Machine)",
+      "carga": "63,5",
+      "reps": "15",
+      "rpe": "7,5"
+     },
+     {
+      "ej": "Hip Adduction (Machine)",
+      "carga": "63,5",
+      "reps": "15",
+      "rpe": "8"
+     },
+     {
+      "ej": "Hip Adduction (Machine)",
+      "carga": "63,5",
+      "reps": "15",
+      "rpe": "8"
+     },
+     {
+      "ej": "Leg Extension (Machine)",
+      "carga": "33",
+      "reps": "12",
+      "rpe": "6"
+     },
+     {
+      "ej": "Leg Extension (Machine)",
+      "carga": "47",
+      "reps": "11",
+      "rpe": "8"
+     },
+     {
+      "ej": "Leg Extension (Machine)",
+      "carga": "47",
+      "reps": "11",
+      "rpe": "9"
+     },
+     {
+      "ej": "Dumbbell Step Up",
+      "carga": "8",
+      "reps": "15",
+      "rpe": "7,5"
+     },
+     {
+      "ej": "Dumbbell Step Up",
+      "carga": "8",
+      "reps": "15",
+      "rpe": "7,5"
+     },
+     {
+      "ej": "Crunch",
+      "carga": "Peso corporal",
+      "reps": "15",
+      "rpe": "7,5"
+     },
+     {
+      "ej": "Crunch",
+      "carga": "Peso corporal",
+      "reps": "15",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Crunch",
+      "carga": "Peso corporal",
+      "reps": "15",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Russian Twist (Weighted)",
+      "carga": "6",
+      "reps": "20",
+      "rpe": "8"
+     },
+     {
+      "ej": "Russian Twist (Weighted)",
+      "carga": "6",
+      "reps": "20",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Russian Twist (Weighted)",
+      "carga": "6",
+      "reps": "30",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Puente de glúteo con marcha",
+      "carga": "Peso corporal",
+      "reps": "10 por lado",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Puente de glúteo con marcha",
+      "carga": "Peso corporal",
+      "reps": "10 por lado",
+      "rpe": "8"
+     },
+     {
+      "ej": "Puente de glúteo con marcha",
+      "carga": "Peso corporal",
+      "reps": "10 por lado",
+      "rpe": "8"
+     },
+     {
+      "ej": "Stair Machine (Floors)",
+      "carga": "—",
+      "reps": "47 pisos / 15m 12s",
+      "rpe": "—"
+     }
+    ]
+   },
+   {
+    "date": "2026-08-31",
+    "dlabel": "31 ago",
+    "title": "Entrenamiento por la tarde 💪",
+    "hora": "5:01 PM",
+    "dur": "1h 52m",
+    "vol": "8,506",
+    "com": null,
+    "rec": null,
+    "exercises": [
+     {
+      "ej": "Squat (Barbell)",
+      "carga": "20",
+      "reps": "12",
+      "rpe": "6"
+     },
+     {
+      "ej": "Squat (Barbell)",
+      "carga": "25",
+      "reps": "12",
+      "rpe": "6"
+     },
+     {
+      "ej": "Squat (Barbell)",
+      "carga": "25",
+      "reps": "12",
+      "rpe": "7"
+     },
+     {
+      "ej": "Squat (Barbell)",
+      "carga": "25",
+      "reps": "12",
+      "rpe": "7,5"
+     },
+     {
+      "ej": "Hip Thrust (Barbell)",
+      "carga": "60",
+      "reps": "10",
+      "rpe": "6"
+     },
+     {
+      "ej": "Hip Thrust (Barbell)",
+      "carga": "85",
+      "reps": "5",
+      "rpe": "6"
+     },
+     {
+      "ej": "Hip Thrust (Barbell)",
+      "carga": "105",
+      "reps": "8",
+      "rpe": "8"
+     },
+     {
+      "ej": "Hip Thrust (Barbell)",
+      "carga": "105",
+      "reps": "6",
+      "rpe": "9"
+     },
+     {
+      "ej": "Hip Thrust (Barbell)",
+      "carga": "105",
+      "reps": "8",
+      "rpe": "9"
+     },
+     {
+      "ej": "Bulgarian Split Squat (Dumbbell)",
+      "carga": "10",
+      "reps": "12",
+      "rpe": "7,5"
+     },
+     {
+      "ej": "Bulgarian Split Squat (Dumbbell)",
+      "carga": "10",
+      "reps": "12",
+      "rpe": "7"
+     },
+     {
+      "ej": "Bulgarian Split Squat (Dumbbell)",
+      "carga": "10",
+      "reps": "12",
+      "rpe": "8"
+     },
+     {
+      "ej": "Lying Leg Curl (Machine)",
+      "carga": "15",
+      "reps": "12",
+      "rpe": "6"
+     },
+     {
+      "ej": "Lying Leg Curl (Machine)",
+      "carga": "27,5",
+      "reps": "10",
+      "rpe": "8"
+     },
+     {
+      "ej": "Lying Leg Curl (Machine)",
+      "carga": "25",
+      "reps": "12",
+      "rpe": "8"
+     },
+     {
+      "ej": "Lying Leg Curl (Machine)",
+      "carga": "25",
+      "reps": "12",
+      "rpe": "8"
+     },
+     {
+      "ej": "Hip Abduction (Machine)",
+      "carga": "54",
+      "reps": "12",
+      "rpe": "6"
+     },
+     {
+      "ej": "Hip Abduction (Machine)",
+      "carga": "82",
+      "reps": "12",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Hip Abduction (Machine)",
+      "carga": "82",
+      "reps": "12",
+      "rpe": "9,5"
+     },
+     {
+      "ej": "Reverse Crunch",
+      "carga": "Peso corporal",
+      "reps": "15",
+      "rpe": "7,5"
+     },
+     {
+      "ej": "Reverse Crunch",
+      "carga": "Peso corporal",
+      "reps": "15",
+      "rpe": "9"
+     },
+     {
+      "ej": "Reverse Crunch",
+      "carga": "Peso corporal",
+      "reps": "15",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Plancha con rodilla apoyada",
+      "carga": "Peso corporal",
+      "reps": "30 s",
+      "rpe": "—"
+     },
+     {
+      "ej": "Plancha con rodilla apoyada",
+      "carga": "Peso corporal",
+      "reps": "42 s",
+      "rpe": "—"
+     },
+     {
+      "ej": "Plancha con rodilla apoyada",
+      "carga": "Peso corporal",
+      "reps": "15 s",
+      "rpe": "—"
+     },
+     {
+      "ej": "Caminata inclinada",
+      "carga": "—",
+      "reps": "1 km / 15m 0s (inclinación 15, velocidad 4,0)",
+      "rpe": "—"
+     }
+    ]
+   },
    {
     "date": "2026-08-29",
     "dlabel": "29 ago",
@@ -24138,6 +24717,7 @@
    }
   },
   "note": "Cable Crunch fuera: no le gusta. Alternativas válidas: rodillas al pecho, reverse crunch o plancha lateral con elevación.",
-  "fuente": "Registro_historico_Mipi.md"
+  "fuente": "Registro_historico_Mipi.md",
+  "weekNote": "**Semana 1 del mesociclo nuevo · dos sesiones, 18.794 kg.** Tomaste sola el salto a **105 kg en Hip Thrust** y subiste la sentadilla a 25. La plancha con rodilla apoyada funcionó: 30 y 42 s contra los 16 de antes. Cuádriceps y aductor subieron; **el tren superior lleva 5 días sin tocarse** y el jueves es su único día. Anoté lo del Russian Twist y los calambres, y abajo te respondo lo de la rodilla."
  }
 }

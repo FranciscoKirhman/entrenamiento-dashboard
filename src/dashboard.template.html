@@ -486,7 +486,7 @@ details.callout[open]>summary.herosum::after{ content:'▴'; }
       <p class="eyebrow">Coach adaptativo · basado en registro Hevy</p>
       <h1 id="pageTitle">Sistema de entrenamiento</h1>
       <p class="cycleline" id="cycleLine"></p>
-      <p class="sub">No es un plan fijo semana a semana — es un tablero que se recalcula con cada sesión que registras, para decidir qué entrenar según lo que de verdad llevas acumulado.</p>
+      <p class="sub" id="weekNote"></p>
     </div>
     <div class="headright">
       <div class="profile-switch" id="profileSwitch"></div>
@@ -1539,6 +1539,7 @@ details.callout[open]>summary.herosum::after{ content:'▴'; }
     renderSwitch(key);
     renderChips(profile);
     renderCycle(profile);
+    document.getElementById('weekNote').innerHTML = escMd(profile.weekNote || '');
     renderHero(profile);
     renderWeekCards(profile);
     renderMuscles(profile);

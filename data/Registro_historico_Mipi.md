@@ -2268,3 +2268,85 @@ No hubo sesión de gimnasio este día (la pierna B se corrió al jueves 27). Sí
 - **Hollow Rock:** no lo puede hacer con los brazos a los lados, se le despega la espalda del suelo.
 
 *Sesión junto a Francisco.*
+
+## 31 Aug 2026 — Entrenamiento por la tarde 💪
+
+**Hora:** 5:01 PM  
+**Duración:** 1h 52m  
+**Volumen Hevy:** 8,506 kg  
+
+| Orden | Ejercicio | Serie | Carga | Reps/tiempo | RPE |
+|---:|---|---:|---:|---|---:|
+| 1 | Squat (Barbell) | 1 | 20 kg | 12 | 6 |
+| 1 | Squat (Barbell) | 2 | 25 kg | 12 | 6 |
+| 1 | Squat (Barbell) | 3 | 25 kg | 12 | 7 |
+| 1 | Squat (Barbell) | 4 | 25 kg | 12 | 7,5 |
+| 2 | Hip Thrust (Barbell) | 1 | 60 kg | 10 | 6 |
+| 2 | Hip Thrust (Barbell) | 2 | 85 kg | 5 | 6 |
+| 2 | Hip Thrust (Barbell) | 3 | 105 kg | 8 | 8 |
+| 2 | Hip Thrust (Barbell) | 4 | 105 kg | 6 | 9 |
+| 2 | Hip Thrust (Barbell) | 5 | 105 kg | 8 | 9 |
+| 3 | Bulgarian Split Squat (Dumbbell) | 1 | 10 kg | 12 | 7,5 |
+| 3 | Bulgarian Split Squat (Dumbbell) | 2 | 10 kg | 12 | 7 |
+| 3 | Bulgarian Split Squat (Dumbbell) | 3 | 10 kg | 12 | 8 |
+| 4 | Lying Leg Curl (Machine) | 1 | 15 kg | 12 | 6 |
+| 4 | Lying Leg Curl (Machine) | 2 | 27,5 kg | 10 | 8 |
+| 4 | Lying Leg Curl (Machine) | 3 | 25 kg | 12 | 8 |
+| 4 | Lying Leg Curl (Machine) | 4 | 25 kg | 12 | 8 |
+| 5 | Hip Abduction (Machine) | 1 | 54 kg | 12 | 6 |
+| 5 | Hip Abduction (Machine) | 2 | 82 kg | 12 | 8,5 |
+| 5 | Hip Abduction (Machine) | 3 | 82 kg | 12 | 9,5 |
+| 6 | Reverse Crunch | 1 | Peso corporal | 15 | 7,5 |
+| 6 | Reverse Crunch | 2 | Peso corporal | 15 | 9 |
+| 6 | Reverse Crunch | 3 | Peso corporal | 15 | 8,5 |
+| 7 | Plancha con rodilla apoyada | 1 | Peso corporal | 30 s | — |
+| 7 | Plancha con rodilla apoyada | 2 | Peso corporal | 42 s | — |
+| 7 | Plancha con rodilla apoyada | 3 | Peso corporal | 15 s | — |
+| 8 | Caminata inclinada | 1 | — | 1 km / 15m 0s (inclinación 15, velocidad 4,0) | — |
+
+**Notas por ejercicio:**
+- **Squat:** al bajar, dolor leve en la inserción distal del cuádriceps derecho (rodilla), **solo en la primera serie**. Pregunta si serviría más calentamiento de rodillas.
+- **Plancha con rodilla apoyada:** primera vez con la versión regresada — 30 s y 42 s contra los 16-21 s que venía haciendo con la plancha completa.
+
+*Subió sola la sentadilla a 25 kg (los prescritos eran 20) y tomó el salto a 105 kg en Hip Thrust.*
+
+## 1 Sep 2026 — Piernas🍗
+
+**Hora:** 4:00 PM  
+**Duración:** 2h 0m  
+**Volumen Hevy:** 10,288 kg  
+
+| Orden | Ejercicio | Serie | Carga | Reps/tiempo | RPE |
+|---:|---|---:|---:|---|---:|
+| 1 | Leg Press (Machine) | 1 | 40 kg | 12 | 6 |
+| 1 | Leg Press (Machine) | 2 | 80 kg | 6 | 6 |
+| 1 | Leg Press (Machine) | 3 | 105 kg | 12 | 7 |
+| 1 | Leg Press (Machine) | 4 | 105 kg | 12 | 8,5 |
+| 1 | Leg Press (Machine) | 5 | 105 kg | 12 | 8,5 |
+| 2 | Hip Adduction (Machine) | 1 | 40 kg | 15 | 6 |
+| 2 | Hip Adduction (Machine) | 2 | 63,5 kg | 15 | 7,5 |
+| 2 | Hip Adduction (Machine) | 3 | 63,5 kg | 15 | 8 |
+| 2 | Hip Adduction (Machine) | 4 | 63,5 kg | 15 | 8 |
+| 3 | Leg Extension (Machine) | 1 | 33 kg | 12 | 6 |
+| 3 | Leg Extension (Machine) | 2 | 47 kg | 11 | 8 |
+| 3 | Leg Extension (Machine) | 3 | 47 kg | 11 | 9 |
+| 4 | Dumbbell Step Up | 1 | 8 kg | 15 | 7,5 |
+| 4 | Dumbbell Step Up | 2 | 8 kg | 15 | 7,5 |
+| 5 | Crunch | 1 | Peso corporal | 15 | 7,5 |
+| 5 | Crunch | 2 | Peso corporal | 15 | 8,5 |
+| 5 | Crunch | 3 | Peso corporal | 15 | 8,5 |
+| 6 | Russian Twist (Weighted) | 1 | 6 kg | 20 | 8 |
+| 6 | Russian Twist (Weighted) | 2 | 6 kg | 20 | 8,5 |
+| 6 | Russian Twist (Weighted) | 3 | 6 kg | 30 | 8,5 |
+| 7 | Puente de glúteo con marcha | 1 | Peso corporal | 10 por lado | 8,5 |
+| 7 | Puente de glúteo con marcha | 2 | Peso corporal | 10 por lado | 8 |
+| 7 | Puente de glúteo con marcha | 3 | Peso corporal | 10 por lado | 8 |
+| 8 | Stair Machine (Floors) | 1 | — | 47 pisos / 15m 12s | — |
+
+**Notas por ejercicio:**
+- **Leg Extension:** "Hardddddd". Quedó en 2 series de trabajo, de 11 repeticiones en vez de 12.
+- **Dumbbell Step Up:** ojo con el equilibrio, mala estabilidad de tobillo.
+- **Russian Twist:** muy mala técnica, pide cambiarlo por algo más básico.
+- **Puente de glúteo con marcha:** calambres en isquiotibiales.
+
+*Adelantó al martes la sesión de pierna del miércoles.*

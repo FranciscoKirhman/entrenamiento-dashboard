@@ -1831,3 +1831,68 @@ Sesión de boulder por la tarde, después del entrenamiento de pierna de la mañ
 - **Hammer Curl:** no lo hizo en superserie y cree que tampoco habría podido.
 
 *Face Pull quedó en 2 series de las 3 planificadas. Sesión junto a Paloma.*
+
+## 31 Aug 2026 — Evening workout 🏋️
+
+**Hora:** 5:37 PM  
+**Duración:** 1h 35m  
+**Volumen Hevy:** 12,254 kg  
+
+| Orden | Ejercicio | Serie | Carga | Reps/tiempo | RPE |
+|---:|---|---:|---:|---|---:|
+| 1 | Hip Thrust (Barbell) | 1 | 60 kg | 10 | 6 |
+| 1 | Hip Thrust (Barbell) | 2 | 100 kg | 12 | 8 |
+| 1 | Hip Thrust (Barbell) | 3 | 100 kg | 12 | 8,5 |
+| 1 | Hip Thrust (Barbell) | 4 | 100 kg | 12 | 9 |
+| 2 | Seated Leg Curl (Machine) | 1 | 45 kg | 12 | 6 |
+| 2 | Seated Leg Curl (Machine) | 2 | 66 kg | 12 | 8,5 |
+| 2 | Seated Leg Curl (Machine) | 3 | 66 kg | 12 | 8,5 |
+| 2 | Seated Leg Curl (Machine) | 4 | 66 kg | 12 | 8,5 |
+| 3 | Romanian Deadlift (Smith Machine) | 1 | 40 kg | 12 | 6 |
+| 3 | Romanian Deadlift (Smith Machine) | 2 | 50 kg | 12 | 8 |
+| 3 | Romanian Deadlift (Smith Machine) | 3 | 50 kg | 12 | 8 |
+| 3 | Romanian Deadlift (Smith Machine) | 4 | 50 kg | 12 | 8,5 |
+| 4 | Back Extension (Machine) | 1 | 63,5 kg | 15 | 7 |
+| 4 | Back Extension (Machine) | 2 | 63,5 kg | 15 | 8,5 |
+| 4 | Back Extension (Machine) | 3 | 63,5 kg | 15 | 8,5 |
+| 5 | Hanging Knee Raise | 1 | Peso corporal | 15 | 7 |
+| 5 | Hanging Knee Raise | 2 | Peso corporal | 15 | 8 |
+| 5 | Hanging Knee Raise | 3 | Peso corporal | 15 | 8 |
+| 6 | Stair Machine (Floors) | 1 | — | 52 pisos / 15m 0s | — |
+
+**Notas por ejercicio:**
+- **Romanian Deadlift:** el gimnasio no tiene discos de 1,25 kg, así que no pudo hacer los 52,5 kg prescritos y se quedó en 50.
+
+*Hip Thrust quedó en 100 kg en vez de los 105 prescritos. Sesión junto a Paloma.*
+
+## 1 Sep 2026 — Afternoon workout 💪
+
+**Hora:** 4:21 PM  
+**Duración:** 1h 48m  
+**Volumen Hevy:** 15,594 kg  
+
+| Orden | Ejercicio | Serie | Carga | Reps/tiempo | RPE |
+|---:|---|---:|---:|---|---:|
+| 1 | Leg Press (Machine) | 1 | 100 kg | 10 | 6 |
+| 1 | Leg Press (Machine) | 2 | 180 kg | 12 | 7,5 |
+| 1 | Leg Press (Machine) | 3 | 180 kg | 12 | 8,5 |
+| 1 | Leg Press (Machine) | 4 | 160 kg | 12 | 8,5 |
+| 2 | Squat (Barbell) | 1 | 20 kg | 12 | — |
+| 2 | Squat (Barbell) | 2 | 60 kg | 6 | — |
+| 2 | Squat (Barbell) | 3 | 90 kg | 8 | 8,5 |
+| 2 | Squat (Barbell) | 4 | 90 kg | 8 | 9 |
+| 3 | Hip Adduction (Machine) | 1 | 89 kg | 15 | 8 |
+| 3 | Hip Adduction (Machine) | 2 | 89 kg | 15 | 8 |
+| 3 | Hip Adduction (Machine) | 3 | 84,5 kg | 15 | 8,5 |
+| 4 | Leg Extension (Machine) | 1 | 66 kg | 12 | 8 |
+| 4 | Leg Extension (Machine) | 2 | 66 kg | 12 | 9 |
+| 4 | Leg Extension (Machine) | 3 | 66 kg | 12 | 9 |
+| 5 | Hanging Knee Raise | 1 | Peso corporal | 15 | 7 |
+| 5 | Hanging Knee Raise | 2 | Peso corporal | 15 | 7,5 |
+| 5 | Hanging Knee Raise | 3 | Peso corporal | 15 | 7,5 |
+| 6 | Stair Machine (Floors) | 1 | — | 64 pisos / 20m 0s | — |
+
+**Notas por ejercicio:**
+- **Hanging Knee Raise:** le dio acidez.
+
+*Adelantó el día de cuádriceps del miércoles al martes; el empuje quedó pendiente. Leg Press completó 2 de 3 series a 180 kg (la tercera bajó a 160) y sentadilla quedó en 2 series de trabajo de las 3 prescritas. Sesión junto a Paloma.*
