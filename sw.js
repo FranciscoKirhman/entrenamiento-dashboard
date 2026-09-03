@@ -1,6 +1,6 @@
 // Cachea el tablero para que funcione sin señal en el gimnasio.
 // Estrategia: red primero con limite de tiempo, cache como respaldo.
-const CACHE = 'entreno-v3';
+const CACHE = 'entreno-v4';
 const ASSETS = ['./', './index.html', './manifest.webmanifest', './icon-180.png'];
 const LIMITE_MS = 3000;   // en el subterraneo la señal existe pero no llega: no esperar mas que esto
 
@@ -23,6 +23,8 @@ self.addEventListener('fetch', e => {
   if (e.request.method !== 'GET') return;
   const url = new URL(e.request.url);
   if (url.origin !== location.origin) return;      // lo externo pasa sin tocar
+  // version.json nunca se cachea: es justamente el archivo que delata una copia vieja
+  if (url.pathname.endsWith('/version.json')) return;
 
   // GitHub Pages sirve index.html con cache-control: max-age=600. Un fetch normal se
   // resuelve desde la cache HTTP del navegador, asi que "red primero" devolvia el tablero

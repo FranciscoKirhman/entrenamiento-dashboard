@@ -713,7 +713,7 @@ details.callout[open]>summary.herosum::after{ content:'▴'; }
 
   <footer>
     <span id="footerSource">Fuente: Registro_historico_consolidado.md</span>
-    <span>Se recalcula cada vez que agregas una sesión nueva al registro</span>
+    <span>Se recalcula cada vez que agregas una sesión nueva al registro · v<span id="verTag"></span></span>
     <span>Diagrama anatómico: <a href="https://github.com/melihcolpan/MuscleMap" rel="noopener">MuscleMap</a> de Melih Colpan, licencia MIT</span>
   </footer>
 
@@ -1565,6 +1565,29 @@ details.callout[open]>summary.herosum::after{ content:'▴'; }
     window.scrollTo(0,0);
   }
 
+  // ---------------- ¿estoy viendo una copia vieja? ----------------
+  // La app instalada puede servir una copia guardada sin avisar. Se compara la version
+  // horneada en este archivo contra la publicada; si no calzan, se recarga una sola vez.
+  var VERSION = '__VERSION__';
+  (function(){
+    var YA = 'recarga-' + VERSION;
+    fetch('version.json?t=' + Date.now(), {cache:'no-store'})
+      .then(function(r){ return r.ok ? r.json() : null; })
+      .then(function(v){
+        if(!v || !v.version || v.version === VERSION) return;
+        try{
+          if(sessionStorage.getItem(YA)) return;      // ya se recargo: no entrar en bucle
+          sessionStorage.setItem(YA, '1');
+        }catch(e){ return; }
+        if('serviceWorker' in navigator && navigator.serviceWorker.controller){
+          navigator.serviceWorker.getRegistrations().then(function(rs){
+            return Promise.all(rs.map(function(r){ return r.update(); }));
+          }).catch(function(){}).then(function(){ location.reload(); });
+        } else { location.reload(); }
+      })
+      .catch(function(){ /* sin señal: se queda con lo que tiene, que es lo correcto */ });
+  })();
+
   if('serviceWorker' in navigator){
     window.addEventListener('load', function(){
       navigator.serviceWorker.register('sw.js', {updateViaCache:'none'}).catch(function(){ /* sin conexion: no pasa nada */ });
@@ -1669,6 +1692,7 @@ details.callout[open]>summary.herosum::after{ content:'▴'; }
     btn.hidden=false;
   })();
 
+  var vt=document.getElementById('verTag'); if(vt) vt.textContent=VERSION;
   renderProfile('mopo');
 })();
 </script>

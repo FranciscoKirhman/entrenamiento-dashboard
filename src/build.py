@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Reconstruye index.html desde src/. Ejecutar desde la raiz del repo:  python3 src/build.py"""
-import json, os, re, sys
+import hashlib, json, os, re, sys, time
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SRC  = os.path.join(ROOT, "src")
 
@@ -43,10 +43,18 @@ def build():
     cuerpos = json.load(open(os.path.join(SRC,"bodypaths.json"), encoding="utf-8"))
     tpl = tpl.replace("__BODYPATHS_JSON__", json.dumps(cuerpos, ensure_ascii=False, separators=(",",":")))
     assert "{{" not in tpl and "__PROFILES_JSON__" not in tpl and "__BODYPATHS_JSON__" not in tpl, "quedaron placeholders sin reemplazar"
+    assert "__VERSION__" in tpl, "falta el marcador de version"
     assert 'name="viewport"' in tpl, "falta el meta viewport (rompe la vista movil)"
+    version = hashlib.sha256(tpl.encode("utf-8")).hexdigest()[:12]
+    tpl = tpl.replace("__VERSION__", version)
     out = os.path.join(ROOT,"index.html")
     open(out,"w",encoding="utf-8").write(tpl)
-    print(f"index.html generado: {len(tpl)} bytes")
+    # el tablero compara su propia version contra esta al abrirse; si no calzan, recarga solo.
+    # Sin esto, una app instalada con el service worker viejo puede quedarse en una copia
+    # guardada para siempre, porque el arreglo viaja dentro del archivo que no vuelve a bajar.
+    with open(os.path.join(ROOT,"version.json"),"w",encoding="utf-8") as f:
+        json.dump({"version": version, "fecha": time.strftime("%Y-%m-%d %H:%M")}, f)
+    print(f"index.html generado: {len(tpl)} bytes (version {version})")
 
 if __name__ == "__main__":
     build()
