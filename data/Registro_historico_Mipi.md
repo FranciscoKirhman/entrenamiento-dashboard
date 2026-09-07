@@ -1,4 +1,4 @@
-# Historial de entrenamiento de Paloma (Mipi)
+# Historial de entrenamiento de Paloma (Mipi) — 28 de febrero al 4 de septiembre de 2026 (79 sesiones)
 
 Registro cronológico consolidado, mismo formato que el de Mopo. Cada fila corresponde a una serie real copiada desde Hevy. Los volúmenes oficiales se conservan sin reemplazarlos por cálculos derivados (excepto en sesiones con ejercicios asistidos o de solo-peso-corporal, donde Hevy suma un componente de peso corporal que no aparece en el texto copiado — el volumen mostrado sigue siendo el oficial de la app).
 

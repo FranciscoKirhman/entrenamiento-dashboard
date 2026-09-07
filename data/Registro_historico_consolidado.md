@@ -1,4 +1,4 @@
-# Historial de entrenamiento por fecha — 29 de mayo al 21 de agosto de 2026
+# Historial de entrenamiento por fecha — 29 de mayo de 2026 al 4 de septiembre de 2026 (70 sesiones)
 
 Registro cronológico consolidado. Cada fila corresponde a una serie real copiada desde Hevy. Los volúmenes oficiales se conservan sin reemplazarlos por cálculos derivados.
 
