@@ -25,6 +25,10 @@
    {
     "k": "Discos",
     "v": "mínimo 2,5 kg (no hay de 1,25)"
+   },
+   {
+    "k": "Equipo",
+    "v": "banda de 5 kg · sin palo · discos desde 2,5 kg"
    }
   ],
   "hasData": true,
@@ -150,8 +154,8 @@
     "cardio": "Caminata en cinta 30 min, inclinación 8-10%, ritmo cómodo — puedes leer mientras. Si el gimnasio cierra antes (fines de semana a las 4), sáltalo sin problema.",
     "warmup": [
      {
-      "name": "Pass-through con banda o palo, 2×10",
-      "how": "Toma la banda más ancho que los hombros y pásala de adelante hacia atrás por encima de la cabeza con los codos estirados; si tira mucho, agarra más ancho."
+      "name": "Pass-through con banda, 2×10",
+      "how": "Con la banda de 5 kg, agarre ancho. De adelante hacia atrás por sobre la cabeza y de vuelta, lento, sin doblar codos. Si se traba en algún punto, abre más las manos."
      },
      {
       "name": "Wall slides (deslizar brazos en la pared), 2×10",
@@ -180,8 +184,8 @@
     ],
     "stretch": [
      {
-      "name": "Dislocaciones de hombro con banda o palo — 2 x 12 lentas",
-      "how": "Agarre bien ancho (más que hombros), brazos estirados, y lleva la banda de adelante hacia atrás por sobre la cabeza en 3 segundos sin arquear la espalda ni encoger el cuello; si el hombro pincha, abre más el agarre."
+      "name": "Dislocaciones de hombro con banda — 2 × 12 lentas",
+      "how": "Con la banda de 5 kg. Muy lentas y sin forzar el final del recorrido: acá el objetivo es soltar el hombro después del trabajo, no ganar rango a la fuerza."
      },
      {
       "name": "Colgado activo en barra — 3 x 30 seg",
@@ -637,8 +641,8 @@
     "cardio": "Escaladora 15-20 min, RPE 5 — o caminata inclinada 25-30 min si prefieres leer.",
     "warmup": [
      {
-      "name": "Pass-through con banda o palo, 2×10",
-      "how": "Toma la banda más ancho que los hombros y pásala de adelante hacia atrás por encima de la cabeza con los codos estirados; si tira mucho, agarra más ancho."
+      "name": "Pass-through con banda, 2×10",
+      "how": "Con la banda de 5 kg, agarre ancho. De adelante hacia atrás por sobre la cabeza y de vuelta, lento, sin doblar codos. Si se traba en algún punto, abre más las manos."
      },
      {
       "name": "Wall slides (deslizar brazos en la pared), 2×10",
@@ -671,8 +675,8 @@
       "how": "Roller cruzado bajo la espalda alta —a la altura del pecho, nunca en la lumbar—, manos tras la nuca y deja caer las costillas hacia atrás soltando el aire 2 segundos; sube el roller un dedo y repite en el siguiente tramo."
      },
      {
-      "name": "Dislocaciones de hombro con banda o palo — 2 x 12 lentas",
-      "how": "Agarre bien ancho (más que hombros), brazos estirados, y lleva la banda de adelante hacia atrás por sobre la cabeza en 3 segundos sin arquear la espalda ni encoger el cuello; si el hombro pincha, abre más el agarre."
+      "name": "Dislocaciones de hombro con banda — 2 × 12 lentas",
+      "how": "Con la banda de 5 kg. Muy lentas y sin forzar el final del recorrido: acá el objetivo es soltar el hombro después del trabajo, no ganar rango a la fuerza."
      },
      {
       "name": "Colgado activo en barra — 3 x 30 seg",
@@ -895,8 +899,8 @@
     "cardio": "Sin escaleras hoy. Mañana el cerro ya trae cardio y carga de pierna de sobra.",
     "warmup": [
      {
-      "name": "Pass-through con banda o palo, 2×10",
-      "how": "Toma la banda más ancho que los hombros y pásala de adelante hacia atrás por encima de la cabeza con los codos estirados; si tira mucho, agarra más ancho."
+      "name": "Pass-through con banda, 2×10",
+      "how": "Con la banda de 5 kg, agarre ancho. De adelante hacia atrás por sobre la cabeza y de vuelta, lento, sin doblar codos. Si se traba en algún punto, abre más las manos."
      },
      {
       "name": "Wall slides (deslizar brazos en la pared), 2×10",
@@ -925,8 +929,8 @@
     ],
     "stretch": [
      {
-      "name": "Dislocaciones de hombro con banda o palo — 2 x 12 lentas",
-      "how": "Agarre bien ancho (más que hombros), brazos estirados, y lleva la banda de adelante hacia atrás por sobre la cabeza en 3 segundos sin arquear la espalda ni encoger el cuello; si el hombro pincha, abre más el agarre."
+      "name": "Dislocaciones de hombro con banda — 2 × 12 lentas",
+      "how": "Con la banda de 5 kg. Muy lentas y sin forzar el final del recorrido: acá el objetivo es soltar el hombro después del trabajo, no ganar rango a la fuerza."
      },
      {
       "name": "Colgado activo en barra — 3 x 30 seg",
@@ -1164,8 +1168,8 @@
       "how": "Acostado, pies al ancho de cadera. Sube apretando el glúteo hasta alinear rodilla-cadera-hombro. Costillas abajo, no arquees la lumbar."
      },
      {
-      "name": "Bisagra de cadera con palo, 10",
-      "how": "Palo tocando nuca, espalda alta y sacro a la vez. Lleva la cadera atrás manteniendo los tres puntos en contacto — es el patrón del RDL de hoy."
+      "name": "Bisagra de cadera hacia la pared, 12 repeticiones",
+      "how": "De pie a un palmo de la pared, de espaldas y con las manos en la cadera. Echa la cadera atrás hasta que la cola toque la pared, con las rodillas casi rectas y la espalda plana. Vuelve apretando el glúteo. La pared te dice hasta dónde llegar; ese es el patrón del RDL."
      }
     ],
     "stretch": [
@@ -1347,8 +1351,8 @@
     "cardio": "Escaladora 15-20 min, RPE 5.",
     "warmup": [
      {
-      "name": "Pass-through con banda o palo, 2×10",
-      "how": "Toma la banda más ancho que los hombros y pásala de adelante hacia atrás por encima de la cabeza con los codos estirados; si tira mucho, agarra más ancho."
+      "name": "Pass-through con banda, 2×10",
+      "how": "Con la banda de 5 kg, agarre ancho. De adelante hacia atrás por sobre la cabeza y de vuelta, lento, sin doblar codos. Si se traba en algún punto, abre más las manos."
      },
      {
       "name": "Wall slides (deslizar brazos en la pared), 2×10",
@@ -1377,8 +1381,8 @@
     ],
     "stretch": [
      {
-      "name": "Dislocaciones de hombro con banda o palo — 2 x 12 lentas",
-      "how": "Agarre bien ancho (más que hombros), brazos estirados, y lleva la banda de adelante hacia atrás por sobre la cabeza en 3 segundos sin arquear la espalda ni encoger el cuello; si el hombro pincha, abre más el agarre."
+      "name": "Dislocaciones de hombro con banda — 2 × 12 lentas",
+      "how": "Con la banda de 5 kg. Muy lentas y sin forzar el final del recorrido: acá el objetivo es soltar el hombro después del trabajo, no ganar rango a la fuerza."
      },
      {
       "name": "Colgado activo en barra — 3 x 30 seg",
@@ -1642,8 +1646,8 @@
       "how": "Acostado, pies al ancho de cadera. Sube apretando el glúteo hasta alinear rodilla-cadera-hombro. Costillas abajo, no arquees la lumbar."
      },
      {
-      "name": "Bisagra de cadera con palo, 10",
-      "how": "Palo tocando nuca, espalda alta y sacro a la vez. Lleva la cadera atrás manteniendo los tres puntos en contacto — es el patrón del RDL de hoy."
+      "name": "Bisagra de cadera hacia la pared, 12 repeticiones",
+      "how": "De pie a un palmo de la pared, de espaldas y con las manos en la cadera. Echa la cadera atrás hasta que la cola toque la pared, con las rodillas casi rectas y la espalda plana. Vuelve apretando el glúteo. La pared te dice hasta dónde llegar; ese es el patrón del RDL."
      },
      {
       "name": "Curl femoral nórdico excéntrico asistido, 5",
@@ -1829,8 +1833,8 @@
     "cardio": "Escaleras 15-20 min, RPE 5.",
     "warmup": [
      {
-      "name": "Pass-through con banda o palo, 2×10",
-      "how": "Toma la banda más ancho que los hombros y pásala de adelante hacia atrás por encima de la cabeza con los codos estirados; si tira mucho, agarra más ancho."
+      "name": "Pass-through con banda, 2×10",
+      "how": "Con la banda de 5 kg, agarre ancho. De adelante hacia atrás por sobre la cabeza y de vuelta, lento, sin doblar codos. Si se traba en algún punto, abre más las manos."
      },
      {
       "name": "Wall slides (deslizar brazos en la pared), 2×10",
@@ -1859,8 +1863,8 @@
     ],
     "stretch": [
      {
-      "name": "Dislocaciones de hombro con banda o palo — 2 x 12 lentas",
-      "how": "Agarre bien ancho (más que hombros), brazos estirados, y lleva la banda de adelante hacia atrás por sobre la cabeza en 3 segundos sin arquear la espalda ni encoger el cuello; si el hombro pincha, abre más el agarre."
+      "name": "Dislocaciones de hombro con banda — 2 × 12 lentas",
+      "how": "Con la banda de 5 kg. Muy lentas y sin forzar el final del recorrido: acá el objetivo es soltar el hombro después del trabajo, no ganar rango a la fuerza."
      },
      {
       "name": "Colgado activo en barra — 3 x 30 seg",
@@ -2082,8 +2086,8 @@
       "how": "De pie, brazos sueltos. Círculos grandes y lentos, llevando el hombro atrás y abajo al final de cada vuelta."
      },
      {
-      "name": "Dislocaciones con banda o palo, 12 repeticiones",
-      "how": "Agarre ancho, brazos estirados. Pasa el palo de adelante hacia atrás por sobre la cabeza sin doblar los codos. Si no llega, abre más las manos."
+      "name": "Dislocaciones con banda, 12 repeticiones",
+      "how": "Con la banda de 5 kg. Agarre bien ancho, brazos estirados y firmes: pasa la banda de adelante hacia atrás por encima de la cabeza sin doblar los codos. Si el recorrido se traba en algún punto, separa más las manos — nunca dobles el codo para que pase."
      },
      {
       "name": "Rotación externa con banda, 15 por lado",
@@ -2311,7 +2315,7 @@
      },
      {
       "name": "Dislocaciones con banda, 12 repeticiones",
-      "how": "Agarre ancho, brazos estirados, palo de adelante hacia atrás sin doblar codos."
+      "how": "Con la banda de 5 kg. Agarre bien ancho, brazos estirados y firmes: pasa la banda de adelante hacia atrás por encima de la cabeza sin doblar los codos. Si el recorrido se traba en algún punto, separa más las manos — nunca dobles el codo para que pase."
      },
      {
       "name": "Curl y extensión con banda liviana, 15 de cada uno",
@@ -2553,8 +2557,8 @@
       "how": "Apóyate en algo, rodilla a la altura de la cadera, círculos grandes hacia afuera."
      },
      {
-      "name": "Bisagra de cadera con palo, 12 repeticiones",
-      "how": "Palo pegado a la espalda tocando cabeza, espalda alta y cola. Echa la cadera atrás manteniendo los tres puntos en contacto. Ese es el patrón del RDL."
+      "name": "Bisagra de cadera hacia la pared, 12 repeticiones",
+      "how": "De pie a un palmo de la pared, de espaldas y con las manos en la cadera. Echa la cadera atrás hasta que la cola toque la pared, con las rodillas casi rectas y la espalda plana. Vuelve apretando el glúteo. La pared te dice hasta dónde llegar; ese es el patrón del RDL."
      },
      {
       "name": "Puente de glúteo, 12 con pausa de 1 s",
@@ -2775,8 +2779,8 @@
       "how": "De pie, brazos sueltos. Círculos grandes y lentos, llevando el hombro atrás y abajo al final de cada vuelta."
      },
      {
-      "name": "Dislocaciones con banda o palo, 12 repeticiones",
-      "how": "Agarre ancho, brazos estirados. Pasa el palo de adelante hacia atrás por sobre la cabeza sin doblar los codos. Si no llega, abre más las manos."
+      "name": "Dislocaciones con banda, 12 repeticiones",
+      "how": "Con la banda de 5 kg. Agarre bien ancho, brazos estirados y firmes: pasa la banda de adelante hacia atrás por encima de la cabeza sin doblar los codos. Si el recorrido se traba en algún punto, separa más las manos — nunca dobles el codo para que pase."
      },
      {
       "name": "Rotación externa con banda, 15 por lado",
@@ -3499,8 +3503,8 @@
       "how": "Apóyate en algo, rodilla a la altura de la cadera, círculos grandes hacia afuera."
      },
      {
-      "name": "Bisagra de cadera con palo, 12 repeticiones",
-      "how": "Palo pegado a la espalda tocando cabeza, espalda alta y cola. Echa la cadera atrás manteniendo los tres puntos en contacto. Ese es el patrón del RDL."
+      "name": "Bisagra de cadera hacia la pared, 12 repeticiones",
+      "how": "De pie a un palmo de la pared, de espaldas y con las manos en la cadera. Echa la cadera atrás hasta que la cola toque la pared, con las rodillas casi rectas y la espalda plana. Vuelve apretando el glúteo. La pared te dice hasta dónde llegar; ese es el patrón del RDL."
      },
      {
       "name": "Puente de glúteo, 12 con pausa de 1 s",
@@ -3519,8 +3523,8 @@
       "how": "Codo pegado al costado en 90°, abre el antebrazo contra la banda. Va antes del Incline por el hombro izquierdo."
      },
      {
-      "name": "Dislocaciones con banda o palo, 12 repeticiones",
-      "how": "Agarre ancho, brazos estirados, de adelante hacia atrás sin doblar codos."
+      "name": "Dislocaciones con banda, 12 repeticiones",
+      "how": "Con la banda de 5 kg. Agarre bien ancho, brazos estirados y firmes: pasa la banda de adelante hacia atrás por encima de la cabeza sin doblar los codos. Si el recorrido se traba en algún punto, separa más las manos — nunca dobles el codo para que pase."
      },
      {
       "name": "Series de aproximación del primer ejercicio",
@@ -3754,7 +3758,7 @@
      },
      {
       "name": "Dislocaciones con banda, 12 repeticiones",
-      "how": "Agarre ancho, brazos estirados, palo de adelante hacia atrás sin doblar codos."
+      "how": "Con la banda de 5 kg. Agarre bien ancho, brazos estirados y firmes: pasa la banda de adelante hacia atrás por encima de la cabeza sin doblar los codos. Si el recorrido se traba en algún punto, separa más las manos — nunca dobles el codo para que pase."
      },
      {
       "name": "Curl y extensión con banda liviana, 15 de cada uno",
@@ -3969,8 +3973,8 @@
       "how": "Apóyate en algo, rodilla a la altura de la cadera, círculos grandes hacia afuera."
      },
      {
-      "name": "Bisagra de cadera con palo, 12 repeticiones",
-      "how": "Palo pegado a la espalda tocando cabeza, espalda alta y cola. Echa la cadera atrás manteniendo los tres puntos en contacto. Ese es el patrón del RDL."
+      "name": "Bisagra de cadera hacia la pared, 12 repeticiones",
+      "how": "De pie a un palmo de la pared, de espaldas y con las manos en la cadera. Echa la cadera atrás hasta que la cola toque la pared, con las rodillas casi rectas y la espalda plana. Vuelve apretando el glúteo. La pared te dice hasta dónde llegar; ese es el patrón del RDL."
      },
      {
       "name": "Puente de glúteo, 12 con pausa de 1 s",
@@ -4191,8 +4195,8 @@
       "how": "De pie, brazos sueltos. Círculos grandes y lentos, llevando el hombro atrás y abajo al final de cada vuelta."
      },
      {
-      "name": "Dislocaciones con banda o palo, 12 repeticiones",
-      "how": "Agarre ancho, brazos estirados. Pasa el palo de adelante hacia atrás por sobre la cabeza sin doblar los codos. Si no llega, abre más las manos."
+      "name": "Dislocaciones con banda, 12 repeticiones",
+      "how": "Con la banda de 5 kg. Agarre bien ancho, brazos estirados y firmes: pasa la banda de adelante hacia atrás por encima de la cabeza sin doblar los codos. Si el recorrido se traba en algún punto, separa más las manos — nunca dobles el codo para que pase."
      },
      {
       "name": "Rotación externa con banda, 15 por lado",
@@ -4915,8 +4919,8 @@
       "how": "Apóyate en algo, rodilla a la altura de la cadera, círculos grandes hacia afuera."
      },
      {
-      "name": "Bisagra de cadera con palo, 12 repeticiones",
-      "how": "Palo pegado a la espalda tocando cabeza, espalda alta y cola. Echa la cadera atrás manteniendo los tres puntos en contacto. Ese es el patrón del RDL."
+      "name": "Bisagra de cadera hacia la pared, 12 repeticiones",
+      "how": "De pie a un palmo de la pared, de espaldas y con las manos en la cadera. Echa la cadera atrás hasta que la cola toque la pared, con las rodillas casi rectas y la espalda plana. Vuelve apretando el glúteo. La pared te dice hasta dónde llegar; ese es el patrón del RDL."
      },
      {
       "name": "Puente de glúteo, 12 con pausa de 1 s",
@@ -4935,8 +4939,8 @@
       "how": "Codo pegado al costado en 90°, abre el antebrazo contra la banda. Va antes del Incline por el hombro izquierdo."
      },
      {
-      "name": "Dislocaciones con banda o palo, 12 repeticiones",
-      "how": "Agarre ancho, brazos estirados, de adelante hacia atrás sin doblar codos."
+      "name": "Dislocaciones con banda, 12 repeticiones",
+      "how": "Con la banda de 5 kg. Agarre bien ancho, brazos estirados y firmes: pasa la banda de adelante hacia atrás por encima de la cabeza sin doblar los codos. Si el recorrido se traba en algún punto, separa más las manos — nunca dobles el codo para que pase."
      },
      {
       "name": "Series de aproximación del primer ejercicio",
@@ -5170,7 +5174,7 @@
      },
      {
       "name": "Dislocaciones con banda, 12 repeticiones",
-      "how": "Agarre ancho, brazos estirados, palo de adelante hacia atrás sin doblar codos."
+      "how": "Con la banda de 5 kg. Agarre bien ancho, brazos estirados y firmes: pasa la banda de adelante hacia atrás por encima de la cabeza sin doblar los codos. Si el recorrido se traba en algún punto, separa más las manos — nunca dobles el codo para que pase."
      },
      {
       "name": "Curl y extensión con banda liviana, 15 de cada uno",
@@ -13827,6 +13831,10 @@
    {
     "k": "Prioridad",
     "v": "Glúteo / pierna"
+   },
+   {
+    "k": "Equipo",
+    "v": "banda de 5 kg · sin palo"
    }
   ],
   "hasData": true,
@@ -16195,8 +16203,8 @@
       "how": "Apóyate en algo, rodilla a la altura de la cadera, círculos grandes hacia afuera."
      },
      {
-      "name": "Bisagra de cadera con palo, 12 repeticiones",
-      "how": "Palo pegado a la espalda tocando cabeza, espalda alta y cola. Echa la cadera atrás manteniendo los tres puntos en contacto. Ese es el patrón del RDL."
+      "name": "Bisagra de cadera hacia la pared, 12 repeticiones",
+      "how": "De pie a un palmo de la pared, de espaldas y con las manos en la cadera. Echa la cadera atrás hasta que la cola toque la pared, con las rodillas casi rectas y la espalda plana. Vuelve apretando el glúteo. La pared te dice hasta dónde llegar; ese es el patrón del RDL."
      },
      {
       "name": "Puente de glúteo, 12 con pausa de 1 s",
@@ -17358,8 +17366,8 @@
       "how": "Apóyate en algo, rodilla a la altura de la cadera, círculos grandes hacia afuera."
      },
      {
-      "name": "Bisagra de cadera con palo, 12 repeticiones",
-      "how": "Palo pegado a la espalda tocando cabeza, espalda alta y cola. Echa la cadera atrás manteniendo los tres puntos en contacto. Ese es el patrón del RDL."
+      "name": "Bisagra de cadera hacia la pared, 12 repeticiones",
+      "how": "De pie a un palmo de la pared, de espaldas y con las manos en la cadera. Echa la cadera atrás hasta que la cola toque la pared, con las rodillas casi rectas y la espalda plana. Vuelve apretando el glúteo. La pared te dice hasta dónde llegar; ese es el patrón del RDL."
      },
      {
       "name": "Puente de glúteo, 12 con pausa de 1 s",
