@@ -31,19 +31,19 @@
   "MUSCLES": [
    {
     "name": "Femoral",
-    "recent": 7.0,
-    "hist": 4.1,
+    "recent": 3.5,
+    "hist": 3.9,
     "lo": 6,
     "hi": 10,
-    "tier": "good",
-    "trend": 3.5,
+    "tier": "critical",
+    "trend": 0.0,
     "note": "RDL y curl femoral del lunes, cuatro series de RDL a 50 kg con récord de volumen. Sigue bajo de banda pero ya no en cero.",
     "ex": "Romanian Deadlift, Seated Leg Curl"
    },
    {
     "name": "Tríceps",
     "recent": 5.2,
-    "hist": 5.2,
+    "hist": 5.1,
     "lo": 6,
     "hi": 10,
     "tier": "warning",
@@ -53,89 +53,89 @@
    },
    {
     "name": "Glúteo / cadera",
-    "recent": 5.2,
-    "hist": 4.5,
+    "recent": 3.5,
+    "hist": 4.3,
     "lo": 8,
     "hi": 12,
-    "tier": "warning",
-    "trend": 3.4,
+    "tier": "critical",
+    "trend": 1.7,
     "note": "Solo el Hip Thrust del lunes cae dentro de la ventana de 12 días. No está abandonado, está concentrado en un solo día: vuelve el sábado.",
     "ex": "Hip Thrust, Back Extension, Good Morning"
    },
    {
     "name": "Espalda",
-    "recent": 4.1,
-    "hist": 8.3,
+    "recent": 9.3,
+    "hist": 8.5,
     "lo": 12,
     "hi": 16,
-    "tier": "critical",
-    "trend": -8.7,
+    "tier": "warning",
+    "trend": 1.1,
     "note": "8,2 contra una banda de 12–16 y seis días sin tocarla — el último Pull fue el 21. Es el hueco más grande del tablero y por eso el jalón se adelanta a hoy.",
     "ex": "Lat Pulldown, Seated Row, Pull Up"
    },
    {
     "name": "Bíceps",
-    "recent": 5.2,
+    "recent": 7.0,
     "hist": 5.1,
     "lo": 6,
     "hi": 10,
-    "tier": "warning",
-    "trend": 1.7,
+    "tier": "good",
+    "trend": 5.2,
     "note": "1,8 contra 6–10, también desde el 21. Viene incluido en el Pull de hoy (Preacher y Hammer).",
     "ex": "Preacher Curl, Bicep Curl, Hammer Curl"
    },
    {
     "name": "Pecho",
-    "recent": 8.8,
+    "recent": 6.4,
     "hist": 8.7,
     "lo": 10,
     "hi": 14,
     "tier": "warning",
-    "trend": -0.5,
+    "trend": -5.3,
     "note": "Dentro de banda tras el push del martes (banca 80×10×3). No necesita segunda dosis hoy; se mueve al viernes.",
     "ex": "Bench Press, Incline Bench, Chest Fly"
    },
    {
     "name": "Hombro (empuje)",
-    "recent": 10.5,
-    "hist": 10.5,
+    "recent": 14.0,
+    "hist": 10.8,
     "lo": 8,
     "hi": 12,
     "tier": "good",
-    "trend": -4.1,
+    "trend": 2.9,
     "note": "11,1 sobre una banda de 8–12: cumplido. Molestia leve en el hombro izquierdo confirmada, en banca, press de hombro y elevación lateral — el Chest Fly no dio problema. El segundo día de empuje se corrió al viernes, así quedan tres días entre sesiones de press en vez de dos. Nada más que eso: si molesta el viernes, cambia el press militar por mancuernas en inclinado y sigue.",
     "ex": "Shoulder Press, Lateral Raise, Rear Delt Reverse Fly"
    },
    {
     "name": "Cuádriceps",
-    "recent": 9.3,
-    "hist": 8.0,
+    "recent": 4.7,
+    "hist": 7.6,
     "lo": 10,
     "hi": 14,
     "tier": "warning",
-    "trend": -1.2,
+    "trend": -5.2,
     "note": "Sentadilla 90×8 y prensa el miércoles. **La prensa a 180 kg × 12 es marca real, no error de registro**: la hizo dos veces, a RPE 8 y 8,5. 160 quedaba en RPE 7 — o sea que la carga prescrita estaba corta. Desde el próximo día de pierna la base es 180 kg, y se queda ahí hasta completar las tres series de 12.",
     "ex": "Squat, Leg Press, Leg Extension"
    },
    {
     "name": "Aductor / abductor",
-    "recent": 3.5,
-    "hist": 3.3,
+    "recent": 1.8,
+    "hist": 3.1,
     "lo": 4,
     "hi": 8,
     "tier": "warning",
-    "trend": -1.2,
+    "trend": -1.7,
     "note": "Hip Adduction del miércoles, 84,5 kg × 18. Dentro de lo razonable para el rol accesorio que cumple.",
     "ex": "Hip Adduction, Hip Abduction"
    },
    {
     "name": "Core",
-    "recent": 14.6,
+    "recent": 11.7,
     "hist": 5.7,
     "lo": 12,
     "hi": 22,
-    "tier": "good",
-    "trend": -8.7,
+    "tier": "warning",
+    "trend": -7.5,
     "note": "Banda subida a 12–22: hacer core todos los días es una decisión, no un descuido, y el objetivo ahora lo refleja (≈2 a 4 series diarias). 19,2 cae dentro. Y tienes razón en lo otro: construir el músculo abdominal ahora es lo correcto, porque cuando bajes grasa tiene que haber algo debajo que se vea. Por eso el core lleva carga real (Cable Crunch, Pallof, colgado) y no solo isométricos.",
     "ex": "Reverse Crunch, Plank"
    }
@@ -286,7 +286,8 @@
         "rir": "1-2",
         "descanso": "—"
        }
-      ]
+      ],
+      "cue": "**La tercera serie funcionó**: el 3 de septiembre hiciste 12, 9 y 9, y la última a RPE 10 — tu primer fallo real en 20 días. Se mantiene en tres series. Si la tercera vuelve a caer a RPE 10, está bien: es el único lugar del programa donde el fallo aporta, porque es lo que recalibra tu escala de esfuerzo."
      },
      {
       "name": "Bent Over Row (Barbell)",
@@ -374,7 +375,8 @@
         "rir": "1-2",
         "descanso": "2 min"
        }
-      ]
+      ],
+      "cue": "Se mantiene en 46. El 3 de septiembre las series fueron 12, 12 y 8 con RPE 8,5, 9,5 y 9,5 — la tercera se cayó. Primero las tres a 12 antes de subir."
      },
      {
       "name": "Plancha lateral con elevación de cadera",
@@ -710,7 +712,8 @@
         "rir": "1-2",
         "descanso": "3 min"
        }
-      ]
+      ],
+      "cue": "Se mantiene en 40 kg. El 4 de septiembre salió 8, 6 y 6 con RPE 9, 8 y 8,5 — repeticiones cayendo otra vez. Ya lleva tres semanas en 40 y el objetivo sigue siendo el mismo: **las tres series a 8 repeticiones** antes de tocar el peso. Lo bueno es que ahora tiene día fijo, que era el problema real: lo habías hecho 3 veces en 3 meses."
      },
      {
       "name": "Incline Bench Press (Barbell)",
@@ -1021,7 +1024,8 @@
         "rir": "1-2",
         "descanso": "3 min"
        }
-      ]
+      ],
+      "cue": "**La tercera serie funcionó**: el 3 de septiembre hiciste 12, 9 y 9, y la última a RPE 10 — tu primer fallo real en 20 días. Se mantiene en tres series. Si la tercera vuelve a caer a RPE 10, está bien: es el único lugar del programa donde el fallo aporta, porque es lo que recalibra tu escala de esfuerzo."
      },
      {
       "name": "Rear Delt Reverse Fly (Machine)",
@@ -1061,7 +1065,8 @@
         "rir": "2",
         "descanso": "2-3 min"
        }
-      ]
+      ],
+      "cue": "Se mantiene en 46. El 3 de septiembre las series fueron 12, 12 y 8 con RPE 8,5, 9,5 y 9,5 — la tercera se cayó. Primero las tres a 12 antes de subir."
      },
      {
       "name": "Face Pull (sentado)",
@@ -1480,26 +1485,27 @@
       "sets": [
        {
         "serie": "1",
-        "carga": "80 kg",
+        "carga": "75 kg",
         "reps": "8-10",
         "rir": "3",
         "descanso": "2-3 min"
        },
        {
         "serie": "2",
-        "carga": "80 kg",
+        "carga": "75 kg",
         "reps": "8-10",
         "rir": "2",
         "descanso": "2-3 min"
        },
        {
         "serie": "3",
-        "carga": "80 kg",
+        "carga": "75 kg",
         "reps": "8-10",
         "rir": "1-2",
         "descanso": "2-3 min"
        }
-      ]
+      ],
+      "cue": "**Baja de 82 a 75.** El 4 de septiembre a 82 kg las series se cayeron a 9, 7 y 4 repeticiones con RPE 9, 10 y 10 — eso no es una serie dura, es una serie fallada. Venías haciendo 80 × 8 a RPE 8. A 75 deberían salir las tres de 10 limpias, y desde ahí se sube de a poco."
      },
      {
       "name": "Cable Lateral Raise",
@@ -1952,7 +1958,8 @@
         "rir": "1-2",
         "descanso": "3 min"
        }
-      ]
+      ],
+      "cue": "**La tercera serie funcionó**: el 3 de septiembre hiciste 12, 9 y 9, y la última a RPE 10 — tu primer fallo real en 20 días. Se mantiene en tres series. Si la tercera vuelve a caer a RPE 10, está bien: es el único lugar del programa donde el fallo aporta, porque es lo que recalibra tu escala de esfuerzo."
      },
      {
       "name": "Rear Delt Reverse Fly (Machine)",
@@ -2006,7 +2013,8 @@
         "rir": "1-2",
         "descanso": "2-3 min"
        }
-      ]
+      ],
+      "cue": "Se mantiene en 46. El 3 de septiembre las series fueron 12, 12 y 8 con RPE 8,5, 9,5 y 9,5 — la tercera se cayó. Primero las tres a 12 antes de subir."
      },
      {
       "name": "Face Pull (sentado)",
@@ -2145,7 +2153,8 @@
         "rir": "2",
         "descanso": "3 min"
        }
-      ]
+      ],
+      "cue": "Se mantiene en 40 kg. El 4 de septiembre salió 8, 6 y 6 con RPE 9, 8 y 8,5 — repeticiones cayendo otra vez. Ya lleva tres semanas en 40 y el objetivo sigue siendo el mismo: **las tres series a 8 repeticiones** antes de tocar el peso. Lo bueno es que ahora tiene día fijo, que era el problema real: lo habías hecho 3 veces en 3 meses."
      },
      {
       "name": "Incline Bench Press (Barbell)",
@@ -2806,27 +2815,27 @@
        },
        {
         "serie": "1",
-        "carga": "82,5 kg",
+        "carga": "85 kg",
         "reps": "8-10",
         "rir": "3",
         "descanso": "3 min"
        },
        {
         "serie": "2",
-        "carga": "82,5 kg",
+        "carga": "85 kg",
         "reps": "8-10",
         "rir": "2",
         "descanso": "3 min"
        },
        {
         "serie": "3",
-        "carga": "82,5 kg",
+        "carga": "85 kg",
         "reps": "8-10",
         "rir": "2",
         "descanso": "3 min"
        }
       ],
-      "cue": "De 80 a 82,5. El 25 hiciste 80 × 10 tres veces a RPE 8-8,5. **Si el hombro izquierdo molesta como ese día, baja el rango antes que el peso**: para el descenso donde el codo pasa la línea del torso."
+      "cue": "**85 kg, y ya lo hiciste**: el 4 de septiembre salieron 10, 9 y 8 repeticiones a RPE 8,5-9, con récord de 1RM. Sin discos de 1,25 el paso obligado desde 80 era 85, o sea un 6% de una vez — por eso la tercera serie cayó a 8. Esta semana el objetivo son **las tres a 9-10**, no más peso."
      },
      {
       "name": "Overhead Press (Barbell)",
@@ -2860,61 +2869,61 @@
         "descanso": "3 min"
        }
       ],
-      "cue": "**Toma slot fijo los martes.** Su problema nunca fue el peso: lo hiciste 3 veces en 3 meses (29 may, 29 jun, 9 jul) y por eso lleva clavado en 40 kg desde mayo. Reemplaza al press con mancuernas para no duplicar patrón. El viernes 28 salió 8@8, 8@8,5, 7@9 — repeticiones cayendo, así que 40 se queda otra semana."
+      "cue": "Se mantiene en 40 kg. El 4 de septiembre salió 8, 6 y 6 con RPE 9, 8 y 8,5 — repeticiones cayendo otra vez. Ya lleva tres semanas en 40 y el objetivo sigue siendo el mismo: **las tres series a 8 repeticiones** antes de tocar el peso. Lo bueno es que ahora tiene día fijo, que era el problema real: lo habías hecho 3 veces en 3 meses."
      },
      {
       "name": "Chest Press (Machine)",
       "sets": [
        {
         "serie": "1",
-        "carga": "82,5 kg (o 85 si la máquina no tiene el paso)",
+        "carga": "75 kg",
         "reps": "8-10",
         "rir": "3",
         "descanso": "2 min"
        },
        {
         "serie": "2",
-        "carga": "82,5 kg (o 85 si la máquina no tiene el paso)",
+        "carga": "75 kg",
         "reps": "8-10",
         "rir": "2",
         "descanso": "2 min"
        },
        {
         "serie": "3",
-        "carga": "82,5 kg (o 85 si la máquina no tiene el paso)",
+        "carga": "75 kg",
         "reps": "8-10",
         "rir": "2",
         "descanso": "2 min"
        }
       ],
-      "cue": "De 80 a 82,5. Había puesto 85, que es +6% de una vez en una máquina; el RPE bajó de 8,5 a 8,0, que da para un paso, no para dos."
+      "cue": "**Baja de 82 a 75.** El 4 de septiembre a 82 kg las series se cayeron a 9, 7 y 4 repeticiones con RPE 9, 10 y 10 — eso no es una serie dura, es una serie fallada. Venías haciendo 80 × 8 a RPE 8. A 75 deberían salir las tres de 10 limpias, y desde ahí se sube de a poco."
      },
      {
       "name": "Single Arm Lateral Raise (Cable)",
       "sets": [
        {
         "serie": "1",
-        "carga": "20 kg",
+        "carga": "8,75 kg",
         "reps": "15",
         "rir": "3",
         "descanso": "60s"
        },
        {
         "serie": "2",
-        "carga": "20 kg",
+        "carga": "8,75 kg",
         "reps": "15",
         "rir": "2",
         "descanso": "60s"
        },
        {
         "serie": "3",
-        "carga": "20 kg",
+        "carga": "8,75 kg",
         "reps": "15",
         "rir": "2",
         "descanso": "60s"
        }
       ],
-      "cue": "**Baja de 24 a 20 kg.** Llevas semanas a 24 con *todas* las series entre RPE 9 y 9,5, y el viernes apareció el 'perdí fuerza' con la caída a 17,5. Eso no es progresión, es una carga crónicamente alta. Busca RPE 8 y que la tercera serie salga igual que la primera."
+      "cue": "**Corregido: la prescripción de 20 kg estaba mal y tenías razón en reclamar.** Ese número salió de aplicarle a este ejercicio una corrección pensada para la elevación lateral con mancuernas, que es otra cosa y va en otra escala. Tu peso real acá era 7,5 kg. 8,75 es lo que hiciste el 4 de septiembre a RPE 8,5 por 15 repeticiones, después de que los 10 kg te dieran RPE 10. Sube al hombro, no más arriba, y baja lento. El siguiente paso es 10 kg cuando estos salgan a RPE 8."
      },
      {
       "name": "Triceps Pushdown",
@@ -3343,7 +3352,7 @@
         "descanso": "2:30"
        }
       ],
-      "cue": "**Tercera serie nueva.** Ayer hiciste 8 y 12 a RPE 7,5 y 9 — las 12 son marca. Con dos series sobraba capacidad."
+      "cue": "**La tercera serie funcionó**: el 3 de septiembre hiciste 12, 9 y 9, y la última a RPE 10 — tu primer fallo real en 20 días. Se mantiene en tres series. Si la tercera vuelve a caer a RPE 10, está bien: es el único lugar del programa donde el fallo aporta, porque es lo que recalibra tu escala de esfuerzo."
      },
      {
       "name": "Preacher Curl (Machine)",
@@ -3370,7 +3379,7 @@
         "descanso": "90s"
        }
       ],
-      "cue": "**Se queda en 46**, corregido: había puesto 48,5. Dentro de agosto la carga media de este ejercicio ya subió un 30% (de 35 a 46 kg). Ayer las tres series a 46 × 12 salieron a 7,5, 8 y 8,5 — está en el punto justo. Consolidar antes de volver a subir."
+      "cue": "Se mantiene en 46. El 3 de septiembre las series fueron 12, 12 y 8 con RPE 8,5, 9,5 y 9,5 — la tercera se cayó. Primero las tres a 12 antes de subir."
      },
      {
       "name": "Rear Delt Reverse Fly (Machine)",
@@ -4222,27 +4231,27 @@
        },
        {
         "serie": "1",
-        "carga": "82,5 kg",
+        "carga": "85 kg",
         "reps": "8-10",
         "rir": "3",
         "descanso": "3 min"
        },
        {
         "serie": "2",
-        "carga": "82,5 kg",
+        "carga": "85 kg",
         "reps": "8-10",
         "rir": "2",
         "descanso": "3 min"
        },
        {
         "serie": "3",
-        "carga": "82,5 kg",
+        "carga": "85 kg",
         "reps": "8-10",
         "rir": "2",
         "descanso": "3 min"
        }
       ],
-      "cue": "De 80 a 82,5. El 25 hiciste 80 × 10 tres veces a RPE 8-8,5. **Si el hombro izquierdo molesta como ese día, baja el rango antes que el peso**: para el descenso donde el codo pasa la línea del torso."
+      "cue": "**85 kg, y ya lo hiciste**: el 4 de septiembre salieron 10, 9 y 8 repeticiones a RPE 8,5-9, con récord de 1RM. Sin discos de 1,25 el paso obligado desde 80 era 85, o sea un 6% de una vez — por eso la tercera serie cayó a 8. Esta semana el objetivo son **las tres a 9-10**, no más peso."
      },
      {
       "name": "Overhead Press (Barbell)",
@@ -4276,61 +4285,61 @@
         "descanso": "3 min"
        }
       ],
-      "cue": "**Toma slot fijo los martes.** Su problema nunca fue el peso: lo hiciste 3 veces en 3 meses (29 may, 29 jun, 9 jul) y por eso lleva clavado en 40 kg desde mayo. Reemplaza al press con mancuernas para no duplicar patrón. El viernes 28 salió 8@8, 8@8,5, 7@9 — repeticiones cayendo, así que 40 se queda otra semana."
+      "cue": "Se mantiene en 40 kg. El 4 de septiembre salió 8, 6 y 6 con RPE 9, 8 y 8,5 — repeticiones cayendo otra vez. Ya lleva tres semanas en 40 y el objetivo sigue siendo el mismo: **las tres series a 8 repeticiones** antes de tocar el peso. Lo bueno es que ahora tiene día fijo, que era el problema real: lo habías hecho 3 veces en 3 meses."
      },
      {
       "name": "Chest Press (Machine)",
       "sets": [
        {
         "serie": "1",
-        "carga": "82,5 kg (o 85 si la máquina no tiene el paso)",
+        "carga": "75 kg",
         "reps": "8-10",
         "rir": "3",
         "descanso": "2 min"
        },
        {
         "serie": "2",
-        "carga": "82,5 kg (o 85 si la máquina no tiene el paso)",
+        "carga": "75 kg",
         "reps": "8-10",
         "rir": "2",
         "descanso": "2 min"
        },
        {
         "serie": "3",
-        "carga": "82,5 kg (o 85 si la máquina no tiene el paso)",
+        "carga": "75 kg",
         "reps": "8-10",
         "rir": "2",
         "descanso": "2 min"
        }
       ],
-      "cue": "De 80 a 82,5. Había puesto 85, que es +6% de una vez en una máquina; el RPE bajó de 8,5 a 8,0, que da para un paso, no para dos."
+      "cue": "**Baja de 82 a 75.** El 4 de septiembre a 82 kg las series se cayeron a 9, 7 y 4 repeticiones con RPE 9, 10 y 10 — eso no es una serie dura, es una serie fallada. Venías haciendo 80 × 8 a RPE 8. A 75 deberían salir las tres de 10 limpias, y desde ahí se sube de a poco."
      },
      {
       "name": "Single Arm Lateral Raise (Cable)",
       "sets": [
        {
         "serie": "1",
-        "carga": "20 kg",
+        "carga": "8,75 kg",
         "reps": "15",
         "rir": "3",
         "descanso": "60s"
        },
        {
         "serie": "2",
-        "carga": "20 kg",
+        "carga": "8,75 kg",
         "reps": "15",
         "rir": "2",
         "descanso": "60s"
        },
        {
         "serie": "3",
-        "carga": "20 kg",
+        "carga": "8,75 kg",
         "reps": "15",
         "rir": "2",
         "descanso": "60s"
        }
       ],
-      "cue": "**Baja de 24 a 20 kg.** Llevas semanas a 24 con *todas* las series entre RPE 9 y 9,5, y el viernes apareció el 'perdí fuerza' con la caída a 17,5. Eso no es progresión, es una carga crónicamente alta. Busca RPE 8 y que la tercera serie salga igual que la primera."
+      "cue": "**Corregido: la prescripción de 20 kg estaba mal y tenías razón en reclamar.** Ese número salió de aplicarle a este ejercicio una corrección pensada para la elevación lateral con mancuernas, que es otra cosa y va en otra escala. Tu peso real acá era 7,5 kg. 8,75 es lo que hiciste el 4 de septiembre a RPE 8,5 por 15 repeticiones, después de que los 10 kg te dieran RPE 10. Sube al hombro, no más arriba, y baja lento. El siguiente paso es 10 kg cuando estos salgan a RPE 8."
      },
      {
       "name": "Triceps Pushdown",
@@ -4759,7 +4768,7 @@
         "descanso": "2:30"
        }
       ],
-      "cue": "**Tercera serie nueva.** Ayer hiciste 8 y 12 a RPE 7,5 y 9 — las 12 son marca. Con dos series sobraba capacidad."
+      "cue": "**La tercera serie funcionó**: el 3 de septiembre hiciste 12, 9 y 9, y la última a RPE 10 — tu primer fallo real en 20 días. Se mantiene en tres series. Si la tercera vuelve a caer a RPE 10, está bien: es el único lugar del programa donde el fallo aporta, porque es lo que recalibra tu escala de esfuerzo."
      },
      {
       "name": "Preacher Curl (Machine)",
@@ -4786,7 +4795,7 @@
         "descanso": "90s"
        }
       ],
-      "cue": "**Se queda en 46**, corregido: había puesto 48,5. Dentro de agosto la carga media de este ejercicio ya subió un 30% (de 35 a 46 kg). Ayer las tres series a 46 × 12 salieron a 7,5, 8 y 8,5 — está en el punto justo. Consolidar antes de volver a subir."
+      "cue": "Se mantiene en 46. El 3 de septiembre las series fueron 12, 12 y 8 con RPE 8,5, 9,5 y 9,5 — la tercera se cayó. Primero las tres a 12 antes de subir."
      },
      {
       "name": "Rear Delt Reverse Fly (Machine)",
@@ -5782,8 +5791,302 @@
   ],
   "SESSIONS_FULL": [
    {
-    "date": "2026-09-01",
-    "dlabel": "01 sep",
+    "date": "2026-09-04",
+    "dlabel": "04 sep",
+    "title": "Afternoon workout 💪",
+    "hora": "12:55 PM",
+    "dur": "2h 39m",
+    "vol": "8,728",
+    "com": null,
+    "rec": "10 en total, entre ellos 1RM en Bench Press (85 × 10), peso y 1RM en Single Arm Lateral Raise, y peso, volumen y 1RM en Triceps Pushdown (31,25 × 15).",
+    "exercises": [
+     {
+      "ej": "Bench Press (Barbell)",
+      "carga": "20",
+      "reps": "12",
+      "rpe": "—"
+     },
+     {
+      "ej": "Bench Press (Barbell)",
+      "carga": "40",
+      "reps": "12",
+      "rpe": "—"
+     },
+     {
+      "ej": "Bench Press (Barbell)",
+      "carga": "65",
+      "reps": "5",
+      "rpe": "—"
+     },
+     {
+      "ej": "Bench Press (Barbell)",
+      "carga": "85",
+      "reps": "10",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Bench Press (Barbell)",
+      "carga": "85",
+      "reps": "9",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Bench Press (Barbell)",
+      "carga": "85",
+      "reps": "8",
+      "rpe": "9"
+     },
+     {
+      "ej": "Overhead Press (Barbell)",
+      "carga": "20",
+      "reps": "10",
+      "rpe": "6"
+     },
+     {
+      "ej": "Overhead Press (Barbell)",
+      "carga": "40",
+      "reps": "8",
+      "rpe": "9"
+     },
+     {
+      "ej": "Overhead Press (Barbell)",
+      "carga": "40",
+      "reps": "6",
+      "rpe": "8"
+     },
+     {
+      "ej": "Overhead Press (Barbell)",
+      "carga": "40",
+      "reps": "6",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Chest Press (Machine)",
+      "carga": "82",
+      "reps": "9",
+      "rpe": "9"
+     },
+     {
+      "ej": "Chest Press (Machine)",
+      "carga": "82",
+      "reps": "7",
+      "rpe": "10"
+     },
+     {
+      "ej": "Chest Press (Machine)",
+      "carga": "82",
+      "reps": "4",
+      "rpe": "10"
+     },
+     {
+      "ej": "Lateral Raise (Cable)",
+      "carga": "10",
+      "reps": "13",
+      "rpe": "10"
+     },
+     {
+      "ej": "Lateral Raise (Cable)",
+      "carga": "8,75",
+      "reps": "15",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Lateral Raise (Cable)",
+      "carga": "8,75",
+      "reps": "15",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Single Arm Lateral Raise (Cable)",
+      "carga": "10",
+      "reps": "13",
+      "rpe": "10"
+     },
+     {
+      "ej": "Single Arm Lateral Raise (Cable)",
+      "carga": "8,75",
+      "reps": "15",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Single Arm Lateral Raise (Cable)",
+      "carga": "8,75",
+      "reps": "16",
+      "rpe": "9"
+     },
+     {
+      "ej": "Triceps Pushdown",
+      "carga": "30",
+      "reps": "15",
+      "rpe": "7,5"
+     },
+     {
+      "ej": "Triceps Pushdown",
+      "carga": "30",
+      "reps": "15",
+      "rpe": "8"
+     },
+     {
+      "ej": "Triceps Pushdown",
+      "carga": "31,25",
+      "reps": "15",
+      "rpe": "8"
+     },
+     {
+      "ej": "Cable Core Pallof Press",
+      "carga": "15",
+      "reps": "12",
+      "rpe": "8"
+     },
+     {
+      "ej": "Cable Core Pallof Press",
+      "carga": "15",
+      "reps": "12",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Cable Core Pallof Press",
+      "carga": "15",
+      "reps": "15",
+      "rpe": "9"
+     },
+     {
+      "ej": "Stair Machine (Floors)",
+      "carga": "—",
+      "reps": "64 pisos / 20m 0s",
+      "rpe": "—"
+     }
+    ]
+   },
+   {
+    "date": "2026-09-03",
+    "dlabel": "03 sep",
+    "title": "Evening workout 🏋️",
+    "hora": "5:45 PM",
+    "dur": "1h 23m",
+    "vol": "12,866",
+    "com": null,
+    "rec": "mejor peso, mejor volumen y mejor 1RM en Lat Pulldown (82 kg × 12).",
+    "exercises": [
+     {
+      "ej": "Seated Row (Machine)",
+      "carga": "61",
+      "reps": "12",
+      "rpe": "6"
+     },
+     {
+      "ej": "Seated Row (Machine)",
+      "carga": "75",
+      "reps": "12",
+      "rpe": "8"
+     },
+     {
+      "ej": "Seated Row (Machine)",
+      "carga": "75",
+      "reps": "12",
+      "rpe": "8"
+     },
+     {
+      "ej": "Seated Row (Machine)",
+      "carga": "75",
+      "reps": "12",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Lat Pulldown (Cable)",
+      "carga": "61",
+      "reps": "12",
+      "rpe": "6"
+     },
+     {
+      "ej": "Lat Pulldown (Cable)",
+      "carga": "82",
+      "reps": "12",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Lat Pulldown (Cable)",
+      "carga": "82",
+      "reps": "11",
+      "rpe": "9"
+     },
+     {
+      "ej": "Lat Pulldown (Cable)",
+      "carga": "82",
+      "reps": "10",
+      "rpe": "9"
+     },
+     {
+      "ej": "Rear Delt Reverse Fly (Machine)",
+      "carga": "59",
+      "reps": "12",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Rear Delt Reverse Fly (Machine)",
+      "carga": "59",
+      "reps": "12",
+      "rpe": "8"
+     },
+     {
+      "ej": "Rear Delt Reverse Fly (Machine)",
+      "carga": "59",
+      "reps": "12",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Pull Up",
+      "carga": "Peso corporal",
+      "reps": "12",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Pull Up",
+      "carga": "Peso corporal",
+      "reps": "9",
+      "rpe": "9,5"
+     },
+     {
+      "ej": "Pull Up",
+      "carga": "Peso corporal",
+      "reps": "9",
+      "rpe": "10"
+     },
+     {
+      "ej": "Preacher Curl (Machine)",
+      "carga": "46",
+      "reps": "12",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Preacher Curl (Machine)",
+      "carga": "46",
+      "reps": "12",
+      "rpe": "9,5"
+     },
+     {
+      "ej": "Preacher Curl (Machine)",
+      "carga": "46",
+      "reps": "8",
+      "rpe": "9,5"
+     },
+     {
+      "ej": "Side Plank",
+      "carga": "Peso corporal",
+      "reps": "31 s",
+      "rpe": "—"
+     },
+     {
+      "ej": "Stair Machine (Floors)",
+      "carga": "—",
+      "reps": "80 pisos / 20m 0s",
+      "rpe": "—"
+     }
+    ]
+   },
+   {
+    "date": "2026-09-02",
+    "dlabel": "02 sep",
     "title": "Afternoon workout 💪",
     "hora": "4:21 PM",
     "dur": "1h 48m",
@@ -13503,8 +13806,8 @@
    }
   },
   "fuente": "Registro_historico_consolidado.md",
-  "weekNote": "Semana 4 de 5 · seis días sin registrar desde el 1 de septiembre. Si entrenaste, mándamelo: el tablero los está leyendo como cero.",
-  "weekTodo": "**Las cargas no suben esta semana:** sin datos de seis días no hay base. Repetir las del lunes pasado y la próxima es descarga."
+  "weekNote": "Semana 4 de 5 · llegaron las tres sesiones del 2 al 4. Récord de banca (85×10) y de jalón (82×12); espalda subió a 9,3.",
+  "weekTodo": "**Pierna lleva 7 días parada:** glúteo en 3,5 y femoral en 3,5, los dos en rojo. Hoy es el día."
  },
  "mipi": {
   "displayName": "Mipi",
@@ -13530,56 +13833,56 @@
   "MUSCLES": [
    {
     "name": "Glúteo / cadera",
-    "recent": 5.2,
-    "hist": 5.5,
+    "recent": 3.5,
+    "hist": 5.4,
     "lo": 10,
     "hi": 16,
-    "tier": "warning",
-    "trend": -4.1,
+    "tier": "critical",
+    "trend": -5.8,
     "note": "Baja a 7,0 porque la ventana de 12 días dejó atrás sesiones viejas, no porque hayas entrenado menos. Ayer el kickback llegó a 23 kg × 12, pero las últimas dos series a RPE 9 compensando con lumbar: el peso está bien, lo que sobra son repeticiones al fallo.",
     "ex": "Hip Thrust, Glute Kickback, Back Extension"
    },
    {
     "name": "Cuádriceps",
-    "recent": 12.8,
-    "hist": 6.7,
+    "recent": 11.7,
+    "hist": 6.5,
     "lo": 8,
     "hi": 14,
     "tier": "good",
-    "trend": 4.6,
+    "trend": 5.9,
     "note": "Dentro de banda: la prensa a 105 kg salió completa, tres series de 10-11 a RPE 7-8. Pendiente el rango — el tirón en la inserción aparece al flexionar al máximo, así que se acorta el recorrido, no el peso.",
     "ex": "Leg Press, Squat, Leg Extension"
    },
    {
     "name": "Femoral",
     "recent": 3.5,
-    "hist": 2.0,
+    "hist": 1.9,
     "lo": 6,
     "hi": 10,
-    "tier": "warning",
-    "trend": -0.6,
+    "tier": "critical",
+    "trend": 0.0,
     "note": "Ocho días sin femoral — el hueco más claro. Entra hoy con curl femoral acostada.",
     "ex": "Lying/Seated Leg Curl, RDL"
    },
    {
     "name": "Aductor / abductor",
-    "recent": 5.8,
-    "hist": 3.0,
+    "recent": 4.7,
+    "hist": 2.9,
     "lo": 6,
     "hi": 12,
     "tier": "warning",
-    "trend": 5.2,
+    "trend": 2.9,
     "note": "1,8 contra 6–12 y cuatro días sin tocarlo: es el hueco que queda en pierna. Entra el sábado con Hip Adduction.",
     "ex": "Hip Abduction, Hip Adduction"
    },
    {
     "name": "Core",
-    "recent": 30.3,
-    "hist": 5.3,
+    "recent": 24.5,
+    "hist": 5.1,
     "lo": 12,
     "hi": 24,
     "tier": "good",
-    "trend": 9.9,
+    "trend": -1.7,
     "note": "Banda subida a 12–24, al objetivo real: core todos los días. Durante la rehabilitación del codo fue casi todo el trabajo disponible, por eso 26,2. **Sin Cable Crunch** — no le gusta; el trabajo lateral va con plancha lateral con elevación y el de abdomen bajo con reverse crunch y descenso de piernas lento. Ojo con una consecuencia: el Cable Crunch era el único movimiento abdominal con carga externa, y ahora el bloque es todo peso corporal. Si el objetivo es tener músculo debajo para cuando baje la grasa, en algún momento hay que volver a cargar — con una placa en el pecho en el reverse crunch, o colgado. No urge, pero conviene tenerlo presente antes de que el core sea solo isométricos.",
     "ex": "Reverse Crunch, Dead Bug, Heel Taps"
    },
@@ -13608,7 +13911,7 @@
    {
     "name": "Hombro",
     "recent": 0.6,
-    "hist": 3.3,
+    "hist": 3.2,
     "lo": 4,
     "hi": 10,
     "tier": "critical",
@@ -13622,7 +13925,7 @@
     "hist": 1.4,
     "lo": 3,
     "hi": 8,
-    "tier": "warning",
+    "tier": "critical",
     "trend": 1.8,
     "note": "Todavía no. Es el que carga el codo de frente; entra la semana que viene, después de tres o cuatro sesiones de tirón sin síntomas.",
     "ex": "Bicep Curl, Preacher Curl"
@@ -18840,8 +19143,8 @@
   ],
   "SESSIONS_FULL": [
    {
-    "date": "2026-09-01",
-    "dlabel": "01 sep",
+    "date": "2026-09-02",
+    "dlabel": "02 sep",
     "title": "Piernas🍗",
     "hora": "4:00 PM",
     "dur": "2h 0m",

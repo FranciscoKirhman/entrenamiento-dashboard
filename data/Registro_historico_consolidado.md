@@ -1865,7 +1865,7 @@ Sesión de boulder por la tarde, después del entrenamiento de pierna de la mañ
 
 *Hip Thrust quedó en 100 kg en vez de los 105 prescritos. Sesión junto a Paloma.*
 
-## 1 Sep 2026 — Afternoon workout 💪
+## 2 Sep 2026 — Afternoon workout 💪
 
 **Hora:** 4:21 PM  
 **Duración:** 1h 48m  
@@ -1896,3 +1896,82 @@ Sesión de boulder por la tarde, después del entrenamiento de pierna de la mañ
 - **Hanging Knee Raise:** le dio acidez.
 
 *Adelantó el día de cuádriceps del miércoles al martes; el empuje quedó pendiente. Leg Press completó 2 de 3 series a 180 kg (la tercera bajó a 160) y sentadilla quedó en 2 series de trabajo de las 3 prescritas. Sesión junto a Paloma.*
+
+## 3 Sep 2026 — Evening workout 🏋️
+
+**Hora:** 5:45 PM  
+**Duración:** 1h 23m  
+**Volumen Hevy:** 12,866 kg  
+
+| Orden | Ejercicio | Serie | Carga | Reps/tiempo | RPE |
+|---:|---|---:|---:|---|---:|
+| 1 | Seated Row (Machine) | 1 | 61 kg | 12 | 6 |
+| 1 | Seated Row (Machine) | 2 | 75 kg | 12 | 8 |
+| 1 | Seated Row (Machine) | 3 | 75 kg | 12 | 8 |
+| 1 | Seated Row (Machine) | 4 | 75 kg | 12 | 8,5 |
+| 2 | Lat Pulldown (Cable) | 1 | 61 kg | 12 | 6 |
+| 2 | Lat Pulldown (Cable) | 2 | 82 kg | 12 | 8,5 |
+| 2 | Lat Pulldown (Cable) | 3 | 82 kg | 11 | 9 |
+| 2 | Lat Pulldown (Cable) | 4 | 82 kg | 10 | 9 |
+| 3 | Rear Delt Reverse Fly (Machine) | 1 | 59 kg | 12 | 8,5 |
+| 3 | Rear Delt Reverse Fly (Machine) | 2 | 59 kg | 12 | 8 |
+| 3 | Rear Delt Reverse Fly (Machine) | 3 | 59 kg | 12 | 8,5 |
+| 4 | Pull Up | 1 | Peso corporal | 12 | 8,5 |
+| 4 | Pull Up | 2 | Peso corporal | 9 | 9,5 |
+| 4 | Pull Up | 3 | Peso corporal | 9 | 10 |
+| 5 | Preacher Curl (Machine) | 1 | 46 kg | 12 | 8,5 |
+| 5 | Preacher Curl (Machine) | 2 | 46 kg | 12 | 9,5 |
+| 5 | Preacher Curl (Machine) | 3 | 46 kg | 8 | 9,5 |
+| 6 | Side Plank | 1 | Peso corporal | 31 s | — |
+| 7 | Stair Machine (Floors) | 1 | — | 80 pisos / 20m 0s | — |
+
+**Notas por ejercicio:**
+- **Side Plank:** anotó el criterio por serie (3 × 12 con RIR 3), pero en Hevy quedó una sola serie de 31 s.
+
+**Récords:** mejor peso, mejor volumen y mejor 1RM en Lat Pulldown (82 kg × 12).
+
+*Tercera serie de dominadas estrenada: 12, 9 y 9, la última a RPE 10 — primer fallo real en 20 días.*
+
+## 4 Sep 2026 — Afternoon workout 💪
+
+**Hora:** 12:55 PM  
+**Duración:** 2h 39m  
+**Volumen Hevy:** 8,728 kg  
+
+| Orden | Ejercicio | Serie | Carga | Reps/tiempo | RPE |
+|---:|---|---:|---:|---|---:|
+| 1 | Bench Press (Barbell) | 1 | 20 kg | 12 | — |
+| 1 | Bench Press (Barbell) | 2 | 40 kg | 12 | — |
+| 1 | Bench Press (Barbell) | 3 | 65 kg | 5 | — |
+| 1 | Bench Press (Barbell) | 4 | 85 kg | 10 | 8,5 |
+| 1 | Bench Press (Barbell) | 5 | 85 kg | 9 | 8,5 |
+| 1 | Bench Press (Barbell) | 6 | 85 kg | 8 | 9 |
+| 2 | Overhead Press (Barbell) | 1 | 20 kg | 10 | 6 |
+| 2 | Overhead Press (Barbell) | 2 | 40 kg | 8 | 9 |
+| 2 | Overhead Press (Barbell) | 3 | 40 kg | 6 | 8 |
+| 2 | Overhead Press (Barbell) | 4 | 40 kg | 6 | 8,5 |
+| 3 | Chest Press (Machine) | 1 | 82 kg | 9 | 9 |
+| 3 | Chest Press (Machine) | 2 | 82 kg | 7 | 10 |
+| 3 | Chest Press (Machine) | 3 | 82 kg | 4 | 10 |
+| 4 | Lateral Raise (Cable) | 1 | 10 kg | 13 | 10 |
+| 4 | Lateral Raise (Cable) | 2 | 8,75 kg | 15 | 8,5 |
+| 4 | Lateral Raise (Cable) | 3 | 8,75 kg | 15 | 8,5 |
+| 5 | Single Arm Lateral Raise (Cable) | 1 | 10 kg | 13 | 10 |
+| 5 | Single Arm Lateral Raise (Cable) | 2 | 8,75 kg | 15 | 8,5 |
+| 5 | Single Arm Lateral Raise (Cable) | 3 | 8,75 kg | 16 | 9 |
+| 6 | Triceps Pushdown | 1 | 30 kg | 15 | 7,5 |
+| 6 | Triceps Pushdown | 2 | 30 kg | 15 | 8 |
+| 6 | Triceps Pushdown | 3 | 31,25 kg | 15 | 8 |
+| 7 | Cable Core Pallof Press | 1 | 15 kg | 12 | 8 |
+| 7 | Cable Core Pallof Press | 2 | 15 kg | 12 | 8,5 |
+| 7 | Cable Core Pallof Press | 3 | 15 kg | 15 | 9 |
+| 8 | Stair Machine (Floors) | 1 | — | 64 pisos / 20m 0s | — |
+
+**Notas por ejercicio:**
+- **Bench Press:** no hay discos de 1,25 kg, así que de 80 kg el paso obligado era 85. Primer récord de 1RM a 85 × 10.
+- **Lateral Raise (Cable):** *"Esta carga no puede estar bien, me dijiste 20 kg de carga, le bajé por no poder completar las 15, me subiste 2,5 kg de una."* **Reclamo correcto: la prescripción de 20 kg estaba mal.** El peso real de este ejercicio era 7,5 kg; el error vino de aplicarle a la versión en polea una corrección pensada para la de mancuernas.
+- **Chest Press:** las series se cayeron a 9, 7 y 4 repeticiones con RPE 9, 10 y 10.
+
+**Récords:** 10 en total, entre ellos 1RM en Bench Press (85 × 10), peso y 1RM en Single Arm Lateral Raise, y peso, volumen y 1RM en Triceps Pushdown (31,25 × 15).
+
+*Sesión de 2h 39m, la más larga del registro.*

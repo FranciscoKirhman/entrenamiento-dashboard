@@ -2310,7 +2310,7 @@ No hubo sesión de gimnasio este día (la pierna B se corrió al jueves 27). Sí
 
 *Subió sola la sentadilla a 25 kg (los prescritos eran 20) y tomó el salto a 105 kg en Hip Thrust.*
 
-## 1 Sep 2026 — Piernas🍗
+## 2 Sep 2026 — Piernas🍗
 
 **Hora:** 4:00 PM  
 **Duración:** 2h 0m  
