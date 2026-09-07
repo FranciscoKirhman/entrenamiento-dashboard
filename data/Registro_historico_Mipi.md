@@ -2350,3 +2350,101 @@ No hubo sesión de gimnasio este día (la pierna B se corrió al jueves 27). Sí
 - **Puente de glúteo con marcha:** calambres en isquiotibiales.
 
 *Adelantó al martes la sesión de pierna del miércoles.*
+
+## 3 Sep 2026 — 🚂 🔝
+
+**Hora:** 5:09 PM  
+**Duración:** 2h 10m  
+**Volumen Hevy:** 3,926 kg  
+
+| Orden | Ejercicio | Serie | Carga | Reps/tiempo | RPE |
+|---:|---|---:|---:|---|---:|
+| 1 | Lat Pulldown (Cable) | 1 | 19 kg | 12 | 6 |
+| 1 | Lat Pulldown (Cable) | 2 | 28,5 kg | 12 | 7,5 |
+| 1 | Lat Pulldown (Cable) | 3 | 28,5 kg | 12 | 8 |
+| 1 | Lat Pulldown (Cable) | 4 | 28,5 kg | 12 | 8,5 |
+| 2 | Bench Press (Barbell) | 1 | 12 kg | 12 | 6 |
+| 2 | Bench Press (Barbell) | 2 | 17,5 kg | 12 | 7,5 |
+| 2 | Bench Press (Barbell) | 3 | 17,5 kg | 12 | 7,5 |
+| 2 | Bench Press (Barbell) | 4 | 17,5 kg | 12 | 8 |
+| 3 | Seated Row (Machine) | 1 | 15 kg | 12 | 6 |
+| 3 | Seated Row (Machine) | 2 | 28,5 kg | 12 | 7,5 |
+| 3 | Seated Row (Machine) | 3 | 28,5 kg | 12 | 8 |
+| 3 | Seated Row (Machine) | 4 | 28,5 kg | 12 | 8 |
+| 4 | Shoulder Press (Dumbbell) | 1 | 2 kg | 12 | 6 |
+| 4 | Shoulder Press (Dumbbell) | 2 | 4 kg | 15 | 8 |
+| 4 | Shoulder Press (Dumbbell) | 3 | 4 kg | 12 | 7 |
+| 4 | Shoulder Press (Dumbbell) | 4 | 4 kg | 12 | 8 |
+| 5 | Lateral Raise (Dumbbell) | 1 | 4 kg | 14 | 7,5 |
+| 5 | Lateral Raise (Dumbbell) | 2 | 4 kg | 15 | 8 |
+| 5 | Lateral Raise (Dumbbell) | 3 | 4 kg | 15 | 8,5 |
+| 6 | Bicep Curl (Dumbbell) | 1 | 5 kg | 12 | 7 |
+| 6 | Bicep Curl (Dumbbell) | 2 | 5 kg | 12 | 8,5 |
+| 6 | Bicep Curl (Dumbbell) | 3 | 5 kg | 12 | 9 |
+| 7 | Overhead Triceps Extension (Cable) | 1 | 6,25 kg | 9 | 9 |
+| 7 | Overhead Triceps Extension (Cable) | 2 | 5 kg | 11 | 9,5 |
+| 7 | Overhead Triceps Extension (Cable) | 3 | 3,75 kg | 12 | 9,5 |
+| 8 | Dead Bug | 1 | Peso corporal | 20 | 7,5 |
+| 8 | Dead Bug | 2 | Peso corporal | 20 | 7 |
+| 8 | Dead Bug | 3 | Peso corporal | 20 | 7,5 |
+| 9 | Side Plank | 1 | Peso corporal | 35 s | — |
+| 9 | Side Plank | 2 | Peso corporal | 38 s | — |
+| 9 | Side Plank | 3 | Peso corporal | 48 s | — |
+| 9 | Side Plank | 4 | Peso corporal | 50 s | — |
+| 9 | Side Plank | 5 | Peso corporal | 38 s | — |
+| 9 | Side Plank | 6 | Peso corporal | 38 s | — |
+| 10 | Heel Taps | 1 | Peso corporal | 20 | 7 |
+| 10 | Heel Taps | 2 | Peso corporal | 20 | 7 |
+| 10 | Heel Taps | 3 | Peso corporal | 20 | 7 |
+| 11 | Stair Machine (Floors) | 1 | — | 54 pisos / 15m 20s | — |
+
+**Notas por ejercicio:**
+- **Lat Pulldown:** "codo great".
+- **Seated Row:** agarre supino, le gustó.
+- **Overhead Triceps Extension:** bajó de 6,25 a 5 y luego a 3,75 kg, con RPE 9 a 9,5 en las tres. Primer tríceps directo en 63 días.
+- **Stair Machine:** FC máx 184, nivel 5-8.
+
+**Récords:** mejor duración en Side Plank (50 s).
+
+*Primer día completo de tren superior del mesociclo. Cambió el Chest Press por press banca con barra a 17,5 kg. Sin molestias de codo en ningún ejercicio.*
+
+## 4 Sep 2026 — Core y cardio
+
+**Hora:** 2:01 PM  
+**Duración:** 1h 20m  
+**Repeticiones totales:** 284 (sesión de peso corporal, sin volumen en Hevy)  
+**Comentario:** Abdominales en barras paralelas flop, no más  
+
+| Orden | Ejercicio | Serie | Carga | Reps/tiempo | RPE |
+|---:|---|---:|---:|---|---:|
+| 1 | Dead Bug | 1 | Peso corporal | 20 | 7 |
+| 1 | Dead Bug | 2 | Peso corporal | 20 | 8 |
+| 1 | Dead Bug | 3 | Peso corporal | 20 | 8 |
+| 2 | Knee Raise Parallel Bars | 1 | Peso corporal | 12 | 8 |
+| 2 | Knee Raise Parallel Bars | 2 | Peso corporal | 12 | 9 |
+| 2 | Knee Raise Parallel Bars | 3 | Peso corporal | 12 | 9,5 |
+| 3 | Leg Raise Parallel Bars | 1 | Peso corporal | 12 | 9 |
+| 3 | Leg Raise Parallel Bars | 2 | Peso corporal | 12 | 10 |
+| 3 | Leg Raise Parallel Bars | 3 | Peso corporal | 10 | 10 |
+| 4 | Marcha | 1 | Peso corporal | 10 (5 por lado) | 8,5 |
+| 4 | Marcha | 2 | Peso corporal | 10 (5 por lado) | 9 |
+| 4 | Marcha | 3 | Peso corporal | 10 (5 por lado) | 9 |
+| 5 | Around The World | 1 | Peso corporal | 10 | 10 |
+| 5 | Around The World | 2 | Peso corporal | 8 | 10 |
+| 5 | Around The World | 3 | Peso corporal | 10 | — |
+| 6 | Knee Raise Parallel Bars (de lado) | 1 | Peso corporal | 10 (5 por lado) | 8,5 |
+| 6 | Knee Raise Parallel Bars (de lado) | 2 | Peso corporal | 10 (5 por lado) | 9 |
+| 6 | Knee Raise Parallel Bars (de lado) | 3 | Peso corporal | 10 (5 por lado) | 9,5 |
+| 7 | Bicep Curl (Dumbbell) | 1 | 4 kg | 12 | 7 |
+| 7 | Bicep Curl (Dumbbell) | 2 | 4 kg | 12 | 7,5 |
+| 7 | Bicep Curl (Dumbbell) | 3 | 4 kg | 12 | 8,5 |
+| 8 | Triceps Extension (Dumbbell) | 1 | 4 kg | 15 | 7,5 |
+| 8 | Triceps Extension (Dumbbell) | 2 | 4 kg | 15 | 8 |
+| 9 | Stair Machine (Floors) | 1 | — | 63 pisos / 20m 0s | — |
+
+**Notas por ejercicio:**
+- **Knee Raise Parallel Bars:** no logra llegar con la rodilla al pecho.
+- **Around The World:** flop. "Todos los abs de hoy malos por mala estabilidad en esa posición".
+- **Stair Machine:** FC máx 183.
+
+*Sesión improvisada de core. Todo lo hecho en barras paralelas salió a RPE 8,5-10 y ella lo descarta explícitamente; lo del suelo (Dead Bug) salió a RPE 7-8.*

@@ -13877,67 +13877,67 @@
    },
    {
     "name": "Core",
-    "recent": 24.5,
-    "hist": 5.1,
+    "recent": 42.0,
+    "hist": 6.2,
     "lo": 12,
     "hi": 24,
     "tier": "good",
-    "trend": -1.7,
+    "trend": 15.8,
     "note": "Banda subida a 12–24, al objetivo real: core todos los días. Durante la rehabilitación del codo fue casi todo el trabajo disponible, por eso 26,2. **Sin Cable Crunch** — no le gusta; el trabajo lateral va con plancha lateral con elevación y el de abdomen bajo con reverse crunch y descenso de piernas lento. Ojo con una consecuencia: el Cable Crunch era el único movimiento abdominal con carga externa, y ahora el bloque es todo peso corporal. Si el objetivo es tener músculo debajo para cuando baje la grasa, en algún momento hay que volver a cargar — con una placa en el pecho en el reverse crunch, o colgado. No urge, pero conviene tenerlo presente antes de que el core sea solo isométricos.",
     "ex": "Reverse Crunch, Dead Bug, Heel Taps"
    },
    {
     "name": "Espalda",
-    "recent": 2.9,
-    "hist": 2.9,
+    "recent": 6.4,
+    "hist": 3.1,
     "lo": 8,
     "hi": 14,
-    "tier": "critical",
-    "trend": 2.9,
+    "tier": "warning",
+    "trend": 6.4,
     "note": "Ya no está en cero: **1,2 series/semana** tras el jalón de ayer, el primero post alta. Salió sin dolor, solo aprensión, con los 26 kg prescritos. Hoy entra el tirón horizontal (Seated Row, 24 kg contra tu base vieja de 31). Sube desde acá sesión a sesión, no de golpe.",
     "ex": "Lat Pulldown, Seated Row, Pull Up"
    },
    {
     "name": "Pecho",
-    "recent": 0.6,
-    "hist": 1.7,
+    "recent": 2.3,
+    "hist": 1.8,
     "lo": 4,
     "hi": 10,
-    "tier": "critical",
-    "trend": 0.6,
+    "tier": "warning",
+    "trend": 2.3,
     "note": "Entra hoy con Chest Fly a 12 kg, que era tu peso de entrada antes. Es el pectoral que menos flexiona el codo bajo carga: los brazos van estirados.",
     "ex": "Bench Press, Chest Press, Chest Fly"
    },
    {
     "name": "Hombro",
-    "recent": 0.6,
-    "hist": 3.2,
+    "recent": 4.1,
+    "hist": 3.4,
     "lo": 4,
     "hi": 10,
-    "tier": "critical",
-    "trend": 0.6,
+    "tier": "good",
+    "trend": 4.1,
     "note": "Entra hoy con elevación lateral a 5 kg. El codo va fijo, no trabaja. Tu base vieja era 10 kg pero siempre a RPE 10 — se vuelve desde la mitad.",
     "ex": "Shoulder Press, Lateral Raise, Face Pull"
    },
    {
     "name": "Bíceps",
-    "recent": 1.8,
-    "hist": 1.4,
+    "recent": 5.2,
+    "hist": 1.6,
     "lo": 3,
     "hi": 8,
-    "tier": "critical",
-    "trend": 1.8,
+    "tier": "good",
+    "trend": 5.2,
     "note": "Todavía no. Es el que carga el codo de frente; entra la semana que viene, después de tres o cuatro sesiones de tirón sin síntomas.",
     "ex": "Bicep Curl, Preacher Curl"
    },
    {
     "name": "Tríceps",
-    "recent": 0.0,
-    "hist": 1.1,
+    "recent": 1.8,
+    "hist": 1.2,
     "lo": 3,
     "hi": 8,
-    "tier": "critical",
-    "trend": 0.0,
+    "tier": "warning",
+    "trend": 1.8,
     "note": "Todavía no, igual que el bíceps. Los dos entran al final de la reintroducción, no al principio.",
     "ex": "Triceps Pushdown, Overhead Extension"
    }
@@ -17914,27 +17914,27 @@
        },
        {
         "serie": "Trabajo 1",
-        "carga": "28 kg",
+        "carga": "28,5 kg",
         "reps": "12",
         "rir": "objetivo 3",
         "descanso": "90s"
        },
        {
         "serie": "Trabajo 2",
-        "carga": "28 kg",
+        "carga": "28,5 kg",
         "reps": "12",
         "rir": "objetivo 3",
         "descanso": "90s"
        },
        {
         "serie": "Trabajo 3",
-        "carga": "28 kg",
+        "carga": "28,5 kg",
         "reps": "12",
         "rir": "objetivo 2",
         "descanso": "90s"
        }
       ],
-      "cue": "🤝 Mopo también hace jalón hoy. Sube de 26 a 28: el 27 los 26 kg salieron a RPE 7 sin dolor."
+      "cue": "28,5 es lo que hiciste el 3 de septiembre a RPE 7,5-8,5 las tres series, y anotaste *codo great*. Se mantiene y desde acá se sube."
      },
      {
       "name": "Seated Row (Machine)",
@@ -17948,30 +17948,30 @@
        },
        {
         "serie": "Trabajo 1",
-        "carga": "27 kg",
+        "carga": "28,5 kg",
         "reps": "12",
         "rir": "objetivo 3",
         "descanso": "90s"
        },
        {
         "serie": "Trabajo 2",
-        "carga": "27 kg",
+        "carga": "28,5 kg",
         "reps": "12",
         "rir": "objetivo 3",
         "descanso": "90s"
        },
        {
         "serie": "Trabajo 3",
-        "carga": "27 kg",
+        "carga": "28,5 kg",
         "reps": "12",
         "rir": "objetivo 2",
         "descanso": "90s"
        }
       ],
-      "cue": "🤝 Mopo hace remo también. De 24 a 27: el viernes los 24 salieron a RPE 7, 7,5 y 7 — las tres cómodas."
+      "cue": "Agarre supino, que dijiste que te gustó. 28,5 salió a RPE 7,5-8: se mantiene una semana más antes de subir."
      },
      {
-      "name": "Chest Press (Machine)",
+      "name": "Bench Press (Barbell)",
       "sets": [
        {
         "serie": "Aprox.",
@@ -17982,27 +17982,27 @@
        },
        {
         "serie": "Trabajo 1",
-        "carga": "17 kg",
+        "carga": "17,5 kg",
         "reps": "12",
         "rir": "objetivo 4",
         "descanso": "90s"
        },
        {
         "serie": "Trabajo 2",
-        "carga": "17 kg",
+        "carga": "17,5 kg",
         "reps": "12",
         "rir": "objetivo 3",
         "descanso": "90s"
        },
        {
         "serie": "Trabajo 3",
-        "carga": "17 kg",
+        "carga": "17,5 kg",
         "reps": "12",
         "rir": "objetivo 3",
         "descanso": "90s"
        }
       ],
-      "cue": "De 15 a 17. El viernes el Chest Fly a 14,5 te salió *fácil* (RPE 7) y el codo no dijo nada en toda la sesión. Tu base vieja de Chest Press era 21,5-24 kg, pero **todas esas series están anotadas a RPE 9,5 y 10**, así que se vuelve por abajo."
+      "cue": "**Cambiado por lo que elegiste tú**: el 3 de septiembre hiciste press banca con barra a 17,5 kg en vez del Chest Press de máquina, y salió a RPE 7,5-8 las tres series. La barra es mejor para ti ahora — más rango y menos espera de máquina. Se queda en 17,5 esta semana."
      },
      {
       "name": "Shoulder Press (Dumbbell)",
@@ -18036,7 +18036,7 @@
         "descanso": "90s"
        }
       ],
-      "cue": "**Entra porque era el único patrón que no tenías en toda la semana**: no había nada por encima de la cabeza, solo elevación lateral, que no es un press. Después de 50 días parada es el patrón con más terreno por recuperar. Sentada con respaldo, mancuernas a la altura de las orejas y codos un poco adelante, no abiertos del todo. Sube sin arquear la espalda: si la lumbar se despega del respaldo, bajaste demasiado o el peso es mucho. 4 kg contra tus 6-7 kg de antes — y todas esas series viejas están anotadas a RPE 10, así que no es tu referencia. Si la sesión se hace larga, el que se salta es Heel Taps: el core ya lo tienes cubierto los otros días."
+      "cue": "4 kg × 12-15 a RPE 7-8. Exactamente en el objetivo: sostener una semana más y después 5 kg."
      },
      {
       "name": "Lateral Raise (Dumbbell)",
@@ -18063,7 +18063,7 @@
         "descanso": "60s"
        }
       ],
-      "cue": "**4 kg, no 5.** Y una corrección de dato importante: tus '10 kg' históricos eran **5 por mano** — Hevy registraba el par. Nunca estuviste a la mitad de tu nivel viejo: estás casi en él. Los 5 kg del viernes te dieron RPE 8,5 y bajaste sola a 4. Esa es tu carga."
+      "cue": "4 kg × 15 a RPE 7,5-8,5. Justo donde debe estar."
      },
      {
       "name": "Bicep Curl (Dumbbell)",
@@ -18090,27 +18090,27 @@
         "descanso": "75s"
        }
       ],
-      "cue": "Sube a 5 kg si el viernes 28 los 4 kg pasaron sin nada en el codo. Baja lento, sin balancear."
+      "cue": "5 kg × 12, pero ojo: la tercera serie salió a RPE 9. Termina en 8 y deja una repetición guardada."
      },
      {
       "name": "Overhead Triceps Extension (Cable)",
       "sets": [
        {
         "serie": "Trabajo 1",
-        "carga": "6 kg",
+        "carga": "3,75 kg",
         "reps": "15",
         "rir": "objetivo 4",
         "descanso": "60s"
        },
        {
         "serie": "Trabajo 2",
-        "carga": "6 kg",
+        "carga": "3,75 kg",
         "reps": "15",
         "rir": "objetivo 4",
         "descanso": "60s"
        }
       ],
-      "cue": "**Primer tríceps directo desde la lesión.** Dos series y con RIR 4: es el que menos prueba lleva. Codos apuntando al techo y quietos; si molesta, se saca y se avisa."
+      "cue": "**Baja a 3,75.** El 3 de septiembre partiste en 6,25 y tuviste que bajar dos veces, terminando en 3,75 — y aun así las tres salieron a RPE 9-9,5. Era tu primer tríceps directo en 63 días, así que era esperable, pero 6 kg era demasiado para entrar. 3,75 × 15 con cuatro repeticiones de sobra. Codos apuntando al techo y quietos."
      },
      {
       "name": "Dead Bug",
@@ -18145,26 +18145,26 @@
        {
         "serie": "1",
         "carga": "Peso corporal",
-        "reps": "15-20 s por lado",
-        "rir": "RPE 7",
+        "reps": "30-40 s por lado",
+        "rir": "RPE 8",
         "descanso": "45s"
        },
        {
         "serie": "2",
         "carga": "Peso corporal",
-        "reps": "15-20 s por lado",
-        "rir": "RPE 7",
+        "reps": "30-40 s por lado",
+        "rir": "RPE 8",
         "descanso": "45s"
        },
        {
         "serie": "3",
         "carga": "Peso corporal",
-        "reps": "15-20 s por lado",
-        "rir": "RPE 7",
+        "reps": "30-40 s por lado",
+        "rir": "RPE 8",
         "descanso": "45s"
        }
       ],
-      "cue": "**Reemplaza a la de elevación, la que no sentías.** Sin subir ni bajar la cadera: solo sostener. De lado, rodillas dobladas y apoyadas, codo bajo el hombro, cadera arriba en línea con rodilla y hombro. El apretón va en el costado de abajo. Si con rodillas apoyadas tampoco lo sientes, avísame y cambiamos el ejercicio, no la explicación."
+      "cue": "**Sube el objetivo: de 15-20 s a 30-40 s por lado.** El 3 de septiembre llegaste a 50 s, que es récord tuyo. Esto pasó a ser lo que mejor te sale del core, así que ya no va con rodillas apoyadas si no las necesitas."
      },
      {
       "name": "Heel Taps",
@@ -19142,6 +19142,402 @@
    }
   ],
   "SESSIONS_FULL": [
+   {
+    "date": "2026-09-04",
+    "dlabel": "04 sep",
+    "title": "Core y cardio",
+    "hora": "2:01 PM",
+    "dur": "1h 20m",
+    "vol": null,
+    "com": "Abdominales en barras paralelas flop, no más",
+    "rec": null,
+    "exercises": [
+     {
+      "ej": "Dead Bug",
+      "carga": "Peso corporal",
+      "reps": "20",
+      "rpe": "7"
+     },
+     {
+      "ej": "Dead Bug",
+      "carga": "Peso corporal",
+      "reps": "20",
+      "rpe": "8"
+     },
+     {
+      "ej": "Dead Bug",
+      "carga": "Peso corporal",
+      "reps": "20",
+      "rpe": "8"
+     },
+     {
+      "ej": "Knee Raise Parallel Bars",
+      "carga": "Peso corporal",
+      "reps": "12",
+      "rpe": "8"
+     },
+     {
+      "ej": "Knee Raise Parallel Bars",
+      "carga": "Peso corporal",
+      "reps": "12",
+      "rpe": "9"
+     },
+     {
+      "ej": "Knee Raise Parallel Bars",
+      "carga": "Peso corporal",
+      "reps": "12",
+      "rpe": "9,5"
+     },
+     {
+      "ej": "Leg Raise Parallel Bars",
+      "carga": "Peso corporal",
+      "reps": "12",
+      "rpe": "9"
+     },
+     {
+      "ej": "Leg Raise Parallel Bars",
+      "carga": "Peso corporal",
+      "reps": "12",
+      "rpe": "10"
+     },
+     {
+      "ej": "Leg Raise Parallel Bars",
+      "carga": "Peso corporal",
+      "reps": "10",
+      "rpe": "10"
+     },
+     {
+      "ej": "Marcha",
+      "carga": "Peso corporal",
+      "reps": "10 (5 por lado)",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Marcha",
+      "carga": "Peso corporal",
+      "reps": "10 (5 por lado)",
+      "rpe": "9"
+     },
+     {
+      "ej": "Marcha",
+      "carga": "Peso corporal",
+      "reps": "10 (5 por lado)",
+      "rpe": "9"
+     },
+     {
+      "ej": "Around The World",
+      "carga": "Peso corporal",
+      "reps": "10",
+      "rpe": "10"
+     },
+     {
+      "ej": "Around The World",
+      "carga": "Peso corporal",
+      "reps": "8",
+      "rpe": "10"
+     },
+     {
+      "ej": "Around The World",
+      "carga": "Peso corporal",
+      "reps": "10",
+      "rpe": "—"
+     },
+     {
+      "ej": "Knee Raise Parallel Bars (de lado)",
+      "carga": "Peso corporal",
+      "reps": "10 (5 por lado)",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Knee Raise Parallel Bars (de lado)",
+      "carga": "Peso corporal",
+      "reps": "10 (5 por lado)",
+      "rpe": "9"
+     },
+     {
+      "ej": "Knee Raise Parallel Bars (de lado)",
+      "carga": "Peso corporal",
+      "reps": "10 (5 por lado)",
+      "rpe": "9,5"
+     },
+     {
+      "ej": "Bicep Curl (Dumbbell)",
+      "carga": "4",
+      "reps": "12",
+      "rpe": "7"
+     },
+     {
+      "ej": "Bicep Curl (Dumbbell)",
+      "carga": "4",
+      "reps": "12",
+      "rpe": "7,5"
+     },
+     {
+      "ej": "Bicep Curl (Dumbbell)",
+      "carga": "4",
+      "reps": "12",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Triceps Extension (Dumbbell)",
+      "carga": "4",
+      "reps": "15",
+      "rpe": "7,5"
+     },
+     {
+      "ej": "Triceps Extension (Dumbbell)",
+      "carga": "4",
+      "reps": "15",
+      "rpe": "8"
+     },
+     {
+      "ej": "Stair Machine (Floors)",
+      "carga": "—",
+      "reps": "63 pisos / 20m 0s",
+      "rpe": "—"
+     }
+    ]
+   },
+   {
+    "date": "2026-09-03",
+    "dlabel": "03 sep",
+    "title": "🚂 🔝",
+    "hora": "5:09 PM",
+    "dur": "2h 10m",
+    "vol": "3,926",
+    "com": null,
+    "rec": "mejor duración en Side Plank (50 s).",
+    "exercises": [
+     {
+      "ej": "Lat Pulldown (Cable)",
+      "carga": "19",
+      "reps": "12",
+      "rpe": "6"
+     },
+     {
+      "ej": "Lat Pulldown (Cable)",
+      "carga": "28,5",
+      "reps": "12",
+      "rpe": "7,5"
+     },
+     {
+      "ej": "Lat Pulldown (Cable)",
+      "carga": "28,5",
+      "reps": "12",
+      "rpe": "8"
+     },
+     {
+      "ej": "Lat Pulldown (Cable)",
+      "carga": "28,5",
+      "reps": "12",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Bench Press (Barbell)",
+      "carga": "12",
+      "reps": "12",
+      "rpe": "6"
+     },
+     {
+      "ej": "Bench Press (Barbell)",
+      "carga": "17,5",
+      "reps": "12",
+      "rpe": "7,5"
+     },
+     {
+      "ej": "Bench Press (Barbell)",
+      "carga": "17,5",
+      "reps": "12",
+      "rpe": "7,5"
+     },
+     {
+      "ej": "Bench Press (Barbell)",
+      "carga": "17,5",
+      "reps": "12",
+      "rpe": "8"
+     },
+     {
+      "ej": "Seated Row (Machine)",
+      "carga": "15",
+      "reps": "12",
+      "rpe": "6"
+     },
+     {
+      "ej": "Seated Row (Machine)",
+      "carga": "28,5",
+      "reps": "12",
+      "rpe": "7,5"
+     },
+     {
+      "ej": "Seated Row (Machine)",
+      "carga": "28,5",
+      "reps": "12",
+      "rpe": "8"
+     },
+     {
+      "ej": "Seated Row (Machine)",
+      "carga": "28,5",
+      "reps": "12",
+      "rpe": "8"
+     },
+     {
+      "ej": "Shoulder Press (Dumbbell)",
+      "carga": "2",
+      "reps": "12",
+      "rpe": "6"
+     },
+     {
+      "ej": "Shoulder Press (Dumbbell)",
+      "carga": "4",
+      "reps": "15",
+      "rpe": "8"
+     },
+     {
+      "ej": "Shoulder Press (Dumbbell)",
+      "carga": "4",
+      "reps": "12",
+      "rpe": "7"
+     },
+     {
+      "ej": "Shoulder Press (Dumbbell)",
+      "carga": "4",
+      "reps": "12",
+      "rpe": "8"
+     },
+     {
+      "ej": "Lateral Raise (Dumbbell)",
+      "carga": "4",
+      "reps": "14",
+      "rpe": "7,5"
+     },
+     {
+      "ej": "Lateral Raise (Dumbbell)",
+      "carga": "4",
+      "reps": "15",
+      "rpe": "8"
+     },
+     {
+      "ej": "Lateral Raise (Dumbbell)",
+      "carga": "4",
+      "reps": "15",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Bicep Curl (Dumbbell)",
+      "carga": "5",
+      "reps": "12",
+      "rpe": "7"
+     },
+     {
+      "ej": "Bicep Curl (Dumbbell)",
+      "carga": "5",
+      "reps": "12",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Bicep Curl (Dumbbell)",
+      "carga": "5",
+      "reps": "12",
+      "rpe": "9"
+     },
+     {
+      "ej": "Overhead Triceps Extension (Cable)",
+      "carga": "6,25",
+      "reps": "9",
+      "rpe": "9"
+     },
+     {
+      "ej": "Overhead Triceps Extension (Cable)",
+      "carga": "5",
+      "reps": "11",
+      "rpe": "9,5"
+     },
+     {
+      "ej": "Overhead Triceps Extension (Cable)",
+      "carga": "3,75",
+      "reps": "12",
+      "rpe": "9,5"
+     },
+     {
+      "ej": "Dead Bug",
+      "carga": "Peso corporal",
+      "reps": "20",
+      "rpe": "7,5"
+     },
+     {
+      "ej": "Dead Bug",
+      "carga": "Peso corporal",
+      "reps": "20",
+      "rpe": "7"
+     },
+     {
+      "ej": "Dead Bug",
+      "carga": "Peso corporal",
+      "reps": "20",
+      "rpe": "7,5"
+     },
+     {
+      "ej": "Side Plank",
+      "carga": "Peso corporal",
+      "reps": "35 s",
+      "rpe": "—"
+     },
+     {
+      "ej": "Side Plank",
+      "carga": "Peso corporal",
+      "reps": "38 s",
+      "rpe": "—"
+     },
+     {
+      "ej": "Side Plank",
+      "carga": "Peso corporal",
+      "reps": "48 s",
+      "rpe": "—"
+     },
+     {
+      "ej": "Side Plank",
+      "carga": "Peso corporal",
+      "reps": "50 s",
+      "rpe": "—"
+     },
+     {
+      "ej": "Side Plank",
+      "carga": "Peso corporal",
+      "reps": "38 s",
+      "rpe": "—"
+     },
+     {
+      "ej": "Side Plank",
+      "carga": "Peso corporal",
+      "reps": "38 s",
+      "rpe": "—"
+     },
+     {
+      "ej": "Heel Taps",
+      "carga": "Peso corporal",
+      "reps": "20",
+      "rpe": "7"
+     },
+     {
+      "ej": "Heel Taps",
+      "carga": "Peso corporal",
+      "reps": "20",
+      "rpe": "7"
+     },
+     {
+      "ej": "Heel Taps",
+      "carga": "Peso corporal",
+      "reps": "20",
+      "rpe": "7"
+     },
+     {
+      "ej": "Stair Machine (Floors)",
+      "carga": "—",
+      "reps": "54 pisos / 15m 20s",
+      "rpe": "—"
+     }
+    ]
+   },
    {
     "date": "2026-09-02",
     "dlabel": "02 sep",
@@ -27790,9 +28186,9 @@
     "nota": "Mesociclo nuevo de 4 semanas, del 31 de agosto al 27 de septiembre, con descarga en la semana 4. **Estructura fija: 1 día de tren superior, 2 de inferior y 2 opcionales.** Los tres firmes son lunes, miércoles y jueves; el opcional, el sábado. Martes y viernes libres. El eje del mesociclo es recuperar el tren superior: 50 días en cero dejaron espalda, pecho, hombro, bíceps y tríceps en el suelo, y con un solo día de tren superior por semana la reconstrucción va lenta. Sin el martes, el sábado opcional es el único lugar donde cabe una segunda dosis."
    }
   },
-  "note": "Cable Crunch fuera: no le gusta. Alternativas válidas: rodillas al pecho, reverse crunch o plancha lateral con elevación.",
+  "note": "Cable Crunch fuera: no le gusta. Alternativas válidas: rodillas al pecho, reverse crunch o plancha lateral con elevación. Nada de core en barras paralelas ni colgada: el 4 de septiembre todo lo de esa posición salió a RPE 8,5-10 por falta de estabilidad, y ella lo descartó. El core va en el suelo.",
   "fuente": "Registro_historico_Mipi.md",
-  "weekNote": "Semana 2 de 4 · seis días sin entrenar desde el 1 de septiembre. Falta registrar lo del 2 al 6 si hubo algo.",
-  "weekTodo": "**El viernes es intocable:** es tu único día de tren superior y lleva casi dos semanas parado."
+  "weekNote": "Semana 2 de 4 · llegaron las tres del 2 al 4. Tren superior de vuelta completo y sin molestias de codo; récord de plancha lateral (50 s).",
+  "weekTodo": "**Pierna lleva 5 días parada:** glúteo en 3,5 y femoral en 3,5 contra bandas de 10-16 y 6-10. Mañana martes es el día."
  }
 }
