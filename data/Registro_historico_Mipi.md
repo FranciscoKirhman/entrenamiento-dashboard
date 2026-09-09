@@ -2448,3 +2448,52 @@ No hubo sesión de gimnasio este día (la pierna B se corrió al jueves 27). Sí
 - **Stair Machine:** FC máx 183.
 
 *Sesión improvisada de core. Todo lo hecho en barras paralelas salió a RPE 8,5-10 y ella lo descarta explícitamente; lo del suelo (Dead Bug) salió a RPE 7-8.*
+
+## 8 Sep 2026 — Poto 🍑
+
+**Hora:** 5:23 PM  
+**Duración:** 1h 56m  
+**Volumen Hevy:** 9,300 kg  
+**Comentario:** Rodillas flopeando?  
+
+| Orden | Ejercicio | Serie | Carga | Reps/tiempo | RPE |
+|---:|---|---:|---:|---|---:|
+| 1 | Squat (Barbell) | 1 | 0 kg | 12 | 6 |
+| 1 | Squat (Barbell) | 2 | 20 kg | 12 | 6 |
+| 1 | Squat (Barbell) | 3 | 20 kg | 12 | 7 |
+| 1 | Squat (Barbell) | 4 | 25 kg | 12 | 7,5 |
+| 2 | Hip Thrust (Barbell) | 1 | 60 kg | 8 | 6 |
+| 2 | Hip Thrust (Barbell) | 2 | 85 kg | 5 | 6 |
+| 2 | Hip Thrust (Barbell) | 3 | 105 kg | 8 | 8 |
+| 2 | Hip Thrust (Barbell) | 4 | 105 kg | 8 | 8,5 |
+| 2 | Hip Thrust (Barbell) | 5 | 105 kg | 7 | 10 |
+| 3 | Bulgarian Split Squat (Dumbbell) | 1 | 10 kg | 10 | 8 |
+| 3 | Bulgarian Split Squat (Dumbbell) | 2 | 10 kg | 10 | 8,5 |
+| 3 | Bulgarian Split Squat (Dumbbell) | 3 | 10 kg | 10 | 8,5 |
+| 4 | Seated Leg Curl (Machine) | 1 | 15 kg | 12 | 6 |
+| 4 | Seated Leg Curl (Machine) | 2 | 38 kg | 12 | 7,5 |
+| 4 | Seated Leg Curl (Machine) | 3 | 38 kg | 12 | 8,5 |
+| 4 | Seated Leg Curl (Machine) | 4 | 38 kg | 12 | 8,5 |
+| 5 | Hip Abduction (Machine) | 1 | 54 kg | 12 | 6 |
+| 5 | Hip Abduction (Machine) | 2 | 82 kg | 12 | 8 |
+| 5 | Hip Abduction (Machine) | 3 | 82 kg | 10 | 10 |
+| 5 | Hip Abduction (Machine) | 4 | 75 kg | 12 | 8,5 |
+| 6 | Reverse Crunch | 1 | Peso corporal | 15 | 7,5 |
+| 6 | Reverse Crunch | 2 | Peso corporal | 15 | 8 |
+| 6 | Reverse Crunch | 3 | Peso corporal | 15 | 9,5 |
+| 7 | Bird Dog | 1 | Peso corporal | 20 | 6 |
+| 7 | Bird Dog | 2 | Peso corporal | 20 | 6 |
+| 8 | Plancha con rodilla apoyada | 1 | Peso corporal | 1m 2s | — |
+| 8 | Plancha con rodilla apoyada | 2 | Peso corporal | 37 s | — |
+| 8 | Plancha con rodilla apoyada | 3 | Peso corporal | 28 s | — |
+| 9 | Stair Machine (Floors) | 1 | — | 54 pisos / 15m 3s | — |
+
+**Notas por ejercicio:**
+- **Squat:** comentario de la sesión, "rodillas flopeando?".
+- **Bird Dog:** *"No sabemos hacerlo, mejor danos otro ejercicio"*.
+- **Plancha con rodilla apoyada:** *"no sé si lo hago bien"*. Primera serie de 1m 2s, récord suyo; las dos siguientes cayeron a 37 y 28 s.
+- **Stair Machine:** FC máx 183, nivel 6-8.
+
+**Récords:** mejor duración en Plancha (1m 2s).
+
+*Tercera serie de Hip Thrust a RPE 10 y tercera de Hip Abduction también a 10. Sesión junto a Francisco.*

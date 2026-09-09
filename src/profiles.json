@@ -35,19 +35,19 @@
   "MUSCLES": [
    {
     "name": "Femoral",
-    "recent": 3.5,
-    "hist": 3.9,
+    "recent": 6.4,
+    "hist": 4.1,
     "lo": 6,
     "hi": 10,
-    "tier": "critical",
-    "trend": 0.0,
+    "tier": "good",
+    "trend": 2.9,
     "note": "RDL y curl femoral del lunes, cuatro series de RDL a 50 kg con récord de volumen. Sigue bajo de banda pero ya no en cero.",
     "ex": "Romanian Deadlift, Seated Leg Curl"
    },
    {
     "name": "Tríceps",
     "recent": 5.2,
-    "hist": 5.1,
+    "hist": 5.2,
     "lo": 6,
     "hi": 10,
     "tier": "warning",
@@ -57,66 +57,66 @@
    },
    {
     "name": "Glúteo / cadera",
-    "recent": 3.5,
-    "hist": 4.3,
+    "recent": 7.0,
+    "hist": 4.6,
     "lo": 8,
     "hi": 12,
-    "tier": "critical",
-    "trend": 1.7,
+    "tier": "warning",
+    "trend": 5.2,
     "note": "Solo el Hip Thrust del lunes cae dentro de la ventana de 12 días. No está abandonado, está concentrado en un solo día: vuelve el sábado.",
     "ex": "Hip Thrust, Back Extension, Good Morning"
    },
    {
     "name": "Espalda",
-    "recent": 9.3,
-    "hist": 8.5,
+    "recent": 5.2,
+    "hist": 8.4,
     "lo": 12,
     "hi": 16,
-    "tier": "warning",
-    "trend": 1.1,
+    "tier": "critical",
+    "trend": -7.0,
     "note": "8,2 contra una banda de 12–16 y seis días sin tocarla — el último Pull fue el 21. Es el hueco más grande del tablero y por eso el jalón se adelanta a hoy.",
     "ex": "Lat Pulldown, Seated Row, Pull Up"
    },
    {
     "name": "Bíceps",
-    "recent": 7.0,
-    "hist": 5.1,
+    "recent": 5.2,
+    "hist": 5.0,
     "lo": 6,
     "hi": 10,
-    "tier": "good",
-    "trend": 5.2,
+    "tier": "critical",
+    "trend": 1.7,
     "note": "1,8 contra 6–10, también desde el 21. Viene incluido en el Pull de hoy (Preacher y Hammer).",
     "ex": "Preacher Curl, Bicep Curl, Hammer Curl"
    },
    {
     "name": "Pecho",
-    "recent": 6.4,
-    "hist": 8.7,
+    "recent": 7.0,
+    "hist": 8.9,
     "lo": 10,
     "hi": 14,
     "tier": "warning",
-    "trend": -5.3,
+    "trend": -5.8,
     "note": "Dentro de banda tras el push del martes (banca 80×10×3). No necesita segunda dosis hoy; se mueve al viernes.",
     "ex": "Bench Press, Incline Bench, Chest Fly"
    },
    {
     "name": "Hombro (empuje)",
-    "recent": 14.0,
-    "hist": 10.8,
+    "recent": 11.7,
+    "hist": 11.0,
     "lo": 8,
     "hi": 12,
     "tier": "good",
-    "trend": 2.9,
+    "trend": -3.5,
     "note": "11,1 sobre una banda de 8–12: cumplido. Molestia leve en el hombro izquierdo confirmada, en banca, press de hombro y elevación lateral — el Chest Fly no dio problema. El segundo día de empuje se corrió al viernes, así quedan tres días entre sesiones de press en vez de dos. Nada más que eso: si molesta el viernes, cambia el press militar por mancuernas en inclinado y sigue.",
     "ex": "Shoulder Press, Lateral Raise, Rear Delt Reverse Fly"
    },
    {
     "name": "Cuádriceps",
     "recent": 4.7,
-    "hist": 7.6,
+    "hist": 7.5,
     "lo": 10,
     "hi": 14,
-    "tier": "warning",
+    "tier": "critical",
     "trend": -5.2,
     "note": "Sentadilla 90×8 y prensa el miércoles. **La prensa a 180 kg × 12 es marca real, no error de registro**: la hizo dos veces, a RPE 8 y 8,5. 160 quedaba en RPE 7 — o sea que la carga prescrita estaba corta. Desde el próximo día de pierna la base es 180 kg, y se queda ahí hasta completar las tres series de 12.",
     "ex": "Squat, Leg Press, Leg Extension"
@@ -127,19 +127,19 @@
     "hist": 3.1,
     "lo": 4,
     "hi": 8,
-    "tier": "warning",
+    "tier": "critical",
     "trend": -1.7,
     "note": "Hip Adduction del miércoles, 84,5 kg × 18. Dentro de lo razonable para el rol accesorio que cumple.",
     "ex": "Hip Adduction, Hip Abduction"
    },
    {
     "name": "Core",
-    "recent": 11.7,
-    "hist": 5.7,
+    "recent": 16.3,
+    "hist": 6.4,
     "lo": 12,
     "hi": 22,
-    "tier": "warning",
-    "trend": -7.5,
+    "tier": "good",
+    "trend": -3.5,
     "note": "Banda subida a 12–22: hacer core todos los días es una decisión, no un descuido, y el objetivo ahora lo refleja (≈2 a 4 series diarias). 19,2 cae dentro. Y tienes razón en lo otro: construir el músculo abdominal ahora es lo correcto, porque cuando bajes grasa tiene que haber algo debajo que se vea. Por eso el core lleva carga real (Cable Crunch, Pallof, colgado) y no solo isométricos.",
     "ex": "Reverse Crunch, Plank"
    }
@@ -5794,6 +5794,306 @@
    }
   ],
   "SESSIONS_FULL": [
+   {
+    "date": "2026-09-08",
+    "dlabel": "08 sep",
+    "title": "Evening workout 🏋️",
+    "hora": "5:23 PM",
+    "dur": "1h 56m",
+    "vol": "8,495",
+    "com": "Me llovió encima",
+    "rec": null,
+    "exercises": [
+     {
+      "ej": "Bench Press (Barbell)",
+      "carga": "20",
+      "reps": "12",
+      "rpe": "—"
+     },
+     {
+      "ej": "Bench Press (Barbell)",
+      "carga": "40",
+      "reps": "10",
+      "rpe": "—"
+     },
+     {
+      "ej": "Bench Press (Barbell)",
+      "carga": "65",
+      "reps": "5",
+      "rpe": "—"
+     },
+     {
+      "ej": "Bench Press (Barbell)",
+      "carga": "85",
+      "reps": "10",
+      "rpe": "9"
+     },
+     {
+      "ej": "Bench Press (Barbell)",
+      "carga": "85",
+      "reps": "9",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Bench Press (Barbell)",
+      "carga": "85",
+      "reps": "8",
+      "rpe": "9"
+     },
+     {
+      "ej": "Overhead Press (Barbell)",
+      "carga": "20",
+      "reps": "10",
+      "rpe": "—"
+     },
+     {
+      "ej": "Overhead Press (Barbell)",
+      "carga": "40",
+      "reps": "8",
+      "rpe": "9"
+     },
+     {
+      "ej": "Overhead Press (Barbell)",
+      "carga": "40",
+      "reps": "6",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Overhead Press (Barbell)",
+      "carga": "40",
+      "reps": "6",
+      "rpe": "9"
+     },
+     {
+      "ej": "Chest Press (Machine)",
+      "carga": "75",
+      "reps": "10",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Chest Press (Machine)",
+      "carga": "75",
+      "reps": "8",
+      "rpe": "9"
+     },
+     {
+      "ej": "Chest Press (Machine)",
+      "carga": "75",
+      "reps": "8",
+      "rpe": "9,5"
+     },
+     {
+      "ej": "Single Arm Lateral Raise (Cable)",
+      "carga": "8,75",
+      "reps": "12",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Single Arm Lateral Raise (Cable)",
+      "carga": "8,75",
+      "reps": "13",
+      "rpe": "9"
+     },
+     {
+      "ej": "Single Arm Lateral Raise (Cable)",
+      "carga": "9,38",
+      "reps": "12",
+      "rpe": "9"
+     },
+     {
+      "ej": "Triceps Pushdown",
+      "carga": "30",
+      "reps": "15",
+      "rpe": "7"
+     },
+     {
+      "ej": "Triceps Pushdown",
+      "carga": "30",
+      "reps": "15",
+      "rpe": "7"
+     },
+     {
+      "ej": "Triceps Pushdown",
+      "carga": "31,25",
+      "reps": "15",
+      "rpe": "7,5"
+     },
+     {
+      "ej": "Cable Core Pallof Press",
+      "carga": "15",
+      "reps": "12",
+      "rpe": "7,5"
+     },
+     {
+      "ej": "Cable Core Pallof Press",
+      "carga": "15",
+      "reps": "12",
+      "rpe": "7,5"
+     },
+     {
+      "ej": "Cable Core Pallof Press",
+      "carga": "15",
+      "reps": "15",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Reverse Crunch",
+      "carga": "Peso corporal",
+      "reps": "15",
+      "rpe": "8"
+     },
+     {
+      "ej": "Reverse Crunch",
+      "carga": "Peso corporal",
+      "reps": "15",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Reverse Crunch",
+      "carga": "Peso corporal",
+      "reps": "15",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Plank",
+      "carga": "Peso corporal (isométrico)",
+      "reps": "1m 15s",
+      "rpe": "—"
+     },
+     {
+      "ej": "Plank",
+      "carga": "Peso corporal (isométrico)",
+      "reps": "1m 0s",
+      "rpe": "—"
+     },
+     {
+      "ej": "Plank",
+      "carga": "Peso corporal (isométrico)",
+      "reps": "1m 0s",
+      "rpe": "—"
+     },
+     {
+      "ej": "Stair Machine (Floors)",
+      "carga": "—",
+      "reps": "58 pisos / 15m 0s",
+      "rpe": "—"
+     }
+    ]
+   },
+   {
+    "date": "2026-09-07",
+    "dlabel": "07 sep",
+    "title": "Afternoon workout 💪",
+    "hora": "1:04 PM",
+    "dur": "1h 21m",
+    "vol": "10,732",
+    "com": "Modo verano",
+    "rec": "mejor volumen y mejor 1RM en Hip Thrust (105 kg × 12).",
+    "exercises": [
+     {
+      "ej": "Hip Thrust (Barbell)",
+      "carga": "60",
+      "reps": "10",
+      "rpe": "6"
+     },
+     {
+      "ej": "Hip Thrust (Barbell)",
+      "carga": "105",
+      "reps": "12",
+      "rpe": "7,5"
+     },
+     {
+      "ej": "Hip Thrust (Barbell)",
+      "carga": "105",
+      "reps": "10",
+      "rpe": "8"
+     },
+     {
+      "ej": "Hip Thrust (Barbell)",
+      "carga": "100",
+      "reps": "11",
+      "rpe": "9"
+     },
+     {
+      "ej": "Romanian Deadlift (Smith Machine)",
+      "carga": "40",
+      "reps": "12",
+      "rpe": "—"
+     },
+     {
+      "ej": "Romanian Deadlift (Smith Machine)",
+      "carga": "50",
+      "reps": "12",
+      "rpe": "7,5"
+     },
+     {
+      "ej": "Romanian Deadlift (Smith Machine)",
+      "carga": "50",
+      "reps": "12",
+      "rpe": "8"
+     },
+     {
+      "ej": "Romanian Deadlift (Smith Machine)",
+      "carga": "50",
+      "reps": "12",
+      "rpe": "9"
+     },
+     {
+      "ej": "Seated Leg Curl (Machine)",
+      "carga": "66",
+      "reps": "12",
+      "rpe": "8"
+     },
+     {
+      "ej": "Seated Leg Curl (Machine)",
+      "carga": "66",
+      "reps": "12",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Back Extension (Machine)",
+      "carga": "63,5",
+      "reps": "15",
+      "rpe": "7"
+     },
+     {
+      "ej": "Back Extension (Machine)",
+      "carga": "63,5",
+      "reps": "15",
+      "rpe": "7"
+     },
+     {
+      "ej": "Back Extension (Machine)",
+      "carga": "63,5",
+      "reps": "15",
+      "rpe": "7"
+     },
+     {
+      "ej": "Hanging Knee Raise",
+      "carga": "Peso corporal",
+      "reps": "15",
+      "rpe": "7"
+     },
+     {
+      "ej": "Hanging Knee Raise",
+      "carga": "Peso corporal",
+      "reps": "15",
+      "rpe": "7,5"
+     },
+     {
+      "ej": "Hanging Knee Raise",
+      "carga": "Peso corporal",
+      "reps": "15",
+      "rpe": "7,5"
+     },
+     {
+      "ej": "Stair Machine (Floors)",
+      "carga": "—",
+      "reps": "57 pisos / 15m 0s",
+      "rpe": "—"
+     }
+    ]
+   },
    {
     "date": "2026-09-04",
     "dlabel": "04 sep",
@@ -13810,8 +14110,8 @@
    }
   },
   "fuente": "Registro_historico_consolidado.md",
-  "weekNote": "Semana 4 de 5 · llegaron las tres sesiones del 2 al 4. Récord de banca (85×10) y de jalón (82×12); espalda subió a 9,3.",
-  "weekTodo": "**Pierna lleva 7 días parada:** glúteo en 3,5 y femoral en 3,5, los dos en rojo. Hoy es el día."
+  "weekNote": "Semana 4 de 5 · lunes y martes hechos, 19.227 kg. Récord de Hip Thrust (105×12) y banca sostenida en 85.",
+  "weekTodo": "**Hoy toca cuádriceps** y es la última semana antes de la descarga. El RDL dejó tensión lumbar: acorta el rango antes que el peso."
  },
  "mipi": {
   "displayName": "Mipi",
@@ -13846,95 +14146,95 @@
     "lo": 10,
     "hi": 16,
     "tier": "critical",
-    "trend": -5.8,
+    "trend": -3.5,
     "note": "Baja a 7,0 porque la ventana de 12 días dejó atrás sesiones viejas, no porque hayas entrenado menos. Ayer el kickback llegó a 23 kg × 12, pero las últimas dos series a RPE 9 compensando con lumbar: el peso está bien, lo que sobra son repeticiones al fallo.",
     "ex": "Hip Thrust, Glute Kickback, Back Extension"
    },
    {
     "name": "Cuádriceps",
     "recent": 11.7,
-    "hist": 6.5,
+    "hist": 6.6,
     "lo": 8,
     "hi": 14,
     "tier": "good",
-    "trend": 5.9,
+    "trend": 3.5,
     "note": "Dentro de banda: la prensa a 105 kg salió completa, tres series de 10-11 a RPE 7-8. Pendiente el rango — el tirón en la inserción aparece al flexionar al máximo, así que se acorta el recorrido, no el peso.",
     "ex": "Leg Press, Squat, Leg Extension"
    },
    {
     "name": "Femoral",
     "recent": 3.5,
-    "hist": 1.9,
+    "hist": 2.0,
     "lo": 6,
     "hi": 10,
-    "tier": "critical",
+    "tier": "warning",
     "trend": 0.0,
     "note": "Ocho días sin femoral — el hueco más claro. Entra hoy con curl femoral acostada.",
     "ex": "Lying/Seated Leg Curl, RDL"
    },
    {
     "name": "Aductor / abductor",
-    "recent": 4.7,
-    "hist": 2.9,
+    "recent": 6.4,
+    "hist": 3.0,
     "lo": 6,
     "hi": 12,
-    "tier": "warning",
-    "trend": 2.9,
+    "tier": "good",
+    "trend": 4.6,
     "note": "1,8 contra 6–12 y cuatro días sin tocarlo: es el hueco que queda en pierna. Entra el sábado con Hip Adduction.",
     "ex": "Hip Abduction, Hip Adduction"
    },
    {
     "name": "Core",
-    "recent": 42.0,
-    "hist": 6.2,
+    "recent": 35.6,
+    "hist": 6.4,
     "lo": 12,
     "hi": 24,
     "tier": "good",
-    "trend": 15.8,
+    "trend": 1.8,
     "note": "Banda subida a 12–24, al objetivo real: core todos los días. Durante la rehabilitación del codo fue casi todo el trabajo disponible, por eso 26,2. **Sin Cable Crunch** — no le gusta; el trabajo lateral va con plancha lateral con elevación y el de abdomen bajo con reverse crunch y descenso de piernas lento. Ojo con una consecuencia: el Cable Crunch era el único movimiento abdominal con carga externa, y ahora el bloque es todo peso corporal. Si el objetivo es tener músculo debajo para cuando baje la grasa, en algún momento hay que volver a cargar — con una placa en el pecho en el reverse crunch, o colgado. No urge, pero conviene tenerlo presente antes de que el core sea solo isométricos.",
     "ex": "Reverse Crunch, Dead Bug, Heel Taps"
    },
    {
     "name": "Espalda",
-    "recent": 6.4,
-    "hist": 3.1,
+    "recent": 3.5,
+    "hist": 3.0,
     "lo": 8,
     "hi": 14,
-    "tier": "warning",
-    "trend": 6.4,
+    "tier": "critical",
+    "trend": 0.6,
     "note": "Ya no está en cero: **1,2 series/semana** tras el jalón de ayer, el primero post alta. Salió sin dolor, solo aprensión, con los 26 kg prescritos. Hoy entra el tirón horizontal (Seated Row, 24 kg contra tu base vieja de 31). Sube desde acá sesión a sesión, no de golpe.",
     "ex": "Lat Pulldown, Seated Row, Pull Up"
    },
    {
     "name": "Pecho",
-    "recent": 2.3,
+    "recent": 1.8,
     "hist": 1.8,
     "lo": 4,
     "hi": 10,
-    "tier": "warning",
-    "trend": 2.3,
+    "tier": "critical",
+    "trend": 1.2,
     "note": "Entra hoy con Chest Fly a 12 kg, que era tu peso de entrada antes. Es el pectoral que menos flexiona el codo bajo carga: los brazos van estirados.",
     "ex": "Bench Press, Chest Press, Chest Fly"
    },
    {
     "name": "Hombro",
-    "recent": 4.1,
+    "recent": 3.5,
     "hist": 3.4,
     "lo": 4,
     "hi": 10,
-    "tier": "good",
-    "trend": 4.1,
+    "tier": "critical",
+    "trend": 2.9,
     "note": "Entra hoy con elevación lateral a 5 kg. El codo va fijo, no trabaja. Tu base vieja era 10 kg pero siempre a RPE 10 — se vuelve desde la mitad.",
     "ex": "Shoulder Press, Lateral Raise, Face Pull"
    },
    {
     "name": "Bíceps",
-    "recent": 5.2,
+    "recent": 3.5,
     "hist": 1.6,
     "lo": 3,
     "hi": 8,
     "tier": "good",
-    "trend": 5.2,
+    "trend": 1.7,
     "note": "Todavía no. Es el que carga el codo de frente; entra la semana que viene, después de tres o cuatro sesiones de tirón sin síntomas.",
     "ex": "Bicep Curl, Preacher Curl"
    },
@@ -17460,7 +17760,7 @@
         "descanso": "3:00"
        }
       ],
-      "cue": "🤝 Mopo abre con el mismo ejercicio: alternan en la barra. **Sube de 100 a 105**: las tres series del 24 salieron a RPE 7 con objetivo RIR 3, o sea te sobraba. Una variable a la vez, solo el peso."
+      "cue": "🤝 Mopo abre con el mismo ejercicio: alternan en la barra. **Sube de 100 a 105**: las tres series del 24 salieron a RPE 7 con objetivo RIR 3, o sea te sobraba. Una variable a la vez, solo el peso.\n\nLa tercera serie del 8 de septiembre salió a **RPE 10** — la segunda semana seguida que terminas al fallo acá. 105 kg es tu peso correcto, pero la serie tiene que cerrar en 8, con dos repeticiones guardadas. Si la tercera se va a 10 otra vez, baja a 100 y quédate ahí."
      },
      {
       "name": "Bulgarian Split Squat",
@@ -17535,20 +17835,20 @@
        },
        {
         "serie": "Trabajo 1",
-        "carga": "82 kg",
+        "carga": "75 kg",
         "reps": "12",
         "rir": "objetivo 3",
         "descanso": "75s"
        },
        {
         "serie": "Trabajo 2",
-        "carga": "82 kg",
+        "carga": "75 kg",
         "reps": "12",
         "rir": "objetivo 2",
         "descanso": "75s"
        }
       ],
-      "cue": "82 kg ya lo hiciste el 24 a RPE 8,5, así que se mantiene. Sentada, banda o máquina, empuja las rodillas hacia afuera y **vuelve resistiendo**, sin dejar que la máquina te cierre las piernas. Debes sentirlo al lado del glúteo, no en el muslo: si lo sientes adelante, estás echando el torso atrás. Pecho arriba y espalda apoyada."
+      "cue": "82 kg ya lo hiciste el 24 a RPE 8,5, así que se mantiene. Sentada, banda o máquina, empuja las rodillas hacia afuera y **vuelve resistiendo**, sin dejar que la máquina te cierre las piernas. Debes sentirlo al lado del glúteo, no en el muslo: si lo sientes adelante, estás echando el torso atrás. Pecho arriba y espalda apoyada.\n\nEl 8 de septiembre la segunda serie a 82 kg te dio **RPE 10** y tuviste que bajar a 75. Eso significa que 82 es tu tope, no tu peso de trabajo: esta semana van **75 kg las tres series**, que es donde terminaste y donde salió a 8,5."
      },
      {
       "name": "Reverse Crunch",
@@ -17751,25 +18051,25 @@
         "serie": "1",
         "carga": "Peso corporal",
         "reps": "15",
-        "rir": "2",
+        "rir": "3",
         "descanso": "60s"
        },
        {
         "serie": "2",
         "carga": "Peso corporal",
         "reps": "15",
-        "rir": "2",
+        "rir": "3",
         "descanso": "60s"
        },
        {
         "serie": "3",
         "carga": "Peso corporal",
         "reps": "15",
-        "rir": "2",
+        "rir": "3",
         "descanso": "60s"
        }
       ],
-      "cue": "Rodilla al pecho y pies al cielo, brazos a los lados, como lo haces tú."
+      "cue": "**Cómo te pones:** acostada, brazos a los lados con las palmas al suelo, rodillas dobladas y pies al cielo, como lo venías haciendo afirmada en la barrita.\n\n**Qué haces:** lleva las rodillas al pecho **enrollando la pelvis**, o sea despegando la cola del suelo, no solo moviendo las piernas. Baja lento.\n\n**Cómo sabes que está bien:** si la cola no se despega del suelo, estás moviendo solo la cadera y el abdomen casi no trabaja. El recorrido es corto: 10 cm de cola en el aire basta.\n\n**Ojo:** la última serie del 8 de septiembre te salió a RPE 9,5. Debería terminar en 8, con dos o tres repeticiones de sobra."
      },
      {
       "name": "Heel Taps",
@@ -17796,34 +18096,34 @@
         "descanso": "45s"
        }
       ],
-      "cue": "**Reemplaza al Russian Twist**, que dijiste que te sale con muy mala técnica — y tienes razón en cambiarlo: girar con peso sentada es difícil de hacer bien y fácil de hacer con la espalda. Este trabaja lo mismo (oblicuos) tirado en el suelo, sin peso y sin girar la columna. Acostada, rodillas dobladas y pies apoyados. Levanta apenas los omóplatos y toca el talón del mismo lado con la mano, alternando. Recorrido corto y lateral. La mirada al techo, no al ombligo."
+      "cue": "**Cómo te pones:** acostada, rodillas dobladas y pies apoyados a un palmo de la cola, brazos estirados a los lados.\n\n**Qué haces:** levanta apenas los omóplatos del suelo y, sin bajarlos, inclínate a un lado hasta tocar el talón con la mano. Vuelve al centro y al otro lado. Los dos toques son una repetición.\n\n**Cómo sabes que está bien:** el movimiento es **lateral y corto**, de unos 15 cm. Si te levantas mucho es un crunch, no un oblicuo. La mirada al techo todo el rato, no al ombligo, así el cuello no tira."
      },
      {
-      "name": "Bird Dog",
+      "name": "Plancha con rodillas y toque de hombro",
       "sets": [
        {
         "serie": "1",
         "carga": "Peso corporal",
-        "reps": "10 por lado",
+        "reps": "8 por lado",
         "rir": "3",
         "descanso": "45s"
        },
        {
         "serie": "2",
         "carga": "Peso corporal",
-        "reps": "10 por lado",
+        "reps": "8 por lado",
         "rir": "3",
         "descanso": "45s"
        },
        {
         "serie": "3",
         "carga": "Peso corporal",
-        "reps": "10 por lado",
+        "reps": "8 por lado",
         "rir": "3",
         "descanso": "45s"
        }
       ],
-      "cue": "En cuatro apoyos, estira un brazo y la pierna contraria hasta la línea del cuerpo, sostén 2 s y vuelve. Que no se mueva la cadera: si se va de lado, llega menos lejos. Es antirrotación, el mismo trabajo que la plancha lateral pero mucho más fácil de sentir."
+      "cue": "**Reemplaza al Bird Dog, que pediste cambiar.** Hace lo mismo (que el tronco no rote) pero desde una posición que ya dominas: la plancha con rodillas, donde acabas de hacer 1 minuto 2 segundos.\n\n**Cómo te pones:** plancha con las manos (no codos), rodillas en el suelo, manos justo bajo los hombros. Separa los pies al ancho de la cadera para tener base. Cuerpo en línea recta de la cabeza a las rodillas, cola metida.\n\n**Qué haces:** despega una mano del suelo y tócate el hombro contrario. Vuélvela al suelo. Después la otra. Eso es una repetición por lado. Lento, 2 segundos cada toque.\n\n**Cómo sabes que está bien:** la cadera **no se mueve**. Si se va de lado cada vez que levantas una mano, estás rotando y ahí se pierde el ejercicio. Truco: imagina un vaso de agua sobre la zona baja de la espalda que no se puede derramar.\n\n**Si no te sale:** separa más los pies (más base = más fácil). Si igual se mueve, no levantes la mano: solo pasa el peso de un brazo al otro sin despegar, que ya es antirrotación."
      },
      {
       "name": "Plancha con rodillas apoyadas",
@@ -17831,26 +18131,26 @@
        {
         "serie": "1",
         "carga": "Peso corporal",
-        "reps": "25-30 s",
-        "rir": "RPE 7",
-        "descanso": "45s"
+        "reps": "40-50 s",
+        "rir": "RPE 8",
+        "descanso": "60s"
        },
        {
         "serie": "2",
         "carga": "Peso corporal",
-        "reps": "25-30 s",
-        "rir": "RPE 7",
-        "descanso": "45s"
+        "reps": "40-50 s",
+        "rir": "RPE 8",
+        "descanso": "60s"
        },
        {
         "serie": "3",
         "carga": "Peso corporal",
-        "reps": "25-30 s",
-        "rir": "RPE 7",
-        "descanso": "45s"
+        "reps": "40-50 s",
+        "rir": "RPE 8",
+        "descanso": "60s"
        }
       ],
-      "cue": "**Reemplaza a la plancha normal, que se te cae** (16s, 5s, 15s la última vez). Rodillas apoyadas, codos bajo los hombros, cuerpo en línea recta de la cabeza a las rodillas. Aprieta glúteo y esconde un poco la cola. Cuando aguantes 3 × 45 s con la forma intacta, recién ahí pasamos a la de pies."
+      "cue": "**Dijiste que no sabes si lo haces bien, así que acá va completo.** Y sí lo estás haciendo bien: 1 minuto 2 segundos en la primera serie es récord tuyo, cuando hace tres semanas la plancha entera se te caía a 5 segundos.\n\n**Cómo te pones:** codos en el suelo justo debajo de los hombros, antebrazos paralelos. Rodillas apoyadas, pies levantados o apoyados, da igual. El cuerpo forma **una línea recta desde la cabeza hasta las rodillas**.\n\n**Qué haces:** aprieta el glúteo y mete un poco la cola hacia adelante, como si escondieras el coxis. Empuja el suelo con los antebrazos para separar los omóplatos. Respira normal, no aguantes el aire.\n\n**Cómo sabes que está bien:** deberías sentirlo en el **abdomen**, no en la espalda baja. Si te duele la zona lumbar, la cadera está muy abajo: sube la cola un dedo y mete el coxis. Si te cansa el hombro antes que el abdomen, estás muy adelante: retrocede hasta que los codos queden bajo los hombros.\n\n**Si no te sale:** la clave es que **la primera serie no sea al máximo**. Tus 1m 2s, 37s y 28s dicen que vaciaste todo en la primera. Corta las tres en 40-50 s aunque puedas más — tres series parejas entrenan más que una larga y dos caídas."
      }
     ],
     "cardio": "Escaleras o caminata 20 min, RPE 4.",
@@ -18145,7 +18445,7 @@
         "descanso": "45s"
        }
       ],
-      "cue": "Lumbar pegada al suelo todo el rato. Ya lo haces bien a 20 repeticiones."
+      "cue": "Este ya te sale bien — lo haces a 20 repeticiones con RPE 7-8, que es exactamente como debería sentirse todo el core.\n\n**Cómo te pones:** boca arriba, brazos estirados al techo, rodillas en 90° sobre la cadera.\n\n**Qué haces:** baja un brazo hacia atrás y la pierna contraria hacia adelante, lento, y vuelve. Alterna.\n\n**Cómo sabes que está bien:** la zona lumbar **pegada al suelo** todo el rato. Mete la mano bajo la espalda: si se te suelta al bajar, llegaste demasiado lejos."
      },
      {
       "name": "Plancha lateral con rodillas, sostenida",
@@ -18199,7 +18499,7 @@
         "descanso": "45s"
        }
       ],
-      "cue": "Acostada, rodillas dobladas, toca el talón con la mano del mismo lado alternando. Oblicuos, fácil de sentir."
+      "cue": "**Cómo te pones:** acostada, rodillas dobladas y pies apoyados a un palmo de la cola, brazos estirados a los lados.\n\n**Qué haces:** levanta apenas los omóplatos del suelo y, sin bajarlos, inclínate a un lado hasta tocar el talón con la mano. Vuelve al centro y al otro lado. Los dos toques son una repetición.\n\n**Cómo sabes que está bien:** el movimiento es **lateral y corto**, de unos 15 cm. Si te levantas mucho es un crunch, no un oblicuo. La mirada al techo todo el rato, no al ombligo, así el cuello no tira."
      }
     ],
     "cardio": "Escaleras 12 min, RPE 4.",
@@ -18298,7 +18598,7 @@
         "descanso": "2:30"
        }
       ],
-      "cue": "🤝 Comparten la prensa con Mopo, alternando. **El peso se queda en 105 y lo que cambia es el rango**: para donde empieza el tirón en la inserción del cuádriceps, sin buscar la flexión máxima. Primero 12 limpias las tres series, después subimos."
+      "cue": "🤝 Comparten la prensa con Mopo, alternando. **El peso se queda en 105 y lo que cambia es el rango**: para donde empieza el tirón en la inserción del cuádriceps, sin buscar la flexión máxima. Primero 12 limpias las tres series, después subimos.\n\n**Rodillas:** anotaste *rodillas flopeando*. Ponte la banda de 5 kg justo sobre las rodillas y empuja contra ella todo el rato — eso te obliga a llevarlas hacia afuera en línea con los pies. Se junta con lo del tobillo que anotaste en el Step Up: cuando el tobillo no se mueve, la rodilla se va para adentro a compensar. Por eso el calentamiento ahora lleva movilidad de tobillo antes que nada."
      },
      {
       "name": "Hip Adduction (Machine)",
@@ -18379,7 +18679,7 @@
         "descanso": "75s"
        }
       ],
-      "cue": "El que pediste. Banco a la altura de la rodilla, sube empujando con el talón de arriba y baja controlando — sin impulsarte con la pierna de abajo."
+      "cue": "El que pediste. Banco a la altura de la rodilla, sube empujando con el talón de arriba y baja controlando — sin impulsarte con la pierna de abajo.\n\n**Rodillas:** anotaste *rodillas flopeando*. Ponte la banda de 5 kg justo sobre las rodillas y empuja contra ella todo el rato — eso te obliga a llevarlas hacia afuera en línea con los pies. Se junta con lo del tobillo que anotaste en el Step Up: cuando el tobillo no se mueve, la rodilla se va para adentro a compensar. Por eso el calentamiento ahora lleva movilidad de tobillo antes que nada."
      },
      {
       "name": "Crunch corto",
@@ -18389,24 +18689,24 @@
         "carga": "Peso corporal",
         "reps": "15",
         "rir": "2",
-        "descanso": "45s"
+        "descanso": "60s"
        },
        {
         "serie": "2",
         "carga": "Peso corporal",
         "reps": "15",
         "rir": "2",
-        "descanso": "45s"
+        "descanso": "60s"
        },
        {
         "serie": "3",
         "carga": "Peso corporal",
         "reps": "15",
         "rir": "2",
-        "descanso": "45s"
+        "descanso": "60s"
        }
       ],
-      "cue": "**Reemplaza al Jackknife y al V-Up**, que te salen a RPE 9,5-10. Rodillas dobladas, manos en el pecho. Despega solo los omóplatos llevando las costillas a la pelvis; la zona baja no se mueve. Recorrido corto a propósito."
+      "cue": "**Cómo te pones:** acostada, rodillas dobladas, pies apoyados, manos cruzadas sobre el pecho (no en la nuca, que ahí uno tira del cuello).\n\n**Qué haces:** despega solo los omóplatos llevando las costillas hacia la pelvis. La zona baja de la espalda **queda pegada al suelo**. Baja lento sin apoyar del todo la cabeza entre repeticiones.\n\n**Cómo sabes que está bien:** el recorrido es cortísimo, unos 20-30 cm de hombro. Si te sientas del todo, están trabajando los flexores de cadera, no el abdomen.\n\n**Si no te sale:** te lo hace más fácil apoyar los pies bajo algo, pero ojo — si necesitas engancharlos, casi seguro estás subiendo demasiado."
      },
      {
       "name": "Heel Taps",
@@ -18433,7 +18733,7 @@
         "descanso": "45s"
        }
       ],
-      "cue": "**Reemplaza al Russian Twist**, que dijiste que te sale con muy mala técnica — y tienes razón en cambiarlo: girar con peso sentada es difícil de hacer bien y fácil de hacer con la espalda. Este trabaja lo mismo (oblicuos) tirado en el suelo, sin peso y sin girar la columna. Acostada, rodillas dobladas y pies apoyados. Levanta apenas los omóplatos y toca el talón del mismo lado con la mano, alternando. Recorrido corto y lateral. La mirada al techo, no al ombligo."
+      "cue": "**Cómo te pones:** acostada, rodillas dobladas y pies apoyados a un palmo de la cola, brazos estirados a los lados.\n\n**Qué haces:** levanta apenas los omóplatos del suelo y, sin bajarlos, inclínate a un lado hasta tocar el talón con la mano. Vuelve al centro y al otro lado. Los dos toques son una repetición.\n\n**Cómo sabes que está bien:** el movimiento es **lateral y corto**, de unos 15 cm. Si te levantas mucho es un crunch, no un oblicuo. La mirada al techo todo el rato, no al ombligo, así el cuello no tira."
      },
      {
       "name": "Puente de glúteo con marcha",
@@ -18460,7 +18760,7 @@
         "descanso": "45s"
        }
       ],
-      "cue": "**Sobre los calambres en el isquio**: pasa cuando el pie queda muy adelante y el isquio hace el trabajo que le toca al glúteo. Acerca los talones hasta casi tocar los glúteos y empuja el suelo **con el talón**, no con la punta. Debes sentir el glúteo apretando arriba. Si igual acalambra, baja a 6 por lado y sube desde ahí. No es lesión, es un músculo haciendo de más."
+      "cue": "**Cómo te pones:** acostada, **talones bien cerca de la cola** — casi tocándola. Ese detalle es el que evita los calambres en el isquio que anotaste: con el pie lejos, el isquio hace el trabajo que le toca al glúteo.\n\n**Qué haces:** sube a puente empujando el suelo **con los talones**, no con la punta. Arriba, despega un pie unos centímetros del suelo y vuélvelo. Después el otro.\n\n**Cómo sabes que está bien:** la cadera **no se cae** del lado del pie que levantas, y lo sientes en el glúteo, no atrás del muslo. Si acalambra, acerca más los talones.\n\n**Si no te sale:** baja a 6 por lado y sube desde ahí."
      }
     ],
     "cardio": "Escaladora 15 min, RPE 4-5.",
@@ -18571,25 +18871,25 @@
         "serie": "1",
         "carga": "Peso corporal",
         "reps": "15",
-        "rir": "2",
+        "rir": "3",
         "descanso": "60s"
        },
        {
         "serie": "2",
         "carga": "Peso corporal",
         "reps": "15",
-        "rir": "2",
+        "rir": "3",
         "descanso": "60s"
        },
        {
         "serie": "3",
         "carga": "Peso corporal",
         "reps": "15",
-        "rir": "2",
+        "rir": "3",
         "descanso": "60s"
        }
       ],
-      "cue": "Rodilla al pecho y pies al cielo, brazos a los lados, como lo haces tú."
+      "cue": "**Cómo te pones:** acostada, brazos a los lados con las palmas al suelo, rodillas dobladas y pies al cielo, como lo venías haciendo afirmada en la barrita.\n\n**Qué haces:** lleva las rodillas al pecho **enrollando la pelvis**, o sea despegando la cola del suelo, no solo moviendo las piernas. Baja lento.\n\n**Cómo sabes que está bien:** si la cola no se despega del suelo, estás moviendo solo la cadera y el abdomen casi no trabaja. El recorrido es corto: 10 cm de cola en el aire basta.\n\n**Ojo:** la última serie del 8 de septiembre te salió a RPE 9,5. Debería terminar en 8, con dos o tres repeticiones de sobra."
      },
      {
       "name": "Heel Taps",
@@ -18616,34 +18916,34 @@
         "descanso": "45s"
        }
       ],
-      "cue": "**Reemplaza al Russian Twist**, que dijiste que te sale con muy mala técnica — y tienes razón en cambiarlo: girar con peso sentada es difícil de hacer bien y fácil de hacer con la espalda. Este trabaja lo mismo (oblicuos) tirado en el suelo, sin peso y sin girar la columna. Acostada, rodillas dobladas y pies apoyados. Levanta apenas los omóplatos y toca el talón del mismo lado con la mano, alternando. Recorrido corto y lateral. La mirada al techo, no al ombligo."
+      "cue": "**Cómo te pones:** acostada, rodillas dobladas y pies apoyados a un palmo de la cola, brazos estirados a los lados.\n\n**Qué haces:** levanta apenas los omóplatos del suelo y, sin bajarlos, inclínate a un lado hasta tocar el talón con la mano. Vuelve al centro y al otro lado. Los dos toques son una repetición.\n\n**Cómo sabes que está bien:** el movimiento es **lateral y corto**, de unos 15 cm. Si te levantas mucho es un crunch, no un oblicuo. La mirada al techo todo el rato, no al ombligo, así el cuello no tira."
      },
      {
-      "name": "Bird Dog",
+      "name": "Plancha con rodillas y toque de hombro",
       "sets": [
        {
         "serie": "1",
         "carga": "Peso corporal",
-        "reps": "10 por lado",
+        "reps": "8 por lado",
         "rir": "3",
         "descanso": "45s"
        },
        {
         "serie": "2",
         "carga": "Peso corporal",
-        "reps": "10 por lado",
+        "reps": "8 por lado",
         "rir": "3",
         "descanso": "45s"
        },
        {
         "serie": "3",
         "carga": "Peso corporal",
-        "reps": "10 por lado",
+        "reps": "8 por lado",
         "rir": "3",
         "descanso": "45s"
        }
       ],
-      "cue": "En cuatro apoyos, estira un brazo y la pierna contraria hasta la línea del cuerpo, sostén 2 s y vuelve. Que no se mueva la cadera: si se va de lado, llega menos lejos. Es antirrotación, el mismo trabajo que la plancha lateral pero mucho más fácil de sentir."
+      "cue": "**Reemplaza al Bird Dog, que pediste cambiar.** Hace lo mismo (que el tronco no rote) pero desde una posición que ya dominas: la plancha con rodillas, donde acabas de hacer 1 minuto 2 segundos.\n\n**Cómo te pones:** plancha con las manos (no codos), rodillas en el suelo, manos justo bajo los hombros. Separa los pies al ancho de la cadera para tener base. Cuerpo en línea recta de la cabeza a las rodillas, cola metida.\n\n**Qué haces:** despega una mano del suelo y tócate el hombro contrario. Vuélvela al suelo. Después la otra. Eso es una repetición por lado. Lento, 2 segundos cada toque.\n\n**Cómo sabes que está bien:** la cadera **no se mueve**. Si se va de lado cada vez que levantas una mano, estás rotando y ahí se pierde el ejercicio. Truco: imagina un vaso de agua sobre la zona baja de la espalda que no se puede derramar.\n\n**Si no te sale:** separa más los pies (más base = más fácil). Si igual se mueve, no levantes la mano: solo pasa el peso de un brazo al otro sin despegar, que ya es antirrotación."
      },
      {
       "name": "Plancha con rodillas apoyadas",
@@ -18651,26 +18951,26 @@
        {
         "serie": "1",
         "carga": "Peso corporal",
-        "reps": "25-30 s",
-        "rir": "RPE 7",
-        "descanso": "45s"
+        "reps": "40-50 s",
+        "rir": "RPE 8",
+        "descanso": "60s"
        },
        {
         "serie": "2",
         "carga": "Peso corporal",
-        "reps": "25-30 s",
-        "rir": "RPE 7",
-        "descanso": "45s"
+        "reps": "40-50 s",
+        "rir": "RPE 8",
+        "descanso": "60s"
        },
        {
         "serie": "3",
         "carga": "Peso corporal",
-        "reps": "25-30 s",
-        "rir": "RPE 7",
-        "descanso": "45s"
+        "reps": "40-50 s",
+        "rir": "RPE 8",
+        "descanso": "60s"
        }
       ],
-      "cue": "**Reemplaza a la plancha normal, que se te cae** (16s, 5s, 15s la última vez). Rodillas apoyadas, codos bajo los hombros, cuerpo en línea recta de la cabeza a las rodillas. Aprieta glúteo y esconde un poco la cola. Cuando aguantes 3 × 45 s con la forma intacta, recién ahí pasamos a la de pies."
+      "cue": "**Dijiste que no sabes si lo haces bien, así que acá va completo.** Y sí lo estás haciendo bien: 1 minuto 2 segundos en la primera serie es récord tuyo, cuando hace tres semanas la plancha entera se te caía a 5 segundos.\n\n**Cómo te pones:** codos en el suelo justo debajo de los hombros, antebrazos paralelos. Rodillas apoyadas, pies levantados o apoyados, da igual. El cuerpo forma **una línea recta desde la cabeza hasta las rodillas**.\n\n**Qué haces:** aprieta el glúteo y mete un poco la cola hacia adelante, como si escondieras el coxis. Empuja el suelo con los antebrazos para separar los omóplatos. Respira normal, no aguantes el aire.\n\n**Cómo sabes que está bien:** deberías sentirlo en el **abdomen**, no en la espalda baja. Si te duele la zona lumbar, la cadera está muy abajo: sube la cola un dedo y mete el coxis. Si te cansa el hombro antes que el abdomen, estás muy adelante: retrocede hasta que los codos queden bajo los hombros.\n\n**Si no te sale:** la clave es que **la primera serie no sea al máximo**. Tus 1m 2s, 37s y 28s dicen que vaciaste todo en la primera. Corta las tres en 40-50 s aunque puedas más — tres series parejas entrenan más que una larga y dos caídas."
      }
     ],
     "cardio": "Caminata 25-30 min, RPE 3-4.",
@@ -19150,6 +19450,192 @@
    }
   ],
   "SESSIONS_FULL": [
+   {
+    "date": "2026-09-08",
+    "dlabel": "08 sep",
+    "title": "Poto 🍑",
+    "hora": "5:23 PM",
+    "dur": "1h 56m",
+    "vol": "9,300",
+    "com": "Rodillas flopeando?",
+    "rec": "mejor duración en Plancha (1m 2s).",
+    "exercises": [
+     {
+      "ej": "Squat (Barbell)",
+      "carga": "0",
+      "reps": "12",
+      "rpe": "6"
+     },
+     {
+      "ej": "Squat (Barbell)",
+      "carga": "20",
+      "reps": "12",
+      "rpe": "6"
+     },
+     {
+      "ej": "Squat (Barbell)",
+      "carga": "20",
+      "reps": "12",
+      "rpe": "7"
+     },
+     {
+      "ej": "Squat (Barbell)",
+      "carga": "25",
+      "reps": "12",
+      "rpe": "7,5"
+     },
+     {
+      "ej": "Hip Thrust (Barbell)",
+      "carga": "60",
+      "reps": "8",
+      "rpe": "6"
+     },
+     {
+      "ej": "Hip Thrust (Barbell)",
+      "carga": "85",
+      "reps": "5",
+      "rpe": "6"
+     },
+     {
+      "ej": "Hip Thrust (Barbell)",
+      "carga": "105",
+      "reps": "8",
+      "rpe": "8"
+     },
+     {
+      "ej": "Hip Thrust (Barbell)",
+      "carga": "105",
+      "reps": "8",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Hip Thrust (Barbell)",
+      "carga": "105",
+      "reps": "7",
+      "rpe": "10"
+     },
+     {
+      "ej": "Bulgarian Split Squat (Dumbbell)",
+      "carga": "10",
+      "reps": "10",
+      "rpe": "8"
+     },
+     {
+      "ej": "Bulgarian Split Squat (Dumbbell)",
+      "carga": "10",
+      "reps": "10",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Bulgarian Split Squat (Dumbbell)",
+      "carga": "10",
+      "reps": "10",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Seated Leg Curl (Machine)",
+      "carga": "15",
+      "reps": "12",
+      "rpe": "6"
+     },
+     {
+      "ej": "Seated Leg Curl (Machine)",
+      "carga": "38",
+      "reps": "12",
+      "rpe": "7,5"
+     },
+     {
+      "ej": "Seated Leg Curl (Machine)",
+      "carga": "38",
+      "reps": "12",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Seated Leg Curl (Machine)",
+      "carga": "38",
+      "reps": "12",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Hip Abduction (Machine)",
+      "carga": "54",
+      "reps": "12",
+      "rpe": "6"
+     },
+     {
+      "ej": "Hip Abduction (Machine)",
+      "carga": "82",
+      "reps": "12",
+      "rpe": "8"
+     },
+     {
+      "ej": "Hip Abduction (Machine)",
+      "carga": "82",
+      "reps": "10",
+      "rpe": "10"
+     },
+     {
+      "ej": "Hip Abduction (Machine)",
+      "carga": "75",
+      "reps": "12",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Reverse Crunch",
+      "carga": "Peso corporal",
+      "reps": "15",
+      "rpe": "7,5"
+     },
+     {
+      "ej": "Reverse Crunch",
+      "carga": "Peso corporal",
+      "reps": "15",
+      "rpe": "8"
+     },
+     {
+      "ej": "Reverse Crunch",
+      "carga": "Peso corporal",
+      "reps": "15",
+      "rpe": "9,5"
+     },
+     {
+      "ej": "Bird Dog",
+      "carga": "Peso corporal",
+      "reps": "20",
+      "rpe": "6"
+     },
+     {
+      "ej": "Bird Dog",
+      "carga": "Peso corporal",
+      "reps": "20",
+      "rpe": "6"
+     },
+     {
+      "ej": "Plancha con rodilla apoyada",
+      "carga": "Peso corporal",
+      "reps": "1m 2s",
+      "rpe": "—"
+     },
+     {
+      "ej": "Plancha con rodilla apoyada",
+      "carga": "Peso corporal",
+      "reps": "37 s",
+      "rpe": "—"
+     },
+     {
+      "ej": "Plancha con rodilla apoyada",
+      "carga": "Peso corporal",
+      "reps": "28 s",
+      "rpe": "—"
+     },
+     {
+      "ej": "Stair Machine (Floors)",
+      "carga": "—",
+      "reps": "54 pisos / 15m 3s",
+      "rpe": "—"
+     }
+    ]
+   },
    {
     "date": "2026-09-04",
     "dlabel": "04 sep",
@@ -28196,7 +28682,7 @@
   },
   "note": "Cable Crunch fuera: no le gusta. Alternativas válidas: rodillas al pecho, reverse crunch o plancha lateral con elevación. Nada de core en barras paralelas ni colgada: el 4 de septiembre todo lo de esa posición salió a RPE 8,5-10 por falta de estabilidad, y ella lo descartó. El core va en el suelo.",
   "fuente": "Registro_historico_Mipi.md",
-  "weekNote": "Semana 2 de 4 · llegaron las tres del 2 al 4. Tren superior de vuelta completo y sin molestias de codo; récord de plancha lateral (50 s).",
-  "weekTodo": "**Pierna lleva 5 días parada:** glúteo en 3,5 y femoral en 3,5 contra bandas de 10-16 y 6-10. Mañana martes es el día."
+  "weekNote": "Semana 2 de 4 · lunes hecho, 9.300 kg. Récord de plancha (1m 2s) y Hip Thrust a 105 las tres series.",
+  "weekTodo": "**Corta las series en RIR 2, no al fallo:** dos semanas seguidas terminando en RPE 10 en Hip Thrust y abducción."
  }
 }

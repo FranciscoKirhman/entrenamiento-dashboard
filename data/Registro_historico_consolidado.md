@@ -1975,3 +1975,81 @@ Sesión de boulder por la tarde, después del entrenamiento de pierna de la mañ
 **Récords:** 10 en total, entre ellos 1RM en Bench Press (85 × 10), peso y 1RM en Single Arm Lateral Raise, y peso, volumen y 1RM en Triceps Pushdown (31,25 × 15).
 
 *Sesión de 2h 39m, la más larga del registro.*
+
+## 7 Sep 2026 — Afternoon workout 💪
+
+**Hora:** 1:04 PM  
+**Duración:** 1h 21m  
+**Volumen Hevy:** 10,732 kg  
+**Comentario:** Modo verano  
+
+| Orden | Ejercicio | Serie | Carga | Reps/tiempo | RPE |
+|---:|---|---:|---:|---|---:|
+| 1 | Hip Thrust (Barbell) | 1 | 60 kg | 10 | 6 |
+| 1 | Hip Thrust (Barbell) | 2 | 105 kg | 12 | 7,5 |
+| 1 | Hip Thrust (Barbell) | 3 | 105 kg | 10 | 8 |
+| 1 | Hip Thrust (Barbell) | 4 | 100 kg | 11 | 9 |
+| 2 | Romanian Deadlift (Smith Machine) | 1 | 40 kg | 12 | — |
+| 2 | Romanian Deadlift (Smith Machine) | 2 | 50 kg | 12 | 7,5 |
+| 2 | Romanian Deadlift (Smith Machine) | 3 | 50 kg | 12 | 8 |
+| 2 | Romanian Deadlift (Smith Machine) | 4 | 50 kg | 12 | 9 |
+| 3 | Seated Leg Curl (Machine) | 1 | 66 kg | 12 | 8 |
+| 3 | Seated Leg Curl (Machine) | 2 | 66 kg | 12 | 8,5 |
+| 4 | Back Extension (Machine) | 1 | 63,5 kg | 15 | 7 |
+| 4 | Back Extension (Machine) | 2 | 63,5 kg | 15 | 7 |
+| 4 | Back Extension (Machine) | 3 | 63,5 kg | 15 | 7 |
+| 5 | Hanging Knee Raise | 1 | Peso corporal | 15 | 7 |
+| 5 | Hanging Knee Raise | 2 | Peso corporal | 15 | 7,5 |
+| 5 | Hanging Knee Raise | 3 | Peso corporal | 15 | 7,5 |
+| 6 | Stair Machine (Floors) | 1 | — | 57 pisos / 15m 0s | — |
+
+**Notas por ejercicio:**
+- **Romanian Deadlift:** tensión en la espalda baja.
+
+**Récords:** mejor volumen y mejor 1RM en Hip Thrust (105 kg × 12).
+
+*Primer Hip Thrust a 105 kg: 12 repeticiones a RPE 7,5. Seated Leg Curl quedó en 2 series de las 3 prescritas.*
+
+## 8 Sep 2026 — Evening workout 🏋️
+
+**Hora:** 5:23 PM  
+**Duración:** 1h 56m  
+**Volumen Hevy:** 8,495 kg  
+**Comentario:** Me llovió encima  
+
+| Orden | Ejercicio | Serie | Carga | Reps/tiempo | RPE |
+|---:|---|---:|---:|---|---:|
+| 1 | Bench Press (Barbell) | 1 | 20 kg | 12 | — |
+| 1 | Bench Press (Barbell) | 2 | 40 kg | 10 | — |
+| 1 | Bench Press (Barbell) | 3 | 65 kg | 5 | — |
+| 1 | Bench Press (Barbell) | 4 | 85 kg | 10 | 9 |
+| 1 | Bench Press (Barbell) | 5 | 85 kg | 9 | 8,5 |
+| 1 | Bench Press (Barbell) | 6 | 85 kg | 8 | 9 |
+| 2 | Overhead Press (Barbell) | 1 | 20 kg | 10 | — |
+| 2 | Overhead Press (Barbell) | 2 | 40 kg | 8 | 9 |
+| 2 | Overhead Press (Barbell) | 3 | 40 kg | 6 | 8,5 |
+| 2 | Overhead Press (Barbell) | 4 | 40 kg | 6 | 9 |
+| 3 | Chest Press (Machine) | 1 | 75 kg | 10 | 8,5 |
+| 3 | Chest Press (Machine) | 2 | 75 kg | 8 | 9 |
+| 3 | Chest Press (Machine) | 3 | 75 kg | 8 | 9,5 |
+| 4 | Single Arm Lateral Raise (Cable) | 1 | 8,75 kg | 12 | 8,5 |
+| 4 | Single Arm Lateral Raise (Cable) | 2 | 8,75 kg | 13 | 9 |
+| 4 | Single Arm Lateral Raise (Cable) | 3 | 9,38 kg | 12 | 9 |
+| 5 | Triceps Pushdown | 1 | 30 kg | 15 | 7 |
+| 5 | Triceps Pushdown | 2 | 30 kg | 15 | 7 |
+| 5 | Triceps Pushdown | 3 | 31,25 kg | 15 | 7,5 |
+| 6 | Cable Core Pallof Press | 1 | 15 kg | 12 | 7,5 |
+| 6 | Cable Core Pallof Press | 2 | 15 kg | 12 | 7,5 |
+| 6 | Cable Core Pallof Press | 3 | 15 kg | 15 | 8,5 |
+| 7 | Reverse Crunch | 1 | Peso corporal | 15 | 8 |
+| 7 | Reverse Crunch | 2 | Peso corporal | 15 | 8,5 |
+| 7 | Reverse Crunch | 3 | Peso corporal | 15 | 8,5 |
+| 8 | Plank | 1 | Peso corporal (isométrico) | 1m 15s | — |
+| 8 | Plank | 2 | Peso corporal (isométrico) | 1m 0s | — |
+| 8 | Plank | 3 | Peso corporal (isométrico) | 1m 0s | — |
+| 9 | Stair Machine (Floors) | 1 | — | 58 pisos / 15m 0s | — |
+
+**Notas por ejercicio:**
+- **Chest Press:** la máquina tiene 5 posiciones de rango; usó la media en la primera serie y la alta en las otras dos.
+
+*Chest Press bajado a 75 kg tras la serie fallada del 4: salieron 10, 8 y 8. Sesión junto a Paloma.*
