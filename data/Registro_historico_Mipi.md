@@ -2497,3 +2497,55 @@ No hubo sesión de gimnasio este día (la pierna B se corrió al jueves 27). Sí
 **Récords:** mejor duración en Plancha (1m 2s).
 
 *Tercera serie de Hip Thrust a RPE 10 y tercera de Hip Abduction también a 10. Sesión junto a Francisco.*
+
+## 11 Sep 2026 — 🚂 🔝
+
+**Hora:** 11:23 AM  
+**Duración:** 2h 17m  
+**Volumen Hevy:** 3,881 kg  
+**Comentario:** Bieeeeen  
+
+| Orden | Ejercicio | Serie | Carga | Reps/tiempo | RPE |
+|---:|---|---:|---:|---|---:|
+| 1 | Lat Pulldown (Cable) | 1 | 19 kg | 12 | 6 |
+| 1 | Lat Pulldown (Cable) | 2 | 28,5 kg | 12 | 7,5 |
+| 1 | Lat Pulldown (Cable) | 3 | 28,5 kg | 11 | 9 |
+| 1 | Lat Pulldown (Cable) | 4 | 28,5 kg | 12 | 9 |
+| 2 | Seated Row (Machine) | 1 | 15 kg | 12 | 6 |
+| 2 | Seated Row (Machine) | 2 | 28,5 kg | 12 | 8 |
+| 2 | Seated Row (Machine) | 3 | 28,5 kg | 12 | 8,5 |
+| 2 | Seated Row (Machine) | 4 | 28,5 kg | 12 | 8,5 |
+| 3 | Bench Press (Barbell) | 1 | 12,5 kg | 12 | 6 |
+| 3 | Bench Press (Barbell) | 2 | 17,5 kg | 12 | 7 |
+| 3 | Bench Press (Barbell) | 3 | 17,5 kg | 12 | 7,5 |
+| 3 | Bench Press (Barbell) | 4 | 17,5 kg | 12 | 8,5 |
+| 4 | Shoulder Press (Dumbbell) | 1 | 4 kg | 12 | 6 |
+| 4 | Shoulder Press (Dumbbell) | 2 | 4 kg | 12 | 7 |
+| 4 | Shoulder Press (Dumbbell) | 3 | 4 kg | 12 | 7 |
+| 5 | Lateral Raise (Dumbbell) | 1 | 4 kg | 15 | 7 |
+| 5 | Lateral Raise (Dumbbell) | 2 | 4 kg | 15 | 8,5 |
+| 5 | Lateral Raise (Dumbbell) | 3 | 4 kg | 15 | 9 |
+| 6 | Bicep Curl (Dumbbell) | 1 | 5 kg | 12 | 6 |
+| 6 | Bicep Curl (Dumbbell) | 2 | 5 kg | 12 | 6 |
+| 6 | Bicep Curl (Dumbbell) | 3 | 5 kg | 12 | 8 |
+| 7 | Overhead Triceps Extension (Cable) | 1 | 3,75 kg | 12 | 6 |
+| 7 | Overhead Triceps Extension (Cable) | 2 | 5 kg | 12 | 7 |
+| 7 | Overhead Triceps Extension (Cable) | 3 | 5 kg | 12 | 9,5 |
+| 8 | Reverse Crunch | 1 | Peso corporal | 15 | 8 |
+| 8 | Reverse Crunch | 2 | Peso corporal | 15 | 8 |
+| 8 | Reverse Crunch | 3 | Peso corporal | 15 | 8,5 |
+| 9 | Side Plank | 1 | Peso corporal | 32 s | — |
+| 9 | Side Plank | 2 | Peso corporal | 31 s | — |
+| 9 | Side Plank | 3 | Peso corporal | 30 s | — |
+| 10 | Heel Taps | 1 | Peso corporal | 20 | 6 |
+| 10 | Heel Taps | 2 | Peso corporal | 20 | 6 |
+| 10 | Heel Taps | 3 | Peso corporal | 20 | 6 |
+| 11 | Stair Machine (Floors) | 1 | — | 43 pisos / 12m 0s | — |
+
+**Notas por ejercicio:**
+- **Shoulder Press:** *"Estuvo fácil con 4, ¿subir a 5 la próxima semana?"*
+- **Overhead Triceps Extension:** polea a la altura de la cadera.
+- **Side Plank:** *hoy sin rodilla*, 30 s por lado × 3. Primera vez con la versión completa.
+- **Stair Machine:** FC máx 183, nivel 6-9.
+
+*Segundo día completo de tren superior, sin molestias de codo. Heel Taps salió en el piso de la escala (RPE 6) las tres series.*

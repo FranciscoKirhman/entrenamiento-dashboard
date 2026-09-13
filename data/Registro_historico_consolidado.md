@@ -2053,3 +2053,74 @@ Sesión de boulder por la tarde, después del entrenamiento de pierna de la mañ
 - **Chest Press:** la máquina tiene 5 posiciones de rango; usó la media en la primera serie y la alta en las otras dos.
 
 *Chest Press bajado a 75 kg tras la serie fallada del 4: salieron 10, 8 y 8. Sesión junto a Paloma.*
+
+## 9 Sep 2026 — Afternoon workout 💪
+
+**Hora:** 1:11 PM  
+**Duración:** 1h 24m  
+**Volumen Hevy:** 16,381 kg  
+**Comentario:** Summer on the inside  
+
+| Orden | Ejercicio | Serie | Carga | Reps/tiempo | RPE |
+|---:|---|---:|---:|---|---:|
+| 1 | Squat (Barbell) | 1 | 20 kg | 12 | — |
+| 1 | Squat (Barbell) | 2 | 60 kg | 6 | — |
+| 1 | Squat (Barbell) | 3 | 90 kg | 8 | 7,5 |
+| 1 | Squat (Barbell) | 4 | 90 kg | 8 | 8,5 |
+| 1 | Squat (Barbell) | 5 | 90 kg | 8 | 8,5 |
+| 2 | Leg Press (Machine) | 1 | 100 kg | 10 | 6 |
+| 2 | Leg Press (Machine) | 2 | 180 kg | 12 | 8 |
+| 2 | Leg Press (Machine) | 3 | 180 kg | 12 | 8,5 |
+| 2 | Leg Press (Machine) | 4 | 160 kg | 12 | 8,5 |
+| 3 | Leg Extension (Machine) | 1 | 66 kg | 12 | 8 |
+| 3 | Leg Extension (Machine) | 2 | 66 kg | 12 | 8,5 |
+| 3 | Leg Extension (Machine) | 3 | 66 kg | 12 | 9 |
+| 4 | Hip Adduction (Machine) | 1 | 89 kg | 15 | 7 |
+| 4 | Hip Adduction (Machine) | 2 | 89 kg | 15 | 7 |
+| 4 | Hip Adduction (Machine) | 3 | 89 kg | 15 | 8 |
+| 5 | Knee Raise Parallel Bars | 1 | Peso corporal | 15 | 7,5 |
+| 5 | Knee Raise Parallel Bars | 2 | Peso corporal | 15 | 8 |
+| 5 | Knee Raise Parallel Bars | 3 | Peso corporal | 15 | 8,5 |
+| 6 | Stair Machine (Floors) | 1 | — | 56 pisos / 15m 0s | — |
+
+*Primera vez con **tres series completas de sentadilla a 90 kg** (8, 8, 8 a RPE 7,5-8,5). Desde el 26 de junio había tocado 90 tres veces sin completar nunca tres series ahí.*
+
+## 11 Sep 2026 — Afternoon workout 💪
+
+**Hora:** 11:37 AM  
+**Duración:** 2h 3m  
+**Volumen Hevy:** 15,242 kg  
+
+| Orden | Ejercicio | Serie | Carga | Reps/tiempo | RPE |
+|---:|---|---:|---:|---|---:|
+| 1 | Lat Pulldown (Cable) | 1 | 61 kg | 12 | — |
+| 1 | Lat Pulldown (Cable) | 2 | 82 kg | 12 | 8 |
+| 1 | Lat Pulldown (Cable) | 3 | 82 kg | 12 | 9 |
+| 1 | Lat Pulldown (Cable) | 4 | 82 kg | 12 | 9 |
+| 2 | Seated Row (Machine) | 1 | 61 kg | 12 | 6 |
+| 2 | Seated Row (Machine) | 2 | 75 kg | 12 | 8,5 |
+| 2 | Seated Row (Machine) | 3 | 75 kg | 12 | 8,5 |
+| 2 | Seated Row (Machine) | 4 | 75 kg | 12 | 8,5 |
+| 3 | Pull Up | 1 | Peso corporal | 12 | 8,5 |
+| 3 | Pull Up | 2 | Peso corporal | 11 | 9,5 |
+| 3 | Pull Up | 3 | Peso corporal | 9 | 9,5 |
+| 4 | Preacher Curl (Machine) | 1 | 50 kg | 10 | 9 |
+| 4 | Preacher Curl (Machine) | 2 | 45 kg | 12 | 8,5 |
+| 4 | Preacher Curl (Machine) | 3 | 45 kg | 12 | 8,5 |
+| 5 | Rear Delt Reverse Fly (Machine) | 1 | 59 kg | 12 | 8 |
+| 5 | Rear Delt Reverse Fly (Machine) | 2 | 59 kg | 12 | 8,5 |
+| 5 | Rear Delt Reverse Fly (Machine) | 3 | 59 kg | 10 | 10 |
+| 6 | Face Pull | 1 | 27,5 kg | 15 | 7 |
+| 6 | Face Pull | 2 | 27,5 kg | 15 | 7 |
+| 6 | Face Pull | 3 | 30 kg | 15 | 9,5 |
+| 7 | Overhead Triceps Extension (Cable) | 1 | 21,25 kg | 12 | 8 |
+| 7 | Overhead Triceps Extension (Cable) | 2 | 22,5 kg | 11 | 9,5 |
+| 7 | Overhead Triceps Extension (Cable) | 3 | 22,5 kg | 9 | 9,5 |
+| 8 | Side Plank | 1 | Peso corporal | 31 s | — |
+| 9 | Stair Machine (Floors) | 1 | — | 78 pisos / 20m 0s | — |
+
+**Notas por ejercicio:**
+- **Preacher Curl:** hizo los brazos por separado, primero el derecho y después el izquierdo — las cargas no son comparables con las sesiones a dos brazos.
+- **Side Plank:** anotó 1ª con 15 y RIR 3, 2ª con RIR 2; en Hevy quedó una sola serie de 31 s.
+
+*Primera vez con **tres series de jalón a 82 × 12** (el 3 de septiembre fueron 12, 11 y 10). Hizo el Pull el viernes en vez del jueves; la sesión de pierna 2 + pecho del viernes quedó sin hacer.*
