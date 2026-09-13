@@ -56,6 +56,19 @@ def verifica_cargas(profiles, tope=1.10):
         raise SystemExit("cargas fuera de rango:\n  " + "\n  ".join(fallas))
 
 
+def verifica_duplicados(profiles):
+    """Un mismo ejercicio no puede aparecer dos veces en el mismo dia."""
+    fallas = []
+    for perfil, datos in profiles.items():
+        for dia in datos.get("WEEKDAYS", []):
+            nombres = [e.get("name") for e in (dia.get("exercises") or [])]
+            rep = sorted({n for n in nombres if nombres.count(n) > 1})
+            if rep:
+                fallas.append(f"{perfil} {dia['date']}: repetido {', '.join(rep)}")
+    if fallas:
+        raise SystemExit("ejercicios duplicados:\n  " + "\n  ".join(fallas))
+
+
 def verifica_calentamientos(profiles):
     """Todo dia con ejercicios lleva calentamiento y estiramiento, con explicacion.
 
@@ -88,6 +101,7 @@ def build():
     profiles = json.load(open(os.path.join(SRC,"profiles.json"), encoding="utf-8"))
     verifica_calentamientos(profiles)
     verifica_cargas(profiles)
+    verifica_duplicados(profiles)
     tpl = tpl.replace("__PROFILES_JSON__", json.dumps(profiles, ensure_ascii=False))
     cuerpos = json.load(open(os.path.join(SRC,"bodypaths.json"), encoding="utf-8"))
     tpl = tpl.replace("__BODYPATHS_JSON__", json.dumps(cuerpos, ensure_ascii=False, separators=(",",":")))
