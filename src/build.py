@@ -168,6 +168,15 @@ def verifica_discos(profiles, hoy=None, disco=2.5):
         raise SystemExit(f"cargas que no se arman con discos de {disco:g} kg:\n  " + "\n  ".join(fallas))
 
 
+def verifica_graficos(profiles):
+    """Los gráficos tienen que calzar con el historial. Se atrasaron un mes una vez: las cargas
+    tope seguían en el 20 de agosto y el volumen por músculo no incluía las últimas sesiones."""
+    import copy, graficos
+    cambios = graficos.actualiza(copy.deepcopy(profiles))
+    if cambios:
+        raise SystemExit("gráficos desactualizados (correr python3 src/graficos.py):\n  " + "\n  ".join(cambios))
+
+
 def build():
     tpl = open(os.path.join(SRC,"dashboard.template.html"), encoding="utf-8").read()
     for key, slug in FONTS.items():
@@ -179,6 +188,7 @@ def build():
     verifica_cargas(profiles)
     verifica_duplicados(profiles)
     verifica_discos(profiles)
+    verifica_graficos(profiles)
     tpl = tpl.replace("__PROFILES_JSON__", json.dumps(profiles, ensure_ascii=False))
     cuerpos = json.load(open(os.path.join(SRC,"bodypaths.json"), encoding="utf-8"))
     tpl = tpl.replace("__BODYPATHS_JSON__", json.dumps(cuerpos, ensure_ascii=False, separators=(",",":")))

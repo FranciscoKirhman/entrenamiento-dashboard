@@ -1,4 +1,4 @@
-# Historial de entrenamiento de Paloma (Mipi) — 28 de febrero al 4 de septiembre de 2026 (79 sesiones)
+# Historial de entrenamiento de Paloma (Mipi) — 28 de febrero al 13 de septiembre de 2026 (82 sesiones)
 
 Registro cronológico consolidado, mismo formato que el de Mopo. Cada fila corresponde a una serie real copiada desde Hevy. Los volúmenes oficiales se conservan sin reemplazarlos por cálculos derivados (excepto en sesiones con ejercicios asistidos o de solo-peso-corporal, donde Hevy suma un componente de peso corporal que no aparece en el texto copiado — el volumen mostrado sigue siendo el oficial de la app).
 
@@ -2549,3 +2549,42 @@ No hubo sesión de gimnasio este día (la pierna B se corrió al jueves 27). Sí
 - **Stair Machine:** FC máx 183, nivel 6-9.
 
 *Segundo día completo de tren superior, sin molestias de codo. Heel Taps salió en el piso de la escala (RPE 6) las tres series.*
+
+## 13 Sep 2026 — Gluteo e isquio🍗
+
+**Hora:** 2:15 PM  
+**Duración:** 1h 30m  
+**Volumen Hevy:** 7,576 kg  
+**Comentario:** QUE CALOR  
+
+| Orden | Ejercicio | Serie | Carga | Reps/tiempo | RPE |
+|---:|---|---:|---:|---|---:|
+| 1 | Back Extension (Weighted Hyperextension) | 1 | 0 kg | 15 | 6 |
+| 1 | Back Extension (Weighted Hyperextension) | 2 | 20 kg | 15 | 7,5 |
+| 1 | Back Extension (Weighted Hyperextension) | 3 | 20 kg | 15 | 7 |
+| 2 | Leg Press (Machine) | 1 | 40 kg | 12 | 6 |
+| 2 | Leg Press (Machine) | 2 | 80 kg | 8 | 7 |
+| 2 | Leg Press (Machine) | 3 | 105 kg | 12 | 7,5 |
+| 2 | Leg Press (Machine) | 4 | 105 kg | 12 | 8 |
+| 2 | Leg Press (Machine) | 5 | 105 kg | 12 | 8 |
+| 3 | Standing Cable Glute Kickbacks | 1 | 14 kg | 12 | 7 |
+| 3 | Standing Cable Glute Kickbacks | 2 | 23 kg | 12 | 8 |
+| 3 | Standing Cable Glute Kickbacks | 3 | 23 kg | 12 | 8 |
+| 3 | Standing Cable Glute Kickbacks | 4 | 23 kg | 12 | 9,5 |
+| 4 | Lying Leg Curl (Machine) | 1 | 15 kg | 12 | 6 |
+| 4 | Lying Leg Curl (Machine) | 2 | 25 kg | 12 | 7 |
+| 4 | Lying Leg Curl (Machine) | 3 | 25 kg | 12 | 8,5 |
+| 4 | Lying Leg Curl (Machine) | 4 | 25 kg | 12 | 8 |
+| 5 | Side Plank | 1 | Peso corporal | 30 s | — |
+| 5 | Side Plank | 2 | Peso corporal | 31 s | — |
+| 5 | Side Plank | 3 | Peso corporal | 30 s | — |
+| 6 | Puente Gluteo Con Marcha | 1 | Peso corporal | 10 | — |
+| 6 | Puente Gluteo Con Marcha | 2 | Peso corporal | 10 | — |
+| 6 | Puente Gluteo Con Marcha | 3 | Peso corporal | 10 | — |
+
+**Notas por ejercicio:**
+- **Standing Cable Glute Kickbacks:** *"Hoy hacia atrás classic, con pie en 45 hacia afuera. Bien, la última serie dificil"*
+- **Lying Leg Curl:** *"Primera opcion siempre acostado, si está ocupado cambiaré a sentado"*
+- **Puente Gluteo Con Marcha:** *"10 por lado, meterle banda o pesa chica"*
+
+*Hizo el día de glúteo y femoral del domingo. En vez de la Back Extension en máquina usó el banco con disco (20 kg × 15), y el curl femoral fue acostada en vez de sentada, que dejó anotado como su primera opción. Prensa a 105 × 12 las tres con RPE 7,5, 8 y 8, más fácil que el 2 de septiembre (7, 8,5 y 8,5).*

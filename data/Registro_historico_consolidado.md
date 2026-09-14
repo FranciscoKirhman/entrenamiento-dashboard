@@ -1,4 +1,4 @@
-# Historial de entrenamiento por fecha — 29 de mayo de 2026 al 4 de septiembre de 2026 (70 sesiones)
+# Historial de entrenamiento por fecha — 29 de mayo de 2026 al 13 de septiembre de 2026 (75 sesiones)
 
 Registro cronológico consolidado. Cada fila corresponde a una serie real copiada desde Hevy. Los volúmenes oficiales se conservan sin reemplazarlos por cálculos derivados.
 
@@ -2124,3 +2124,40 @@ Sesión de boulder por la tarde, después del entrenamiento de pierna de la mañ
 - **Side Plank:** anotó 1ª con 15 y RIR 3, 2ª con RIR 2; en Hevy quedó una sola serie de 31 s.
 
 *Primera vez con **tres series de jalón a 82 × 12** (el 3 de septiembre fueron 12, 11 y 10). Hizo el Pull el viernes en vez del jueves; la sesión de pierna 2 + pecho del viernes quedó sin hacer.*
+
+## 13 Sep 2026 — Afternoon workout 💪
+
+**Hora:** 2:12 PM  
+**Duración:** 2h 5m  
+**Volumen Hevy:** 12,811 kg  
+
+| Orden | Ejercicio | Serie | Carga | Reps/tiempo | RPE |
+|---:|---|---:|---:|---|---:|
+| 1 | Back Extension (Weighted Hyperextension) | 1 | 63,5 kg | 7 | 9 |
+| 1 | Back Extension (Weighted Hyperextension) | 2 | 53 kg | 12 | 8,5 |
+| 1 | Back Extension (Weighted Hyperextension) | 3 | 53 kg | 12 | 9 |
+| 2 | Incline Bench Press (Barbell) | 1 | 40 kg | 8 | — |
+| 2 | Incline Bench Press (Barbell) | 2 | 60 kg | 10 | 8,5 |
+| 2 | Incline Bench Press (Barbell) | 3 | 65 kg | 10 | 8,5 |
+| 2 | Incline Bench Press (Barbell) | 4 | 65 kg | 8 | 9 |
+| 3 | Chest Fly (Machine) | 1 | 54 kg | 15 | 7,5 |
+| 3 | Chest Fly (Machine) | 2 | 54 kg | 14 | 8,5 |
+| 3 | Chest Fly (Machine) | 3 | 54 kg | 15 | 9 |
+| 4 | Hip Adduction (Machine) | 1 | 89 kg | 15 | 7 |
+| 4 | Hip Adduction (Machine) | 2 | 89 kg | 15 | 7 |
+| 4 | Hip Adduction (Machine) | 3 | 89 kg | 15 | 7 |
+| 5 | Cable Core Pallof Press | 1 | 15 kg | 15 | 8 |
+| 5 | Cable Core Pallof Press | 2 | 15 kg | 15 | 8,5 |
+| 5 | Cable Core Pallof Press | 3 | 15 kg | 15 | 8 |
+| 6 | Lying Leg Curl (Machine) | 1 | 32 kg | 12 | 6 |
+| 6 | Lying Leg Curl (Machine) | 2 | 46 kg | 12 | 8,5 |
+| 6 | Lying Leg Curl (Machine) | 3 | 46 kg | 11 | 9 |
+| 6 | Lying Leg Curl (Machine) | 4 | 46 kg | 11 | 9,5 |
+
+**Notas por ejercicio:**
+- **Back Extension (Weighted Hyperextension):** *"Confundi este ejercicio y la maquina de de espalda baja"*
+- **Incline Bench Press:** *"Sin molestias recuerda que no hay discos de 1.25"*
+
+**Récords:** 1 — mejor peso en Back Extension (Weighted Hyperextension).
+
+*Hizo el día de pierna 2 + pecho que quedó pendiente del viernes. Inclinado con barra a 65 × 10 sin molestias (la prescripción de 62,5 no se podía armar). Curl femoral acostado en vez del sentado prescrito. La Back Extension quedó con otro nombre en Hevy y pesos distintos a los del 7 (63,5 × 15 a RPE 7 en "Machine"): falta confirmar qué máquina fue.*

@@ -5,10 +5,11 @@
 
 Hace, en orden:
   1. copia los .md de ~/Documents/Entrenamiento al repo (data/)
-  2. regenera index.html desde src/
-  3. commit + push a GitHub
+  2. recalcula los gráficos desde el historial (src/graficos.py)
+  3. regenera index.html desde src/
+  4. commit + push a GitHub
 """
-import os, shutil, subprocess, sys, glob
+import glob, json, os, shutil, subprocess, sys
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DOCS = os.path.expanduser("~/Documents/Entrenamiento")
 
@@ -26,6 +27,11 @@ def main():
             if not (os.path.exists(dst) and open(f,'rb').read() == open(dst,'rb').read()):
                 shutil.copy2(f, dst); print("sincronizado:", os.path.basename(f))
     sys.path.insert(0, os.path.join(ROOT, "src"))
+    import graficos
+    cambios = graficos.actualiza(perfiles := json.load(open(graficos.PATH, encoding="utf-8")))
+    if cambios:
+        json.dump(perfiles, open(graficos.PATH, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+        print("gráficos:", *cambios, sep="\n  ")
     import build; build.build()
     if not run("git", "status", "--porcelain"):
         print("sin cambios que publicar"); return
