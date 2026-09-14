@@ -5685,27 +5685,27 @@
       "sets": [
        {
         "serie": "Aprox.",
-        "carga": "40 kg",
+        "carga": "20 kg",
         "reps": "12",
         "rir": "5",
         "descanso": "90s"
        },
        {
         "serie": "1",
-        "carga": "42,5 kg",
+        "carga": "40 kg",
         "reps": "10",
         "rir": "4",
         "descanso": "2 min"
        },
        {
         "serie": "2",
-        "carga": "42,5 kg",
+        "carga": "40 kg",
         "reps": "10",
         "rir": "4",
         "descanso": "2 min"
        }
       ],
-      "cue": "85% de 50 kg. **Semana ideal para arreglar la tensión lumbar** que anotaste: con poco peso puedes concentrarte en parar donde la espalda empieza a redondearse, sin la urgencia de completar la serie."
+      "cue": "**40 kg, no 42,5.** El 85% de 50 da 42,5, pero en la Smith eso son 21,25 kg por lado y no hay discos de 1,25. **Semana ideal para arreglar la tensión lumbar** que anotaste: con poco peso puedes concentrarte en parar donde la espalda empieza a redondearse, sin la urgencia de completar la serie."
      },
      {
       "name": "Seated Leg Curl (Machine)",
@@ -5852,20 +5852,20 @@
        },
        {
         "serie": "1",
-        "carga": "32,5 kg",
+        "carga": "35 kg",
         "reps": "8",
         "rir": "4",
         "descanso": "2:30"
        },
        {
         "serie": "2",
-        "carga": "32,5 kg",
+        "carga": "35 kg",
         "reps": "8",
         "rir": "4",
         "descanso": "2:30"
        }
       ],
-      "cue": "**Acá está el valor de la descarga para este ejercicio.** A 40 kg llevas tres semanas con 8, 6, 6 — no completas el trabajo. A 32,5 haz las dos series de 8 perfectas, con la cabeza pasando bajo la barra arriba. Reaprende el patrón y en el mesociclo nuevo vuelves a 40 con la técnica resuelta."
+      "cue": "**Acá está el valor de la descarga para este ejercicio.** A 40 kg llevas tres semanas con 8, 6, 6 — no completas el trabajo. A 35 kg haz las dos series de 8 perfectas, con la cabeza pasando bajo la barra arriba. Estaba en 32,5, pero eso son 6,25 kg por lado y no hay discos de 1,25. En el mesociclo nuevo el press militar descansa y entra el press con mancuernas: ver el lunes 21."
      },
      {
       "name": "Chest Press (Machine)",
@@ -20460,7 +20460,7 @@
         "descanso": "2:30"
        }
       ],
-      "cue": "🤝 Mopo abre con el mismo ejercicio: alternan en la barra. **Sube de 100 a 105**: las tres series del 24 salieron a RPE 7 con objetivo RIR 3, o sea te sobraba. Una variable a la vez, solo el peso.\n\nLa tercera serie del 8 de septiembre salió a **RPE 10** — la segunda semana seguida que terminas al fallo acá. 105 kg es tu peso correcto, pero la serie tiene que cerrar en 8, con dos repeticiones guardadas. Si la tercera se va a 10 otra vez, baja a 100 y quédate ahí.\n\n**Esta semana:** 95 kg y dos series, no 105 y tres. Vienes de turno y estás en premenstrual — hoy se mantiene el glúteo, no se sube."
+      "cue": "🤝 Mopo abre con el mismo ejercicio: alternan en la barra.\n\n**Esta semana: 95 kg y dos series, no 105 y tres.** Vienes de turno y estás en premenstrual — hoy se mantiene el glúteo, no se sube.\n\nLa tercera serie del 8 de septiembre salió a **RPE 10**, la segunda semana seguida al fallo acá. 105 kg es tu peso correcto, pero la serie tiene que cerrar en 8 con dos repeticiones guardadas. Desde el lunes 21 vuelve a 105, de a una repetición por semana."
      },
      {
       "name": "Romanian Deadlift (Smith Machine)",
@@ -20693,7 +20693,8 @@
         "descanso": "90s"
        }
       ],
-      "cue": "**Cambiado por lo que elegiste tú**: el 3 de septiembre hiciste press banca con barra a 17,5 kg en vez del Chest Press de máquina, y salió a RPE 7,5-8 las tres series. La barra es mejor para ti ahora — más rango y menos espera de máquina. Se queda en 17,5 esta semana."
+      "cue": "**Cambiado por lo que elegiste tú**: el 3 de septiembre hiciste press banca con barra a 17,5 kg en vez del Chest Press de máquina, y salió a RPE 7,5-8 las tres series. La barra es mejor para ti ahora — más rango y menos espera de máquina. Se queda en 17,5 esta semana.",
+      "barra": 12.5
      },
      {
       "name": "Shoulder Press (Dumbbell)",
@@ -20727,7 +20728,7 @@
         "descanso": "90s"
        }
       ],
-      "cue": "**Sube a 5 kg, como preguntaste** — el 11 de septiembre los 4 kg salieron a RPE 6, 7 y 7, o sea con cuatro o cinco repeticiones de sobra.\n\n4 kg × 12-15 a RPE 7-8. Exactamente en el objetivo: sostener una semana más y después 5 kg."
+      "cue": "**Sube a 5 kg, como preguntaste** — el 11 de septiembre los 4 kg salieron a RPE 6, 7 y 7, o sea con cuatro o cinco repeticiones de sobra. Si la tercera serie pasa de RPE 8, la semana que viene se repite en 5 kg."
      },
      {
       "name": "Face Pull",

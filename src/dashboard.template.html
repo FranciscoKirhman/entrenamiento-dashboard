@@ -168,6 +168,13 @@ table.settable td:first-child{ text-align:left; font-family:'IBM Plex Sans'; col
 table.settable tr:last-child td{ border-bottom:none; }
 table.settable td.rir{ color:var(--accent); font-weight:600; }
 .ex-notes{ font-size:12px; color:var(--ink-faint); margin:6px 0 0; line-height:1.5; font-style:italic; }
+.ex-cue{ font-size:12px; color:var(--ink-muted); margin:6px 0 0; line-height:1.55; }
+details.ex-tec{ margin-top:6px; }
+details.ex-tec>summary{ cursor:pointer; list-style:none; font-family:'IBM Plex Mono'; font-size:10px; font-weight:600; letter-spacing:.06em; text-transform:uppercase; color:var(--secondary); }
+details.ex-tec>summary::-webkit-details-marker{ display:none; }
+details.ex-tec>summary::after{ content:' ▾'; }
+details.ex-tec[open]>summary::after{ content:' ▴'; }
+details.ex-tec .ex-cue{ padding-left:10px; border-left:2px solid var(--border); }
 
 /* ---------- warmup / stretch bookends ---------- */
 .bookend{ margin-bottom:16px; padding-bottom:14px; border-bottom:1px dashed var(--border); }
@@ -367,6 +374,8 @@ footer a:hover{ color:var(--accent); }
 .pastbox[open]>summary::after{ content:'▴'; }
 .pastbox[open]>summary{ border-bottom:1px dashed var(--line); }
 .pastinner{ padding:12px; }
+.weekhead{ font-family:'IBM Plex Mono',monospace; font-size:11px; font-weight:600; letter-spacing:.04em; text-transform:uppercase; color:var(--secondary); margin:10px 0 0; }
+.weekhead:first-child{ margin-top:0; }
 .daycard.past{ opacity:.72; }
 details.callout>summary.herosum{ list-style:none; cursor:pointer; display:flex; align-items:center; gap:10px; flex-wrap:wrap; }
 details.callout>summary.herosum::-webkit-details-marker{ display:none; }
@@ -527,7 +536,7 @@ details.callout[open]>summary.herosum::after{ content:'▴'; }
 
     <section id="semana">
       <div class="section-head">
-        <h2 id="semanaTitle">Esta semana y la próxima</h2>
+        <h2 id="semanaTitle">Plan de las próximas semanas</h2>
         <span class="hint">Toca un día para ver sus series — RIR y descanso incluidos</span>
       </div>
       <p class="lede">Cada ejercicio trae su tabla de series: peso, reps, RIR objetivo y descanso, calculados desde la última marca real. Si un día no calza, se puede mover — lo que no cambia es qué músculo toca primero, porque eso lo define el déficit, no el calendario.</p>
@@ -788,7 +797,24 @@ details.callout[open]>summary.herosum::after{ content:'▴'; }
       '<thead><tr><th>Serie</th><th>Carga</th><th>Reps</th><th>RIR</th><th>Descanso</th></tr></thead>'+
       '<tbody>'+rows+'</tbody></table></div>'+
       (ex.notes ? '<p class="ex-notes">'+escMd(ex.notes)+'</p>' : '')+
+      renderCue(ex.cue)+
       '</div>';
+  }
+
+  // La ficha del ejercicio: lo que explica la carga queda a la vista y la tecnica
+  // (Como te pones / Que haces / Como sabes que esta bien / Si aparece) va plegada.
+  var TECNICA = /^\*\*(Cómo te pones|Qué haces|Cómo sabes|Si aparece)/;
+  function renderCue(cue){
+    if(!cue) return '';
+    var vista = [], tecnica = [];
+    String(cue).split(/\n\s*\n/).forEach(function(p){
+      p = p.trim();
+      if(!p) return;
+      var html = '<p class="ex-cue">'+escMd(p).replace(/\n/g, '<br>')+'</p>';
+      (TECNICA.test(p) ? tecnica : vista).push(html);
+    });
+    return vista.join('')+
+      (tecnica.length ? '<details class="ex-tec"><summary>Cómo hacerlo</summary>'+tecnica.join('')+'</details>' : '');
   }
 
   // escapa y luego convierte **negrita** de markdown — el escape va primero, asi el texto sigue siendo seguro
@@ -814,12 +840,22 @@ details.callout[open]>summary.herosum::after{ content:'▴'; }
       var dia = diaDeCiclo(c.fur, c.largo || 28, todayISO());
       texto = texto.replace(/Día\s+\d+\s+del ciclo/i, 'Día '+dia+' del ciclo');
     }
-    if(c.meso && c.meso.inicio && c.meso.total){
-      var sem = semanaDeMeso(c.meso.inicio, c.meso.total, todayISO());
-      texto = texto.replace(/Semana\s+\d+\s+de\s+\d+/i, 'Semana '+sem+' de '+c.meso.total);
+    var m = mesoDe(c, todayISO());
+    if(m && m.inicio && m.total){
+      var sem = semanaDeMeso(m.inicio, m.total, todayISO());
+      texto = texto.replace(/Semana\s+\d+\s+de\s+\d+/i, 'Semana '+sem+' de '+m.total);
     }
     el.innerHTML = '<span class="cyclebadge">'+esc(texto)+'</span>';
-    el.title = c.detail || '';
+    el.title = (m && m.detail) || c.detail || '';
+  }
+
+  // cycle.mesos es la lista de mesociclos (el vigente es el ultimo que ya empezo), asi el
+  // siguiente se puede cargar por adelantado sin pisar la semana en curso.
+  // cycle.meso, un solo objeto, sigue funcionando para los datos viejos.
+  function mesoDe(c, iso){
+    var lista = [].concat(c.mesos || c.meso || []), vig = null;
+    lista.forEach(function(m){ if(m.inicio && m.inicio <= iso && (!vig || m.inicio > vig.inicio)) vig = m; });
+    return vig || lista[0] || null;
   }
 
   function semanaDeMeso(inicio, total, iso){
@@ -919,7 +955,43 @@ details.callout[open]>summary.herosum::after{ content:'▴'; }
       box.appendChild(inner);
       wrap.appendChild(box);
     }
-    resto.forEach(function(d){ wrap.appendChild(makeCard(d)); });
+    // con un plan de varias semanas la lista se hace eterna: esta semana y la proxima
+    // quedan a la vista, las siguientes plegadas por semana
+    var MES = ['ene','feb','mar','abr','may','jun','jul','ago','sep','oct','nov','dic'];
+    function lunesDe(iso){
+      var d = new Date(iso+'T12:00:00');
+      d.setDate(d.getDate() - (d.getDay()+6)%7);
+      return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0');
+    }
+    var semanas = [], porSemana = {};
+    resto.forEach(function(d){
+      var k = d.date ? lunesDe(d.date) : '';
+      if(!porSemana[k]){ porSemana[k] = []; semanas.push(k); }
+      porSemana[k].push(d);
+    });
+    var lunesHoy = lunesDe(t);
+    semanas.forEach(function(k, i){
+      var dias = porSemana[k];
+      var n = dias.filter(function(d){ return d.exercises.length; }).length;
+      var etiqueta = (k === lunesHoy ? 'Esta semana' : 'Semana del '+(+k.slice(8))+' '+MES[+k.slice(5,7)-1])+
+        ' · '+n+(n === 1 ? ' sesión' : ' sesiones');
+      if(i < 2){
+        var h = document.createElement('p');
+        h.className = 'weekhead';
+        h.textContent = etiqueta;
+        wrap.appendChild(h);
+        dias.forEach(function(d){ wrap.appendChild(makeCard(d)); });
+        return;
+      }
+      var box = document.createElement('details');
+      box.className = 'pastbox';
+      box.innerHTML = '<summary><span class="pastlabel">'+esc(etiqueta)+'</span></summary>';
+      var inner = document.createElement('div');
+      inner.className = 'daycards pastinner';
+      dias.forEach(function(d){ inner.appendChild(makeCard(d)); });
+      box.appendChild(inner);
+      wrap.appendChild(box);
+    });
   }
 
 
@@ -1265,10 +1337,17 @@ details.callout[open]>summary.herosum::after{ content:'▴'; }
     var s = String(c).replace(/\s|kg/gi,'').replace(',', '.');
     return /^[\d.]+$/.test(s) ? parseFloat(s) : 0;
   }
+  // SESSIONS_FULL no garantiza orden (hoy viene de la mas reciente a la mas antigua):
+  // cada vista ordena por fecha en vez de asumirlo
+  function porFecha(ses, reciente){
+    return (ses || []).slice().sort(function(a,b){
+      return reciente ? b.date.localeCompare(a.date) : a.date.localeCompare(b.date);
+    });
+  }
   // serie de 1RM estimado por ejercicio, tomando el mejor set de cada sesion
   function e1rmSeries(profile){
     var porEj = {};
-    (profile.SESSIONS_FULL || []).forEach(function(s){
+    porFecha(profile.SESSIONS_FULL, false).forEach(function(s){
       var mejorPorEj = {};
       (s.exercises || []).forEach(function(e){
         var w = numCarga(e.carga), r = parseInt(e.reps, 10);
@@ -1389,14 +1468,17 @@ details.callout[open]>summary.herosum::after{ content:'▴'; }
     var c=profile.cycle||{}, html='';
 
     // --- mesociclo ---
-    if(c.meso){
-      var m=c.meso, pct=Math.round(m.semana/m.total*100);
+    var m=mesoDe(c, todayISO());
+    if(m){
+      // la semana se calcula con la fecha, igual que en el badge: el numero escrito a mano se quedaba atras
+      var sem=m.inicio ? semanaDeMeso(m.inicio, m.total, todayISO()) : m.semana;
+      var pct=Math.round(sem/m.total*100);
       var puntos='';
       for(var i=1;i<=m.total;i++){
-        puntos+='<i class="'+(i<m.semana?'done':(i===m.semana?'now':''))+'" title="Semana '+i+(m.deload===i?' — descarga':'')+'"></i>';
+        puntos+='<i class="'+(i<sem?'done':(i===sem?'now':''))+'" title="Semana '+i+(m.deload===i?' — descarga':'')+'"></i>';
       }
       html+='<div class="card estado-card">'+
-        '<div class="est-top"><span class="est-tag">Mesociclo</span><span class="est-h">Semana '+m.semana+' de '+m.total+'</span><span class="est-pct">'+pct+'%</span></div>'+
+        '<div class="est-top"><span class="est-tag">Mesociclo</span><span class="est-h">Semana '+sem+' de '+m.total+'</span><span class="est-pct">'+pct+'%</span></div>'+
         '<div class="est-dots">'+puntos+'</div>'+
         '<p class="est-txt">'+escMd(m.nota||'')+'</p></div>';
     }
@@ -1494,7 +1576,7 @@ details.callout[open]>summary.herosum::after{ content:'▴'; }
     }
     input.disabled = false;
 
-    var sorted = profile.SESSIONS_FULL.slice().reverse();
+    var sorted = porFecha(profile.SESSIONS_FULL, true);
     var cards = sorted.map(function(s){
       var det = document.createElement('details');
       det.className = 'histcard';
@@ -1560,7 +1642,7 @@ details.callout[open]>summary.herosum::after{ content:'▴'; }
     document.getElementById('histHint').textContent = n ? (n+' sesiones · más reciente primero') : 'sin sesiones aún';
     document.getElementById('muscleHint').textContent = (profile.hasData && profile.MUSCLES.length) ? 'Ventana reciente · normalizado a series/semana' : 'sin datos aún';
     document.getElementById('footerSource').textContent = 'Fuente: ' + (profile.fuente || 'Registro_historico_consolidado.md') + ' · ' + profile.displayName + (n ? (' · '+n+' sesiones') : '');
-    document.getElementById('semanaTitle').textContent = profile.hasData ? 'Esta semana y la próxima' : 'Esta semana y la próxima — sin datos';
+    document.getElementById('semanaTitle').textContent = profile.hasData ? 'Plan de las próximas semanas' : 'Plan de las próximas semanas — sin datos';
     hideTooltip();
     window.scrollTo(0,0);
   }

@@ -8,9 +8,18 @@ FONTS = {"OSWALD_600":"oswald-600","OSWALD_700":"oswald-700",
          "PLEXSANS_400":"plexsans-400","PLEXSANS_500":"plexsans-500","PLEXSANS_600":"plexsans-600",
          "PLEXMONO_400":"plexmono-400","PLEXMONO_500":"plexmono-500"}
 
+EQUIPO = {"barbell", "dumbbell", "cable", "machine", "smith machine", "weighted hyperextension",
+          "band", "kettlebell", "ez bar", "bodyweight", "weighted", "assisted"}
+
+
 def _norm(n):
-    """Nombre de ejercicio comparable entre el plan y el registro."""
-    n = re.sub(r"\(.*?\)", " ", (n or "").lower())
+    """Nombre de ejercicio comparable entre el plan y el registro.
+
+    El parentesis de equipo se conserva: 'Lateral Raise (Dumbbell)' y 'Lateral Raise (Cable)'
+    no comparten techo de carga. Los demas parentesis, como '(sentado)', se descartan.
+    """
+    n = re.sub(r"\((.*?)\)", lambda m: f" {m.group(1)} " if m.group(1).strip() in EQUIPO else " ",
+               (n or "").lower())
     n = re.sub(r"[^a-z0-9áéíóúñü ]", " ", n)
     return " ".join(n.split())
 
@@ -93,15 +102,83 @@ def verifica_calentamientos(profiles):
         raise SystemExit("calentamientos incompletos:\n  " + "\n  ".join(fallas))
 
 
+# Lo que la plantilla sabe mostrar. saltoOk y barra no se muestran: solo los leen las verificaciones.
+CAMPOS = {
+    "dia":       {"day", "date", "focus", "tag", "rationale", "cardio", "warmup", "stretch", "exercises"},
+    "ejercicio": {"name", "sets", "cue", "notes", "superset", "saltoOk", "barra"},
+    "serie":     {"serie", "carga", "reps", "rir", "descanso"},
+}
+
+
+def verifica_campos(profiles):
+    """Ningun dato del plan puede ir en un campo que la plantilla no lee.
+
+    Nace de un error real: desde el 27 de agosto las fichas de cada ejercicio se escribieron
+    en 'cue', pero la plantilla solo mostraba 'notes'. Mas de doscientas explicaciones de
+    tecnica y de carga quedaron guardadas sin que nadie las viera en el tablero.
+    """
+    fallas = set()
+    for perfil, datos in profiles.items():
+        for dia in datos.get("WEEKDAYS", []):
+            for k in set(dia) - CAMPOS["dia"]:
+                fallas.add(f"{perfil}: dia con campo '{k}'")
+            for ex in dia.get("exercises") or []:
+                for k in set(ex) - CAMPOS["ejercicio"]:
+                    fallas.add(f"{perfil}: ejercicio con campo '{k}'")
+                for st in ex.get("sets", []):
+                    for k in set(st) - CAMPOS["serie"]:
+                        fallas.add(f"{perfil}: serie con campo '{k}'")
+    if fallas:
+        raise SystemExit("campos que el tablero no muestra (agregarlos a la plantilla y a CAMPOS):\n  "
+                         + "\n  ".join(sorted(fallas)))
+
+
+def verifica_discos(profiles, hoy=None, disco=2.5):
+    """Una carga con barra tiene que poder armarse con los discos que hay: el minimo es 2,5 kg.
+
+    Nace de un error real: la descarga de Mopo del 15 de septiembre prescribia press militar a
+    32,5 kg, que son 6,25 kg por lado. La barra olimpica pesa 20; si otra pesa distinto (la de
+    press banca de Mipi pesa 12,5), va en el ejercicio como "barra". En la Smith se asume que la
+    carga anotada son solo los discos, como aparece en todo el historial.
+    Solo revisa del dia de hoy en adelante: lo que ya paso no se puede corregir en el gimnasio.
+    """
+    hoy = hoy or time.strftime("%Y-%m-%d")
+    fallas = []
+    for perfil, datos in profiles.items():
+        for dia in datos.get("WEEKDAYS", []):
+            if dia.get("date", "") < hoy:
+                continue
+            for ex in dia.get("exercises") or []:
+                nombre = (ex.get("name") or "").lower()
+                if "(barbell)" in nombre:
+                    barra = ex.get("barra", 20)
+                elif "(smith machine)" in nombre:
+                    barra = ex.get("barra", 0)
+                else:
+                    continue
+                for st in ex.get("sets", []):
+                    v = _kg(st.get("carga"))
+                    if v is None or v <= barra:
+                        continue
+                    por_lado = (v - barra) / 2
+                    if abs(por_lado / disco - round(por_lado / disco)) > 1e-9:
+                        fallas.append(f"{perfil} {dia['date']} {ex['name']} serie {st.get('serie')}: "
+                                      f"{v:g} kg son {por_lado:g} kg por lado con barra de {barra:g}")
+    if fallas:
+        raise SystemExit(f"cargas que no se arman con discos de {disco:g} kg:\n  " + "\n  ".join(fallas))
+
+
 def build():
     tpl = open(os.path.join(SRC,"dashboard.template.html"), encoding="utf-8").read()
     for key, slug in FONTS.items():
         b64 = open(os.path.join(SRC,"fonts",slug+".b64"), encoding="utf-8").read().strip()
         tpl = tpl.replace("{{"+key+"}}", b64)
     profiles = json.load(open(os.path.join(SRC,"profiles.json"), encoding="utf-8"))
+    verifica_campos(profiles)
     verifica_calentamientos(profiles)
     verifica_cargas(profiles)
     verifica_duplicados(profiles)
+    verifica_discos(profiles)
     tpl = tpl.replace("__PROFILES_JSON__", json.dumps(profiles, ensure_ascii=False))
     cuerpos = json.load(open(os.path.join(SRC,"bodypaths.json"), encoding="utf-8"))
     tpl = tpl.replace("__BODYPATHS_JSON__", json.dumps(cuerpos, ensure_ascii=False, separators=(",",":")))
