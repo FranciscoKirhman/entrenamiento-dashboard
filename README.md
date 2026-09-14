@@ -17,7 +17,8 @@ de una sesión, basta con clonar este repo.
 | `src/build.py` | Genera `index.html` desde la plantilla + `profiles.json`. |
 | `src/parse_log.py` | Convierte un registro markdown a JSON de sesiones (sirve para ambos perfiles). |
 | `src/parse_mopo.py` | Versión antigua, específica de Mopo. |
-| `src/publish.py` | Sincroniza los `.md` de `~/Documents/Entrenamiento`, reconstruye, commitea y sube — todo en un paso. |
+| `src/graficos.py` | Recalcula los gráficos de carga y el volumen por músculo desde el historial. `build.py` falla si quedaron atrasados. |
+| `src/publish.py` | Sincroniza los `.md` de `~/Documents/Entrenamiento`, recalcula los gráficos, reconstruye, commitea y sube — todo en un paso. |
 | `src/musclemap_convert.py` | Convierte los trazados de MuscleMap (Swift) a `src/bodypaths.json`. |
 | `src/bodypaths.json` | **Generado** — geometría del diagrama anatómico. |
 | `src/vendor/musclemap/` | Copia de los datos de MuscleMap y su licencia MIT. |
@@ -35,6 +36,7 @@ O paso a paso, si hace falta:
 
 ```bash
 python3 src/musclemap_convert.py   # solo si cambia el diagrama anatómico
+python3 src/graficos.py            # recalcula los gráficos desde el historial
 python3 src/build.py               # regenera index.html
 git add -A && git commit -m "actualiza tablero" && git push
 ```
@@ -50,6 +52,15 @@ menos de un minuto.
 - **Las fechas ambiguas se preguntan, no se deducen.**
 - Las molestias leves se registran tal cual, sin convertirlas en restricciones
   del entrenamiento salvo que la persona lo pida.
+- **Mopo y Mipi entrenan juntos: los planes se coordinan.** Los días firmes de ella
+  coinciden con días de él, y las máquinas que comparten se marcan con 🤝 para
+  alternar el pin.
+- **Espalda baja: hay dos máquinas.** La de glúteo se anota en Hevy como
+  *Back Extension (Weighted Hyperextension)*; la de erector espinal, como
+  *Back Extension (Machine)*. En la de erector se levanta más peso: sus cargas no
+  se comparan ni sirven para prescribir la otra.
+- **No hay discos de 1,25 kg.** Toda carga con barra o Smith sube de a 5 kg;
+  `build.py` lo verifica.
 
 ## Créditos
 

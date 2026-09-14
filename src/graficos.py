@@ -9,7 +9,8 @@ Actualiza, para cada perfil:
 Los textos (note, change, rationale) y las bandas (lo, hi) son criterio, no cálculo: no se tocan.
 
 Reproduce lo que se venía calculando a mano: los 18 gráficos de carga coinciden punto por punto
-con los que había, y el volumen reciente por músculo de Mopo coincide en los diez músculos.
+con los que había, y el volumen reciente por músculo de Mopo coincidía en los diez músculos. Desde el
+14 de septiembre la máquina de erector espinal ya no cuenta como glúteo.
 """
 import datetime as dt, json, os, re, sys
 
@@ -52,7 +53,9 @@ def puntos(sesiones, grafico):
 # ---------------------------------------------------------------- series por músculo
 MAPA = {
     "Femoral":            ["romanian deadlift", "leg curl", "good morning"],
-    "Glúteo / cadera":    ["hip thrust", "back extension", "glute kickback"],
+    # "Back Extension (Weighted Hyperextension)" es la máquina de glúteo; "Back Extension (Machine)" es la de
+    # erector espinal, que trabaja espalda baja y no cuenta para ningún músculo del tablero.
+    "Glúteo / cadera":    ["hip thrust", "hyperextension", "glute kickback"],
     "Cuádriceps":         ["squat", "leg press", "leg extension", "step up"],
     "Aductor / abductor": ["hip adduction", "hip abduction", "abductor"],
     "Espalda":            ["lat pulldown", "seated row", "pull up", "chin up", "iso-lateral row", "bent over row",

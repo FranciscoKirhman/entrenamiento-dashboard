@@ -2160,4 +2160,4 @@ Sesión de boulder por la tarde, después del entrenamiento de pierna de la mañ
 
 **Récords:** 1 — mejor peso en Back Extension (Weighted Hyperextension).
 
-*Hizo el día de pierna 2 + pecho que quedó pendiente del viernes. Inclinado con barra a 65 × 10 sin molestias (la prescripción de 62,5 no se podía armar). Curl femoral acostado en vez del sentado prescrito. La Back Extension quedó con otro nombre en Hevy y pesos distintos a los del 7 (63,5 × 15 a RPE 7 en "Machine"): falta confirmar qué máquina fue.*
+*Hizo el día de pierna 2 + pecho que quedó pendiente del viernes. Inclinado con barra a 65 × 10 sin molestias (la prescripción de 62,5 no se podía armar). Curl femoral acostado en vez del sentado prescrito. La Back Extension fue en la máquina de glúteo; la del 7 (63,5 × 15 a RPE 7, anotada como Machine) fue la de erector espinal, donde levanta más peso.*

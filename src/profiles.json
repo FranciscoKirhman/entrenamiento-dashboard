@@ -57,14 +57,14 @@
    },
    {
     "name": "Glúteo / cadera",
-    "recent": 5.2,
-    "hist": 4.7,
+    "recent": 3.5,
+    "hist": 3.6,
     "lo": 8,
     "hi": 12,
-    "tier": "warning",
+    "tier": "critical",
     "trend": 0.0,
-    "note": "Hip thrust del 7 y espalda baja del 13. Desde el 21 se suma la abducción del viernes para entrar en la banda.",
-    "ex": "Hip Thrust, Back Extension"
+    "note": "Hip thrust del 7 y máquina de glúteo del 13. La máquina de erector espinal del 7 ya no cuenta como glúteo, por eso queda en 3,5. Desde el 21 hay glúteo el lunes y el viernes, con la abducción.",
+    "ex": "Hip Thrust, máquina de glúteo"
    },
    {
     "name": "Espalda",
@@ -5620,17 +5620,6 @@
    {
     "date": "2026-09-14",
     "day": "Lun 14",
-    "tag": "descanso",
-    "focus": "Descanso",
-    "warmup": [],
-    "exercises": [],
-    "cardio": "",
-    "stretch": [],
-    "rationale": "**Descanso.** Ayer domingo hiciste glúteo y femoral con curl femoral a RPE 9,5 y espalda baja a RPE 9: hoy tocaba la descarga de posterior, y el mismo músculo dos días seguidos no suma, aunque sea liviano. Ese trabajo pasa al jueves 17, cuatro días después.\n\n**SEMANA DE DESCARGA — la primera real en quince semanas de registro.** No es una semana perdida: es donde el cuerpo cobra todo lo acumulado desde el 17 de agosto.\n\nTres reglas para los cinco días:\n• **Dos series de trabajo, no tres.**\n• **Cargas al 85-90%** de las de esta semana, redondeadas a lo que se pueda armar.\n• **RIR 4 en todo.** Ninguna serie cerca del fallo, ninguna excepción. Si una se siente a RPE 8 o más, era mucho peso.\n\nSe cae el segundo día de pierna del viernes: cinco días en vez de seis. El cardio se mantiene igual — es lo que menos fatiga deja y lo que más ayuda a recuperar."
-   },
-   {
-    "date": "2026-09-15",
-    "day": "Mar 15",
     "tag": "entreno",
     "focus": "Descarga — empuje",
     "warmup": [
@@ -5798,11 +5787,11 @@
       "how": "Oreja al hombro, sin subir el hombro. Ayuda con la mano."
      }
     ],
-    "rationale": "Segundo día de descarga. **La banca baja a 70 kg**, que es el 82% de tus 85 — el paso obligado sin discos de 1,25. El press militar baja a 32,5: es la semana perfecta para hacer las repeticiones que no salen a 40, porque el problema ahí es técnico, no de fuerza."
+    "rationale": "**Empuje liviano, adelantado del martes, porque quieres entrenar hoy.** Es el único día de la descarga que no toca glúteo ni femoral, que ayer quedaron a RPE 9-9,5.\n\n**SEMANA DE DESCARGA — la primera real en quince semanas de registro.** No es una semana perdida: es donde el cuerpo cobra todo lo acumulado desde el 17 de agosto.\n\nTres reglas para los cuatro días:\n• **Dos series de trabajo, no tres.**\n• **Cargas al 85-90%** de las de esta semana, redondeadas a lo que se pueda armar.\n• **RIR 4 en todo.** Ninguna serie cerca del fallo, ninguna excepción. Si una se siente a RPE 8 o más, era mucho peso.\n\nSon cuatro días de gimnasio: lunes, martes, jueves y sábado. El cardio se mantiene igual — es lo que menos fatiga deja y lo que más ayuda a recuperar.\n\nPrimer día de descarga. **La banca baja a 70 kg**, que es el 82% de tus 85 — el paso obligado sin discos de 1,25. El press militar baja a 35: es la semana perfecta para hacer las repeticiones que no salen a 40, porque el problema ahí es técnico, no de fuerza."
    },
    {
-    "date": "2026-09-16",
-    "day": "Mié 16",
+    "date": "2026-09-15",
+    "day": "Mar 15",
     "tag": "entreno",
     "focus": "Descarga — pierna",
     "warmup": [
@@ -5958,7 +5947,18 @@
       "how": "Pierna atrás estirada, talón pegado al suelo."
      }
     ],
-    "rationale": "Tercer día. La prensa baja de 180 a 150 y la sentadilla de 90 a 75. **Semana para revisar el rango de la prensa**: con 150 puedes bajar hasta donde la pelvis se mantenga pegada al respaldo y ver hasta dónde llega de verdad tu recorrido limpio."
+    "rationale": "**Pierna liviana, adelantada del miércoles.** Cuádriceps y aductor: ayer domingo no se tocaron. 🤝 Mipi también va hoy, con su hip thrust y peso muerto rumano livianos.\n\nLa prensa baja de 180 a 150 y la sentadilla de 90 a 75. **Semana para revisar el rango de la prensa**: con 150 puedes bajar hasta donde la pelvis se mantenga pegada al respaldo y ver hasta dónde llega de verdad tu recorrido limpio."
+   },
+   {
+    "date": "2026-09-16",
+    "day": "Mié 16",
+    "tag": "descanso",
+    "focus": "Descanso",
+    "warmup": [],
+    "exercises": [],
+    "cardio": "",
+    "stretch": [],
+    "rationale": "**Descanso.** El empuje pasó al lunes y la pierna al martes, así que hoy se descansa antes del tirón del jueves. Mipi también descansa hoy."
    },
    {
     "date": "2026-09-17",
@@ -6087,7 +6087,7 @@
         "descanso": "2:30"
        }
       ],
-      "cue": "**Cómo te pones:** agarre algo más ancho que los hombros, muslos fijos bajo el apoyo.\n\n**Qué haces:** **primero baja los omóplatos**, después dobla el codo. Lleva la barra al pecho alto, no a la nuca.\n\n**Cómo sabes que está bien:** el torso se inclina un poco atrás y se queda ahí. Si te meces hacia atrás y adelante en cada repetición, la espalda dejó de trabajar.\n\n**Esta semana:** 85% de 82 kg."
+      "cue": "🤝 Mipi también lo hace hoy: alternan en el jalón cambiando el pin.\n\n**Cómo te pones:** agarre algo más ancho que los hombros, muslos fijos bajo el apoyo.\n\n**Qué haces:** **primero baja los omóplatos**, después dobla el codo. Lleva la barra al pecho alto, no a la nuca.\n\n**Cómo sabes que está bien:** el torso se inclina un poco atrás y se queda ahí. Si te meces hacia atrás y adelante en cada repetición, la espalda dejó de trabajar.\n\n**Esta semana:** 85% de 82 kg."
      },
      {
       "name": "Seated Row (Machine)",
@@ -6107,7 +6107,7 @@
         "descanso": "2:30"
        }
       ],
-      "cue": "**Cómo te pones:** pecho contra el apoyo, hombros abajo antes de tirar.\n\n**Qué haces:** tira llevando los codos pegados al cuerpo y junta los omóplatos al final. Suelta lento dejando que el omóplato se separe.\n\n**Cómo sabes que está bien:** el torso **no se balancea**. Si te vas hacia atrás para completar la repetición, es mucho peso.\n\n**Esta semana:** 85% de 75 kg."
+      "cue": "🤝 Mipi también lo hace hoy: alternan en el remo cambiando el pin.\n\n**Cómo te pones:** pecho contra el apoyo, hombros abajo antes de tirar.\n\n**Qué haces:** tira llevando los codos pegados al cuerpo y junta los omóplatos al final. Suelta lento dejando que el omóplato se separe.\n\n**Cómo sabes que está bien:** el torso **no se balancea**. Si te vas hacia atrás para completar la repetición, es mucho peso.\n\n**Esta semana:** 85% de 75 kg."
      },
      {
       "name": "Pull Up",
@@ -6167,7 +6167,7 @@
         "descanso": "60s"
        }
       ],
-      "cue": "**Cómo te pones:** cuerda a la altura de la cara, un pie adelante.\n\n**Qué haces:** tira separando las manos y llevando los codos atrás y arriba, terminando con los nudillos apuntando al techo.\n\n**Cómo sabes que está bien:** los hombros **quedan abajo**, no encogidos hacia las orejas. Es el mejor trabajo de hombro posterior que tienes.\n\n**Esta semana:** Trabajo de hombro posterior, el que mejor le sienta al hombro izquierdo."
+      "cue": "🤝 Mipi también lo hace hoy: alternan en el Face Pull cambiando el pin.\n\n**Cómo te pones:** cuerda a la altura de la cara, un pie adelante.\n\n**Qué haces:** tira separando las manos y llevando los codos atrás y arriba, terminando con los nudillos apuntando al techo.\n\n**Cómo sabes que está bien:** los hombros **quedan abajo**, no encogidos hacia las orejas. Es el mejor trabajo de hombro posterior que tienes.\n\n**Esta semana:** Trabajo de hombro posterior, el que mejor le sienta al hombro izquierdo."
      }
     ],
     "cardio": "Escaleras 15 min, RPE 4.",
@@ -6189,7 +6189,7 @@
       "how": "Oreja al hombro, sin encoger."
      }
     ],
-    "rationale": "**Hoy va también la parte de posterior de la descarga**, que salió del lunes: hip thrust y peso muerto rumano, dos series cada uno a RIR 4. Van primero, antes del tirón, y son cortas.\n\nCuarto día. Jalón y remo bajan a 70 y 64. **Las dominadas se quedan en dos series y sin llevarlas al fallo esta semana** — es la única excepción a la regla de que ahí el fallo aporta, porque en descarga no aporta nada."
+    "rationale": "**Hoy va también la parte de posterior de la descarga**, que salió del lunes: hip thrust y peso muerto rumano, dos series cada uno a RIR 4. Van primero, antes del tirón, y son cortas.\n\n🤝 **Mipi hace tren superior hoy:** comparten el jalón, el remo y el Face Pull, alternando el pin.\n\nTercer día. Jalón y remo bajan a 70 y 64. **Las dominadas se quedan en dos series y sin llevarlas al fallo esta semana** — es la única excepción a la regla de que ahí el fallo aporta, porque en descarga no aporta nada."
    },
    {
     "date": "2026-09-18",
@@ -6200,7 +6200,7 @@
     "warmup": [],
     "stretch": [],
     "cardio": "",
-    "rationale": "**Descanso.** El segundo día de pierna se cae esta semana: la descarga son cinco días, no seis."
+    "rationale": "**Descanso.** Fiestas Patrias. La descarga son cuatro días de gimnasio: lunes, martes, jueves y sábado."
    },
    {
     "date": "2026-09-19",
@@ -6348,7 +6348,7 @@
     "date": "2026-09-21",
     "focus": "Posterior — glúteo y femoral",
     "tag": "entreno",
-    "rationale": "**Arranca el mesociclo nuevo: 4 semanas, del 21 de septiembre al 18 de octubre.** Tres semanas de carga y la cuarta de descarga, la misma semana que la de Mipi.\n\n**Qué cambia.** Cinco días firmes y el sábado opcional: en las últimas cuatro semanas hiciste entre 4 y 7 sesiones y el sábado casi nunca salió. Se quedan los ejercicios base (hip thrust, sentadilla, prensa, banca, jalón y dominadas) para poder medir progreso, y rotan los que estaban estancados o se repetían sin subir. Hoy entra el curl femoral acostado y vuelve el Cable Crunch.\n\n**Cómo progresa.** Semana 1 a RIR 3, semana 2 más repeticiones con la misma carga, semana 3 sube el peso solo donde la semana 2 salió completa. Cada ficha dice qué hacer si no salió.",
+    "rationale": "**Arranca el mesociclo nuevo: 4 semanas, del 21 de septiembre al 18 de octubre.** Tres semanas de carga y la cuarta de descarga, la misma semana que la de Mipi.\n\n**Qué cambia.** Cinco días firmes y el sábado opcional: en las últimas cuatro semanas hiciste entre 4 y 7 sesiones y el sábado casi nunca salió. Se quedan los ejercicios base (hip thrust, sentadilla, prensa, banca, jalón y dominadas) para poder medir progreso, y rotan los que estaban estancados o se repetían sin subir. Hoy entra el curl femoral acostado y vuelve el Cable Crunch.\n\n**Cómo progresa.** Semana 1 a RIR 3, semana 2 más repeticiones con la misma carga, semana 3 sube el peso solo donde la semana 2 salió completa. Cada ficha dice qué hacer si no salió.\n\n🤝 **Coordinado con Mipi:** los lunes, miércoles y viernes son sus días firmes. Comparten hip thrust, Smith, máquina de glúteo y curl acostado el lunes, prensa y aducción el miércoles, y remo sentado el viernes.",
     "cardio": "Escaleras 12-15 min, RPE 4-5.",
     "warmup": [
      {
@@ -6473,7 +6473,7 @@
         "descanso": "2 min"
        }
       ],
-      "cue": "**50 × 12.** El 7 de septiembre salieron las tres a 12, a RPE 7,5, 8 y 9. Se repite para cerrarlas a RIR 3 antes de subir. Anotaste tensión lumbar: para donde la espalda empieza a redondearse, aunque eso quede sobre la rodilla.\n\n**Cómo te pones:** barra a la altura de la cadera, pies al ancho de cadera justo debajo de la barra. Agarre al ancho de los hombros. Saca pecho y **mete las costillas** antes de mover nada.\n\n**Qué haces:** echa la cadera atrás como si cerraras una puerta con la cola. Las rodillas apenas se doblan. La barra baja pegada a los muslos, rozándolos.\n\n**Cómo sabes que está bien:** paras **donde la espalda empieza a redondearse**, no donde llegue la barra — para la mayoría es bajo la rodilla, no al suelo. Lo sientes atrás del muslo, estirando. Si lo sientes en la zona lumbar, bajaste de más o soltaste el pecho."
+      "cue": "🤝 Mipi también usa la Smith: alternan, ella con 35 kg. **50 × 12.** El 7 de septiembre salieron las tres a 12, a RPE 7,5, 8 y 9. Se repite para cerrarlas a RIR 3 antes de subir. Anotaste tensión lumbar: para donde la espalda empieza a redondearse, aunque eso quede sobre la rodilla.\n\n**Cómo te pones:** barra a la altura de la cadera, pies al ancho de cadera justo debajo de la barra. Agarre al ancho de los hombros. Saca pecho y **mete las costillas** antes de mover nada.\n\n**Qué haces:** echa la cadera atrás como si cerraras una puerta con la cola. Las rodillas apenas se doblan. La barra baja pegada a los muslos, rozándolos.\n\n**Cómo sabes que está bien:** paras **donde la espalda empieza a redondearse**, no donde llegue la barra — para la mayoría es bajo la rodilla, no al suelo. Lo sientes atrás del muslo, estirando. Si lo sientes en la zona lumbar, bajaste de más o soltaste el pecho."
      },
      {
       "name": "Lying Leg Curl (Machine)",
@@ -6503,7 +6503,7 @@
       "cue": "🤝 Mipi también hace curl acostado hoy: alternan cambiando el pin. **Pasa a ser el curl femoral del lunes**, el mismo que elegiste el domingo 13 en vez del sentado; el sentado sigue el viernes, así que cada semana hay de los dos. **46 × 10**: el 13 salieron 12, 11 y 11 a RPE 8,5, 9 y 9,5, así que con 10 llegas con margen.\n\n**Cómo te pones:** boca abajo, rodillas justo fuera del borde del banco y alineadas con el eje de la máquina, rodillo sobre el tobillo y no en la pantorrilla.\n\n**Qué haces:** dobla las rodillas llevando los talones hacia la cola, aguanta medio segundo y baja en 2-3 segundos.\n\n**Cómo sabes que está bien:** la cadera no se despega del banco. Si sube la cola para terminar la repetición, el peso es mucho."
      },
      {
-      "name": "Back Extension (Machine)",
+      "name": "Back Extension (Weighted Hyperextension)",
       "sets": [
        {
         "serie": "1",
@@ -6527,7 +6527,7 @@
         "descanso": "90s"
        }
       ],
-      "cue": "**53 × 10, desde lo último que hiciste.** El domingo 13 la primera serie a 63,5 se cayó a 7 repeticiones a RPE 9 y las otras dos salieron 53 × 12 a RPE 8,5 y 9. Pero el 7 habías hecho 63,5 × 15 a RPE 7, y el 13 anotaste que confundiste este ejercicio con la máquina de espalda baja: **si fueron dos máquinas distintas, avisa cuál es cuál** y se ajusta. Mientras tanto se parte de la carga más baja.\n\n**Cómo te pones:** cadera apoyada justo **debajo del hueso de la pelvis**, no sobre él — si el apoyo queda muy arriba no puedes doblar desde la cadera. Pies fijos, brazos cruzados al pecho.\n\n**Qué haces:** baja doblando desde la cadera, no desde la espalda, hasta sentir tensión atrás del muslo. Sube apretando el glúteo hasta que el cuerpo quede en línea recta.\n\n**Cómo sabes que está bien:** paras **en la línea del cuerpo, no más arriba**. Pasarse de ahí es lo que carga la lumbar sin sumar nada al glúteo. Debes sentirlo atrás del muslo y en el glúteo, nunca en la zona baja de la espalda."
+      "cue": "🤝 Mipi la hace después de ti: alternan cambiando el pin. **Máquina de glúteo, no la de erector espinal.** En Hevy va como Back Extension (Weighted Hyperextension), igual que el domingo 13; la de erector es Back Extension (Machine), donde levantas más, así que sus cargas no se comparan. **53 × 10**: el 13 salieron 53 × 12 a RPE 8,5 y 9.\n\n**Cómo te pones:** cadera apoyada justo **debajo del hueso de la pelvis**, no sobre él — si el apoyo queda muy arriba no puedes doblar desde la cadera. Pies fijos, brazos cruzados al pecho.\n\n**Qué haces:** baja doblando desde la cadera, no desde la espalda, hasta sentir tensión atrás del muslo. Sube apretando el glúteo hasta que el cuerpo quede en línea recta.\n\n**Cómo sabes que está bien:** paras **en la línea del cuerpo, no más arriba**. Pasarse de ahí es lo que carga la lumbar sin sumar nada al glúteo. Debes sentirlo atrás del muslo y en el glúteo, nunca en la zona baja de la espalda."
      },
      {
       "name": "Cable Crunch",
@@ -6811,7 +6811,7 @@
     "date": "2026-09-23",
     "focus": "Pierna — cuádriceps",
     "tag": "entreno",
-    "rationale": "**Cuádriceps con los mismos cuatro ejercicios**, porque son los que están progresando: sentadilla a 90 × 8 las tres por primera vez y prensa a 180. La aducción sube a 94 porque a 89 sobraban repeticiones. 🤝 Comparten la prensa con Mipi.",
+    "rationale": "**Cuádriceps con los mismos cuatro ejercicios**, porque son los que están progresando: sentadilla a 90 × 8 las tres por primera vez y prensa a 180. La aducción sube a 94 porque a 89 sobraban repeticiones. 🤝 Comparten la prensa y la aducción con Mipi.",
     "cardio": "Escaleras 10 min, RPE 4: el día de pierna ya cansa.",
     "warmup": [
      {
@@ -6997,7 +6997,7 @@
         "descanso": "90s"
        }
       ],
-      "cue": "**Sube a 94.** A 89 kg salieron las tres a RPE 7, 7 y 8 el 9 de septiembre y a RPE 7 las tres el 13: te sobraban repeticiones.\n\n**Cómo te pones:** espalda apoyada, rodillas en los apoyos, pecho arriba.\n\n**Qué haces:** junta las piernas con control y **resiste la vuelta** — la mitad del trabajo está en la fase de apertura, frenando.\n\n**Cómo sabes que está bien:** si la máquina te abre las piernas sola, estás haciendo medio ejercicio."
+      "cue": "🤝 Mipi hace aducción hoy: alternan cambiando el pin. **Sube a 94.** A 89 kg salieron las tres a RPE 7, 7 y 8 el 9 de septiembre y a RPE 7 las tres el 13: te sobraban repeticiones.\n\n**Cómo te pones:** espalda apoyada, rodillas en los apoyos, pecho arriba.\n\n**Qué haces:** junta las piernas con control y **resiste la vuelta** — la mitad del trabajo está en la fase de apertura, frenando.\n\n**Cómo sabes que está bien:** si la máquina te abre las piernas sola, estás haciendo medio ejercicio."
      },
      {
       "name": "Reverse Crunch",
@@ -7260,7 +7260,7 @@
     "date": "2026-09-25",
     "focus": "Torso + femoral y glúteo",
     "tag": "entreno",
-    "rationale": "**Torso y segunda dosis de pierna posterior.** Este día arregla los dos huecos del tablero: la espalda tenía un solo día (10,5 contra 12-16) y el glúteo también (5,2 contra 8-12). El pecho sigue con el inclinado con barra, que el domingo 13 subió a 65 × 10 sin molestias, y el cable fly reemplaza al Chest Fly, que lleva tres semanas en 54 kg. Sin core hoy: la sesión ya tiene seis ejercicios y el core va dentro de banda. 🤝 Día de tren superior para Mipi también.",
+    "rationale": "**Torso y segunda dosis de pierna posterior.** Este día arregla los dos huecos del tablero: la espalda tenía un solo día (10,5 contra 12-16) y el glúteo también (3,5 contra 8-12). El pecho sigue con el inclinado con barra, que el domingo 13 subió a 65 × 10 sin molestias, y el cable fly reemplaza al Chest Fly, que lleva tres semanas en 54 kg. Sin core hoy: la sesión ya tiene seis ejercicios y el core va dentro de banda. 🤝 Día de tren superior para Mipi también: comparten el remo sentado.",
     "cardio": "Escaleras 12-15 min, RPE 4-5.",
     "warmup": [
      {
@@ -7390,7 +7390,7 @@
         "descanso": "90s"
        }
       ],
-      "cue": "**Vuelve la abducción, por el glúteo.** El glúteo va en 5,2 contra una banda de 8-12 y solo recibía trabajo directo el lunes. **75 × 15**: en agosto hiciste 82 × 13 a RPE 9.\n\n**Cómo te pones:** Sentado con la espalda apoyada y las almohadillas por fuera de las rodillas. Inclinarte un poco adelante carga más el glúteo.\n\n**Qué haces:** abre las piernas hasta donde llegues sin que la cola se despegue del asiento, aguanta 1 segundo y cierra lento.\n\n**Cómo sabes que está bien:** lo sientes al costado de la cadera, no en la zona lumbar. Si la máquina te cierra de golpe, el peso es mucho."
+      "cue": "**Vuelve la abducción, por el glúteo.** El glúteo va en 3,5 contra una banda de 8-12 y solo recibía trabajo directo el lunes. **75 × 15**: en agosto hiciste 82 × 13 a RPE 9.\n\n**Cómo te pones:** Sentado con la espalda apoyada y las almohadillas por fuera de las rodillas. Inclinarte un poco adelante carga más el glúteo.\n\n**Qué haces:** abre las piernas hasta donde llegues sin que la cola se despegue del asiento, aguanta 1 segundo y cierra lento.\n\n**Cómo sabes que está bien:** lo sientes al costado de la cadera, no en la zona lumbar. Si la máquina te cierra de golpe, el peso es mucho."
      },
      {
       "name": "Incline Bench Press (Barbell)",
@@ -7485,7 +7485,7 @@
         "descanso": "2 min"
        }
       ],
-      "cue": "**Pasa del jueves al viernes: segunda dosis de espalda.** La espalda va en 10,5 contra una banda de 12-16 y tenía un solo día. **75 × 10**: el 11 de septiembre salieron tres a 12 a RPE 8,5.\n\n**Cómo te pones:** pecho contra el apoyo, hombros abajo antes de tirar.\n\n**Qué haces:** tira llevando los codos pegados al cuerpo y junta los omóplatos al final. Suelta lento dejando que el omóplato se separe.\n\n**Cómo sabes que está bien:** el torso **no se balancea**. Si te vas hacia atrás para completar la repetición, es mucho peso."
+      "cue": "🤝 Mipi hace remo sentado hoy: alternan cambiando el pin. **Pasa del jueves al viernes: segunda dosis de espalda.** La espalda va en 10,5 contra una banda de 12-16 y tenía un solo día. **75 × 10**: el 11 de septiembre salieron tres a 12 a RPE 8,5.\n\n**Cómo te pones:** pecho contra el apoyo, hombros abajo antes de tirar.\n\n**Qué haces:** tira llevando los codos pegados al cuerpo y junta los omóplatos al final. Suelta lento dejando que el omóplato se separe.\n\n**Cómo sabes que está bien:** el torso **no se balancea**. Si te vas hacia atrás para completar la repetición, es mucho peso."
      },
      {
       "name": "Lateral Raise (Dumbbell)",
@@ -7819,7 +7819,7 @@
       "cue": "🤝 Alternan con Mipi. **46 × 12.** Si la semana pasada no salió completa, repite la carga y las repeticiones de la semana pasada.\n\n**Cómo te pones:** boca abajo, rodillas justo fuera del borde del banco y alineadas con el eje de la máquina, rodillo sobre el tobillo y no en la pantorrilla.\n\n**Qué haces:** dobla las rodillas llevando los talones hacia la cola, aguanta medio segundo y baja en 2-3 segundos.\n\n**Cómo sabes que está bien:** la cadera no se despega del banco. Si sube la cola para terminar la repetición, el peso es mucho."
      },
      {
-      "name": "Back Extension (Machine)",
+      "name": "Back Extension (Weighted Hyperextension)",
       "sets": [
        {
         "serie": "1",
@@ -7843,7 +7843,7 @@
         "descanso": "90s"
        }
       ],
-      "cue": "**53 × 12.** Si la semana pasada no salió completa, repite la carga y las repeticiones de la semana pasada.\n\n**Cómo te pones:** cadera apoyada justo **debajo del hueso de la pelvis**, no sobre él — si el apoyo queda muy arriba no puedes doblar desde la cadera. Pies fijos, brazos cruzados al pecho.\n\n**Qué haces:** baja doblando desde la cadera, no desde la espalda, hasta sentir tensión atrás del muslo. Sube apretando el glúteo hasta que el cuerpo quede en línea recta.\n\n**Cómo sabes que está bien:** paras **en la línea del cuerpo, no más arriba**. Pasarse de ahí es lo que carga la lumbar sin sumar nada al glúteo. Debes sentirlo atrás del muslo y en el glúteo, nunca en la zona baja de la espalda."
+      "cue": "🤝 Alternan con Mipi. **53 × 12.** Si la semana pasada no salió completa, repite la carga y las repeticiones de la semana pasada.\n\n**Cómo te pones:** cadera apoyada justo **debajo del hueso de la pelvis**, no sobre él — si el apoyo queda muy arriba no puedes doblar desde la cadera. Pies fijos, brazos cruzados al pecho.\n\n**Qué haces:** baja doblando desde la cadera, no desde la espalda, hasta sentir tensión atrás del muslo. Sube apretando el glúteo hasta que el cuerpo quede en línea recta.\n\n**Cómo sabes que está bien:** paras **en la línea del cuerpo, no más arriba**. Pasarse de ahí es lo que carga la lumbar sin sumar nada al glúteo. Debes sentirlo atrás del muslo y en el glúteo, nunca en la zona baja de la espalda."
      },
      {
       "name": "Cable Crunch",
@@ -9135,7 +9135,7 @@
       "cue": "🤝 Alternan con Mipi. **46 × 12 en las tres**, lo que el 13 no salió. El pin siguiente que conocemos es 53, un 15% más: acá suben las repeticiones, no el peso. Si la semana pasada no salió completa, repite la carga y las repeticiones de la semana pasada.\n\n**Cómo te pones:** boca abajo, rodillas justo fuera del borde del banco y alineadas con el eje de la máquina, rodillo sobre el tobillo y no en la pantorrilla.\n\n**Qué haces:** dobla las rodillas llevando los talones hacia la cola, aguanta medio segundo y baja en 2-3 segundos.\n\n**Cómo sabes que está bien:** la cadera no se despega del banco. Si sube la cola para terminar la repetición, el peso es mucho."
      },
      {
-      "name": "Back Extension (Machine)",
+      "name": "Back Extension (Weighted Hyperextension)",
       "sets": [
        {
         "serie": "1",
@@ -9159,7 +9159,7 @@
         "descanso": "90s"
        }
       ],
-      "cue": "**53 × 14.** No conocemos un pin entre 53 y 61, así que acá suben las repeticiones. Si la semana pasada no salió completa, repite la carga y las repeticiones de la semana pasada.\n\n**Cómo te pones:** cadera apoyada justo **debajo del hueso de la pelvis**, no sobre él — si el apoyo queda muy arriba no puedes doblar desde la cadera. Pies fijos, brazos cruzados al pecho.\n\n**Qué haces:** baja doblando desde la cadera, no desde la espalda, hasta sentir tensión atrás del muslo. Sube apretando el glúteo hasta que el cuerpo quede en línea recta.\n\n**Cómo sabes que está bien:** paras **en la línea del cuerpo, no más arriba**. Pasarse de ahí es lo que carga la lumbar sin sumar nada al glúteo. Debes sentirlo atrás del muslo y en el glúteo, nunca en la zona baja de la espalda."
+      "cue": "🤝 Alternan con Mipi. **53 × 14.** No conocemos un pin entre 53 y 61, así que acá suben las repeticiones. Si la semana pasada no salió completa, repite la carga y las repeticiones de la semana pasada.\n\n**Cómo te pones:** cadera apoyada justo **debajo del hueso de la pelvis**, no sobre él — si el apoyo queda muy arriba no puedes doblar desde la cadera. Pies fijos, brazos cruzados al pecho.\n\n**Qué haces:** baja doblando desde la cadera, no desde la espalda, hasta sentir tensión atrás del muslo. Sube apretando el glúteo hasta que el cuerpo quede en línea recta.\n\n**Cómo sabes que está bien:** paras **en la línea del cuerpo, no más arriba**. Pasarse de ahí es lo que carga la lumbar sin sumar nada al glúteo. Debes sentirlo atrás del muslo y en el glúteo, nunca en la zona baja de la espalda."
      },
      {
       "name": "Cable Crunch",
@@ -10430,7 +10430,7 @@
       "cue": "🤝 Alternan con Mipi. **39 kg, o el pin inmediatamente inferior.** Descarga: dos series a RIR 4. Que se sienta fácil es el objetivo, no un defecto.\n\n**Cómo te pones:** boca abajo, rodillas justo fuera del borde del banco y alineadas con el eje de la máquina, rodillo sobre el tobillo y no en la pantorrilla.\n\n**Qué haces:** dobla las rodillas llevando los talones hacia la cola, aguanta medio segundo y baja en 2-3 segundos.\n\n**Cómo sabes que está bien:** la cadera no se despega del banco. Si sube la cola para terminar la repetición, el peso es mucho."
      },
      {
-      "name": "Back Extension (Machine)",
+      "name": "Back Extension (Weighted Hyperextension)",
       "sets": [
        {
         "serie": "1",
@@ -10447,7 +10447,7 @@
         "descanso": "90s"
        }
       ],
-      "cue": "**40 × 12.** Descarga: dos series a RIR 4. Que se sienta fácil es el objetivo, no un defecto.\n\n**Cómo te pones:** cadera apoyada justo **debajo del hueso de la pelvis**, no sobre él — si el apoyo queda muy arriba no puedes doblar desde la cadera. Pies fijos, brazos cruzados al pecho.\n\n**Qué haces:** baja doblando desde la cadera, no desde la espalda, hasta sentir tensión atrás del muslo. Sube apretando el glúteo hasta que el cuerpo quede en línea recta.\n\n**Cómo sabes que está bien:** paras **en la línea del cuerpo, no más arriba**. Pasarse de ahí es lo que carga la lumbar sin sumar nada al glúteo. Debes sentirlo atrás del muslo y en el glúteo, nunca en la zona baja de la espalda."
+      "cue": "🤝 Alternan con Mipi. **40 × 12.** Descarga: dos series a RIR 4. Que se sienta fácil es el objetivo, no un defecto.\n\n**Cómo te pones:** cadera apoyada justo **debajo del hueso de la pelvis**, no sobre él — si el apoyo queda muy arriba no puedes doblar desde la cadera. Pies fijos, brazos cruzados al pecho.\n\n**Qué haces:** baja doblando desde la cadera, no desde la espalda, hasta sentir tensión atrás del muslo. Sube apretando el glúteo hasta que el cuerpo quede en línea recta.\n\n**Cómo sabes que está bien:** paras **en la línea del cuerpo, no más arriba**. Pasarse de ahí es lo que carga la lumbar sin sumar nada al glúteo. Debes sentirlo atrás del muslo y en el glúteo, nunca en la zona baja de la espalda."
      },
      {
       "name": "Cable Crunch",
@@ -20521,7 +20521,7 @@
   },
   "fuente": "Registro_historico_consolidado.md",
   "weekNote": "Semana 4 de 5 cerrada · 5 sesiones. Sentadilla a 90 y jalón a 82 × 12 las tres, las dos por primera vez, y el domingo inclinado con barra a 65 × 10 sin molestias.",
-  "weekTodo": "**Hoy descanso.** Ayer hiciste glúteo y femoral a RPE 9-9,5; el poco posterior de la descarga pasa al jueves. Mañana empuje liviano."
+  "weekTodo": "**Hoy empuje liviano**, adelantado del martes: nada de glúteo ni femoral después de lo de ayer. Mañana pierna liviana, el miércoles descanso."
  },
  "mipi": {
   "displayName": "Mipi",
@@ -20552,13 +20552,13 @@
    {
     "name": "Glúteo / cadera",
     "recent": 5.2,
-    "hist": 6.7,
+    "hist": 6.4,
     "lo": 10,
     "hi": 16,
     "tier": "warning",
     "trend": -0.6,
-    "note": "Hip thrust del 8 y kickback y espalda baja del 13. Sube desde 1,8 pero va a la mitad de la banda: desde el 21 hay glúteo el lunes, el miércoles y el sábado opcional.",
-    "ex": "Hip Thrust, Glute Kickback, Back Extension"
+    "note": "Hip thrust del 8, y kickback y máquina de glúteo del 13. Sube desde 1,8 pero va a la mitad de la banda: desde el 21 hay glúteo el lunes, el miércoles y el sábado opcional.",
+    "ex": "Hip Thrust, Glute Kickback, máquina de glúteo"
    },
    {
     "name": "Cuádriceps",
@@ -25695,7 +25695,7 @@
         "descanso": "90s"
        }
       ],
-      "cue": "28,5 es lo que hiciste el 3 de septiembre a RPE 7,5-8,5 las tres series, y anotaste *codo great*. Se mantiene y desde acá se sube."
+      "cue": "🤝 Mopo también lo hace hoy: alternan en el jalón cambiando el pin.\n\n28,5 es lo que hiciste el 3 de septiembre a RPE 7,5-8,5 las tres series, y anotaste *codo great*. Se mantiene y desde acá se sube."
      },
      {
       "name": "Seated Row (Machine)",
@@ -25729,7 +25729,7 @@
         "descanso": "90s"
        }
       ],
-      "cue": "Agarre supino, que dijiste que te gustó. 28,5 salió a RPE 7,5-8: se mantiene una semana más antes de subir."
+      "cue": "🤝 Mopo también lo hace hoy: alternan en el remo cambiando el pin.\n\nAgarre supino, que dijiste que te gustó. 28,5 salió a RPE 7,5-8: se mantiene una semana más antes de subir."
      },
      {
       "name": "Bench Press (Barbell)",
@@ -25825,7 +25825,7 @@
         "descanso": "60s"
        }
       ],
-      "cue": "**Vuelve, como pediste — y es el mejor ejercicio que tienes para la postura.** Trabaja la parte de atrás del hombro y los músculos que tiran los hombros hacia atrás, que son justo los que se debilitan cuando uno pasa muchas horas sentada o inclinada hacia adelante.\n\n**Cómo te pones:** polea a la altura de la cara, cuerda con las dos manos, un pie adelante para tener base.\n\n**Qué haces:** tira de la cuerda **separando las manos** y llevando los codos hacia atrás y arriba. Termina con los nudillos apuntando al techo, como haciendo un 'gol'. Vuelve lento.\n\n**Cómo sabes que está bien:** los hombros quedan **abajo, lejos de las orejas**. Si se encogen, el trapecio está haciendo el trabajo y el peso es mucho. Debes sentirlo atrás del hombro y entre los omóplatos.\n\n**Por qué 10 kg:** hacías 15 kg pero a RPE 9-10 las tres series. Acá la técnica vale más que el peso: sin control, este ejercicio no corrige nada."
+      "cue": "🤝 Mopo también lo hace hoy: alternan en el Face Pull cambiando el pin.\n\n**Vuelve, como pediste — y es el mejor ejercicio que tienes para la postura.** Trabaja la parte de atrás del hombro y los músculos que tiran los hombros hacia atrás, que son justo los que se debilitan cuando uno pasa muchas horas sentada o inclinada hacia adelante.\n\n**Cómo te pones:** polea a la altura de la cara, cuerda con las dos manos, un pie adelante para tener base.\n\n**Qué haces:** tira de la cuerda **separando las manos** y llevando los codos hacia atrás y arriba. Termina con los nudillos apuntando al techo, como haciendo un 'gol'. Vuelve lento.\n\n**Cómo sabes que está bien:** los hombros quedan **abajo, lejos de las orejas**. Si se encogen, el trapecio está haciendo el trabajo y el peso es mucho. Debes sentirlo atrás del hombro y entre los omóplatos.\n\n**Por qué 10 kg:** hacías 15 kg pero a RPE 9-10 las tres series. Acá la técnica vale más que el peso: sin control, este ejercicio no corrige nada."
      },
      {
       "name": "Bicep Curl (Dumbbell)",
@@ -26343,7 +26343,7 @@
     "date": "2026-09-21",
     "focus": "Inferior A — glúteo y femoral",
     "tag": "entreno",
-    "rationale": "**Arranca un mesociclo nuevo: 4 semanas, del 21 de septiembre al 18 de octubre.** El anterior se cierra una semana antes: la del 14 al 20 fue liviana por el turno y Fiestas Patrias, y ya cumple como descarga. Otra semana liviana ahora te haría perder tu mejor ventana del ciclo.\n\n**Día 5 — folicular (proyectado).** Es donde más sentido tiene empujar.\n\n**Días firmes: lunes, miércoles y viernes. Opcionales: jueves y sábado.** Si un turno te quita un día, corre la sesión en vez de saltarla: el orden es Inferior A, Inferior B, Superior. Los opcionales son los primeros que se caen.\n\n**Por qué sesiones más cortas.** Las de las últimas semanas duraron cerca de 2 horas contra tu meta de 60 a 90 minutos. Cada día firme tiene ahora como máximo cinco ejercicios y el core.\n\n**Cómo progresa.** Una variable a la vez: primero suben las repeticiones con el mismo peso, y el peso sube cuando salen completas. La semana 4 es descarga y coincide con tu regla proyectada. 🤝 Mopo entrena contigo: comparten la barra del hip thrust y el curl acostado.",
+    "rationale": "**Arranca un mesociclo nuevo: 4 semanas, del 21 de septiembre al 18 de octubre.** El anterior se cierra una semana antes: la del 14 al 20 fue liviana por el turno y Fiestas Patrias, y ya cumple como descarga. Otra semana liviana ahora te haría perder tu mejor ventana del ciclo.\n\n**Día 5 — folicular (proyectado).** Es donde más sentido tiene empujar.\n\n**Días firmes: lunes, miércoles y viernes. Opcionales: jueves y sábado.** Si un turno te quita un día, corre la sesión en vez de saltarla: el orden es Inferior A, Inferior B, Superior. Los opcionales son los primeros que se caen.\n\n**Por qué sesiones más cortas.** Las de las últimas semanas duraron cerca de 2 horas contra tu meta de 60 a 90 minutos. Cada día firme tiene ahora como máximo cinco ejercicios y el core.\n\n**Cómo progresa.** Una variable a la vez: primero suben las repeticiones con el mismo peso, y el peso sube cuando salen completas. La semana 4 es descarga y coincide con tu regla proyectada. 🤝 **Coordinado con Mopo:** comparten la barra del hip thrust, la Smith, la máquina de glúteo y el curl acostado el lunes, la prensa y la aducción el miércoles, y el remo sentado el viernes.",
     "cardio": "Escaladora 12 min, RPE 4-5.",
     "warmup": [
      {
@@ -26475,41 +26475,7 @@
         "descanso": "2 min"
        }
       ],
-      "cue": "**35 × 12.** El martes 15 vuelve en 30 kg: si salió limpio, esta semana 35. Si no alcanzaste a hacerlo o salió pesado, repite 30 × 12. En junio hacías 50 × 12 con barra libre, pero a RPE 9,5-10 y con el agarre al límite: acá no hay apuro.\n\n**Cómo te pones:** barra a la altura de la cadera, pies al ancho de cadera justo debajo de la barra. Agarre al ancho de los hombros. Saca pecho y **mete las costillas** antes de mover nada.\n\n**Qué haces:** echa la cadera atrás como si cerraras una puerta con la cola. Las rodillas apenas se doblan. La barra baja pegada a los muslos, rozándolos.\n\n**Cómo sabes que está bien:** paras **donde la espalda empieza a redondearse**, no donde llegue la barra — para la mayoría es bajo la rodilla, no al suelo. Lo sientes atrás del muslo, estirando. Si lo sientes en la zona lumbar, bajaste de más o soltaste el pecho."
-     },
-     {
-      "name": "Hip Abduction (Machine)",
-      "sets": [
-       {
-        "serie": "Aprox.",
-        "carga": "54 kg",
-        "reps": "12",
-        "rir": "5",
-        "descanso": "60s"
-       },
-       {
-        "serie": "Trabajo 1",
-        "carga": "75 kg",
-        "reps": "15",
-        "rir": "objetivo 3",
-        "descanso": "90s"
-       },
-       {
-        "serie": "Trabajo 2",
-        "carga": "75 kg",
-        "reps": "15",
-        "rir": "objetivo 3",
-        "descanso": "90s"
-       },
-       {
-        "serie": "Trabajo 3",
-        "carga": "75 kg",
-        "reps": "15",
-        "rir": "objetivo 3",
-        "descanso": "90s"
-       }
-      ],
-      "cue": "**75 × 15.** El 8 de septiembre a 82 kg la segunda serie se fue a RPE 10 con 10 repeticiones y bajaste a 75 para la tercera. Se parte en 75 para llegar a 82 sin fallar.\n\n**Cómo te pones:** Sentada con la espalda apoyada y las almohadillas por fuera de las rodillas. Inclinarte un poco adelante carga más el glúteo.\n\n**Qué haces:** abre las piernas hasta donde llegues sin que la cola se despegue del asiento, aguanta 1 segundo y cierra lento.\n\n**Cómo sabes que está bien:** lo sientes al costado de la cadera, no en la zona lumbar. Si la máquina te cierra de golpe, el peso es mucho."
+      "cue": "🤝 Mopo usa la misma Smith: alternan, él con 50 kg. **35 × 12.** El martes 15 vuelve en 30 kg: si salió limpio, esta semana 35. Si no alcanzaste a hacerlo o salió pesado, repite 30 × 12. En junio hacías 50 × 12 con barra libre, pero a RPE 9,5-10 y con el agarre al límite: acá no hay apuro.\n\n**Cómo te pones:** barra a la altura de la cadera, pies al ancho de cadera justo debajo de la barra. Agarre al ancho de los hombros. Saca pecho y **mete las costillas** antes de mover nada.\n\n**Qué haces:** echa la cadera atrás como si cerraras una puerta con la cola. Las rodillas apenas se doblan. La barra baja pegada a los muslos, rozándolos.\n\n**Cómo sabes que está bien:** paras **donde la espalda empieza a redondearse**, no donde llegue la barra — para la mayoría es bajo la rodilla, no al suelo. Lo sientes atrás del muslo, estirando. Si lo sientes en la zona lumbar, bajaste de más o soltaste el pecho."
      },
      {
       "name": "Lying Leg Curl (Machine)",
@@ -26546,6 +26512,67 @@
       "cue": "🤝 Mopo también hace curl acostado: alternan cambiando el pin. **Acostada, como anotaste: es tu primera opción.** Si está ocupada, usa la sentada con 38 kg × 12. **25 × 12**: el domingo 13 salieron las tres a RPE 7, 8,5 y 8. Tu femoral va en 3,5 contra una banda de 6-10: este es su día.\n\n**Cómo te pones:** boca abajo, rodillas justo fuera del borde del banco y alineadas con el eje de la máquina, rodillo sobre el tobillo y no en la pantorrilla.\n\n**Qué haces:** dobla las rodillas llevando los talones hacia la cola, aguanta medio segundo y baja en 2-3 segundos.\n\n**Cómo sabes que está bien:** la cadera no se despega del banco. Si sube la cola para terminar la repetición, el peso es mucho."
      },
      {
+      "name": "Back Extension (Weighted Hyperextension)",
+      "sets": [
+       {
+        "serie": "Trabajo 1",
+        "carga": "20 kg",
+        "reps": "15",
+        "rir": "objetivo 3",
+        "descanso": "90s"
+       },
+       {
+        "serie": "Trabajo 2",
+        "carga": "20 kg",
+        "reps": "15",
+        "rir": "objetivo 3",
+        "descanso": "90s"
+       },
+       {
+        "serie": "Trabajo 3",
+        "carga": "20 kg",
+        "reps": "15",
+        "rir": "objetivo 3",
+        "descanso": "90s"
+       }
+      ],
+      "cue": "🤝 Con Mopo, después del curl acostado: alternan en la misma máquina cambiando el pin. **Máquina de glúteo** (en Hevy, Back Extension (Weighted Hyperextension)), no la de erector espinal. Pasa del sábado al lunes para hacerla con él. **20 × 15**: el domingo 13 salieron dos a 15 a RPE 7,5 y 7.\n\n**Cómo te pones:** cadera apoyada justo **debajo del hueso de la pelvis**, no sobre él — si el apoyo queda muy arriba no puedes doblar desde la cadera. Pies fijos, brazos cruzados al pecho.\n\n**Qué haces:** baja doblando desde la cadera, no desde la espalda, hasta sentir tensión atrás del muslo. Sube apretando el glúteo hasta que el cuerpo quede en línea recta.\n\n**Cómo sabes que está bien:** paras **en la línea del cuerpo, no más arriba**. Pasarse de ahí es lo que carga la lumbar sin sumar nada al glúteo. Debes sentirlo atrás del muslo y en el glúteo, nunca en la zona baja de la espalda."
+     },
+     {
+      "name": "Hip Abduction (Machine)",
+      "sets": [
+       {
+        "serie": "Aprox.",
+        "carga": "54 kg",
+        "reps": "12",
+        "rir": "5",
+        "descanso": "60s"
+       },
+       {
+        "serie": "Trabajo 1",
+        "carga": "75 kg",
+        "reps": "15",
+        "rir": "objetivo 3",
+        "descanso": "90s"
+       },
+       {
+        "serie": "Trabajo 2",
+        "carga": "75 kg",
+        "reps": "15",
+        "rir": "objetivo 3",
+        "descanso": "90s"
+       },
+       {
+        "serie": "Trabajo 3",
+        "carga": "75 kg",
+        "reps": "15",
+        "rir": "objetivo 3",
+        "descanso": "90s"
+       }
+      ],
+      "cue": "**75 × 15.** El 8 de septiembre a 82 kg la segunda serie se fue a RPE 10 con 10 repeticiones y bajaste a 75 para la tercera. Se parte en 75 para llegar a 82 sin fallar.\n\n**Cómo te pones:** Sentada con la espalda apoyada y las almohadillas por fuera de las rodillas. Inclinarte un poco adelante carga más el glúteo.\n\n**Qué haces:** abre las piernas hasta donde llegues sin que la cola se despegue del asiento, aguanta 1 segundo y cierra lento.\n\n**Cómo sabes que está bien:** lo sientes al costado de la cadera, no en la zona lumbar. Si la máquina te cierra de golpe, el peso es mucho."
+     },
+     {
       "name": "Side Plank",
       "sets": [
        {
@@ -26571,33 +26598,6 @@
        }
       ],
       "cue": "**Plancha lateral completa, sin rodilla, 35 s por lado.** El 11 y el 13 de septiembre sostuviste 30-32 s las tres veces: toca subir. Después, 5 segundos más por semana.\n\n**Cómo te pones:** de lado, codo justo bajo el hombro, piernas estiradas y pies uno sobre otro.\n\n**Qué haces:** sube la cadera hasta que el cuerpo quede en línea recta de la cabeza a los pies, y sostén.\n\n**Cómo sabes que está bien:** la cadera **no se cae** hacia el suelo ni se va hacia atrás. El apretón va en el costado de abajo."
-     },
-     {
-      "name": "Reverse Crunch",
-      "sets": [
-       {
-        "serie": "Trabajo 1",
-        "carga": "Peso corporal",
-        "reps": "15",
-        "rir": "objetivo 3",
-        "descanso": "60s"
-       },
-       {
-        "serie": "Trabajo 2",
-        "carga": "Peso corporal",
-        "reps": "15",
-        "rir": "objetivo 3",
-        "descanso": "60s"
-       },
-       {
-        "serie": "Trabajo 3",
-        "carga": "Peso corporal",
-        "reps": "15",
-        "rir": "objetivo 3",
-        "descanso": "60s"
-       }
-      ],
-      "cue": "**Tu core de siempre.** 3 × 15: el 11 de septiembre salieron a RPE 8-8,5.\n\n**Cómo te pones:** acostada, brazos a los lados con las palmas al suelo, rodillas dobladas y pies al cielo, como lo venías haciendo afirmada en la barrita.\n\n**Qué haces:** lleva las rodillas al pecho **enrollando la pelvis**, o sea despegando la cola del suelo, no solo moviendo las piernas. Baja lento.\n\n**Cómo sabes que está bien:** si la cola no se despega del suelo, estás moviendo solo la cadera y el abdomen casi no trabaja. El recorrido es corto: 10 cm de cola en el aire basta."
      }
     ]
    },
@@ -26838,7 +26838,7 @@
         "descanso": "90s"
        }
       ],
-      "cue": "**63,5 × 15.** El 2 de septiembre salieron a RPE 7,5-8. El aductor va en 3,5 contra una banda de 6-12 y es el hueco que queda en pierna.\n\n**Cómo te pones:** espalda apoyada, rodillas en los apoyos, pecho arriba.\n\n**Qué haces:** junta las piernas con control y **resiste la vuelta** — la mitad del trabajo está en la fase de apertura, frenando.\n\n**Cómo sabes que está bien:** si la máquina te abre las piernas sola, estás haciendo medio ejercicio."
+      "cue": "🤝 Mopo hace aducción hoy: alternan cambiando el pin. **63,5 × 15.** El 2 de septiembre salieron a RPE 7,5-8. El aductor va en 3,5 contra una banda de 6-12 y es el hueco que queda en pierna.\n\n**Cómo te pones:** espalda apoyada, rodillas en los apoyos, pecho arriba.\n\n**Qué haces:** junta las piernas con control y **resiste la vuelta** — la mitad del trabajo está en la fase de apertura, frenando.\n\n**Cómo sabes que está bien:** si la máquina te abre las piernas sola, estás haciendo medio ejercicio."
      },
      {
       "name": "Dead Bug",
@@ -27198,7 +27198,7 @@
         "descanso": "2 min"
        }
       ],
-      "cue": "**28,5 × 12, con agarre supino**, como te gustó. El 11 de septiembre salieron las tres a RPE 8-8,5.\n\n**Cómo te pones:** pecho contra el apoyo, hombros abajo antes de tirar.\n\n**Qué haces:** tira llevando los codos pegados al cuerpo y junta los omóplatos al final. Suelta lento dejando que el omóplato se separe.\n\n**Cómo sabes que está bien:** el torso **no se balancea**. Si te vas hacia atrás para completar la repetición, es mucho peso."
+      "cue": "🤝 Mopo hace remo sentado hoy: alternan cambiando el pin. **28,5 × 12, con agarre supino**, como te gustó. El 11 de septiembre salieron las tres a RPE 8-8,5.\n\n**Cómo te pones:** pecho contra el apoyo, hombros abajo antes de tirar.\n\n**Qué haces:** tira llevando los codos pegados al cuerpo y junta los omóplatos al final. Suelta lento dejando que el omóplato se separe.\n\n**Cómo sabes que está bien:** el torso **no se balancea**. Si te vas hacia atrás para completar la repetición, es mucho peso."
      },
      {
       "name": "Bench Press (Barbell)",
@@ -27303,7 +27303,7 @@
     "date": "2026-09-26",
     "focus": "Opcional — glúteo corto y escaladora",
     "tag": "opcional",
-    "rationale": "**Día 10 — folicular (proyectado).** **Opcional: glúteo corto y escaladora.** El glúteo es tu prioridad y va en 5,2 contra 10-16. Con los dos días firmes ya llega a su banda y esto le da margen. Step Up, como pediste.",
+    "rationale": "**Día 10 — folicular (proyectado).** **Opcional: glúteo corto y escaladora.** La máquina de glúteo pasó al lunes, para hacerla con Mopo. El glúteo es tu prioridad y va en 5,2 contra 10-16. Con los dos días firmes ya llega a su banda y esto le da margen. Step Up, como pediste.",
     "cardio": "Escaladora 20 min, RPE 5, la que te gusta. Si la frecuencia pasa de 175, baja el ritmo.",
     "warmup": [
      {
@@ -27388,33 +27388,6 @@
        }
       ],
       "cue": "**El que pediste.** **8 kg × 12 por pierna**: una mancuerna de 4 kg en cada mano, como lo anotas en Hevy. El 2 de septiembre hiciste 8 × 15 a RPE 7,5.\n\n**Cómo te pones:** frente a un banco a la altura de la rodilla, un pie completo arriba del banco, mancuernas a los lados.\n\n**Qué haces:** sube empujando con el talón de arriba hasta quedar de pie sobre el banco y baja lento, sin impulsarte con la pierna de abajo.\n\n**Cómo sabes que está bien:** la rodilla de arriba apunta a la punta del pie. Si se va hacia adentro, ponte la banda de 5 kg sobre las rodillas y empuja contra ella."
-     },
-     {
-      "name": "Back Extension (Weighted Hyperextension)",
-      "sets": [
-       {
-        "serie": "Trabajo 1",
-        "carga": "20 kg",
-        "reps": "15",
-        "rir": "objetivo 3",
-        "descanso": "90s"
-       },
-       {
-        "serie": "Trabajo 2",
-        "carga": "20 kg",
-        "reps": "15",
-        "rir": "objetivo 3",
-        "descanso": "90s"
-       },
-       {
-        "serie": "Trabajo 3",
-        "carga": "20 kg",
-        "reps": "15",
-        "rir": "objetivo 3",
-        "descanso": "90s"
-       }
-      ],
-      "cue": "**Glúteo y femoral a la vez, con el disco de 20 kg al pecho.** El domingo 13 salieron dos a 15 con RPE 7,5 y 7. Si el codo protesta sosteniendo el disco, hazlo con los brazos cruzados.\n\n**Qué haces:** baja doblando desde la cadera, sube apretando el glúteo hasta la línea del cuerpo.\n\n**Cómo sabes que está bien:** **paras en la línea, no más arriba.** Pasarse es lo que carga la lumbar sin sumar nada al glúteo."
      },
      {
       "name": "Puente Gluteo Con Marcha",
@@ -27623,40 +27596,6 @@
       "cue": "**40 × 10.** Si la semana pasada no salió completa, o alguna serie pasó de RPE 8, repite lo de la semana pasada.\n\n**Cómo te pones:** barra a la altura de la cadera, pies al ancho de cadera justo debajo de la barra. Agarre al ancho de los hombros. Saca pecho y **mete las costillas** antes de mover nada.\n\n**Qué haces:** echa la cadera atrás como si cerraras una puerta con la cola. Las rodillas apenas se doblan. La barra baja pegada a los muslos, rozándolos.\n\n**Cómo sabes que está bien:** paras **donde la espalda empieza a redondearse**, no donde llegue la barra — para la mayoría es bajo la rodilla, no al suelo. Lo sientes atrás del muslo, estirando. Si lo sientes en la zona lumbar, bajaste de más o soltaste el pecho."
      },
      {
-      "name": "Hip Abduction (Machine)",
-      "sets": [
-       {
-        "serie": "Aprox.",
-        "carga": "54 kg",
-        "reps": "12",
-        "rir": "5",
-        "descanso": "60s"
-       },
-       {
-        "serie": "Trabajo 1",
-        "carga": "82 kg",
-        "reps": "12",
-        "rir": "objetivo 3",
-        "descanso": "90s"
-       },
-       {
-        "serie": "Trabajo 2",
-        "carga": "82 kg",
-        "reps": "12",
-        "rir": "objetivo 2",
-        "descanso": "90s"
-       },
-       {
-        "serie": "Trabajo 3",
-        "carga": "82 kg",
-        "reps": "12",
-        "rir": "objetivo 2",
-        "descanso": "90s"
-       }
-      ],
-      "cue": "**82 × 12.** Si la semana pasada no salió completa, o alguna serie pasó de RPE 8, repite lo de la semana pasada.\n\n**Cómo te pones:** Sentada con la espalda apoyada y las almohadillas por fuera de las rodillas. Inclinarte un poco adelante carga más el glúteo.\n\n**Qué haces:** abre las piernas hasta donde llegues sin que la cola se despegue del asiento, aguanta 1 segundo y cierra lento.\n\n**Cómo sabes que está bien:** lo sientes al costado de la cadera, no en la zona lumbar. Si la máquina te cierra de golpe, el peso es mucho."
-     },
-     {
       "name": "Lying Leg Curl (Machine)",
       "sets": [
        {
@@ -27691,6 +27630,67 @@
       "cue": "🤝 Alternan con Mopo. **27,5 × 10.** Si toca la sentada, 38 × 14. Si la semana pasada no salió completa, o alguna serie pasó de RPE 8, repite lo de la semana pasada.\n\n**Cómo te pones:** boca abajo, rodillas justo fuera del borde del banco y alineadas con el eje de la máquina, rodillo sobre el tobillo y no en la pantorrilla.\n\n**Qué haces:** dobla las rodillas llevando los talones hacia la cola, aguanta medio segundo y baja en 2-3 segundos.\n\n**Cómo sabes que está bien:** la cadera no se despega del banco. Si sube la cola para terminar la repetición, el peso es mucho."
      },
      {
+      "name": "Back Extension (Weighted Hyperextension)",
+      "sets": [
+       {
+        "serie": "Trabajo 1",
+        "carga": "20 kg",
+        "reps": "15, pausa de 2 s arriba",
+        "rir": "objetivo 3",
+        "descanso": "90s"
+       },
+       {
+        "serie": "Trabajo 2",
+        "carga": "20 kg",
+        "reps": "15, pausa de 2 s arriba",
+        "rir": "objetivo 2",
+        "descanso": "90s"
+       },
+       {
+        "serie": "Trabajo 3",
+        "carga": "20 kg",
+        "reps": "15, pausa de 2 s arriba",
+        "rir": "objetivo 2",
+        "descanso": "90s"
+       }
+      ],
+      "cue": "🤝 Alternan con Mopo. **20 × 15 con 2 segundos arriba.** Si la semana pasada no salió completa, o alguna serie pasó de RPE 8, repite lo de la semana pasada.\n\n**Cómo te pones:** cadera apoyada justo **debajo del hueso de la pelvis**, no sobre él — si el apoyo queda muy arriba no puedes doblar desde la cadera. Pies fijos, brazos cruzados al pecho.\n\n**Qué haces:** baja doblando desde la cadera, no desde la espalda, hasta sentir tensión atrás del muslo. Sube apretando el glúteo hasta que el cuerpo quede en línea recta.\n\n**Cómo sabes que está bien:** paras **en la línea del cuerpo, no más arriba**. Pasarse de ahí es lo que carga la lumbar sin sumar nada al glúteo. Debes sentirlo atrás del muslo y en el glúteo, nunca en la zona baja de la espalda."
+     },
+     {
+      "name": "Hip Abduction (Machine)",
+      "sets": [
+       {
+        "serie": "Aprox.",
+        "carga": "54 kg",
+        "reps": "12",
+        "rir": "5",
+        "descanso": "60s"
+       },
+       {
+        "serie": "Trabajo 1",
+        "carga": "82 kg",
+        "reps": "12",
+        "rir": "objetivo 3",
+        "descanso": "90s"
+       },
+       {
+        "serie": "Trabajo 2",
+        "carga": "82 kg",
+        "reps": "12",
+        "rir": "objetivo 2",
+        "descanso": "90s"
+       },
+       {
+        "serie": "Trabajo 3",
+        "carga": "82 kg",
+        "reps": "12",
+        "rir": "objetivo 2",
+        "descanso": "90s"
+       }
+      ],
+      "cue": "**82 × 12.** Si la semana pasada no salió completa, o alguna serie pasó de RPE 8, repite lo de la semana pasada.\n\n**Cómo te pones:** Sentada con la espalda apoyada y las almohadillas por fuera de las rodillas. Inclinarte un poco adelante carga más el glúteo.\n\n**Qué haces:** abre las piernas hasta donde llegues sin que la cola se despegue del asiento, aguanta 1 segundo y cierra lento.\n\n**Cómo sabes que está bien:** lo sientes al costado de la cadera, no en la zona lumbar. Si la máquina te cierra de golpe, el peso es mucho."
+     },
+     {
       "name": "Side Plank",
       "sets": [
        {
@@ -27716,33 +27716,6 @@
        }
       ],
       "cue": "**40 s por lado.**\n\n**Cómo te pones:** de lado, codo justo bajo el hombro, piernas estiradas y pies uno sobre otro.\n\n**Qué haces:** sube la cadera hasta que el cuerpo quede en línea recta de la cabeza a los pies, y sostén.\n\n**Cómo sabes que está bien:** la cadera **no se cae** hacia el suelo ni se va hacia atrás. El apretón va en el costado de abajo."
-     },
-     {
-      "name": "Reverse Crunch",
-      "sets": [
-       {
-        "serie": "Trabajo 1",
-        "carga": "Peso corporal",
-        "reps": "15 con pausa de 1 s",
-        "rir": "objetivo 3",
-        "descanso": "60s"
-       },
-       {
-        "serie": "Trabajo 2",
-        "carga": "Peso corporal",
-        "reps": "15 con pausa de 1 s",
-        "rir": "objetivo 2",
-        "descanso": "60s"
-       },
-       {
-        "serie": "Trabajo 3",
-        "carga": "Peso corporal",
-        "reps": "15 con pausa de 1 s",
-        "rir": "objetivo 2",
-        "descanso": "60s"
-       }
-      ],
-      "cue": "**15 con 1 segundo arriba.**\n\n**Cómo te pones:** acostada, brazos a los lados con las palmas al suelo, rodillas dobladas y pies al cielo, como lo venías haciendo afirmada en la barrita.\n\n**Qué haces:** lleva las rodillas al pecho **enrollando la pelvis**, o sea despegando la cola del suelo, no solo moviendo las piernas. Baja lento.\n\n**Cómo sabes que está bien:** si la cola no se despega del suelo, estás moviendo solo la cadera y el abdomen casi no trabaja. El recorrido es corto: 10 cm de cola en el aire basta."
      }
     ]
    },
@@ -28535,33 +28508,6 @@
       "cue": "**8 × 15 por pierna.** Si la semana pasada no salió completa, o alguna serie pasó de RPE 8, repite lo de la semana pasada.\n\n**Cómo te pones:** frente a un banco a la altura de la rodilla, un pie completo arriba del banco, mancuernas a los lados.\n\n**Qué haces:** sube empujando con el talón de arriba hasta quedar de pie sobre el banco y baja lento, sin impulsarte con la pierna de abajo.\n\n**Cómo sabes que está bien:** la rodilla de arriba apunta a la punta del pie. Si se va hacia adentro, ponte la banda de 5 kg sobre las rodillas y empuja contra ella."
      },
      {
-      "name": "Back Extension (Weighted Hyperextension)",
-      "sets": [
-       {
-        "serie": "Trabajo 1",
-        "carga": "20 kg",
-        "reps": "15, pausa de 2 s arriba",
-        "rir": "objetivo 3",
-        "descanso": "90s"
-       },
-       {
-        "serie": "Trabajo 2",
-        "carga": "20 kg",
-        "reps": "15, pausa de 2 s arriba",
-        "rir": "objetivo 2",
-        "descanso": "90s"
-       },
-       {
-        "serie": "Trabajo 3",
-        "carga": "20 kg",
-        "reps": "15, pausa de 2 s arriba",
-        "rir": "objetivo 2",
-        "descanso": "90s"
-       }
-      ],
-      "cue": "**20 × 15 con 2 segundos arriba.** Si la semana pasada no salió completa, o alguna serie pasó de RPE 8, repite lo de la semana pasada.\n\n**Qué haces:** baja doblando desde la cadera, sube apretando el glúteo hasta la línea del cuerpo.\n\n**Cómo sabes que está bien:** **paras en la línea, no más arriba.** Pasarse es lo que carga la lumbar sin sumar nada al glúteo."
-     },
-     {
       "name": "Puente Gluteo Con Marcha",
       "sets": [
        {
@@ -28768,40 +28714,6 @@
       "cue": "**40 × 12.** Si la semana pasada no salió completa, o alguna serie pasó de RPE 8, repite lo de la semana pasada.\n\n**Cómo te pones:** barra a la altura de la cadera, pies al ancho de cadera justo debajo de la barra. Agarre al ancho de los hombros. Saca pecho y **mete las costillas** antes de mover nada.\n\n**Qué haces:** echa la cadera atrás como si cerraras una puerta con la cola. Las rodillas apenas se doblan. La barra baja pegada a los muslos, rozándolos.\n\n**Cómo sabes que está bien:** paras **donde la espalda empieza a redondearse**, no donde llegue la barra — para la mayoría es bajo la rodilla, no al suelo. Lo sientes atrás del muslo, estirando. Si lo sientes en la zona lumbar, bajaste de más o soltaste el pecho."
      },
      {
-      "name": "Hip Abduction (Machine)",
-      "sets": [
-       {
-        "serie": "Aprox.",
-        "carga": "54 kg",
-        "reps": "12",
-        "rir": "5",
-        "descanso": "60s"
-       },
-       {
-        "serie": "Trabajo 1",
-        "carga": "82 kg",
-        "reps": "15",
-        "rir": "objetivo 2",
-        "descanso": "90s"
-       },
-       {
-        "serie": "Trabajo 2",
-        "carga": "82 kg",
-        "reps": "15",
-        "rir": "objetivo 2",
-        "descanso": "90s"
-       },
-       {
-        "serie": "Trabajo 3",
-        "carga": "82 kg",
-        "reps": "15",
-        "rir": "objetivo 2",
-        "descanso": "90s"
-       }
-      ],
-      "cue": "**82 × 15.** Si la semana pasada no salió completa, o alguna serie pasó de RPE 8, repite lo de la semana pasada.\n\n**Cómo te pones:** Sentada con la espalda apoyada y las almohadillas por fuera de las rodillas. Inclinarte un poco adelante carga más el glúteo.\n\n**Qué haces:** abre las piernas hasta donde llegues sin que la cola se despegue del asiento, aguanta 1 segundo y cierra lento.\n\n**Cómo sabes que está bien:** lo sientes al costado de la cadera, no en la zona lumbar. Si la máquina te cierra de golpe, el peso es mucho."
-     },
-     {
       "name": "Lying Leg Curl (Machine)",
       "sets": [
        {
@@ -28836,6 +28748,67 @@
       "cue": "🤝 Alternan con Mopo. **27,5 × 12.** Si toca la sentada, 40,5 × 12. Si la semana pasada no salió completa, o alguna serie pasó de RPE 8, repite lo de la semana pasada.\n\n**Cómo te pones:** boca abajo, rodillas justo fuera del borde del banco y alineadas con el eje de la máquina, rodillo sobre el tobillo y no en la pantorrilla.\n\n**Qué haces:** dobla las rodillas llevando los talones hacia la cola, aguanta medio segundo y baja en 2-3 segundos.\n\n**Cómo sabes que está bien:** la cadera no se despega del banco. Si sube la cola para terminar la repetición, el peso es mucho."
      },
      {
+      "name": "Back Extension (Weighted Hyperextension)",
+      "sets": [
+       {
+        "serie": "Trabajo 1",
+        "carga": "25 kg",
+        "reps": "12",
+        "rir": "objetivo 2",
+        "descanso": "90s"
+       },
+       {
+        "serie": "Trabajo 2",
+        "carga": "25 kg",
+        "reps": "12",
+        "rir": "objetivo 2",
+        "descanso": "90s"
+       },
+       {
+        "serie": "Trabajo 3",
+        "carga": "25 kg",
+        "reps": "12",
+        "rir": "objetivo 2",
+        "descanso": "90s"
+       }
+      ],
+      "cue": "🤝 Alternan con Mopo. **25 × 12**, o el pin siguiente. Si la semana pasada no salió completa, o alguna serie pasó de RPE 8, repite lo de la semana pasada.\n\n**Cómo te pones:** cadera apoyada justo **debajo del hueso de la pelvis**, no sobre él — si el apoyo queda muy arriba no puedes doblar desde la cadera. Pies fijos, brazos cruzados al pecho.\n\n**Qué haces:** baja doblando desde la cadera, no desde la espalda, hasta sentir tensión atrás del muslo. Sube apretando el glúteo hasta que el cuerpo quede en línea recta.\n\n**Cómo sabes que está bien:** paras **en la línea del cuerpo, no más arriba**. Pasarse de ahí es lo que carga la lumbar sin sumar nada al glúteo. Debes sentirlo atrás del muslo y en el glúteo, nunca en la zona baja de la espalda."
+     },
+     {
+      "name": "Hip Abduction (Machine)",
+      "sets": [
+       {
+        "serie": "Aprox.",
+        "carga": "54 kg",
+        "reps": "12",
+        "rir": "5",
+        "descanso": "60s"
+       },
+       {
+        "serie": "Trabajo 1",
+        "carga": "82 kg",
+        "reps": "15",
+        "rir": "objetivo 2",
+        "descanso": "90s"
+       },
+       {
+        "serie": "Trabajo 2",
+        "carga": "82 kg",
+        "reps": "15",
+        "rir": "objetivo 2",
+        "descanso": "90s"
+       },
+       {
+        "serie": "Trabajo 3",
+        "carga": "82 kg",
+        "reps": "15",
+        "rir": "objetivo 2",
+        "descanso": "90s"
+       }
+      ],
+      "cue": "**82 × 15.** Si la semana pasada no salió completa, o alguna serie pasó de RPE 8, repite lo de la semana pasada.\n\n**Cómo te pones:** Sentada con la espalda apoyada y las almohadillas por fuera de las rodillas. Inclinarte un poco adelante carga más el glúteo.\n\n**Qué haces:** abre las piernas hasta donde llegues sin que la cola se despegue del asiento, aguanta 1 segundo y cierra lento.\n\n**Cómo sabes que está bien:** lo sientes al costado de la cadera, no en la zona lumbar. Si la máquina te cierra de golpe, el peso es mucho."
+     },
+     {
       "name": "Side Plank",
       "sets": [
        {
@@ -28861,33 +28834,6 @@
        }
       ],
       "cue": "**45 s por lado.**\n\n**Cómo te pones:** de lado, codo justo bajo el hombro, piernas estiradas y pies uno sobre otro.\n\n**Qué haces:** sube la cadera hasta que el cuerpo quede en línea recta de la cabeza a los pies, y sostén.\n\n**Cómo sabes que está bien:** la cadera **no se cae** hacia el suelo ni se va hacia atrás. El apretón va en el costado de abajo."
-     },
-     {
-      "name": "Reverse Crunch",
-      "sets": [
-       {
-        "serie": "Trabajo 1",
-        "carga": "Peso corporal",
-        "reps": "18",
-        "rir": "objetivo 2",
-        "descanso": "60s"
-       },
-       {
-        "serie": "Trabajo 2",
-        "carga": "Peso corporal",
-        "reps": "18",
-        "rir": "objetivo 2",
-        "descanso": "60s"
-       },
-       {
-        "serie": "Trabajo 3",
-        "carga": "Peso corporal",
-        "reps": "18",
-        "rir": "objetivo 2",
-        "descanso": "60s"
-       }
-      ],
-      "cue": "**3 × 18.**\n\n**Cómo te pones:** acostada, brazos a los lados con las palmas al suelo, rodillas dobladas y pies al cielo, como lo venías haciendo afirmada en la barrita.\n\n**Qué haces:** lleva las rodillas al pecho **enrollando la pelvis**, o sea despegando la cola del suelo, no solo moviendo las piernas. Baja lento.\n\n**Cómo sabes que está bien:** si la cola no se despega del suelo, estás moviendo solo la cadera y el abdomen casi no trabaja. El recorrido es corto: 10 cm de cola en el aire basta."
      }
     ]
    },
@@ -29680,33 +29626,6 @@
       "cue": "**Se repite 8 × 15.** Hoy es premenstrual: el opcional no sube. Si llegas chata, haz solo la escaladora.\n\n**Cómo te pones:** frente a un banco a la altura de la rodilla, un pie completo arriba del banco, mancuernas a los lados.\n\n**Qué haces:** sube empujando con el talón de arriba hasta quedar de pie sobre el banco y baja lento, sin impulsarte con la pierna de abajo.\n\n**Cómo sabes que está bien:** la rodilla de arriba apunta a la punta del pie. Si se va hacia adentro, ponte la banda de 5 kg sobre las rodillas y empuja contra ella."
      },
      {
-      "name": "Back Extension (Weighted Hyperextension)",
-      "sets": [
-       {
-        "serie": "Trabajo 1",
-        "carga": "20 kg",
-        "reps": "15, pausa de 2 s arriba",
-        "rir": "objetivo 2",
-        "descanso": "90s"
-       },
-       {
-        "serie": "Trabajo 2",
-        "carga": "20 kg",
-        "reps": "15, pausa de 2 s arriba",
-        "rir": "objetivo 2",
-        "descanso": "90s"
-       },
-       {
-        "serie": "Trabajo 3",
-        "carga": "20 kg",
-        "reps": "15, pausa de 2 s arriba",
-        "rir": "objetivo 2",
-        "descanso": "90s"
-       }
-      ],
-      "cue": "**Se repite lo de la semana pasada.** Premenstrual: el opcional no sube.\n\n**Qué haces:** baja doblando desde la cadera, sube apretando el glúteo hasta la línea del cuerpo.\n\n**Cómo sabes que está bien:** **paras en la línea, no más arriba.** Pasarse es lo que carga la lumbar sin sumar nada al glúteo."
-     },
-     {
       "name": "Puente Gluteo Con Marcha",
       "sets": [
        {
@@ -29892,33 +29811,6 @@
       "cue": "**30 × 10.** Descarga: dos series a RIR 4. Que se sienta fácil es el objetivo.\n\n**Cómo te pones:** barra a la altura de la cadera, pies al ancho de cadera justo debajo de la barra. Agarre al ancho de los hombros. Saca pecho y **mete las costillas** antes de mover nada.\n\n**Qué haces:** echa la cadera atrás como si cerraras una puerta con la cola. Las rodillas apenas se doblan. La barra baja pegada a los muslos, rozándolos.\n\n**Cómo sabes que está bien:** paras **donde la espalda empieza a redondearse**, no donde llegue la barra — para la mayoría es bajo la rodilla, no al suelo. Lo sientes atrás del muslo, estirando. Si lo sientes en la zona lumbar, bajaste de más o soltaste el pecho."
      },
      {
-      "name": "Hip Abduction (Machine)",
-      "sets": [
-       {
-        "serie": "Aprox.",
-        "carga": "54 kg",
-        "reps": "12",
-        "rir": "5",
-        "descanso": "60s"
-       },
-       {
-        "serie": "Trabajo 1",
-        "carga": "54 kg",
-        "reps": "15",
-        "rir": "objetivo 4",
-        "descanso": "90s"
-       },
-       {
-        "serie": "Trabajo 2",
-        "carga": "54 kg",
-        "reps": "15",
-        "rir": "objetivo 4",
-        "descanso": "90s"
-       }
-      ],
-      "cue": "**54 × 15.** Descarga: dos series a RIR 4. Que se sienta fácil es el objetivo.\n\n**Cómo te pones:** Sentada con la espalda apoyada y las almohadillas por fuera de las rodillas. Inclinarte un poco adelante carga más el glúteo.\n\n**Qué haces:** abre las piernas hasta donde llegues sin que la cola se despegue del asiento, aguanta 1 segundo y cierra lento.\n\n**Cómo sabes que está bien:** lo sientes al costado de la cadera, no en la zona lumbar. Si la máquina te cierra de golpe, el peso es mucho."
-     },
-     {
       "name": "Lying Leg Curl (Machine)",
       "sets": [
        {
@@ -29946,6 +29838,53 @@
       "cue": "🤝 Alternan con Mopo. **20 kg, o el pin inmediatamente inferior.** Descarga: dos series a RIR 4. Que se sienta fácil es el objetivo.\n\n**Cómo te pones:** boca abajo, rodillas justo fuera del borde del banco y alineadas con el eje de la máquina, rodillo sobre el tobillo y no en la pantorrilla.\n\n**Qué haces:** dobla las rodillas llevando los talones hacia la cola, aguanta medio segundo y baja en 2-3 segundos.\n\n**Cómo sabes que está bien:** la cadera no se despega del banco. Si sube la cola para terminar la repetición, el peso es mucho."
      },
      {
+      "name": "Back Extension (Weighted Hyperextension)",
+      "sets": [
+       {
+        "serie": "Trabajo 1",
+        "carga": "Peso corporal",
+        "reps": "15",
+        "rir": "objetivo 4",
+        "descanso": "90s"
+       },
+       {
+        "serie": "Trabajo 2",
+        "carga": "Peso corporal",
+        "reps": "15",
+        "rir": "objetivo 4",
+        "descanso": "90s"
+       }
+      ],
+      "cue": "🤝 Alternan con Mopo. **Sin peso, 15.** Descarga: dos series a RIR 4. Que se sienta fácil es el objetivo.\n\n**Cómo te pones:** cadera apoyada justo **debajo del hueso de la pelvis**, no sobre él — si el apoyo queda muy arriba no puedes doblar desde la cadera. Pies fijos, brazos cruzados al pecho.\n\n**Qué haces:** baja doblando desde la cadera, no desde la espalda, hasta sentir tensión atrás del muslo. Sube apretando el glúteo hasta que el cuerpo quede en línea recta.\n\n**Cómo sabes que está bien:** paras **en la línea del cuerpo, no más arriba**. Pasarse de ahí es lo que carga la lumbar sin sumar nada al glúteo. Debes sentirlo atrás del muslo y en el glúteo, nunca en la zona baja de la espalda."
+     },
+     {
+      "name": "Hip Abduction (Machine)",
+      "sets": [
+       {
+        "serie": "Aprox.",
+        "carga": "54 kg",
+        "reps": "12",
+        "rir": "5",
+        "descanso": "60s"
+       },
+       {
+        "serie": "Trabajo 1",
+        "carga": "54 kg",
+        "reps": "15",
+        "rir": "objetivo 4",
+        "descanso": "90s"
+       },
+       {
+        "serie": "Trabajo 2",
+        "carga": "54 kg",
+        "reps": "15",
+        "rir": "objetivo 4",
+        "descanso": "90s"
+       }
+      ],
+      "cue": "**54 × 15.** Descarga: dos series a RIR 4. Que se sienta fácil es el objetivo.\n\n**Cómo te pones:** Sentada con la espalda apoyada y las almohadillas por fuera de las rodillas. Inclinarte un poco adelante carga más el glúteo.\n\n**Qué haces:** abre las piernas hasta donde llegues sin que la cola se despegue del asiento, aguanta 1 segundo y cierra lento.\n\n**Cómo sabes que está bien:** lo sientes al costado de la cadera, no en la zona lumbar. Si la máquina te cierra de golpe, el peso es mucho."
+     },
+     {
       "name": "Side Plank",
       "sets": [
        {
@@ -29964,26 +29903,6 @@
        }
       ],
       "cue": "**2 × 30 s.** Descarga: dos series a RIR 4. Que se sienta fácil es el objetivo.\n\n**Cómo te pones:** de lado, codo justo bajo el hombro, piernas estiradas y pies uno sobre otro.\n\n**Qué haces:** sube la cadera hasta que el cuerpo quede en línea recta de la cabeza a los pies, y sostén.\n\n**Cómo sabes que está bien:** la cadera **no se cae** hacia el suelo ni se va hacia atrás. El apretón va en el costado de abajo."
-     },
-     {
-      "name": "Reverse Crunch",
-      "sets": [
-       {
-        "serie": "Trabajo 1",
-        "carga": "Peso corporal",
-        "reps": "12",
-        "rir": "objetivo 4",
-        "descanso": "60s"
-       },
-       {
-        "serie": "Trabajo 2",
-        "carga": "Peso corporal",
-        "reps": "12",
-        "rir": "objetivo 4",
-        "descanso": "60s"
-       }
-      ],
-      "cue": "**2 × 12.** Descarga: dos series a RIR 4. Que se sienta fácil es el objetivo.\n\n**Cómo te pones:** acostada, brazos a los lados con las palmas al suelo, rodillas dobladas y pies al cielo, como lo venías haciendo afirmada en la barrita.\n\n**Qué haces:** lleva las rodillas al pecho **enrollando la pelvis**, o sea despegando la cola del suelo, no solo moviendo las piernas. Baja lento.\n\n**Cómo sabes que está bien:** si la cola no se despega del suelo, estás moviendo solo la cadera y el abdomen casi no trabaja. El recorrido es corto: 10 cm de cola en el aire basta."
      }
     ]
    },
