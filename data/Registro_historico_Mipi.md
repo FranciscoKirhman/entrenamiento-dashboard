@@ -1,4 +1,4 @@
-# Historial de entrenamiento de Paloma (Mipi) — 28 de febrero al 13 de septiembre de 2026 (82 sesiones)
+# Historial de entrenamiento de Paloma (Mipi) — 28 de febrero al 20 de septiembre de 2026 (83 sesiones)
 
 Registro cronológico consolidado, mismo formato que el de Mopo. Cada fila corresponde a una serie real copiada desde Hevy. Los volúmenes oficiales se conservan sin reemplazarlos por cálculos derivados (excepto en sesiones con ejercicios asistidos o de solo-peso-corporal, donde Hevy suma un componente de peso corporal que no aparece en el texto copiado — el volumen mostrado sigue siendo el oficial de la app).
 
@@ -2588,3 +2588,35 @@ No hubo sesión de gimnasio este día (la pierna B se corrió al jueves 27). Sí
 - **Puente Gluteo Con Marcha:** *"10 por lado, meterle banda o pesa chica"*
 
 *Hizo el día de glúteo y femoral del domingo. En vez de la Back Extension en máquina usó el banco con disco (20 kg × 15), y el curl femoral fue acostada en vez de sentada, que dejó anotado como su primera opción. Prensa a 105 × 12 las tres con RPE 7,5, 8 y 8, más fácil que el 2 de septiembre (7, 8,5 y 8,5).*
+
+## 20 Sep 2026 — Post 18🤡
+
+**Hora:** 2:51 PM  
+**Duración:** 1h 7m  
+**Volumen Hevy:** 3,385 kg  
+**Comentario:** Apenaa  
+
+| Orden | Ejercicio | Serie | Carga | Reps/tiempo | RPE |
+|---:|---|---:|---:|---|---:|
+| 1 | Deadlift (Smith Machine) | 1 | 10 kg | 10 | 6 |
+| 1 | Deadlift (Smith Machine) | 2 | 30 kg | 9 | 7 |
+| 1 | Deadlift (Smith Machine) | 3 | 30 kg | 10 | 7 |
+| 1 | Deadlift (Smith Machine) | 4 | 30 kg | 12 | 8 |
+| 2 | Triceps Pushdown | 1 | 10 kg | 15 | 7 |
+| 2 | Triceps Pushdown | 2 | 10 kg | 15 | 7 |
+| 3 | Face Pull | 1 | 15 kg | 15 | 7 |
+| 4 | Hip Thrust (Barbell) | 1 | 60 kg | 8 | 6 |
+| 4 | Hip Thrust (Barbell) | 2 | 90 kg | 7 | 7 |
+| 4 | Hip Thrust (Barbell) | 3 | 90 kg | 8 | 9 |
+| 5 | Side Plank | 1 | Peso corporal | 35 s | — |
+| 5 | Side Plank | 2 | Peso corporal | 40 s | — |
+| 5 | Side Plank | 3 | Peso corporal | 40 s | — |
+
+**Notas por ejercicio:**
+- **Deadlift (Smith Machine):** *"Volviendo, está raro😶‍🌫️ recordando la pose. Logro 8 seguidas por agarre."* — el agarre vuelve a ser el limitante, igual que la última vez que lo hizo.
+
+*Primera sesión post Fiestas Patrias ("Post 18", comentario "Apenaa"): salieron de fiesta el 18 y 19 y llegó cansada. Una sola serie de Face Pull y solo tres de Hip Thrust en 1h 7m.*
+
+*Vuelve al peso muerto en multipower después de casi cinco meses (la última fue el 28 de abril, a 40 kg × 8-9); partió de nuevo en 30 kg y el agarre se le suelta a las 8 repeticiones. El Hip Thrust también quedó por debajo: 90 × 8 a RPE 9 contra los 100 × 8 × 3 a RPE 7 del 24 de agosto — casi un mes sin hacerlo. Las planchas laterales, en cambio, subieron a 35-40 s (venía de 30-31 s el 13 de septiembre).*
+
+*No entrenó entre el 13 y el 20 de septiembre.*

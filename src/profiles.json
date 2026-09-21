@@ -35,111 +35,111 @@
   "MUSCLES": [
    {
     "name": "Femoral",
-    "recent": 4.7,
-    "hist": 4.3,
+    "recent": 1.8,
+    "hist": 4.1,
     "lo": 6,
     "hi": 10,
-    "tier": "warning",
-    "trend": -2.9,
+    "tier": "critical",
+    "trend": -4.7,
     "note": "Curl acostado del domingo 13 y peso muerto rumano del 7. Sube desde 2,9, pero sigue bajo la banda: desde el 21 va dos días por semana, lunes y viernes.",
     "ex": "Romanian Deadlift, Lying/Seated Leg Curl"
    },
    {
     "name": "Tríceps",
-    "recent": 5.2,
-    "hist": 5.8,
+    "recent": 1.8,
+    "hist": 5.4,
     "lo": 6,
     "hi": 10,
-    "tier": "warning",
-    "trend": 0.0,
+    "tier": "critical",
+    "trend": -5.2,
     "note": "Pushdown del 8 y extensión sobre la cabeza del 11. Justo bajo la banda; desde el 21 va el martes y el sábado.",
     "ex": "Triceps Pushdown, Overhead Extension"
    },
    {
     "name": "Glúteo / cadera",
-    "recent": 3.5,
-    "hist": 3.6,
+    "recent": 1.8,
+    "hist": 3.3,
     "lo": 8,
     "hi": 12,
     "tier": "critical",
-    "trend": 0.0,
+    "trend": -1.8,
     "note": "Hip thrust del 7 y máquina de glúteo del 13. La máquina de erector espinal del 7 ya no cuenta como glúteo, por eso queda en 3,5. Desde el 21 hay glúteo el lunes y el viernes, con la abducción.",
     "ex": "Hip Thrust, máquina de glúteo"
    },
    {
     "name": "Espalda",
-    "recent": 10.5,
-    "hist": 10.5,
+    "recent": 5.2,
+    "hist": 9.9,
     "lo": 12,
     "hi": 16,
-    "tier": "warning",
-    "trend": 1.2,
+    "tier": "critical",
+    "trend": 0.0,
     "note": "Jalón, remo y dominadas del 11, con jalón a 82 × 12 las tres. Con un solo día por semana no llega a la banda: desde el 21 el remo sentado pasa al viernes.",
     "ex": "Lat Pulldown, Seated Row, Iso-Lateral Row, Pull Up"
    },
    {
     "name": "Bíceps",
-    "recent": 3.5,
-    "hist": 6.8,
+    "recent": 1.8,
+    "hist": 6.4,
     "lo": 6,
     "hi": 10,
-    "tier": "warning",
-    "trend": -2.9,
+    "tier": "critical",
+    "trend": -3.5,
     "note": "Solo el Preacher del 11 cae en la ventana. Desde el 21: curl inclinado el jueves y martillo el sábado, además de lo que trabajan los remos.",
     "ex": "Incline Curl, Hammer Curl, Preacher Curl"
    },
    {
     "name": "Pecho",
-    "recent": 10.5,
-    "hist": 10.4,
+    "recent": 3.5,
+    "hist": 9.8,
     "lo": 10,
     "hi": 14,
-    "tier": "good",
-    "trend": 2.3,
+    "tier": "critical",
+    "trend": -6.4,
     "note": "Dentro de banda con la banca del 8 y el inclinado a 65 × 10 del domingo 13, sin molestias de hombro.",
     "ex": "Bench Press, Incline Bench, Cable Fly, Chest Fly"
    },
    {
     "name": "Hombro (empuje)",
-    "recent": 14.0,
-    "hist": 11.9,
+    "recent": 4.7,
+    "hist": 11.3,
     "lo": 8,
     "hi": 12,
-    "tier": "good",
-    "trend": 2.3,
+    "tier": "warning",
+    "trend": -10.5,
     "note": "Sobre la banda con press, elevación lateral, Rear Delt y Face Pull. Desde el 21 el press militar descansa y el Rear Delt sale del plan.",
     "ex": "Shoulder Press, Lateral Raise, Face Pull"
    },
    {
     "name": "Cuádriceps",
-    "recent": 9.9,
-    "hist": 8.4,
+    "recent": 5.2,
+    "hist": 7.9,
     "lo": 10,
     "hi": 14,
     "tier": "warning",
-    "trend": 5.2,
+    "trend": 0.6,
     "note": "Sentadilla a 90 × 8 las tres y prensa a 180 × 12 el 9. Al borde de la banda con un solo día de cuádriceps.",
     "ex": "Squat, Leg Press, Leg Extension"
    },
    {
     "name": "Aductor / abductor",
-    "recent": 5.2,
-    "hist": 3.7,
+    "recent": 3.5,
+    "hist": 3.5,
     "lo": 4,
     "hi": 8,
-    "tier": "good",
-    "trend": 3.5,
+    "tier": "warning",
+    "trend": 1.8,
     "note": "Aducción a 89 × 15 el 9 y el 13, siempre a RPE 7: en banda, pero con la carga corta. Sube a 94 el 23.",
     "ex": "Hip Adduction, Hip Abduction"
    },
    {
     "name": "Core",
-    "recent": 15.2,
-    "hist": 6.9,
+    "recent": 4.1,
+    "hist": 6.5,
     "lo": 12,
     "hi": 22,
-    "tier": "good",
-    "trend": -5.8,
+    "tier": "critical",
+    "trend": -14.0,
     "note": "Pallof, crunch inverso, elevación de rodillas y plancha lateral: dentro de banda.",
     "ex": "Cable Crunch, Pallof Press, Reverse Crunch, Side Plank"
    }
@@ -6346,34 +6346,34 @@
    {
     "day": "Lun 21",
     "date": "2026-09-21",
-    "focus": "Posterior — glúteo y femoral",
+    "focus": "Tirón — espalda y core",
     "tag": "entreno",
-    "rationale": "**Arranca el mesociclo nuevo: 4 semanas, del 21 de septiembre al 18 de octubre.** Tres semanas de carga y la cuarta de descarga, la misma semana que la de Mipi.\n\n**Qué cambia.** Cinco días firmes y el sábado opcional: en las últimas cuatro semanas hiciste entre 4 y 7 sesiones y el sábado casi nunca salió. Se quedan los ejercicios base (hip thrust, sentadilla, prensa, banca, jalón y dominadas) para poder medir progreso, y rotan los que estaban estancados o se repetían sin subir. Hoy entra el curl femoral acostado y vuelve el Cable Crunch.\n\n**Cómo progresa.** Semana 1 a RIR 3, semana 2 más repeticiones con la misma carga, semana 3 sube el peso solo donde la semana 2 salió completa. Cada ficha dice qué hacer si no salió.\n\n🤝 **Coordinado con Mipi:** los lunes, miércoles y viernes son sus días firmes. Comparten hip thrust, Smith, máquina de glúteo y curl acostado el lunes, prensa y aducción el miércoles, y remo sentado el viernes.",
-    "cardio": "Escaleras 12-15 min, RPE 4-5.",
+    "rationale": "**Arranca el mesociclo nuevo: 4 semanas, del 21 de septiembre al 18 de octubre.** Tres semanas de carga y la cuarta de descarga, la misma semana que la de Mipi. La descarga del 14 al 20 se cumplió: tres sesiones, todas a RPE 6, con las cargas un 20-30% bajo lo habitual.\n\n**Cómo progresa.** Semana 1 a RIR 3, semana 2 más repeticiones con la misma carga, semana 3 sube el peso solo donde la semana 2 salió completa. Cada ficha dice qué hacer si no salió.\n\n**Hoy espalda, no pecho.** Contando desde la última serie real de cada grupo: dorsal 10 días (el jalón del 11), core e isquio 8, pecho y hombro 7 —y ese pecho fue la descarga del 14, banca 65 × 10 a RPE 6, que casi no cuenta— y cuádriceps 5. El hueco grande es la espalda.\n\n**Qué sale de hoy.** El Face Pull y el curl inclinado estaban en este día, pero ayer hiciste face pull 30 × 15 las tres y seis series de bíceps entre curl y martillo. Los dos se corren al viernes. Queda el trabajo de dorsal puro más core, que también lleva 8 días.\n\n🤝 **Coordinado con Mipi:** esta semana ella no viene lunes ni miércoles. Se juntan el jueves (posterior, comparten barra de hip thrust, Smith y curl acostado), el viernes (remo sentado) y el sábado.",
+    "cardio": "Escaleras 15-20 min, RPE 5.",
     "warmup": [
      {
       "name": "Bici o caminadora, 5-6 min, ritmo conversable",
       "how": "Solo para subir temperatura y pulso. Debes poder hablar frases completas todo el rato. Si terminas sin aliento, ibas muy fuerte."
      },
      {
-      "name": "Círculos de cadera de pie, 8 por lado",
-      "how": "Apóyate en algo, rodilla a la altura de la cadera, círculos grandes hacia afuera."
+      "name": "Círculos de hombro, 10 por lado",
+      "how": "Brazos sueltos, círculos grandes y lentos."
      },
      {
-      "name": "Bisagra de cadera hacia la pared, 12 repeticiones",
-      "how": "De pie a un palmo de la pared, de espaldas y con las manos en la cadera. Echa la cadera atrás hasta que la cola toque la pared, con las rodillas casi rectas y la espalda plana. Vuelve apretando el glúteo. La pared te dice hasta dónde llegar; ese es el patrón del RDL."
+      "name": "Movilidad torácica sentado, 8 por lado",
+      "how": "Sentado, manos en la nuca, gira el pecho hacia un lado sin mover la cadera. Es rotación de la espalda alta, no de la baja."
      },
      {
-      "name": "Puente de glúteo, 12 con pausa de 1 s",
-      "how": "Sube apretando el glúteo hasta alinear rodilla-cadera-hombro y aguanta 1 s. La costilla queda abajo, sin arquear."
+      "name": "Face Pull con banda, 15 repeticiones",
+      "how": "Banda a la altura de la cara. Tira separando las manos y llevando los codos atrás. Hombros abajo, no encogidos."
      },
      {
-      "name": "Puente a una pierna, 8 por lado",
-      "how": "Mismo puente pero con una pierna estirada. Si la cadera se cae hacia un lado, baja las repeticiones."
+      "name": "Activación de dorsal con banda, 12 repeticiones",
+      "how": "Banda alta, brazos estirados. Baja los brazos rectos hacia los muslos apretando la axila. Sin doblar el codo."
      },
      {
-      "name": "Dead bug lento, 8 por lado",
-      "how": "Boca arriba, brazos al techo y rodillas en 90°. Baja un brazo y la pierna contraria con la lumbar pegada al suelo."
+      "name": "Colgarse de la barra, 20 s",
+      "how": "Cuelga relajado y luego aprieta los omóplatos hacia abajo un par de veces. Prepara el hombro para el jalón."
      },
      {
       "name": "Series de aproximación del primer ejercicio",
@@ -6382,179 +6382,164 @@
     ],
     "stretch": [
      {
-      "name": "Flexor de cadera en estocada, 30 s por lado",
-      "how": "Rodilla atrás en el suelo, mete la pelvis adelante como escondiendo la cola y aprieta el glúteo de atrás."
+      "name": "Dorsal colgado de la barra, 30 s",
+      "how": "Cuelga relajado y respira."
      },
      {
-      "name": "Glúteo figura-4 acostado, 30 s por lado",
-      "how": "Cruza el tobillo sobre la rodilla contraria y tira de la pierna de abajo al pecho."
+      "name": "Bíceps y antebrazo en pared, 30 s por lado",
+      "how": "Palma en la pared con el brazo estirado y los dedos hacia atrás; gira el cuerpo al lado contrario."
      },
      {
-      "name": "Isquiotibiales acostado con banda, 30 s por lado",
-      "how": "Banda en el pie, sube la pierna estirada hasta sentir tensión detrás del muslo."
+      "name": "Pectoral en marco de puerta, 30 s por lado",
+      "how": "Antebrazo en el marco, codo a la altura del hombro."
      },
      {
-      "name": "Aductor en mariposa, 30 s",
-      "how": "Plantas juntas, deja caer las rodillas. Empuja suave con los codos, sin rebotar."
-     },
-     {
-      "name": "Cuádriceps de pie, 30 s por lado",
-      "how": "Talón al glúteo, rodillas juntas y pelvis metida."
-     },
-     {
-      "name": "Pantorrilla en pared, 30 s por lado",
-      "how": "Pierna atrás estirada, talón pegado al suelo."
+      "name": "Cuello y trapecio, 20 s por lado",
+      "how": "Oreja al hombro, sin encoger."
      }
     ],
     "exercises": [
      {
-      "name": "Hip Thrust (Barbell)",
+      "name": "Lat Pulldown (Cable)",
       "sets": [
        {
         "serie": "Aprox.",
-        "carga": "60 kg",
-        "reps": "10",
-        "rir": "5",
-        "descanso": "2 min"
-       },
-       {
-        "serie": "1",
-        "carga": "105 kg",
-        "reps": "10",
-        "rir": "3",
-        "descanso": "2:30"
-       },
-       {
-        "serie": "2",
-        "carga": "105 kg",
-        "reps": "10",
-        "rir": "3",
-        "descanso": "2:30"
-       },
-       {
-        "serie": "3",
-        "carga": "105 kg",
-        "reps": "10",
-        "rir": "3",
-        "descanso": "2:30"
-       }
-      ],
-      "cue": "🤝 Mipi abre con el mismo ejercicio: alternan en la barra. **105 × 10 en las tres.** El 7 de septiembre la primera salió 105 × 12 a RPE 7,5, pero la tercera cayó a 100 × 11 a RPE 9: diez limpias en las tres es el punto de partida.\n\n**Cómo te pones:** la parte de abajo de los omóplatos apoyada en el borde del banco, barra con almohadilla sobre el hueso de la cadera, pies al ancho de cadera y un poco por delante de las rodillas.\n\n**Qué haces:** empuja con los talones hasta que el tronco quede recto de rodillas a hombros, aprieta el glúteo 1 segundo arriba y baja controlando. El mentón mira al frente, no al techo.\n\n**Cómo sabes que está bien:** arriba la tibia queda vertical y la zona lumbar no se arquea para subir más. Si lo sientes en el isquio, acerca los pies; si lo sientes en el cuádriceps, aléjalos."
-     },
-     {
-      "name": "Romanian Deadlift (Smith Machine)",
-      "sets": [
-       {
-        "serie": "Aprox.",
-        "carga": "20 kg",
+        "carga": "61 kg",
         "reps": "12",
         "rir": "5",
         "descanso": "90s"
        },
        {
         "serie": "1",
-        "carga": "50 kg",
+        "carga": "82 kg",
         "reps": "12",
         "rir": "3",
         "descanso": "2 min"
        },
        {
         "serie": "2",
-        "carga": "50 kg",
+        "carga": "82 kg",
         "reps": "12",
         "rir": "3",
         "descanso": "2 min"
        },
        {
         "serie": "3",
-        "carga": "50 kg",
+        "carga": "82 kg",
         "reps": "12",
         "rir": "3",
         "descanso": "2 min"
        }
       ],
-      "cue": "🤝 Mipi también usa la Smith: alternan, ella con 35 kg. **50 × 12.** El 7 de septiembre salieron las tres a 12, a RPE 7,5, 8 y 9. Se repite para cerrarlas a RIR 3 antes de subir. Anotaste tensión lumbar: para donde la espalda empieza a redondearse, aunque eso quede sobre la rodilla.\n\n**Cómo te pones:** barra a la altura de la cadera, pies al ancho de cadera justo debajo de la barra. Agarre al ancho de los hombros. Saca pecho y **mete las costillas** antes de mover nada.\n\n**Qué haces:** echa la cadera atrás como si cerraras una puerta con la cola. Las rodillas apenas se doblan. La barra baja pegada a los muslos, rozándolos.\n\n**Cómo sabes que está bien:** paras **donde la espalda empieza a redondearse**, no donde llegue la barra — para la mayoría es bajo la rodilla, no al suelo. Lo sientes atrás del muslo, estirando. Si lo sientes en la zona lumbar, bajaste de más o soltaste el pecho."
+      "cue": "**82 × 12.** El 11 de septiembre salieron las tres a 12, pero a RPE 8, 9 y 9. Después de la descarga deberían salir a RIR 3.\n\n**Cómo te pones:** agarre algo más ancho que los hombros, muslos fijos bajo el apoyo.\n\n**Qué haces:** **primero baja los omóplatos**, después dobla el codo. Lleva la barra al pecho alto, no a la nuca.\n\n**Cómo sabes que está bien:** el torso se inclina un poco atrás y se queda ahí. Si te meces hacia atrás y adelante en cada repetición, la espalda dejó de trabajar."
      },
      {
-      "name": "Lying Leg Curl (Machine)",
+      "name": "Pull Up",
       "sets": [
        {
         "serie": "1",
-        "carga": "46 kg",
+        "carga": "Peso corporal",
         "reps": "10",
         "rir": "3",
-        "descanso": "90s"
+        "descanso": "2:30"
        },
        {
         "serie": "2",
-        "carga": "46 kg",
+        "carga": "Peso corporal",
         "reps": "10",
         "rir": "3",
-        "descanso": "90s"
+        "descanso": "2:30"
        },
        {
         "serie": "3",
-        "carga": "46 kg",
+        "carga": "Peso corporal",
         "reps": "10",
         "rir": "3",
-        "descanso": "90s"
+        "descanso": "2:30"
        }
       ],
-      "cue": "🤝 Mipi también hace curl acostado hoy: alternan cambiando el pin. **Pasa a ser el curl femoral del lunes**, el mismo que elegiste el domingo 13 en vez del sentado; el sentado sigue el viernes, así que cada semana hay de los dos. **46 × 10**: el 13 salieron 12, 11 y 11 a RPE 8,5, 9 y 9,5, así que con 10 llegas con margen.\n\n**Cómo te pones:** boca abajo, rodillas justo fuera del borde del banco y alineadas con el eje de la máquina, rodillo sobre el tobillo y no en la pantorrilla.\n\n**Qué haces:** dobla las rodillas llevando los talones hacia la cola, aguanta medio segundo y baja en 2-3 segundos.\n\n**Cómo sabes que está bien:** la cadera no se despega del banco. Si sube la cola para terminar la repetición, el peso es mucho."
+      "cue": "**3 × 10.** El 11 de septiembre salieron 12, 11 y 9 a RPE 8,5-9,5: con 10 en las tres no llegas al fallo. Cuando salgan las tres a 12, el bloque siguiente agrega peso con cinturón.\n\n**Cómo te pones:** agarre algo más ancho que los hombros. Antes de tirar, **baja los omóplatos** como si los metieras en los bolsillos traseros.\n\n**Qué haces:** tira llevando los codos al costado hasta pasar la barbilla. Baja controlando hasta estirar del todo.\n\n**Cómo sabes que está bien:** subes sin dar un tirón de cadera. Si necesitas impulso, esa repetición ya no cuenta."
      },
      {
-      "name": "Back Extension (Weighted Hyperextension)",
+      "name": "Iso-Lateral Row (Machine)",
       "sets": [
        {
         "serie": "1",
-        "carga": "53 kg",
+        "carga": "70 kg",
         "reps": "10",
         "rir": "3",
-        "descanso": "90s"
+        "descanso": "2 min"
        },
        {
         "serie": "2",
-        "carga": "53 kg",
+        "carga": "70 kg",
         "reps": "10",
         "rir": "3",
-        "descanso": "90s"
+        "descanso": "2 min"
        },
        {
         "serie": "3",
-        "carga": "53 kg",
+        "carga": "70 kg",
         "reps": "10",
         "rir": "3",
-        "descanso": "90s"
+        "descanso": "2 min"
        }
       ],
-      "cue": "🤝 Mipi la hace después de ti: alternan cambiando el pin. **Máquina de glúteo, no la de erector espinal.** En Hevy va como Back Extension (Weighted Hyperextension), igual que el domingo 13; la de erector es Back Extension (Machine), donde levantas más, así que sus cargas no se comparan. **53 × 10**: el 13 salieron 53 × 12 a RPE 8,5 y 9.\n\n**Cómo te pones:** cadera apoyada justo **debajo del hueso de la pelvis**, no sobre él — si el apoyo queda muy arriba no puedes doblar desde la cadera. Pies fijos, brazos cruzados al pecho.\n\n**Qué haces:** baja doblando desde la cadera, no desde la espalda, hasta sentir tensión atrás del muslo. Sube apretando el glúteo hasta que el cuerpo quede en línea recta.\n\n**Cómo sabes que está bien:** paras **en la línea del cuerpo, no más arriba**. Pasarse de ahí es lo que carga la lumbar sin sumar nada al glúteo. Debes sentirlo atrás del muslo y en el glúteo, nunca en la zona baja de la espalda."
+      "cue": "**Nuevo en el bloque: reemplaza al remo sentado del jueves**, que pasa al viernes. En agosto el remo sentado se estaba poniendo más difícil con la misma carga (RPE 8,4 a 8,6). En esta máquina cada brazo tira por su lado, así que se nota si uno trabaja menos. **70 × 10**: en junio hiciste 80 × 6-7 a RPE 9-10.\n\n**Cómo te pones:** pecho firme contra el apoyo, asiento a la altura en que las manillas quedan frente a la parte baja del pecho.\n\n**Qué haces:** tira con los codos hacia atrás pegados al cuerpo, junta los omóplatos al final y suelta lento hasta estirar el brazo.\n\n**Cómo sabes que está bien:** el pecho no se despega del apoyo para terminar la repetición. Si se despega, estás usando la espalda baja."
      },
      {
-      "name": "Cable Crunch",
+      "name": "Side Plank",
       "sets": [
        {
         "serie": "1",
-        "carga": "26,25 kg",
+        "carga": "Peso corporal",
+        "reps": "35 s por lado",
+        "rir": "3",
+        "descanso": "45s"
+       },
+       {
+        "serie": "2",
+        "carga": "Peso corporal",
+        "reps": "35 s por lado",
+        "rir": "3",
+        "descanso": "45s"
+       },
+       {
+        "serie": "3",
+        "carga": "Peso corporal",
+        "reps": "35 s por lado",
+        "rir": "3",
+        "descanso": "45s"
+       }
+      ],
+      "cue": "**Plancha lateral sostenida, 35 s por lado.** El 11 de septiembre llegaste a 31 s. Sube 5 segundos por semana.\n\n**Cómo te pones:** de lado, codo justo bajo el hombro, piernas estiradas y pies uno sobre otro.\n\n**Qué haces:** sube la cadera hasta que el cuerpo quede en línea recta de la cabeza a los pies, y sostén.\n\n**Cómo sabes que está bien:** la cadera **no se cae** hacia el suelo ni se va hacia atrás. El apretón va en el costado de abajo."
+     },
+     {
+      "name": "Hanging Knee Raise",
+      "sets": [
+       {
+        "serie": "1",
+        "carga": "Peso corporal",
         "reps": "15",
         "rir": "3",
         "descanso": "60s"
        },
        {
         "serie": "2",
-        "carga": "26,25 kg",
+        "carga": "Peso corporal",
         "reps": "15",
         "rir": "3",
         "descanso": "60s"
        },
        {
         "serie": "3",
-        "carga": "26,25 kg",
+        "carga": "Peso corporal",
         "reps": "15",
         "rir": "3",
         "descanso": "60s"
        }
       ],
-      "cue": "**Vuelve el Cable Crunch en vez de la elevación de piernas colgado.** Pediste más abs, y colgado ya haces 15 a RPE 7: acá el abdomen trabaja con carga y se progresa de a 1,25 kg. **26,25 × 15**: en julio llegaste a 28 × 15 a RPE 8.\n\n**Cómo te pones:** de rodillas frente a la polea alta, cuerda tomada a los lados de la cabeza, cadera quieta sobre las rodillas.\n\n**Qué haces:** enrolla la columna llevando las costillas hacia la pelvis, como si quisieras mirarte el ombligo, y vuelve lento.\n\n**Cómo sabes que está bien:** la cadera no se mueve atrás ni adelante. Si te sientas sobre los talones para bajar, estás tirando con los brazos y la cadera, no con el abdomen."
+      "cue": "**3 × 15, lento.** El 7 de septiembre salieron a RPE 7-7,5. Sin balanceo: si te columpias, baja las repeticiones.\n\n**Cómo te pones:** colgado de la barra con agarre firme y los hombros activos, omóplatos hacia abajo.\n\n**Qué haces:** sube las rodillas por encima de la cadera enrollando la pelvis al final y baja en 2 segundos.\n\n**Cómo sabes que está bien:** el cuerpo no se balancea. Si solo subes las piernas hasta 90° sin enrollar la pelvis, trabaja el flexor de cadera, no el abdomen."
      }
     ]
    },
@@ -6563,7 +6548,7 @@
     "date": "2026-09-22",
     "focus": "Empuje — pecho y hombro",
     "tag": "entreno",
-    "rationale": "**Empuje con dos cambios.** El press militar con barra descansa este bloque, porque llevas tres semanas en 40 kg con 8, 6 y 6; entra el press con mancuernas. El Chest Press descansa (se cayó a 9, 7 y 4 el 4 de septiembre) y entra el inclinado con mancuernas. El tríceps se trabaja con extensión sobre la cabeza y el pushdown queda el sábado. Hombro izquierdo: mismo criterio de siempre, si molesta se acorta el rango.",
+    "rationale": "**Hombro sin molestias hace semanas, así que va completo.** **Empuje con dos cambios.** El press militar con barra descansa este bloque, porque llevas tres semanas en 40 kg con 8, 6 y 6; entra el press con mancuernas. El Chest Press descansa (se cayó a 9, 7 y 4 el 4 de septiembre) y entra el inclinado con mancuernas. El tríceps se trabaja con extensión sobre la cabeza y el pushdown queda el sábado. Hombro izquierdo: mismo criterio de siempre, si molesta se acorta el rango.",
     "cardio": "Escaleras 12-15 min, RPE 4-5.",
     "warmup": [
      {
@@ -7031,34 +7016,34 @@
    {
     "day": "Jue 24",
     "date": "2026-09-24",
-    "focus": "Tirón — espalda y bíceps",
+    "focus": "Posterior — glúteo y femoral",
     "tag": "entreno",
-    "rationale": "**Tirón con dos rotaciones.** El remo sentado pasa al viernes y entra el remo Iso-Lateral; el Preacher Curl descansa y entra el curl inclinado con mancuernas. El Rear Delt Fly en máquina también descansa (tres sesiones sin subir y RPE 10 el 11); el Face Pull cubre ese músculo.",
-    "cardio": "Escaleras 15-20 min, RPE 5.",
+    "rationale": "**Posterior corrido al jueves.** El domingo hiciste hip thrust 90 × 9 en tres series, así que este día no podía ir el lunes: hoy queda a cuatro días de eso y el glúteo llega descansado para los 105 × 10.\n\n**Qué cambia.** Hoy entra el curl femoral acostado y vuelve el Cable Crunch. El isquio lleva 8 días sin trabajo real —el último fue el curl acostado del 13—, así que esta es la dosis fuerte de la semana; el sábado queda una segunda, liviana y opcional.\n\n🤝 **Con Mipi:** hoy es su día de Inferior A. Comparten la barra de hip thrust, el Smith para el peso muerto rumano, la máquina de curl acostado y la de glúteo — alternan el pin.",
+    "cardio": "Escaleras 12-15 min, RPE 4-5.",
     "warmup": [
      {
       "name": "Bici o caminadora, 5-6 min, ritmo conversable",
       "how": "Solo para subir temperatura y pulso. Debes poder hablar frases completas todo el rato. Si terminas sin aliento, ibas muy fuerte."
      },
      {
-      "name": "Círculos de hombro, 10 por lado",
-      "how": "Brazos sueltos, círculos grandes y lentos."
+      "name": "Círculos de cadera de pie, 8 por lado",
+      "how": "Apóyate en algo, rodilla a la altura de la cadera, círculos grandes hacia afuera."
      },
      {
-      "name": "Movilidad torácica sentado, 8 por lado",
-      "how": "Sentado, manos en la nuca, gira el pecho hacia un lado sin mover la cadera. Es rotación de la espalda alta, no de la baja."
+      "name": "Bisagra de cadera hacia la pared, 12 repeticiones",
+      "how": "De pie a un palmo de la pared, de espaldas y con las manos en la cadera. Echa la cadera atrás hasta que la cola toque la pared, con las rodillas casi rectas y la espalda plana. Vuelve apretando el glúteo. La pared te dice hasta dónde llegar; ese es el patrón del RDL."
      },
      {
-      "name": "Face Pull con banda, 15 repeticiones",
-      "how": "Banda a la altura de la cara. Tira separando las manos y llevando los codos atrás. Hombros abajo, no encogidos."
+      "name": "Puente de glúteo, 12 con pausa de 1 s",
+      "how": "Sube apretando el glúteo hasta alinear rodilla-cadera-hombro y aguanta 1 s. La costilla queda abajo, sin arquear."
      },
      {
-      "name": "Activación de dorsal con banda, 12 repeticiones",
-      "how": "Banda alta, brazos estirados. Baja los brazos rectos hacia los muslos apretando la axila. Sin doblar el codo."
+      "name": "Puente a una pierna, 8 por lado",
+      "how": "Mismo puente pero con una pierna estirada. Si la cadera se cae hacia un lado, baja las repeticiones."
      },
      {
-      "name": "Colgarse de la barra, 20 s",
-      "how": "Cuelga relajado y luego aprieta los omóplatos hacia abajo un par de veces. Prepara el hombro para el jalón."
+      "name": "Dead bug lento, 8 por lado",
+      "how": "Boca arriba, brazos al techo y rodillas en 90°. Baja un brazo y la pierna contraria con la lumbar pegada al suelo."
      },
      {
       "name": "Series de aproximación del primer ejercicio",
@@ -7067,200 +7052,188 @@
     ],
     "stretch": [
      {
-      "name": "Dorsal colgado de la barra, 30 s",
-      "how": "Cuelga relajado y respira."
+      "name": "Flexor de cadera en estocada, 30 s por lado",
+      "how": "Rodilla atrás en el suelo, mete la pelvis adelante como escondiendo la cola y aprieta el glúteo de atrás."
      },
      {
-      "name": "Bíceps y antebrazo en pared, 30 s por lado",
-      "how": "Palma en la pared con el brazo estirado y los dedos hacia atrás; gira el cuerpo al lado contrario."
+      "name": "Glúteo figura-4 acostado, 30 s por lado",
+      "how": "Cruza el tobillo sobre la rodilla contraria y tira de la pierna de abajo al pecho."
      },
      {
-      "name": "Pectoral en marco de puerta, 30 s por lado",
-      "how": "Antebrazo en el marco, codo a la altura del hombro."
+      "name": "Isquiotibiales acostado con banda, 30 s por lado",
+      "how": "Banda en el pie, sube la pierna estirada hasta sentir tensión detrás del muslo."
      },
      {
-      "name": "Cuello y trapecio, 20 s por lado",
-      "how": "Oreja al hombro, sin encoger."
+      "name": "Aductor en mariposa, 30 s",
+      "how": "Plantas juntas, deja caer las rodillas. Empuja suave con los codos, sin rebotar."
+     },
+     {
+      "name": "Cuádriceps de pie, 30 s por lado",
+      "how": "Talón al glúteo, rodillas juntas y pelvis metida."
+     },
+     {
+      "name": "Pantorrilla en pared, 30 s por lado",
+      "how": "Pierna atrás estirada, talón pegado al suelo."
      }
     ],
     "exercises": [
      {
-      "name": "Lat Pulldown (Cable)",
+      "name": "Hip Thrust (Barbell)",
       "sets": [
        {
         "serie": "Aprox.",
-        "carga": "61 kg",
+        "carga": "60 kg",
+        "reps": "10",
+        "rir": "5",
+        "descanso": "2 min"
+       },
+       {
+        "serie": "1",
+        "carga": "105 kg",
+        "reps": "10",
+        "rir": "3",
+        "descanso": "2:30"
+       },
+       {
+        "serie": "2",
+        "carga": "105 kg",
+        "reps": "10",
+        "rir": "3",
+        "descanso": "2:30"
+       },
+       {
+        "serie": "3",
+        "carga": "105 kg",
+        "reps": "10",
+        "rir": "3",
+        "descanso": "2:30"
+       }
+      ],
+      "cue": "🤝 Mipi abre con el mismo ejercicio: alternan en la barra. **105 × 10 en las tres.** El 7 de septiembre la primera salió 105 × 12 a RPE 7,5, pero la tercera cayó a 100 × 11 a RPE 9: diez limpias en las tres es el punto de partida.\n\n**Cómo te pones:** la parte de abajo de los omóplatos apoyada en el borde del banco, barra con almohadilla sobre el hueso de la cadera, pies al ancho de cadera y un poco por delante de las rodillas.\n\n**Qué haces:** empuja con los talones hasta que el tronco quede recto de rodillas a hombros, aprieta el glúteo 1 segundo arriba y baja controlando. El mentón mira al frente, no al techo.\n\n**Cómo sabes que está bien:** arriba la tibia queda vertical y la zona lumbar no se arquea para subir más. Si lo sientes en el isquio, acerca los pies; si lo sientes en el cuádriceps, aléjalos."
+     },
+     {
+      "name": "Romanian Deadlift (Smith Machine)",
+      "sets": [
+       {
+        "serie": "Aprox.",
+        "carga": "20 kg",
         "reps": "12",
         "rir": "5",
         "descanso": "90s"
        },
        {
         "serie": "1",
-        "carga": "82 kg",
+        "carga": "50 kg",
         "reps": "12",
         "rir": "3",
         "descanso": "2 min"
        },
        {
         "serie": "2",
-        "carga": "82 kg",
+        "carga": "50 kg",
         "reps": "12",
         "rir": "3",
         "descanso": "2 min"
        },
        {
         "serie": "3",
-        "carga": "82 kg",
+        "carga": "50 kg",
         "reps": "12",
         "rir": "3",
         "descanso": "2 min"
        }
       ],
-      "cue": "**82 × 12.** El 11 de septiembre salieron las tres a 12, pero a RPE 8, 9 y 9. Después de la descarga deberían salir a RIR 3.\n\n**Cómo te pones:** agarre algo más ancho que los hombros, muslos fijos bajo el apoyo.\n\n**Qué haces:** **primero baja los omóplatos**, después dobla el codo. Lleva la barra al pecho alto, no a la nuca.\n\n**Cómo sabes que está bien:** el torso se inclina un poco atrás y se queda ahí. Si te meces hacia atrás y adelante en cada repetición, la espalda dejó de trabajar."
+      "cue": "🤝 Mipi también usa la Smith: alternan, ella con 35 kg. **50 × 12.** El 7 de septiembre salieron las tres a 12, a RPE 7,5, 8 y 9. Se repite para cerrarlas a RIR 3 antes de subir. Anotaste tensión lumbar: para donde la espalda empieza a redondearse, aunque eso quede sobre la rodilla.\n\n**Cómo te pones:** barra a la altura de la cadera, pies al ancho de cadera justo debajo de la barra. Agarre al ancho de los hombros. Saca pecho y **mete las costillas** antes de mover nada.\n\n**Qué haces:** echa la cadera atrás como si cerraras una puerta con la cola. Las rodillas apenas se doblan. La barra baja pegada a los muslos, rozándolos.\n\n**Cómo sabes que está bien:** paras **donde la espalda empieza a redondearse**, no donde llegue la barra — para la mayoría es bajo la rodilla, no al suelo. Lo sientes atrás del muslo, estirando. Si lo sientes en la zona lumbar, bajaste de más o soltaste el pecho."
      },
      {
-      "name": "Pull Up",
+      "name": "Lying Leg Curl (Machine)",
       "sets": [
        {
         "serie": "1",
-        "carga": "Peso corporal",
+        "carga": "46 kg",
         "reps": "10",
-        "rir": "3",
-        "descanso": "2:30"
-       },
-       {
-        "serie": "2",
-        "carga": "Peso corporal",
-        "reps": "10",
-        "rir": "3",
-        "descanso": "2:30"
-       },
-       {
-        "serie": "3",
-        "carga": "Peso corporal",
-        "reps": "10",
-        "rir": "3",
-        "descanso": "2:30"
-       }
-      ],
-      "cue": "**3 × 10.** El 11 de septiembre salieron 12, 11 y 9 a RPE 8,5-9,5: con 10 en las tres no llegas al fallo. Cuando salgan las tres a 12, el bloque siguiente agrega peso con cinturón.\n\n**Cómo te pones:** agarre algo más ancho que los hombros. Antes de tirar, **baja los omóplatos** como si los metieras en los bolsillos traseros.\n\n**Qué haces:** tira llevando los codos al costado hasta pasar la barbilla. Baja controlando hasta estirar del todo.\n\n**Cómo sabes que está bien:** subes sin dar un tirón de cadera. Si necesitas impulso, esa repetición ya no cuenta."
-     },
-     {
-      "name": "Iso-Lateral Row (Machine)",
-      "sets": [
-       {
-        "serie": "1",
-        "carga": "70 kg",
-        "reps": "10",
-        "rir": "3",
-        "descanso": "2 min"
-       },
-       {
-        "serie": "2",
-        "carga": "70 kg",
-        "reps": "10",
-        "rir": "3",
-        "descanso": "2 min"
-       },
-       {
-        "serie": "3",
-        "carga": "70 kg",
-        "reps": "10",
-        "rir": "3",
-        "descanso": "2 min"
-       }
-      ],
-      "cue": "**Nuevo en el bloque: reemplaza al remo sentado del jueves**, que pasa al viernes. En agosto el remo sentado se estaba poniendo más difícil con la misma carga (RPE 8,4 a 8,6). En esta máquina cada brazo tira por su lado, así que se nota si uno trabaja menos. **70 × 10**: en junio hiciste 80 × 6-7 a RPE 9-10.\n\n**Cómo te pones:** pecho firme contra el apoyo, asiento a la altura en que las manillas quedan frente a la parte baja del pecho.\n\n**Qué haces:** tira con los codos hacia atrás pegados al cuerpo, junta los omóplatos al final y suelta lento hasta estirar el brazo.\n\n**Cómo sabes que está bien:** el pecho no se despega del apoyo para terminar la repetición. Si se despega, estás usando la espalda baja."
-     },
-     {
-      "name": "Face Pull",
-      "sets": [
-       {
-        "serie": "1",
-        "carga": "27,5 kg",
-        "reps": "15",
-        "rir": "3",
-        "descanso": "75s"
-       },
-       {
-        "serie": "2",
-        "carga": "27,5 kg",
-        "reps": "15",
-        "rir": "3",
-        "descanso": "75s"
-       },
-       {
-        "serie": "3",
-        "carga": "27,5 kg",
-        "reps": "15",
-        "rir": "3",
-        "descanso": "75s"
-       }
-      ],
-      "cue": "**Queda como el ejercicio de deltoide posterior del bloque.** El Rear Delt Fly en máquina descansa: llevaba tres sesiones sin subir y la última serie del 11 salió a RPE 10. **27,5 × 15**: el 11 salieron dos a RPE 7.\n\n**Cómo te pones:** cuerda a la altura de la cara, un pie adelante.\n\n**Qué haces:** tira separando las manos y llevando los codos atrás y arriba, terminando con los nudillos apuntando al techo.\n\n**Cómo sabes que está bien:** los hombros **quedan abajo**, no encogidos hacia las orejas. Es el mejor trabajo de hombro posterior que tienes."
-     },
-     {
-      "name": "Seated Incline Curl (Dumbbell)",
-      "sets": [
-       {
-        "serie": "1",
-        "carga": "20 kg",
-        "reps": "12",
         "rir": "3",
         "descanso": "90s"
        },
        {
         "serie": "2",
-        "carga": "20 kg",
-        "reps": "12",
+        "carga": "46 kg",
+        "reps": "10",
         "rir": "3",
         "descanso": "90s"
        },
        {
         "serie": "3",
-        "carga": "20 kg",
-        "reps": "12",
+        "carga": "46 kg",
+        "reps": "10",
         "rir": "3",
         "descanso": "90s"
        }
       ],
-      "cue": "**Nuevo en el bloque: reemplaza al Preacher Curl.** En el banco inclinado el brazo queda detrás del cuerpo y el bíceps trabaja estirado, la posición que el Preacher no da. **20 × 12**: en junio hiciste 20 × 12 a RPE 9,5, en la escala de antes.\n\n**Cómo te pones:** banco a 45-60°, espalda apoyada, brazos colgando rectos por detrás de la línea del cuerpo, palmas al frente.\n\n**Qué haces:** sube la mancuerna sin adelantar el codo y baja lento hasta estirar del todo.\n\n**Cómo sabes que está bien:** el codo se queda donde empezó. Si se va hacia adelante, el hombro está ayudando: baja el peso."
+      "cue": "🤝 Mipi también hace curl acostado hoy: alternan cambiando el pin. **Pasa a ser el curl femoral del lunes**, el mismo que elegiste el domingo 13 en vez del sentado; el sentado sigue el viernes, así que cada semana hay de los dos. **46 × 10**: el 13 salieron 12, 11 y 11 a RPE 8,5, 9 y 9,5, así que con 10 llegas con margen.\n\n**Cómo te pones:** boca abajo, rodillas justo fuera del borde del banco y alineadas con el eje de la máquina, rodillo sobre el tobillo y no en la pantorrilla.\n\n**Qué haces:** dobla las rodillas llevando los talones hacia la cola, aguanta medio segundo y baja en 2-3 segundos.\n\n**Cómo sabes que está bien:** la cadera no se despega del banco. Si sube la cola para terminar la repetición, el peso es mucho."
      },
      {
-      "name": "Side Plank",
+      "name": "Back Extension (Weighted Hyperextension)",
       "sets": [
        {
         "serie": "1",
-        "carga": "Peso corporal",
-        "reps": "35 s por lado",
+        "carga": "53 kg",
+        "reps": "10",
         "rir": "3",
-        "descanso": "45s"
+        "descanso": "90s"
        },
        {
         "serie": "2",
-        "carga": "Peso corporal",
-        "reps": "35 s por lado",
+        "carga": "53 kg",
+        "reps": "10",
         "rir": "3",
-        "descanso": "45s"
+        "descanso": "90s"
        },
        {
         "serie": "3",
-        "carga": "Peso corporal",
-        "reps": "35 s por lado",
+        "carga": "53 kg",
+        "reps": "10",
         "rir": "3",
-        "descanso": "45s"
+        "descanso": "90s"
        }
       ],
-      "cue": "**Plancha lateral sostenida, 35 s por lado.** El 11 de septiembre llegaste a 31 s. Sube 5 segundos por semana.\n\n**Cómo te pones:** de lado, codo justo bajo el hombro, piernas estiradas y pies uno sobre otro.\n\n**Qué haces:** sube la cadera hasta que el cuerpo quede en línea recta de la cabeza a los pies, y sostén.\n\n**Cómo sabes que está bien:** la cadera **no se cae** hacia el suelo ni se va hacia atrás. El apretón va en el costado de abajo."
+      "cue": "🤝 Mipi la hace después de ti: alternan cambiando el pin. **Máquina de glúteo, no la de erector espinal.** En Hevy va como Back Extension (Weighted Hyperextension), igual que el domingo 13; la de erector es Back Extension (Machine), donde levantas más, así que sus cargas no se comparan. **53 × 10**: el 13 salieron 53 × 12 a RPE 8,5 y 9.\n\n**Cómo te pones:** cadera apoyada justo **debajo del hueso de la pelvis**, no sobre él — si el apoyo queda muy arriba no puedes doblar desde la cadera. Pies fijos, brazos cruzados al pecho.\n\n**Qué haces:** baja doblando desde la cadera, no desde la espalda, hasta sentir tensión atrás del muslo. Sube apretando el glúteo hasta que el cuerpo quede en línea recta.\n\n**Cómo sabes que está bien:** paras **en la línea del cuerpo, no más arriba**. Pasarse de ahí es lo que carga la lumbar sin sumar nada al glúteo. Debes sentirlo atrás del muslo y en el glúteo, nunca en la zona baja de la espalda."
+     },
+     {
+      "name": "Cable Crunch",
+      "sets": [
+       {
+        "serie": "1",
+        "carga": "26,25 kg",
+        "reps": "15",
+        "rir": "3",
+        "descanso": "60s"
+       },
+       {
+        "serie": "2",
+        "carga": "26,25 kg",
+        "reps": "15",
+        "rir": "3",
+        "descanso": "60s"
+       },
+       {
+        "serie": "3",
+        "carga": "26,25 kg",
+        "reps": "15",
+        "rir": "3",
+        "descanso": "60s"
+       }
+      ],
+      "cue": "**Vuelve el Cable Crunch en vez de la elevación de piernas colgado.** Pediste más abs, y colgado ya haces 15 a RPE 7: acá el abdomen trabaja con carga y se progresa de a 1,25 kg. **26,25 × 15**: en julio llegaste a 28 × 15 a RPE 8.\n\n**Cómo te pones:** de rodillas frente a la polea alta, cuerda tomada a los lados de la cabeza, cadera quieta sobre las rodillas.\n\n**Qué haces:** enrolla la columna llevando las costillas hacia la pelvis, como si quisieras mirarte el ombligo, y vuelve lento.\n\n**Cómo sabes que está bien:** la cadera no se mueve atrás ni adelante. Si te sientas sobre los talones para bajar, estás tirando con los brazos y la cadera, no con el abdomen."
      }
     ]
    },
    {
     "day": "Vie 25",
     "date": "2026-09-25",
-    "focus": "Torso + femoral y glúteo",
+    "focus": "Torso 2 — pecho, espalda alta y brazos",
     "tag": "entreno",
-    "rationale": "**Torso y segunda dosis de pierna posterior.** Este día arregla los dos huecos del tablero: la espalda tenía un solo día (10,5 contra 12-16) y el glúteo también (3,5 contra 8-12). El pecho sigue con el inclinado con barra, que el domingo 13 subió a 65 × 10 sin molestias, y el cable fly reemplaza al Chest Fly, que lleva tres semanas en 54 kg. Sin core hoy: la sesión ya tiene seis ejercicios y el core va dentro de banda. 🤝 Día de tren superior para Mipi también: comparten el remo sentado.",
+    "rationale": "**Segunda dosis de torso, sin pierna.** El femoral y la abducción que iban hoy se pasan al sábado: el jueves ya lleva la dosis fuerte de posterior y dejarlos aquí los dejaba a 24 horas.\n\n**Qué entra.** El Face Pull y el curl inclinado que salieron del lunes, porque ayer del domingo ya venían hechos. El pecho sigue con el inclinado con barra, que el 13 subió a 65 × 10 sin molestias, y el cable fly reemplaza al Chest Fly, estancado tres semanas en 54 kg.\n\n**Ojo con el Face Pull:** el domingo lo hiciste a 30 × 15 en las tres series, cuando el 11 solo la tercera llegó a 30 y a RPE 9,5. Hoy va a 30 en las tres: si sale a RIR 3, la semana 3 sube.\n\n🤝 **Con Mipi:** su día de tren superior. Comparten el remo sentado.",
     "cardio": "Escaleras 12-15 min, RPE 4-5.",
     "warmup": [
      {
@@ -7331,67 +7304,6 @@
      }
     ],
     "exercises": [
-     {
-      "name": "Seated Leg Curl (Machine)",
-      "sets": [
-       {
-        "serie": "Aprox.",
-        "carga": "45 kg",
-        "reps": "12",
-        "rir": "5",
-        "descanso": "90s"
-       },
-       {
-        "serie": "1",
-        "carga": "66 kg",
-        "reps": "12",
-        "rir": "3",
-        "descanso": "90s"
-       },
-       {
-        "serie": "2",
-        "carga": "66 kg",
-        "reps": "12",
-        "rir": "3",
-        "descanso": "90s"
-       },
-       {
-        "serie": "3",
-        "carga": "66 kg",
-        "reps": "12",
-        "rir": "3",
-        "descanso": "90s"
-       }
-      ],
-      "cue": "**Segunda dosis de femoral de la semana**, ahora sentado. **66 × 12**: el 7 de septiembre salieron dos a RPE 8-8,5.\n\n**Cómo te pones:** rodilla alineada con el eje de la máquina, el apoyo justo sobre el tendón de Aquiles, no en el gemelo.\n\n**Qué haces:** dobla la rodilla llevando el talón bajo el asiento y vuelve lento, frenando el peso.\n\n**Cómo sabes que está bien:** la cadera **no se despega** del asiento. Si te levantas para completar el recorrido, el femoral dejó de trabajar."
-     },
-     {
-      "name": "Hip Abduction (Machine)",
-      "sets": [
-       {
-        "serie": "1",
-        "carga": "75 kg",
-        "reps": "15",
-        "rir": "3",
-        "descanso": "90s"
-       },
-       {
-        "serie": "2",
-        "carga": "75 kg",
-        "reps": "15",
-        "rir": "3",
-        "descanso": "90s"
-       },
-       {
-        "serie": "3",
-        "carga": "75 kg",
-        "reps": "15",
-        "rir": "3",
-        "descanso": "90s"
-       }
-      ],
-      "cue": "**Vuelve la abducción, por el glúteo.** El glúteo va en 3,5 contra una banda de 8-12 y solo recibía trabajo directo el lunes. **75 × 15**: en agosto hiciste 82 × 13 a RPE 9.\n\n**Cómo te pones:** Sentado con la espalda apoyada y las almohadillas por fuera de las rodillas. Inclinarte un poco adelante carga más el glúteo.\n\n**Qué haces:** abre las piernas hasta donde llegues sin que la cola se despegue del asiento, aguanta 1 segundo y cierra lento.\n\n**Cómo sabes que está bien:** lo sientes al costado de la cadera, no en la zona lumbar. Si la máquina te cierra de golpe, el peso es mucho."
-     },
      {
       "name": "Incline Bench Press (Barbell)",
       "sets": [
@@ -7513,15 +7425,69 @@
        }
       ],
       "cue": "**Segunda dosis de hombro, con mancuernas.** Ojo, que acá estuvo el error de los 20 kg: **esta carga es la de mancuernas y va en Hevy como Lateral Raise (Dumbbell)**. No se traslada a la polea del martes. **20 × 15**: el 28 de agosto hiciste 24 × 12 a RPE 8,5-9.\n\n**Cómo te pones:** de pie, mancuernas a los lados, codos apenas doblados y fijos.\n\n**Qué haces:** sube los brazos hasta la altura del hombro, como sirviendo dos bandejas, y baja lento contando 2 segundos.\n\n**Cómo sabes que está bien:** el hombro **no se encoge** hacia la oreja y el cuerpo no se balancea para dar impulso. Si necesitas mecerte, el peso es mucho."
+     },
+     {
+      "name": "Face Pull",
+      "sets": [
+       {
+        "serie": "1",
+        "carga": "27,5 kg",
+        "reps": "15",
+        "rir": "3",
+        "descanso": "75s"
+       },
+       {
+        "serie": "2",
+        "carga": "27,5 kg",
+        "reps": "15",
+        "rir": "3",
+        "descanso": "75s"
+       },
+       {
+        "serie": "3",
+        "carga": "27,5 kg",
+        "reps": "15",
+        "rir": "3",
+        "descanso": "75s"
+       }
+      ],
+      "cue": "**Queda como el ejercicio de deltoide posterior del bloque.** El Rear Delt Fly en máquina descansa: llevaba tres sesiones sin subir y la última serie del 11 salió a RPE 10. **27,5 × 15**: el 11 salieron dos a RPE 7.\n\n**Cómo te pones:** cuerda a la altura de la cara, un pie adelante.\n\n**Qué haces:** tira separando las manos y llevando los codos atrás y arriba, terminando con los nudillos apuntando al techo.\n\n**Cómo sabes que está bien:** los hombros **quedan abajo**, no encogidos hacia las orejas. Es el mejor trabajo de hombro posterior que tienes."
+     },
+     {
+      "name": "Seated Incline Curl (Dumbbell)",
+      "sets": [
+       {
+        "serie": "1",
+        "carga": "20 kg",
+        "reps": "12",
+        "rir": "3",
+        "descanso": "90s"
+       },
+       {
+        "serie": "2",
+        "carga": "20 kg",
+        "reps": "12",
+        "rir": "3",
+        "descanso": "90s"
+       },
+       {
+        "serie": "3",
+        "carga": "20 kg",
+        "reps": "12",
+        "rir": "3",
+        "descanso": "90s"
+       }
+      ],
+      "cue": "**Nuevo en el bloque: reemplaza al Preacher Curl.** En el banco inclinado el brazo queda detrás del cuerpo y el bíceps trabaja estirado, la posición que el Preacher no da. **20 × 12**: en junio hiciste 20 × 12 a RPE 9,5, en la escala de antes.\n\n**Cómo te pones:** banco a 45-60°, espalda apoyada, brazos colgando rectos por detrás de la línea del cuerpo, palmas al frente.\n\n**Qué haces:** sube la mancuerna sin adelantar el codo y baja lento hasta estirar del todo.\n\n**Cómo sabes que está bien:** el codo se queda donde empezó. Si se va hacia adelante, el hombro está ayudando: baja el peso."
      }
     ]
    },
    {
     "day": "Sáb 26",
     "date": "2026-09-26",
-    "focus": "Opcional — brazos y core",
+    "focus": "Opcional — femoral, glúteo medio y tríceps",
     "tag": "opcional",
-    "rationale": "**Opcional, media hora.** Brazos en superserie y core. Si la semana ya salió con los cinco días, esto suma; si no vienes, no se recupera otro día.",
+    "rationale": "**Opcional, media hora.** Recoge lo que salió del viernes: el femoral en su dosis liviana y la abducción, más el tríceps, que esta semana solo tiene la extensión en polea del martes. Nada de bíceps ni face pull — el domingo y el viernes ya los llevan. Si la semana salió con los cinco días, esto suma; si no vienes, no se recupera.",
     "cardio": "Escaleras 20 min, RPE 5, junto a Mipi si coincide.",
     "warmup": [
      {
@@ -7565,32 +7531,58 @@
     ],
     "exercises": [
      {
-      "name": "Hammer Curl (Dumbbell)",
+      "name": "Seated Leg Curl (Machine)",
       "sets": [
        {
-        "serie": "1",
-        "carga": "28 kg",
+        "serie": "Aprox.",
+        "carga": "45 kg",
         "reps": "12",
-        "rir": "3",
-        "descanso": "sin descanso"
+        "rir": "5",
+        "descanso": "90s"
+       },
+       {
+        "serie": "1",
+        "carga": "66 kg",
+        "reps": "12",
+        "rir": "4",
+        "descanso": "90s"
        },
        {
         "serie": "2",
-        "carga": "28 kg",
+        "carga": "66 kg",
         "reps": "12",
+        "rir": "4",
+        "descanso": "90s"
+       }
+      ],
+      "cue": "**Segunda dosis de femoral, liviana.** Dos series a RIR 4, no tres a RIR 3: el jueves ya llevó el curl acostado y el peso muerto rumano, y esto queda a 48 horas. Si el jueves salió justo, sáltalo.\n\n**Segunda dosis de femoral de la semana**, ahora sentado. **66 × 12**: el 7 de septiembre salieron dos a RPE 8-8,5.\n\n**Cómo te pones:** rodilla alineada con el eje de la máquina, el apoyo justo sobre el tendón de Aquiles, no en el gemelo.\n\n**Qué haces:** dobla la rodilla llevando el talón bajo el asiento y vuelve lento, frenando el peso.\n\n**Cómo sabes que está bien:** la cadera **no se despega** del asiento. Si te levantas para completar el recorrido, el femoral dejó de trabajar."
+     },
+     {
+      "name": "Hip Abduction (Machine)",
+      "sets": [
+       {
+        "serie": "1",
+        "carga": "75 kg",
+        "reps": "15",
         "rir": "3",
-        "descanso": "sin descanso"
+        "descanso": "90s"
+       },
+       {
+        "serie": "2",
+        "carga": "75 kg",
+        "reps": "15",
+        "rir": "3",
+        "descanso": "90s"
        },
        {
         "serie": "3",
-        "carga": "28 kg",
-        "reps": "12",
+        "carga": "75 kg",
+        "reps": "15",
         "rir": "3",
-        "descanso": "sin descanso"
+        "descanso": "90s"
        }
       ],
-      "cue": "**Superserie con el Triceps Pushdown:** una serie de cada uno sin descanso entre medio, y recién ahí 90 segundos. Así el día de brazos dura media hora. **28 × 12**: el 29 de agosto salieron tres a 12 a RPE 7,5-9.\n\n**Cómo te pones:** de pie, mancuernas a los lados con las palmas mirándose, codos pegados al costado.\n\n**Qué haces:** sube sin girar la muñeca y baja lento, contando 2 segundos.\n\n**Cómo sabes que está bien:** el codo queda quieto y el cuerpo no se balancea. Si hay que tomar impulso, el peso es mucho.",
-      "superset": true
+      "cue": "**Vuelve la abducción, por el glúteo.** El glúteo va en 3,5 contra una banda de 8-12 y solo recibía trabajo directo el lunes. **75 × 15**: en agosto hiciste 82 × 13 a RPE 9.\n\n**Cómo te pones:** Sentado con la espalda apoyada y las almohadillas por fuera de las rodillas. Inclinarte un poco adelante carga más el glúteo.\n\n**Qué haces:** abre las piernas hasta donde llegues sin que la cola se despegue del asiento, aguanta 1 segundo y cierra lento.\n\n**Cómo sabes que está bien:** lo sientes al costado de la cadera, no en la zona lumbar. Si la máquina te cierra de golpe, el peso es mucho."
      },
      {
       "name": "Triceps Pushdown",
@@ -7618,33 +7610,6 @@
        }
       ],
       "cue": "**Sube a 32,5.** El 8 de septiembre las tres a 30 salieron a RPE 7, 7 y 7,5: se había quedado corto.\n\n**Cómo te pones:** codos pegados al costado, torso ligeramente inclinado adelante.\n\n**Qué haces:** estira el codo del todo abajo y vuelve solo hasta 90°. Los codos no se mueven de su sitio.\n\n**Cómo sabes que está bien:** si los codos se van hacia adelante o atrás, el dorsal está ayudando y el tríceps trabaja menos."
-     },
-     {
-      "name": "Hanging Knee Raise",
-      "sets": [
-       {
-        "serie": "1",
-        "carga": "Peso corporal",
-        "reps": "15",
-        "rir": "3",
-        "descanso": "60s"
-       },
-       {
-        "serie": "2",
-        "carga": "Peso corporal",
-        "reps": "15",
-        "rir": "3",
-        "descanso": "60s"
-       },
-       {
-        "serie": "3",
-        "carga": "Peso corporal",
-        "reps": "15",
-        "rir": "3",
-        "descanso": "60s"
-       }
-      ],
-      "cue": "**3 × 15, lento.** El 7 de septiembre salieron a RPE 7-7,5. Sin balanceo: si te columpias, baja las repeticiones.\n\n**Cómo te pones:** colgado de la barra con agarre firme y los hombros activos, omóplatos hacia abajo.\n\n**Qué haces:** sube las rodillas por encima de la cadera enrollando la pelvis al final y baja en 2 segundos.\n\n**Cómo sabes que está bien:** el cuerpo no se balancea. Si solo subes las piernas hasta 90° sin enrollar la pelvis, trabaja el flexor de cadera, no el abdomen."
      }
     ]
    },
@@ -11339,6 +11304,10 @@
      {
       "d": "08 sep",
       "w": 85.0
+     },
+     {
+      "d": "14 sep",
+      "w": 65.0
      }
     ],
     "pattern": "ascendente_claro",
@@ -11451,6 +11420,10 @@
      {
       "d": "07 sep",
       "w": 105.0
+     },
+     {
+      "d": "20 sep",
+      "w": 90.0
      }
     ],
     "pattern": "meseta_oscilante",
@@ -11627,6 +11600,10 @@
      {
       "d": "29 ago",
       "w": 28.0
+     },
+     {
+      "d": "20 sep",
+      "w": 24.0
      }
     ],
     "pattern": "meseta_oscilante",
@@ -11711,6 +11688,10 @@
      {
       "d": "09 sep",
       "w": 180.0
+     },
+     {
+      "d": "16 sep",
+      "w": 150.0
      }
     ],
     "pattern": "meseta_oscilante",
@@ -11775,6 +11756,246 @@
    }
   ],
   "SESSIONS_FULL": [
+   {
+    "date": "2026-09-20",
+    "dlabel": "20 sep",
+    "title": "Brazos, hombro posterior y glúteo",
+    "hora": "no registrada",
+    "dur": "no registrada",
+    "vol": null,
+    "com": null,
+    "rec": null,
+    "exercises": [
+     {
+      "ej": "Bicep Curl (Dumbbell)",
+      "carga": "24",
+      "reps": "12",
+      "rpe": "—"
+     },
+     {
+      "ej": "Bicep Curl (Dumbbell)",
+      "carga": "24",
+      "reps": "12",
+      "rpe": "—"
+     },
+     {
+      "ej": "Bicep Curl (Dumbbell)",
+      "carga": "24",
+      "reps": "12",
+      "rpe": "—"
+     },
+     {
+      "ej": "Hammer Curl (Dumbbell)",
+      "carga": "24",
+      "reps": "12",
+      "rpe": "—"
+     },
+     {
+      "ej": "Hammer Curl (Dumbbell)",
+      "carga": "24",
+      "reps": "12",
+      "rpe": "—"
+     },
+     {
+      "ej": "Hammer Curl (Dumbbell)",
+      "carga": "24",
+      "reps": "12",
+      "rpe": "—"
+     },
+     {
+      "ej": "Face Pull",
+      "carga": "30",
+      "reps": "15",
+      "rpe": "—"
+     },
+     {
+      "ej": "Face Pull",
+      "carga": "30",
+      "reps": "15",
+      "rpe": "—"
+     },
+     {
+      "ej": "Face Pull",
+      "carga": "30",
+      "reps": "15",
+      "rpe": "—"
+     },
+     {
+      "ej": "Triceps Pushdown",
+      "carga": "25",
+      "reps": "12",
+      "rpe": "—"
+     },
+     {
+      "ej": "Triceps Pushdown",
+      "carga": "25",
+      "reps": "12",
+      "rpe": "—"
+     },
+     {
+      "ej": "Triceps Pushdown",
+      "carga": "25",
+      "reps": "12",
+      "rpe": "—"
+     },
+     {
+      "ej": "Hip Thrust (Barbell)",
+      "carga": "90",
+      "reps": "9",
+      "rpe": "—"
+     },
+     {
+      "ej": "Hip Thrust (Barbell)",
+      "carga": "90",
+      "reps": "9",
+      "rpe": "—"
+     },
+     {
+      "ej": "Hip Thrust (Barbell)",
+      "carga": "90",
+      "reps": "9",
+      "rpe": "—"
+     }
+    ]
+   },
+   {
+    "date": "2026-09-16",
+    "dlabel": "16 sep",
+    "title": "Morning workout ☀️",
+    "hora": "9:25 AM",
+    "dur": "48m",
+    "vol": "8,761",
+    "com": "Online no se nota",
+    "rec": null,
+    "exercises": [
+     {
+      "ej": "Leg Press (Machine)",
+      "carga": "100",
+      "reps": "10",
+      "rpe": "6"
+     },
+     {
+      "ej": "Leg Press (Machine)",
+      "carga": "150",
+      "reps": "12",
+      "rpe": "6"
+     },
+     {
+      "ej": "Leg Press (Machine)",
+      "carga": "150",
+      "reps": "12",
+      "rpe": "6"
+     },
+     {
+      "ej": "Leg Extension (Machine)",
+      "carga": "56,5",
+      "reps": "12",
+      "rpe": "6"
+     },
+     {
+      "ej": "Leg Extension (Machine)",
+      "carga": "56,5",
+      "reps": "12",
+      "rpe": "6"
+     },
+     {
+      "ej": "Hip Adduction (Machine)",
+      "carga": "75",
+      "reps": "15",
+      "rpe": "6"
+     },
+     {
+      "ej": "Squat (Smith Machine)",
+      "carga": "0",
+      "reps": "12",
+      "rpe": "—"
+     },
+     {
+      "ej": "Squat (Smith Machine)",
+      "carga": "60",
+      "reps": "12",
+      "rpe": "6"
+     },
+     {
+      "ej": "Squat (Smith Machine)",
+      "carga": "80",
+      "reps": "12",
+      "rpe": "6"
+     },
+     {
+      "ej": "Stair Machine (Floors)",
+      "carga": "—",
+      "reps": "58 pisos / 15m 0s",
+      "rpe": "—"
+     }
+    ]
+   },
+   {
+    "date": "2026-09-14",
+    "dlabel": "14 sep",
+    "title": "Afternoon workout 💪",
+    "hora": "12:28 PM",
+    "dur": "33m",
+    "vol": "3,613",
+    "com": "Semana de descarga",
+    "rec": null,
+    "exercises": [
+     {
+      "ej": "Single Arm Lateral Raise (Cable)",
+      "carga": "7,5",
+      "reps": "15",
+      "rpe": "7"
+     },
+     {
+      "ej": "Single Arm Lateral Raise (Cable)",
+      "carga": "7,5",
+      "reps": "15",
+      "rpe": "7,5"
+     },
+     {
+      "ej": "Triceps Pushdown",
+      "carga": "25",
+      "reps": "15",
+      "rpe": "6"
+     },
+     {
+      "ej": "Triceps Pushdown",
+      "carga": "27,5",
+      "reps": "15",
+      "rpe": "6"
+     },
+     {
+      "ej": "Bench Press (Barbell)",
+      "carga": "65",
+      "reps": "10",
+      "rpe": "6"
+     },
+     {
+      "ej": "Bench Press (Barbell)",
+      "carga": "65",
+      "reps": "10",
+      "rpe": "6"
+     },
+     {
+      "ej": "Chest Press (Machine)",
+      "carga": "66",
+      "reps": "10",
+      "rpe": "6"
+     },
+     {
+      "ej": "Chest Press (Machine)",
+      "carga": "64",
+      "reps": "10",
+      "rpe": "6"
+     },
+     {
+      "ej": "Stair Machine (Floors)",
+      "carga": "—",
+      "reps": "51 pisos / 12m 0s",
+      "rpe": "—"
+     }
+    ]
+   },
    {
     "date": "2026-09-13",
     "dlabel": "13 sep",
@@ -20520,8 +20741,8 @@
    ]
   },
   "fuente": "Registro_historico_consolidado.md",
-  "weekNote": "Semana 4 de 5 cerrada · 5 sesiones. Sentadilla a 90 y jalón a 82 × 12 las tres, las dos por primera vez, y el domingo inclinado con barra a 65 × 10 sin molestias.",
-  "weekTodo": "**Hoy empuje liviano**, adelantado del martes: nada de glúteo ni femoral después de lo de ayer. Mañana pierna liviana, el miércoles descanso."
+  "weekNote": "**Mopo — vienes de una descarga real y se nota.** Tres sesiones del 14 al 20, todas a RPE 6, con las cargas 20-30% bajo lo normal, más dos días de 18. La única que subió fue el Face Pull: 30 × 15 en las tres el domingo, cuando el 11 solo la tercera llegó a 30 y a RPE 9,5. Justo uno de los tres ejercicios que el diagnóstico marcó como cortos. El semáforo de músculos está en rojo casi entero: es el efecto de la descarga en la ventana de 12 días, no una alarma. Vuelve a su sitio con la semana 1.",
+  "weekTodo": "**Hoy espalda, no pecho.** Es lo que lleva más tiempo sin estímulo real: dorsal 10 días, core e isquio 8, pecho 7 pero solo la descarga. El Face Pull y el curl se corren al viernes porque ayer los hiciste. Mañana empuje, el miércoles cuádriceps y el jueves posterior, que es cuando el hip thrust cumple cuatro días."
  },
  "mipi": {
   "displayName": "Mipi",
@@ -20551,111 +20772,111 @@
   "MUSCLES": [
    {
     "name": "Glúteo / cadera",
-    "recent": 5.2,
-    "hist": 6.4,
+    "recent": 4.7,
+    "hist": 6.2,
     "lo": 10,
     "hi": 16,
-    "tier": "warning",
-    "trend": -0.6,
+    "tier": "critical",
+    "trend": 1.2,
     "note": "Hip thrust del 8, y kickback y máquina de glúteo del 13. Sube desde 1,8 pero va a la mitad de la banda: desde el 21 hay glúteo el lunes, el miércoles y el sábado opcional.",
     "ex": "Hip Thrust, Glute Kickback, máquina de glúteo"
    },
    {
     "name": "Cuádriceps",
-    "recent": 9.3,
-    "hist": 8.2,
+    "recent": 2.3,
+    "hist": 8.0,
     "lo": 8,
     "hi": 14,
-    "tier": "good",
-    "trend": -2.9,
+    "tier": "critical",
+    "trend": -9.9,
     "note": "Prensa a 105 × 12 las tres el 2 y el 13, y búlgaro el 8. Dentro de banda sin la Leg Extension.",
     "ex": "Leg Press, Bulgarian Split Squat, Squat"
    },
    {
     "name": "Femoral",
-    "recent": 3.5,
-    "hist": 2.9,
+    "recent": 1.8,
+    "hist": 2.8,
     "lo": 6,
     "hi": 10,
-    "tier": "warning",
-    "trend": 0.0,
+    "tier": "critical",
+    "trend": -1.8,
     "note": "Curl sentado del 8 y curl acostado del 13. Desde el 21 el lunes suma el peso muerto rumano en Smith.",
     "ex": "Lying/Seated Leg Curl, RDL"
    },
    {
     "name": "Aductor / abductor",
-    "recent": 3.5,
-    "hist": 3.2,
+    "recent": 0.0,
+    "hist": 3.1,
     "lo": 6,
     "hi": 12,
-    "tier": "warning",
-    "trend": -1.2,
+    "tier": "critical",
+    "trend": -6.4,
     "note": "Abducción del 8; la aducción no aparece desde el 2. Desde el 21 la aducción va el miércoles.",
     "ex": "Hip Abduction, Hip Adduction"
    },
    {
     "name": "Core",
-    "recent": 29.8,
-    "hist": 6.3,
+    "recent": 7.0,
+    "hist": 6.1,
     "lo": 12,
     "hi": 24,
-    "tier": "good",
-    "trend": -1.2,
+    "tier": "warning",
+    "trend": -33.2,
     "note": "Sobre la banda: plancha lateral, crunch inverso y dead bug casi todos los días. Por eso el viernes no lleva core.",
     "ex": "Side Plank, Reverse Crunch, Dead Bug"
    },
    {
     "name": "Espalda",
-    "recent": 7.0,
-    "hist": 4.5,
+    "recent": 3.5,
+    "hist": 4.3,
     "lo": 8,
     "hi": 14,
-    "tier": "warning",
-    "trend": 4.1,
+    "tier": "critical",
+    "trend": -1.8,
     "note": "Jalón y remo a 28,5 kg el 11, sin molestias de codo. Casi en banda con un solo día de tren superior.",
     "ex": "Lat Pulldown, Seated Row"
    },
    {
     "name": "Pecho",
-    "recent": 3.5,
-    "hist": 2.8,
+    "recent": 1.8,
+    "hist": 2.7,
     "lo": 4,
     "hi": 10,
-    "tier": "warning",
-    "trend": 2.9,
+    "tier": "critical",
+    "trend": -0.6,
     "note": "Press banca con barra a 17,5 kg el 11. Desde el 21 se suma el Chest Fly del jueves opcional.",
     "ex": "Bench Press, Chest Fly"
    },
    {
     "name": "Hombro",
-    "recent": 6.4,
-    "hist": 4.2,
+    "recent": 3.5,
+    "hist": 4.1,
     "lo": 4,
     "hi": 10,
-    "tier": "good",
-    "trend": 4.7,
+    "tier": "warning",
+    "trend": -1.8,
     "note": "Press con mancuernas y elevación lateral del 11. Dentro de banda.",
     "ex": "Shoulder Press, Lateral Raise, Face Pull"
    },
    {
     "name": "Bíceps",
-    "recent": 4.1,
-    "hist": 1.9,
+    "recent": 0.6,
+    "hist": 1.8,
     "lo": 3,
     "hi": 8,
-    "tier": "good",
-    "trend": 2.3,
+    "tier": "critical",
+    "trend": -4.7,
     "note": "Curl con mancuernas del 4 y del 11, sin molestias de codo.",
     "ex": "Bicep Curl"
    },
    {
     "name": "Tríceps",
-    "recent": 4.1,
+    "recent": 2.3,
     "hist": 1.8,
     "lo": 3,
     "hi": 8,
-    "tier": "good",
-    "trend": 4.1,
+    "tier": "warning",
+    "trend": -0.6,
     "note": "Extensión sobre la cabeza del 3 y del 11: ya entró, sin molestias de codo.",
     "ex": "Overhead Extension"
    }
@@ -26339,11 +26560,240 @@
     "rationale": "**Día 4 — último de regla.** Mismo trabajo de postura del viernes, en casa y en 20 minutos, si hay ganas.\n\nLa semana que viene entras en **folicular, tu mejor ventana**, y ahí vuelven las cargas normales."
    },
    {
+    "focus": "Descanso",
+    "tag": "descanso",
+    "cardio": "",
+    "warmup": [],
+    "stretch": [],
+    "exercises": [],
+    "rationale": "**Día 5 — folicular (proyectado).** **Descanso.** Esta semana no vienes lunes ni miércoles, así que los tres días firmes se corren a jueves, viernes y sábado. Nada se pierde: el mesociclo parte igual, solo cambia el calendario de esta semana.",
     "day": "Lun 21",
-    "date": "2026-09-21",
+    "date": "2026-09-21"
+   },
+   {
+    "day": "Mar 22",
+    "date": "2026-09-22",
+    "focus": "Opcional — postura, hombro y pecho",
+    "tag": "opcional",
+    "rationale": "**Día 6 — folicular (proyectado).** **Opcional: postura, hombro y pecho.** Si el martes se puede, este es el día que conviene meter — es corto, liviano y no compromete los tres firmes del jueves al sábado. Si no vienes, no se recupera: los días que importan son los otros tres.",
+    "cardio": "Escaladora 15 min, RPE 4-5, si hay ganas.",
+    "warmup": [
+     {
+      "name": "Bici o caminadora, 5-6 min, ritmo conversable",
+      "how": "Solo para subir temperatura y pulso. Debes poder hablar frases completas todo el rato. Si terminas sin aliento, ibas muy fuerte."
+     },
+     {
+      "name": "Círculos de hombro, 10 por lado",
+      "how": "Brazos sueltos, círculos grandes y lentos."
+     },
+     {
+      "name": "Movilidad torácica sentado, 8 por lado",
+      "how": "Sentado, manos en la nuca, gira el pecho hacia un lado sin mover la cadera. Es rotación de la espalda alta, no de la baja."
+     },
+     {
+      "name": "Face Pull con banda, 15 repeticiones",
+      "how": "Banda a la altura de la cara. Tira separando las manos y llevando los codos atrás. Hombros abajo, no encogidos."
+     },
+     {
+      "name": "Activación de dorsal con banda, 12 repeticiones",
+      "how": "Banda alta, brazos estirados. Baja los brazos rectos hacia los muslos apretando la axila. Sin doblar el codo."
+     },
+     {
+      "name": "Colgarse de la barra, 20 s",
+      "how": "Cuelga relajado y luego aprieta los omóplatos hacia abajo un par de veces. Prepara el hombro para el jalón."
+     },
+     {
+      "name": "Series de aproximación del primer ejercicio",
+      "how": "Las que están en la tabla, marcadas como Aprox. Suben la carga de a poco hasta el peso de trabajo. No cuentan como series efectivas."
+     }
+    ],
+    "stretch": [
+     {
+      "name": "Dorsal colgado de la barra, 30 s",
+      "how": "Cuelga relajado y respira."
+     },
+     {
+      "name": "Bíceps y antebrazo en pared, 30 s por lado",
+      "how": "Palma en la pared con el brazo estirado y los dedos hacia atrás; gira el cuerpo al lado contrario."
+     },
+     {
+      "name": "Pectoral en marco de puerta, 30 s por lado",
+      "how": "Antebrazo en el marco, codo a la altura del hombro."
+     },
+     {
+      "name": "Cuello y trapecio, 20 s por lado",
+      "how": "Oreja al hombro, sin encoger."
+     }
+    ],
+    "exercises": [
+     {
+      "name": "Lateral Raise (Dumbbell)",
+      "sets": [
+       {
+        "serie": "Trabajo 1",
+        "carga": "4 kg",
+        "reps": "15",
+        "rir": "objetivo 3",
+        "descanso": "60s"
+       },
+       {
+        "serie": "Trabajo 2",
+        "carga": "4 kg",
+        "reps": "15",
+        "rir": "objetivo 3",
+        "descanso": "60s"
+       },
+       {
+        "serie": "Trabajo 3",
+        "carga": "4 kg",
+        "reps": "15",
+        "rir": "objetivo 3",
+        "descanso": "60s"
+       }
+      ],
+      "cue": "**4 × 15.** El 11 de septiembre salieron 15, 15 y 15 a RPE 7, 8,5 y 9.\n\n**Cómo te pones:** de pie, mancuernas a los lados, codos apenas doblados y fijos.\n\n**Qué haces:** sube los brazos hasta la altura del hombro, como sirviendo dos bandejas, y baja lento contando 2 segundos.\n\n**Cómo sabes que está bien:** el hombro **no se encoge** hacia la oreja y el cuerpo no se balancea para dar impulso. Si necesitas mecerte, el peso es mucho."
+     },
+     {
+      "name": "Chest Fly (Machine)",
+      "sets": [
+       {
+        "serie": "Trabajo 1",
+        "carga": "14,5 kg",
+        "reps": "12",
+        "rir": "objetivo 3",
+        "descanso": "75s"
+       },
+       {
+        "serie": "Trabajo 2",
+        "carga": "14,5 kg",
+        "reps": "12",
+        "rir": "objetivo 3",
+        "descanso": "75s"
+       },
+       {
+        "serie": "Trabajo 3",
+        "carga": "14,5 kg",
+        "reps": "12",
+        "rir": "objetivo 3",
+        "descanso": "75s"
+       }
+      ],
+      "cue": "**Segunda dosis de pecho, con el codo casi estirado.** **14,5 × 12**: el 28 de agosto hiciste 14,5 × 15 a RPE 7.\n\n**Cómo te pones:** asiento a la altura en que las manillas quedan en la línea del pecho, espalda pegada al respaldo, codos apenas doblados.\n\n**Qué haces:** junta las manillas frente al pecho y abre lento hasta sentir el pecho estirado, sin pasar los codos por detrás del cuerpo.\n\n**Cómo sabes que está bien:** los hombros no se despegan del respaldo y el codo mantiene el mismo ángulo."
+     },
+     {
+      "name": "Bicep Curl (Dumbbell)",
+      "sets": [
+       {
+        "serie": "Trabajo 1",
+        "carga": "6 kg",
+        "reps": "10",
+        "rir": "objetivo 3",
+        "descanso": "sin descanso"
+       },
+       {
+        "serie": "Trabajo 2",
+        "carga": "6 kg",
+        "reps": "10",
+        "rir": "objetivo 3",
+        "descanso": "sin descanso"
+       }
+      ],
+      "cue": "**Superserie con la extensión de tríceps:** una serie de cada uno, seguidas, y recién ahí 90 segundos. **6 × 10**: el 11 de septiembre los 5 kg salieron a RPE 6, 6 y 8.\n\n**Cómo te pones:** de pie, codos pegados al costado.\n\n**Qué haces:** sube sin balancear el cuerpo y **baja lento**, que es donde el bíceps hace el trabajo que importa.\n\n**Cómo sabes que está bien:** si el codo se va hacia adelante al subir, el hombro está ayudando.",
+      "superset": true
+     },
+     {
+      "name": "Overhead Triceps Extension (Cable)",
+      "sets": [
+       {
+        "serie": "Trabajo 1",
+        "carga": "5 kg",
+        "reps": "10",
+        "rir": "objetivo 3",
+        "descanso": "90s"
+       },
+       {
+        "serie": "Trabajo 2",
+        "carga": "5 kg",
+        "reps": "10",
+        "rir": "objetivo 3",
+        "descanso": "90s"
+       }
+      ],
+      "cue": "**5 × 10.** El 11 de septiembre a 5 kg la última salió a RPE 9,5 con 12: con 10 y dos series queda margen.\n\n**Cómo te pones:** de espaldas a la polea, cuerda por detrás de la cabeza, un pie adelante y el tronco un poco inclinado.\n\n**Qué haces:** estira los codos hacia adelante y arriba hasta dejar los brazos rectos, y vuelve lento hasta sentir el estiramiento atrás del brazo.\n\n**Cómo sabes que está bien:** los codos apuntan al frente y no se abren hacia los lados. Si la zona lumbar se arquea, adelanta más el pie."
+     },
+     {
+      "name": "Band Pull-Apart",
+      "sets": [
+       {
+        "serie": "Trabajo 1",
+        "carga": "Banda 5 kg",
+        "reps": "15",
+        "rir": "objetivo 3",
+        "descanso": "45s"
+       },
+       {
+        "serie": "Trabajo 2",
+        "carga": "Banda 5 kg",
+        "reps": "15",
+        "rir": "objetivo 3",
+        "descanso": "45s"
+       },
+       {
+        "serie": "Trabajo 3",
+        "carga": "Banda 5 kg",
+        "reps": "15",
+        "rir": "objetivo 3",
+        "descanso": "45s"
+       }
+      ],
+      "cue": "**Postura.** 3 × 15 con 1 segundo de pausa con la banda en el pecho.\n\n**Cómo te pones:** de pie, banda agarrada con las dos manos al frente a la altura del pecho, brazos estirados, manos al ancho de hombros.\n\n**Qué haces:** abre los brazos estirando la banda hasta que te toque el pecho, **juntando los omóplatos** atrás. Aguanta 1 segundo y vuelve lento.\n\n**Cómo sabes que está bien:** los brazos quedan casi rectos todo el rato y los hombros no suben. Si no llegas a tocar el pecho, agarra la banda más ancho."
+     },
+     {
+      "name": "Plank",
+      "sets": [
+       {
+        "serie": "Trabajo 1",
+        "carga": "Peso corporal",
+        "reps": "20 s",
+        "rir": "RPE 7",
+        "descanso": "45s"
+       },
+       {
+        "serie": "Trabajo 2",
+        "carga": "Peso corporal",
+        "reps": "20 s",
+        "rir": "RPE 7",
+        "descanso": "45s"
+       },
+       {
+        "serie": "Trabajo 3",
+        "carga": "Peso corporal",
+        "reps": "20 s",
+        "rir": "RPE 7",
+        "descanso": "45s"
+       }
+      ],
+      "cue": "**Plancha completa, sin rodillas.** El 29 de agosto sostuviste 16 s y con rodillas ya llegas a 1 minuto: toca pasar a la completa, de a 5 segundos por semana. Si a los 20 s se hunde la cadera, apoya las rodillas y termina el tiempo así.\n\n**Cómo te pones:** codos justo debajo de los hombros, antebrazos paralelos, piernas estiradas y pies al ancho de cadera.\n\n**Qué haces:** aprieta glúteo y abdomen y empuja el suelo con los antebrazos, como alejándote de él. Respira corto sin soltar el abdomen.\n\n**Cómo sabes que está bien:** hombros, cadera y tobillos en línea. Si la cadera se hunde o sube, se acabó la serie aunque falten segundos."
+     }
+    ]
+   },
+   {
+    "focus": "Descanso",
+    "tag": "descanso",
+    "cardio": "",
+    "warmup": [],
+    "stretch": [],
+    "exercises": [],
+    "rationale": "**Día 7 — folicular (proyectado).** **Descanso.** Mañana arranca el bloque firme de la semana: jueves, viernes y sábado seguidos.",
+    "day": "Mié 23",
+    "date": "2026-09-23"
+   },
+   {
+    "day": "Jue 24",
+    "date": "2026-09-24",
     "focus": "Inferior A — glúteo y femoral",
     "tag": "entreno",
-    "rationale": "**Arranca un mesociclo nuevo: 4 semanas, del 21 de septiembre al 18 de octubre.** El anterior se cierra una semana antes: la del 14 al 20 fue liviana por el turno y Fiestas Patrias, y ya cumple como descarga. Otra semana liviana ahora te haría perder tu mejor ventana del ciclo.\n\n**Día 5 — folicular (proyectado).** Es donde más sentido tiene empujar.\n\n**Días firmes: lunes, miércoles y viernes. Opcionales: jueves y sábado.** Si un turno te quita un día, corre la sesión en vez de saltarla: el orden es Inferior A, Inferior B, Superior. Los opcionales son los primeros que se caen.\n\n**Por qué sesiones más cortas.** Las de las últimas semanas duraron cerca de 2 horas contra tu meta de 60 a 90 minutos. Cada día firme tiene ahora como máximo cinco ejercicios y el core.\n\n**Cómo progresa.** Una variable a la vez: primero suben las repeticiones con el mismo peso, y el peso sube cuando salen completas. La semana 4 es descarga y coincide con tu regla proyectada. 🤝 **Coordinado con Mopo:** comparten la barra del hip thrust, la Smith, la máquina de glúteo y el curl acostado el lunes, la prensa y la aducción el miércoles, y el remo sentado el viernes.",
+    "rationale": "**Día 8 — folicular (proyectado).** **Inferior A — glúteo y femoral, el día fuerte.** Corrido del lunes. El domingo hiciste hip thrust 90 × 8 a RPE 9 después de casi un mes sin hacerlo: hoy vuelve a 105 × 8, que es tu base, pero si la primera serie de trabajo pasa de RPE 9, baja a 95 y quédate ahí toda la sesión — esta es la semana de recalibrar, no de récords.\n\n🤝 **Con Mopo:** él hace posterior hoy también. Comparten la barra de hip thrust, el Smith del peso muerto rumano, la máquina de curl acostado y la de glúteo. Alternan el pin.",
     "cardio": "Escaladora 12 min, RPE 4-5.",
     "warmup": [
      {
@@ -26602,22 +27052,233 @@
     ]
    },
    {
-    "day": "Mar 22",
-    "date": "2026-09-22",
-    "focus": "Descanso",
-    "tag": "descanso",
-    "rationale": "**Día 6 — folicular (proyectado).** Descanso.",
-    "cardio": "",
-    "warmup": [],
-    "stretch": [],
-    "exercises": []
+    "day": "Vie 25",
+    "date": "2026-09-25",
+    "focus": "Tren superior — espalda, pecho y hombro",
+    "tag": "entreno",
+    "rationale": "**Día 9 — folicular (proyectado).** **Tren superior — espalda, pecho y hombro.** Segundo día seguido, pero no se pisan: ayer fue todo pierna. Cinco ejercicios y listo.\n\nEl domingo hiciste pushdown y face pull, así que el Face Pull de hoy va a 11,25 sin subir — esta semana solo se confirma que las repeticiones salen completas.\n\n🤝 **Con Mopo:** comparten el remo sentado.",
+    "cardio": "Escaladora 12 min, RPE 4-5.",
+    "warmup": [
+     {
+      "name": "Bici o caminadora, 5-6 min, ritmo conversable",
+      "how": "Solo para subir temperatura y pulso. Debes poder hablar frases completas todo el rato. Si terminas sin aliento, ibas muy fuerte."
+     },
+     {
+      "name": "Círculos de hombro, 10 por lado",
+      "how": "Brazos sueltos, círculos grandes y lentos."
+     },
+     {
+      "name": "Movilidad torácica sentado, 8 por lado",
+      "how": "Sentado, manos en la nuca, gira el pecho hacia un lado sin mover la cadera. Es rotación de la espalda alta, no de la baja."
+     },
+     {
+      "name": "Face Pull con banda, 15 repeticiones",
+      "how": "Banda a la altura de la cara. Tira separando las manos y llevando los codos atrás. Hombros abajo, no encogidos."
+     },
+     {
+      "name": "Activación de dorsal con banda, 12 repeticiones",
+      "how": "Banda alta, brazos estirados. Baja los brazos rectos hacia los muslos apretando la axila. Sin doblar el codo."
+     },
+     {
+      "name": "Colgarse de la barra, 20 s",
+      "how": "Cuelga relajado y luego aprieta los omóplatos hacia abajo un par de veces. Prepara el hombro para el jalón."
+     },
+     {
+      "name": "Series de aproximación del primer ejercicio",
+      "how": "Las que están en la tabla, marcadas como Aprox. Suben la carga de a poco hasta el peso de trabajo. No cuentan como series efectivas."
+     }
+    ],
+    "stretch": [
+     {
+      "name": "Dorsal colgado de la barra, 30 s",
+      "how": "Cuelga relajado y respira."
+     },
+     {
+      "name": "Bíceps y antebrazo en pared, 30 s por lado",
+      "how": "Palma en la pared con el brazo estirado y los dedos hacia atrás; gira el cuerpo al lado contrario."
+     },
+     {
+      "name": "Pectoral en marco de puerta, 30 s por lado",
+      "how": "Antebrazo en el marco, codo a la altura del hombro."
+     },
+     {
+      "name": "Cuello y trapecio, 20 s por lado",
+      "how": "Oreja al hombro, sin encoger."
+     }
+    ],
+    "exercises": [
+     {
+      "name": "Lat Pulldown (Cable)",
+      "sets": [
+       {
+        "serie": "Aprox.",
+        "carga": "19 kg",
+        "reps": "12",
+        "rir": "5",
+        "descanso": "60s"
+       },
+       {
+        "serie": "Trabajo 1",
+        "carga": "28,5 kg",
+        "reps": "12",
+        "rir": "objetivo 3",
+        "descanso": "2 min"
+       },
+       {
+        "serie": "Trabajo 2",
+        "carga": "28,5 kg",
+        "reps": "12",
+        "rir": "objetivo 3",
+        "descanso": "2 min"
+       },
+       {
+        "serie": "Trabajo 3",
+        "carga": "28,5 kg",
+        "reps": "12",
+        "rir": "objetivo 3",
+        "descanso": "2 min"
+       }
+      ],
+      "cue": "**28,5 × 12.** El 11 de septiembre la segunda y la tercera salieron a RPE 9: se repite para cerrarlas a RIR 3 antes de subir.\n\n**Cómo te pones:** agarre algo más ancho que los hombros, muslos fijos bajo el apoyo.\n\n**Qué haces:** **primero baja los omóplatos**, después dobla el codo. Lleva la barra al pecho alto, no a la nuca.\n\n**Cómo sabes que está bien:** el torso se inclina un poco atrás y se queda ahí. Si te meces hacia atrás y adelante en cada repetición, la espalda dejó de trabajar."
+     },
+     {
+      "name": "Seated Row (Machine)",
+      "sets": [
+       {
+        "serie": "Aprox.",
+        "carga": "15 kg",
+        "reps": "12",
+        "rir": "5",
+        "descanso": "60s"
+       },
+       {
+        "serie": "Trabajo 1",
+        "carga": "28,5 kg",
+        "reps": "12",
+        "rir": "objetivo 3",
+        "descanso": "2 min"
+       },
+       {
+        "serie": "Trabajo 2",
+        "carga": "28,5 kg",
+        "reps": "12",
+        "rir": "objetivo 3",
+        "descanso": "2 min"
+       },
+       {
+        "serie": "Trabajo 3",
+        "carga": "28,5 kg",
+        "reps": "12",
+        "rir": "objetivo 3",
+        "descanso": "2 min"
+       }
+      ],
+      "cue": "🤝 Mopo hace remo sentado hoy: alternan cambiando el pin. **28,5 × 12, con agarre supino**, como te gustó. El 11 de septiembre salieron las tres a RPE 8-8,5.\n\n**Cómo te pones:** pecho contra el apoyo, hombros abajo antes de tirar.\n\n**Qué haces:** tira llevando los codos pegados al cuerpo y junta los omóplatos al final. Suelta lento dejando que el omóplato se separe.\n\n**Cómo sabes que está bien:** el torso **no se balancea**. Si te vas hacia atrás para completar la repetición, es mucho peso."
+     },
+     {
+      "name": "Bench Press (Barbell)",
+      "sets": [
+       {
+        "serie": "Aprox.",
+        "carga": "12,5 kg",
+        "reps": "12",
+        "rir": "5",
+        "descanso": "60s"
+       },
+       {
+        "serie": "Trabajo 1",
+        "carga": "17,5 kg",
+        "reps": "12",
+        "rir": "objetivo 3",
+        "descanso": "90s"
+       },
+       {
+        "serie": "Trabajo 2",
+        "carga": "17,5 kg",
+        "reps": "12",
+        "rir": "objetivo 3",
+        "descanso": "90s"
+       },
+       {
+        "serie": "Trabajo 3",
+        "carga": "17,5 kg",
+        "reps": "12",
+        "rir": "objetivo 3",
+        "descanso": "90s"
+       }
+      ],
+      "cue": "**17,5 × 12.** El 11 de septiembre salieron a RPE 7, 7,5 y 8,5. Con discos de 2,5 el paso siguiente es 22,5, un 29% de golpe: por eso primero suben las repeticiones hasta 15.\n\n**Cómo te pones:** ojos bajo la barra, omóplatos juntos y hacia abajo, pies firmes en el suelo. Agarre un poco más ancho que los hombros.\n\n**Qué haces:** baja la barra a la parte baja del pecho con los codos a 30-45° del cuerpo, toca sin rebotar y empuja hacia arriba y un poco hacia la cara.\n\n**Cómo sabes que está bien:** los omóplatos no se despegan del banco en ninguna repetición. Si molesta el hombro, cierra un poco más los codos antes de bajar el peso.",
+      "barra": 12.5
+     },
+     {
+      "name": "Shoulder Press (Dumbbell)",
+      "sets": [
+       {
+        "serie": "Aprox.",
+        "carga": "2 kg",
+        "reps": "12",
+        "rir": "5",
+        "descanso": "60s"
+       },
+       {
+        "serie": "Trabajo 1",
+        "carga": "5 kg",
+        "reps": "12",
+        "rir": "objetivo 3",
+        "descanso": "90s"
+       },
+       {
+        "serie": "Trabajo 2",
+        "carga": "5 kg",
+        "reps": "12",
+        "rir": "objetivo 3",
+        "descanso": "90s"
+       },
+       {
+        "serie": "Trabajo 3",
+        "carga": "5 kg",
+        "reps": "12",
+        "rir": "objetivo 3",
+        "descanso": "90s"
+       }
+      ],
+      "cue": "**5 × 12.** Sube a 5 el jueves 17. Si ese día la tercera serie pasó de RPE 8, esta semana es 5 × 10.\n\n**Cómo te pones:** Sentada con el respaldo casi vertical, mancuernas a la altura de las orejas, palmas al frente o un poco hacia adentro.\n\n**Qué haces:** empuja hacia arriba hasta casi juntar las mancuernas sobre la cabeza y baja hasta que queden a la altura del mentón.\n\n**Cómo sabes que está bien:** la espalda no se despega del respaldo y las costillas no se abren para ayudar. Si molesta el hombro, gira más las palmas hacia adentro."
+     },
+     {
+      "name": "Face Pull",
+      "sets": [
+       {
+        "serie": "Trabajo 1",
+        "carga": "11,25 kg",
+        "reps": "15",
+        "rir": "objetivo 3",
+        "descanso": "60s"
+       },
+       {
+        "serie": "Trabajo 2",
+        "carga": "11,25 kg",
+        "reps": "15",
+        "rir": "objetivo 3",
+        "descanso": "60s"
+       },
+       {
+        "serie": "Trabajo 3",
+        "carga": "11,25 kg",
+        "reps": "15",
+        "rir": "objetivo 3",
+        "descanso": "60s"
+       }
+      ],
+      "cue": "**Tu ejercicio de postura con carga.** Vuelve el jueves 17 en 10 kg; si salió a RPE 7 o menos, esta semana 11,25. Si no, repite 10. En julio hacías 15 × 15, pero a RPE 9-9,5.\n\n**Cómo te pones:** polea a la altura de la cara, cuerda con las dos manos, un pie adelante para tener base.\n\n**Qué haces:** tira de la cuerda **separando las manos** y llevando los codos hacia atrás y arriba. Termina con los nudillos apuntando al techo, como haciendo un 'gol'. Vuelve lento.\n\n**Cómo sabes que está bien:** los hombros quedan **abajo, lejos de las orejas**. Si se encogen, el trapecio está haciendo el trabajo y el peso es mucho. Debes sentirlo atrás del hombro y entre los omóplatos."
+     }
+    ]
    },
    {
-    "day": "Mié 23",
-    "date": "2026-09-23",
+    "day": "Sáb 26",
+    "date": "2026-09-26",
     "focus": "Inferior B — cuádriceps y glúteo",
     "tag": "entreno",
-    "rationale": "**Día 7 — folicular (proyectado).** Vuelve la sentadilla con barra, para la técnica que dijiste que te falta, y el Bulgarian Split Squat queda fijo. La Leg Extension descansa este bloque: la prensa y el búlgaro cubren el cuádriceps sin cargar la inserción que te tira. La aducción cierra el día, porque el aductor es el hueco que queda en pierna. 🤝 Comparten la prensa con Mopo.",
+    "rationale": "**Día 10 — folicular (proyectado).** **Inferior B — cuádriceps y glúteo.** Tercer día seguido y último firme de la semana. Va a dos días del jueves, no a tres como quedará de la semana 2 en adelante: si llegas cansada, corta el búlgaro y deja la sentadilla, la prensa y el kickback, que son los que miden.\n\nLa sentadilla con barra vuelve para técnica, a 25 kg. No es carga: es recuperar el patrón antes de subir.",
     "cardio": "Escaladora 10 min, RPE 4.",
     "warmup": [
      {
@@ -26870,440 +27531,11 @@
     ]
    },
    {
-    "day": "Jue 24",
-    "date": "2026-09-24",
-    "focus": "Opcional — postura, hombro y pecho",
+    "day": "Dom 27",
+    "date": "2026-09-27",
+    "focus": "Opcional — core, banda y escaladora",
     "tag": "opcional",
-    "rationale": "**Día 8 — folicular (proyectado).** **Opcional, unos 40 minutos.** Hombro, pecho, brazos en superserie y postura con la banda. Si la semana viene pesada, este es el primero que se cae.",
-    "cardio": "Escaladora 15 min, RPE 4-5, si hay ganas.",
-    "warmup": [
-     {
-      "name": "Bici o caminadora, 5-6 min, ritmo conversable",
-      "how": "Solo para subir temperatura y pulso. Debes poder hablar frases completas todo el rato. Si terminas sin aliento, ibas muy fuerte."
-     },
-     {
-      "name": "Círculos de hombro, 10 por lado",
-      "how": "Brazos sueltos, círculos grandes y lentos."
-     },
-     {
-      "name": "Movilidad torácica sentado, 8 por lado",
-      "how": "Sentado, manos en la nuca, gira el pecho hacia un lado sin mover la cadera. Es rotación de la espalda alta, no de la baja."
-     },
-     {
-      "name": "Face Pull con banda, 15 repeticiones",
-      "how": "Banda a la altura de la cara. Tira separando las manos y llevando los codos atrás. Hombros abajo, no encogidos."
-     },
-     {
-      "name": "Activación de dorsal con banda, 12 repeticiones",
-      "how": "Banda alta, brazos estirados. Baja los brazos rectos hacia los muslos apretando la axila. Sin doblar el codo."
-     },
-     {
-      "name": "Colgarse de la barra, 20 s",
-      "how": "Cuelga relajado y luego aprieta los omóplatos hacia abajo un par de veces. Prepara el hombro para el jalón."
-     },
-     {
-      "name": "Series de aproximación del primer ejercicio",
-      "how": "Las que están en la tabla, marcadas como Aprox. Suben la carga de a poco hasta el peso de trabajo. No cuentan como series efectivas."
-     }
-    ],
-    "stretch": [
-     {
-      "name": "Dorsal colgado de la barra, 30 s",
-      "how": "Cuelga relajado y respira."
-     },
-     {
-      "name": "Bíceps y antebrazo en pared, 30 s por lado",
-      "how": "Palma en la pared con el brazo estirado y los dedos hacia atrás; gira el cuerpo al lado contrario."
-     },
-     {
-      "name": "Pectoral en marco de puerta, 30 s por lado",
-      "how": "Antebrazo en el marco, codo a la altura del hombro."
-     },
-     {
-      "name": "Cuello y trapecio, 20 s por lado",
-      "how": "Oreja al hombro, sin encoger."
-     }
-    ],
-    "exercises": [
-     {
-      "name": "Lateral Raise (Dumbbell)",
-      "sets": [
-       {
-        "serie": "Trabajo 1",
-        "carga": "4 kg",
-        "reps": "15",
-        "rir": "objetivo 3",
-        "descanso": "60s"
-       },
-       {
-        "serie": "Trabajo 2",
-        "carga": "4 kg",
-        "reps": "15",
-        "rir": "objetivo 3",
-        "descanso": "60s"
-       },
-       {
-        "serie": "Trabajo 3",
-        "carga": "4 kg",
-        "reps": "15",
-        "rir": "objetivo 3",
-        "descanso": "60s"
-       }
-      ],
-      "cue": "**4 × 15.** El 11 de septiembre salieron 15, 15 y 15 a RPE 7, 8,5 y 9.\n\n**Cómo te pones:** de pie, mancuernas a los lados, codos apenas doblados y fijos.\n\n**Qué haces:** sube los brazos hasta la altura del hombro, como sirviendo dos bandejas, y baja lento contando 2 segundos.\n\n**Cómo sabes que está bien:** el hombro **no se encoge** hacia la oreja y el cuerpo no se balancea para dar impulso. Si necesitas mecerte, el peso es mucho."
-     },
-     {
-      "name": "Chest Fly (Machine)",
-      "sets": [
-       {
-        "serie": "Trabajo 1",
-        "carga": "14,5 kg",
-        "reps": "12",
-        "rir": "objetivo 3",
-        "descanso": "75s"
-       },
-       {
-        "serie": "Trabajo 2",
-        "carga": "14,5 kg",
-        "reps": "12",
-        "rir": "objetivo 3",
-        "descanso": "75s"
-       },
-       {
-        "serie": "Trabajo 3",
-        "carga": "14,5 kg",
-        "reps": "12",
-        "rir": "objetivo 3",
-        "descanso": "75s"
-       }
-      ],
-      "cue": "**Segunda dosis de pecho, con el codo casi estirado.** **14,5 × 12**: el 28 de agosto hiciste 14,5 × 15 a RPE 7.\n\n**Cómo te pones:** asiento a la altura en que las manillas quedan en la línea del pecho, espalda pegada al respaldo, codos apenas doblados.\n\n**Qué haces:** junta las manillas frente al pecho y abre lento hasta sentir el pecho estirado, sin pasar los codos por detrás del cuerpo.\n\n**Cómo sabes que está bien:** los hombros no se despegan del respaldo y el codo mantiene el mismo ángulo."
-     },
-     {
-      "name": "Bicep Curl (Dumbbell)",
-      "sets": [
-       {
-        "serie": "Trabajo 1",
-        "carga": "6 kg",
-        "reps": "10",
-        "rir": "objetivo 3",
-        "descanso": "sin descanso"
-       },
-       {
-        "serie": "Trabajo 2",
-        "carga": "6 kg",
-        "reps": "10",
-        "rir": "objetivo 3",
-        "descanso": "sin descanso"
-       }
-      ],
-      "cue": "**Superserie con la extensión de tríceps:** una serie de cada uno, seguidas, y recién ahí 90 segundos. **6 × 10**: el 11 de septiembre los 5 kg salieron a RPE 6, 6 y 8.\n\n**Cómo te pones:** de pie, codos pegados al costado.\n\n**Qué haces:** sube sin balancear el cuerpo y **baja lento**, que es donde el bíceps hace el trabajo que importa.\n\n**Cómo sabes que está bien:** si el codo se va hacia adelante al subir, el hombro está ayudando.",
-      "superset": true
-     },
-     {
-      "name": "Overhead Triceps Extension (Cable)",
-      "sets": [
-       {
-        "serie": "Trabajo 1",
-        "carga": "5 kg",
-        "reps": "10",
-        "rir": "objetivo 3",
-        "descanso": "90s"
-       },
-       {
-        "serie": "Trabajo 2",
-        "carga": "5 kg",
-        "reps": "10",
-        "rir": "objetivo 3",
-        "descanso": "90s"
-       }
-      ],
-      "cue": "**5 × 10.** El 11 de septiembre a 5 kg la última salió a RPE 9,5 con 12: con 10 y dos series queda margen.\n\n**Cómo te pones:** de espaldas a la polea, cuerda por detrás de la cabeza, un pie adelante y el tronco un poco inclinado.\n\n**Qué haces:** estira los codos hacia adelante y arriba hasta dejar los brazos rectos, y vuelve lento hasta sentir el estiramiento atrás del brazo.\n\n**Cómo sabes que está bien:** los codos apuntan al frente y no se abren hacia los lados. Si la zona lumbar se arquea, adelanta más el pie."
-     },
-     {
-      "name": "Band Pull-Apart",
-      "sets": [
-       {
-        "serie": "Trabajo 1",
-        "carga": "Banda 5 kg",
-        "reps": "15",
-        "rir": "objetivo 3",
-        "descanso": "45s"
-       },
-       {
-        "serie": "Trabajo 2",
-        "carga": "Banda 5 kg",
-        "reps": "15",
-        "rir": "objetivo 3",
-        "descanso": "45s"
-       },
-       {
-        "serie": "Trabajo 3",
-        "carga": "Banda 5 kg",
-        "reps": "15",
-        "rir": "objetivo 3",
-        "descanso": "45s"
-       }
-      ],
-      "cue": "**Postura.** 3 × 15 con 1 segundo de pausa con la banda en el pecho.\n\n**Cómo te pones:** de pie, banda agarrada con las dos manos al frente a la altura del pecho, brazos estirados, manos al ancho de hombros.\n\n**Qué haces:** abre los brazos estirando la banda hasta que te toque el pecho, **juntando los omóplatos** atrás. Aguanta 1 segundo y vuelve lento.\n\n**Cómo sabes que está bien:** los brazos quedan casi rectos todo el rato y los hombros no suben. Si no llegas a tocar el pecho, agarra la banda más ancho."
-     },
-     {
-      "name": "Plank",
-      "sets": [
-       {
-        "serie": "Trabajo 1",
-        "carga": "Peso corporal",
-        "reps": "20 s",
-        "rir": "RPE 7",
-        "descanso": "45s"
-       },
-       {
-        "serie": "Trabajo 2",
-        "carga": "Peso corporal",
-        "reps": "20 s",
-        "rir": "RPE 7",
-        "descanso": "45s"
-       },
-       {
-        "serie": "Trabajo 3",
-        "carga": "Peso corporal",
-        "reps": "20 s",
-        "rir": "RPE 7",
-        "descanso": "45s"
-       }
-      ],
-      "cue": "**Plancha completa, sin rodillas.** El 29 de agosto sostuviste 16 s y con rodillas ya llegas a 1 minuto: toca pasar a la completa, de a 5 segundos por semana. Si a los 20 s se hunde la cadera, apoya las rodillas y termina el tiempo así.\n\n**Cómo te pones:** codos justo debajo de los hombros, antebrazos paralelos, piernas estiradas y pies al ancho de cadera.\n\n**Qué haces:** aprieta glúteo y abdomen y empuja el suelo con los antebrazos, como alejándote de él. Respira corto sin soltar el abdomen.\n\n**Cómo sabes que está bien:** hombros, cadera y tobillos en línea. Si la cadera se hunde o sube, se acabó la serie aunque falten segundos."
-     }
-    ]
-   },
-   {
-    "day": "Vie 25",
-    "date": "2026-09-25",
-    "focus": "Tren superior — espalda, pecho y hombro",
-    "tag": "entreno",
-    "rationale": "**Día 9 — folicular (proyectado).** Tu día firme de tren superior: espalda, pecho, hombro y Face Pull para la postura. Bíceps y tríceps van el jueves opcional; hoy los trabajan de rebote el jalón, el remo y los presses. Sin core hoy: va en 29,8 contra una banda de 12-24, sobra.",
-    "cardio": "Escaladora 12 min, RPE 4-5.",
-    "warmup": [
-     {
-      "name": "Bici o caminadora, 5-6 min, ritmo conversable",
-      "how": "Solo para subir temperatura y pulso. Debes poder hablar frases completas todo el rato. Si terminas sin aliento, ibas muy fuerte."
-     },
-     {
-      "name": "Círculos de hombro, 10 por lado",
-      "how": "Brazos sueltos, círculos grandes y lentos."
-     },
-     {
-      "name": "Movilidad torácica sentado, 8 por lado",
-      "how": "Sentado, manos en la nuca, gira el pecho hacia un lado sin mover la cadera. Es rotación de la espalda alta, no de la baja."
-     },
-     {
-      "name": "Face Pull con banda, 15 repeticiones",
-      "how": "Banda a la altura de la cara. Tira separando las manos y llevando los codos atrás. Hombros abajo, no encogidos."
-     },
-     {
-      "name": "Activación de dorsal con banda, 12 repeticiones",
-      "how": "Banda alta, brazos estirados. Baja los brazos rectos hacia los muslos apretando la axila. Sin doblar el codo."
-     },
-     {
-      "name": "Colgarse de la barra, 20 s",
-      "how": "Cuelga relajado y luego aprieta los omóplatos hacia abajo un par de veces. Prepara el hombro para el jalón."
-     },
-     {
-      "name": "Series de aproximación del primer ejercicio",
-      "how": "Las que están en la tabla, marcadas como Aprox. Suben la carga de a poco hasta el peso de trabajo. No cuentan como series efectivas."
-     }
-    ],
-    "stretch": [
-     {
-      "name": "Dorsal colgado de la barra, 30 s",
-      "how": "Cuelga relajado y respira."
-     },
-     {
-      "name": "Bíceps y antebrazo en pared, 30 s por lado",
-      "how": "Palma en la pared con el brazo estirado y los dedos hacia atrás; gira el cuerpo al lado contrario."
-     },
-     {
-      "name": "Pectoral en marco de puerta, 30 s por lado",
-      "how": "Antebrazo en el marco, codo a la altura del hombro."
-     },
-     {
-      "name": "Cuello y trapecio, 20 s por lado",
-      "how": "Oreja al hombro, sin encoger."
-     }
-    ],
-    "exercises": [
-     {
-      "name": "Lat Pulldown (Cable)",
-      "sets": [
-       {
-        "serie": "Aprox.",
-        "carga": "19 kg",
-        "reps": "12",
-        "rir": "5",
-        "descanso": "60s"
-       },
-       {
-        "serie": "Trabajo 1",
-        "carga": "28,5 kg",
-        "reps": "12",
-        "rir": "objetivo 3",
-        "descanso": "2 min"
-       },
-       {
-        "serie": "Trabajo 2",
-        "carga": "28,5 kg",
-        "reps": "12",
-        "rir": "objetivo 3",
-        "descanso": "2 min"
-       },
-       {
-        "serie": "Trabajo 3",
-        "carga": "28,5 kg",
-        "reps": "12",
-        "rir": "objetivo 3",
-        "descanso": "2 min"
-       }
-      ],
-      "cue": "**28,5 × 12.** El 11 de septiembre la segunda y la tercera salieron a RPE 9: se repite para cerrarlas a RIR 3 antes de subir.\n\n**Cómo te pones:** agarre algo más ancho que los hombros, muslos fijos bajo el apoyo.\n\n**Qué haces:** **primero baja los omóplatos**, después dobla el codo. Lleva la barra al pecho alto, no a la nuca.\n\n**Cómo sabes que está bien:** el torso se inclina un poco atrás y se queda ahí. Si te meces hacia atrás y adelante en cada repetición, la espalda dejó de trabajar."
-     },
-     {
-      "name": "Seated Row (Machine)",
-      "sets": [
-       {
-        "serie": "Aprox.",
-        "carga": "15 kg",
-        "reps": "12",
-        "rir": "5",
-        "descanso": "60s"
-       },
-       {
-        "serie": "Trabajo 1",
-        "carga": "28,5 kg",
-        "reps": "12",
-        "rir": "objetivo 3",
-        "descanso": "2 min"
-       },
-       {
-        "serie": "Trabajo 2",
-        "carga": "28,5 kg",
-        "reps": "12",
-        "rir": "objetivo 3",
-        "descanso": "2 min"
-       },
-       {
-        "serie": "Trabajo 3",
-        "carga": "28,5 kg",
-        "reps": "12",
-        "rir": "objetivo 3",
-        "descanso": "2 min"
-       }
-      ],
-      "cue": "🤝 Mopo hace remo sentado hoy: alternan cambiando el pin. **28,5 × 12, con agarre supino**, como te gustó. El 11 de septiembre salieron las tres a RPE 8-8,5.\n\n**Cómo te pones:** pecho contra el apoyo, hombros abajo antes de tirar.\n\n**Qué haces:** tira llevando los codos pegados al cuerpo y junta los omóplatos al final. Suelta lento dejando que el omóplato se separe.\n\n**Cómo sabes que está bien:** el torso **no se balancea**. Si te vas hacia atrás para completar la repetición, es mucho peso."
-     },
-     {
-      "name": "Bench Press (Barbell)",
-      "sets": [
-       {
-        "serie": "Aprox.",
-        "carga": "12,5 kg",
-        "reps": "12",
-        "rir": "5",
-        "descanso": "60s"
-       },
-       {
-        "serie": "Trabajo 1",
-        "carga": "17,5 kg",
-        "reps": "12",
-        "rir": "objetivo 3",
-        "descanso": "90s"
-       },
-       {
-        "serie": "Trabajo 2",
-        "carga": "17,5 kg",
-        "reps": "12",
-        "rir": "objetivo 3",
-        "descanso": "90s"
-       },
-       {
-        "serie": "Trabajo 3",
-        "carga": "17,5 kg",
-        "reps": "12",
-        "rir": "objetivo 3",
-        "descanso": "90s"
-       }
-      ],
-      "cue": "**17,5 × 12.** El 11 de septiembre salieron a RPE 7, 7,5 y 8,5. Con discos de 2,5 el paso siguiente es 22,5, un 29% de golpe: por eso primero suben las repeticiones hasta 15.\n\n**Cómo te pones:** ojos bajo la barra, omóplatos juntos y hacia abajo, pies firmes en el suelo. Agarre un poco más ancho que los hombros.\n\n**Qué haces:** baja la barra a la parte baja del pecho con los codos a 30-45° del cuerpo, toca sin rebotar y empuja hacia arriba y un poco hacia la cara.\n\n**Cómo sabes que está bien:** los omóplatos no se despegan del banco en ninguna repetición. Si molesta el hombro, cierra un poco más los codos antes de bajar el peso.",
-      "barra": 12.5
-     },
-     {
-      "name": "Shoulder Press (Dumbbell)",
-      "sets": [
-       {
-        "serie": "Aprox.",
-        "carga": "2 kg",
-        "reps": "12",
-        "rir": "5",
-        "descanso": "60s"
-       },
-       {
-        "serie": "Trabajo 1",
-        "carga": "5 kg",
-        "reps": "12",
-        "rir": "objetivo 3",
-        "descanso": "90s"
-       },
-       {
-        "serie": "Trabajo 2",
-        "carga": "5 kg",
-        "reps": "12",
-        "rir": "objetivo 3",
-        "descanso": "90s"
-       },
-       {
-        "serie": "Trabajo 3",
-        "carga": "5 kg",
-        "reps": "12",
-        "rir": "objetivo 3",
-        "descanso": "90s"
-       }
-      ],
-      "cue": "**5 × 12.** Sube a 5 el jueves 17. Si ese día la tercera serie pasó de RPE 8, esta semana es 5 × 10.\n\n**Cómo te pones:** Sentada con el respaldo casi vertical, mancuernas a la altura de las orejas, palmas al frente o un poco hacia adentro.\n\n**Qué haces:** empuja hacia arriba hasta casi juntar las mancuernas sobre la cabeza y baja hasta que queden a la altura del mentón.\n\n**Cómo sabes que está bien:** la espalda no se despega del respaldo y las costillas no se abren para ayudar. Si molesta el hombro, gira más las palmas hacia adentro."
-     },
-     {
-      "name": "Face Pull",
-      "sets": [
-       {
-        "serie": "Trabajo 1",
-        "carga": "11,25 kg",
-        "reps": "15",
-        "rir": "objetivo 3",
-        "descanso": "60s"
-       },
-       {
-        "serie": "Trabajo 2",
-        "carga": "11,25 kg",
-        "reps": "15",
-        "rir": "objetivo 3",
-        "descanso": "60s"
-       },
-       {
-        "serie": "Trabajo 3",
-        "carga": "11,25 kg",
-        "reps": "15",
-        "rir": "objetivo 3",
-        "descanso": "60s"
-       }
-      ],
-      "cue": "**Tu ejercicio de postura con carga.** Vuelve el jueves 17 en 10 kg; si salió a RPE 7 o menos, esta semana 11,25. Si no, repite 10. En julio hacías 15 × 15, pero a RPE 9-9,5.\n\n**Cómo te pones:** polea a la altura de la cara, cuerda con las dos manos, un pie adelante para tener base.\n\n**Qué haces:** tira de la cuerda **separando las manos** y llevando los codos hacia atrás y arriba. Termina con los nudillos apuntando al techo, como haciendo un 'gol'. Vuelve lento.\n\n**Cómo sabes que está bien:** los hombros quedan **abajo, lejos de las orejas**. Si se encogen, el trapecio está haciendo el trabajo y el peso es mucho. Debes sentirlo atrás del hombro y entre los omóplatos."
-     }
-    ]
-   },
-   {
-    "day": "Sáb 26",
-    "date": "2026-09-26",
-    "focus": "Opcional — glúteo corto y escaladora",
-    "tag": "opcional",
-    "rationale": "**Día 10 — folicular (proyectado).** **Opcional: glúteo corto y escaladora.** La máquina de glúteo pasó al lunes, para hacerla con Mopo. El glúteo es tu prioridad y va en 5,2 contra 10-16. Con los dos días firmes ya llega a su banda y esto le da margen. Step Up, como pediste.",
+    "rationale": "**Día 11 — folicular (proyectado).** **Opcional: suave.** Cuarto día seguido, así que hoy no va nada de carga: el Step Up sale porque ayer ya fue cuádriceps y glúteo. Queda el puente con marcha, el core en el suelo y la escaladora. Si el sábado salió pesado, esto es caminar y nada más.",
     "cardio": "Escaladora 20 min, RPE 5, la que te gusta. Si la frecuencia pasa de 175, baja el ritmo.",
     "warmup": [
      {
@@ -27363,33 +27595,6 @@
     ],
     "exercises": [
      {
-      "name": "Dumbbell Step Up",
-      "sets": [
-       {
-        "serie": "Trabajo 1",
-        "carga": "8 kg",
-        "reps": "12 por pierna",
-        "rir": "objetivo 3",
-        "descanso": "90s"
-       },
-       {
-        "serie": "Trabajo 2",
-        "carga": "8 kg",
-        "reps": "12 por pierna",
-        "rir": "objetivo 3",
-        "descanso": "90s"
-       },
-       {
-        "serie": "Trabajo 3",
-        "carga": "8 kg",
-        "reps": "12 por pierna",
-        "rir": "objetivo 3",
-        "descanso": "90s"
-       }
-      ],
-      "cue": "**El que pediste.** **8 kg × 12 por pierna**: una mancuerna de 4 kg en cada mano, como lo anotas en Hevy. El 2 de septiembre hiciste 8 × 15 a RPE 7,5.\n\n**Cómo te pones:** frente a un banco a la altura de la rodilla, un pie completo arriba del banco, mancuernas a los lados.\n\n**Qué haces:** sube empujando con el talón de arriba hasta quedar de pie sobre el banco y baja lento, sin impulsarte con la pierna de abajo.\n\n**Cómo sabes que está bien:** la rodilla de arriba apunta a la punta del pie. Si se va hacia adentro, ponte la banda de 5 kg sobre las rodillas y empuja contra ella."
-     },
-     {
       "name": "Puente Gluteo Con Marcha",
       "sets": [
        {
@@ -27444,17 +27649,6 @@
       "cue": "**En el suelo, como pediste para el core.** El 27 de agosto hiciste 15 a RPE 8-9: se parte en 12 bien controladas.\n\n**Cómo te pones:** Acostada boca arriba, manos bajo la cola y zona lumbar pegada al suelo.\n\n**Qué haces:** sube las piernas estiradas hasta 90° y bájalas en 3 segundos hasta donde la lumbar siga pegada.\n\n**Cómo sabes que está bien:** la espalda baja no se despega. Si se despega antes de llegar abajo, dobla un poco las rodillas o baja menos."
      }
     ]
-   },
-   {
-    "day": "Dom 27",
-    "date": "2026-09-27",
-    "focus": "Descanso",
-    "tag": "descanso",
-    "rationale": "**Día 11 — folicular (proyectado).** Descanso.",
-    "cardio": "",
-    "warmup": [],
-    "stretch": [],
-    "exercises": []
    },
    {
     "day": "Lun 28",
@@ -30452,6 +30646,10 @@
      {
       "d": "08 sep",
       "w": 105.0
+     },
+     {
+      "d": "20 sep",
+      "w": 90.0
      }
     ],
     "change": "105 kg × 8 el 31 de agosto y el 8 de septiembre; la última serie del 8 llegó a RPE 10. Desde el 21 sube de a una repetición: 8, 9 y 10.",
@@ -30897,6 +31095,96 @@
    }
   ],
   "SESSIONS_FULL": [
+   {
+    "date": "2026-09-20",
+    "dlabel": "20 sep",
+    "title": "Post 18🤡",
+    "hora": "2:51 PM",
+    "dur": "1h 7m",
+    "vol": "3,385",
+    "com": "Apenaa",
+    "rec": null,
+    "exercises": [
+     {
+      "ej": "Deadlift (Smith Machine)",
+      "carga": "10",
+      "reps": "10",
+      "rpe": "6"
+     },
+     {
+      "ej": "Deadlift (Smith Machine)",
+      "carga": "30",
+      "reps": "9",
+      "rpe": "7"
+     },
+     {
+      "ej": "Deadlift (Smith Machine)",
+      "carga": "30",
+      "reps": "10",
+      "rpe": "7"
+     },
+     {
+      "ej": "Deadlift (Smith Machine)",
+      "carga": "30",
+      "reps": "12",
+      "rpe": "8"
+     },
+     {
+      "ej": "Triceps Pushdown",
+      "carga": "10",
+      "reps": "15",
+      "rpe": "7"
+     },
+     {
+      "ej": "Triceps Pushdown",
+      "carga": "10",
+      "reps": "15",
+      "rpe": "7"
+     },
+     {
+      "ej": "Face Pull",
+      "carga": "15",
+      "reps": "15",
+      "rpe": "7"
+     },
+     {
+      "ej": "Hip Thrust (Barbell)",
+      "carga": "60",
+      "reps": "8",
+      "rpe": "6"
+     },
+     {
+      "ej": "Hip Thrust (Barbell)",
+      "carga": "90",
+      "reps": "7",
+      "rpe": "7"
+     },
+     {
+      "ej": "Hip Thrust (Barbell)",
+      "carga": "90",
+      "reps": "8",
+      "rpe": "9"
+     },
+     {
+      "ej": "Side Plank",
+      "carga": "Peso corporal",
+      "reps": "35 s",
+      "rpe": "—"
+     },
+     {
+      "ej": "Side Plank",
+      "carga": "Peso corporal",
+      "reps": "40 s",
+      "rpe": "—"
+     },
+     {
+      "ej": "Side Plank",
+      "carga": "Peso corporal",
+      "reps": "40 s",
+      "rpe": "—"
+     }
+    ]
+   },
    {
     "date": "2026-09-13",
     "dlabel": "13 sep",
@@ -40498,7 +40786,7 @@
   },
   "note": "Cable Crunch fuera: no le gusta. Alternativas válidas: rodillas al pecho, reverse crunch o plancha lateral con elevación. Nada de core en barras paralelas ni colgada: el 4 de septiembre todo lo de esa posición salió a RPE 8,5-10 por falta de estabilidad, y ella lo descartó. El core va en el suelo. Echa de menos el RDL en Smith y el Face Pull, y quiere trabajo de postura en el tren superior.",
   "fuente": "Registro_historico_Mipi.md",
-  "weekNote": "Semana 2 de 4 cerrada · tres sesiones. Plancha lateral sin rodilla por primera vez y prensa a 105 × 12 las tres, más fácil que el 2 de septiembre.",
-  "weekTodo": "**Hoy descanso.** La semana del 14 es liviana: martes post turno, jueves normal y Fiestas Patrias en casa con la banda."
+  "weekNote": "**Mipi — la vuelta costó y era esperable.** Estuvo del 13 al 20 sin entrenar y el domingo el hip thrust salió 90 × 8 a RPE 9, cuando el 24 de agosto movía 100 × 8 en tres series a RPE 7. El peso muerto en Smith volvió después de casi cinco meses y el agarre se soltó a las 8. Lo único que subió fue la plancha lateral: 35-40 s contra 30-31 s. Semana 1 es recalibrar, no subir. El semáforo en rojo es la semana en blanco, no un problema: la ventana de 12 días casi no tiene series que contar.",
+  "weekTodo": "**Hoy y el miércoles, descanso.** Los tres días firmes se corren a jueves (Inferior A, con Mopo), viernes (tren superior) y sábado (Inferior B). El martes queda la sesión corta de postura si puedes, y el domingo algo suave. Cuatro días seguidos es mucho para ti, por eso el domingo no lleva carga."
  }
 }

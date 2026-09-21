@@ -1,4 +1,4 @@
-# Historial de entrenamiento por fecha — 29 de mayo de 2026 al 13 de septiembre de 2026 (75 sesiones)
+# Historial de entrenamiento por fecha — 29 de mayo de 2026 al 20 de septiembre de 2026 (78 sesiones)
 
 Registro cronológico consolidado. Cada fila corresponde a una serie real copiada desde Hevy. Los volúmenes oficiales se conservan sin reemplazarlos por cálculos derivados.
 
@@ -2161,3 +2161,85 @@ Sesión de boulder por la tarde, después del entrenamiento de pierna de la mañ
 **Récords:** 1 — mejor peso en Back Extension (Weighted Hyperextension).
 
 *Hizo el día de pierna 2 + pecho que quedó pendiente del viernes. Inclinado con barra a 65 × 10 sin molestias (la prescripción de 62,5 no se podía armar). Curl femoral acostado en vez del sentado prescrito. La Back Extension fue en la máquina de glúteo; la del 7 (63,5 × 15 a RPE 7, anotada como Machine) fue la de erector espinal, donde levanta más peso.*
+
+## 14 Sep 2026 — Afternoon workout 💪
+
+**Hora:** 12:28 PM  
+**Duración:** 33m  
+**Volumen Hevy:** 3,613 kg  
+**Comentario:** Semana de descarga  
+
+| Orden | Ejercicio | Serie | Carga | Reps/tiempo | RPE |
+|---:|---|---:|---:|---|---:|
+| 1 | Single Arm Lateral Raise (Cable) | 1 | 7,5 kg | 15 | 7 |
+| 1 | Single Arm Lateral Raise (Cable) | 2 | 7,5 kg | 15 | 7,5 |
+| 2 | Triceps Pushdown | 1 | 25 kg | 15 | 6 |
+| 2 | Triceps Pushdown | 2 | 27,5 kg | 15 | 6 |
+| 3 | Bench Press (Barbell) | 1 | 65 kg | 10 | 6 |
+| 3 | Bench Press (Barbell) | 2 | 65 kg | 10 | 6 |
+| 4 | Chest Press (Machine) | 1 | 66 kg | 10 | 6 |
+| 4 | Chest Press (Machine) | 2 | 64 kg | 10 | 6 |
+| 5 | Stair Machine (Floors) | 1 | — | 51 pisos / 12m 0s | — |
+
+**Notas por ejercicio:**
+- **Chest Press:** *"Ahora use el mayor rom"* — usó la posición de rango más alta de la máquina en las dos series.
+
+*Descarga declarada: dos series por ejercicio, todo a RPE 6-7,5 y 33 min de sesión. Banca a 65 × 10 (el 8 de septiembre fueron 85 × 10, 9 y 8 a RPE 8,5-9), Chest Press a 66/64 en vez de 75, y elevación lateral a 7,5 en vez de 8,75-9,38.*
+
+## 16 Sep 2026 — Morning workout ☀️
+
+**Hora:** 9:25 AM  
+**Duración:** 48m  
+**Volumen Hevy:** 8,761 kg  
+**Comentario:** Online no se nota  
+
+| Orden | Ejercicio | Serie | Carga | Reps/tiempo | RPE |
+|---:|---|---:|---:|---|---:|
+| 1 | Leg Press (Machine) | 1 | 100 kg | 10 | 6 |
+| 1 | Leg Press (Machine) | 2 | 150 kg | 12 | 6 |
+| 1 | Leg Press (Machine) | 3 | 150 kg | 12 | 6 |
+| 2 | Leg Extension (Machine) | 1 | 56,5 kg | 12 | 6 |
+| 2 | Leg Extension (Machine) | 2 | 56,5 kg | 12 | 6 |
+| 3 | Hip Adduction (Machine) | 1 | 75 kg | 15 | 6 |
+| 4 | Squat (Smith Machine) | 1 | 0 kg | 12 | — |
+| 4 | Squat (Smith Machine) | 2 | 60 kg | 12 | 6 |
+| 4 | Squat (Smith Machine) | 3 | 80 kg | 12 | 6 |
+| 5 | Stair Machine (Floors) | 1 | — | 58 pisos / 15m 0s | — |
+
+**Notas por ejercicio:**
+- **Squat (Smith Machine):** *"No habia sauat barbell disponible tube que cambiar"* — la barra libre estaba ocupada, hizo la sentadilla en multipower.
+
+*Segunda sesión de la semana de descarga: todo a RPE 6, sin series al fallo y 48 min. Prensa a 150 × 12 (el 9 de septiembre fueron 180 × 12 a RPE 8-8,5), extensión a 56,5 en vez de 66 y aductor a 75 en vez de 89. La sentadilla en Smith a **80 kg × 12 con RPE 6** iguala su mejor carga en el ejercicio (80 × 12, pero a RPE 8 el 19 de agosto) — misma serie, dos puntos de RPE más barata.*
+
+*Después del 16 no volvió a entrenar hasta el domingo 20: el 18 y 19 fueron Fiestas Patrias, salieron de fiesta y quedaron cansados.*
+
+## 20 Sep 2026 — Brazos, hombro posterior y glúteo
+
+**Hora:** no registrada  
+**Duración:** no registrada  
+**Volumen calculado:** 6.408 kg — *reportado de memoria por Francisco, sin el total oficial de Hevy ni RPE por serie.*
+
+| Orden | Ejercicio | Serie | Carga | Reps/tiempo | RPE |
+|---:|---|---:|---:|---|---:|
+| 1 | Bicep Curl (Dumbbell) | 1 | 24 kg | 12 | — |
+| 1 | Bicep Curl (Dumbbell) | 2 | 24 kg | 12 | — |
+| 1 | Bicep Curl (Dumbbell) | 3 | 24 kg | 12 | — |
+| 2 | Hammer Curl (Dumbbell) | 1 | 24 kg | 12 | — |
+| 2 | Hammer Curl (Dumbbell) | 2 | 24 kg | 12 | — |
+| 2 | Hammer Curl (Dumbbell) | 3 | 24 kg | 12 | — |
+| 3 | Face Pull | 1 | 30 kg | 15 | — |
+| 3 | Face Pull | 2 | 30 kg | 15 | — |
+| 3 | Face Pull | 3 | 30 kg | 15 | — |
+| 4 | Triceps Pushdown | 1 | 25 kg | 12 | — |
+| 4 | Triceps Pushdown | 2 | 25 kg | 12 | — |
+| 4 | Triceps Pushdown | 3 | 25 kg | 12 | — |
+| 5 | Hip Thrust (Barbell) | 1 | 90 kg | 9 | — |
+| 5 | Hip Thrust (Barbell) | 2 | 90 kg | 9 | — |
+| 5 | Hip Thrust (Barbell) | 3 | 90 kg | 9 | — |
+
+**Notas por ejercicio:**
+- **Datos:** sesión reportada de memoria, no copiada de Hevy. Sin hora, duración, volumen oficial ni RPE. El volumen de la tabla es el calculado (carga × reps × series), no el de la app.
+
+*Cierre de la semana de descarga con una sesión extra el domingo, no planificada: el tablero tenía descanso. Todo por debajo de sus cargas normales — curl y martillo a 24 kg (venía de 28 × 11-12), pushdown a 25 × 12 (normalmente 30-31,25 × 15) y hip thrust a 90 × 9 (venía de 105 × 12 y 100 × 12).*
+
+*La excepción es el **Face Pull: 30 kg × 15 en las tres series**. El 11 de septiembre solo la tercera había llegado a 30, y a RPE 9,5. Es justo uno de los tres ejercicios que el diagnóstico del mesociclo anterior marcó como "claramente cortos" (RPE de trabajo bajo 7,7), junto con la aducción de cadera y el Triceps Pushdown — subirlo era exactamente lo que correspondía.*
