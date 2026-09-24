@@ -26566,7 +26566,7 @@
     "warmup": [],
     "stretch": [],
     "exercises": [],
-    "rationale": "**Día 5 — folicular (proyectado).** **Descanso.** Esta semana no vienes lunes ni miércoles, así que los tres días firmes se corren a jueves, viernes y sábado. Nada se pierde: el mesociclo parte igual, solo cambia el calendario de esta semana.",
+    "rationale": "**Día 2 — regla.** **Descanso.** Esta semana no vienes lunes ni miércoles, así que los tres días firmes se corren a jueves, viernes y sábado. Nada se pierde: el mesociclo parte igual, solo cambia el calendario de esta semana. Tu regla empezó el domingo 20: hoy es el día 2.",
     "day": "Lun 21",
     "date": "2026-09-21"
    },
@@ -26575,12 +26575,12 @@
     "date": "2026-09-22",
     "focus": "Opcional — postura, hombro y pecho",
     "tag": "opcional",
-    "rationale": "**Día 6 — folicular (proyectado).** **Opcional: postura, hombro y pecho.** Si el martes se puede, este es el día que conviene meter — es corto, liviano y no compromete los tres firmes del jueves al sábado. Si no vienes, no se recupera: los días que importan son los otros tres.",
-    "cardio": "Escaladora 15 min, RPE 4-5, si hay ganas.",
+    "rationale": "**Día 3 — regla.** **Opcional: postura, hombro y pecho.** Si el martes se puede, este es el día que conviene meter — es corto, liviano y no compromete los tres firmes del jueves al sábado. Si no vienes, no se recupera: los días que importan son los otros tres.",
+    "cardio": "Escaladora 15 min, si hay ganas: 2 min a RPE 3 · 11 min a RPE 4-5 · 2 min a RPE 3. RPE 3 = hablas normal · RPE 4 = hablas pero se nota el esfuerzo · RPE 5 = solo frases cortas.",
     "warmup": [
      {
-      "name": "Bici o caminadora, 5-6 min, ritmo conversable",
-      "how": "Solo para subir temperatura y pulso. Debes poder hablar frases completas todo el rato. Si terminas sin aliento, ibas muy fuerte."
+      "name": "Bici o caminadora, 5-6 min a RPE 2-3",
+      "how": "Solo para subir temperatura y pulso. RPE 2-3: hablas frases completas todo el rato. Si terminas sin aliento, ibas muy fuerte."
      },
      {
       "name": "Círculos de hombro, 10 por lado",
@@ -26784,7 +26784,7 @@
     "warmup": [],
     "stretch": [],
     "exercises": [],
-    "rationale": "**Día 7 — folicular (proyectado).** **Descanso.** Mañana arranca el bloque firme de la semana: jueves, viernes y sábado seguidos.",
+    "rationale": "**Día 4 — regla.** **Descanso.** Mañana arranca el bloque firme de la semana: jueves, viernes y sábado seguidos.",
     "day": "Mié 23",
     "date": "2026-09-23"
    },
@@ -26793,12 +26793,12 @@
     "date": "2026-09-24",
     "focus": "Inferior A — glúteo y femoral",
     "tag": "entreno",
-    "rationale": "**Día 8 — folicular (proyectado).** **Inferior A — glúteo y femoral, el día fuerte.** Corrido del lunes. El domingo hiciste hip thrust 90 × 8 a RPE 9 después de casi un mes sin hacerlo: hoy vuelve a 105 × 8, que es tu base, pero si la primera serie de trabajo pasa de RPE 9, baja a 95 y quédate ahí toda la sesión — esta es la semana de recalibrar, no de récords.\n\n🤝 **Con Mopo:** él hace posterior hoy también. Comparten la barra de hip thrust, el Smith del peso muerto rumano, la máquina de curl acostado y la de glúteo. Alternan el pin.",
-    "cardio": "Escaladora 12 min, RPE 4-5.",
+    "rationale": "**Día 5 — folicular (proyectado).** **Inferior A — glúteo y femoral, el día fuerte.** Corrido del lunes. El domingo hiciste hip thrust 90 × 8 a RPE 9 después de casi un mes sin hacerlo: hoy vuelve a 105 × 8, que es tu base, pero si la primera serie de trabajo pasa de RPE 9, baja a 95 y quédate ahí toda la sesión — esta es la semana de recalibrar, no de récords.\n\n🤝 **Con Mopo:** él hace posterior hoy también. Comparten la barra de hip thrust, el Smith del peso muerto rumano, la máquina de curl acostado y la de glúteo. Alternan el pin.",
+    "cardio": "Escaladora 12 min: 2 min a RPE 3 · 8 min a RPE 5 · 2 min a RPE 3. RPE 3 = hablas normal · RPE 4 = hablas pero se nota el esfuerzo · RPE 5 = solo frases cortas.",
     "warmup": [
      {
-      "name": "Bici o caminadora, 5-6 min, ritmo conversable",
-      "how": "Solo para subir temperatura y pulso. Debes poder hablar frases completas todo el rato. Si terminas sin aliento, ibas muy fuerte."
+      "name": "Bici o caminadora, 5-6 min a RPE 2-3",
+      "how": "Solo para subir temperatura y pulso. RPE 2-3: hablas frases completas todo el rato. Si terminas sin aliento, ibas muy fuerte."
      },
      {
       "name": "Movilidad de tobillo contra pared, 10 por lado",
@@ -26920,12 +26920,12 @@
        {
         "serie": "Trabajo 3",
         "carga": "35 kg",
-        "reps": "12",
+        "reps": "12 + 10 s arriba",
         "rir": "objetivo 3",
         "descanso": "2 min"
        }
       ],
-      "cue": "🤝 Mopo usa la misma Smith: alternan, él con 50 kg. **35 × 12.** El martes 15 vuelve en 30 kg: si salió limpio, esta semana 35. Si no alcanzaste a hacerlo o salió pesado, repite 30 × 12. En junio hacías 50 × 12 con barra libre, pero a RPE 9,5-10 y con el agarre al límite: acá no hay apuro.\n\n**Cómo te pones:** barra a la altura de la cadera, pies al ancho de cadera justo debajo de la barra. Agarre al ancho de los hombros. Saca pecho y **mete las costillas** antes de mover nada.\n\n**Qué haces:** echa la cadera atrás como si cerraras una puerta con la cola. Las rodillas apenas se doblan. La barra baja pegada a los muslos, rozándolos.\n\n**Cómo sabes que está bien:** paras **donde la espalda empieza a redondearse**, no donde llegue la barra — para la mayoría es bajo la rodilla, no al suelo. Lo sientes atrás del muslo, estirando. Si lo sientes en la zona lumbar, bajaste de más o soltaste el pecho."
+      "cue": "**Agarre, semana a semana:** todas las series con las dos palmas hacia ti y sin straps. En la última, después de la repetición final, **quédate arriba 10 s** con la barra colgando de las manos. Va de 10 a 15 y a 20 segundos por semana, y en la descarga vuelve a 10. Si la barra se te abre antes de la última repetición, recién ahí pide los straps.\n\n🤝 Mopo usa la misma Smith: alternan, él con 50 kg. **35 × 12.** El martes 15 vuelve en 30 kg: si salió limpio, esta semana 35. Si no alcanzaste a hacerlo o salió pesado, repite 30 × 12. En junio hacías 50 × 12 con barra libre, pero a RPE 9,5-10 y con el agarre al límite: acá no hay apuro.\n\n**Cómo te pones:** barra a la altura de la cadera, pies al ancho de cadera justo debajo de la barra. Agarre al ancho de los hombros. Saca pecho y **mete las costillas** antes de mover nada.\n\n**Qué haces:** echa la cadera atrás como si cerraras una puerta con la cola. Las rodillas apenas se doblan. La barra baja pegada a los muslos, rozándolos.\n\n**Cómo sabes que está bien:** paras **donde la espalda empieza a redondearse**, no donde llegue la barra — para la mayoría es bajo la rodilla, no al suelo. Lo sientes atrás del muslo, estirando. Si lo sientes en la zona lumbar, bajaste de más o soltaste el pecho."
      },
      {
       "name": "Lying Leg Curl (Machine)",
@@ -27056,12 +27056,12 @@
     "date": "2026-09-25",
     "focus": "Tren superior — espalda, pecho y hombro",
     "tag": "entreno",
-    "rationale": "**Día 9 — folicular (proyectado).** **Tren superior — espalda, pecho y hombro.** Segundo día seguido, pero no se pisan: ayer fue todo pierna. Cinco ejercicios y listo.\n\nEl domingo hiciste pushdown y face pull, así que el Face Pull de hoy va a 11,25 sin subir — esta semana solo se confirma que las repeticiones salen completas.\n\n🤝 **Con Mopo:** comparten el remo sentado.",
-    "cardio": "Escaladora 12 min, RPE 4-5.",
+    "rationale": "**Día 6 — folicular (proyectado).** **Tren superior — espalda, pecho y hombro.** Segundo día seguido, pero no se pisan: ayer fue todo pierna. Cinco ejercicios y el agarre al final: la caminata con mancuernas entra este bloque para que el peso muerto deje de soltarse por las manos.\n\nEl domingo hiciste pushdown y face pull, así que el Face Pull de hoy va a 11,25 sin subir — esta semana solo se confirma que las repeticiones salen completas.\n\n🤝 **Con Mopo:** comparten el remo sentado.",
+    "cardio": "Escaladora 12 min: 2 min a RPE 3 · 8 min a RPE 5 · 2 min a RPE 3. RPE 3 = hablas normal · RPE 4 = hablas pero se nota el esfuerzo · RPE 5 = solo frases cortas.",
     "warmup": [
      {
-      "name": "Bici o caminadora, 5-6 min, ritmo conversable",
-      "how": "Solo para subir temperatura y pulso. Debes poder hablar frases completas todo el rato. Si terminas sin aliento, ibas muy fuerte."
+      "name": "Bici o caminadora, 5-6 min a RPE 2-3",
+      "how": "Solo para subir temperatura y pulso. RPE 2-3: hablas frases completas todo el rato. Si terminas sin aliento, ibas muy fuerte."
      },
      {
       "name": "Círculos de hombro, 10 por lado",
@@ -27270,6 +27270,26 @@
        }
       ],
       "cue": "**Tu ejercicio de postura con carga.** Vuelve el jueves 17 en 10 kg; si salió a RPE 7 o menos, esta semana 11,25. Si no, repite 10. En julio hacías 15 × 15, pero a RPE 9-9,5.\n\n**Cómo te pones:** polea a la altura de la cara, cuerda con las dos manos, un pie adelante para tener base.\n\n**Qué haces:** tira de la cuerda **separando las manos** y llevando los codos hacia atrás y arriba. Termina con los nudillos apuntando al techo, como haciendo un 'gol'. Vuelve lento.\n\n**Cómo sabes que está bien:** los hombros quedan **abajo, lejos de las orejas**. Si se encogen, el trapecio está haciendo el trabajo y el peso es mucho. Debes sentirlo atrás del hombro y entre los omóplatos."
+     },
+     {
+      "name": "Farmers Walk",
+      "sets": [
+       {
+        "serie": "Trabajo 1",
+        "carga": "10 kg c/u",
+        "reps": "30 m",
+        "rir": "objetivo 3",
+        "descanso": "90s"
+       },
+       {
+        "serie": "Trabajo 2",
+        "carga": "10 kg c/u",
+        "reps": "30 m",
+        "rir": "objetivo 3",
+        "descanso": "90s"
+       }
+      ],
+      "cue": "**Agarre al cierre.** **10 kg en cada mano, 2 × 30 m.** Para partir suave: el domingo el agarre se soltó a las 8 en el peso muerto. El 17 de mayo anotaste 24 y 28 kg en 90 m, pero de eso hace cuatro meses.\n\n**Cómo te pones:** una mancuerna en cada mano a los costados, hombros abajo y atrás, pecho arriba.\n\n**Qué haces:** camina a paso normal, derecha, apretando las mancuernas con toda la mano. Si no hay espacio para 30 m, camina ida y vuelta o **aguanta de pie 30 s**.\n\n**Cómo sabes que está bien:** RPE 7: las manos queman al final pero no se abren. Si se te abren antes, la próxima serie hazla más corta, no más liviana. Si el codo izquierdo molesta, baja a 8 kg."
      }
     ]
    },
@@ -27278,12 +27298,12 @@
     "date": "2026-09-26",
     "focus": "Inferior B — cuádriceps y glúteo",
     "tag": "entreno",
-    "rationale": "**Día 10 — folicular (proyectado).** **Inferior B — cuádriceps y glúteo.** Tercer día seguido y último firme de la semana. Va a dos días del jueves, no a tres como quedará de la semana 2 en adelante: si llegas cansada, corta el búlgaro y deja la sentadilla, la prensa y el kickback, que son los que miden.\n\nLa sentadilla con barra vuelve para técnica, a 25 kg. No es carga: es recuperar el patrón antes de subir.",
-    "cardio": "Escaladora 10 min, RPE 4.",
+    "rationale": "**Día 7 — folicular (proyectado).** **Inferior B — cuádriceps y glúteo.** Tercer día seguido y último firme de la semana. Va a dos días del jueves, no a tres como quedará de la semana 2 en adelante: si llegas cansada, corta el búlgaro y deja la sentadilla, la prensa y el kickback, que son los que miden.\n\nLa sentadilla con barra vuelve para técnica, a 25 kg. No es carga: es recuperar el patrón antes de subir.",
+    "cardio": "Escaladora 10 min: 2 min a RPE 3 · 6 min a RPE 4 · 2 min a RPE 3. RPE 3 = hablas normal · RPE 4 = hablas pero se nota el esfuerzo · RPE 5 = solo frases cortas.",
     "warmup": [
      {
-      "name": "Bici o caminadora, 5-6 min, ritmo conversable",
-      "how": "Solo para subir temperatura y pulso. Debes poder hablar frases completas todo el rato. Si terminas sin aliento, ibas muy fuerte."
+      "name": "Bici o caminadora, 5-6 min a RPE 2-3",
+      "how": "Solo para subir temperatura y pulso. RPE 2-3: hablas frases completas todo el rato. Si terminas sin aliento, ibas muy fuerte."
      },
      {
       "name": "Movilidad de tobillo contra pared, 10 por lado",
@@ -27535,12 +27555,12 @@
     "date": "2026-09-27",
     "focus": "Opcional — core, banda y escaladora",
     "tag": "opcional",
-    "rationale": "**Día 11 — folicular (proyectado).** **Opcional: suave.** Cuarto día seguido, así que hoy no va nada de carga: el Step Up sale porque ayer ya fue cuádriceps y glúteo. Queda el puente con marcha, el core en el suelo y la escaladora. Si el sábado salió pesado, esto es caminar y nada más.",
-    "cardio": "Escaladora 20 min, RPE 5, la que te gusta. Si la frecuencia pasa de 175, baja el ritmo.",
+    "rationale": "**Día 8 — folicular (proyectado).** **Opcional: suave.** Cuarto día seguido, así que hoy no va nada de carga: el Step Up sale porque ayer ya fue cuádriceps y glúteo. Queda el puente con marcha, el core en el suelo y la escaladora. Si el sábado salió pesado, esto es caminar y nada más.",
+    "cardio": "Escaladora 20 min, la que te gusta: 3 min a RPE 3 · 14 min a RPE 5 · 3 min a RPE 3. Si el pulso pasa de 175, baja a RPE 4. RPE 3 = hablas normal · RPE 4 = hablas pero se nota el esfuerzo · RPE 5 = solo frases cortas.",
     "warmup": [
      {
-      "name": "Bici o caminadora, 5-6 min, ritmo conversable",
-      "how": "Solo para subir temperatura y pulso. Debes poder hablar frases completas todo el rato. Si terminas sin aliento, ibas muy fuerte."
+      "name": "Bici o caminadora, 5-6 min a RPE 2-3",
+      "how": "Solo para subir temperatura y pulso. RPE 2-3: hablas frases completas todo el rato. Si terminas sin aliento, ibas muy fuerte."
      },
      {
       "name": "Movilidad de tobillo contra pared, 10 por lado",
@@ -27655,12 +27675,12 @@
     "date": "2026-09-28",
     "focus": "Inferior A — glúteo y femoral",
     "tag": "entreno",
-    "rationale": "**Día 12 — folicular (proyectado).** **Semana 2 de 4.** Hip thrust a 105 × 9. Donde la semana 1 no salió completa, repite la semana 1: cada ficha lo dice.",
-    "cardio": "Escaladora 12 min, RPE 4-5.",
+    "rationale": "**Día 9 — folicular (proyectado).** **Semana 2 de 4.** Hip thrust a 105 × 9. Donde la semana 1 no salió completa, repite la semana 1: cada ficha lo dice.",
+    "cardio": "Escaladora 12 min: 2 min a RPE 3 · 8 min a RPE 5 · 2 min a RPE 3. RPE 3 = hablas normal · RPE 4 = hablas pero se nota el esfuerzo · RPE 5 = solo frases cortas.",
     "warmup": [
      {
-      "name": "Bici o caminadora, 5-6 min, ritmo conversable",
-      "how": "Solo para subir temperatura y pulso. Debes poder hablar frases completas todo el rato. Si terminas sin aliento, ibas muy fuerte."
+      "name": "Bici o caminadora, 5-6 min a RPE 2-3",
+      "how": "Solo para subir temperatura y pulso. RPE 2-3: hablas frases completas todo el rato. Si terminas sin aliento, ibas muy fuerte."
      },
      {
       "name": "Movilidad de tobillo contra pared, 10 por lado",
@@ -27782,12 +27802,12 @@
        {
         "serie": "Trabajo 3",
         "carga": "40 kg",
-        "reps": "10",
+        "reps": "10 + 15 s arriba",
         "rir": "objetivo 2",
         "descanso": "2 min"
        }
       ],
-      "cue": "**40 × 10.** Si la semana pasada no salió completa, o alguna serie pasó de RPE 8, repite lo de la semana pasada.\n\n**Cómo te pones:** barra a la altura de la cadera, pies al ancho de cadera justo debajo de la barra. Agarre al ancho de los hombros. Saca pecho y **mete las costillas** antes de mover nada.\n\n**Qué haces:** echa la cadera atrás como si cerraras una puerta con la cola. Las rodillas apenas se doblan. La barra baja pegada a los muslos, rozándolos.\n\n**Cómo sabes que está bien:** paras **donde la espalda empieza a redondearse**, no donde llegue la barra — para la mayoría es bajo la rodilla, no al suelo. Lo sientes atrás del muslo, estirando. Si lo sientes en la zona lumbar, bajaste de más o soltaste el pecho."
+      "cue": "**Agarre, semana a semana:** todas las series con las dos palmas hacia ti y sin straps. En la última, después de la repetición final, **quédate arriba 15 s** con la barra colgando de las manos. Va de 10 a 15 y a 20 segundos por semana, y en la descarga vuelve a 10. Si la barra se te abre antes de la última repetición, recién ahí pide los straps.\n\n**40 × 10.** Si la semana pasada no salió completa, o alguna serie pasó de RPE 8, repite lo de la semana pasada.\n\n**Cómo te pones:** barra a la altura de la cadera, pies al ancho de cadera justo debajo de la barra. Agarre al ancho de los hombros. Saca pecho y **mete las costillas** antes de mover nada.\n\n**Qué haces:** echa la cadera atrás como si cerraras una puerta con la cola. Las rodillas apenas se doblan. La barra baja pegada a los muslos, rozándolos.\n\n**Cómo sabes que está bien:** paras **donde la espalda empieza a redondearse**, no donde llegue la barra — para la mayoría es bajo la rodilla, no al suelo. Lo sientes atrás del muslo, estirando. Si lo sientes en la zona lumbar, bajaste de más o soltaste el pecho."
      },
      {
       "name": "Lying Leg Curl (Machine)",
@@ -27918,7 +27938,7 @@
     "date": "2026-09-29",
     "focus": "Descanso",
     "tag": "descanso",
-    "rationale": "**Día 13 — ovulación (proyectado).** Descanso.",
+    "rationale": "**Día 10 — folicular (proyectado).** Descanso.",
     "cardio": "",
     "warmup": [],
     "stretch": [],
@@ -27929,12 +27949,12 @@
     "date": "2026-09-30",
     "focus": "Inferior B — cuádriceps y glúteo",
     "tag": "entreno",
-    "rationale": "**Día 14 — ovulación (proyectado).** Ovulación: sigue siendo buena ventana, pero con más laxitud en las articulaciones. En el búlgaro baja controlando y sin rebotar. 🤝 Comparten la prensa con Mopo.",
-    "cardio": "Escaladora 10 min, RPE 4.",
+    "rationale": "**Día 11 — folicular (proyectado).** **Semana 2 de 4.** 🤝 Comparten la prensa con Mopo.",
+    "cardio": "Escaladora 10 min: 2 min a RPE 3 · 6 min a RPE 4 · 2 min a RPE 3. RPE 3 = hablas normal · RPE 4 = hablas pero se nota el esfuerzo · RPE 5 = solo frases cortas.",
     "warmup": [
      {
-      "name": "Bici o caminadora, 5-6 min, ritmo conversable",
-      "how": "Solo para subir temperatura y pulso. Debes poder hablar frases completas todo el rato. Si terminas sin aliento, ibas muy fuerte."
+      "name": "Bici o caminadora, 5-6 min a RPE 2-3",
+      "how": "Solo para subir temperatura y pulso. RPE 2-3: hablas frases completas todo el rato. Si terminas sin aliento, ibas muy fuerte."
      },
      {
       "name": "Movilidad de tobillo contra pared, 10 por lado",
@@ -28186,12 +28206,12 @@
     "date": "2026-10-01",
     "focus": "Opcional — postura, hombro y pecho",
     "tag": "opcional",
-    "rationale": "**Día 15 — lútea (proyectado).** **Opcional.** Postura, hombro y pecho.",
-    "cardio": "Escaladora 15 min, RPE 4-5, si hay ganas.",
+    "rationale": "**Día 12 — folicular (proyectado).** **Opcional.** Postura, hombro y pecho.",
+    "cardio": "Escaladora 15 min, si hay ganas: 2 min a RPE 3 · 11 min a RPE 4-5 · 2 min a RPE 3. RPE 3 = hablas normal · RPE 4 = hablas pero se nota el esfuerzo · RPE 5 = solo frases cortas.",
     "warmup": [
      {
-      "name": "Bici o caminadora, 5-6 min, ritmo conversable",
-      "how": "Solo para subir temperatura y pulso. Debes poder hablar frases completas todo el rato. Si terminas sin aliento, ibas muy fuerte."
+      "name": "Bici o caminadora, 5-6 min a RPE 2-3",
+      "how": "Solo para subir temperatura y pulso. RPE 2-3: hablas frases completas todo el rato. Si terminas sin aliento, ibas muy fuerte."
      },
      {
       "name": "Círculos de hombro, 10 por lado",
@@ -28393,12 +28413,12 @@
     "date": "2026-10-02",
     "focus": "Tren superior — espalda, pecho y hombro",
     "tag": "entreno",
-    "rationale": "**Día 16 — lútea (proyectado).** **Semana 2 de 4.** Jalón y remo suben al pin siguiente.",
-    "cardio": "Escaladora 12 min, RPE 4-5.",
+    "rationale": "**Día 13 — ovulación (proyectado).** **Semana 2 de 4.** Jalón y remo suben al pin siguiente.",
+    "cardio": "Escaladora 12 min: 2 min a RPE 3 · 8 min a RPE 5 · 2 min a RPE 3. RPE 3 = hablas normal · RPE 4 = hablas pero se nota el esfuerzo · RPE 5 = solo frases cortas.",
     "warmup": [
      {
-      "name": "Bici o caminadora, 5-6 min, ritmo conversable",
-      "how": "Solo para subir temperatura y pulso. Debes poder hablar frases completas todo el rato. Si terminas sin aliento, ibas muy fuerte."
+      "name": "Bici o caminadora, 5-6 min a RPE 2-3",
+      "how": "Solo para subir temperatura y pulso. RPE 2-3: hablas frases completas todo el rato. Si terminas sin aliento, ibas muy fuerte."
      },
      {
       "name": "Círculos de hombro, 10 por lado",
@@ -28607,6 +28627,33 @@
        }
       ],
       "cue": "**12,5 × 15.** Si la semana pasada no salió completa, o alguna serie pasó de RPE 8, repite lo de la semana pasada.\n\n**Cómo te pones:** polea a la altura de la cara, cuerda con las dos manos, un pie adelante para tener base.\n\n**Qué haces:** tira de la cuerda **separando las manos** y llevando los codos hacia atrás y arriba. Termina con los nudillos apuntando al techo, como haciendo un 'gol'. Vuelve lento.\n\n**Cómo sabes que está bien:** los hombros quedan **abajo, lejos de las orejas**. Si se encogen, el trapecio está haciendo el trabajo y el peso es mucho. Debes sentirlo atrás del hombro y entre los omóplatos."
+     },
+     {
+      "name": "Farmers Walk",
+      "sets": [
+       {
+        "serie": "Trabajo 1",
+        "carga": "10 kg c/u",
+        "reps": "30 m",
+        "rir": "objetivo 3",
+        "descanso": "90s"
+       },
+       {
+        "serie": "Trabajo 2",
+        "carga": "10 kg c/u",
+        "reps": "30 m",
+        "rir": "objetivo 3",
+        "descanso": "90s"
+       },
+       {
+        "serie": "Trabajo 3",
+        "carga": "10 kg c/u",
+        "reps": "30 m",
+        "rir": "objetivo 3",
+        "descanso": "90s"
+       }
+      ],
+      "cue": "**Agarre al cierre.** **10 kg en cada mano, ahora 3 × 30 m.** Sube una serie, no el peso.\n\n**Cómo te pones:** una mancuerna en cada mano a los costados, hombros abajo y atrás, pecho arriba.\n\n**Qué haces:** camina a paso normal, derecha, apretando las mancuernas con toda la mano. Si no hay espacio para 30 m, camina ida y vuelta o **aguanta de pie 30 s**.\n\n**Cómo sabes que está bien:** RPE 7: las manos queman al final pero no se abren. Si se te abren antes, la próxima serie hazla más corta, no más liviana. Si el codo izquierdo molesta, baja a 8 kg."
      }
     ]
    },
@@ -28615,12 +28662,12 @@
     "date": "2026-10-03",
     "focus": "Opcional — glúteo corto y escaladora",
     "tag": "opcional",
-    "rationale": "**Día 17 — lútea (proyectado).** **Opcional.** Glúteo corto y escaladora.",
-    "cardio": "Escaladora 20 min, RPE 5, la que te gusta. Si la frecuencia pasa de 175, baja el ritmo.",
+    "rationale": "**Día 14 — ovulación (proyectado).** **Opcional.** Glúteo corto y escaladora. Ovulación: más laxitud en las articulaciones. En el Step Up baja controlando y sin rebotar.",
+    "cardio": "Escaladora 20 min, la que te gusta: 3 min a RPE 3 · 14 min a RPE 5 · 3 min a RPE 3. Si el pulso pasa de 175, baja a RPE 4. RPE 3 = hablas normal · RPE 4 = hablas pero se nota el esfuerzo · RPE 5 = solo frases cortas.",
     "warmup": [
      {
-      "name": "Bici o caminadora, 5-6 min, ritmo conversable",
-      "how": "Solo para subir temperatura y pulso. Debes poder hablar frases completas todo el rato. Si terminas sin aliento, ibas muy fuerte."
+      "name": "Bici o caminadora, 5-6 min a RPE 2-3",
+      "how": "Solo para subir temperatura y pulso. RPE 2-3: hablas frases completas todo el rato. Si terminas sin aliento, ibas muy fuerte."
      },
      {
       "name": "Movilidad de tobillo contra pared, 10 por lado",
@@ -28762,7 +28809,7 @@
     "date": "2026-10-04",
     "focus": "Descanso",
     "tag": "descanso",
-    "rationale": "**Día 18 — lútea (proyectado).** Descanso.",
+    "rationale": "**Día 15 — lútea (proyectado).** Descanso.",
     "cardio": "",
     "warmup": [],
     "stretch": [],
@@ -28773,12 +28820,12 @@
     "date": "2026-10-05",
     "focus": "Inferior A — glúteo y femoral",
     "tag": "entreno",
-    "rationale": "**Día 19 — lútea (proyectado).** **Semana 3 de 4: la más exigente del bloque.** Hip thrust a 105 × 10. Rendimiento normal en esta fase: la fuerza no cae.",
-    "cardio": "Escaladora 12 min, RPE 4-5.",
+    "rationale": "**Día 16 — lútea (proyectado).** **Semana 3 de 4: la más exigente del bloque.** Hip thrust a 105 × 10. Rendimiento normal en esta fase: la fuerza no cae.",
+    "cardio": "Escaladora 12 min: 2 min a RPE 3 · 8 min a RPE 5 · 2 min a RPE 3. RPE 3 = hablas normal · RPE 4 = hablas pero se nota el esfuerzo · RPE 5 = solo frases cortas.",
     "warmup": [
      {
-      "name": "Bici o caminadora, 5-6 min, ritmo conversable",
-      "how": "Solo para subir temperatura y pulso. Debes poder hablar frases completas todo el rato. Si terminas sin aliento, ibas muy fuerte."
+      "name": "Bici o caminadora, 5-6 min a RPE 2-3",
+      "how": "Solo para subir temperatura y pulso. RPE 2-3: hablas frases completas todo el rato. Si terminas sin aliento, ibas muy fuerte."
      },
      {
       "name": "Movilidad de tobillo contra pared, 10 por lado",
@@ -28900,12 +28947,12 @@
        {
         "serie": "Trabajo 3",
         "carga": "40 kg",
-        "reps": "12",
+        "reps": "12 + 20 s arriba",
         "rir": "objetivo 2",
         "descanso": "2 min"
        }
       ],
-      "cue": "**40 × 12.** Si la semana pasada no salió completa, o alguna serie pasó de RPE 8, repite lo de la semana pasada.\n\n**Cómo te pones:** barra a la altura de la cadera, pies al ancho de cadera justo debajo de la barra. Agarre al ancho de los hombros. Saca pecho y **mete las costillas** antes de mover nada.\n\n**Qué haces:** echa la cadera atrás como si cerraras una puerta con la cola. Las rodillas apenas se doblan. La barra baja pegada a los muslos, rozándolos.\n\n**Cómo sabes que está bien:** paras **donde la espalda empieza a redondearse**, no donde llegue la barra — para la mayoría es bajo la rodilla, no al suelo. Lo sientes atrás del muslo, estirando. Si lo sientes en la zona lumbar, bajaste de más o soltaste el pecho."
+      "cue": "**Agarre, semana a semana:** todas las series con las dos palmas hacia ti y sin straps. En la última, después de la repetición final, **quédate arriba 20 s** con la barra colgando de las manos. Va de 10 a 15 y a 20 segundos por semana, y en la descarga vuelve a 10. Si la barra se te abre antes de la última repetición, recién ahí pide los straps.\n\n**40 × 12.** Si la semana pasada no salió completa, o alguna serie pasó de RPE 8, repite lo de la semana pasada.\n\n**Cómo te pones:** barra a la altura de la cadera, pies al ancho de cadera justo debajo de la barra. Agarre al ancho de los hombros. Saca pecho y **mete las costillas** antes de mover nada.\n\n**Qué haces:** echa la cadera atrás como si cerraras una puerta con la cola. Las rodillas apenas se doblan. La barra baja pegada a los muslos, rozándolos.\n\n**Cómo sabes que está bien:** paras **donde la espalda empieza a redondearse**, no donde llegue la barra — para la mayoría es bajo la rodilla, no al suelo. Lo sientes atrás del muslo, estirando. Si lo sientes en la zona lumbar, bajaste de más o soltaste el pecho."
      },
      {
       "name": "Lying Leg Curl (Machine)",
@@ -29036,7 +29083,7 @@
     "date": "2026-10-06",
     "focus": "Descanso",
     "tag": "descanso",
-    "rationale": "**Día 20 — lútea (proyectado).** Descanso.",
+    "rationale": "**Día 17 — lútea (proyectado).** Descanso.",
     "cardio": "",
     "warmup": [],
     "stretch": [],
@@ -29047,12 +29094,12 @@
     "date": "2026-10-07",
     "focus": "Inferior B — cuádriceps y glúteo",
     "tag": "entreno",
-    "rationale": "**Día 21 — lútea (proyectado).** Prensa a 110 × 12 y sentadilla a 30 × 12. 🤝 Comparten la prensa con Mopo.",
-    "cardio": "Escaladora 10 min, RPE 4.",
+    "rationale": "**Día 18 — lútea (proyectado).** Prensa a 110 × 12 y sentadilla a 30 × 12. 🤝 Comparten la prensa con Mopo.",
+    "cardio": "Escaladora 10 min: 2 min a RPE 3 · 6 min a RPE 4 · 2 min a RPE 3. RPE 3 = hablas normal · RPE 4 = hablas pero se nota el esfuerzo · RPE 5 = solo frases cortas.",
     "warmup": [
      {
-      "name": "Bici o caminadora, 5-6 min, ritmo conversable",
-      "how": "Solo para subir temperatura y pulso. Debes poder hablar frases completas todo el rato. Si terminas sin aliento, ibas muy fuerte."
+      "name": "Bici o caminadora, 5-6 min a RPE 2-3",
+      "how": "Solo para subir temperatura y pulso. RPE 2-3: hablas frases completas todo el rato. Si terminas sin aliento, ibas muy fuerte."
      },
      {
       "name": "Movilidad de tobillo contra pared, 10 por lado",
@@ -29304,12 +29351,12 @@
     "date": "2026-10-08",
     "focus": "Opcional — postura, hombro y pecho",
     "tag": "opcional",
-    "rationale": "**Día 22 — lútea (proyectado).** **Opcional.** Última semana de postura del bloque antes de la descarga.",
-    "cardio": "Escaladora 15 min, RPE 4-5, si hay ganas.",
+    "rationale": "**Día 19 — lútea (proyectado).** **Opcional.** Última semana de postura del bloque antes de la descarga.",
+    "cardio": "Escaladora 15 min, si hay ganas: 2 min a RPE 3 · 11 min a RPE 4-5 · 2 min a RPE 3. RPE 3 = hablas normal · RPE 4 = hablas pero se nota el esfuerzo · RPE 5 = solo frases cortas.",
     "warmup": [
      {
-      "name": "Bici o caminadora, 5-6 min, ritmo conversable",
-      "how": "Solo para subir temperatura y pulso. Debes poder hablar frases completas todo el rato. Si terminas sin aliento, ibas muy fuerte."
+      "name": "Bici o caminadora, 5-6 min a RPE 2-3",
+      "how": "Solo para subir temperatura y pulso. RPE 2-3: hablas frases completas todo el rato. Si terminas sin aliento, ibas muy fuerte."
      },
      {
       "name": "Círculos de hombro, 10 por lado",
@@ -29511,12 +29558,12 @@
     "date": "2026-10-09",
     "focus": "Tren superior — espalda, pecho y hombro",
     "tag": "entreno",
-    "rationale": "**Día 23 — premenstrual (proyectado).** **Entras en premenstrual, la fase que tú misma marcas como la más dura.** Por eso esta semana el tren superior **repite las cargas de la semana pasada** en vez de subir. Si llegas muy chata, baja una serie antes que el peso.",
-    "cardio": "Escaladora 12 min, RPE 4-5.",
+    "rationale": "**Día 20 — lútea (proyectado).** **Semana 3 de 4.** Con tu regla del 20, el premenstrual se corrió a la semana de descarga: hoy estás en lútea y el tren superior puede subir. Igual repite las cargas de la semana 2, porque es el primer bloque completo de vuelta. Si la semana 2 salió toda a RPE 7 o menos, agrega una repetición por serie.",
+    "cardio": "Escaladora 12 min: 2 min a RPE 3 · 8 min a RPE 5 · 2 min a RPE 3. RPE 3 = hablas normal · RPE 4 = hablas pero se nota el esfuerzo · RPE 5 = solo frases cortas.",
     "warmup": [
      {
-      "name": "Bici o caminadora, 5-6 min, ritmo conversable",
-      "how": "Solo para subir temperatura y pulso. Debes poder hablar frases completas todo el rato. Si terminas sin aliento, ibas muy fuerte."
+      "name": "Bici o caminadora, 5-6 min a RPE 2-3",
+      "how": "Solo para subir temperatura y pulso. RPE 2-3: hablas frases completas todo el rato. Si terminas sin aliento, ibas muy fuerte."
      },
      {
       "name": "Círculos de hombro, 10 por lado",
@@ -29594,7 +29641,7 @@
         "descanso": "2 min"
        }
       ],
-      "cue": "**Se repite lo de la semana pasada.** Hoy entras en premenstrual, tu fase más dura: esta semana el tren superior no sube.\n\n**Cómo te pones:** agarre algo más ancho que los hombros, muslos fijos bajo el apoyo.\n\n**Qué haces:** **primero baja los omóplatos**, después dobla el codo. Lleva la barra al pecho alto, no a la nuca.\n\n**Cómo sabes que está bien:** el torso se inclina un poco atrás y se queda ahí. Si te meces hacia atrás y adelante en cada repetición, la espalda dejó de trabajar."
+      "cue": "**Se repite lo de la semana pasada.** Primer bloque completo de vuelta: se consolida antes de subir. Si la semana 2 salió toda a RPE 7 o menos, una repetición más por serie.\n\n**Cómo te pones:** agarre algo más ancho que los hombros, muslos fijos bajo el apoyo.\n\n**Qué haces:** **primero baja los omóplatos**, después dobla el codo. Lleva la barra al pecho alto, no a la nuca.\n\n**Cómo sabes que está bien:** el torso se inclina un poco atrás y se queda ahí. Si te meces hacia atrás y adelante en cada repetición, la espalda dejó de trabajar."
      },
      {
       "name": "Seated Row (Machine)",
@@ -29628,7 +29675,7 @@
         "descanso": "2 min"
        }
       ],
-      "cue": "**Se repite lo de la semana pasada.** Hoy entras en premenstrual, tu fase más dura: esta semana el tren superior no sube.\n\n**Cómo te pones:** pecho contra el apoyo, hombros abajo antes de tirar.\n\n**Qué haces:** tira llevando los codos pegados al cuerpo y junta los omóplatos al final. Suelta lento dejando que el omóplato se separe.\n\n**Cómo sabes que está bien:** el torso **no se balancea**. Si te vas hacia atrás para completar la repetición, es mucho peso."
+      "cue": "**Se repite lo de la semana pasada.** Primer bloque completo de vuelta: se consolida antes de subir. Si la semana 2 salió toda a RPE 7 o menos, una repetición más por serie.\n\n**Cómo te pones:** pecho contra el apoyo, hombros abajo antes de tirar.\n\n**Qué haces:** tira llevando los codos pegados al cuerpo y junta los omóplatos al final. Suelta lento dejando que el omóplato se separe.\n\n**Cómo sabes que está bien:** el torso **no se balancea**. Si te vas hacia atrás para completar la repetición, es mucho peso."
      },
      {
       "name": "Bench Press (Barbell)",
@@ -29662,7 +29709,7 @@
         "descanso": "90s"
        }
       ],
-      "cue": "**Se repite lo de la semana pasada.** Hoy entras en premenstrual, tu fase más dura: esta semana el tren superior no sube.\n\n**Cómo te pones:** ojos bajo la barra, omóplatos juntos y hacia abajo, pies firmes en el suelo. Agarre un poco más ancho que los hombros.\n\n**Qué haces:** baja la barra a la parte baja del pecho con los codos a 30-45° del cuerpo, toca sin rebotar y empuja hacia arriba y un poco hacia la cara.\n\n**Cómo sabes que está bien:** los omóplatos no se despegan del banco en ninguna repetición. Si molesta el hombro, cierra un poco más los codos antes de bajar el peso.",
+      "cue": "**Se repite lo de la semana pasada.** Primer bloque completo de vuelta: se consolida antes de subir. Si la semana 2 salió toda a RPE 7 o menos, una repetición más por serie.\n\n**Cómo te pones:** ojos bajo la barra, omóplatos juntos y hacia abajo, pies firmes en el suelo. Agarre un poco más ancho que los hombros.\n\n**Qué haces:** baja la barra a la parte baja del pecho con los codos a 30-45° del cuerpo, toca sin rebotar y empuja hacia arriba y un poco hacia la cara.\n\n**Cómo sabes que está bien:** los omóplatos no se despegan del banco en ninguna repetición. Si molesta el hombro, cierra un poco más los codos antes de bajar el peso.",
       "barra": 12.5
      },
      {
@@ -29697,7 +29744,7 @@
         "descanso": "90s"
        }
       ],
-      "cue": "**Se repite lo de la semana pasada.** Hoy entras en premenstrual, tu fase más dura: esta semana el tren superior no sube.\n\n**Cómo te pones:** Sentada con el respaldo casi vertical, mancuernas a la altura de las orejas, palmas al frente o un poco hacia adentro.\n\n**Qué haces:** empuja hacia arriba hasta casi juntar las mancuernas sobre la cabeza y baja hasta que queden a la altura del mentón.\n\n**Cómo sabes que está bien:** la espalda no se despega del respaldo y las costillas no se abren para ayudar. Si molesta el hombro, gira más las palmas hacia adentro."
+      "cue": "**Se repite lo de la semana pasada.** Primer bloque completo de vuelta: se consolida antes de subir. Si la semana 2 salió toda a RPE 7 o menos, una repetición más por serie.\n\n**Cómo te pones:** Sentada con el respaldo casi vertical, mancuernas a la altura de las orejas, palmas al frente o un poco hacia adentro.\n\n**Qué haces:** empuja hacia arriba hasta casi juntar las mancuernas sobre la cabeza y baja hasta que queden a la altura del mentón.\n\n**Cómo sabes que está bien:** la espalda no se despega del respaldo y las costillas no se abren para ayudar. Si molesta el hombro, gira más las palmas hacia adentro."
      },
      {
       "name": "Face Pull",
@@ -29724,7 +29771,34 @@
         "descanso": "60s"
        }
       ],
-      "cue": "**Se repite lo de la semana pasada.** Hoy entras en premenstrual, tu fase más dura: esta semana el tren superior no sube.\n\n**Cómo te pones:** polea a la altura de la cara, cuerda con las dos manos, un pie adelante para tener base.\n\n**Qué haces:** tira de la cuerda **separando las manos** y llevando los codos hacia atrás y arriba. Termina con los nudillos apuntando al techo, como haciendo un 'gol'. Vuelve lento.\n\n**Cómo sabes que está bien:** los hombros quedan **abajo, lejos de las orejas**. Si se encogen, el trapecio está haciendo el trabajo y el peso es mucho. Debes sentirlo atrás del hombro y entre los omóplatos."
+      "cue": "**Se repite lo de la semana pasada.** Primer bloque completo de vuelta: se consolida antes de subir. Si la semana 2 salió toda a RPE 7 o menos, una repetición más por serie.\n\n**Cómo te pones:** polea a la altura de la cara, cuerda con las dos manos, un pie adelante para tener base.\n\n**Qué haces:** tira de la cuerda **separando las manos** y llevando los codos hacia atrás y arriba. Termina con los nudillos apuntando al techo, como haciendo un 'gol'. Vuelve lento.\n\n**Cómo sabes que está bien:** los hombros quedan **abajo, lejos de las orejas**. Si se encogen, el trapecio está haciendo el trabajo y el peso es mucho. Debes sentirlo atrás del hombro y entre los omóplatos."
+     },
+     {
+      "name": "Farmers Walk",
+      "sets": [
+       {
+        "serie": "Trabajo 1",
+        "carga": "12 kg c/u",
+        "reps": "30 m",
+        "rir": "objetivo 3",
+        "descanso": "90s"
+       },
+       {
+        "serie": "Trabajo 2",
+        "carga": "12 kg c/u",
+        "reps": "30 m",
+        "rir": "objetivo 3",
+        "descanso": "90s"
+       },
+       {
+        "serie": "Trabajo 3",
+        "carga": "12 kg c/u",
+        "reps": "30 m",
+        "rir": "objetivo 3",
+        "descanso": "90s"
+       }
+      ],
+      "cue": "**Agarre al cierre.** **12 kg en cada mano, 3 × 30 m.** Sube el peso. Si en la semana 2 las manos se abrieron antes de los 30 m, repite los 10 kg.\n\n**Cómo te pones:** una mancuerna en cada mano a los costados, hombros abajo y atrás, pecho arriba.\n\n**Qué haces:** camina a paso normal, derecha, apretando las mancuernas con toda la mano. Si no hay espacio para 30 m, camina ida y vuelta o **aguanta de pie 30 s**.\n\n**Cómo sabes que está bien:** RPE 7: las manos queman al final pero no se abren. Si se te abren antes, la próxima serie hazla más corta, no más liviana. Si el codo izquierdo molesta, baja a 8 kg."
      }
     ]
    },
@@ -29733,12 +29807,12 @@
     "date": "2026-10-10",
     "focus": "Opcional — glúteo corto y escaladora",
     "tag": "opcional",
-    "rationale": "**Día 24 — premenstrual (proyectado).** **Opcional de verdad.** Premenstrual: nada sube hoy. Si llegas cansada, haz solo la escaladora.",
-    "cardio": "Escaladora 20 min, RPE 5, la que te gusta. Si la frecuencia pasa de 175, baja el ritmo.",
+    "rationale": "**Día 21 — lútea (proyectado).** **Opcional.** Si el jueves y el viernes salieron pesados, haz solo la escaladora.",
+    "cardio": "Escaladora 20 min, la que te gusta: 3 min a RPE 3 · 14 min a RPE 5 · 3 min a RPE 3. Si el pulso pasa de 175, baja a RPE 4. RPE 3 = hablas normal · RPE 4 = hablas pero se nota el esfuerzo · RPE 5 = solo frases cortas.",
     "warmup": [
      {
-      "name": "Bici o caminadora, 5-6 min, ritmo conversable",
-      "how": "Solo para subir temperatura y pulso. Debes poder hablar frases completas todo el rato. Si terminas sin aliento, ibas muy fuerte."
+      "name": "Bici o caminadora, 5-6 min a RPE 2-3",
+      "how": "Solo para subir temperatura y pulso. RPE 2-3: hablas frases completas todo el rato. Si terminas sin aliento, ibas muy fuerte."
      },
      {
       "name": "Movilidad de tobillo contra pared, 10 por lado",
@@ -29880,7 +29954,7 @@
     "date": "2026-10-11",
     "focus": "Descanso",
     "tag": "descanso",
-    "rationale": "**Día 25 — premenstrual (proyectado).** Descanso.",
+    "rationale": "**Día 22 — lútea (proyectado).** Descanso.",
     "cardio": "",
     "warmup": [],
     "stretch": [],
@@ -29891,12 +29965,12 @@
     "date": "2026-10-12",
     "focus": "Descarga — inferior A — glúteo y femoral",
     "tag": "entreno",
-    "rationale": "**Día 26 — premenstrual (proyectado).** **Semana 4 de 4: descarga.** Coincide con tu premenstrual y la regla proyectada del 14. Mismos ejercicios, dos series, RIR 4.",
-    "cardio": "Escaladora 10 min, RPE 4.",
+    "rationale": "**Día 23 — premenstrual (proyectado).** **Semana 4 de 4: descarga.** Coincide con tu premenstrual y la regla proyectada del 17. Mismos ejercicios, dos series, RIR 4.",
+    "cardio": "Escaladora 10 min: 2 min a RPE 3 · 6 min a RPE 4 · 2 min a RPE 3. RPE 3 = hablas normal · RPE 4 = hablas pero se nota el esfuerzo · RPE 5 = solo frases cortas.",
     "warmup": [
      {
-      "name": "Bici o caminadora, 5-6 min, ritmo conversable",
-      "how": "Solo para subir temperatura y pulso. Debes poder hablar frases completas todo el rato. Si terminas sin aliento, ibas muy fuerte."
+      "name": "Bici o caminadora, 5-6 min a RPE 2-3",
+      "how": "Solo para subir temperatura y pulso. RPE 2-3: hablas frases completas todo el rato. Si terminas sin aliento, ibas muy fuerte."
      },
      {
       "name": "Movilidad de tobillo contra pared, 10 por lado",
@@ -29997,12 +30071,12 @@
        {
         "serie": "Trabajo 2",
         "carga": "30 kg",
-        "reps": "10",
+        "reps": "10 + 10 s arriba",
         "rir": "objetivo 4",
         "descanso": "2 min"
        }
       ],
-      "cue": "**30 × 10.** Descarga: dos series a RIR 4. Que se sienta fácil es el objetivo.\n\n**Cómo te pones:** barra a la altura de la cadera, pies al ancho de cadera justo debajo de la barra. Agarre al ancho de los hombros. Saca pecho y **mete las costillas** antes de mover nada.\n\n**Qué haces:** echa la cadera atrás como si cerraras una puerta con la cola. Las rodillas apenas se doblan. La barra baja pegada a los muslos, rozándolos.\n\n**Cómo sabes que está bien:** paras **donde la espalda empieza a redondearse**, no donde llegue la barra — para la mayoría es bajo la rodilla, no al suelo. Lo sientes atrás del muslo, estirando. Si lo sientes en la zona lumbar, bajaste de más o soltaste el pecho."
+      "cue": "**Agarre, semana a semana:** todas las series con las dos palmas hacia ti y sin straps. En la última, después de la repetición final, **quédate arriba 10 s** con la barra colgando de las manos. Va de 10 a 15 y a 20 segundos por semana, y en la descarga vuelve a 10. Si la barra se te abre antes de la última repetición, recién ahí pide los straps.\n\n**30 × 10.** Descarga: dos series a RIR 4. Que se sienta fácil es el objetivo.\n\n**Cómo te pones:** barra a la altura de la cadera, pies al ancho de cadera justo debajo de la barra. Agarre al ancho de los hombros. Saca pecho y **mete las costillas** antes de mover nada.\n\n**Qué haces:** echa la cadera atrás como si cerraras una puerta con la cola. Las rodillas apenas se doblan. La barra baja pegada a los muslos, rozándolos.\n\n**Cómo sabes que está bien:** paras **donde la espalda empieza a redondearse**, no donde llegue la barra — para la mayoría es bajo la rodilla, no al suelo. Lo sientes atrás del muslo, estirando. Si lo sientes en la zona lumbar, bajaste de más o soltaste el pecho."
      },
      {
       "name": "Lying Leg Curl (Machine)",
@@ -30105,7 +30179,7 @@
     "date": "2026-10-13",
     "focus": "Descanso",
     "tag": "descanso",
-    "rationale": "**Día 27 — premenstrual (proyectado).** Descanso.",
+    "rationale": "**Día 24 — premenstrual (proyectado).** Descanso.",
     "cardio": "",
     "warmup": [],
     "stretch": [],
@@ -30116,12 +30190,12 @@
     "date": "2026-10-14",
     "focus": "Descarga — inferior B — cuádriceps y glúteo",
     "tag": "entreno",
-    "rationale": "**Día 1 — regla (proyectado).** **Descarga.** Con la regla la fuerza no baja, bajan las ganas: esta sesión es corta a propósito. 🤝 Comparten la prensa con Mopo.",
-    "cardio": "Escaladora 10 min, RPE 4.",
+    "rationale": "**Día 25 — premenstrual (proyectado).** **Descarga.** Premenstrual, tu fase más dura: esta sesión es corta a propósito. 🤝 Comparten la prensa con Mopo.",
+    "cardio": "Escaladora 10 min: 2 min a RPE 3 · 6 min a RPE 4 · 2 min a RPE 3. RPE 3 = hablas normal · RPE 4 = hablas pero se nota el esfuerzo · RPE 5 = solo frases cortas.",
     "warmup": [
      {
-      "name": "Bici o caminadora, 5-6 min, ritmo conversable",
-      "how": "Solo para subir temperatura y pulso. Debes poder hablar frases completas todo el rato. Si terminas sin aliento, ibas muy fuerte."
+      "name": "Bici o caminadora, 5-6 min a RPE 2-3",
+      "how": "Solo para subir temperatura y pulso. RPE 2-3: hablas frases completas todo el rato. Si terminas sin aliento, ibas muy fuerte."
      },
      {
       "name": "Movilidad de tobillo contra pared, 10 por lado",
@@ -30331,8 +30405,8 @@
     "date": "2026-10-15",
     "focus": "Opcional — caminata",
     "tag": "opcional",
-    "rationale": "**Día 2 — regla (proyectado).** Semana de descarga: sin pesas hoy. Si hay ganas, camina.",
-    "cardio": "Caminata 30 min, ritmo cómodo.",
+    "rationale": "**Día 26 — premenstrual (proyectado).** Semana de descarga: sin pesas hoy. Si hay ganas, camina.",
+    "cardio": "Caminata 30 min a RPE 3, sin agitarte. RPE 3 = hablas normal · RPE 4 = hablas pero se nota el esfuerzo · RPE 5 = solo frases cortas.",
     "warmup": [],
     "stretch": [],
     "exercises": []
@@ -30342,12 +30416,12 @@
     "date": "2026-10-16",
     "focus": "Descarga — tren superior — espalda, pecho y hombro",
     "tag": "entreno",
-    "rationale": "**Día 3 — regla (proyectado).** **Descarga.** Último día firme del bloque.",
-    "cardio": "Escaladora 10 min, RPE 4.",
+    "rationale": "**Día 27 — premenstrual (proyectado).** **Descarga.** Último día firme del bloque.",
+    "cardio": "Escaladora 10 min: 2 min a RPE 3 · 6 min a RPE 4 · 2 min a RPE 3. RPE 3 = hablas normal · RPE 4 = hablas pero se nota el esfuerzo · RPE 5 = solo frases cortas.",
     "warmup": [
      {
-      "name": "Bici o caminadora, 5-6 min, ritmo conversable",
-      "how": "Solo para subir temperatura y pulso. Debes poder hablar frases completas todo el rato. Si terminas sin aliento, ibas muy fuerte."
+      "name": "Bici o caminadora, 5-6 min a RPE 2-3",
+      "how": "Solo para subir temperatura y pulso. RPE 2-3: hablas frases completas todo el rato. Si terminas sin aliento, ibas muy fuerte."
      },
      {
       "name": "Círculos de hombro, 10 por lado",
@@ -30514,6 +30588,26 @@
        }
       ],
       "cue": "**10 × 15.** Descarga: dos series a RIR 4. Que se sienta fácil es el objetivo.\n\n**Cómo te pones:** polea a la altura de la cara, cuerda con las dos manos, un pie adelante para tener base.\n\n**Qué haces:** tira de la cuerda **separando las manos** y llevando los codos hacia atrás y arriba. Termina con los nudillos apuntando al techo, como haciendo un 'gol'. Vuelve lento.\n\n**Cómo sabes que está bien:** los hombros quedan **abajo, lejos de las orejas**. Si se encogen, el trapecio está haciendo el trabajo y el peso es mucho. Debes sentirlo atrás del hombro y entre los omóplatos."
+     },
+     {
+      "name": "Farmers Walk",
+      "sets": [
+       {
+        "serie": "Trabajo 1",
+        "carga": "10 kg c/u",
+        "reps": "20 m",
+        "rir": "objetivo 4",
+        "descanso": "90s"
+       },
+       {
+        "serie": "Trabajo 2",
+        "carga": "10 kg c/u",
+        "reps": "20 m",
+        "rir": "objetivo 4",
+        "descanso": "90s"
+       }
+      ],
+      "cue": "**Agarre al cierre.** **Descarga: 10 kg en cada mano, 2 × 20 m.** Que se sienta fácil.\n\n**Cómo te pones:** una mancuerna en cada mano a los costados, hombros abajo y atrás, pecho arriba.\n\n**Qué haces:** camina a paso normal, derecha, apretando las mancuernas con toda la mano. Si no hay espacio para 30 m, camina ida y vuelta o **aguanta de pie 30 s**.\n\n**Cómo sabes que está bien:** RPE 7: las manos queman al final pero no se abren. Si se te abren antes, la próxima serie hazla más corta, no más liviana. Si el codo izquierdo molesta, baja a 8 kg."
      }
     ]
    },
@@ -30522,8 +30616,8 @@
     "date": "2026-10-17",
     "focus": "Opcional — caminata",
     "tag": "opcional",
-    "rationale": "**Día 4 — regla (proyectado).** Semana de descarga: sin pesas hoy. Si hay ganas, camina.",
-    "cardio": "Caminata 30 min, ritmo cómodo.",
+    "rationale": "**Día 1 — regla (proyectado).** Semana de descarga: sin pesas hoy. Si hay ganas, camina.",
+    "cardio": "Caminata 30 min a RPE 3, sin agitarte. RPE 3 = hablas normal · RPE 4 = hablas pero se nota el esfuerzo · RPE 5 = solo frases cortas.",
     "warmup": [],
     "stretch": [],
     "exercises": []
@@ -30533,7 +30627,7 @@
     "date": "2026-10-18",
     "focus": "Descanso",
     "tag": "descanso",
-    "rationale": "**Día 5 — folicular (proyectado).** Descanso. Cierra el mesociclo; el lunes 19 se arma el siguiente con lo que registres en Hevy.",
+    "rationale": "**Día 2 — regla (proyectado).** Descanso. Cierra el mesociclo; el lunes 19 se arma el siguiente con lo que registres en Hevy.",
     "cardio": "",
     "warmup": [],
     "stretch": [],
@@ -40764,7 +40858,7 @@
   "cycle": {
    "badge": "Semana 1 de 4 · Día 5 del ciclo",
    "detail": "Mesociclo de 4 semanas del 21 de septiembre al 18 de octubre: tres de carga y descarga en la cuarta, que coincide con la regla proyectada.",
-   "fur": "2026-08-21",
+   "fur": "2026-09-20",
    "largo": 27,
    "regla": 4,
    "mesos": [
@@ -40787,6 +40881,6 @@
   "note": "Cable Crunch fuera: no le gusta. Alternativas válidas: rodillas al pecho, reverse crunch o plancha lateral con elevación. Nada de core en barras paralelas ni colgada: el 4 de septiembre todo lo de esa posición salió a RPE 8,5-10 por falta de estabilidad, y ella lo descartó. El core va en el suelo. Echa de menos el RDL en Smith y el Face Pull, y quiere trabajo de postura en el tren superior.",
   "fuente": "Registro_historico_Mipi.md",
   "weekNote": "**Mipi — la vuelta costó y era esperable.** Estuvo del 13 al 20 sin entrenar y el domingo el hip thrust salió 90 × 8 a RPE 9, cuando el 24 de agosto movía 100 × 8 en tres series a RPE 7. El peso muerto en Smith volvió después de casi cinco meses y el agarre se soltó a las 8. Lo único que subió fue la plancha lateral: 35-40 s contra 30-31 s. Semana 1 es recalibrar, no subir. El semáforo en rojo es la semana en blanco, no un problema: la ventana de 12 días casi no tiene series que contar.",
-  "weekTodo": "**Hoy y el miércoles, descanso.** Los tres días firmes se corren a jueves (Inferior A, con Mopo), viernes (tren superior) y sábado (Inferior B). El martes queda la sesión corta de postura si puedes, y el domingo algo suave. Cuatro días seguidos es mucho para ti, por eso el domingo no lleva carga."
+  "weekTodo": "**Tu regla empezó el domingo 20**, así que el ciclo se corrió tres días: hoy es el día 5 y la descarga del 12 al 18 cae justo en tu premenstrual y en la regla proyectada del 17. **Hoy Inferior A con Mopo, mañana tren superior y el sábado Inferior B.** Nuevo en el bloque: **trabajo de agarre**, que sube de a poco. Y el cardio viene por tramos, cada uno con su RPE."
  }
 }
