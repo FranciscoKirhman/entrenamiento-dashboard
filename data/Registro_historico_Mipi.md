@@ -1,10 +1,361 @@
-# Historial de entrenamiento de Paloma (Mipi) — 28 de febrero al 27 de septiembre de 2026 (87 sesiones)
+# Historial de entrenamiento de Paloma (Mipi) — 16 de enero al 27 de septiembre de 2026 (105 sesiones)
 
 Registro cronológico consolidado, mismo formato que el de Mopo. Cada fila corresponde a una serie real copiada desde Hevy. Los volúmenes oficiales se conservan sin reemplazarlos por cálculos derivados (excepto en sesiones con ejercicios asistidos o de solo-peso-corporal, donde Hevy suma un componente de peso corporal que no aparece en el texto copiado — el volumen mostrado sigue siendo el oficial de la app).
 
 **Pendiente:** aún no tengo su nivel de entrenamiento, objetivo, ni consideraciones (lesiones, preferencias) confirmadas de su propia voz — solo lo que se puede inferir de los comentarios en las sesiones (ej. dolor lumbar ocasional en sentadilla, molestia de codo izquierdo, molestia en inserción proximal de cuádriceps izquierdo). No copiar los parámetros de Mopo para su programación: es mujer y probablemente aplican parámetros distintos de volumen/frecuencia/intensidad.
 
 **Nota sobre la última sesión registrada:** la app mostraba "4 hours ago" en vez de una fecha/hora exacta. Confirmado por Francisco: es el 16 Aug 2026 (hora exacta no registrada).
+
+## 16 Jan 2026 — Full body
+
+<!-- hevy:csv-202601161250 -->
+**Hora:** 12:50 PM  
+**Duración:** 21m  
+**Volumen Hevy:** 648 kg  
+
+| Orden | Ejercicio | Serie | Carga | Reps/tiempo | RPE |
+|---:|---|---:|---:|---|---:|
+| 1 | Squat (Dumbbell) | 1 | 6 kg | 12 | — |
+| 1 | Squat (Dumbbell) | 2 | 6 kg | 12 | — |
+| 1 | Squat (Dumbbell) | 3 | 6 kg | 12 | — |
+| 2 | Lateral Band Walks | 1 | Peso corporal | 24 | — |
+| 2 | Lateral Band Walks | 2 | Peso corporal | 24 | — |
+| 2 | Lateral Band Walks | 3 | Peso corporal | 24 | — |
+| 3 | Bulgarian Split Squat (Dumbbell) | 1 | 6 kg | 12 | — |
+| 3 | Bulgarian Split Squat (Dumbbell) | 2 | 6 kg | 12 | — |
+| 3 | Bulgarian Split Squat (Dumbbell) | 3 | 6 kg | 12 | — |
+| 4 | Glute Bridge | 1 | Peso corporal | 12 | — |
+| 4 | Glute Bridge | 2 | Peso corporal | 12 | — |
+| 4 | Glute Bridge | 3 | Peso corporal | 12 | — |
+| 5 | Incline Push Ups | 1 | Peso corporal | 10 | — |
+| 5 | Incline Push Ups | 2 | Peso corporal | 10 | — |
+| 5 | Incline Push Ups | 3 | Peso corporal | 10 | — |
+| 6 | Seated Lateral Raise (Dumbbell) | 1 | 3 kg | 12 | — |
+| 6 | Seated Lateral Raise (Dumbbell) | 2 | 3 kg | 12 | — |
+| 6 | Seated Lateral Raise (Dumbbell) | 3 | 3 kg | 12 | — |
+| 7 | Bench Dip | 1 | Peso corporal | 12 | — |
+| 7 | Bench Dip | 2 | Peso corporal | 12 | — |
+| 7 | Bench Dip | 3 | Peso corporal | 12 | — |
+| 8 | Overhead Press (Dumbbell) | 1 | 3 kg | 12 | — |
+| 8 | Overhead Press (Dumbbell) | 2 | 3 kg | 12 | — |
+| 8 | Overhead Press (Dumbbell) | 3 | 3 kg | 12 | — |
+| 9 | Crunch | 1 | Peso corporal | 30 | — |
+| 10 | Heel Taps | 1 | Peso corporal | 30 | — |
+| 11 | Jackknife Sit Up | 1 | Peso corporal | 30 | — |
+| 12 | Elbow to Knee | 1 | Peso corporal | 30 | — |
+| 13 | Lying Leg Raise | 1 | Peso corporal | 30 | — |
+
+## 18 Jan 2026 — Pierna + mopi
+
+<!-- hevy:csv-202601181301 -->
+**Hora:** 1:01 PM  
+**Duración:** 1h 50m  
+**Volumen Hevy:** 4,704 kg  
+
+| Orden | Ejercicio | Serie | Carga | Reps/tiempo | RPE |
+|---:|---|---:|---:|---|---:|
+| 1 | Squat (Smith Machine) | 1 | 10 kg | 6 | — |
+| 1 | Squat (Smith Machine) | 2 | 20 kg | 8 | — |
+| 1 | Squat (Smith Machine) | 3 | 20 kg | 8 | — |
+| 1 | Squat (Smith Machine) | 4 | 20 kg | 8 | 8,5 |
+| 1 | Squat (Smith Machine) | 5 | 20 kg | 8 | 9,5 |
+| 2 | Leg Press Horizontal (Machine) | 1 | Peso corporal | 6 | — |
+| 2 | Leg Press Horizontal (Machine) | 2 | 40 kg | 8 | 7,5 |
+| 2 | Leg Press Horizontal (Machine) | 3 | 60 kg | 9 | 8,5 |
+| 2 | Leg Press Horizontal (Machine) | 4 | 60 kg | 14 | 9 |
+| 3 | Hip Thrust (Machine) | 1 | 22,7 kg | 6 | 9 |
+| 3 | Hip Thrust (Machine) | 2 | 27,71 kg | 6 | 9 |
+| 3 | Hip Thrust (Machine) | 3 | 27,71 kg | 6 | 9 |
+| 4 | Deadlift (Barbell) | 1 | 20 kg | 6 | — |
+| 4 | Deadlift (Barbell) | 2 | 30 kg | 8 | — |
+| 4 | Deadlift (Barbell) | 3 | 40 kg | 10 | 8 |
+| 4 | Deadlift (Barbell) | 4 | 40 kg | 7 | 9,5 |
+| 5 | Pull Up (Assisted) | 1 | 50 kg | 6 | 7 |
+| 5 | Pull Up (Assisted) | 2 | 35 kg | 5 | 9,5 |
+| 5 | Pull Up (Assisted) | 3 | 40 kg | 8 | 9 |
+| 6 | Hanging Knee Raise | 1 | Peso corporal | 5 | 9,5 |
+| 6 | Hanging Knee Raise | 2 | Peso corporal | 5 | 9,5 |
+| 6 | Hanging Knee Raise | 3 | Peso corporal | 4 | 9 |
+
+## 20 Jan 2026 — Funcional + Javi
+
+<!-- hevy:csv-202601202106 -->
+**Hora:** 9:06 PM  
+**Duración:** 59m  
+**Volumen Hevy:** 906 kg  
+
+| Orden | Ejercicio | Serie | Carga | Reps/tiempo | RPE |
+|---:|---|---:|---:|---|---:|
+| 1 | Squat (Dumbbell) | 1 | 6 kg | 15 | — |
+| 1 | Squat (Dumbbell) | 2 | 6 kg | 15 | — |
+| 1 | Squat (Dumbbell) | 3 | 6 kg | 15 | — |
+| 2 | Glute Bridge | 1 | Peso corporal | 15 | — |
+| 2 | Glute Bridge | 2 | Peso corporal | 15 | — |
+| 2 | Glute Bridge | 3 | Peso corporal | 15 | — |
+| 3 | Curtsy Lunge (Dumbbell) | 1 | 6 kg | 12 | — |
+| 3 | Curtsy Lunge (Dumbbell) | 2 | 6 kg | 12 | — |
+| 3 | Curtsy Lunge (Dumbbell) | 3 | 6 kg | 12 | — |
+| 4 | Glute Kickback on Floor | 1 | Peso corporal | 15 | — |
+| 4 | Glute Kickback on Floor | 2 | Peso corporal | 15 | — |
+| 4 | Glute Kickback on Floor | 3 | Peso corporal | 15 | — |
+| 5 | Incline Push Ups | 1 | Peso corporal | 12 | — |
+| 5 | Incline Push Ups | 2 | Peso corporal | 10 | — |
+| 5 | Incline Push Ups | 3 | Peso corporal | 10 | — |
+| 6 | Bent Over Row (Band) | 1 | 6 kg | 12 | — |
+| 6 | Bent Over Row (Band) | 2 | 6 kg | 12 | — |
+| 6 | Bent Over Row (Band) | 3 | 6 kg | 12 | — |
+| 7 | Overhead Press (Dumbbell) | 1 | 6 kg | 12 | — |
+| 7 | Overhead Press (Dumbbell) | 2 | 6 kg | 12 | — |
+| 7 | Overhead Press (Dumbbell) | 3 | 6 kg | 10 | — |
+| 8 | Plank | 1 | Peso corporal (isométrico) | 40 s | — |
+| 9 | Bicycle Crunch | 1 | Peso corporal | 30 | — |
+| 10 | Side Plank | 1 | Peso corporal (isométrico) | 20 s | — |
+
+## 3 Feb 2026 — Chill Ft javi
+
+<!-- hevy:csv-202602032015 -->
+**Hora:** 8:15 PM  
+**Duración:** 49m  
+**Volumen Hevy:** 0 kg  
+
+| Orden | Ejercicio | Serie | Carga | Reps/tiempo | RPE |
+|---:|---|---:|---:|---|---:|
+| 1 | Running | 1 | Peso corporal (isométrico) | 380 s | — |
+| 2 | Squat (Bodyweight) | 1 | Peso corporal | 15 | — |
+| 2 | Squat (Bodyweight) | 2 | Peso corporal | 15 | 8 |
+| 2 | Squat (Bodyweight) | 3 | Peso corporal | 15 | 8 |
+| 2 | Squat (Bodyweight) | 4 | Peso corporal | 15 | 8,5 |
+| 3 | Inverted Row | 1 | Peso corporal | 10 | 8 |
+| 3 | Inverted Row | 2 | Peso corporal | 10 | 9 |
+| 3 | Inverted Row | 3 | Peso corporal | 10 | 9,5 |
+| 4 | Incline Push Ups | 1 | Peso corporal | 10 | 8 |
+| 4 | Incline Push Ups | 2 | Peso corporal | 12 | 9 |
+| 4 | Incline Push Ups | 3 | Peso corporal | 12 | 9,5 |
+| 5 | Step Up | 1 | Peso corporal | 20 | 7 |
+| 5 | Step Up | 2 | Peso corporal | 20 | 8 |
+| 5 | Step Up | 3 | Peso corporal | 20 | 8,5 |
+| 6 | Hanging Knee Raise | 1 | Peso corporal | 8 | 9 |
+| 6 | Hanging Knee Raise | 2 | Peso corporal | 9 | 9,5 |
+| 6 | Hanging Knee Raise | 3 | Peso corporal | 9 | 9 |
+| 7 | Dead Hang | 1 | Peso corporal (isométrico) | 30 s | — |
+| 7 | Dead Hang | 2 | Peso corporal (isométrico) | 35 s | — |
+| 7 | Dead Hang | 3 | Peso corporal (isométrico) | 37 s | — |
+
+## 10 Feb 2026 — Not so chill ft javi
+
+<!-- hevy:csv-202602101900 -->
+**Hora:** 7:00 PM  
+**Duración:** 1h 24m  
+**Volumen Hevy:** 0 kg  
+**Comentario:** Apenas pudimos 💀  
+
+| Orden | Ejercicio | Serie | Carga | Reps/tiempo | RPE |
+|---:|---|---:|---:|---|---:|
+| 1 | Running | 1 | Peso corporal (isométrico) | 947 s | — |
+| 2 | Incline Push Ups | 1 | Peso corporal | 9 | 10 |
+| 2 | Incline Push Ups | 2 | Peso corporal | 11 | 10 |
+| 3 | Dead Hang | 1 | Peso corporal (isométrico) | 20 s | — |
+| 3 | Dead Hang | 2 | Peso corporal (isométrico) | 25 s | — |
+| 4 | Bench Dip | 1 | Peso corporal | 8 | 9,5 |
+| 4 | Bench Dip | 2 | Peso corporal | 9 | 9,5 |
+| 5 | Squat (Bodyweight) | 1 | Peso corporal | 12 | — |
+| 5 | Squat (Bodyweight) | 2 | Peso corporal | 12 | 8 |
+| 5 | Squat (Bodyweight) | 3 | Peso corporal | 15 | 8,5 |
+| 6 | Step Up | 1 | Peso corporal | 20 | 8,5 |
+| 6 | Step Up | 2 | Peso corporal | 20 | 9 |
+| 7 | Hanging Knee Raise | 1 | Peso corporal | 10 | 9 |
+| 7 | Hanging Knee Raise | 2 | Peso corporal | 10 | 10 |
+
+## 12 Feb 2026 — Tren Superior
+
+<!-- hevy:csv-202602122101 -->
+**Hora:** 9:01 PM  
+**Duración:** 34m  
+**Volumen Hevy:** 0 kg  
+**Comentario:** Nuevo día humillada por los niños jugando en las barras  
+
+| Orden | Ejercicio | Serie | Carga | Reps/tiempo | RPE |
+|---:|---|---:|---:|---|---:|
+| 1 | Dead Hang | 1 | Peso corporal (isométrico) | 17 s | — |
+| 1 | Dead Hang | 2 | Peso corporal (isométrico) | 33 s | — |
+| 1 | Dead Hang | 3 | Peso corporal (isométrico) | 35 s | — |
+| 2 | Pull Up | 1 | Peso corporal | 8 | 9 |
+| 2 | Pull Up | 2 | Peso corporal | 8 | 9 |
+| 2 | Pull Up | 3 | Peso corporal | 8 | 9,5 |
+| 3 | Inverted Row | 1 | Peso corporal | 7 | 9 |
+| 3 | Inverted Row | 2 | Peso corporal | 8 | 8,5 |
+| 3 | Inverted Row | 3 | Peso corporal | 8 | 9 |
+| 4 | Incline Push Ups | 1 | Peso corporal | 12 | 9 |
+| 4 | Incline Push Ups | 2 | Peso corporal | 12 | 9,5 |
+| 4 | Incline Push Ups | 3 | Peso corporal | 10 | 9,5 |
+| 5 | Hanging Knee Raise | 1 | Peso corporal | 8 | 8,5 |
+| 5 | Hanging Knee Raise | 2 | Peso corporal | 10 | 9,5 |
+| 5 | Hanging Knee Raise | 3 | Peso corporal | 10 | 9 |
+
+## 18 Feb 2026 — Barritas ft J y S
+
+<!-- hevy:csv-202602182032 -->
+**Hora:** 8:32 PM  
+**Duración:** 1h 0m  
+**Volumen Hevy:** 0 kg  
+
+| Orden | Ejercicio | Serie | Carga | Reps/tiempo | RPE |
+|---:|---|---:|---:|---|---:|
+| 1 | Squat (Bodyweight) | 1 | Peso corporal | 12 | — |
+| 1 | Squat (Bodyweight) | 2 | Peso corporal | 12 | 7,5 |
+| 1 | Squat (Bodyweight) | 3 | Peso corporal | 15 | 8 |
+| 1 | Squat (Bodyweight) | 4 | Peso corporal | 15 | 8 |
+| 2 | Inverted Row | 1 | Peso corporal | 10 | 9,5 |
+| 2 | Inverted Row | 2 | Peso corporal | 8 | — |
+| 2 | Inverted Row | 3 | Peso corporal | 8 | — |
+| 3 | Incline Push Ups | 1 | Peso corporal | 12 | — |
+| 3 | Incline Push Ups | 2 | Peso corporal | 12 | — |
+| 3 | Incline Push Ups | 3 | Peso corporal | 12 | — |
+| 4 | Step Up | 1 | Peso corporal | 20 | — |
+| 4 | Step Up | 2 | Peso corporal | 20 | — |
+| 4 | Step Up | 3 | Peso corporal | 20 | — |
+| 5 | Dead Hang | 1 | Peso corporal (isométrico) | 30 s | — |
+| 5 | Dead Hang | 2 | Peso corporal (isométrico) | 30 s | — |
+| 5 | Dead Hang | 3 | Peso corporal (isométrico) | 45 s | — |
+| 6 | Scapular Pull Ups | 1 | Peso corporal | 10 | — |
+| 6 | Scapular Pull Ups | 2 | Peso corporal | 10 | — |
+| 6 | Scapular Pull Ups | 3 | Peso corporal | 8 | — |
+| 7 | Bulgarian Split Squat (Dumbbell) | 1 | Peso corporal | 20 | — |
+| 7 | Bulgarian Split Squat (Dumbbell) | 2 | Peso corporal | 20 | — |
+| 7 | Bulgarian Split Squat (Dumbbell) | 3 | Peso corporal | 20 | — |
+| 8 | Hanging Knee Raise | 1 | Peso corporal | 10 | 8 |
+| 8 | Hanging Knee Raise | 2 | Peso corporal | 10 | 9 |
+| 8 | Hanging Knee Raise | 3 | Peso corporal | 8 | 10 |
+
+## 21 Feb 2026 — Piernas ft mp
+
+<!-- hevy:csv-202602211441 -->
+**Hora:** 2:41 PM  
+**Duración:** 1h 32m  
+**Volumen Hevy:** 3,761 kg  
+
+| Orden | Ejercicio | Serie | Carga | Reps/tiempo | RPE |
+|---:|---|---:|---:|---|---:|
+| 1 | Sumo Squat (Kettlebell) | 1 | 20 kg | 20 | 8 |
+| 1 | Sumo Squat (Kettlebell) | 2 | 20 kg | 20 | 8,5 |
+| 1 | Sumo Squat (Kettlebell) | 3 | 20 kg | 20 | 9 |
+| 2 | Hip Thrust (Machine) | 1 | 22,7 kg | 8 | — |
+| 2 | Hip Thrust (Machine) | 2 | 32,7 kg | 6 | 9 |
+| 2 | Hip Thrust (Machine) | 3 | 32,7 kg | 7 | 9,5 |
+| 2 | Hip Thrust (Machine) | 4 | 32,7 kg | 9 | 9 |
+| 3 | Deadlift (Smith Machine) | 1 | 20 kg | 8 | 7 |
+| 3 | Deadlift (Smith Machine) | 2 | 30 kg | 8 | 8,5 |
+| 3 | Deadlift (Smith Machine) | 3 | 40 kg | 6 | 9,5 |
+| 4 | Bench Press (Barbell) | 1 | 20 kg | 8 | — |
+| 4 | Bench Press (Barbell) | 2 | 30 kg | 6 | 9,5 |
+| 5 | Leg Extension (Machine) | 1 | 40 kg | 8 | — |
+| 5 | Leg Extension (Machine) | 2 | 45 kg | 8 | — |
+
+## 22 Feb 2026 — Espaldita
+
+<!-- hevy:csv-202602221346 -->
+**Hora:** 1:46 PM  
+**Duración:** 1h 13m  
+**Volumen Hevy:** 4,895 kg  
+**Comentario:** Stop this madness  
+
+| Orden | Ejercicio | Serie | Carga | Reps/tiempo | RPE |
+|---:|---|---:|---:|---|---:|
+| 1 | Seated Cable Row - Bar Grip | 1 | 20 kg | 8 | 7,5 |
+| 1 | Seated Cable Row - Bar Grip | 2 | 30 kg | 6 | 9,5 |
+| 1 | Seated Cable Row - Bar Grip | 3 | 25 kg | 8 | 9,5 |
+| 1 | Seated Cable Row - Bar Grip | 4 | 25 kg | 5 | 10 |
+| 1 | Seated Cable Row - Bar Grip | 5 | 20 kg | 10 | 9 |
+| 2 | Bent Over Row (Barbell) | 1 | 20 kg | 8 | 8,5 |
+| 2 | Bent Over Row (Barbell) | 2 | 20 kg | 8 | 8,5 |
+| 3 | Lat Pulldown (Machine) | 1 | 60 kg | 8 | 9,5 |
+| 3 | Lat Pulldown (Machine) | 2 | 60 kg | 4 | 10 |
+| 3 | Lat Pulldown (Machine) | 3 | 40 kg | 8 | 9 |
+| 4 | Leg Press (Machine) | 1 | 40 kg | 15 | 7 |
+| 4 | Leg Press (Machine) | 2 | 60 kg | 8 | 9 |
+| 4 | Leg Press (Machine) | 3 | 70 kg | 8 | 9 |
+| 5 | Iso-Lateral Row (Machine) | 1 | 20 kg | 8 | — |
+| 5 | Iso-Lateral Row (Machine) | 2 | 30 kg | 8 | 9 |
+| 5 | Iso-Lateral Row (Machine) | 3 | 30 kg | 9 | 9 |
+| 5 | Iso-Lateral Row (Machine) | 4 | 30 kg | 12 | 9 |
+
+## 23 Feb 2026 — Chill
+
+<!-- hevy:csv-202602232109 -->
+**Hora:** 9:09 PM  
+**Duración:** 26m  
+**Volumen Hevy:** 0 kg  
+
+| Orden | Ejercicio | Serie | Carga | Reps/tiempo | RPE |
+|---:|---|---:|---:|---|---:|
+| 1 | Goblet Squat | 1 | Peso corporal | 15 | 8 |
+| 1 | Goblet Squat | 2 | Peso corporal | 15 | 7,5 |
+| 1 | Goblet Squat | 3 | Peso corporal | 15 | 7,5 |
+| 2 | Incline Push Ups | 1 | Peso corporal | 12 | 8 |
+| 2 | Incline Push Ups | 2 | Peso corporal | 12 | 9 |
+| 2 | Incline Push Ups | 3 | Peso corporal | 12 | 9,5 |
+| 3 | Inverted Row | 1 | Peso corporal | 12 | 9 |
+| 3 | Inverted Row | 2 | Peso corporal | 10 | 9,5 |
+| 3 | Inverted Row | 3 | Peso corporal | 10 | 10 |
+| 4 | Bulgarian Split Squat (Dumbbell) | 1 | Peso corporal | 15 | 7,5 |
+| 4 | Bulgarian Split Squat (Dumbbell) | 2 | Peso corporal | 15 | 8,5 |
+| 4 | Bulgarian Split Squat (Dumbbell) | 3 | Peso corporal | 15 | 8,5 |
+| 5 | Jumping Jack | 1 | Peso corporal | 30 | 6 |
+| 5 | Jumping Jack | 2 | Peso corporal | 30 | 6 |
+| 5 | Jumping Jack | 3 | Peso corporal | 30 | 6 |
+
+## 26 Feb 2026 — Barritas full
+
+<!-- hevy:csv-202602261959 -->
+**Hora:** 7:59 PM  
+**Duración:** 51m  
+**Volumen Hevy:** 0 kg  
+
+| Orden | Ejercicio | Serie | Carga | Reps/tiempo | RPE |
+|---:|---|---:|---:|---|---:|
+| 1 | Squat (Bodyweight) | 1 | Peso corporal | 15 | — |
+| 1 | Squat (Bodyweight) | 2 | Peso corporal | 15 | 8 |
+| 1 | Squat (Bodyweight) | 3 | Peso corporal | 15 | 8,5 |
+| 2 | Inverted Row | 1 | Peso corporal | 10 | 8 |
+| 2 | Inverted Row | 2 | Peso corporal | 12 | 8,5 |
+| 2 | Inverted Row | 3 | Peso corporal | 10 | 9 |
+| 3 | Incline Push Ups | 1 | Peso corporal | 12 | 8,5 |
+| 3 | Incline Push Ups | 2 | Peso corporal | 10 | 9 |
+| 3 | Incline Push Ups | 3 | Peso corporal | 12 | 9,5 |
+| 4 | Step Up | 1 | Peso corporal | 20 | 8 |
+| 4 | Step Up | 2 | Peso corporal | 20 | 8,5 |
+| 4 | Step Up | 3 | Peso corporal | 20 | 8,5 |
+| 5 | Dead Hang | 1 | Peso corporal (isométrico) | 40 s | — |
+| 5 | Dead Hang | 2 | Peso corporal (isométrico) | 30 s | — |
+| 5 | Dead Hang | 3 | Peso corporal (isométrico) | 33 s | — |
+| 6 | Scapular Pull Ups | 1 | Peso corporal | 12 | 9 |
+| 6 | Scapular Pull Ups | 2 | Peso corporal | 10 | 9 |
+| 6 | Scapular Pull Ups | 3 | Peso corporal | 10 | 9,5 |
+| 7 | Bulgarian Split Squat (Dumbbell) | 1 | Peso corporal | 12 | 8 |
+| 7 | Bulgarian Split Squat (Dumbbell) | 2 | Peso corporal | 12 | 9 |
+| 7 | Bulgarian Split Squat (Dumbbell) | 3 | Peso corporal | 12 | — |
+| 8 | Hanging Knee Raise | 1 | Peso corporal | 12 | 9,5 |
+| 8 | Hanging Knee Raise | 2 | Peso corporal | 10 | 9,5 |
+| 8 | Hanging Knee Raise | 3 | Peso corporal | 15 | 10 |
+
+## 26 Feb 2026 — Abs 8 min nivel 2
+
+<!-- hevy:csv-202602262112 -->
+**Hora:** 9:12 PM  
+**Duración:** 13m  
+**Volumen Hevy:** 0 kg  
+**Comentario:** No les bastó con las barritas🫠  
+
+| Orden | Ejercicio | Serie | Carga | Reps/tiempo | RPE |
+|---:|---|---:|---:|---|---:|
+| 1 | Sit Up | 1 | Peso corporal | 40 | — |
+| 2 | Elbow to Knee | 1 | Peso corporal | 40 | — |
+| 3 | Lying Leg Raise | 1 | Peso corporal | 40 | — |
+| 4 | Crunch | 1 | Peso corporal | 40 | — |
+| 5 | Toe Touch | 1 | Peso corporal | 30 | — |
+| 6 | Lying Knee Raise | 1 | Peso corporal | 4 | — |
+| 7 | Jackknife Sit Up | 1 | Peso corporal | 40 | — |
+| 8 | Heel Taps | 1 | Peso corporal | 40 | — |
 
 ## 28 Feb 2026 — 🍑 al fallo ft 🐻
 
@@ -170,6 +521,17 @@ Registro cronológico consolidado, mismo formato que el de Mopo. Cada fila corre
 | 4 | Hip Abduction (Machine) | 4 | 30 kg | 15 | 9,5 |
 
 **Récords:** mejor volumen y 1RM en Deadlift (Barbell) (50 kg × 12); mejor peso, volumen y 1RM en Squat (Barbell) (60 kg × 2) y Hip Abduction (Machine) (50 kg × 15).
+
+## 6 Apr 2026 — De trotadora
+
+<!-- hevy:csv-202604062132 -->
+**Hora:** 9:32 PM  
+**Duración:** 41m  
+**Volumen Hevy:** 0 kg  
+
+| Orden | Ejercicio | Serie | Carga | Reps/tiempo | RPE |
+|---:|---|---:|---:|---|---:|
+| 1 | Running | 1 | Peso corporal (isométrico) | 2400 s | — |
 
 ## 7 Apr 2026 — Yo en mi mente: 🦍
 
@@ -1334,6 +1696,25 @@ Registro cronológico consolidado, mismo formato que el de Mopo. Cada fila corre
 - **Squat (Barbell):** Dolor lumbar flop
 - **Bulgarian Split Squat:** Que manera de no progresar
 
+## 28 Jun 2026 — Poto 🍑
+
+<!-- hevy:csv-202606281443 -->
+**Hora:** 2:43 PM  
+**Duración:** 1h 7m  
+**Volumen Hevy:** 4,050 kg  
+**Comentario:** Nerfeada por la fase lutea  
+
+| Orden | Ejercicio | Serie | Carga | Reps/tiempo | RPE |
+|---:|---|---:|---:|---|---:|
+| 1 | Deadlift (Smith Machine) | 1 | 10 kg | 12 | 6 |
+| 1 | Deadlift (Smith Machine) | 2 | 60 kg | 6 | 10 |
+| 1 | Deadlift (Smith Machine) | 3 | 50 kg | 8 | 10 |
+| 1 | Deadlift (Smith Machine) | 4 | 50 kg | 6 | 10 |
+| 2 | Hip Thrust (Barbell) | 1 | 60 kg | 8 | 7 |
+| 2 | Hip Thrust (Barbell) | 2 | 100 kg | 8 | 10 |
+| 2 | Hip Thrust (Barbell) | 3 | 90 kg | 7 | 10 |
+| 2 | Hip Thrust (Barbell) | 4 | 80 kg | 12 | 10 |
+
 ## 29 Jun 2026 — Empuje?
 
 **Hora:** 1:02 PM  
@@ -1399,6 +1780,32 @@ Registro cronológico consolidado, mismo formato que el de Mopo. Cada fila corre
 - **3d Multiabductor:** La ginecológica
 
 **Récords:** mejor peso, volumen y 1RM en Dumbbell Step Up (14 kg × 12).
+
+## 2 Jul 2026 — Tracción 🦍
+
+<!-- hevy:csv-202607021739 -->
+**Hora:** 5:39 PM  
+**Duración:** 1h 11m  
+**Volumen Hevy:** 4,063 kg  
+**Comentario:** Never beating labubu allegations  
+
+| Orden | Ejercicio | Serie | Carga | Reps/tiempo | RPE |
+|---:|---|---:|---:|---|---:|
+| 1 | Rear Delt Reverse Fly (Machine) | 1 | 24 kg | 12 | 9 |
+| 1 | Rear Delt Reverse Fly (Machine) | 2 | 26 kg | 12 | 9 |
+| 1 | Rear Delt Reverse Fly (Machine) | 3 | 26 kg | 8 | 8 |
+| 2 | Bent Over Row (Barbell) | 1 | 20 kg | 12 | 7 |
+| 2 | Bent Over Row (Barbell) | 2 | 40 kg | 9 | 9 |
+| 2 | Bent Over Row (Barbell) | 3 | 40 kg | 8 | 9 |
+| 2 | Bent Over Row (Barbell) | 4 | 40 kg | 6 | 10 |
+| 2 | Bent Over Row (Barbell) | 5 | 30 kg | 13 | 9 |
+| 3 | Lat Pulldown (Cable) | 1 | 26 kg | 12 | 7 |
+| 3 | Lat Pulldown (Cable) | 2 | 35,5 kg | 12 | 9,5 |
+| 3 | Lat Pulldown (Cable) | 3 | 35,5 kg | 12 | 10 |
+| 3 | Lat Pulldown (Cable) | 4 | 33 kg | 11 | 10 |
+| 4 | Seated Incline Curl (Dumbbell) | 1 | 6 kg | 13 | 9,5 |
+| 4 | Seated Incline Curl (Dumbbell) | 2 | 5 kg | 11 | 10 |
+| 4 | Seated Incline Curl (Dumbbell) | 3 | 5 kg | 9 | 10 |
 
 ## 4 Jul 2026 — Piernas 🍗
 
@@ -1572,6 +1979,18 @@ Registro cronológico consolidado, mismo formato que el de Mopo. Cada fila corre
 - **Leg Press (Machine):** 110 bien, llegar a las 12
 
 **Récords:** mejor volumen en Squat (Smith Machine) (45 kg × 12), Deadlift (Smith Machine) (50 kg × 10) y Leg Press (Machine) (100 kg × 15); mejor peso y 1RM en Leg Extension (Machine) (52 kg × 12); mejor volumen y 1RM en Standing Cable Glute Kickbacks (23 kg × 15).
+
+## 12 Jul 2026 — Ciclorrecreovía
+
+<!-- hevy:csv-202607121130 -->
+**Hora:** 11:30 AM  
+**Duración:** 1h 1m  
+**Volumen Hevy:** 0 kg  
+**Comentario:** Se me olvidó poner el strava😢 pero de colon a vitacura🍑  
+
+| Orden | Ejercicio | Serie | Carga | Reps/tiempo | RPE |
+|---:|---|---:|---:|---|---:|
+| 1 | Skating | 1 | Peso corporal (isométrico) | 3602 s | — |
 
 ## 16 Jul 2026 — Poto 🍑
 
@@ -1881,6 +2300,20 @@ Registro cronológico consolidado, mismo formato que el de Mopo. Cada fila corre
 - **Dumbbell Step Up:** Codo no aguanta
 - **Walking:** A la casa
 
+## 6 Aug 2026 — Rancagua
+
+<!-- hevy:csv-202608062002 -->
+**Hora:** 8:02 PM  
+**Duración:** 31m  
+**Volumen Hevy:** 0 kg  
+
+| Orden | Ejercicio | Serie | Carga | Reps/tiempo | RPE |
+|---:|---|---:|---:|---|---:|
+| 1 | Running | 1 | Peso corporal (isométrico) | 1804 s | — |
+
+**Notas por ejercicio:**
+- **Running:** Ritmo 6:37
+
 ## 9 Aug 2026 — Poto 🍑
 
 **Hora:** 11:58 AM  
@@ -1934,6 +2367,30 @@ Registro cronológico consolidado, mismo formato que el de Mopo. Cada fila corre
 - **Leg Press (Machine):** Hoy fallamos 140🫥
 
 **Récords:** mejor peso, volumen y 1RM en Leg Extension (Machine) (52,5 kg × 15).
+
+## 13 Aug 2026 — Poto 😶‍🌫️
+
+<!-- hevy:csv-202608131817 -->
+**Hora:** 6:17 PM  
+**Duración:** 1h 3m  
+**Volumen Hevy:** 6,915 kg  
+**Comentario:** Retrospectivo😶‍🌫️😶‍🌫️😶‍🌫️  
+
+| Orden | Ejercicio | Serie | Carga | Reps/tiempo | RPE |
+|---:|---|---:|---:|---|---:|
+| 1 | Bulgarian Split Squat (Dumbbell) | 1 | 12 kg | 15 | 8 |
+| 1 | Bulgarian Split Squat (Dumbbell) | 2 | 12 kg | 15 | 9 |
+| 1 | Bulgarian Split Squat (Dumbbell) | 3 | 12 kg | 15 | 9 |
+| 2 | Hip Abduction (Machine) | 1 | 80 kg | 15 | 10 |
+| 2 | Hip Abduction (Machine) | 2 | 75 kg | 15 | 9 |
+| 2 | Hip Abduction (Machine) | 3 | 75 kg | 15 | 9,5 |
+| 3 | Hip Adduction (Machine) | 1 | 67,5 kg | 15 | 10 |
+| 3 | Hip Adduction (Machine) | 2 | 65 kg | 15 | 10 |
+| 3 | Hip Adduction (Machine) | 3 | 62,5 kg | 15 | — |
+| 4 | Stair Machine (Floors) | 1 | Peso corporal (isométrico) | 960 s | — |
+
+**Notas por ejercicio:**
+- **Bulgarian Split Squat (Dumbbell):** Solo mancuerna en la mano nonmanca
 
 ## 16 Aug 2026 — Poto 🍑
 

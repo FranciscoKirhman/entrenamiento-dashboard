@@ -21428,7 +21428,7 @@
    {
     "name": "Glúteo / cadera",
     "recent": 4.7,
-    "hist": 6.2,
+    "hist": 5.5,
     "lo": 10,
     "hi": 16,
     "tier": "critical",
@@ -21439,7 +21439,7 @@
    {
     "name": "Cuádriceps",
     "recent": 5.8,
-    "hist": 8.0,
+    "hist": 8.1,
     "lo": 8,
     "hi": 14,
     "tier": "warning",
@@ -21450,7 +21450,7 @@
    {
     "name": "Femoral",
     "recent": 1.8,
-    "hist": 2.8,
+    "hist": 2.4,
     "lo": 6,
     "hi": 10,
     "tier": "critical",
@@ -21461,7 +21461,7 @@
    {
     "name": "Aductor / abductor",
     "recent": 0.0,
-    "hist": 3.0,
+    "hist": 2.6,
     "lo": 6,
     "hi": 12,
     "tier": "critical",
@@ -21472,7 +21472,7 @@
    {
     "name": "Core",
     "recent": 5.2,
-    "hist": 6.1,
+    "hist": 5.9,
     "lo": 12,
     "hi": 24,
     "tier": "critical",
@@ -21483,7 +21483,7 @@
    {
     "name": "Espalda",
     "recent": 3.5,
-    "hist": 4.4,
+    "hist": 4.6,
     "lo": 8,
     "hi": 14,
     "tier": "critical",
@@ -21494,7 +21494,7 @@
    {
     "name": "Pecho",
     "recent": 2.9,
-    "hist": 2.8,
+    "hist": 2.3,
     "lo": 4,
     "hi": 10,
     "tier": "warning",
@@ -21505,7 +21505,7 @@
    {
     "name": "Hombro",
     "recent": 7.0,
-    "hist": 4.3,
+    "hist": 3.7,
     "lo": 4,
     "hi": 10,
     "tier": "good",
@@ -21516,7 +21516,7 @@
    {
     "name": "Bíceps",
     "recent": 1.8,
-    "hist": 1.9,
+    "hist": 1.6,
     "lo": 3,
     "hi": 8,
     "tier": "warning",
@@ -21527,7 +21527,7 @@
    {
     "name": "Tríceps",
     "recent": 2.9,
-    "hist": 1.9,
+    "hist": 1.6,
     "lo": 3,
     "hi": 8,
     "tier": "warning",
@@ -28959,28 +28959,28 @@
        },
        {
         "serie": "Trabajo 1",
-        "carga": "17,5 kg",
-        "reps": "15",
+        "carga": "20 kg",
+        "reps": "12",
         "rir": "objetivo 3",
         "descanso": "90s"
        },
        {
         "serie": "Trabajo 2",
-        "carga": "17,5 kg",
-        "reps": "15",
+        "carga": "20 kg",
+        "reps": "12",
         "rir": "objetivo 2",
         "descanso": "90s"
        },
        {
         "serie": "Trabajo 3",
-        "carga": "17,5 kg",
-        "reps": "15",
+        "carga": "20 kg",
+        "reps": "12",
         "rir": "objetivo 2",
         "descanso": "90s"
        }
       ],
-      "cue": "**17,5 × 15.** El 25 probaste 20 × 12 a RPE 7,5 y 20 × 10 a RPE 9, y volviste a 17,5 × 12. Si esa barra de 20 la armas igual que el jueves, haz **20 × 10 en las tres**; si no, 17,5 × 15.\n\n**Cómo te pones:** ojos bajo la barra, omóplatos juntos y hacia abajo, pies firmes en el suelo. Agarre un poco más ancho que los hombros.\n\n**Qué haces:** baja la barra a la parte baja del pecho con los codos a 30-45° del cuerpo, toca sin rebotar y empuja hacia arriba y un poco hacia la cara.\n\n**Cómo sabes que está bien:** los omóplatos no se despegan del banco en ninguna repetición. Si molesta el hombro, cierra un poco más los codos antes de bajar el peso.",
-      "barra": 12.5
+      "cue": "**Barra olímpica sola: 20 × 12 en las tres.** El 25 salió 20 × 12 a RPE 7,5 y 20 × 10 a RPE 9. La aproximación va con la barra corta de 12,5, sin discos.\n\n**Cómo te pones:** ojos bajo la barra, omóplatos juntos y hacia abajo, pies firmes en el suelo. Agarre un poco más ancho que los hombros.\n\n**Qué haces:** baja la barra a la parte baja del pecho con los codos a 30-45° del cuerpo, toca sin rebotar y empuja hacia arriba y un poco hacia la cara.\n\n**Cómo sabes que está bien:** los omóplatos no se despegan del banco en ninguna repetición. Si molesta el hombro, cierra un poco más los codos antes de bajar el peso.",
+      "barra": 20
      },
      {
       "name": "Shoulder Press (Dumbbell)",
@@ -30088,7 +30088,7 @@
     "date": "2026-10-09",
     "focus": "Tren superior — espalda, pecho y hombro",
     "tag": "entreno",
-    "rationale": "**Día 20 — lútea (proyectado).** **Semana 3 de 4.** Con tu regla del 20, el premenstrual se corrió a la semana de descarga: hoy estás en lútea y el tren superior puede subir. **La banca y el press de hombro suben de peso y bajan de repeticiones:** a 15 ya no quedan repeticiones que sumar. Lo demás repite la semana 2, con una repetición más por serie si todo salió a RPE 7 o menos.",
+    "rationale": "**Día 20 — lútea (proyectado).** **Semana 3 de 4.** Con tu regla del 20, el premenstrual se corrió a la semana de descarga: hoy estás en lútea y el tren superior puede subir. **La banca (a 25 con la barra olímpica) y el press de hombro suben de peso y bajan de repeticiones:** a 15 ya no quedan repeticiones que sumar. Lo demás repite la semana 2, con una repetición más por serie si todo salió a RPE 7 o menos.",
     "cardio": "Escaladora 12 min: 2 min a RPE 3 · 8 min a RPE 5 · 2 min a RPE 3. RPE 3 = hablas normal · RPE 4 = hablas pero se nota el esfuerzo · RPE 5 = solo frases cortas.",
     "warmup": [
      {
@@ -30212,35 +30212,35 @@
       "sets": [
        {
         "serie": "Aprox.",
-        "carga": "12,5 kg",
-        "reps": "12",
+        "carga": "20 kg",
+        "reps": "10",
         "rir": "5",
         "descanso": "60s"
        },
        {
         "serie": "Trabajo 1",
-        "carga": "22,5 kg",
+        "carga": "25 kg",
         "reps": "8",
         "rir": "objetivo 3",
         "descanso": "90s"
        },
        {
         "serie": "Trabajo 2",
-        "carga": "22,5 kg",
+        "carga": "25 kg",
         "reps": "8",
         "rir": "objetivo 3",
         "descanso": "90s"
        },
        {
         "serie": "Trabajo 3",
-        "carga": "22,5 kg",
+        "carga": "25 kg",
         "reps": "8",
         "rir": "objetivo 3",
         "descanso": "90s"
        }
       ],
-      "cue": "**Sube a 22,5 × 8**, 5 kg por lado con la barra de 12,5, solo si el viernes 2 salió 20 × 10 o 17,5 × 15 en las tres con RPE 8 o menos. Si no, repite lo del viernes 2.\n\n**Cómo te pones:** ojos bajo la barra, omóplatos juntos y hacia abajo, pies firmes en el suelo. Agarre un poco más ancho que los hombros.\n\n**Qué haces:** baja la barra a la parte baja del pecho con los codos a 30-45° del cuerpo, toca sin rebotar y empuja hacia arriba y un poco hacia la cara.\n\n**Cómo sabes que está bien:** los omóplatos no se despegan del banco en ninguna repetición. Si molesta el hombro, cierra un poco más los codos antes de bajar el peso.",
-      "barra": 12.5
+      "cue": "**Sube a 25 × 8**: barra olímpica con un disco de 2,5 por lado, solo si el viernes 2 salieron las tres a 20 × 12 con RPE 8 o menos. Si no, repite 20 × 12. En junio llegaste a 25 × 10: es volver ahí, no un peso nuevo. La aproximación es la barra sola.\n\n**Cómo te pones:** ojos bajo la barra, omóplatos juntos y hacia abajo, pies firmes en el suelo. Agarre un poco más ancho que los hombros.\n\n**Qué haces:** baja la barra a la parte baja del pecho con los codos a 30-45° del cuerpo, toca sin rebotar y empuja hacia arriba y un poco hacia la cara.\n\n**Cómo sabes que está bien:** los omóplatos no se despegan del banco en ninguna repetición. Si molesta el hombro, cierra un poco más los codos antes de bajar el peso.",
+      "barra": 20
      },
      {
       "name": "Shoulder Press (Dumbbell)",
@@ -31232,6 +31232,10 @@
       "w": 100.0
      },
      {
+      "d": "28 jun",
+      "w": 100.0
+     },
+     {
       "d": "07 jul",
       "w": 100.0
      },
@@ -31301,6 +31305,10 @@
     "lo": 110,
     "hi": 125,
     "data": [
+     {
+      "d": "22 feb",
+      "w": 70.0
+     },
      {
       "d": "10 mar",
       "w": 120.0
@@ -31438,6 +31446,10 @@
      {
       "d": "09 ago",
       "w": 82.0
+     },
+     {
+      "d": "13 ago",
+      "w": 80.0
      },
      {
       "d": "21 ago",
@@ -31586,6 +31598,10 @@
     "hi": 52,
     "data": [
      {
+      "d": "21 feb",
+      "w": 45.0
+     },
+     {
       "d": "11 abr",
       "w": 35.0
      },
@@ -31732,6 +31748,10 @@
      {
       "d": "28 jul",
       "w": 65.0
+     },
+     {
+      "d": "13 ago",
+      "w": 67.5
      },
      {
       "d": "29 ago",
@@ -34795,6 +34815,78 @@
     ]
    },
    {
+    "date": "2026-08-13",
+    "dlabel": "13 ago",
+    "title": "Poto 😶‍🌫️",
+    "hora": "6:17 PM",
+    "dur": "1h 3m",
+    "vol": "6,915",
+    "com": "Retrospectivo😶‍🌫️😶‍🌫️😶‍🌫️",
+    "rec": null,
+    "exercises": [
+     {
+      "ej": "Bulgarian Split Squat (Dumbbell)",
+      "carga": "12",
+      "reps": "15",
+      "rpe": "8"
+     },
+     {
+      "ej": "Bulgarian Split Squat (Dumbbell)",
+      "carga": "12",
+      "reps": "15",
+      "rpe": "9"
+     },
+     {
+      "ej": "Bulgarian Split Squat (Dumbbell)",
+      "carga": "12",
+      "reps": "15",
+      "rpe": "9"
+     },
+     {
+      "ej": "Hip Abduction (Machine)",
+      "carga": "80",
+      "reps": "15",
+      "rpe": "10"
+     },
+     {
+      "ej": "Hip Abduction (Machine)",
+      "carga": "75",
+      "reps": "15",
+      "rpe": "9"
+     },
+     {
+      "ej": "Hip Abduction (Machine)",
+      "carga": "75",
+      "reps": "15",
+      "rpe": "9,5"
+     },
+     {
+      "ej": "Hip Adduction (Machine)",
+      "carga": "67,5",
+      "reps": "15",
+      "rpe": "10"
+     },
+     {
+      "ej": "Hip Adduction (Machine)",
+      "carga": "65",
+      "reps": "15",
+      "rpe": "10"
+     },
+     {
+      "ej": "Hip Adduction (Machine)",
+      "carga": "62,5",
+      "reps": "15",
+      "rpe": "—"
+     },
+     {
+      "ej": "Stair Machine (Floors)",
+      "carga": "Peso corporal (isométrico)",
+      "reps": "960 s",
+      "rpe": "—"
+     }
+    ]
+   },
+   {
     "date": "2026-08-11",
     "dlabel": "11 ago",
     "title": "Piernas 🍗 ft 🥥",
@@ -34953,6 +35045,24 @@
       "carga": "82",
       "reps": "15",
       "rpe": "9"
+     }
+    ]
+   },
+   {
+    "date": "2026-08-06",
+    "dlabel": "06 ago",
+    "title": "Rancagua",
+    "hora": "8:02 PM",
+    "dur": "31m",
+    "vol": "0",
+    "com": null,
+    "rec": null,
+    "exercises": [
+     {
+      "ej": "Running",
+      "carga": "Peso corporal (isométrico)",
+      "reps": "1804 s",
+      "rpe": "—"
      }
     ]
    },
@@ -36109,6 +36219,24 @@
     ]
    },
    {
+    "date": "2026-07-12",
+    "dlabel": "12 jul",
+    "title": "Ciclorrecreovía",
+    "hora": "11:30 AM",
+    "dur": "1h 1m",
+    "vol": "0",
+    "com": "Se me olvidó poner el strava😢 pero de colon a vitacura🍑",
+    "rec": null,
+    "exercises": [
+     {
+      "ej": "Skating",
+      "carga": "Peso corporal (isométrico)",
+      "reps": "3602 s",
+      "rpe": "—"
+     }
+    ]
+   },
+   {
     "date": "2026-07-10",
     "dlabel": "10 jul",
     "title": "Piernas 🍗 y poto ft 🥥",
@@ -36733,6 +36861,108 @@
     ]
    },
    {
+    "date": "2026-07-02",
+    "dlabel": "02 jul",
+    "title": "Tracción 🦍",
+    "hora": "5:39 PM",
+    "dur": "1h 11m",
+    "vol": "4,063",
+    "com": "Never beating labubu allegations",
+    "rec": null,
+    "exercises": [
+     {
+      "ej": "Rear Delt Reverse Fly (Machine)",
+      "carga": "24",
+      "reps": "12",
+      "rpe": "9"
+     },
+     {
+      "ej": "Rear Delt Reverse Fly (Machine)",
+      "carga": "26",
+      "reps": "12",
+      "rpe": "9"
+     },
+     {
+      "ej": "Rear Delt Reverse Fly (Machine)",
+      "carga": "26",
+      "reps": "8",
+      "rpe": "8"
+     },
+     {
+      "ej": "Bent Over Row (Barbell)",
+      "carga": "20",
+      "reps": "12",
+      "rpe": "7"
+     },
+     {
+      "ej": "Bent Over Row (Barbell)",
+      "carga": "40",
+      "reps": "9",
+      "rpe": "9"
+     },
+     {
+      "ej": "Bent Over Row (Barbell)",
+      "carga": "40",
+      "reps": "8",
+      "rpe": "9"
+     },
+     {
+      "ej": "Bent Over Row (Barbell)",
+      "carga": "40",
+      "reps": "6",
+      "rpe": "10"
+     },
+     {
+      "ej": "Bent Over Row (Barbell)",
+      "carga": "30",
+      "reps": "13",
+      "rpe": "9"
+     },
+     {
+      "ej": "Lat Pulldown (Cable)",
+      "carga": "26",
+      "reps": "12",
+      "rpe": "7"
+     },
+     {
+      "ej": "Lat Pulldown (Cable)",
+      "carga": "35,5",
+      "reps": "12",
+      "rpe": "9,5"
+     },
+     {
+      "ej": "Lat Pulldown (Cable)",
+      "carga": "35,5",
+      "reps": "12",
+      "rpe": "10"
+     },
+     {
+      "ej": "Lat Pulldown (Cable)",
+      "carga": "33",
+      "reps": "11",
+      "rpe": "10"
+     },
+     {
+      "ej": "Seated Incline Curl (Dumbbell)",
+      "carga": "6",
+      "reps": "13",
+      "rpe": "9,5"
+     },
+     {
+      "ej": "Seated Incline Curl (Dumbbell)",
+      "carga": "5",
+      "reps": "11",
+      "rpe": "10"
+     },
+     {
+      "ej": "Seated Incline Curl (Dumbbell)",
+      "carga": "5",
+      "reps": "9",
+      "rpe": "10"
+     }
+    ]
+   },
+   {
     "date": "2026-06-30",
     "dlabel": "30 jun",
     "title": "Poto sin hip thrust😶‍🌫️",
@@ -36969,6 +37199,66 @@
       "carga": "Peso corporal",
       "reps": "15",
       "rpe": "9,5"
+     }
+    ]
+   },
+   {
+    "date": "2026-06-28",
+    "dlabel": "28 jun",
+    "title": "Poto 🍑",
+    "hora": "2:43 PM",
+    "dur": "1h 7m",
+    "vol": "4,050",
+    "com": "Nerfeada por la fase lutea",
+    "rec": null,
+    "exercises": [
+     {
+      "ej": "Deadlift (Smith Machine)",
+      "carga": "10",
+      "reps": "12",
+      "rpe": "6"
+     },
+     {
+      "ej": "Deadlift (Smith Machine)",
+      "carga": "60",
+      "reps": "6",
+      "rpe": "10"
+     },
+     {
+      "ej": "Deadlift (Smith Machine)",
+      "carga": "50",
+      "reps": "8",
+      "rpe": "10"
+     },
+     {
+      "ej": "Deadlift (Smith Machine)",
+      "carga": "50",
+      "reps": "6",
+      "rpe": "10"
+     },
+     {
+      "ej": "Hip Thrust (Barbell)",
+      "carga": "60",
+      "reps": "8",
+      "rpe": "7"
+     },
+     {
+      "ej": "Hip Thrust (Barbell)",
+      "carga": "100",
+      "reps": "8",
+      "rpe": "10"
+     },
+     {
+      "ej": "Hip Thrust (Barbell)",
+      "carga": "90",
+      "reps": "7",
+      "rpe": "10"
+     },
+     {
+      "ej": "Hip Thrust (Barbell)",
+      "carga": "80",
+      "reps": "12",
+      "rpe": "10"
      }
     ]
    },
@@ -41287,6 +41577,24 @@
     ]
    },
    {
+    "date": "2026-04-06",
+    "dlabel": "06 abr",
+    "title": "De trotadora",
+    "hora": "9:32 PM",
+    "dur": "41m",
+    "vol": "0",
+    "com": null,
+    "rec": null,
+    "exercises": [
+     {
+      "ej": "Running",
+      "carga": "Peso corporal (isométrico)",
+      "reps": "2400 s",
+      "rpe": "—"
+     }
+    ]
+   },
+   {
     "date": "2026-04-05",
     "dlabel": "05 abr",
     "title": "De vuelta🌚",
@@ -41901,6 +42209,1512 @@
       "carga": "20",
       "reps": "15",
       "rpe": "8"
+     }
+    ]
+   },
+   {
+    "date": "2026-02-26",
+    "dlabel": "26 feb",
+    "title": "Abs 8 min nivel 2",
+    "hora": "9:12 PM",
+    "dur": "13m",
+    "vol": "0",
+    "com": "No les bastó con las barritas🫠",
+    "rec": null,
+    "exercises": [
+     {
+      "ej": "Sit Up",
+      "carga": "Peso corporal",
+      "reps": "40",
+      "rpe": "—"
+     },
+     {
+      "ej": "Elbow to Knee",
+      "carga": "Peso corporal",
+      "reps": "40",
+      "rpe": "—"
+     },
+     {
+      "ej": "Lying Leg Raise",
+      "carga": "Peso corporal",
+      "reps": "40",
+      "rpe": "—"
+     },
+     {
+      "ej": "Crunch",
+      "carga": "Peso corporal",
+      "reps": "40",
+      "rpe": "—"
+     },
+     {
+      "ej": "Toe Touch",
+      "carga": "Peso corporal",
+      "reps": "30",
+      "rpe": "—"
+     },
+     {
+      "ej": "Lying Knee Raise",
+      "carga": "Peso corporal",
+      "reps": "4",
+      "rpe": "—"
+     },
+     {
+      "ej": "Jackknife Sit Up",
+      "carga": "Peso corporal",
+      "reps": "40",
+      "rpe": "—"
+     },
+     {
+      "ej": "Heel Taps",
+      "carga": "Peso corporal",
+      "reps": "40",
+      "rpe": "—"
+     }
+    ]
+   },
+   {
+    "date": "2026-02-26",
+    "dlabel": "26 feb",
+    "title": "Barritas full",
+    "hora": "7:59 PM",
+    "dur": "51m",
+    "vol": "0",
+    "com": null,
+    "rec": null,
+    "exercises": [
+     {
+      "ej": "Squat (Bodyweight)",
+      "carga": "Peso corporal",
+      "reps": "15",
+      "rpe": "—"
+     },
+     {
+      "ej": "Squat (Bodyweight)",
+      "carga": "Peso corporal",
+      "reps": "15",
+      "rpe": "8"
+     },
+     {
+      "ej": "Squat (Bodyweight)",
+      "carga": "Peso corporal",
+      "reps": "15",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Inverted Row",
+      "carga": "Peso corporal",
+      "reps": "10",
+      "rpe": "8"
+     },
+     {
+      "ej": "Inverted Row",
+      "carga": "Peso corporal",
+      "reps": "12",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Inverted Row",
+      "carga": "Peso corporal",
+      "reps": "10",
+      "rpe": "9"
+     },
+     {
+      "ej": "Incline Push Ups",
+      "carga": "Peso corporal",
+      "reps": "12",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Incline Push Ups",
+      "carga": "Peso corporal",
+      "reps": "10",
+      "rpe": "9"
+     },
+     {
+      "ej": "Incline Push Ups",
+      "carga": "Peso corporal",
+      "reps": "12",
+      "rpe": "9,5"
+     },
+     {
+      "ej": "Step Up",
+      "carga": "Peso corporal",
+      "reps": "20",
+      "rpe": "8"
+     },
+     {
+      "ej": "Step Up",
+      "carga": "Peso corporal",
+      "reps": "20",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Step Up",
+      "carga": "Peso corporal",
+      "reps": "20",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Dead Hang",
+      "carga": "Peso corporal (isométrico)",
+      "reps": "40 s",
+      "rpe": "—"
+     },
+     {
+      "ej": "Dead Hang",
+      "carga": "Peso corporal (isométrico)",
+      "reps": "30 s",
+      "rpe": "—"
+     },
+     {
+      "ej": "Dead Hang",
+      "carga": "Peso corporal (isométrico)",
+      "reps": "33 s",
+      "rpe": "—"
+     },
+     {
+      "ej": "Scapular Pull Ups",
+      "carga": "Peso corporal",
+      "reps": "12",
+      "rpe": "9"
+     },
+     {
+      "ej": "Scapular Pull Ups",
+      "carga": "Peso corporal",
+      "reps": "10",
+      "rpe": "9"
+     },
+     {
+      "ej": "Scapular Pull Ups",
+      "carga": "Peso corporal",
+      "reps": "10",
+      "rpe": "9,5"
+     },
+     {
+      "ej": "Bulgarian Split Squat (Dumbbell)",
+      "carga": "Peso corporal",
+      "reps": "12",
+      "rpe": "8"
+     },
+     {
+      "ej": "Bulgarian Split Squat (Dumbbell)",
+      "carga": "Peso corporal",
+      "reps": "12",
+      "rpe": "9"
+     },
+     {
+      "ej": "Bulgarian Split Squat (Dumbbell)",
+      "carga": "Peso corporal",
+      "reps": "12",
+      "rpe": "—"
+     },
+     {
+      "ej": "Hanging Knee Raise",
+      "carga": "Peso corporal",
+      "reps": "12",
+      "rpe": "9,5"
+     },
+     {
+      "ej": "Hanging Knee Raise",
+      "carga": "Peso corporal",
+      "reps": "10",
+      "rpe": "9,5"
+     },
+     {
+      "ej": "Hanging Knee Raise",
+      "carga": "Peso corporal",
+      "reps": "15",
+      "rpe": "10"
+     }
+    ]
+   },
+   {
+    "date": "2026-02-23",
+    "dlabel": "23 feb",
+    "title": "Chill",
+    "hora": "9:09 PM",
+    "dur": "26m",
+    "vol": "0",
+    "com": null,
+    "rec": null,
+    "exercises": [
+     {
+      "ej": "Goblet Squat",
+      "carga": "Peso corporal",
+      "reps": "15",
+      "rpe": "8"
+     },
+     {
+      "ej": "Goblet Squat",
+      "carga": "Peso corporal",
+      "reps": "15",
+      "rpe": "7,5"
+     },
+     {
+      "ej": "Goblet Squat",
+      "carga": "Peso corporal",
+      "reps": "15",
+      "rpe": "7,5"
+     },
+     {
+      "ej": "Incline Push Ups",
+      "carga": "Peso corporal",
+      "reps": "12",
+      "rpe": "8"
+     },
+     {
+      "ej": "Incline Push Ups",
+      "carga": "Peso corporal",
+      "reps": "12",
+      "rpe": "9"
+     },
+     {
+      "ej": "Incline Push Ups",
+      "carga": "Peso corporal",
+      "reps": "12",
+      "rpe": "9,5"
+     },
+     {
+      "ej": "Inverted Row",
+      "carga": "Peso corporal",
+      "reps": "12",
+      "rpe": "9"
+     },
+     {
+      "ej": "Inverted Row",
+      "carga": "Peso corporal",
+      "reps": "10",
+      "rpe": "9,5"
+     },
+     {
+      "ej": "Inverted Row",
+      "carga": "Peso corporal",
+      "reps": "10",
+      "rpe": "10"
+     },
+     {
+      "ej": "Bulgarian Split Squat (Dumbbell)",
+      "carga": "Peso corporal",
+      "reps": "15",
+      "rpe": "7,5"
+     },
+     {
+      "ej": "Bulgarian Split Squat (Dumbbell)",
+      "carga": "Peso corporal",
+      "reps": "15",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Bulgarian Split Squat (Dumbbell)",
+      "carga": "Peso corporal",
+      "reps": "15",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Jumping Jack",
+      "carga": "Peso corporal",
+      "reps": "30",
+      "rpe": "6"
+     },
+     {
+      "ej": "Jumping Jack",
+      "carga": "Peso corporal",
+      "reps": "30",
+      "rpe": "6"
+     },
+     {
+      "ej": "Jumping Jack",
+      "carga": "Peso corporal",
+      "reps": "30",
+      "rpe": "6"
+     }
+    ]
+   },
+   {
+    "date": "2026-02-22",
+    "dlabel": "22 feb",
+    "title": "Espaldita",
+    "hora": "1:46 PM",
+    "dur": "1h 13m",
+    "vol": "4,895",
+    "com": "Stop this madness",
+    "rec": null,
+    "exercises": [
+     {
+      "ej": "Seated Cable Row - Bar Grip",
+      "carga": "20",
+      "reps": "8",
+      "rpe": "7,5"
+     },
+     {
+      "ej": "Seated Cable Row - Bar Grip",
+      "carga": "30",
+      "reps": "6",
+      "rpe": "9,5"
+     },
+     {
+      "ej": "Seated Cable Row - Bar Grip",
+      "carga": "25",
+      "reps": "8",
+      "rpe": "9,5"
+     },
+     {
+      "ej": "Seated Cable Row - Bar Grip",
+      "carga": "25",
+      "reps": "5",
+      "rpe": "10"
+     },
+     {
+      "ej": "Seated Cable Row - Bar Grip",
+      "carga": "20",
+      "reps": "10",
+      "rpe": "9"
+     },
+     {
+      "ej": "Bent Over Row (Barbell)",
+      "carga": "20",
+      "reps": "8",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Bent Over Row (Barbell)",
+      "carga": "20",
+      "reps": "8",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Lat Pulldown (Machine)",
+      "carga": "60",
+      "reps": "8",
+      "rpe": "9,5"
+     },
+     {
+      "ej": "Lat Pulldown (Machine)",
+      "carga": "60",
+      "reps": "4",
+      "rpe": "10"
+     },
+     {
+      "ej": "Lat Pulldown (Machine)",
+      "carga": "40",
+      "reps": "8",
+      "rpe": "9"
+     },
+     {
+      "ej": "Leg Press (Machine)",
+      "carga": "40",
+      "reps": "15",
+      "rpe": "7"
+     },
+     {
+      "ej": "Leg Press (Machine)",
+      "carga": "60",
+      "reps": "8",
+      "rpe": "9"
+     },
+     {
+      "ej": "Leg Press (Machine)",
+      "carga": "70",
+      "reps": "8",
+      "rpe": "9"
+     },
+     {
+      "ej": "Iso-Lateral Row (Machine)",
+      "carga": "20",
+      "reps": "8",
+      "rpe": "—"
+     },
+     {
+      "ej": "Iso-Lateral Row (Machine)",
+      "carga": "30",
+      "reps": "8",
+      "rpe": "9"
+     },
+     {
+      "ej": "Iso-Lateral Row (Machine)",
+      "carga": "30",
+      "reps": "9",
+      "rpe": "9"
+     },
+     {
+      "ej": "Iso-Lateral Row (Machine)",
+      "carga": "30",
+      "reps": "12",
+      "rpe": "9"
+     }
+    ]
+   },
+   {
+    "date": "2026-02-21",
+    "dlabel": "21 feb",
+    "title": "Piernas ft mp",
+    "hora": "2:41 PM",
+    "dur": "1h 32m",
+    "vol": "3,761",
+    "com": null,
+    "rec": null,
+    "exercises": [
+     {
+      "ej": "Sumo Squat (Kettlebell)",
+      "carga": "20",
+      "reps": "20",
+      "rpe": "8"
+     },
+     {
+      "ej": "Sumo Squat (Kettlebell)",
+      "carga": "20",
+      "reps": "20",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Sumo Squat (Kettlebell)",
+      "carga": "20",
+      "reps": "20",
+      "rpe": "9"
+     },
+     {
+      "ej": "Hip Thrust (Machine)",
+      "carga": "22,7",
+      "reps": "8",
+      "rpe": "—"
+     },
+     {
+      "ej": "Hip Thrust (Machine)",
+      "carga": "32,7",
+      "reps": "6",
+      "rpe": "9"
+     },
+     {
+      "ej": "Hip Thrust (Machine)",
+      "carga": "32,7",
+      "reps": "7",
+      "rpe": "9,5"
+     },
+     {
+      "ej": "Hip Thrust (Machine)",
+      "carga": "32,7",
+      "reps": "9",
+      "rpe": "9"
+     },
+     {
+      "ej": "Deadlift (Smith Machine)",
+      "carga": "20",
+      "reps": "8",
+      "rpe": "7"
+     },
+     {
+      "ej": "Deadlift (Smith Machine)",
+      "carga": "30",
+      "reps": "8",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Deadlift (Smith Machine)",
+      "carga": "40",
+      "reps": "6",
+      "rpe": "9,5"
+     },
+     {
+      "ej": "Bench Press (Barbell)",
+      "carga": "20",
+      "reps": "8",
+      "rpe": "—"
+     },
+     {
+      "ej": "Bench Press (Barbell)",
+      "carga": "30",
+      "reps": "6",
+      "rpe": "9,5"
+     },
+     {
+      "ej": "Leg Extension (Machine)",
+      "carga": "40",
+      "reps": "8",
+      "rpe": "—"
+     },
+     {
+      "ej": "Leg Extension (Machine)",
+      "carga": "45",
+      "reps": "8",
+      "rpe": "—"
+     }
+    ]
+   },
+   {
+    "date": "2026-02-18",
+    "dlabel": "18 feb",
+    "title": "Barritas ft J y S",
+    "hora": "8:32 PM",
+    "dur": "1h 0m",
+    "vol": "0",
+    "com": null,
+    "rec": null,
+    "exercises": [
+     {
+      "ej": "Squat (Bodyweight)",
+      "carga": "Peso corporal",
+      "reps": "12",
+      "rpe": "—"
+     },
+     {
+      "ej": "Squat (Bodyweight)",
+      "carga": "Peso corporal",
+      "reps": "12",
+      "rpe": "7,5"
+     },
+     {
+      "ej": "Squat (Bodyweight)",
+      "carga": "Peso corporal",
+      "reps": "15",
+      "rpe": "8"
+     },
+     {
+      "ej": "Squat (Bodyweight)",
+      "carga": "Peso corporal",
+      "reps": "15",
+      "rpe": "8"
+     },
+     {
+      "ej": "Inverted Row",
+      "carga": "Peso corporal",
+      "reps": "10",
+      "rpe": "9,5"
+     },
+     {
+      "ej": "Inverted Row",
+      "carga": "Peso corporal",
+      "reps": "8",
+      "rpe": "—"
+     },
+     {
+      "ej": "Inverted Row",
+      "carga": "Peso corporal",
+      "reps": "8",
+      "rpe": "—"
+     },
+     {
+      "ej": "Incline Push Ups",
+      "carga": "Peso corporal",
+      "reps": "12",
+      "rpe": "—"
+     },
+     {
+      "ej": "Incline Push Ups",
+      "carga": "Peso corporal",
+      "reps": "12",
+      "rpe": "—"
+     },
+     {
+      "ej": "Incline Push Ups",
+      "carga": "Peso corporal",
+      "reps": "12",
+      "rpe": "—"
+     },
+     {
+      "ej": "Step Up",
+      "carga": "Peso corporal",
+      "reps": "20",
+      "rpe": "—"
+     },
+     {
+      "ej": "Step Up",
+      "carga": "Peso corporal",
+      "reps": "20",
+      "rpe": "—"
+     },
+     {
+      "ej": "Step Up",
+      "carga": "Peso corporal",
+      "reps": "20",
+      "rpe": "—"
+     },
+     {
+      "ej": "Dead Hang",
+      "carga": "Peso corporal (isométrico)",
+      "reps": "30 s",
+      "rpe": "—"
+     },
+     {
+      "ej": "Dead Hang",
+      "carga": "Peso corporal (isométrico)",
+      "reps": "30 s",
+      "rpe": "—"
+     },
+     {
+      "ej": "Dead Hang",
+      "carga": "Peso corporal (isométrico)",
+      "reps": "45 s",
+      "rpe": "—"
+     },
+     {
+      "ej": "Scapular Pull Ups",
+      "carga": "Peso corporal",
+      "reps": "10",
+      "rpe": "—"
+     },
+     {
+      "ej": "Scapular Pull Ups",
+      "carga": "Peso corporal",
+      "reps": "10",
+      "rpe": "—"
+     },
+     {
+      "ej": "Scapular Pull Ups",
+      "carga": "Peso corporal",
+      "reps": "8",
+      "rpe": "—"
+     },
+     {
+      "ej": "Bulgarian Split Squat (Dumbbell)",
+      "carga": "Peso corporal",
+      "reps": "20",
+      "rpe": "—"
+     },
+     {
+      "ej": "Bulgarian Split Squat (Dumbbell)",
+      "carga": "Peso corporal",
+      "reps": "20",
+      "rpe": "—"
+     },
+     {
+      "ej": "Bulgarian Split Squat (Dumbbell)",
+      "carga": "Peso corporal",
+      "reps": "20",
+      "rpe": "—"
+     },
+     {
+      "ej": "Hanging Knee Raise",
+      "carga": "Peso corporal",
+      "reps": "10",
+      "rpe": "8"
+     },
+     {
+      "ej": "Hanging Knee Raise",
+      "carga": "Peso corporal",
+      "reps": "10",
+      "rpe": "9"
+     },
+     {
+      "ej": "Hanging Knee Raise",
+      "carga": "Peso corporal",
+      "reps": "8",
+      "rpe": "10"
+     }
+    ]
+   },
+   {
+    "date": "2026-02-12",
+    "dlabel": "12 feb",
+    "title": "Tren Superior",
+    "hora": "9:01 PM",
+    "dur": "34m",
+    "vol": "0",
+    "com": "Nuevo día humillada por los niños jugando en las barras",
+    "rec": null,
+    "exercises": [
+     {
+      "ej": "Dead Hang",
+      "carga": "Peso corporal (isométrico)",
+      "reps": "17 s",
+      "rpe": "—"
+     },
+     {
+      "ej": "Dead Hang",
+      "carga": "Peso corporal (isométrico)",
+      "reps": "33 s",
+      "rpe": "—"
+     },
+     {
+      "ej": "Dead Hang",
+      "carga": "Peso corporal (isométrico)",
+      "reps": "35 s",
+      "rpe": "—"
+     },
+     {
+      "ej": "Pull Up",
+      "carga": "Peso corporal",
+      "reps": "8",
+      "rpe": "9"
+     },
+     {
+      "ej": "Pull Up",
+      "carga": "Peso corporal",
+      "reps": "8",
+      "rpe": "9"
+     },
+     {
+      "ej": "Pull Up",
+      "carga": "Peso corporal",
+      "reps": "8",
+      "rpe": "9,5"
+     },
+     {
+      "ej": "Inverted Row",
+      "carga": "Peso corporal",
+      "reps": "7",
+      "rpe": "9"
+     },
+     {
+      "ej": "Inverted Row",
+      "carga": "Peso corporal",
+      "reps": "8",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Inverted Row",
+      "carga": "Peso corporal",
+      "reps": "8",
+      "rpe": "9"
+     },
+     {
+      "ej": "Incline Push Ups",
+      "carga": "Peso corporal",
+      "reps": "12",
+      "rpe": "9"
+     },
+     {
+      "ej": "Incline Push Ups",
+      "carga": "Peso corporal",
+      "reps": "12",
+      "rpe": "9,5"
+     },
+     {
+      "ej": "Incline Push Ups",
+      "carga": "Peso corporal",
+      "reps": "10",
+      "rpe": "9,5"
+     },
+     {
+      "ej": "Hanging Knee Raise",
+      "carga": "Peso corporal",
+      "reps": "8",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Hanging Knee Raise",
+      "carga": "Peso corporal",
+      "reps": "10",
+      "rpe": "9,5"
+     },
+     {
+      "ej": "Hanging Knee Raise",
+      "carga": "Peso corporal",
+      "reps": "10",
+      "rpe": "9"
+     }
+    ]
+   },
+   {
+    "date": "2026-02-10",
+    "dlabel": "10 feb",
+    "title": "Not so chill ft javi",
+    "hora": "7:00 PM",
+    "dur": "1h 24m",
+    "vol": "0",
+    "com": "Apenas pudimos 💀",
+    "rec": null,
+    "exercises": [
+     {
+      "ej": "Running",
+      "carga": "Peso corporal (isométrico)",
+      "reps": "947 s",
+      "rpe": "—"
+     },
+     {
+      "ej": "Incline Push Ups",
+      "carga": "Peso corporal",
+      "reps": "9",
+      "rpe": "10"
+     },
+     {
+      "ej": "Incline Push Ups",
+      "carga": "Peso corporal",
+      "reps": "11",
+      "rpe": "10"
+     },
+     {
+      "ej": "Dead Hang",
+      "carga": "Peso corporal (isométrico)",
+      "reps": "20 s",
+      "rpe": "—"
+     },
+     {
+      "ej": "Dead Hang",
+      "carga": "Peso corporal (isométrico)",
+      "reps": "25 s",
+      "rpe": "—"
+     },
+     {
+      "ej": "Bench Dip",
+      "carga": "Peso corporal",
+      "reps": "8",
+      "rpe": "9,5"
+     },
+     {
+      "ej": "Bench Dip",
+      "carga": "Peso corporal",
+      "reps": "9",
+      "rpe": "9,5"
+     },
+     {
+      "ej": "Squat (Bodyweight)",
+      "carga": "Peso corporal",
+      "reps": "12",
+      "rpe": "—"
+     },
+     {
+      "ej": "Squat (Bodyweight)",
+      "carga": "Peso corporal",
+      "reps": "12",
+      "rpe": "8"
+     },
+     {
+      "ej": "Squat (Bodyweight)",
+      "carga": "Peso corporal",
+      "reps": "15",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Step Up",
+      "carga": "Peso corporal",
+      "reps": "20",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Step Up",
+      "carga": "Peso corporal",
+      "reps": "20",
+      "rpe": "9"
+     },
+     {
+      "ej": "Hanging Knee Raise",
+      "carga": "Peso corporal",
+      "reps": "10",
+      "rpe": "9"
+     },
+     {
+      "ej": "Hanging Knee Raise",
+      "carga": "Peso corporal",
+      "reps": "10",
+      "rpe": "10"
+     }
+    ]
+   },
+   {
+    "date": "2026-02-03",
+    "dlabel": "03 feb",
+    "title": "Chill Ft javi",
+    "hora": "8:15 PM",
+    "dur": "49m",
+    "vol": "0",
+    "com": null,
+    "rec": null,
+    "exercises": [
+     {
+      "ej": "Running",
+      "carga": "Peso corporal (isométrico)",
+      "reps": "380 s",
+      "rpe": "—"
+     },
+     {
+      "ej": "Squat (Bodyweight)",
+      "carga": "Peso corporal",
+      "reps": "15",
+      "rpe": "—"
+     },
+     {
+      "ej": "Squat (Bodyweight)",
+      "carga": "Peso corporal",
+      "reps": "15",
+      "rpe": "8"
+     },
+     {
+      "ej": "Squat (Bodyweight)",
+      "carga": "Peso corporal",
+      "reps": "15",
+      "rpe": "8"
+     },
+     {
+      "ej": "Squat (Bodyweight)",
+      "carga": "Peso corporal",
+      "reps": "15",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Inverted Row",
+      "carga": "Peso corporal",
+      "reps": "10",
+      "rpe": "8"
+     },
+     {
+      "ej": "Inverted Row",
+      "carga": "Peso corporal",
+      "reps": "10",
+      "rpe": "9"
+     },
+     {
+      "ej": "Inverted Row",
+      "carga": "Peso corporal",
+      "reps": "10",
+      "rpe": "9,5"
+     },
+     {
+      "ej": "Incline Push Ups",
+      "carga": "Peso corporal",
+      "reps": "10",
+      "rpe": "8"
+     },
+     {
+      "ej": "Incline Push Ups",
+      "carga": "Peso corporal",
+      "reps": "12",
+      "rpe": "9"
+     },
+     {
+      "ej": "Incline Push Ups",
+      "carga": "Peso corporal",
+      "reps": "12",
+      "rpe": "9,5"
+     },
+     {
+      "ej": "Step Up",
+      "carga": "Peso corporal",
+      "reps": "20",
+      "rpe": "7"
+     },
+     {
+      "ej": "Step Up",
+      "carga": "Peso corporal",
+      "reps": "20",
+      "rpe": "8"
+     },
+     {
+      "ej": "Step Up",
+      "carga": "Peso corporal",
+      "reps": "20",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Hanging Knee Raise",
+      "carga": "Peso corporal",
+      "reps": "8",
+      "rpe": "9"
+     },
+     {
+      "ej": "Hanging Knee Raise",
+      "carga": "Peso corporal",
+      "reps": "9",
+      "rpe": "9,5"
+     },
+     {
+      "ej": "Hanging Knee Raise",
+      "carga": "Peso corporal",
+      "reps": "9",
+      "rpe": "9"
+     },
+     {
+      "ej": "Dead Hang",
+      "carga": "Peso corporal (isométrico)",
+      "reps": "30 s",
+      "rpe": "—"
+     },
+     {
+      "ej": "Dead Hang",
+      "carga": "Peso corporal (isométrico)",
+      "reps": "35 s",
+      "rpe": "—"
+     },
+     {
+      "ej": "Dead Hang",
+      "carga": "Peso corporal (isométrico)",
+      "reps": "37 s",
+      "rpe": "—"
+     }
+    ]
+   },
+   {
+    "date": "2026-01-20",
+    "dlabel": "20 ene",
+    "title": "Funcional + Javi",
+    "hora": "9:06 PM",
+    "dur": "59m",
+    "vol": "906",
+    "com": null,
+    "rec": null,
+    "exercises": [
+     {
+      "ej": "Squat (Dumbbell)",
+      "carga": "6",
+      "reps": "15",
+      "rpe": "—"
+     },
+     {
+      "ej": "Squat (Dumbbell)",
+      "carga": "6",
+      "reps": "15",
+      "rpe": "—"
+     },
+     {
+      "ej": "Squat (Dumbbell)",
+      "carga": "6",
+      "reps": "15",
+      "rpe": "—"
+     },
+     {
+      "ej": "Glute Bridge",
+      "carga": "Peso corporal",
+      "reps": "15",
+      "rpe": "—"
+     },
+     {
+      "ej": "Glute Bridge",
+      "carga": "Peso corporal",
+      "reps": "15",
+      "rpe": "—"
+     },
+     {
+      "ej": "Glute Bridge",
+      "carga": "Peso corporal",
+      "reps": "15",
+      "rpe": "—"
+     },
+     {
+      "ej": "Curtsy Lunge (Dumbbell)",
+      "carga": "6",
+      "reps": "12",
+      "rpe": "—"
+     },
+     {
+      "ej": "Curtsy Lunge (Dumbbell)",
+      "carga": "6",
+      "reps": "12",
+      "rpe": "—"
+     },
+     {
+      "ej": "Curtsy Lunge (Dumbbell)",
+      "carga": "6",
+      "reps": "12",
+      "rpe": "—"
+     },
+     {
+      "ej": "Glute Kickback on Floor",
+      "carga": "Peso corporal",
+      "reps": "15",
+      "rpe": "—"
+     },
+     {
+      "ej": "Glute Kickback on Floor",
+      "carga": "Peso corporal",
+      "reps": "15",
+      "rpe": "—"
+     },
+     {
+      "ej": "Glute Kickback on Floor",
+      "carga": "Peso corporal",
+      "reps": "15",
+      "rpe": "—"
+     },
+     {
+      "ej": "Incline Push Ups",
+      "carga": "Peso corporal",
+      "reps": "12",
+      "rpe": "—"
+     },
+     {
+      "ej": "Incline Push Ups",
+      "carga": "Peso corporal",
+      "reps": "10",
+      "rpe": "—"
+     },
+     {
+      "ej": "Incline Push Ups",
+      "carga": "Peso corporal",
+      "reps": "10",
+      "rpe": "—"
+     },
+     {
+      "ej": "Bent Over Row (Band)",
+      "carga": "6",
+      "reps": "12",
+      "rpe": "—"
+     },
+     {
+      "ej": "Bent Over Row (Band)",
+      "carga": "6",
+      "reps": "12",
+      "rpe": "—"
+     },
+     {
+      "ej": "Bent Over Row (Band)",
+      "carga": "6",
+      "reps": "12",
+      "rpe": "—"
+     },
+     {
+      "ej": "Overhead Press (Dumbbell)",
+      "carga": "6",
+      "reps": "12",
+      "rpe": "—"
+     },
+     {
+      "ej": "Overhead Press (Dumbbell)",
+      "carga": "6",
+      "reps": "12",
+      "rpe": "—"
+     },
+     {
+      "ej": "Overhead Press (Dumbbell)",
+      "carga": "6",
+      "reps": "10",
+      "rpe": "—"
+     },
+     {
+      "ej": "Plank",
+      "carga": "Peso corporal (isométrico)",
+      "reps": "40 s",
+      "rpe": "—"
+     },
+     {
+      "ej": "Bicycle Crunch",
+      "carga": "Peso corporal",
+      "reps": "30",
+      "rpe": "—"
+     },
+     {
+      "ej": "Side Plank",
+      "carga": "Peso corporal (isométrico)",
+      "reps": "20 s",
+      "rpe": "—"
+     }
+    ]
+   },
+   {
+    "date": "2026-01-18",
+    "dlabel": "18 ene",
+    "title": "Pierna + mopi",
+    "hora": "1:01 PM",
+    "dur": "1h 50m",
+    "vol": "4,704",
+    "com": null,
+    "rec": null,
+    "exercises": [
+     {
+      "ej": "Squat (Smith Machine)",
+      "carga": "10",
+      "reps": "6",
+      "rpe": "—"
+     },
+     {
+      "ej": "Squat (Smith Machine)",
+      "carga": "20",
+      "reps": "8",
+      "rpe": "—"
+     },
+     {
+      "ej": "Squat (Smith Machine)",
+      "carga": "20",
+      "reps": "8",
+      "rpe": "—"
+     },
+     {
+      "ej": "Squat (Smith Machine)",
+      "carga": "20",
+      "reps": "8",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Squat (Smith Machine)",
+      "carga": "20",
+      "reps": "8",
+      "rpe": "9,5"
+     },
+     {
+      "ej": "Leg Press Horizontal (Machine)",
+      "carga": "Peso corporal",
+      "reps": "6",
+      "rpe": "—"
+     },
+     {
+      "ej": "Leg Press Horizontal (Machine)",
+      "carga": "40",
+      "reps": "8",
+      "rpe": "7,5"
+     },
+     {
+      "ej": "Leg Press Horizontal (Machine)",
+      "carga": "60",
+      "reps": "9",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Leg Press Horizontal (Machine)",
+      "carga": "60",
+      "reps": "14",
+      "rpe": "9"
+     },
+     {
+      "ej": "Hip Thrust (Machine)",
+      "carga": "22,7",
+      "reps": "6",
+      "rpe": "9"
+     },
+     {
+      "ej": "Hip Thrust (Machine)",
+      "carga": "27,71",
+      "reps": "6",
+      "rpe": "9"
+     },
+     {
+      "ej": "Hip Thrust (Machine)",
+      "carga": "27,71",
+      "reps": "6",
+      "rpe": "9"
+     },
+     {
+      "ej": "Deadlift (Barbell)",
+      "carga": "20",
+      "reps": "6",
+      "rpe": "—"
+     },
+     {
+      "ej": "Deadlift (Barbell)",
+      "carga": "30",
+      "reps": "8",
+      "rpe": "—"
+     },
+     {
+      "ej": "Deadlift (Barbell)",
+      "carga": "40",
+      "reps": "10",
+      "rpe": "8"
+     },
+     {
+      "ej": "Deadlift (Barbell)",
+      "carga": "40",
+      "reps": "7",
+      "rpe": "9,5"
+     },
+     {
+      "ej": "Pull Up (Assisted)",
+      "carga": "50",
+      "reps": "6",
+      "rpe": "7"
+     },
+     {
+      "ej": "Pull Up (Assisted)",
+      "carga": "35",
+      "reps": "5",
+      "rpe": "9,5"
+     },
+     {
+      "ej": "Pull Up (Assisted)",
+      "carga": "40",
+      "reps": "8",
+      "rpe": "9"
+     },
+     {
+      "ej": "Hanging Knee Raise",
+      "carga": "Peso corporal",
+      "reps": "5",
+      "rpe": "9,5"
+     },
+     {
+      "ej": "Hanging Knee Raise",
+      "carga": "Peso corporal",
+      "reps": "5",
+      "rpe": "9,5"
+     },
+     {
+      "ej": "Hanging Knee Raise",
+      "carga": "Peso corporal",
+      "reps": "4",
+      "rpe": "9"
+     }
+    ]
+   },
+   {
+    "date": "2026-01-16",
+    "dlabel": "16 ene",
+    "title": "Full body",
+    "hora": "12:50 PM",
+    "dur": "21m",
+    "vol": "648",
+    "com": null,
+    "rec": null,
+    "exercises": [
+     {
+      "ej": "Squat (Dumbbell)",
+      "carga": "6",
+      "reps": "12",
+      "rpe": "—"
+     },
+     {
+      "ej": "Squat (Dumbbell)",
+      "carga": "6",
+      "reps": "12",
+      "rpe": "—"
+     },
+     {
+      "ej": "Squat (Dumbbell)",
+      "carga": "6",
+      "reps": "12",
+      "rpe": "—"
+     },
+     {
+      "ej": "Lateral Band Walks",
+      "carga": "Peso corporal",
+      "reps": "24",
+      "rpe": "—"
+     },
+     {
+      "ej": "Lateral Band Walks",
+      "carga": "Peso corporal",
+      "reps": "24",
+      "rpe": "—"
+     },
+     {
+      "ej": "Lateral Band Walks",
+      "carga": "Peso corporal",
+      "reps": "24",
+      "rpe": "—"
+     },
+     {
+      "ej": "Bulgarian Split Squat (Dumbbell)",
+      "carga": "6",
+      "reps": "12",
+      "rpe": "—"
+     },
+     {
+      "ej": "Bulgarian Split Squat (Dumbbell)",
+      "carga": "6",
+      "reps": "12",
+      "rpe": "—"
+     },
+     {
+      "ej": "Bulgarian Split Squat (Dumbbell)",
+      "carga": "6",
+      "reps": "12",
+      "rpe": "—"
+     },
+     {
+      "ej": "Glute Bridge",
+      "carga": "Peso corporal",
+      "reps": "12",
+      "rpe": "—"
+     },
+     {
+      "ej": "Glute Bridge",
+      "carga": "Peso corporal",
+      "reps": "12",
+      "rpe": "—"
+     },
+     {
+      "ej": "Glute Bridge",
+      "carga": "Peso corporal",
+      "reps": "12",
+      "rpe": "—"
+     },
+     {
+      "ej": "Incline Push Ups",
+      "carga": "Peso corporal",
+      "reps": "10",
+      "rpe": "—"
+     },
+     {
+      "ej": "Incline Push Ups",
+      "carga": "Peso corporal",
+      "reps": "10",
+      "rpe": "—"
+     },
+     {
+      "ej": "Incline Push Ups",
+      "carga": "Peso corporal",
+      "reps": "10",
+      "rpe": "—"
+     },
+     {
+      "ej": "Seated Lateral Raise (Dumbbell)",
+      "carga": "3",
+      "reps": "12",
+      "rpe": "—"
+     },
+     {
+      "ej": "Seated Lateral Raise (Dumbbell)",
+      "carga": "3",
+      "reps": "12",
+      "rpe": "—"
+     },
+     {
+      "ej": "Seated Lateral Raise (Dumbbell)",
+      "carga": "3",
+      "reps": "12",
+      "rpe": "—"
+     },
+     {
+      "ej": "Bench Dip",
+      "carga": "Peso corporal",
+      "reps": "12",
+      "rpe": "—"
+     },
+     {
+      "ej": "Bench Dip",
+      "carga": "Peso corporal",
+      "reps": "12",
+      "rpe": "—"
+     },
+     {
+      "ej": "Bench Dip",
+      "carga": "Peso corporal",
+      "reps": "12",
+      "rpe": "—"
+     },
+     {
+      "ej": "Overhead Press (Dumbbell)",
+      "carga": "3",
+      "reps": "12",
+      "rpe": "—"
+     },
+     {
+      "ej": "Overhead Press (Dumbbell)",
+      "carga": "3",
+      "reps": "12",
+      "rpe": "—"
+     },
+     {
+      "ej": "Overhead Press (Dumbbell)",
+      "carga": "3",
+      "reps": "12",
+      "rpe": "—"
+     },
+     {
+      "ej": "Crunch",
+      "carga": "Peso corporal",
+      "reps": "30",
+      "rpe": "—"
+     },
+     {
+      "ej": "Heel Taps",
+      "carga": "Peso corporal",
+      "reps": "30",
+      "rpe": "—"
+     },
+     {
+      "ej": "Jackknife Sit Up",
+      "carga": "Peso corporal",
+      "reps": "30",
+      "rpe": "—"
+     },
+     {
+      "ej": "Elbow to Knee",
+      "carga": "Peso corporal",
+      "reps": "30",
+      "rpe": "—"
+     },
+     {
+      "ej": "Lying Leg Raise",
+      "carga": "Peso corporal",
+      "reps": "30",
+      "rpe": "—"
      }
     ]
    }
