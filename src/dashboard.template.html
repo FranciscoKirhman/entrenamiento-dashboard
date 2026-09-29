@@ -724,6 +724,28 @@ ol.pasos{ list-style:none; margin:0; padding:0 8px 6px; }
 .daycard .cardio{ margin-top:14px; }
 
 .restbar .rb-l{ max-width:42vw; overflow:hidden; text-overflow:ellipsis; }
+
+/* hoy ya registrado */
+.hechohoy{ margin-bottom:14px; padding:14px 16px; border-radius:16px; background:var(--good-soft);
+  border:1px solid color-mix(in srgb, var(--good) 35%, transparent); }
+.hh-top{ display:flex; align-items:center; gap:12px; }
+.hh-ck{ flex:none; width:34px; height:34px; border-radius:50%; background:var(--good); color:var(--surface);
+  display:grid; place-items:center; font-weight:700; font-size:16px; }
+.hh-lbl{ display:block; font-family:'IBM Plex Mono'; font-size:10.5px; font-weight:600; letter-spacing:.06em; text-transform:uppercase; color:var(--good); }
+.hh-top b{ display:block; font-family:'Oswald'; font-size:18px; font-weight:600; line-height:1.2; margin-top:2px; }
+.hh-meta{ display:block; font-size:12.5px; color:var(--ink-muted); margin-top:2px; }
+details.hh-det{ margin-top:10px; }
+details.hh-det>summary{ list-style:none; cursor:pointer; display:inline-flex; align-items:center; gap:4px; padding:5px 11px; border-radius:100px;
+  background:color-mix(in srgb, var(--good) 18%, transparent); color:var(--good); font-size:12px; font-weight:600; }
+details.hh-det>summary::-webkit-details-marker{ display:none; }
+details.hh-det>summary::after{ content:'▾'; }
+details.hh-det[open]>summary::after{ content:'▴'; }
+.hh-list{ list-style:none; margin:10px 0 0; padding:0; }
+.hh-list li{ display:flex; justify-content:space-between; align-items:baseline; gap:12px; padding:7px 0;
+  border-top:1px solid color-mix(in srgb, var(--good) 20%, transparent); font-size:13px; }
+.hh-list li b{ font-weight:600; }
+.hh-list li span{ font-family:'IBM Plex Mono'; font-size:11.5px; color:var(--ink-muted); text-align:right; }
+.dreg{ font-family:'IBM Plex Mono'; font-size:9.5px; font-weight:600; letter-spacing:.05em; text-transform:uppercase; color:var(--good); }
 </style>
 
 <div class="wrap">
@@ -1381,6 +1403,40 @@ ol.pasos{ list-style:none; margin:0; padding:0 8px 6px; }
       });
     });
   }
+  // el plan a veces marca a mano un dia hecho ("✓ Posterior (hecho)"); con el registro a la vista sobra
+  function limpiaFoco(f){ return String(f || '').replace(/^✓\s*/, '').replace(/\s*\(hecho\)\s*$/, ''); }
+  function volKg(v){
+    v = String(v || '').trim();
+    if(!v) return '';
+    return (/^\d{1,3}(,\d{3})+$/.test(v) ? v.replace(/,/g, '.') : v)+' kg';
+  }
+  // una serie registrada: "105×12"; si la carga no es un peso (escaladora, plancha) solo el tiempo o las reps
+  function serieTxt(e){
+    var r = String(e.reps || ''), m = r.match(/^(\d+)\s*s$/);
+    if(m && +m[1] >= 60) r = +m[1] % 60 ? mmss(+m[1]) : (+m[1] / 60)+' min';
+    return /^\d/.test(String(e.carga || '')) ? esc(e.carga)+'×'+esc(r) : esc(r);
+  }
+  // Lo que quedo registrado hoy: ejercicios en orden, con cada serie como carga × reps
+  function renderHechoHoy(ses, plan){
+    var orden = [], por = {}, total = 0;
+    ses.forEach(function(s){
+      (s.exercises || []).forEach(function(e){
+        if(!por[e.ej]){ por[e.ej] = []; orden.push(e.ej); }
+        por[e.ej].push(e); total++;
+      });
+    });
+    var s0 = ses[0];
+    var meta = [ses.length > 1 ? ses.length+' sesiones' : (s0.dur && !/no registrada/i.test(s0.dur) ? s0.dur : ''),
+      ses.length === 1 ? volKg(s0.vol) : '', orden.length+' ejercicios', total+' series'].filter(Boolean).join(' · ');
+    var lis = orden.map(function(n){
+      return '<li><b>'+esc(n)+'</b><span>'+por[n].map(serieTxt).join(' · ')+'</span></li>';
+    }).join('');
+    var foco = plan && !esDescanso(plan) ? limpiaFoco(plan.focus) : (s0.title || 'Entrenamiento');
+    return '<div class="hechohoy"><div class="hh-top"><span class="hh-ck">✓</span>'+
+      '<div><span class="hh-lbl">Hoy · registrada</span><b>'+esc(foco)+'</b><span class="hh-meta">'+esc(meta)+'</span></div></div>'+
+      '<details class="hh-det"><summary>Ver lo que hiciste</summary><ul class="hh-list">'+lis+'</ul></details></div>';
+  }
+
   function etiquetaMovido(d){
     return d.origen && d.origen !== d.day ? '<span class="dmoved">movido del '+esc(d.origen)+'</span>' : '';
   }
@@ -1407,6 +1463,14 @@ ol.pasos{ list-style:none; margin:0; padding:0 8px 6px; }
     }
     var dias = planDe(profile), t = todayISO();
     var heroIdx = pickHeroIndex(dias);
+    // si hoy ya quedo registrado (Hevy), lo de hoy se resume y abajo va lo que viene
+    var sesHoy = (profile.SESSIONS_FULL || []).filter(function(s){ return s.date === t; });
+    var resumenHoy = '';
+    if(sesHoy.length){
+      resumenHoy = renderHechoHoy(sesHoy, dias.find(function(d){ return d.date === t; }));
+      var j = dias.findIndex(function(d){ return d.date > t && !esDescanso(d); });
+      if(j >= 0) heroIdx = j;
+    }
     var day = dias[heroIdx];
     var isToday = day.date === t;
     var ayer = dias.find(function(d){ return d.date === isoMenos(t, 1); });
@@ -1416,11 +1480,11 @@ ol.pasos{ list-style:none; margin:0; padding:0 8px 6px; }
     var hechos = hechosDe(day.date);
     var algunaSerie = Object.keys(hechos).some(function(k){ return !/^(cal|est)\|/.test(k); });
 
-    el.innerHTML =
+    el.innerHTML = resumenHoy +
       '<div class="session'+(esDescanso(day) ? ' rest' : '')+'">'+
       '<div class="s-head"><span class="tag">'+esc(day.day)+(isToday ? ' · hoy' : ' · próxima')+'</span>'+
         (day.tag === 'opcional' ? '<span class="s-opc">opcional</span>' : '')+etiquetaMovido(day)+'</div>'+
-      '<h2 class="s-title">'+esc(day.focus)+'</h2>'+
+      '<h2 class="s-title">'+esc(limpiaFoco(day.focus))+'</h2>'+
       (series ? '<div class="s-meta"><span>'+day.exercises.length+' ejercicios · '+series+' series</span><span class="s-cuenta"></span></div>'+
         '<div class="s-bar"><i></i></div>' : '')+
       (day.rationale ? '<p class="herolede">'+escMd(day.rationale)+'</p>' : '')+
@@ -1600,6 +1664,8 @@ ol.pasos{ list-style:none; margin:0; padding:0 8px 6px; }
     }
     var t = todayISO(), ayer = isoMenos(t, 1);
     var dias = planDe(profile);
+    var registradas = {};
+    (profile.SESSIONS_FULL || []).forEach(function(s){ registradas[s.date] = 1; });
 
     // movimientos guardados en este dispositivo, con forma de deshacerlos
     var movs = movsDe(perfilActual);
@@ -1626,11 +1692,12 @@ ol.pasos{ list-style:none; margin:0; padding:0 8px 6px; }
       var isToday = d.date === t;
       det.className = 'daycard' + (d.exercises.length === 0 ? ' rest' : '') + (d.date < t ? ' past' : '');
       det.dataset.fecha = d.date;
-      var tagHtml = (isToday ? '<span class="dtag">hoy</span>' : '') + etiquetaMovido(d);
+      var tagHtml = (isToday ? '<span class="dtag">hoy</span>' : '') + etiquetaMovido(d) +
+        (registradas[d.date] ? '<span class="dreg">registrada ✓</span>' : '');
       var exHtml = d.exercises.map(function(e, i){ return renderExerciseBlock(e, i+1); }).join('');
       var cardioHtml = renderCardio(d.cardio);
       det.innerHTML =
-        '<summary><div class="dwhen"><span class="dday">'+esc(d.day)+'</span>'+tagHtml+'</div><h4>'+esc(d.focus)+'</h4></summary>'+
+        '<summary><div class="dwhen"><span class="dday">'+esc(d.day)+'</span>'+tagHtml+'</div><h4>'+esc(registradas[d.date] ? limpiaFoco(d.focus) : d.focus)+'</h4></summary>'+
         '<div class="dbody">'+
         (d.date >= ayer ? botonera(dias, d) : '')+
         '<p class="drationale">'+escMd(d.rationale)+'</p>'+
