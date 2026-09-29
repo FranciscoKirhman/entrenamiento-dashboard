@@ -1,4 +1,4 @@
-# Historial de entrenamiento de Paloma (Mipi) — 28 de febrero al 20 de septiembre de 2026 (83 sesiones)
+# Historial de entrenamiento de Paloma (Mipi) — 28 de febrero al 27 de septiembre de 2026 (87 sesiones)
 
 Registro cronológico consolidado, mismo formato que el de Mopo. Cada fila corresponde a una serie real copiada desde Hevy. Los volúmenes oficiales se conservan sin reemplazarlos por cálculos derivados (excepto en sesiones con ejercicios asistidos o de solo-peso-corporal, donde Hevy suma un componente de peso corporal que no aparece en el texto copiado — el volumen mostrado sigue siendo el oficial de la app).
 
@@ -2620,3 +2620,134 @@ No hubo sesión de gimnasio este día (la pierna B se corrió al jueves 27). Sí
 *Vuelve al peso muerto en multipower después de casi cinco meses (la última fue el 28 de abril, a 40 kg × 8-9); partió de nuevo en 30 kg y el agarre se le suelta a las 8 repeticiones. El Hip Thrust también quedó por debajo: 90 × 8 a RPE 9 contra los 100 × 8 × 3 a RPE 7 del 24 de agosto — casi un mes sin hacerlo. Las planchas laterales, en cambio, subieron a 35-40 s (venía de 30-31 s el 13 de septiembre).*
 
 *No entrenó entre el 13 y el 20 de septiembre.*
+
+## 22 Sep 2026 — Upper
+
+<!-- hevy:csv-202609221723 -->
+**Hora:** 5:23 PM  
+**Duración:** 1h 31m  
+**Volumen Hevy:** 1,687 kg  
+**Comentario:** Meu deuuuuusss  
+
+| Orden | Ejercicio | Serie | Carga | Reps/tiempo | RPE |
+|---:|---|---:|---:|---|---:|
+| 1 | Chest Fly (Machine) | 1 | 14,5 kg | 12 | 6 |
+| 1 | Chest Fly (Machine) | 2 | 14,5 kg | 12 | 7 |
+| 1 | Chest Fly (Machine) | 3 | 14,5 kg | 12 | 7 |
+| 2 | Bicep Curl (Dumbbell) | 1 | 6 kg | 10 | 7 |
+| 2 | Bicep Curl (Dumbbell) | 2 | 6 kg | 9 | 8,5 |
+| 2 | Bicep Curl (Dumbbell) | 3 | 6 kg | 6 | 9 |
+| 3 | Band Pullaparts | 1 | Peso corporal | 15 | 7 |
+| 3 | Band Pullaparts | 2 | Peso corporal | 15 | 7,5 |
+| 3 | Band Pullaparts | 3 | Peso corporal | 15 | 8 |
+| 4 | Lateral Raise (Dumbbell) | 1 | 4 kg | 15 | 7,5 |
+| 4 | Lateral Raise (Dumbbell) | 2 | 4 kg | 15 | 8 |
+| 4 | Lateral Raise (Dumbbell) | 3 | 4 kg | 15 | 8,5 |
+| 5 | Overhead Triceps Extension (Cable) | 1 | 5 kg | 12 | 7 |
+| 5 | Overhead Triceps Extension (Cable) | 2 | 5 kg | 10 | 7 |
+| 5 | Overhead Triceps Extension (Cable) | 3 | 5 kg | 10 | 8 |
+| 6 | Face Pull | 1 | 15 kg | 15 | 7 |
+| 6 | Face Pull | 2 | 15 kg | 15 | 7,5 |
+| 6 | Face Pull | 3 | 15 kg | 15 | 7,5 |
+| 7 | Plank | 1 | Peso corporal (isométrico) | 29 s | — |
+| 7 | Plank | 2 | Peso corporal (isométrico) | 21 s | — |
+| 7 | Plank | 3 | Peso corporal (isométrico) | 18 s | — |
+| 8 | Reverse Crunch | 1 | Peso corporal | 15 | 7 |
+| 8 | Reverse Crunch | 2 | Peso corporal | 15 | 7,5 |
+| 8 | Reverse Crunch | 3 | Peso corporal | 15 | 8 |
+| 9 | Stair Machine (Floors) | 1 | Peso corporal (isométrico) | 900 s | — |
+
+**Notas por ejercicio:**
+- **Band Pullaparts:** 5 kg (celeste)
+- **Plank:** Hoy sin rodilla
+- **Stair Machine (Floors):** Fc max 185, nivel 6-8
+
+## 24 Sep 2026 — Poto e isquio 🍑
+
+<!-- hevy:csv-202609241234 -->
+**Hora:** 12:34 PM  
+**Duración:** 1h 29m  
+**Volumen Hevy:** 6,680 kg  
+**Comentario:** Duro día  
+
+| Orden | Ejercicio | Serie | Carga | Reps/tiempo | RPE |
+|---:|---|---:|---:|---|---:|
+| 1 | Hip Thrust (Barbell) | 1 | 60 kg | 8 | 6 |
+| 1 | Hip Thrust (Barbell) | 2 | 80 kg | 5 | 6 |
+| 1 | Hip Thrust (Barbell) | 3 | 105 kg | 8 | 8 |
+| 1 | Hip Thrust (Barbell) | 4 | 105 kg | 8 | 7,5 |
+| 1 | Hip Thrust (Barbell) | 5 | 105 kg | 8 | 7,5 |
+| 2 | Deadlift (Smith Machine) | 1 | 10 kg | 10 | 6 |
+| 2 | Deadlift (Smith Machine) | 2 | 35 kg | 12 | 7 |
+| 2 | Deadlift (Smith Machine) | 3 | 35 kg | 12 | 8 |
+| 2 | Deadlift (Smith Machine) | 4 | 35 kg | 12 | 8 |
+| 3 | Lying Leg Curl (Machine) | 1 | 15 kg | 12 | 6 |
+| 3 | Lying Leg Curl (Machine) | 2 | 25 kg | 12 | 7,5 |
+| 3 | Lying Leg Curl (Machine) | 3 | 25 kg | 12 | 8 |
+| 3 | Lying Leg Curl (Machine) | 4 | 25 kg | 12 | 8,5 |
+| 4 | Back Extension (Weighted Hyperextension) | 1 | 20 kg | 12 | 7,5 |
+| 4 | Back Extension (Weighted Hyperextension) | 2 | 20 kg | 15 | 8 |
+| 4 | Back Extension (Weighted Hyperextension) | 3 | 20 kg | 15 | 7,5 |
+
+**Notas por ejercicio:**
+- **Deadlift (Smith Machine):** Mejor con straps, hacer investigacion, qué es mejor sacrificar la forma y hacer más
+- **Back Extension (Weighted Hyperextension):** Me encanta el movimiento de este ejercicio, pero se me va la sangre a la cabeza y me mareo mucho, además solo puedo meterle 20kg porque no puedo agarrar mas discos
+
+## 25 Sep 2026 — 🚂 🔝
+
+<!-- hevy:csv-202609251230 -->
+**Hora:** 12:30 PM  
+**Duración:** 2h 4m  
+**Volumen Hevy:** 4,059 kg  
+
+| Orden | Ejercicio | Serie | Carga | Reps/tiempo | RPE |
+|---:|---|---:|---:|---|---:|
+| 1 | Bench Press (Barbell) | 1 | 12,5 kg | 12 | 6 |
+| 1 | Bench Press (Barbell) | 2 | 20 kg | 12 | 7,5 |
+| 1 | Bench Press (Barbell) | 3 | 20 kg | 10 | 9 |
+| 1 | Bench Press (Barbell) | 4 | 17,5 kg | 12 | 7 |
+| 2 | Seated Row (Machine) | 1 | 15 kg | 12 | 6 |
+| 2 | Seated Row (Machine) | 2 | 28,5 kg | 12 | 7 |
+| 2 | Seated Row (Machine) | 3 | 28,5 kg | 12 | 7,5 |
+| 2 | Seated Row (Machine) | 4 | 28,5 kg | 12 | 7,5 |
+| 3 | Face Pull | 1 | 11,25 kg | 15 | 6 |
+| 3 | Face Pull | 2 | 15 kg | 15 | 7 |
+| 3 | Face Pull | 3 | 15 kg | 15 | 7 |
+| 4 | Lat Pulldown (Cable) | 1 | 19 kg | 12 | 6 |
+| 4 | Lat Pulldown (Cable) | 2 | 28,5 kg | 12 | 7,5 |
+| 4 | Lat Pulldown (Cable) | 3 | 28,5 kg | 12 | 8 |
+| 4 | Lat Pulldown (Cable) | 4 | 28,5 kg | 12 | 8 |
+| 5 | Shoulder Press (Dumbbell) | 1 | 5 kg | 12 | 7 |
+| 5 | Shoulder Press (Dumbbell) | 2 | 5 kg | 12 | 7,5 |
+| 5 | Shoulder Press (Dumbbell) | 3 | 5 kg | 12 | 7,5 |
+| 6 | Farmers Walk | 1 | 20 kg | 30 m | — |
+| 6 | Farmers Walk | 2 | 20 kg | 30 m | — |
+| 7 | Walking | 1 | Peso corporal (isométrico) | 720 s | — |
+
+**Notas por ejercicio:**
+- **Walking:** Inclinacion 15, velocidad 3.5 - 5 - 3.5
+
+## 27 Sep 2026 — Piernas 🍗
+
+<!-- hevy:csv-202609271253 -->
+**Hora:** 12:53 PM  
+**Duración:** 1h 17m  
+**Volumen Hevy:** 5,710 kg  
+
+| Orden | Ejercicio | Serie | Carga | Reps/tiempo | RPE |
+|---:|---|---:|---:|---|---:|
+| 1 | Squat (Barbell) | 1 | 20 kg | 12 | 7 |
+| 1 | Squat (Barbell) | 2 | 25 kg | 10 | 7,5 |
+| 1 | Squat (Barbell) | 3 | 25 kg | 10 | 7 |
+| 1 | Squat (Barbell) | 4 | 25 kg | 10 | 7 |
+| 2 | Bulgarian Split Squat (Dumbbell) | 1 | 10 kg | 10 | 7 |
+| 2 | Bulgarian Split Squat (Dumbbell) | 2 | 10 kg | 10 | 7,5 |
+| 2 | Bulgarian Split Squat (Dumbbell) | 3 | 10 kg | 10 | 7,5 |
+| 3 | Leg Press (Machine) | 1 | 40 kg | 12 | 6 |
+| 3 | Leg Press (Machine) | 2 | 80 kg | 8 | 6 |
+| 3 | Leg Press (Machine) | 3 | 110 kg | 10 | 8 |
+| 3 | Leg Press (Machine) | 4 | 110 kg | 10 | 8 |
+| 3 | Leg Press (Machine) | 5 | 110 kg | 10 | 8,5 |
+
+**Notas por ejercicio:**
+- **Bulgarian Split Squat (Dumbbell):** +30 descanso entre piernas
