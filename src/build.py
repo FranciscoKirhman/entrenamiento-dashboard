@@ -104,7 +104,7 @@ def verifica_calentamientos(profiles):
 
 # Lo que la plantilla sabe mostrar. saltoOk y barra no se muestran: solo los leen las verificaciones.
 CAMPOS = {
-    "dia":       {"day", "date", "focus", "tag", "rationale", "cardio", "warmup", "stretch", "exercises"},
+    "dia":       {"day", "date", "focus", "tag", "rationale", "cardio", "warmup", "stretch", "exercises", "prioridad"},
     "ejercicio": {"name", "sets", "cue", "notes", "superset", "saltoOk", "barra"},
     "serie":     {"serie", "carga", "reps", "rir", "descanso"},
 }

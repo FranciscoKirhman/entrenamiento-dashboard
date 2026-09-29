@@ -1,36 +1,6 @@
 {
  "mopo": {
   "displayName": "Mopo",
-  "chips": [
-   {
-    "k": "Nivel",
-    "v": "avanzado · 3+ años"
-   },
-   {
-    "k": "Objetivo",
-    "v": "recomposición · prioridad hombro/pecho/abs"
-   },
-   {
-    "k": "Frecuencia",
-    "v": "5 días + sábado opcional · domingo libre"
-   },
-   {
-    "k": "Series",
-    "v": "3 de trabajo"
-   },
-   {
-    "k": "Leg Press base",
-    "v": "180 kg (12 reps a RPE 8, 26 ago)"
-   },
-   {
-    "k": "Discos",
-    "v": "mínimo 2,5 kg (no hay de 1,25)"
-   },
-   {
-    "k": "Equipo",
-    "v": "banda de 5 kg · sin palo · discos desde 2,5 kg"
-   }
-  ],
   "hasData": true,
   "MUSCLES": [
    {
@@ -8927,7 +8897,11 @@
       ],
       "cue": "**3 × 15 con 1 segundo arriba.**\n\n**Cómo te pones:** colgado de la barra con agarre firme y los hombros activos, omóplatos hacia abajo.\n\n**Qué haces:** sube las rodillas por encima de la cadera enrollando la pelvis al final y baja en 2 segundos.\n\n**Cómo sabes que está bien:** el cuerpo no se balancea. Si solo subes las piernas hasta 90° sin enrollar la pelvis, trabaja el flexor de cadera, no el abdomen."
      }
-    ]
+    ],
+    "prioridad": {
+     "n": 1,
+     "porque": "Es el único opcional de la semana y trae **abs directo** (elevación de rodillas colgado), que está entre tus prioridades. Los brazos ya reciben trabajo en empuje y tirón, así que lo que de verdad suma acá es el core. **Si corriste un día**, sáltalo antes que perder el domingo: la semana 2 sube repeticiones en todo y seis días seguidos cansan más de lo que aportan tres ejercicios."
+    }
    },
    {
     "day": "Dom 4",
@@ -10243,7 +10217,11 @@
       ],
       "cue": "**3 × 18.**\n\n**Cómo te pones:** colgado de la barra con agarre firme y los hombros activos, omóplatos hacia abajo.\n\n**Qué haces:** sube las rodillas por encima de la cadera enrollando la pelvis al final y baja en 2 segundos.\n\n**Cómo sabes que está bien:** el cuerpo no se balancea. Si solo subes las piernas hasta 90° sin enrollar la pelvis, trabaja el flexor de cadera, no el abdomen."
      }
-    ]
+    ],
+    "prioridad": {
+     "n": 1,
+     "porque": "Último opcional antes de la descarga del 12: el cansancio que deje se recupera esa semana, así que **acá conviene hacerlo**, aunque tengas que correrlo al domingo. Suma abs directo, que es prioridad."
+    }
    },
    {
     "day": "Dom 11",
@@ -20746,28 +20724,6 @@
  },
  "mipi": {
   "displayName": "Mipi",
-  "chips": [
-   {
-    "k": "Codo",
-    "v": "dado de alta · tren superior habilitado"
-   },
-   {
-    "k": "Hip Thrust base",
-    "v": "105 kg × 8 (sube de a una repetición)"
-   },
-   {
-    "k": "Leg Press base",
-    "v": "105 kg de trabajo (120 le dio RIR 0)"
-   },
-   {
-    "k": "Prioridad",
-    "v": "Glúteo / pierna"
-   },
-   {
-    "k": "Equipo",
-    "v": "banda de 5 kg · sin palo"
-   }
-  ],
   "hasData": true,
   "MUSCLES": [
    {
@@ -28406,7 +28362,11 @@
       ],
       "cue": "**25 s.**\n\n**Cómo te pones:** codos justo debajo de los hombros, antebrazos paralelos, piernas estiradas y pies al ancho de cadera.\n\n**Qué haces:** aprieta glúteo y abdomen y empuja el suelo con los antebrazos, como alejándote de él. Respira corto sin soltar el abdomen.\n\n**Cómo sabes que está bien:** hombros, cadera y tobillos en línea. Si la cadera se hunde o sube, se acabó la serie aunque falten segundos."
      }
-    ]
+    ],
+    "prioridad": {
+     "n": 1,
+     "porque": "Es tu segundo estímulo de tren superior en la semana. Sin él, hombro, pecho y postura quedan con un solo día, justo cuando el codo recién está habilitado. El glúteo ya tiene dos días base, Inferior A e Inferior B. **Si hay que elegir uno, haz este.**"
+    }
    },
    {
     "day": "Vie 2",
@@ -28802,7 +28762,11 @@
       ],
       "cue": "**3 × 15.**\n\n**Cómo te pones:** Acostada boca arriba, manos bajo la cola y zona lumbar pegada al suelo.\n\n**Qué haces:** sube las piernas estiradas hasta 90° y bájalas en 3 segundos hasta donde la lumbar siga pegada.\n\n**Cómo sabes que está bien:** la espalda baja no se despega. Si se despega antes de llegar abajo, dobla un poco las rodillas o baja menos."
      }
-    ]
+    ],
+    "prioridad": {
+     "n": 2,
+     "porque": "Suma glúteo, que ya tiene dos días base esta semana, y la escaladora que te gusta. Estás en ovulación (proyectado), con más laxitud en las articulaciones, así que no pasa nada si lo saltas. **Si corriste un día, este es el que se va.**"
+    }
    },
    {
     "day": "Dom 4",
@@ -29551,7 +29515,11 @@
       ],
       "cue": "**30 s.**\n\n**Cómo te pones:** codos justo debajo de los hombros, antebrazos paralelos, piernas estiradas y pies al ancho de cadera.\n\n**Qué haces:** aprieta glúteo y abdomen y empuja el suelo con los antebrazos, como alejándote de él. Respira corto sin soltar el abdomen.\n\n**Cómo sabes que está bien:** hombros, cadera y tobillos en línea. Si la cadera se hunde o sube, se acabó la serie aunque falten segundos."
      }
-    ]
+    ],
+    "prioridad": {
+     "n": 1,
+     "porque": "Última semana de postura antes de la descarga, y sigue siendo tu único segundo día de tren superior. **Si hay que elegir uno, haz este.**"
+    }
    },
    {
     "day": "Vie 9",
@@ -29947,7 +29915,11 @@
       ],
       "cue": "**3 × 15.**\n\n**Cómo te pones:** Acostada boca arriba, manos bajo la cola y zona lumbar pegada al suelo.\n\n**Qué haces:** sube las piernas estiradas hasta 90° y bájalas en 3 segundos hasta donde la lumbar siga pegada.\n\n**Cómo sabes que está bien:** la espalda baja no se despega. Si se despega antes de llegar abajo, dobla un poco las rodillas o baja menos."
      }
-    ]
+    ],
+    "prioridad": {
+     "n": 2,
+     "porque": "Glúteo ya tiene sus dos días base y estás en fase lútea (proyectado): si el jueves y el viernes salieron pesados, basta con la escaladora o saltarlo. **Si corriste un día, este es el que se va.**"
+    }
    },
    {
     "day": "Dom 11",
@@ -30409,7 +30381,11 @@
     "cardio": "Caminata 30 min a RPE 3, sin agitarte. RPE 3 = hablas normal · RPE 4 = hablas pero se nota el esfuerzo · RPE 5 = solo frases cortas.",
     "warmup": [],
     "stretch": [],
-    "exercises": []
+    "exercises": [],
+    "prioridad": {
+     "n": 1,
+     "porque": "Semana de descarga: solo caminata. Suma movimiento sin carga. **Sáltala sin culpa** si hay que correr un día."
+    }
    },
    {
     "day": "Vie 16",
@@ -30620,7 +30596,11 @@
     "cardio": "Caminata 30 min a RPE 3, sin agitarte. RPE 3 = hablas normal · RPE 4 = hablas pero se nota el esfuerzo · RPE 5 = solo frases cortas.",
     "warmup": [],
     "stretch": [],
-    "exercises": []
+    "exercises": [],
+    "prioridad": {
+     "n": 2,
+     "porque": "Caminata en el día 1 de regla (proyectado). Solo si hay ganas. Es lo primero que se va si hay que correr un día."
+    }
    },
    {
     "day": "Dom 18",

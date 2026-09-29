@@ -376,16 +376,32 @@ footer a:hover{ color:var(--accent); }
 .pastinner{ padding:12px; }
 .pastpick{ display:flex; flex-wrap:wrap; align-items:center; gap:6px; margin-bottom:14px; }
 .pastpick .pastlabel{ margin-right:4px; }
-.pastpick button, .mover button, .movbar button{ font-family:'IBM Plex Sans',sans-serif; font-size:12px; font-weight:500; padding:6px 11px; border-radius:100px;
+.pastpick button, .mover button, .movbar button, .op-seg button{ font-family:'IBM Plex Sans',sans-serif; font-size:12px; font-weight:500; padding:6px 11px; border-radius:100px;
   border:1px solid var(--line); background:transparent; color:var(--ink-muted); cursor:pointer; }
 .pastpick button.on{ background:var(--accent); border-color:var(--accent); color:var(--accent-ink); }
 .pastlist{ margin:-4px 0 14px; padding:12px; border:1px dashed var(--line); border-radius:12px; }
-.mover{ display:flex; flex-wrap:wrap; align-items:center; gap:6px 10px; margin:12px 0 0; padding-bottom:12px; border-bottom:1px dashed var(--border); }
-.herobody>.mover{ margin:0 0 8px; }
-.daycard .mover+.drationale{ border-top:none; padding-top:0; }
-.herobody>.mover+.mover{ margin-top:-2px; }
-.mover button{ border-color:var(--secondary); color:var(--secondary); }
-.mover small{ font-size:11.5px; color:var(--ink-faint); line-height:1.4; }
+.mover{ display:grid; grid-template-columns:1fr auto 1fr; gap:6px; margin:12px 0 0; }
+.herobody>.mover{ margin:0; }
+.mover button{ padding:8px 10px; border-color:var(--secondary); color:var(--secondary); }
+.mover button[data-op="der"]{ justify-self:end; }
+.mover button[data-op="izq"]{ justify-self:start; }
+.mover button.mid.on{ background:var(--secondary); color:var(--surface); }
+.mover button:disabled{ opacity:.35; cursor:default; }
+.ayerlink{ display:block; margin:8px 0 14px; padding:0; border:none; background:none; font:inherit; font-size:12px; color:var(--ink-faint); text-decoration:underline; cursor:pointer; }
+.opcpanel{ margin:8px 0 0; padding:12px 14px; border:1px dashed var(--secondary); border-radius:12px; }
+.op-head, .op-vacio{ margin:0 0 8px; font-family:'IBM Plex Mono',monospace; font-size:11px; letter-spacing:.03em; text-transform:uppercase; color:var(--ink-muted); }
+.op-vacio{ margin:0; }
+.op-row{ padding:10px 0; border-top:1px solid var(--line); }
+.op-row.off .op-top b, .op-row.off .op-porque{ opacity:.55; }
+.op-top{ display:flex; flex-wrap:wrap; align-items:baseline; gap:4px 8px; font-size:13.5px; }
+.op-dia{ font-family:'Oswald'; font-weight:600; font-size:14px; }
+.op-prio{ font-family:'IBM Plex Mono'; font-size:9.5px; font-weight:600; letter-spacing:.05em; text-transform:uppercase; color:var(--secondary); }
+.op-porque{ margin:4px 0 0; font-size:12.5px; line-height:1.55; color:var(--ink-muted); }
+.op-acc{ display:flex; flex-wrap:wrap; align-items:center; gap:8px; margin-top:8px; }
+.op-seg{ display:inline-flex; border:1px solid var(--line); border-radius:100px; overflow:hidden; }
+.op-seg button{ border:none; border-radius:0; padding:6px 12px; }
+.op-seg button.on{ background:var(--accent); color:var(--accent-ink); }
+.op-acc select{ font:inherit; font-size:12px; padding:6px 8px; border-radius:8px; border:1px solid var(--line); background:var(--surface); color:var(--ink); }
 .dmoved{ font-family:'IBM Plex Mono'; font-size:9.5px; font-weight:600; letter-spacing:.05em; text-transform:uppercase; color:var(--secondary); }
 .movbar{ display:flex; flex-wrap:wrap; align-items:center; gap:8px 10px; margin-bottom:14px; padding:10px 14px; border-left:3px solid var(--secondary);
   background:var(--secondary-soft); border-radius:0 10px 10px 0; font-size:12.5px; color:var(--ink-muted); }
@@ -523,7 +539,6 @@ details.callout[open]>summary.herosum::after{ content:'▴'; }
       <div class="profile-switch" id="profileSwitch"></div>
       <button id="btnTema" class="temabtn" title="Cambiar entre claro, oscuro y automático"></button>
       <button id="btnInstalar" class="installbtn" hidden>Instalar como app</button>
-      <div class="chips" id="profileChips"></div>
     </div>
   </div>
 
@@ -905,75 +920,173 @@ details.callout[open]>summary.herosum::after{ content:'▴'; }
   }
 
   // ---------------- mover el plan ----------------
-  // Si un dia no se entrena, las rutinas se corren un dia y el siguiente descanso se las
-  // absorbe (lun saltado: el lunes pasa a descanso y el domingo se entrena). Al reves, un
-  // descanso se puede entrenar adelantando las rutinas hasta el siguiente descanso.
+  // Tres controles por dia. +1 corre las rutinas desde ese dia hasta el siguiente descanso,
+  // que se ocupa (lunes perdido: el lunes pasa a descanso y el domingo se entrena). -1 las
+  // adelanta: la rutina de ese dia pasa al anterior y lo que quedaba ahi va al final del tramo.
+  // Opcionales decide cuales opcionales de la semana se hacen y en que dia: saltar uno lo
+  // vuelve descanso, y ese descanso es el que absorbe el siguiente +1.
   // Los movimientos quedan en este dispositivo, se aplican en orden sobre el plan publicado
   // y se pueden deshacer; el plan publicado no se toca.
   var perfilActual = null;
-  var CONTENIDO = ['focus','tag','rationale','cardio','warmup','stretch','exercises'];
+  var CONTENIDO = ['focus','tag','rationale','cardio','warmup','stretch','exercises','prioridad','saltado','origen'];
   function esDescanso(d){ return d.tag ? d.tag === 'descanso' : !(d.exercises || []).length; }
+  function esOpcional(d){ return d.tag === 'opcional' || !!d.saltado; }
   function movsDe(key){ try{ return JSON.parse(localStorage.getItem('movs-'+key)) || []; }catch(e){ return []; } }
   function guardaMovs(key, l){ try{ localStorage.setItem('movs-'+key, JSON.stringify(l)); }catch(e){} }
   function isoMenos(iso, n){
     var a = iso.split('-'), d = new Date(Date.UTC(+a[0], +a[1]-1, +a[2] - n));
     return d.toISOString().slice(0,10);
   }
-
-  // Tramo que mueve un movimiento: [a..b] del plan. null si no se puede.
-  function tramo(dias, desde, dir){
-    var i = dias.findIndex(function(d){ return d.date === desde; });
-    if(i < 0 || esDescanso(dias[i]) === (dir > 0)) return null;
-    var b = i + 1;
-    while(b < dias.length && !esDescanso(dias[b])) b++;
-    if(dir > 0) return b < dias.length ? {a:i, b:b} : null;   // sin descanso adelante, una rutina se caeria del plan
-    return b - 1 > i ? {a:i, b:b-1} : null;                    // nada que adelantar
+  function contenido(d){
+    var c = {};
+    CONTENIDO.forEach(function(f){ c[f] = d[f]; });
+    c.origen = d.origen || d.day;
+    return c;
   }
-  function rotar(dias, desde, dir){
-    var r = tramo(dias, desde, dir);
+  function idx(dias, iso){ return dias.findIndex(function(d){ return d.date === iso; }); }
+  // ultimo dia antes del siguiente descanso, buscando desde i
+  function finDeTramo(dias, i){ while(i < dias.length && !esDescanso(dias[i])) i++; return i; }
+
+  // Tramo [a..b] que mueve un +1 o un -1 pedido en el dia iso. null si no se puede.
+  function tramo(dias, iso, dir){
+    var i = idx(dias, iso), t = todayISO();
+    if(i < 0) return null;
+    if(dir > 0){
+      if(esDescanso(dias[i]) || iso < isoMenos(t, 1)) return null;
+      var r = finDeTramo(dias, i + 1);
+      return r < dias.length ? {a:i, b:r} : null;          // sin descanso adelante, una rutina se caeria del plan
+    }
+    var a = esDescanso(dias[i]) ? i : i - 1;               // en un descanso, se trae la rutina siguiente
+    if(a < 0 || dias[a].date < t || esDescanso(dias[a+1])) return null;
+    var b = finDeTramo(dias, a + 1) - 1;
+    return b > a ? {a:a, b:b} : null;
+  }
+  function aplica(dias, m){
+    var out = dias.slice(), i, j, c;
+    if(m.op === 'saltar' || m.op === 'hacer'){
+      i = idx(dias, m.fecha);
+      if(i < 0) return null;
+      if(m.op === 'saltar'){
+        if(dias[i].tag !== 'opcional') return null;
+        c = contenido(dias[i]);
+        out[i] = Object.assign({}, dias[i], {focus:'Descanso', tag:'descanso', cardio:'', warmup:[], stretch:[], exercises:[],
+          rationale:'**Opcional saltado:** '+dias[i].focus.replace(/^Opcional\s*—\s*/,'')+'. Queda como descanso.',
+          prioridad:null, saltado:c, origen:c.origen});
+      } else {
+        if(!dias[i].saltado) return null;
+        out[i] = Object.assign({}, dias[i], dias[i].saltado, {saltado:null});
+      }
+      return out;
+    }
+    if(m.op === 'cambio'){
+      i = idx(dias, m.a); j = idx(dias, m.b);
+      if(i < 0 || j < 0) return null;
+      out[i] = Object.assign({}, dias[i], contenido(dias[j]));
+      out[j] = Object.assign({}, dias[j], contenido(dias[i]));
+      return out;
+    }
+    var r = tramo(dias, m.desde, m.dir);
     if(!r) return null;
-    var seg = dias.slice(r.a, r.b+1).map(function(d){
-      var c = {origen: d.origen || d.day};
-      CONTENIDO.forEach(function(f){ c[f] = d[f]; });
-      return c;
-    });
-    seg = dir > 0 ? [seg[seg.length-1]].concat(seg.slice(0,-1)) : seg.slice(1).concat([seg[0]]);
-    var out = dias.slice();
+    var seg = dias.slice(r.a, r.b+1).map(contenido);
+    seg = m.dir > 0 ? [seg[seg.length-1]].concat(seg.slice(0,-1)) : seg.slice(1).concat([seg[0]]);
     for(var k = r.a; k <= r.b; k++) out[k] = Object.assign({}, dias[k], seg[k - r.a]);
     return out;
   }
   function planDe(profile){
     var dias = profile.WEEKDAYS;
-    movsDe(perfilActual).forEach(function(m){ dias = rotar(dias, m.desde, m.dir) || dias; });
+    movsDe(perfilActual).forEach(function(m){ dias = aplica(dias, m) || dias; });
     return dias;
   }
-  function mueve(desde, dir){
-    var l = movsDe(perfilActual); l.push({desde:desde, dir:dir}); guardaMovs(perfilActual, l);
+  function registra(m){
+    var l = movsDe(perfilActual); l.push(m); guardaMovs(perfilActual, l);
     rerenderPlan();
   }
   function rerenderPlan(){
     var p = PROFILES[perfilActual];
     renderHero(p); renderWeekCards(p);
   }
-  // Boton para mover desde el dia d; '' si ese dia no admite movimiento.
-  function botonMover(dias, d, texto){
-    var dir = esDescanso(d) ? -1 : 1, r = tramo(dias, d.date, dir);
-    if(!r) return '';
-    var fin = dias[r.b];
-    var detalle = dir > 0
-      ? 'Las rutinas se corren un día hasta el '+fin.day+', que deja de ser descanso.'
-      : 'Se adelanta '+dias[r.a+1].focus+' y el descanso pasa al '+fin.day+'.';
-    return '<div class="mover"><button type="button" data-desde="'+esc(d.date)+'" data-dir="'+dir+'">'+
-      esc(texto || (dir > 0 ? 'No entreno este día → correr todo +1' : 'Entrenar este día ← adelantar')) +
-      '</button><small>'+esc(detalle)+'</small></div>';
+
+  // Botonera del dia d: -1 · Opcionales · +1, con el panel de opcionales plegado debajo.
+  function botonera(dias, d){
+    var menos = tramo(dias, d.date, -1), mas = tramo(dias, d.date, 1);
+    var tMenos = menos ? 'Adelanta las rutinas un día; el '+dias[menos.b].day+' queda con '+(esDescanso(dias[menos.a]) ? 'el descanso' : dias[menos.a].focus) : 'No hay nada que adelantar a partir de este día';
+    var tMas = mas ? 'Corre las rutinas un día; el '+dias[mas.b].day+' deja de ser descanso' : 'Un descanso no se corre';
+    return '<div class="mover" data-fecha="'+esc(d.date)+'">'+
+      '<button type="button" data-op="izq"'+(menos ? '' : ' disabled')+' title="'+esc(tMenos)+'">← −1 día</button>'+
+      '<button type="button" data-op="opc" class="mid">Opcionales</button>'+
+      '<button type="button" data-op="der"'+(mas ? '' : ' disabled')+' title="'+esc(tMas)+'">+1 día →</button>'+
+      '</div><div class="opcpanel" style="display:none"></div>';
   }
-  function cableaMover(root){
-    root.querySelectorAll('.mover button').forEach(function(b){
-      b.addEventListener('click', function(ev){ ev.preventDefault(); mueve(b.dataset.desde, +b.dataset.dir); });
+  function semanaDe(dias, iso){
+    var d = new Date(iso+'T12:00:00'); d.setDate(d.getDate() - (d.getDay()+6)%7);
+    var lun = d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0');
+    var dom = isoMenos(lun, -6);
+    return dias.filter(function(x){ return x.date >= lun && x.date <= dom; });
+  }
+  function panelOpcionales(dias, iso){
+    var t = todayISO(), sem = semanaDe(dias, iso);
+    var opc = sem.filter(esOpcional).sort(function(a, b){
+      return ((a.prioridad || a.saltado && a.saltado.prioridad || {}).n || 9) - ((b.prioridad || b.saltado && b.saltado.prioridad || {}).n || 9);
+    });
+    var libres = sem.filter(function(x){ return esDescanso(x) && !x.saltado && x.date >= t; });
+    var base = sem.filter(function(x){ return !esDescanso(x) && x.tag !== 'opcional'; }).length;
+    var hechos = opc.filter(function(x){ return !x.saltado; }).length;
+    if(!opc.length) return '<p class="op-vacio">Esta semana no tiene días opcionales.</p>';
+    return '<p class="op-head">'+base+' días base · '+hechos+' de '+opc.length+(opc.length === 1 ? ' opcional' : ' opcionales')+' en el plan</p>'+
+      opc.map(function(x){
+        var saltado = !!x.saltado, info = saltado ? x.saltado : x, p = info.prioridad || {};
+        var pasado = x.date < t;
+        var sel = '';
+        if(!saltado && !pasado && libres.length){
+          sel = '<select data-a="'+esc(x.date)+'"><option value="">Pasar a otro día…</option>'+
+            libres.map(function(l){ return '<option value="'+esc(l.date)+'">'+esc(l.day)+' (descanso)</option>'; }).join('')+'</select>';
+        }
+        return '<div class="op-row'+(saltado ? ' off' : '')+'">'+
+          '<div class="op-top"><span class="op-dia">'+esc(x.day)+'</span>'+
+          (p.n ? '<span class="op-prio">prioridad '+p.n+'</span>' : '')+
+          '<b>'+esc((info.focus || '').replace(/^Opcional\s*—\s*/,''))+'</b></div>'+
+          (p.porque ? '<p class="op-porque">'+escMd(p.porque)+'</p>' : '')+
+          (pasado ? '' : '<div class="op-acc"><span class="op-seg">'+
+            '<button type="button" data-hacer="'+esc(x.date)+'" class="'+(saltado ? '' : 'on')+'">Hacer</button>'+
+            '<button type="button" data-saltar="'+esc(x.date)+'" class="'+(saltado ? 'on' : '')+'">Saltar</button></span>'+sel+'</div>')+
+          '</div>';
+      }).join('');
+  }
+  function cableaMover(root, dias){
+    root.querySelectorAll('.mover').forEach(function(row){
+      var iso = row.dataset.fecha, panel = row.nextElementSibling;
+      row.querySelectorAll('button').forEach(function(b){
+        b.addEventListener('click', function(ev){
+          ev.preventDefault();
+          if(b.dataset.op === 'izq') return registra({desde:iso, dir:-1});
+          if(b.dataset.op === 'der') return registra({desde:iso, dir:1});
+          var abrir = panel.style.display === 'none';
+          b.classList.toggle('on', abrir);
+          panel.style.display = abrir ? '' : 'none';
+          if(!abrir) return;
+          panel.innerHTML = panelOpcionales(dias, iso);
+          panel.querySelectorAll('[data-hacer]').forEach(function(x){
+            x.addEventListener('click', function(){ if(!x.classList.contains('on')) registra({op:'hacer', fecha:x.dataset.hacer}); });
+          });
+          panel.querySelectorAll('[data-saltar]').forEach(function(x){
+            x.addEventListener('click', function(){ if(!x.classList.contains('on')) registra({op:'saltar', fecha:x.dataset.saltar}); });
+          });
+          panel.querySelectorAll('select').forEach(function(s){
+            s.addEventListener('change', function(){ if(s.value) registra({op:'cambio', a:s.dataset.a, b:s.value}); });
+          });
+        });
+      });
     });
   }
   function etiquetaMovido(d){
     return d.origen && d.origen !== d.day ? '<span class="dmoved">movido del '+esc(d.origen)+'</span>' : '';
+  }
+  function describeMov(m, nombre){
+    var n = function(iso){ return nombre[iso] || iso; };
+    if(m.op === 'saltar') return 'saltado el opcional del '+n(m.fecha);
+    if(m.op === 'hacer')  return 'vuelve el opcional del '+n(m.fecha);
+    if(m.op === 'cambio') return 'opcional del '+n(m.a)+' pasa al '+n(m.b);
+    return (m.dir > 0 ? '+1' : '−1')+' desde el '+n(m.desde);
   }
 
   // ---------------- hero callout ----------------
@@ -990,8 +1103,8 @@ details.callout[open]>summary.herosum::after{ content:'▴'; }
     var isToday = day.date === todayISO();
     // el caso tipico: ayer tocaba entrenar y no se pudo, y hoy se quiere hacer esa rutina
     var ayer = dias.find(function(d){ return d.date === isoMenos(todayISO(), 1); });
-    var moverHtml = (isToday ? botonMover(dias, day) : '') +
-      (ayer && !esDescanso(ayer) ? botonMover(dias, ayer, 'No entrené ayer ('+ayer.focus+') → correr todo desde ayer') : '');
+    var moverHtml = botonera(dias, day) +
+      (isToday && ayer && tramo(dias, ayer.date, 1) ? '<button type="button" class="ayerlink" data-ayer="'+esc(ayer.date)+'">Ayer no entrené → +1 desde ayer</button>' : '');
     var exHtml = day.exercises.map(renderExerciseBlock).join('');
     el.innerHTML =
       '<details class="callout" id="heroDet" open><summary class="herosum">'+
@@ -1004,7 +1117,9 @@ details.callout[open]>summary.herosum::after{ content:'▴'; }
       (day.cardio ? '<div class="herocardio">Cardio de cierre: '+esc(day.cardio)+'</div>' : '')+
       renderBookend(day.stretch, 'Estiramiento de cierre', 'stretch')+
       '</div></details>';
-    cableaMover(el);
+    cableaMover(el, dias);
+    var al = el.querySelector('.ayerlink');
+    if(al) al.addEventListener('click', function(){ registra({desde:al.dataset.ayer, dir:1}); });
   }
 
   // ---------------- week day cards (collapsible) ----------------
@@ -1026,7 +1141,7 @@ details.callout[open]>summary.herosum::after{ content:'▴'; }
       var bar = document.createElement('div');
       bar.className = 'movbar';
       bar.innerHTML = '<span class="mb-txt"><b>Plan movido en este dispositivo:</b> '+
-        movs.map(function(m){ return esc(nombre[m.desde] || m.desde)+(m.dir > 0 ? ' pasó a descanso' : ' se entrena'); }).join(' · ')+
+        movs.map(function(m){ return esc(describeMov(m, nombre)); }).join(' · ')+
         '</span><button type="button" data-a="uno">Deshacer último</button>'+
         (movs.length > 1 ? '<button type="button" data-a="todo">Volver al plan original</button>' : '');
       bar.querySelectorAll('button').forEach(function(b){
@@ -1049,14 +1164,14 @@ details.callout[open]>summary.herosum::after{ content:'▴'; }
       det.innerHTML =
         '<summary><div class="dwhen"><span class="dday">'+esc(d.day)+'</span>'+tagHtml+'</div><h4>'+esc(d.focus)+'</h4></summary>'+
         '<div class="dbody">'+
-        (d.date >= ayer ? botonMover(dias, d) : '')+
+        (d.date >= ayer ? botonera(dias, d) : '')+
         '<p class="drationale">'+escMd(d.rationale)+'</p>'+
         renderBookend(d.warmup, 'Calentamiento', 'warmup')+
         exHtml+
         cardioHtml+
         renderBookend(d.stretch, 'Estiramiento de cierre', 'stretch')+
         '</div>';
-      cableaMover(det);
+      cableaMover(det, dias);
       return det;
     }
 
@@ -1130,22 +1245,7 @@ details.callout[open]>summary.herosum::after{ content:'▴'; }
   }
 
 
-  // ---------------- masthead chips + switch ----------------
-  function renderChips(profile){
-    var wrap = document.getElementById('profileChips');
-    wrap.innerHTML = '';
-    if(!profile.chips.length){
-      wrap.innerHTML = '<div class="chip">Sin datos todavía</div>';
-      return;
-    }
-    profile.chips.forEach(function(c){
-      var d = document.createElement('div');
-      d.className = 'chip';
-      d.innerHTML = esc(c.k)+' <b>'+esc(c.v)+'</b>';
-      wrap.appendChild(d);
-    });
-  }
-
+  // ---------------- masthead switch ----------------
   function renderSwitch(activeKey){
     var wrap = document.getElementById('profileSwitch');
     wrap.innerHTML = '';
@@ -1760,7 +1860,6 @@ details.callout[open]>summary.herosum::after{ content:'▴'; }
     document.getElementById('pageTitle').textContent = 'Sistema de entrenamiento de ' + profile.displayName;
     document.title = 'Sistema de entrenamiento — ' + profile.displayName;
     renderSwitch(key);
-    renderChips(profile);
     renderCycle(profile);
     document.getElementById('weekNote').innerHTML = escMd(profile.weekNote || '');
     document.getElementById('weekTodo').innerHTML = escMd(profile.weekTodo || '');
