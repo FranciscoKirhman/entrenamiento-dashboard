@@ -18,11 +18,24 @@ de una sesión, basta con clonar este repo.
 | `src/parse_log.py` | Convierte un registro markdown a JSON de sesiones (sirve para ambos perfiles). |
 | `src/parse_mopo.py` | Versión antigua, específica de Mopo. |
 | `src/graficos.py` | Recalcula los gráficos de carga y el volumen por músculo desde el historial. `build.py` falla si quedaron atrasados. |
+| `src/hevy_sync.py` | Trae las sesiones nuevas desde la API de Hevy para los perfiles con Pro (clave en `~/.config/hevy/<perfil>.key`, fuera del repo). |
+| `src/hevy_csv.py` | Lo mismo para quien no tiene Pro: importa la exportación CSV de Hevy que quede en `~/Downloads` o en `~/Documents/Entrenamiento/hevy_csv`. Reconoce de quién es por las sesiones ya registradas. |
 | `src/publish.py` | Sincroniza los `.md` de `~/Documents/Entrenamiento`, recalcula los gráficos, reconstruye, commitea y sube — todo en un paso. |
 | `src/musclemap_convert.py` | Convierte los trazados de MuscleMap (Swift) a `src/bodypaths.json`. |
 | `src/bodypaths.json` | **Generado** — geometría del diagrama anatómico. |
 | `src/vendor/musclemap/` | Copia de los datos de MuscleMap y su licencia MIT. |
 | `data/*.md` | Registros históricos y documentos de perfil, en markdown. |
+
+## Sesiones de Mipi (sin Hevy Pro)
+
+La API de Hevy es solo para Pro, así que las sesiones de Mipi entran por la exportación:
+
+1. En su teléfono: **Perfil → Ajustes → Exportar e importar datos → Exportar entrenamientos**.
+2. Manda el `workout_data.csv` al Mac (AirDrop, WhatsApp o correo) y déjalo en `~/Downloads`.
+3. `python3 src/publish.py "sesiones de Mipi"`: importa lo nuevo, reconstruye y publica.
+
+El archivo trae el historial completo; solo entra lo posterior a la última sesión registrada, así
+que se puede volver a exportar e importar sin duplicar nada.
 
 ## Cómo reconstruir y publicar
 

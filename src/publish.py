@@ -4,7 +4,8 @@
   python3 src/publish.py "mensaje del commit"
 
 Hace, en orden:
-  0. trae de Hevy las sesiones nuevas de los perfiles con clave (src/hevy_sync.py)
+  0. trae de Hevy las sesiones nuevas de los perfiles con clave (src/hevy_sync.py), y las de los
+     perfiles sin Pro desde su exportación CSV en ~/Downloads (src/hevy_csv.py)
   1. copia los .md de ~/Documents/Entrenamiento al repo (data/)
   2. recalcula los gráficos desde el historial (src/graficos.py)
   3. regenera index.html desde src/
@@ -28,6 +29,12 @@ def main():
             print("hevy:", ", ".join(hevy))
     except (Exception, SystemExit) as e:   # sin red, clave mala o API caída: se publica igual con lo que hay
         print("hevy: no se pudo sincronizar —", e)
+    import hevy_csv
+    try:
+        if csvs := hevy_csv.sincroniza():
+            print("hevy csv:", ", ".join(csvs))
+    except Exception as e:                 # un CSV raro no debe impedir publicar
+        print("hevy csv: no se pudo importar —", e)
     if os.path.isdir(DOCS):
         os.makedirs(os.path.join(ROOT, "data"), exist_ok=True)
         for f in glob.glob(os.path.join(DOCS, "*.md")):
