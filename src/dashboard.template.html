@@ -380,7 +380,10 @@ footer a:hover{ color:var(--accent); }
   border:1px solid var(--line); background:transparent; color:var(--ink-muted); cursor:pointer; }
 .pastpick button.on{ background:var(--accent); border-color:var(--accent); color:var(--accent-ink); }
 .pastlist{ margin:-4px 0 14px; padding:12px; border:1px dashed var(--line); border-radius:12px; }
-.mover{ display:flex; flex-wrap:wrap; align-items:center; gap:6px 10px; margin-top:14px; padding-top:12px; border-top:1px dashed var(--border); }
+.mover{ display:flex; flex-wrap:wrap; align-items:center; gap:6px 10px; margin:12px 0 0; padding-bottom:12px; border-bottom:1px dashed var(--border); }
+.herobody>.mover{ margin:0 0 8px; }
+.daycard .mover+.drationale{ border-top:none; padding-top:0; }
+.herobody>.mover+.mover{ margin-top:-2px; }
 .mover button{ border-color:var(--secondary); color:var(--secondary); }
 .mover small{ font-size:11.5px; color:var(--ink-faint); line-height:1.4; }
 .dmoved{ font-family:'IBM Plex Mono'; font-size:9.5px; font-weight:600; letter-spacing:.05em; text-transform:uppercase; color:var(--secondary); }
@@ -994,12 +997,12 @@ details.callout[open]>summary.herosum::after{ content:'▴'; }
       '<details class="callout" id="heroDet" open><summary class="herosum">'+
       '<span class="tag">'+esc(day.day)+(isToday?' · hoy':' · próxima sesión')+'</span>'+'<span class="herofocus">'+esc(day.focus)+'</span>'+etiquetaMovido(day)+'</summary>'+
       '<div class="herobody">'+
+      moverHtml+
       '<p class="herolede">'+escMd(day.rationale)+'</p>'+
       renderBookend(day.warmup, 'Calentamiento', 'warmup')+
       exHtml+
       (day.cardio ? '<div class="herocardio">Cardio de cierre: '+esc(day.cardio)+'</div>' : '')+
       renderBookend(day.stretch, 'Estiramiento de cierre', 'stretch')+
-      moverHtml+
       '</div></details>';
     cableaMover(el);
   }
@@ -1046,12 +1049,12 @@ details.callout[open]>summary.herosum::after{ content:'▴'; }
       det.innerHTML =
         '<summary><div class="dwhen"><span class="dday">'+esc(d.day)+'</span>'+tagHtml+'</div><h4>'+esc(d.focus)+'</h4></summary>'+
         '<div class="dbody">'+
+        (d.date >= ayer ? botonMover(dias, d) : '')+
         '<p class="drationale">'+escMd(d.rationale)+'</p>'+
         renderBookend(d.warmup, 'Calentamiento', 'warmup')+
         exHtml+
         cardioHtml+
         renderBookend(d.stretch, 'Estiramiento de cierre', 'stretch')+
-        (d.date >= ayer ? botonMover(dias, d) : '')+
         '</div>';
       cableaMover(det);
       return det;
