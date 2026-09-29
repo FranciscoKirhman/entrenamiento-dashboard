@@ -5,111 +5,111 @@
   "MUSCLES": [
    {
     "name": "Femoral",
-    "recent": 1.8,
-    "hist": 4.1,
+    "recent": 8.2,
+    "hist": 4.6,
     "lo": 6,
     "hi": 10,
-    "tier": "critical",
-    "trend": -4.7,
+    "tier": "good",
+    "trend": 3.5,
     "note": "Curl acostado del domingo 13 y peso muerto rumano del 7. Sube desde 2,9, pero sigue bajo la banda: desde el 21 va dos días por semana, lunes y viernes.",
     "ex": "Romanian Deadlift, Lying/Seated Leg Curl"
    },
    {
     "name": "Tríceps",
-    "recent": 1.8,
+    "recent": 3.5,
     "hist": 5.4,
     "lo": 6,
     "hi": 10,
-    "tier": "critical",
-    "trend": -5.2,
+    "tier": "warning",
+    "trend": 0.0,
     "note": "Pushdown del 8 y extensión sobre la cabeza del 11. Justo bajo la banda; desde el 21 va el martes y el sábado.",
     "ex": "Triceps Pushdown, Overhead Extension"
    },
    {
     "name": "Glúteo / cadera",
-    "recent": 1.8,
-    "hist": 3.3,
+    "recent": 7.0,
+    "hist": 3.8,
     "lo": 8,
     "hi": 12,
-    "tier": "critical",
-    "trend": -1.8,
+    "tier": "warning",
+    "trend": 3.5,
     "note": "Hip thrust del 7 y máquina de glúteo del 13. La máquina de erector espinal del 7 ya no cuenta como glúteo, por eso queda en 3,5. Desde el 21 hay glúteo el lunes y el viernes, con la abducción.",
     "ex": "Hip Thrust, máquina de glúteo"
    },
    {
     "name": "Espalda",
-    "recent": 5.2,
-    "hist": 9.9,
+    "recent": 7.0,
+    "hist": 9.8,
     "lo": 12,
     "hi": 16,
-    "tier": "critical",
-    "trend": 0.0,
+    "tier": "warning",
+    "trend": 1.8,
     "note": "Jalón, remo y dominadas del 11, con jalón a 82 × 12 las tres. Con un solo día por semana no llega a la banda: desde el 21 el remo sentado pasa al viernes.",
     "ex": "Lat Pulldown, Seated Row, Iso-Lateral Row, Pull Up"
    },
    {
     "name": "Bíceps",
     "recent": 1.8,
-    "hist": 6.4,
+    "hist": 6.1,
     "lo": 6,
     "hi": 10,
     "tier": "critical",
-    "trend": -3.5,
+    "trend": 0.0,
     "note": "Solo el Preacher del 11 cae en la ventana. Desde el 21: curl inclinado el jueves y martillo el sábado, además de lo que trabajan los remos.",
     "ex": "Incline Curl, Hammer Curl, Preacher Curl"
    },
    {
     "name": "Pecho",
-    "recent": 3.5,
-    "hist": 9.8,
+    "recent": 6.4,
+    "hist": 9.7,
     "lo": 10,
     "hi": 14,
-    "tier": "critical",
-    "trend": -6.4,
+    "tier": "warning",
+    "trend": -0.6,
     "note": "Dentro de banda con la banca del 8 y el inclinado a 65 × 10 del domingo 13, sin molestias de hombro.",
     "ex": "Bench Press, Incline Bench, Cable Fly, Chest Fly"
    },
    {
     "name": "Hombro (empuje)",
-    "recent": 4.7,
-    "hist": 11.3,
+    "recent": 6.4,
+    "hist": 11.1,
     "lo": 8,
     "hi": 12,
     "tier": "warning",
-    "trend": -10.5,
+    "trend": -1.8,
     "note": "Sobre la banda con press, elevación lateral, Rear Delt y Face Pull. Desde el 21 el press militar descansa y el Rear Delt sale del plan.",
     "ex": "Shoulder Press, Lateral Raise, Face Pull"
    },
    {
     "name": "Cuádriceps",
     "recent": 5.2,
-    "hist": 7.9,
+    "hist": 7.8,
     "lo": 10,
     "hi": 14,
     "tier": "warning",
-    "trend": 0.6,
+    "trend": 0.0,
     "note": "Sentadilla a 90 × 8 las tres y prensa a 180 × 12 el 9. Al borde de la banda con un solo día de cuádriceps.",
     "ex": "Squat, Leg Press, Leg Extension"
    },
    {
     "name": "Aductor / abductor",
     "recent": 3.5,
-    "hist": 3.5,
+    "hist": 3.6,
     "lo": 4,
     "hi": 8,
     "tier": "warning",
-    "trend": 1.8,
+    "trend": 0.0,
     "note": "Aducción a 89 × 15 el 9 y el 13, siempre a RPE 7: en banda, pero con la carga corta. Sube a 94 el 23.",
     "ex": "Hip Adduction, Hip Abduction"
    },
    {
     "name": "Core",
-    "recent": 4.1,
-    "hist": 6.5,
+    "recent": 8.8,
+    "hist": 6.9,
     "lo": 12,
     "hi": 22,
-    "tier": "critical",
-    "trend": -14.0,
+    "tier": "warning",
+    "trend": -2.3,
     "note": "Pallof, crunch inverso, elevación de rodillas y plancha lateral: dentro de banda.",
     "ex": "Cable Crunch, Pallof Press, Reverse Crunch, Side Plank"
    }
@@ -11286,6 +11286,10 @@
      {
       "d": "14 sep",
       "w": 65.0
+     },
+     {
+      "d": "22 sep",
+      "w": 85.0
      }
     ],
     "pattern": "ascendente_claro",
@@ -11335,6 +11339,10 @@
      },
      {
       "d": "09 sep",
+      "w": 90.0
+     },
+     {
+      "d": "23 sep",
       "w": 90.0
      }
     ],
@@ -11402,6 +11410,14 @@
      {
       "d": "20 sep",
       "w": 90.0
+     },
+     {
+      "d": "24 sep",
+      "w": 105.0
+     },
+     {
+      "d": "29 sep",
+      "w": 105.0
      }
     ],
     "pattern": "meseta_oscilante",
@@ -11487,6 +11503,10 @@
      },
      {
       "d": "11 sep",
+      "w": 82.0
+     },
+     {
+      "d": "21 sep",
       "w": 82.0
      }
     ],
@@ -11612,6 +11632,10 @@
      {
       "d": "28 ago",
       "w": 24.0
+     },
+     {
+      "d": "25 sep",
+      "w": 20.0
      }
     ],
     "pattern": "meseta_oscilante",
@@ -11670,6 +11694,10 @@
      {
       "d": "16 sep",
       "w": 150.0
+     },
+     {
+      "d": "23 sep",
+      "w": 180.0
      }
     ],
     "pattern": "meseta_oscilante",
@@ -11724,6 +11752,10 @@
      {
       "d": "25 ago",
       "w": 40.0
+     },
+     {
+      "d": "22 sep",
+      "w": 40.0
      }
     ],
     "pattern": "meseta_oscilante",
@@ -11734,6 +11766,834 @@
    }
   ],
   "SESSIONS_FULL": [
+   {
+    "date": "2026-09-29",
+    "dlabel": "29 sep",
+    "title": "Afternoon workout 💪",
+    "hora": "11:54 AM",
+    "dur": "1h 39m",
+    "vol": "10,200",
+    "com": null,
+    "rec": null,
+    "exercises": [
+     {
+      "ej": "Hip Thrust (Barbell)",
+      "carga": "60",
+      "reps": "10",
+      "rpe": "6"
+     },
+     {
+      "ej": "Hip Thrust (Barbell)",
+      "carga": "105",
+      "reps": "12",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Hip Thrust (Barbell)",
+      "carga": "105",
+      "reps": "10",
+      "rpe": "9"
+     },
+     {
+      "ej": "Hip Thrust (Barbell)",
+      "carga": "105",
+      "reps": "11",
+      "rpe": "9"
+     },
+     {
+      "ej": "Romanian Deadlift (Smith Machine)",
+      "carga": "20",
+      "reps": "12",
+      "rpe": "6"
+     },
+     {
+      "ej": "Romanian Deadlift (Smith Machine)",
+      "carga": "55",
+      "reps": "10",
+      "rpe": "7,5"
+     },
+     {
+      "ej": "Romanian Deadlift (Smith Machine)",
+      "carga": "55",
+      "reps": "10",
+      "rpe": "7,5"
+     },
+     {
+      "ej": "Romanian Deadlift (Smith Machine)",
+      "carga": "55",
+      "reps": "10",
+      "rpe": "8"
+     },
+     {
+      "ej": "Back Extension (Weighted Hyperextension)",
+      "carga": "50",
+      "reps": "12",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Back Extension (Weighted Hyperextension)",
+      "carga": "50",
+      "reps": "11",
+      "rpe": "9"
+     },
+     {
+      "ej": "Back Extension (Weighted Hyperextension)",
+      "carga": "53",
+      "reps": "12",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Lying Leg Curl (Machine)",
+      "carga": "46",
+      "reps": "12",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Lying Leg Curl (Machine)",
+      "carga": "46",
+      "reps": "11",
+      "rpe": "9"
+     },
+     {
+      "ej": "Lying Leg Curl (Machine)",
+      "carga": "46",
+      "reps": "6",
+      "rpe": "10"
+     },
+     {
+      "ej": "Crunch (Machine)",
+      "carga": "25",
+      "reps": "12",
+      "rpe": "7"
+     },
+     {
+      "ej": "Crunch (Machine)",
+      "carga": "27,5",
+      "reps": "15",
+      "rpe": "8"
+     },
+     {
+      "ej": "Crunch (Machine)",
+      "carga": "27,5",
+      "reps": "15",
+      "rpe": "8"
+     },
+     {
+      "ej": "Stair Machine (Floors)",
+      "carga": "Peso corporal (isométrico)",
+      "reps": "720 s",
+      "rpe": "—"
+     }
+    ]
+   },
+   {
+    "date": "2026-09-27",
+    "dlabel": "27 sep",
+    "title": "Afternoon workout 💪",
+    "hora": "12:56 PM",
+    "dur": "1h 13m",
+    "vol": "7,399",
+    "com": null,
+    "rec": null,
+    "exercises": [
+     {
+      "ej": "Triceps Pushdown",
+      "carga": "32,5",
+      "reps": "13",
+      "rpe": "8"
+     },
+     {
+      "ej": "Triceps Pushdown",
+      "carga": "32,5",
+      "reps": "15",
+      "rpe": "8"
+     },
+     {
+      "ej": "Triceps Pushdown",
+      "carga": "32,5",
+      "reps": "12",
+      "rpe": "8"
+     },
+     {
+      "ej": "Hip Abduction (Machine)",
+      "carga": "75",
+      "reps": "15",
+      "rpe": "7,5"
+     },
+     {
+      "ej": "Hip Abduction (Machine)",
+      "carga": "75",
+      "reps": "15",
+      "rpe": "7,5"
+     },
+     {
+      "ej": "Hip Abduction (Machine)",
+      "carga": "75",
+      "reps": "15",
+      "rpe": "7,5"
+     },
+     {
+      "ej": "Bulgarian Split Squat (Dumbbell)",
+      "carga": "20",
+      "reps": "10",
+      "rpe": "6"
+     },
+     {
+      "ej": "Bulgarian Split Squat (Dumbbell)",
+      "carga": "20",
+      "reps": "10",
+      "rpe": "6"
+     },
+     {
+      "ej": "Bulgarian Split Squat (Dumbbell)",
+      "carga": "20",
+      "reps": "10",
+      "rpe": "6"
+     },
+     {
+      "ej": "Seated Leg Curl (Machine)",
+      "carga": "45",
+      "reps": "12",
+      "rpe": "6"
+     },
+     {
+      "ej": "Seated Leg Curl (Machine)",
+      "carga": "66",
+      "reps": "12",
+      "rpe": "8"
+     },
+     {
+      "ej": "Seated Leg Curl (Machine)",
+      "carga": "66",
+      "reps": "12",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Treadmill",
+      "carga": "Peso corporal (isométrico)",
+      "reps": "600 s",
+      "rpe": "—"
+     }
+    ]
+   },
+   {
+    "date": "2026-09-25",
+    "dlabel": "25 sep",
+    "title": "Afternoon workout 💪",
+    "hora": "12:31 PM",
+    "dur": "1h 43m",
+    "vol": "8,286",
+    "com": "Gym con la mujer",
+    "rec": null,
+    "exercises": [
+     {
+      "ej": "Incline Bench Press (Barbell)",
+      "carga": "40",
+      "reps": "8",
+      "rpe": "6"
+     },
+     {
+      "ej": "Incline Bench Press (Barbell)",
+      "carga": "65",
+      "reps": "8",
+      "rpe": "7"
+     },
+     {
+      "ej": "Incline Bench Press (Barbell)",
+      "carga": "65",
+      "reps": "8",
+      "rpe": "7,5"
+     },
+     {
+      "ej": "Incline Bench Press (Barbell)",
+      "carga": "65",
+      "reps": "8",
+      "rpe": "8"
+     },
+     {
+      "ej": "Seated Row (Machine)",
+      "carga": "61",
+      "reps": "12",
+      "rpe": "6"
+     },
+     {
+      "ej": "Seated Row (Machine)",
+      "carga": "75",
+      "reps": "10",
+      "rpe": "7"
+     },
+     {
+      "ej": "Seated Row (Machine)",
+      "carga": "75",
+      "reps": "10",
+      "rpe": "8"
+     },
+     {
+      "ej": "Seated Row (Machine)",
+      "carga": "75",
+      "reps": "10",
+      "rpe": "8"
+     },
+     {
+      "ej": "Face Pull",
+      "carga": "28,75",
+      "reps": "15",
+      "rpe": "6"
+     },
+     {
+      "ej": "Face Pull",
+      "carga": "30",
+      "reps": "15",
+      "rpe": "7"
+     },
+     {
+      "ej": "Face Pull",
+      "carga": "30",
+      "reps": "15",
+      "rpe": "7"
+     },
+     {
+      "ej": "Cable Fly Crossovers",
+      "carga": "12,5",
+      "reps": "15",
+      "rpe": "8"
+     },
+     {
+      "ej": "Cable Fly Crossovers",
+      "carga": "12,5",
+      "reps": "12",
+      "rpe": "9"
+     },
+     {
+      "ej": "Cable Fly Crossovers",
+      "carga": "11,25",
+      "reps": "12",
+      "rpe": "9"
+     },
+     {
+      "ej": "Seated Incline Curl (Dumbbell)",
+      "carga": "20",
+      "reps": "12",
+      "rpe": "7"
+     },
+     {
+      "ej": "Seated Incline Curl (Dumbbell)",
+      "carga": "20",
+      "reps": "12",
+      "rpe": "8"
+     },
+     {
+      "ej": "Seated Incline Curl (Dumbbell)",
+      "carga": "20",
+      "reps": "12",
+      "rpe": "9"
+     },
+     {
+      "ej": "Lateral Raise (Dumbbell)",
+      "carga": "20",
+      "reps": "15",
+      "rpe": "8"
+     },
+     {
+      "ej": "Lateral Raise (Dumbbell)",
+      "carga": "20",
+      "reps": "15",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Lateral Raise (Dumbbell)",
+      "carga": "20",
+      "reps": "15",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Treadmill",
+      "carga": "Peso corporal (isométrico)",
+      "reps": "720 s",
+      "rpe": "—"
+     }
+    ]
+   },
+   {
+    "date": "2026-09-24",
+    "dlabel": "24 sep",
+    "title": "Afternoon workout 💪",
+    "hora": "12:32 PM",
+    "dur": "1h 30m",
+    "vol": "8,968",
+    "com": null,
+    "rec": null,
+    "exercises": [
+     {
+      "ej": "Hip Thrust (Barbell)",
+      "carga": "60",
+      "reps": "10",
+      "rpe": "6"
+     },
+     {
+      "ej": "Hip Thrust (Barbell)",
+      "carga": "105",
+      "reps": "10",
+      "rpe": "7"
+     },
+     {
+      "ej": "Hip Thrust (Barbell)",
+      "carga": "105",
+      "reps": "10",
+      "rpe": "8"
+     },
+     {
+      "ej": "Hip Thrust (Barbell)",
+      "carga": "105",
+      "reps": "10",
+      "rpe": "8"
+     },
+     {
+      "ej": "Romanian Deadlift (Smith Machine)",
+      "carga": "20",
+      "reps": "12",
+      "rpe": "6"
+     },
+     {
+      "ej": "Romanian Deadlift (Smith Machine)",
+      "carga": "50",
+      "reps": "12",
+      "rpe": "7"
+     },
+     {
+      "ej": "Romanian Deadlift (Smith Machine)",
+      "carga": "50",
+      "reps": "12",
+      "rpe": "7"
+     },
+     {
+      "ej": "Romanian Deadlift (Smith Machine)",
+      "carga": "50",
+      "reps": "12",
+      "rpe": "7,5"
+     },
+     {
+      "ej": "Lying Leg Curl (Machine)",
+      "carga": "46",
+      "reps": "12",
+      "rpe": "7,5"
+     },
+     {
+      "ej": "Lying Leg Curl (Machine)",
+      "carga": "46",
+      "reps": "10",
+      "rpe": "7"
+     },
+     {
+      "ej": "Lying Leg Curl (Machine)",
+      "carga": "46",
+      "reps": "11",
+      "rpe": "8"
+     },
+     {
+      "ej": "Back Extension (Weighted Hyperextension)",
+      "carga": "53",
+      "reps": "10",
+      "rpe": "8"
+     },
+     {
+      "ej": "Back Extension (Weighted Hyperextension)",
+      "carga": "50",
+      "reps": "12",
+      "rpe": "8"
+     },
+     {
+      "ej": "Back Extension (Weighted Hyperextension)",
+      "carga": "53",
+      "reps": "10",
+      "rpe": "7,5"
+     }
+    ]
+   },
+   {
+    "date": "2026-09-23",
+    "dlabel": "23 sep",
+    "title": "Morning workout ☀️",
+    "hora": "9:26 AM",
+    "dur": "1h 4m",
+    "vol": "15,220",
+    "com": "Miércoles de velocidad",
+    "rec": null,
+    "exercises": [
+     {
+      "ej": "Squat (Barbell)",
+      "carga": "20",
+      "reps": "12",
+      "rpe": "6"
+     },
+     {
+      "ej": "Squat (Barbell)",
+      "carga": "60",
+      "reps": "6",
+      "rpe": "6"
+     },
+     {
+      "ej": "Squat (Barbell)",
+      "carga": "90",
+      "reps": "8",
+      "rpe": "7"
+     },
+     {
+      "ej": "Squat (Barbell)",
+      "carga": "90",
+      "reps": "8",
+      "rpe": "8"
+     },
+     {
+      "ej": "Squat (Barbell)",
+      "carga": "90",
+      "reps": "8",
+      "rpe": "8"
+     },
+     {
+      "ej": "Leg Press (Machine)",
+      "carga": "100",
+      "reps": "10",
+      "rpe": "6"
+     },
+     {
+      "ej": "Leg Press (Machine)",
+      "carga": "180",
+      "reps": "10",
+      "rpe": "7"
+     },
+     {
+      "ej": "Leg Press (Machine)",
+      "carga": "180",
+      "reps": "10",
+      "rpe": "8"
+     },
+     {
+      "ej": "Leg Press (Machine)",
+      "carga": "180",
+      "reps": "10",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Leg Extension (Machine)",
+      "carga": "66",
+      "reps": "10",
+      "rpe": "8"
+     },
+     {
+      "ej": "Leg Extension (Machine)",
+      "carga": "66",
+      "reps": "12",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Leg Extension (Machine)",
+      "carga": "66",
+      "reps": "10",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Hip Adduction (Machine)",
+      "carga": "94",
+      "reps": "15",
+      "rpe": "8"
+     },
+     {
+      "ej": "Hip Adduction (Machine)",
+      "carga": "94",
+      "reps": "12",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Hip Adduction (Machine)",
+      "carga": "94",
+      "reps": "15",
+      "rpe": "8"
+     },
+     {
+      "ej": "Reverse Crunch",
+      "carga": "Peso corporal",
+      "reps": "15",
+      "rpe": "7"
+     },
+     {
+      "ej": "Reverse Crunch",
+      "carga": "Peso corporal",
+      "reps": "15",
+      "rpe": "7,5"
+     },
+     {
+      "ej": "Reverse Crunch",
+      "carga": "Peso corporal",
+      "reps": "13",
+      "rpe": "9"
+     }
+    ]
+   },
+   {
+    "date": "2026-09-22",
+    "dlabel": "22 sep",
+    "title": "Afternoon workout 💪",
+    "hora": "5:17 PM",
+    "dur": "1h 35m",
+    "vol": "7,095",
+    "com": null,
+    "rec": null,
+    "exercises": [
+     {
+      "ej": "Bench Press (Barbell)",
+      "carga": "40",
+      "reps": "10",
+      "rpe": "6"
+     },
+     {
+      "ej": "Bench Press (Barbell)",
+      "carga": "65",
+      "reps": "5",
+      "rpe": "6"
+     },
+     {
+      "ej": "Bench Press (Barbell)",
+      "carga": "85",
+      "reps": "8",
+      "rpe": "7,5"
+     },
+     {
+      "ej": "Bench Press (Barbell)",
+      "carga": "85",
+      "reps": "8",
+      "rpe": "7,5"
+     },
+     {
+      "ej": "Bench Press (Barbell)",
+      "carga": "85",
+      "reps": "8",
+      "rpe": "8"
+     },
+     {
+      "ej": "Shoulder Press (Dumbbell)",
+      "carga": "24",
+      "reps": "10",
+      "rpe": "6"
+     },
+     {
+      "ej": "Shoulder Press (Dumbbell)",
+      "carga": "40",
+      "reps": "8",
+      "rpe": "7"
+     },
+     {
+      "ej": "Shoulder Press (Dumbbell)",
+      "carga": "40",
+      "reps": "8",
+      "rpe": "7,5"
+     },
+     {
+      "ej": "Shoulder Press (Dumbbell)",
+      "carga": "40",
+      "reps": "8",
+      "rpe": "8"
+     },
+     {
+      "ej": "Incline Bench Press (Dumbbell)",
+      "carga": "28",
+      "reps": "10",
+      "rpe": "6"
+     },
+     {
+      "ej": "Incline Bench Press (Dumbbell)",
+      "carga": "40",
+      "reps": "10",
+      "rpe": "6"
+     },
+     {
+      "ej": "Incline Bench Press (Dumbbell)",
+      "carga": "40",
+      "reps": "10",
+      "rpe": "7"
+     },
+     {
+      "ej": "Incline Bench Press (Dumbbell)",
+      "carga": "40",
+      "reps": "10",
+      "rpe": "7"
+     },
+     {
+      "ej": "Overhead Triceps Extension (Cable)",
+      "carga": "20",
+      "reps": "12",
+      "rpe": "7"
+     },
+     {
+      "ej": "Overhead Triceps Extension (Cable)",
+      "carga": "20",
+      "reps": "11",
+      "rpe": "9"
+     },
+     {
+      "ej": "Overhead Triceps Extension (Cable)",
+      "carga": "20",
+      "reps": "10",
+      "rpe": "9"
+     },
+     {
+      "ej": "Single Arm Lateral Raise (Cable)",
+      "carga": "8,75",
+      "reps": "12",
+      "rpe": "7"
+     },
+     {
+      "ej": "Single Arm Lateral Raise (Cable)",
+      "carga": "8,75",
+      "reps": "12",
+      "rpe": "7"
+     },
+     {
+      "ej": "Single Arm Lateral Raise (Cable)",
+      "carga": "8,75",
+      "reps": "12",
+      "rpe": "8"
+     },
+     {
+      "ej": "Cable Core Pallof Press",
+      "carga": "15",
+      "reps": "15",
+      "rpe": "7"
+     },
+     {
+      "ej": "Cable Core Pallof Press",
+      "carga": "15",
+      "reps": "15",
+      "rpe": "7,5"
+     },
+     {
+      "ej": "Cable Core Pallof Press",
+      "carga": "15",
+      "reps": "15",
+      "rpe": "7,5"
+     },
+     {
+      "ej": "Stair Machine (Floors)",
+      "carga": "Peso corporal (isométrico)",
+      "reps": "900 s",
+      "rpe": "—"
+     }
+    ]
+   },
+   {
+    "date": "2026-09-21",
+    "dlabel": "21 sep",
+    "title": "Afternoon workout 💪",
+    "hora": "1:41 PM",
+    "dur": "1h 24m",
+    "vol": "6,110",
+    "com": null,
+    "rec": null,
+    "exercises": [
+     {
+      "ej": "Lat Pulldown (Cable)",
+      "carga": "61",
+      "reps": "12",
+      "rpe": "6"
+     },
+     {
+      "ej": "Lat Pulldown (Cable)",
+      "carga": "82",
+      "reps": "12",
+      "rpe": "7"
+     },
+     {
+      "ej": "Lat Pulldown (Cable)",
+      "carga": "82",
+      "reps": "12",
+      "rpe": "8"
+     },
+     {
+      "ej": "Lat Pulldown (Cable)",
+      "carga": "82",
+      "reps": "10",
+      "rpe": "8"
+     },
+     {
+      "ej": "Iso-Lateral Row (Machine)",
+      "carga": "70",
+      "reps": "12",
+      "rpe": "8"
+     },
+     {
+      "ej": "Iso-Lateral Row (Machine)",
+      "carga": "70",
+      "reps": "10",
+      "rpe": "7"
+     },
+     {
+      "ej": "Iso-Lateral Row (Machine)",
+      "carga": "70",
+      "reps": "15",
+      "rpe": "8"
+     },
+     {
+      "ej": "Pull Up",
+      "carga": "Peso corporal",
+      "reps": "10",
+      "rpe": "7"
+     },
+     {
+      "ej": "Pull Up",
+      "carga": "Peso corporal",
+      "reps": "10",
+      "rpe": "7"
+     },
+     {
+      "ej": "Pull Up",
+      "carga": "Peso corporal",
+      "reps": "10",
+      "rpe": "8"
+     },
+     {
+      "ej": "Knee Raise Parallel Bars",
+      "carga": "Peso corporal",
+      "reps": "15",
+      "rpe": "7"
+     },
+     {
+      "ej": "Knee Raise Parallel Bars",
+      "carga": "Peso corporal",
+      "reps": "15",
+      "rpe": "8"
+     },
+     {
+      "ej": "Knee Raise Parallel Bars",
+      "carga": "Peso corporal",
+      "reps": "13",
+      "rpe": "9"
+     },
+     {
+      "ej": "Side Plank",
+      "carga": "Peso corporal (isométrico)",
+      "reps": "45 s",
+      "rpe": "—"
+     },
+     {
+      "ej": "Side Plank",
+      "carga": "Peso corporal (isométrico)",
+      "reps": "30 s",
+      "rpe": "—"
+     },
+     {
+      "ej": "Side Plank",
+      "carga": "Peso corporal (isométrico)",
+      "reps": "40 s",
+      "rpe": "—"
+     },
+     {
+      "ej": "Stair Machine (Floors)",
+      "carga": "Peso corporal (isométrico)",
+      "reps": "1200 s",
+      "rpe": "—"
+     }
+    ]
+   },
    {
     "date": "2026-09-20",
     "dlabel": "20 sep",

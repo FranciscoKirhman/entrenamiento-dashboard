@@ -61,7 +61,7 @@ def num(x):
 
 
 def miles(x):
-    return f"{round(x):,}"
+    return f"{int(x + 0.5):,}"   # medio hacia arriba, como Hevy (round() de Python redondea 3612,5 a 3612)
 
 
 def fila(orden, ej, serie, s):

@@ -1,4 +1,4 @@
-# Historial de entrenamiento por fecha — 29 de mayo de 2026 al 20 de septiembre de 2026 (78 sesiones)
+# Historial de entrenamiento por fecha — 29 de mayo de 2026 al 29 de septiembre de 2026 (85 sesiones)
 
 Registro cronológico consolidado. Cada fila corresponde a una serie real copiada desde Hevy. Los volúmenes oficiales se conservan sin reemplazarlos por cálculos derivados.
 
@@ -2243,3 +2243,215 @@ Sesión de boulder por la tarde, después del entrenamiento de pierna de la mañ
 *Cierre de la semana de descarga con una sesión extra el domingo, no planificada: el tablero tenía descanso. Todo por debajo de sus cargas normales — curl y martillo a 24 kg (venía de 28 × 11-12), pushdown a 25 × 12 (normalmente 30-31,25 × 15) y hip thrust a 90 × 9 (venía de 105 × 12 y 100 × 12).*
 
 *La excepción es el **Face Pull: 30 kg × 15 en las tres series**. El 11 de septiembre solo la tercera había llegado a 30, y a RPE 9,5. Es justo uno de los tres ejercicios que el diagnóstico del mesociclo anterior marcó como "claramente cortos" (RPE de trabajo bajo 7,7), junto con la aducción de cadera y el Triceps Pushdown — subirlo era exactamente lo que correspondía.*
+
+## 21 Sep 2026 — Afternoon workout 💪
+
+<!-- hevy:5835873f-b329-4844-aa85-3c3cce9fa1ac -->
+**Hora:** 1:41 PM  
+**Duración:** 1h 24m  
+**Volumen Hevy:** 6,110 kg  
+
+| Orden | Ejercicio | Serie | Carga | Reps/tiempo | RPE |
+|---:|---|---:|---:|---|---:|
+| 1 | Lat Pulldown (Cable) | 1 | 61 kg | 12 | 6 |
+| 1 | Lat Pulldown (Cable) | 2 | 82 kg | 12 | 7 |
+| 1 | Lat Pulldown (Cable) | 3 | 82 kg | 12 | 8 |
+| 1 | Lat Pulldown (Cable) | 4 | 82 kg | 10 | 8 |
+| 2 | Iso-Lateral Row (Machine) | 1 | 70 kg | 12 | 8 |
+| 2 | Iso-Lateral Row (Machine) | 2 | 70 kg | 10 | 7 |
+| 2 | Iso-Lateral Row (Machine) | 3 | 70 kg | 15 | 8 |
+| 3 | Pull Up | 1 | Peso corporal | 10 | 7 |
+| 3 | Pull Up | 2 | Peso corporal | 10 | 7 |
+| 3 | Pull Up | 3 | Peso corporal | 10 | 8 |
+| 4 | Knee Raise Parallel Bars | 1 | Peso corporal | 15 | 7 |
+| 4 | Knee Raise Parallel Bars | 2 | Peso corporal | 15 | 8 |
+| 4 | Knee Raise Parallel Bars | 3 | Peso corporal | 13 | 9 |
+| 5 | Side Plank | 1 | Peso corporal (isométrico) | 45 s | — |
+| 5 | Side Plank | 2 | Peso corporal (isométrico) | 30 s | — |
+| 5 | Side Plank | 3 | Peso corporal (isométrico) | 40 s | — |
+| 6 | Stair Machine (Floors) | 1 | Peso corporal (isométrico) | 1200 s | — |
+
+**Notas por ejercicio:**
+- **Iso-Lateral Row (Machine):** Realizado 1 brazo a la vez para mas control
+- **Side Plank:** 2da serie la hice con brazo y pierna arriba
+
+## 22 Sep 2026 — Afternoon workout 💪
+
+<!-- hevy:cc5f274a-c00b-4406-92e3-2aaed288b0b7 -->
+**Hora:** 5:17 PM  
+**Duración:** 1h 35m  
+**Volumen Hevy:** 7,095 kg  
+
+| Orden | Ejercicio | Serie | Carga | Reps/tiempo | RPE |
+|---:|---|---:|---:|---|---:|
+| 1 | Bench Press (Barbell) | 1 | 40 kg | 10 | 6 |
+| 1 | Bench Press (Barbell) | 2 | 65 kg | 5 | 6 |
+| 1 | Bench Press (Barbell) | 3 | 85 kg | 8 | 7,5 |
+| 1 | Bench Press (Barbell) | 4 | 85 kg | 8 | 7,5 |
+| 1 | Bench Press (Barbell) | 5 | 85 kg | 8 | 8 |
+| 2 | Shoulder Press (Dumbbell) | 1 | 24 kg | 10 | 6 |
+| 2 | Shoulder Press (Dumbbell) | 2 | 40 kg | 8 | 7 |
+| 2 | Shoulder Press (Dumbbell) | 3 | 40 kg | 8 | 7,5 |
+| 2 | Shoulder Press (Dumbbell) | 4 | 40 kg | 8 | 8 |
+| 3 | Incline Bench Press (Dumbbell) | 1 | 28 kg | 10 | 6 |
+| 3 | Incline Bench Press (Dumbbell) | 2 | 40 kg | 10 | 6 |
+| 3 | Incline Bench Press (Dumbbell) | 3 | 40 kg | 10 | 7 |
+| 3 | Incline Bench Press (Dumbbell) | 4 | 40 kg | 10 | 7 |
+| 4 | Overhead Triceps Extension (Cable) | 1 | 20 kg | 12 | 7 |
+| 4 | Overhead Triceps Extension (Cable) | 2 | 20 kg | 11 | 9 |
+| 4 | Overhead Triceps Extension (Cable) | 3 | 20 kg | 10 | 9 |
+| 5 | Single Arm Lateral Raise (Cable) | 1 | 8,75 kg | 12 | 7 |
+| 5 | Single Arm Lateral Raise (Cable) | 2 | 8,75 kg | 12 | 7 |
+| 5 | Single Arm Lateral Raise (Cable) | 3 | 8,75 kg | 12 | 8 |
+| 6 | Cable Core Pallof Press | 1 | 15 kg | 15 | 7 |
+| 6 | Cable Core Pallof Press | 2 | 15 kg | 15 | 7,5 |
+| 6 | Cable Core Pallof Press | 3 | 15 kg | 15 | 7,5 |
+| 7 | Stair Machine (Floors) | 1 | Peso corporal (isométrico) | 900 s | — |
+
+**Notas por ejercicio:**
+- **Overhead Triceps Extension (Cable):** Algo hice mal en la 2 da y 3 ra serie pero me cansé rápido
+- **Cable Core Pallof Press:** Pausa 2 segundos
+
+## 23 Sep 2026 — Morning workout ☀️
+
+<!-- hevy:10d83cbe-87e5-47aa-b53d-9812b02407f5 -->
+**Hora:** 9:26 AM  
+**Duración:** 1h 4m  
+**Volumen Hevy:** 15,220 kg  
+**Comentario:** Miércoles de velocidad  
+
+| Orden | Ejercicio | Serie | Carga | Reps/tiempo | RPE |
+|---:|---|---:|---:|---|---:|
+| 1 | Squat (Barbell) | 1 | 20 kg | 12 | 6 |
+| 1 | Squat (Barbell) | 2 | 60 kg | 6 | 6 |
+| 1 | Squat (Barbell) | 3 | 90 kg | 8 | 7 |
+| 1 | Squat (Barbell) | 4 | 90 kg | 8 | 8 |
+| 1 | Squat (Barbell) | 5 | 90 kg | 8 | 8 |
+| 2 | Leg Press (Machine) | 1 | 100 kg | 10 | 6 |
+| 2 | Leg Press (Machine) | 2 | 180 kg | 10 | 7 |
+| 2 | Leg Press (Machine) | 3 | 180 kg | 10 | 8 |
+| 2 | Leg Press (Machine) | 4 | 180 kg | 10 | 8,5 |
+| 3 | Leg Extension (Machine) | 1 | 66 kg | 10 | 8 |
+| 3 | Leg Extension (Machine) | 2 | 66 kg | 12 | 8,5 |
+| 3 | Leg Extension (Machine) | 3 | 66 kg | 10 | 8,5 |
+| 4 | Hip Adduction (Machine) | 1 | 94 kg | 15 | 8 |
+| 4 | Hip Adduction (Machine) | 2 | 94 kg | 12 | 8,5 |
+| 4 | Hip Adduction (Machine) | 3 | 94 kg | 15 | 8 |
+| 5 | Reverse Crunch | 1 | Peso corporal | 15 | 7 |
+| 5 | Reverse Crunch | 2 | Peso corporal | 15 | 7,5 |
+| 5 | Reverse Crunch | 3 | Peso corporal | 13 | 9 |
+
+**Notas por ejercicio:**
+- **Squat (Barbell):** Hoy se siente pesado
+
+## 24 Sep 2026 — Afternoon workout 💪
+
+<!-- hevy:1f9798a4-a541-41cb-b41d-d45ed847a08a -->
+**Hora:** 12:32 PM  
+**Duración:** 1h 30m  
+**Volumen Hevy:** 8,968 kg  
+
+| Orden | Ejercicio | Serie | Carga | Reps/tiempo | RPE |
+|---:|---|---:|---:|---|---:|
+| 1 | Hip Thrust (Barbell) | 1 | 60 kg | 10 | 6 |
+| 1 | Hip Thrust (Barbell) | 2 | 105 kg | 10 | 7 |
+| 1 | Hip Thrust (Barbell) | 3 | 105 kg | 10 | 8 |
+| 1 | Hip Thrust (Barbell) | 4 | 105 kg | 10 | 8 |
+| 2 | Romanian Deadlift (Smith Machine) | 1 | 20 kg | 12 | 6 |
+| 2 | Romanian Deadlift (Smith Machine) | 2 | 50 kg | 12 | 7 |
+| 2 | Romanian Deadlift (Smith Machine) | 3 | 50 kg | 12 | 7 |
+| 2 | Romanian Deadlift (Smith Machine) | 4 | 50 kg | 12 | 7,5 |
+| 3 | Lying Leg Curl (Machine) | 1 | 46 kg | 12 | 7,5 |
+| 3 | Lying Leg Curl (Machine) | 2 | 46 kg | 10 | 7 |
+| 3 | Lying Leg Curl (Machine) | 3 | 46 kg | 11 | 8 |
+| 4 | Back Extension (Weighted Hyperextension) | 1 | 53 kg | 10 | 8 |
+| 4 | Back Extension (Weighted Hyperextension) | 2 | 50 kg | 12 | 8 |
+| 4 | Back Extension (Weighted Hyperextension) | 3 | 53 kg | 10 | 7,5 |
+
+## 25 Sep 2026 — Afternoon workout 💪
+
+<!-- hevy:682a52f4-e8b7-4dd6-8bbe-ddd9cfff41bc -->
+**Hora:** 12:31 PM  
+**Duración:** 1h 43m  
+**Volumen Hevy:** 8,286 kg  
+**Comentario:** Gym con la mujer  
+
+| Orden | Ejercicio | Serie | Carga | Reps/tiempo | RPE |
+|---:|---|---:|---:|---|---:|
+| 1 | Incline Bench Press (Barbell) | 1 | 40 kg | 8 | 6 |
+| 1 | Incline Bench Press (Barbell) | 2 | 65 kg | 8 | 7 |
+| 1 | Incline Bench Press (Barbell) | 3 | 65 kg | 8 | 7,5 |
+| 1 | Incline Bench Press (Barbell) | 4 | 65 kg | 8 | 8 |
+| 2 | Seated Row (Machine) | 1 | 61 kg | 12 | 6 |
+| 2 | Seated Row (Machine) | 2 | 75 kg | 10 | 7 |
+| 2 | Seated Row (Machine) | 3 | 75 kg | 10 | 8 |
+| 2 | Seated Row (Machine) | 4 | 75 kg | 10 | 8 |
+| 3 | Face Pull | 1 | 28,75 kg | 15 | 6 |
+| 3 | Face Pull | 2 | 30 kg | 15 | 7 |
+| 3 | Face Pull | 3 | 30 kg | 15 | 7 |
+| 4 | Cable Fly Crossovers | 1 | 12,5 kg | 15 | 8 |
+| 4 | Cable Fly Crossovers | 2 | 12,5 kg | 12 | 9 |
+| 4 | Cable Fly Crossovers | 3 | 11,25 kg | 12 | 9 |
+| 5 | Seated Incline Curl (Dumbbell) | 1 | 20 kg | 12 | 7 |
+| 5 | Seated Incline Curl (Dumbbell) | 2 | 20 kg | 12 | 8 |
+| 5 | Seated Incline Curl (Dumbbell) | 3 | 20 kg | 12 | 9 |
+| 6 | Lateral Raise (Dumbbell) | 1 | 20 kg | 15 | 8 |
+| 6 | Lateral Raise (Dumbbell) | 2 | 20 kg | 15 | 8,5 |
+| 6 | Lateral Raise (Dumbbell) | 3 | 20 kg | 15 | 8,5 |
+| 7 | Treadmill | 1 | Peso corporal (isométrico) | 720 s | — |
+
+**Notas por ejercicio:**
+- **Cable Fly Crossovers:** Leve dolor hombro derechoq
+- **Seated Incline Curl (Dumbbell):** Dolor en hombro izq continua en las ultimas reps
+- **Lateral Raise (Dumbbell):** Sin dolor de hombro
+
+## 27 Sep 2026 — Afternoon workout 💪
+
+<!-- hevy:a0667131-a81c-49b6-9c32-70f2effaf82e -->
+**Hora:** 12:56 PM  
+**Duración:** 1h 13m  
+**Volumen Hevy:** 7,399 kg  
+
+| Orden | Ejercicio | Serie | Carga | Reps/tiempo | RPE |
+|---:|---|---:|---:|---|---:|
+| 1 | Triceps Pushdown | 1 | 32,5 kg | 13 | 8 |
+| 1 | Triceps Pushdown | 2 | 32,5 kg | 15 | 8 |
+| 1 | Triceps Pushdown | 3 | 32,5 kg | 12 | 8 |
+| 2 | Hip Abduction (Machine) | 1 | 75 kg | 15 | 7,5 |
+| 2 | Hip Abduction (Machine) | 2 | 75 kg | 15 | 7,5 |
+| 2 | Hip Abduction (Machine) | 3 | 75 kg | 15 | 7,5 |
+| 3 | Bulgarian Split Squat (Dumbbell) | 1 | 20 kg | 10 | 6 |
+| 3 | Bulgarian Split Squat (Dumbbell) | 2 | 20 kg | 10 | 6 |
+| 3 | Bulgarian Split Squat (Dumbbell) | 3 | 20 kg | 10 | 6 |
+| 4 | Seated Leg Curl (Machine) | 1 | 45 kg | 12 | 6 |
+| 4 | Seated Leg Curl (Machine) | 2 | 66 kg | 12 | 8 |
+| 4 | Seated Leg Curl (Machine) | 3 | 66 kg | 12 | 8,5 |
+| 5 | Treadmill | 1 | Peso corporal (isométrico) | 600 s | — |
+
+## 29 Sep 2026 — Afternoon workout 💪
+
+<!-- hevy:7c723812-c812-4a21-abbc-30caf46eee77 -->
+**Hora:** 11:54 AM  
+**Duración:** 1h 39m  
+**Volumen Hevy:** 10,200 kg  
+
+| Orden | Ejercicio | Serie | Carga | Reps/tiempo | RPE |
+|---:|---|---:|---:|---|---:|
+| 1 | Hip Thrust (Barbell) | 1 | 60 kg | 10 | 6 |
+| 1 | Hip Thrust (Barbell) | 2 | 105 kg | 12 | 8,5 |
+| 1 | Hip Thrust (Barbell) | 3 | 105 kg | 10 | 9 |
+| 1 | Hip Thrust (Barbell) | 4 | 105 kg | 11 | 9 |
+| 2 | Romanian Deadlift (Smith Machine) | 1 | 20 kg | 12 | 6 |
+| 2 | Romanian Deadlift (Smith Machine) | 2 | 55 kg | 10 | 7,5 |
+| 2 | Romanian Deadlift (Smith Machine) | 3 | 55 kg | 10 | 7,5 |
+| 2 | Romanian Deadlift (Smith Machine) | 4 | 55 kg | 10 | 8 |
+| 3 | Back Extension (Weighted Hyperextension) | 1 | 50 kg | 12 | 8,5 |
+| 3 | Back Extension (Weighted Hyperextension) | 2 | 50 kg | 11 | 9 |
+| 3 | Back Extension (Weighted Hyperextension) | 3 | 53 kg | 12 | 8,5 |
+| 4 | Lying Leg Curl (Machine) | 1 | 46 kg | 12 | 8,5 |
+| 4 | Lying Leg Curl (Machine) | 2 | 46 kg | 11 | 9 |
+| 4 | Lying Leg Curl (Machine) | 3 | 46 kg | 6 | 10 |
+| 5 | Crunch (Machine) | 1 | 25 kg | 12 | 7 |
+| 5 | Crunch (Machine) | 2 | 27,5 kg | 15 | 8 |
+| 5 | Crunch (Machine) | 3 | 27,5 kg | 15 | 8 |
+| 6 | Stair Machine (Floors) | 1 | Peso corporal (isométrico) | 720 s | — |
