@@ -638,6 +638,92 @@ details.daycard > summary{ padding:14px 18px; }
   .session{ padding:18px 16px; border-radius:16px; }
   .s-title{ font-size:24px; }
 }
+
+/* =========================================================================
+   Segunda pasada: pasos de calentamiento, ficha del ejercicio, cardio por
+   tramos y controles más livianos.
+   ========================================================================= */
+/* mover el plan: un solo control segmentado, discreto */
+.mover{ display:flex; gap:0; margin:14px 0 0; border:1px solid var(--line); border-radius:12px; overflow:hidden; background:var(--surface-2); }
+.mover > button{ flex:1; margin:0; border:none; border-radius:0; background:transparent; color:var(--ink-muted); padding:9px 6px; font-size:12.5px; font-weight:500; }
+.mover > button + button{ border-left:1px solid var(--line); }
+.mover > button.mid.on{ background:var(--secondary-soft); color:var(--secondary); }
+.mover > button:disabled{ opacity:.35; }
+.ayerlink{ margin:8px 0 0; }
+.s-hint{ margin:16px 0 0; padding:10px 12px; border-radius:10px; background:var(--surface-2); font-size:12.5px; line-height:1.5; color:var(--ink-muted); }
+.s-hint b{ color:var(--ink); }
+
+/* ejercicio */
+.ex-block h5{ gap:4px 0; margin-bottom:8px; }
+.ex-name{ font-family:'Oswald'; font-size:17px; font-weight:600; letter-spacing:.01em; line-height:1.2; }
+.ex-n{ background:transparent; border:1.5px solid var(--accent); color:var(--accent); font-weight:600; }
+.ex-done .ex-n{ background:var(--good); border-color:var(--good); color:var(--surface); }
+.ex-done .ex-name{ color:var(--ink-muted); }
+.ex-goal{ margin:0 0 10px; padding:9px 12px; border-radius:10px; background:var(--surface-2); font-size:13px; line-height:1.5; color:var(--ink-muted); }
+.ex-goal p{ margin:0; }
+.ex-goal p + p{ margin-top:6px; }
+.ex-goal strong{ color:var(--accent); font-weight:600; }
+table.settable tr.aprox td{ color:var(--ink-faint); }
+table.settable tr.aprox td.rir{ color:var(--ink-faint); font-weight:500; }
+.session tr.next td{ background:var(--accent-soft); }
+.session tr.next td:first-child{ border-radius:8px 0 0 8px; }
+.session tr.next td:last-child{ border-radius:0 8px 8px 0; }
+.session tr.next .ck{ border-color:var(--accent); }
+
+details.ex-tec{ margin-top:10px; }
+details.ex-tec>summary{ display:inline-flex; align-items:center; gap:4px; padding:5px 11px; border-radius:100px;
+  background:var(--secondary-soft); color:var(--secondary); font-family:'IBM Plex Sans'; font-size:12px; font-weight:600;
+  letter-spacing:0; text-transform:none; }
+.tec-list{ counter-reset:tec; margin-top:10px; display:flex; flex-direction:column; gap:12px; }
+.tec{ position:relative; padding-left:30px; counter-increment:tec; }
+.tec::before{ content:counter(tec); position:absolute; left:0; top:1px; width:20px; height:20px; border-radius:50%;
+  background:var(--secondary-soft); color:var(--secondary); font:600 11px 'IBM Plex Mono'; display:grid; place-items:center; }
+.tec.warn::before{ content:'!'; background:var(--warning-soft); color:var(--warning); }
+.tec-l{ display:block; font-weight:600; font-size:12.5px; color:var(--ink); }
+.tec p::first-letter, .p-how::first-letter{ text-transform:uppercase; }
+.tec p{ margin:2px 0 0; font-size:13px; line-height:1.55; color:var(--ink-muted); }
+
+/* pasos de calentamiento y estiramiento */
+details.fold>summary{ font-family:'Oswald'; font-size:15px; font-weight:600; letter-spacing:.02em; padding:12px 14px; }
+details.fold .fold-n{ font-family:'IBM Plex Mono'; font-size:11.5px; font-weight:500; letter-spacing:0; }
+details.fold.hecho{ border-color:var(--good); }
+details.fold.hecho .fold-n{ color:var(--good); }
+ol.pasos{ list-style:none; margin:0; padding:0 8px 6px; }
+.paso{ display:flex; align-items:flex-start; gap:10px; padding:11px 6px; border-top:1px solid var(--line); }
+.paso .ck{ flex:none; margin:1px 0 0; }
+.p-body{ flex:1; min-width:0; }
+.p-top{ display:flex; flex-wrap:wrap; align-items:baseline; gap:2px 8px; }
+.p-top b{ font-size:13.5px; font-weight:600; color:var(--ink); }
+.p-dosis{ font-family:'IBM Plex Mono'; font-size:11.5px; color:var(--accent); }
+.p-how{ margin:3px 0 0; font-size:12.5px; line-height:1.5; color:var(--ink-muted); }
+.p-how strong{ color:var(--ink); }
+.p-reloj{ flex:none; font:500 11.5px 'IBM Plex Mono'; padding:3px 9px; border-radius:100px;
+  border:1px solid var(--secondary); color:var(--secondary); background:transparent; cursor:pointer; white-space:nowrap; }
+.session .paso{ cursor:pointer; -webkit-tap-highlight-color:transparent; }
+.session .paso.done .ck, .session tr.done .ck{ background:var(--good); border-color:var(--good); }
+.session .paso.done .ck::after{ content:''; position:absolute; left:5px; top:1.5px; width:4px; height:9px;
+  border:solid var(--surface); border-width:0 2px 2px 0; transform:rotate(45deg); }
+.session .paso.done b{ color:var(--ink-faint); text-decoration:line-through; }
+.session .paso.done .p-how, .session .paso.done .p-dosis{ color:var(--ink-faint); }
+
+/* cardio */
+.cardio{ margin-top:18px; padding:14px; border-radius:12px; background:var(--secondary-soft); }
+.c-top{ display:flex; align-items:center; gap:10px; }
+.c-top > b{ font-family:'IBM Plex Mono'; font-size:10.5px; font-weight:600; letter-spacing:.06em; text-transform:uppercase; color:var(--secondary); flex:none; }
+.c-top .p-reloj{ padding:6px 10px; }
+.c-top > span{ flex:1; font-size:13.5px; font-weight:500; color:var(--ink); line-height:1.4; }
+.c-segs{ display:flex; gap:3px; margin-top:12px; }
+.c-segs i{ font-style:normal; min-width:44px; border-radius:7px; padding:6px 8px; display:flex; flex-direction:column; line-height:1.2; overflow:hidden; white-space:nowrap; }
+.c-segs i b{ font:600 13px 'IBM Plex Mono'; }
+.c-segs i span{ font-size:10.5px; opacity:.85; }
+.c-segs .r3{ background:color-mix(in srgb, var(--secondary) 30%, var(--surface)); color:var(--ink); }
+.c-segs .r4{ background:color-mix(in srgb, var(--secondary) 55%, var(--surface)); color:var(--ink); }
+.c-segs .r5, .c-segs .r6{ background:var(--secondary); color:#fff; }
+.c-nota{ margin:8px 0 0; font-size:12.5px; color:var(--ink); }
+.c-ley{ margin:8px 0 0; font-size:11.5px; line-height:1.5; color:var(--ink-muted); }
+.daycard .cardio{ margin-top:14px; }
+
+.restbar .rb-l{ max-width:42vw; overflow:hidden; text-overflow:ellipsis; }
 </style>
 
 <div class="wrap">
@@ -933,53 +1019,121 @@ details.daycard > summary{ padding:14px 18px; }
 
   // ---------------- shared: render one exercise as a set-table ----------------
   function escA(s){ return esc(s).replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;'); }
+  function mmss(seg){ return Math.floor(seg/60)+':'+String(seg%60).padStart(2,'0'); }
+
+  // Arriba va la meta de la semana (la carga y las repeticiones que tocan), despues la tabla
+  // y al final la tecnica, plegada y en pasos.
   function renderExerciseBlock(ex, n){
+    var cue = partesCue(ex.cue);
     var rows = ex.sets.map(function(s, i){
       var rirCell = (s.rir==='—' || s.rir==null) ? '—' : s.rir;
-      return '<tr data-k="'+escA(ex.name+'|'+i)+'" data-rest="'+escA(s.descanso)+'"><td><span class="ck"></span>'+esc(s.serie)+'</td><td>'+esc(s.carga)+'</td><td>'+esc(s.reps)+'</td><td class="rir">'+esc(rirCell)+'</td><td>'+esc(s.descanso)+'</td></tr>';
+      var aprox = /^(aprox|calent)/i.test(String(s.serie));
+      return '<tr'+(aprox ? ' class="aprox"' : '')+' data-k="'+escA(ex.name+'|'+i)+'" data-rest="'+escA(s.descanso)+'">'+
+        '<td><span class="ck"></span>'+esc(s.serie)+'</td><td>'+esc(s.carga)+'</td><td>'+esc(s.reps)+'</td><td class="rir">'+esc(rirCell)+'</td><td>'+esc(s.descanso)+'</td></tr>';
     }).join('');
     return '<div class="ex-block">'+
-      '<h5>'+(n ? '<span class="ex-n">'+n+'</span>' : '')+esc(ex.name)+(ex.superset ? '<span class="ex-super" title="Superserie: encadénalo con el siguiente ejercicio y descansa recién al terminar los dos">superserie</span>' : '')+'</h5>'+
+      '<h5>'+(n ? '<span class="ex-n">'+n+'</span>' : '')+'<span class="ex-name">'+esc(ex.name)+'</span>'+
+        (ex.superset ? '<span class="ex-super" title="Superserie: encadénalo con el siguiente ejercicio y descansa recién al terminar los dos">superserie</span>' : '')+'</h5>'+
+      (cue.meta ? '<div class="ex-goal">'+cue.meta+'</div>' : '')+
       '<div class="tblwrap"><table class="settable">'+
       '<thead><tr><th>Serie</th><th>Carga</th><th>Reps</th><th>RIR</th><th>Desc.</th></tr></thead>'+
       '<tbody>'+rows+'</tbody></table></div>'+
       (ex.notes ? '<p class="ex-notes">'+escMd(ex.notes)+'</p>' : '')+
-      renderCue(ex.cue)+
+      cue.tecnica+
       '</div>';
   }
 
   // La ficha del ejercicio: lo que explica la carga queda a la vista y la tecnica
-  // (Como te pones / Que haces / Como sabes que esta bien / Si aparece) va plegada.
-  var TECNICA = /^\*\*(Cómo te pones|Qué haces|Cómo sabes|Si aparece)/;
-  function renderCue(cue){
-    if(!cue) return '';
-    var vista = [], tecnica = [];
-    String(cue).split(/\n\s*\n/).forEach(function(p){
+  // (Como te pones / Que haces / Como sabes que esta bien / Si no te sale) va plegada, en pasos.
+  var TECNICA = /^\*\*(Cómo te pones|Qué haces|Cómo sabes que está bien|Si no te sale|Si aparece[^*:]*):\*\*\s*([\s\S]*)$/;
+  function partesCue(cue){
+    var vista = [], pasos = [];
+    String(cue || '').split(/\n\s*\n/).forEach(function(p){
       p = p.trim();
       if(!p) return;
-      var html = '<p class="ex-cue">'+escMd(p).replace(/\n/g, '<br>')+'</p>';
-      (TECNICA.test(p) ? tecnica : vista).push(html);
+      var m = p.match(TECNICA);
+      if(m) pasos.push('<div class="tec'+(/^Si /.test(m[1]) ? ' warn' : '')+'"><span class="tec-l">'+esc(m[1])+'</span>'+
+        '<p>'+escMd(m[2]).replace(/\n/g, '<br>')+'</p></div>');
+      else vista.push('<p>'+escMd(p).replace(/\n/g, '<br>')+'</p>');
     });
-    return vista.join('')+
-      (tecnica.length ? '<details class="ex-tec"><summary>Cómo hacerlo</summary>'+tecnica.join('')+'</details>' : '');
+    return {
+      meta: vista.join(''),
+      tecnica: pasos.length ? '<details class="ex-tec"><summary>Cómo hacerlo</summary><div class="tec-list">'+pasos.join('')+'</div></details>' : ''
+    };
   }
 
   // escapa y luego convierte **negrita** de markdown — el escape va primero, asi el texto sigue siendo seguro
   function escMd(s){ return esc(s == null ? '' : s).replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>'); }
 
-  function renderBookend(items, label, cls){
-    if(!items || !items.length) return '';
-    var lis = items.map(function(i){
-      if(typeof i === 'string') return '<li>'+esc(i)+'</li>';
-      return '<li><b>'+esc(i.name)+'</b>'+(i.how ? '<span class="bk-how">'+escMd(i.how)+'</span>' : '')+'</li>';
-    }).join('');
-    return '<div class="bookend '+cls+'"><p class="bk-label">'+label+'</p><ul>'+lis+'</ul></div>';
+  // ---------------- calentamiento y estiramiento: pasos ----------------
+  // "Bici o caminadora, 5-6 min, ritmo conversable" -> que es + cuanto
+  function partePaso(nombre){
+    var s = String(nombre || ''), m = s.match(/^(.+?)(?:\s+—\s+|,\s+)(.+)$/);
+    return m ? {t:m[1], d:m[2]} : {t:s, d:''};
   }
-
-  function renderFold(items, label, cls){
+  // Fases del cronometro de un paso que va por tiempo; [] si va por repeticiones.
+  // "30 s por lado" son dos fases, "3 x 45 seg" son tres.
+  function fasesPaso(p){
+    // el tiempo tiene que ser lo primero de la dosis: "12 con pausa de 1 s" va por repeticiones
+    var m = String(p.d || '').match(/^(?:(\d+)\s*[x×]\s*)?(\d+)(?:\s*-\s*\d+)?\s*(min|s|seg)\b/i);
+    if(!m) return [];
+    var seg = /min/i.test(m[3]) ? +m[2]*60 : +m[2], veces = m[1] ? +m[1] : 1, fases = [], i;
+    if(/por lado/i.test(p.d)) for(i = 1; i <= 2; i++) fases.push({seg:seg, lbl:p.t+' · lado '+i});
+    else for(i = 1; i <= veces; i++) fases.push({seg:seg, lbl:p.t+(veces > 1 ? ' · '+i+' de '+veces : '')});
+    return fases;
+  }
+  function renderPasos(items, label, cls){
     if(!items || !items.length) return '';
+    var pref = cls === 'warmup' ? 'cal' : 'est';
+    var lis = items.map(function(it, i){
+      if(typeof it === 'string') it = {name: it};
+      var p = partePaso(it.name), fases = fasesPaso(p), total = 0;
+      fases.forEach(function(f){ total += f.seg; });
+      return '<li class="paso" data-k="'+escA(pref+'|'+i)+'"><span class="ck"></span>'+
+        '<div class="p-body"><div class="p-top"><b>'+esc(p.t)+'</b>'+(p.d ? '<span class="p-dosis">'+esc(p.d)+'</span>' : '')+
+        (fases.length ? '<button type="button" class="p-reloj" data-fases="'+escA(JSON.stringify(fases))+'" title="Cronómetro">▶ '+mmss(total)+'</button>' : '')+'</div>'+
+        (it.how ? '<p class="p-how">'+escMd(it.how)+'</p>' : '')+'</div>'+
+        '</li>';
+    }).join('');
     return '<details class="fold '+cls+'"><summary><span>'+label+'</span><span class="fold-n">'+items.length+'</span></summary>'+
-      renderBookend(items, label, cls)+'</details>';
+      '<ol class="pasos">'+lis+'</ol></details>';
+  }
+  function renderFold(items, label, cls){ return renderPasos(items, label, cls); }
+
+  // ---------------- cardio por tramos ----------------
+  // "Escaladora 12 min: 2 min a RPE 3 · 8 min a RPE 5 · 2 min a RPE 3. RPE 3 = hablas normal · ..."
+  // se dibuja como una barra con un tramo por intensidad y un cronometro que avisa cada cambio.
+  function renderCardio(txt){
+    if(!txt) return '';
+    var s = String(txt).trim(), ley = '', nota = '', tramos = [];
+    var li = s.search(/\s*RPE 3 = /);
+    if(li > 0){ ley = s.slice(li).trim(); s = s.slice(0, li).trim(); }
+    var m = s.match(/^([^:]+):\s*(.+)$/), titulo = s;
+    if(m){
+      var partes = m[2].split(/\s+·\s+/), ok = true;
+      partes.forEach(function(x, i){
+        var q = x.match(/^(\d+)\s*min a RPE ([\d-]+)\.?\s*(.*)$/);
+        if(!q){ ok = false; return; }
+        tramos.push({min:+q[1], rpe:q[2]});
+        if(i === partes.length - 1 && q[3]) nota = q[3];
+      });
+      if(ok && tramos.length){ titulo = m[1]; } else { tramos = []; nota = ''; }
+    }
+    var fases = tramos.map(function(t){ return {seg:t.min*60, lbl:'Cardio · RPE '+t.rpe}; });
+    if(!fases.length){
+      var mm = s.match(/(\d+)(?:\s*-\s*\d+)?\s*min\b/);
+      if(mm) fases = [{seg:+mm[1]*60, lbl:'Cardio'}];
+    }
+    var total = 0;
+    fases.forEach(function(f){ total += f.seg; });
+    return '<div class="cardio"><div class="c-top"><b>Cardio</b><span>'+esc(titulo.replace(/\.$/, ''))+'</span>'+
+      (total ? '<button type="button" class="p-reloj" data-fases="'+escA(JSON.stringify(fases))+'" title="Cronómetro">▶ '+mmss(total)+'</button>' : '')+'</div>'+
+      (tramos.length ? '<div class="c-segs">'+tramos.map(function(t){
+        return '<i class="r'+String(t.rpe).charAt(0)+'" style="flex:'+t.min+'"><b>'+t.min+'′</b><span>RPE '+esc(t.rpe)+'</span></i>';
+      }).join('')+'</div>' : '')+
+      (nota ? '<p class="c-nota">'+esc(nota)+'</p>' : '')+
+      (ley ? '<p class="c-ley">'+esc(ley)+'</p>' : '')+
+      '</div>';
   }
 
   // ---------------- cycle line ----------------
@@ -1250,6 +1404,8 @@ details.daycard > summary{ padding:14px 18px; }
     var sig = dias.slice(heroIdx + 1).find(function(d){ return !esDescanso(d); });
     var series = 0;
     day.exercises.forEach(function(e){ series += e.sets.length; });
+    var hechos = hechosDe(day.date);
+    var algunaSerie = Object.keys(hechos).some(function(k){ return !/^(cal|est)\|/.test(k); });
 
     el.innerHTML =
       '<div class="session'+(esDescanso(day) ? ' rest' : '')+'">'+
@@ -1258,13 +1414,15 @@ details.daycard > summary{ padding:14px 18px; }
       '<h2 class="s-title">'+esc(day.focus)+'</h2>'+
       (series ? '<div class="s-meta"><span>'+day.exercises.length+' ejercicios · '+series+' series</span><span class="s-cuenta"></span></div>'+
         '<div class="s-bar"><i></i></div>' : '')+
+      (day.rationale ? '<p class="herolede">'+escMd(day.rationale)+'</p>' : '')+
       botonera(dias, day)+
       (isToday && ayer && tramo(dias, ayer.date, 1) ? '<button type="button" class="ayerlink" data-ayer="'+escA(ayer.date)+'">Ayer no entrené → +1 desde ayer</button>' : '')+
-      (day.rationale ? '<p class="herolede">'+escMd(day.rationale)+'</p>' : '')+
-      renderFold(day.warmup, 'Calentamiento', 'warmup')+
+      renderPasos(day.warmup, 'Calentamiento', 'warmup')+
+      (series && !algunaSerie ? '<p class="s-hint">Toca cada serie al terminarla: queda marcada y parte el descanso. '+
+        '<b>RIR</b> son las repeticiones que te quedan en reserva: RIR 2 es parar cuando todavía salían dos más.</p>' : '')+
       day.exercises.map(function(e, i){ return renderExerciseBlock(e, i+1); }).join('')+
-      (day.cardio ? '<div class="herocardio"><b>Cardio</b>'+esc(day.cardio)+'</div>' : '')+
-      renderFold(day.stretch, 'Estiramiento de cierre', 'stretch')+
+      renderCardio(day.cardio)+
+      renderPasos(day.stretch, 'Estiramiento de cierre', 'stretch')+
       (sig ? '<button type="button" class="s-next" data-fecha="'+escA(sig.date)+'"><span class="s-lbl">Después</span>'+
         '<b>'+esc(sig.day)+' · '+esc(sig.focus)+'</b><span class="s-arrow">→</span></button>' : '')+
       '</div>';
@@ -1275,29 +1433,64 @@ details.daycard > summary{ padding:14px 18px; }
     var nx = el.querySelector('.s-next');
     if(nx) nx.addEventListener('click', function(){ irADia(nx.dataset.fecha); });
 
-    var hechos = hechosDe(day.date);
+    function alterna(k){
+      var h = hechosDe(day.date);
+      if(h[k]) delete h[k]; else h[k] = 1;
+      guardaHechos(day.date, h);
+      return !!h[k];
+    }
+    el.querySelectorAll('tr[data-k], .paso').forEach(function(x){
+      if(hechos[x.dataset.k]) x.classList.add('done');
+    });
     el.querySelectorAll('tr[data-k]').forEach(function(tr){
-      if(hechos[tr.dataset.k]) tr.classList.add('done');
       tr.addEventListener('click', function(){
-        var h = hechosDe(day.date), k = tr.dataset.k;
-        if(h[k]) delete h[k]; else h[k] = 1;
-        guardaHechos(day.date, h);
-        tr.classList.toggle('done', !!h[k]);
+        var on = alterna(tr.dataset.k);
+        tr.classList.toggle('done', on);
         var quedan = cuentaSeries(el);
-        if(h[k] && quedan) empiezaDescanso(tr.dataset.rest);
-        if(!quedan) paraDescanso();
+        if(on && quedan) empiezaDescanso(tr.dataset.rest);
+        if(!quedan){ paraReloj(); abreSiPendiente(el.querySelector('details.fold.stretch')); }
       });
     });
-    cuentaSeries(el);
+    el.querySelectorAll('.paso').forEach(function(li){
+      li.addEventListener('click', function(ev){
+        if(ev.target.closest('.p-reloj')) return;
+        li.classList.toggle('done', alterna(li.dataset.k));
+        cuentaPasos(li.closest('details.fold'), true);
+      });
+    });
+    el.querySelectorAll('details.fold').forEach(function(f){ cuentaPasos(f, false); });
+    // al llegar se abre lo que toca: el calentamiento si falta, el estiramiento cuando ya van todas las series
+    var quedan = cuentaSeries(el);
+    if(!algunaSerie) abreSiPendiente(el.querySelector('details.fold.warmup'));
+    if(series && !quedan) abreSiPendiente(el.querySelector('details.fold.stretch'));
   }
 
-  // actualiza la barra de avance; devuelve cuantas series faltan
+  function abreSiPendiente(f){ if(f && !f.classList.contains('hecho')) f.open = true; }
+
+  // "3 de 7" en el titulo del calentamiento; al completarlo se pliega solo
+  function cuentaPasos(f, alTocar){
+    if(!f) return;
+    var total = f.querySelectorAll('.paso').length, n = f.querySelectorAll('.paso.done').length;
+    f.querySelector('.fold-n').textContent = n ? (n === total ? 'hecho ✓' : n+' de '+total) : String(total);
+    f.classList.toggle('hecho', n === total);
+    if(alTocar && n === total) f.open = false;
+  }
+
+  // actualiza la barra de avance, marca la siguiente serie y los ejercicios terminados;
+  // devuelve cuantas series faltan
   function cuentaSeries(el){
-    var filas = el.querySelectorAll('tr[data-k]').length, n = el.querySelectorAll('tr[data-k].done').length;
+    var filas = el.querySelectorAll('tr[data-k]'), n = el.querySelectorAll('tr[data-k].done').length;
     var c = el.querySelector('.s-cuenta'), b = el.querySelector('.s-bar i');
-    if(c) c.textContent = filas && n === filas ? 'sesión completa ✓' : n+' de '+filas+' hechas';
-    if(b) b.style.width = (filas ? n / filas * 100 : 0)+'%';
-    return filas - n;
+    if(c) c.textContent = filas.length && n === filas.length ? 'sesión completa ✓' : n+' de '+filas.length+' hechas';
+    if(b) b.style.width = (filas.length ? n / filas.length * 100 : 0)+'%';
+    var sigue = null;
+    filas.forEach(function(tr){ tr.classList.remove('next'); if(!sigue && !tr.classList.contains('done')) sigue = tr; });
+    if(sigue && n) sigue.classList.add('next');
+    el.querySelectorAll('.ex-block').forEach(function(b){
+      var r = b.querySelectorAll('tr[data-k]');
+      b.classList.toggle('ex-done', r.length > 0 && b.querySelectorAll('tr[data-k].done').length === r.length);
+    });
+    return filas.length - n;
   }
 
   function irADia(fecha){
@@ -1308,10 +1501,12 @@ details.daycard > summary{ padding:14px 18px; }
     window.scrollTo(0, c.getBoundingClientRect().top + window.scrollY - 64);
   }
 
-  // ---------------- cronometro de descanso ----------------
+  // ---------------- cronometro ----------------
+  // Sirve para el descanso entre series y para lo que va por tiempo (calentamiento, estiramiento,
+  // cardio por tramos): una lista de fases que se recorre sola y avisa cada cambio.
   // Cuenta contra la hora del reloj, no por intervalos sumados: si el telefono bloquea la
-  // pantalla entre series, al volver muestra lo que de verdad falta.
-  var descanso = {fin:0, tick:null};
+  // pantalla, al volver muestra lo que de verdad falta.
+  var reloj = {fases:[], ini:0, tick:null, fase:-1, fin:''};
   function segundos(txt){
     var s = String(txt || ''), m;
     if(/sin/i.test(s)) return 0;
@@ -1320,51 +1515,71 @@ details.daycard > summary{ padding:14px 18px; }
     if((m = s.match(/(\d+)\s*s/))) return +m[1];
     return 0;
   }
-  function barraDescanso(){
+  function vibra(p){ try{ if(navigator.vibrate) navigator.vibrate(p); }catch(e){} }
+  function barraReloj(){
     var el = document.getElementById('restBar');
     if(el) return el;
     el = document.createElement('div');
     el.id = 'restBar'; el.className = 'restbar'; el.style.display = 'none';
-    el.innerHTML = '<span class="rb-l">Descanso</span><b class="rb-t">0:00</b>'+
+    el.innerHTML = '<span class="rb-l"></span><b class="rb-t">0:00</b>'+
       '<button type="button" data-a="mas">+30 s</button><button type="button" data-a="x" aria-label="Cerrar">✕</button>';
     el.querySelector('[data-a="mas"]').addEventListener('click', function(){
-      descanso.fin = Math.max(descanso.fin, Date.now()) + 30000;
-      if(!descanso.tick) descanso.tick = setInterval(pintaDescanso, 250);
-      pintaDescanso();
+      if(reloj.tick && reloj.fase >= 0) reloj.fases[reloj.fase].seg += 30;
+      else empiezaReloj([{seg:30, lbl:'Descanso'}], '¡A la serie!');
+      pintaReloj();
     });
-    el.querySelector('[data-a="x"]').addEventListener('click', paraDescanso);
+    el.querySelector('[data-a="x"]').addEventListener('click', paraReloj);
     document.body.appendChild(el);
     return el;
   }
+  function empiezaReloj(fases, fin){
+    if(!fases || !fases.length) return;
+    reloj.fases = fases.map(function(f){ return {seg:f.seg, lbl:f.lbl}; });
+    reloj.ini = Date.now(); reloj.fase = -1; reloj.fin = fin || '¡Listo!';
+    clearInterval(reloj.tick);
+    reloj.tick = setInterval(pintaReloj, 250);
+    pintaReloj();
+  }
   function empiezaDescanso(txt){
     var seg = segundos(txt);
-    if(!seg) return;
-    descanso.fin = Date.now() + seg*1000;
-    clearInterval(descanso.tick);
-    descanso.tick = setInterval(pintaDescanso, 250);
-    pintaDescanso();
+    if(seg) empiezaReloj([{seg:seg, lbl:'Descanso'}], '¡A la serie!');
   }
-  function paraDescanso(){
-    clearInterval(descanso.tick); descanso.tick = null;
+  function paraReloj(){
+    clearInterval(reloj.tick); reloj.tick = null;
     var el = document.getElementById('restBar');
     if(el) el.style.display = 'none';
   }
-  function pintaDescanso(){
-    var el = barraDescanso(), r = Math.ceil((descanso.fin - Date.now()) / 1000);
+  function pintaReloj(){
+    var el = barraReloj(), pasado = (Date.now() - reloj.ini) / 1000, acum = 0, i;
     el.style.display = '';
-    if(r <= 0){
-      clearInterval(descanso.tick); descanso.tick = null;
+    for(i = 0; i < reloj.fases.length; i++){
+      acum += reloj.fases[i].seg;
+      if(pasado < acum) break;
+    }
+    if(i >= reloj.fases.length){
+      clearInterval(reloj.tick); reloj.tick = null;
       el.classList.add('fin');
-      el.querySelector('.rb-l').textContent = '¡A la serie!';
+      el.querySelector('.rb-l').textContent = reloj.fin;
       el.querySelector('.rb-t').textContent = '0:00';
-      try{ if(navigator.vibrate) navigator.vibrate([200, 100, 200]); }catch(e){}
-      setTimeout(function(){ if(!descanso.tick) el.style.display = 'none'; }, 5000);
+      vibra([200, 100, 200]);
+      setTimeout(function(){ if(!reloj.tick) el.style.display = 'none'; }, 5000);
       return;
     }
+    if(reloj.fase >= 0 && i !== reloj.fase) vibra(250);
+    reloj.fase = i;
     el.classList.remove('fin');
-    el.querySelector('.rb-l').textContent = 'Descanso';
-    el.querySelector('.rb-t').textContent = Math.floor(r/60)+':'+String(r%60).padStart(2,'0');
+    el.querySelector('.rb-l').textContent = reloj.fases[i].lbl;
+    el.querySelector('.rb-t').textContent = mmss(Math.ceil(acum - pasado));
   }
+  // los botones ▶ de calentamiento, estiramiento y cardio, en cualquier pestaña
+  document.addEventListener('click', function(ev){
+    var b = ev.target.closest && ev.target.closest('.p-reloj');
+    if(!b) return;
+    ev.preventDefault();
+    var fases = [];
+    try{ fases = JSON.parse(b.dataset.fases); }catch(e){}
+    empiezaReloj(fases, /cardio/i.test(fases[0] && fases[0].lbl) ? '¡Cardio listo!' : '¡Listo!');
+  });
 
   // ---------------- week day cards (collapsible) ----------------
   function renderWeekCards(profile){
@@ -1404,7 +1619,7 @@ details.daycard > summary{ padding:14px 18px; }
       det.dataset.fecha = d.date;
       var tagHtml = (isToday ? '<span class="dtag">hoy</span>' : '') + etiquetaMovido(d);
       var exHtml = d.exercises.map(function(e, i){ return renderExerciseBlock(e, i+1); }).join('');
-      var cardioHtml = d.cardio ? '<div class="dcardio">Cardio: '+esc(d.cardio)+'</div>' : '';
+      var cardioHtml = renderCardio(d.cardio);
       det.innerHTML =
         '<summary><div class="dwhen"><span class="dday">'+esc(d.day)+'</span>'+tagHtml+'</div><h4>'+esc(d.focus)+'</h4></summary>'+
         '<div class="dbody">'+
@@ -2130,7 +2345,7 @@ details.daycard > summary{ padding:14px 18px; }
   // ---------------- ¿estoy viendo una copia vieja? ----------------
   // La app instalada puede servir una copia guardada sin avisar. Se compara la version
   // horneada en este archivo contra la publicada; si no calzan, se recarga una sola vez.
-  var VERSION = '2c9c2ce94a55';
+  var VERSION = 'fd18398dcd90';
   (function(){
     var YA = 'recarga-' + VERSION;
     fetch('version.json?t=' + Date.now(), {cache:'no-store'})
