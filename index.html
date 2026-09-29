@@ -1223,16 +1223,19 @@ ol.pasos{ list-style:none; margin:0; padding:0 8px 6px; }
   function finDeTramo(dias, i){ while(i < dias.length && !esDescanso(dias[i])) i++; return i; }
 
   // Tramo [a..b] que mueve un +1 o un -1 pedido en el dia iso. null si no se puede.
-  function tramo(dias, iso, dir){
-    var i = idx(dias, iso), t = todayISO();
+  // alTocar: se esta decidiendo si mostrar el boton, y ahi solo cuentan ayer en adelante.
+  // Un movimiento ya guardado se sigue aplicando aunque su fecha haya pasado: si no, el
+  // "+1 desde el lunes" desapareceria el miercoles y el plan volveria a su forma original.
+  function tramo(dias, iso, dir, alTocar){
+    var i = idx(dias, iso), t = alTocar ? todayISO() : '';
     if(i < 0) return null;
     if(dir > 0){
-      if(esDescanso(dias[i]) || iso < isoMenos(t, 1)) return null;
+      if(esDescanso(dias[i]) || (alTocar && iso < isoMenos(t, 1))) return null;
       var r = finDeTramo(dias, i + 1);
       return r < dias.length ? {a:i, b:r} : null;          // sin descanso adelante, una rutina se caeria del plan
     }
     var a = esDescanso(dias[i]) ? i : i - 1;               // en un descanso, se trae la rutina siguiente
-    if(a < 0 || a + 1 >= dias.length || dias[a].date < t || esDescanso(dias[a+1])) return null;
+    if(a < 0 || a + 1 >= dias.length || (alTocar && dias[a].date < t) || esDescanso(dias[a+1])) return null;
     var b = finDeTramo(dias, a + 1) - 1;
     return b > a ? {a:a, b:b} : null;
   }
@@ -1267,9 +1270,15 @@ ol.pasos{ list-style:none; margin:0; padding:0 8px 6px; }
     for(var k = r.a; k <= r.b; k++) out[k] = Object.assign({}, dias[k], seg[k - r.a]);
     return out;
   }
+  // Un movimiento que ya no calza con el plan publicado (porque el plan ya trae ese cambio,
+  // o cambio por debajo) se descarta: si no, el aviso diria "plan movido" sin mover nada.
   function planDe(profile){
-    var dias = profile.WEEKDAYS;
-    movsDe(perfilActual).forEach(function(m){ dias = aplica(dias, m) || dias; });
+    var dias = profile.WEEKDAYS, movs = movsDe(perfilActual), vigentes = [];
+    movs.forEach(function(m){
+      var r = aplica(dias, m);
+      if(r){ dias = r; vigentes.push(m); }
+    });
+    if(vigentes.length !== movs.length) guardaMovs(perfilActual, vigentes);
     return dias;
   }
   function registra(m){
@@ -1302,7 +1311,7 @@ ol.pasos{ list-style:none; margin:0; padding:0 8px 6px; }
 
   // Botonera del dia d: -1 · Opcionales · +1, con el panel de opcionales plegado debajo.
   function botonera(dias, d){
-    var menos = tramo(dias, d.date, -1), mas = tramo(dias, d.date, 1);
+    var menos = tramo(dias, d.date, -1, true), mas = tramo(dias, d.date, 1, true);
     var tMenos = menos ? 'Adelanta las rutinas un día; el '+dias[menos.b].day+' queda con '+(esDescanso(dias[menos.a]) ? 'el descanso' : dias[menos.a].focus) : 'No hay nada que adelantar a partir de este día';
     var tMas = mas ? 'Corre las rutinas un día; el '+dias[mas.b].day+' deja de ser descanso' : 'Un descanso no se corre';
     return '<div class="mover" data-fecha="'+esc(d.date)+'">'+
@@ -1416,7 +1425,7 @@ ol.pasos{ list-style:none; margin:0; padding:0 8px 6px; }
         '<div class="s-bar"><i></i></div>' : '')+
       (day.rationale ? '<p class="herolede">'+escMd(day.rationale)+'</p>' : '')+
       botonera(dias, day)+
-      (isToday && ayer && tramo(dias, ayer.date, 1) ? '<button type="button" class="ayerlink" data-ayer="'+escA(ayer.date)+'">Ayer no entrené → +1 desde ayer</button>' : '')+
+      (isToday && ayer && tramo(dias, ayer.date, 1, true) ? '<button type="button" class="ayerlink" data-ayer="'+escA(ayer.date)+'">Ayer no entrené → +1 desde ayer</button>' : '')+
       renderPasos(day.warmup, 'Calentamiento', 'warmup')+
       (series && !algunaSerie ? '<p class="s-hint">Toca cada serie al terminarla: queda marcada y parte el descanso. '+
         '<b>RIR</b> son las repeticiones que te quedan en reserva: RIR 2 es parar cuando todavía salían dos más.</p>' : '')+
@@ -2345,7 +2354,7 @@ ol.pasos{ list-style:none; margin:0; padding:0 8px 6px; }
   // ---------------- ¿estoy viendo una copia vieja? ----------------
   // La app instalada puede servir una copia guardada sin avisar. Se compara la version
   // horneada en este archivo contra la publicada; si no calzan, se recarga una sola vez.
-  var VERSION = 'f5b79b01ef39';
+  var VERSION = '871a293f10cf';
   (function(){
     var YA = 'recarga-' + VERSION;
     fetch('version.json?t=' + Date.now(), {cache:'no-store'})
