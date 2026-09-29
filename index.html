@@ -216,14 +216,14 @@ details.ex-tec .ex-cue{ padding-left:10px; border-left:2px solid var(--border); 
 .daycards{ display:flex; flex-direction:column; gap:10px; }
 details.daycard{ background:var(--surface); border:1px solid var(--border); border-radius:12px; flex:none; }
 details.daycard.rest{ opacity:.72; }
-details.daycard summary{
+details.daycard > summary{
   cursor:pointer; list-style:none; padding:16px 20px; display:grid; grid-template-columns:104px 1fr; gap:18px; align-items:center;
   border-radius:11px;
 }
-details.daycard[open] summary{ border-radius:11px 11px 0 0; }
-details.daycard summary::-webkit-details-marker{ display:none; }
-details.daycard summary::after{ content:'▾'; position:absolute; right:20px; color:var(--ink-faint); font-size:13px; transition:transform .15s; }
-details.daycard[open] summary::after{ transform:rotate(180deg); }
+details.daycard[open] > summary{ border-radius:11px 11px 0 0; }
+details.daycard > summary::-webkit-details-marker{ display:none; }
+details.daycard > summary::after{ content:'▾'; position:absolute; right:20px; color:var(--ink-faint); font-size:13px; transition:transform .15s; }
+details.daycard[open] > summary::after{ transform:rotate(180deg); }
 details.daycard{ position:relative; }
 .daycard .dwhen{ display:flex; flex-direction:column; gap:6px; }
 .daycard .dday{ font-family:'Oswald'; font-weight:600; font-size:15px; }
@@ -233,7 +233,7 @@ details.daycard{ position:relative; }
 .daycard .drationale{ font-size:12.5px; color:var(--ink-muted); line-height:1.55; margin:12px 0 0; padding-top:12px; border-top:1px dashed var(--border); }
 .daycard .dcardio{ font-size:11.5px; color:var(--secondary); font-family:'IBM Plex Mono'; margin-top:8px; }
 @media (max-width:640px){
-  details.daycard summary{ grid-template-columns:1fr; gap:8px; }
+  details.daycard > summary{ grid-template-columns:1fr; gap:8px; }
   .daycard .dbody{ padding:0 16px 16px; }
 }
 
@@ -534,31 +534,134 @@ details.callout[open]>summary.herosum::after{ content:'▴'; }
 .isheet-later{ margin-top:16px; width:100%; font-family:'IBM Plex Sans',sans-serif; font-size:13px; font-weight:600;
   padding:10px; border-radius:10px; border:1px solid var(--border); background:transparent; color:var(--ink-muted); cursor:pointer; }
 .isheet-later:hover{ color:var(--ink); border-color:var(--ink-faint); }
+
+/* =========================================================================
+   Rediseño para el gimnasio: barra compacta, pestañas fijas, sesión de hoy
+   con series marcables y cronómetro de descanso. Va al final para mandar
+   sobre las reglas anteriores.
+   ========================================================================= */
+.topbar{ padding-bottom:4px; }
+.tb-row{ display:flex; align-items:center; gap:10px; }
+.topbar h1{ font-size:22px; line-height:1; margin-right:auto; letter-spacing:.3px; }
+.tb-row2{ display:flex; align-items:center; gap:8px 12px; flex-wrap:wrap; margin-top:12px; }
+.tb-row2 .cycleline{ margin:0; }
+.tb-row2 .notasem{ margin:0; }
+.notasem[open]{ flex-basis:100%; }
+.notasem .sub{ max-width:70ch; }
+.temabtn{ width:36px; height:36px; padding:0; display:inline-grid; place-items:center; font-size:15px; border-radius:50%; }
+.installbtn[hidden]{ display:none; }
+.installbtn{ padding:5px 12px; font-size:11.5px; }
+.profile-switch button{ padding:6px 14px; }
+
+.tabs{ position:sticky; top:0; z-index:30; background:var(--bg); margin:14px -20px 0; padding:0 20px; }
+.tabs button{ margin-right:16px; }
+section:first-child{ margin-top:18px; }
+
+details.info{ margin:-8px 0 14px; }
+details.info>summary{ list-style:none; cursor:pointer; display:inline-flex; align-items:center; gap:6px; font-size:12.5px; color:var(--ink-faint); }
+details.info>summary::-webkit-details-marker{ display:none; }
+details.info>summary::before{ content:'i'; display:inline-grid; place-items:center; width:15px; height:15px; border-radius:50%;
+  border:1px solid currentColor; font-family:'IBM Plex Mono'; font-size:10px; }
+details.info p{ color:var(--ink-muted); font-size:14px; max-width:70ch; margin:8px 0 0; }
+
+/* ---------- sesión de hoy ---------- */
+.session{ background:var(--surface); border:1px solid var(--border); border-radius:18px; padding:20px 22px; box-shadow:var(--shadow); }
+.s-head{ display:flex; flex-wrap:wrap; align-items:center; gap:8px; }
+.s-head .tag{ font-family:'Oswald'; font-weight:700; font-size:12.5px; letter-spacing:.06em; text-transform:uppercase;
+  color:var(--accent-ink); background:var(--accent); padding:5px 11px; border-radius:8px; }
+.s-opc{ font-family:'IBM Plex Mono'; font-size:10px; font-weight:600; letter-spacing:.05em; text-transform:uppercase;
+  color:var(--accent); border:1px solid var(--accent); border-radius:100px; padding:2px 8px; }
+.s-title{ font-size:26px; line-height:1.15; margin:12px 0 6px; }
+.s-meta{ display:flex; justify-content:space-between; gap:10px; font-size:12.5px; color:var(--ink-muted); }
+.s-cuenta{ font-family:'IBM Plex Mono'; font-size:12px; color:var(--ink); white-space:nowrap; }
+.s-bar{ height:4px; border-radius:4px; background:var(--surface-2); margin:8px 0 16px; overflow:hidden; }
+.s-bar i{ display:block; height:100%; width:0; background:var(--good); transition:width .25s; }
+.session .herolede{ margin:14px 0 0; color:var(--ink-muted); font-size:14px; line-height:1.55; }
+.session .ex-block{ margin:18px 0 0; padding-top:18px; border-top:1px solid var(--line); }
+.ex-block h5{ font-size:14.5px; display:flex; align-items:center; flex-wrap:wrap; gap:4px 0; }
+.ex-n{ display:inline-grid; place-items:center; flex:none; width:22px; height:22px; border-radius:50%; background:var(--surface-2);
+  color:var(--ink-muted); font-family:'IBM Plex Mono'; font-size:11px; font-weight:500; margin-right:9px; }
+.ex-super{ margin-left:8px; }
+
+/* series marcables: solo en la sesión de hoy */
+.ck{ display:none; }
+.session table.settable td{ padding:10px 6px; font-size:13px; }
+.session table.settable th{ padding:4px 6px; }
+.session tr[data-k]{ cursor:pointer; -webkit-tap-highlight-color:transparent; }
+.session .ck{ display:inline-block; position:relative; width:18px; height:18px; border-radius:50%;
+  border:1.5px solid var(--ink-faint); margin-right:8px; vertical-align:-4px; transition:background .15s,border-color .15s; }
+.session tr.done .ck{ background:var(--good); border-color:var(--good); }
+.session tr.done .ck::after{ content:''; position:absolute; left:5px; top:1.5px; width:4px; height:9px;
+  border:solid var(--surface); border-width:0 2px 2px 0; transform:rotate(45deg); }
+.session tr.done td, .session tr.done td.rir{ color:var(--ink-faint); }
+.session tr.done td:not(:first-child){ text-decoration:line-through; }
+
+/* calentamiento y estiramiento plegados */
+details.fold{ margin-top:14px; border:1px solid var(--line); border-radius:12px; }
+details.fold>summary{ list-style:none; cursor:pointer; display:flex; align-items:center; gap:8px; padding:11px 14px; font-weight:600; font-size:13.5px; }
+details.fold>summary::-webkit-details-marker{ display:none; }
+details.fold>summary::after{ content:'▾'; margin-left:auto; color:var(--ink-faint); font-size:12px; }
+details.fold[open]>summary::after{ content:'▴'; }
+.fold-n{ font-family:'IBM Plex Mono'; font-size:11px; color:var(--ink-faint); font-weight:500; }
+details.fold .bookend{ margin:0; padding:0 14px 12px; border:none; }
+details.fold .bk-label{ display:none; }
+.session details.fold.stretch{ margin-top:18px; }
+
+.session .herocardio{ margin-top:18px; padding:12px 14px; border:none; border-radius:12px; background:var(--secondary-soft);
+  color:var(--ink); font-family:inherit; font-size:13px; line-height:1.5; }
+.session .herocardio b{ color:var(--secondary); margin-right:8px; }
+
+.s-next{ display:flex; align-items:center; gap:10px; width:100%; margin-top:18px; padding:14px 16px; border-radius:12px;
+  border:1px solid var(--line); background:var(--surface-2); color:var(--ink); font:inherit; font-size:13.5px; text-align:left; cursor:pointer; }
+.s-lbl{ font-family:'IBM Plex Mono'; font-size:10.5px; text-transform:uppercase; letter-spacing:.05em; color:var(--ink-faint); flex:none; }
+.s-next b{ font-weight:600; }
+.s-arrow{ margin-left:auto; color:var(--accent); font-size:16px; }
+
+/* ---------- cronómetro ---------- */
+.restbar{ position:fixed; left:50%; bottom:calc(14px + env(safe-area-inset-bottom, 0px)); transform:translateX(-50%); z-index:60;
+  display:flex; align-items:center; gap:10px; padding:7px 7px 7px 18px; border-radius:100px; background:var(--ink); color:var(--bg);
+  box-shadow:0 8px 28px rgba(0,0,0,.3); white-space:nowrap; }
+.restbar .rb-l{ font-size:12px; opacity:.8; }
+.restbar .rb-t{ font-family:'IBM Plex Mono'; font-size:22px; font-weight:500; min-width:58px; font-variant-numeric:tabular-nums; }
+.restbar button{ font:inherit; font-size:12.5px; font-weight:600; border:1px solid currentColor; background:transparent; color:inherit;
+  border-radius:100px; padding:8px 12px; cursor:pointer; }
+.restbar.fin{ background:var(--good); color:#fff; }
+.toast{ bottom:calc(80px + env(safe-area-inset-bottom, 0px)); }
+
+/* ---------- plan de la semana ---------- */
+details.daycard > summary{ padding:14px 18px; }
+.daycard .dbody{ padding-bottom:16px; }
+
+@media (max-width:640px){
+  .tabs{ margin:12px -14px 0; padding:0 14px; }
+  .tabs button{ margin-right:12px; font-size:13.5px; }
+  .session{ padding:18px 16px; border-radius:16px; }
+  .s-title{ font-size:24px; }
+}
 </style>
 
 <div class="wrap">
 
-  <div class="masthead">
-    <div>
-      <p class="eyebrow">Coach adaptativo · basado en registro Hevy</p>
-      <h1 id="pageTitle">Sistema de entrenamiento</h1>
+  <header class="topbar">
+    <div class="tb-row">
+      <h1 id="pageTitle">Entreno</h1>
+      <div class="profile-switch" id="profileSwitch"></div>
+      <button id="btnTema" class="temabtn" title="Cambiar entre claro, oscuro y automático" aria-label="Tema"></button>
+    </div>
+    <div class="tb-row2">
       <p class="cycleline" id="cycleLine"></p>
       <details class="notasem" id="notaSem"><summary>Nota de la semana</summary>
         <p class="sub" id="weekNote"></p>
         <p class="weektodo" id="weekTodo"></p>
       </details>
-    </div>
-    <div class="headright">
-      <div class="profile-switch" id="profileSwitch"></div>
-      <button id="btnTema" class="temabtn" title="Cambiar entre claro, oscuro y automático"></button>
       <button id="btnInstalar" class="installbtn" hidden>Instalar como app</button>
     </div>
-  </div>
+  </header>
 
   <nav class="tabs" id="tabNav">
     <button data-tab="hoy" class="active">Hoy</button>
+    <button data-tab="semana">Semana</button>
     <button data-tab="progreso">Progreso</button>
-    <button data-tab="fuerza">Fuerza</button>
     <button data-tab="historial">Historial</button>
     <button data-tab="guia">Guía</button>
   </nav>
@@ -579,23 +682,37 @@ details.callout[open]>summary.herosum::after{ content:'▴'; }
       <div id="heroCallout"></div>
     </section>
 
+  </div>
+
+  <div class="tabpanel" data-panel="semana">
     <section id="semana">
       <div class="section-head">
         <h2 id="semanaTitle">Plan de las próximas semanas</h2>
-        <span class="hint">Toca un día para ver sus series — RIR y descanso incluidos</span>
       </div>
-      <p class="lede">Cada ejercicio trae su tabla de series: peso, reps, RIR objetivo y descanso, calculados desde la última marca real. Si un día no calza, se puede mover — lo que no cambia es qué músculo toca primero, porque eso lo define el déficit, no el calendario.</p>
       <div class="daycards" id="weekCards"></div>
     </section>
   </div>
 
   <div class="tabpanel" data-panel="progreso">
+    <section id="e1rm">
+      <div class="section-head">
+        <h2>Fuerza estimada — 1RM por ejercicio</h2>
+        <span class="hint" id="e1rmHint"></span>
+      </div>
+      <details class="info"><summary>Cómo se lee</summary><p>El 1RM estimado combina peso y repeticiones en un solo número (fórmula de Epley), así que sube aunque no cambies el peso: hacer 80&nbsp;kg×10 vale más que 80&nbsp;kg×8. Es la mejor forma de ver si de verdad estás progresando cuando las cargas se estancan. Elige un ejercicio para ver su curva.</p></details>
+      <div class="card">
+        <div class="e1rm-pick" id="e1rmPick"></div>
+        <div class="e1rm-top" id="e1rmTop"></div>
+        <svg id="e1rmChart" viewBox="0 0 320 170"></svg>
+        <div class="e1rm-foot" id="e1rmFoot"></div>
+      </div>
+    </section>
     <section id="musculos">
       <div class="section-head">
         <h2>Qué vamos a entrenar — series efectivas por músculo</h2>
         <span class="hint" id="muscleHint">Ventana reciente · normalizado a series/semana</span>
       </div>
-      <p class="lede">Cada músculo tiene un rango de series semanales que le sienta bien a tu nivel — esa es la banda gris. Si la barra de color no llega al borde izquierdo, entrenaste ese músculo menos de lo que conviene. La marca vertical blanca es tu promedio histórico; la flecha compara contra la ventana de 12 días anterior.</p>
+      <details class="info"><summary>Cómo se lee</summary><p>Cada músculo tiene un rango de series semanales que le sienta bien a tu nivel — esa es la banda gris. Si la barra de color no llega al borde izquierdo, entrenaste ese músculo menos de lo que conviene. La marca vertical blanca es tu promedio histórico; la flecha compara contra la ventana de 12 días anterior.</p></details>
       <div class="card" id="muscleCard">
         <div class="bodywrap" id="bodyMap"></div>
         <p class="bodynote" id="bodyMapNote"></p>
@@ -625,24 +742,8 @@ details.callout[open]>summary.herosum::after{ content:'▴'; }
         <h2>Progresión — real y proyectada</h2>
         <span class="hint">Línea sólida = histórico · zona punteada = proyección 18 sem</span>
       </div>
-      <p class="lede">La línea es tu peso máximo movido por sesión. La banda punteada es la proyección honesta a 18 semanas si entrenas bien y consistente — no una extrapolación optimista. Pasa el mouse sobre la banda para ver el razonamiento.</p>
+      <details class="info"><summary>Cómo se lee</summary><p>La línea es tu peso máximo movido por sesión. La banda punteada es la proyección honesta a 18 semanas si entrenas bien y consistente — no una extrapolación optimista. Pasa el mouse sobre la banda para ver el razonamiento.</p></details>
       <div class="progrid" id="progrid"></div>
-    </section>
-  </div>
-
-  <div class="tabpanel" data-panel="fuerza">
-    <section id="e1rm">
-      <div class="section-head">
-        <h2>Fuerza estimada — 1RM por ejercicio</h2>
-        <span class="hint" id="e1rmHint"></span>
-      </div>
-      <p class="lede">El 1RM estimado combina peso y repeticiones en un solo número (fórmula de Epley), así que sube aunque no cambies el peso: hacer 80&nbsp;kg×10 vale más que 80&nbsp;kg×8. Es la mejor forma de ver si de verdad estás progresando cuando las cargas se estancan. Elige un ejercicio para ver su curva.</p>
-      <div class="card">
-        <div class="e1rm-pick" id="e1rmPick"></div>
-        <div class="e1rm-top" id="e1rmTop"></div>
-        <svg id="e1rmChart" viewBox="0 0 320 170"></svg>
-        <div class="e1rm-foot" id="e1rmFoot"></div>
-      </div>
     </section>
   </div>
 
@@ -657,7 +758,7 @@ details.callout[open]>summary.herosum::after{ content:'▴'; }
         <h2>Registro histórico completo</h2>
         <span class="hint" id="histHint">más reciente primero</span>
       </div>
-      <p class="lede">Cada sesión real copiada de Hevy, serie por serie. Busca por ejercicio, rutina o fecha para encontrar una marca anterior.</p>
+      <details class="info"><summary>Cómo se lee</summary><p>Cada sesión real copiada de Hevy, serie por serie. Busca por ejercicio, rutina o fecha para encontrar una marca anterior.</p></details>
       <div class="card">
         <div class="hsearch">
           <input type="text" id="historySearch" placeholder="Buscar ejercicio, rutina o fecha… ej. 'bench', 'pull', 'jul'">
@@ -678,7 +779,7 @@ details.callout[open]>summary.herosum::after{ content:'▴'; }
       <div class="section-head">
         <h2>Cardio y déficit</h2>
       </div>
-      <p class="lede">Bajar grasa se controla con el déficit calórico, no con el cardio — pero el cardio protege ese déficit sin tener que comer aún menos.</p>
+      <details class="info"><summary>Cómo se lee</summary><p>Bajar grasa se controla con el déficit calórico, no con el cardio — pero el cardio protege ese déficit sin tener que comer aún menos.</p></details>
       <div class="card">
         <ul style="margin:0;padding-left:20px;color:var(--ink-muted);font-size:14px;line-height:1.7">
           <li><b style="color:var(--ink)">2–3 sesiones/semana</b> de 15–25 min a intensidad moderada (RPE 6–7) — Stair Machine o caminata inclinada. La diferencia es hacerlo consistente, no solo cuando sobra tiempo.</li>
@@ -693,7 +794,7 @@ details.callout[open]>summary.herosum::after{ content:'▴'; }
         <h2>Cómo se organizan los ciclos</h2>
         <span class="hint">Sin calendario fijo — cada nivel termina por gatillo, no por fecha</span>
       </div>
-      <p class="lede">La jerarquía clásica (macro → meso → micro → sesión) se mantiene, pero cada bloque se cierra por una condición observable, no por la casilla del calendario.</p>
+      <details class="info"><summary>Cómo se lee</summary><p>La jerarquía clásica (macro → meso → micro → sesión) se mantiene, pero cada bloque se cierra por una condición observable, no por la casilla del calendario.</p></details>
       <div class="cycles">
         <div class="cyc">
           <div class="lvl">Macrociclo<small>~18 semanas</small></div>
@@ -831,15 +932,16 @@ details.callout[open]>summary.herosum::after{ content:'▴'; }
   });
 
   // ---------------- shared: render one exercise as a set-table ----------------
-  function renderExerciseBlock(ex){
-    var rows = ex.sets.map(function(s){
+  function escA(s){ return esc(s).replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;'); }
+  function renderExerciseBlock(ex, n){
+    var rows = ex.sets.map(function(s, i){
       var rirCell = (s.rir==='—' || s.rir==null) ? '—' : s.rir;
-      return '<tr><td>'+esc(s.serie)+'</td><td>'+esc(s.carga)+'</td><td>'+esc(s.reps)+'</td><td class="rir">'+esc(rirCell)+'</td><td>'+esc(s.descanso)+'</td></tr>';
+      return '<tr data-k="'+escA(ex.name+'|'+i)+'" data-rest="'+escA(s.descanso)+'"><td><span class="ck"></span>'+esc(s.serie)+'</td><td>'+esc(s.carga)+'</td><td>'+esc(s.reps)+'</td><td class="rir">'+esc(rirCell)+'</td><td>'+esc(s.descanso)+'</td></tr>';
     }).join('');
     return '<div class="ex-block">'+
-      '<h5>'+esc(ex.name)+(ex.superset ? '<span class="ex-super" title="Superserie: encadénalo con el siguiente ejercicio y descansa recién al terminar los dos">superserie</span>' : '')+'</h5>'+
+      '<h5>'+(n ? '<span class="ex-n">'+n+'</span>' : '')+esc(ex.name)+(ex.superset ? '<span class="ex-super" title="Superserie: encadénalo con el siguiente ejercicio y descansa recién al terminar los dos">superserie</span>' : '')+'</h5>'+
       '<div class="tblwrap"><table class="settable">'+
-      '<thead><tr><th>Serie</th><th>Carga</th><th>Reps</th><th>RIR</th><th>Descanso</th></tr></thead>'+
+      '<thead><tr><th>Serie</th><th>Carga</th><th>Reps</th><th>RIR</th><th>Desc.</th></tr></thead>'+
       '<tbody>'+rows+'</tbody></table></div>'+
       (ex.notes ? '<p class="ex-notes">'+escMd(ex.notes)+'</p>' : '')+
       renderCue(ex.cue)+
@@ -872,6 +974,12 @@ details.callout[open]>summary.herosum::after{ content:'▴'; }
       return '<li><b>'+esc(i.name)+'</b>'+(i.how ? '<span class="bk-how">'+escMd(i.how)+'</span>' : '')+'</li>';
     }).join('');
     return '<div class="bookend '+cls+'"><p class="bk-label">'+label+'</p><ul>'+lis+'</ul></div>';
+  }
+
+  function renderFold(items, label, cls){
+    if(!items || !items.length) return '';
+    return '<details class="fold '+cls+'"><summary><span>'+label+'</span><span class="fold-n">'+items.length+'</span></summary>'+
+      renderBookend(items, label, cls)+'</details>';
   }
 
   // ---------------- cycle line ----------------
@@ -1121,7 +1229,12 @@ details.callout[open]>summary.herosum::after{ content:'▴'; }
     return (m.dir > 0 ? '+1' : '−1')+' desde el '+n(m.desde);
   }
 
-  // ---------------- hero callout ----------------
+  // ---------------- sesion de hoy ----------------
+  // Lo que se usa en el gimnasio: los ejercicios en orden, cada serie se marca con un toque
+  // y al marcarla parte el descanso que trae esa serie. Lo marcado queda en este dispositivo.
+  function hechosDe(fecha){ try{ return JSON.parse(localStorage.getItem('hecho-'+perfilActual+'-'+fecha)) || {}; }catch(e){ return {}; } }
+  function guardaHechos(fecha, h){ try{ localStorage.setItem('hecho-'+perfilActual+'-'+fecha, JSON.stringify(h)); }catch(e){} }
+
   function renderHero(profile){
     var el = document.getElementById('heroCallout');
     el.innerHTML = '';
@@ -1129,29 +1242,128 @@ details.callout[open]>summary.herosum::after{ content:'▴'; }
       el.innerHTML = '<div class="empty"><b>Sin rutina cargada todavía</b>Cuando subas el registro de '+esc(profile.displayName)+', esta sección va a mostrar la próxima sesión sugerida'+(profile.note ? ' — '+esc(profile.note) : '')+'.</div>';
       return;
     }
-    var dias = planDe(profile);
+    var dias = planDe(profile), t = todayISO();
     var heroIdx = pickHeroIndex(dias);
     var day = dias[heroIdx];
-    var isToday = day.date === todayISO();
-    // el caso tipico: ayer tocaba entrenar y no se pudo, y hoy se quiere hacer esa rutina
-    var ayer = dias.find(function(d){ return d.date === isoMenos(todayISO(), 1); });
-    var moverHtml = botonera(dias, day) +
-      (isToday && ayer && tramo(dias, ayer.date, 1) ? '<button type="button" class="ayerlink" data-ayer="'+esc(ayer.date)+'">Ayer no entrené → +1 desde ayer</button>' : '');
-    var exHtml = day.exercises.map(renderExerciseBlock).join('');
+    var isToday = day.date === t;
+    var ayer = dias.find(function(d){ return d.date === isoMenos(t, 1); });
+    var sig = dias.slice(heroIdx + 1).find(function(d){ return !esDescanso(d); });
+    var series = 0;
+    day.exercises.forEach(function(e){ series += e.sets.length; });
+
     el.innerHTML =
-      '<details class="callout" id="heroDet" open><summary class="herosum">'+
-      '<span class="tag">'+esc(day.day)+(isToday?' · hoy':' · próxima sesión')+'</span>'+'<span class="herofocus">'+esc(day.focus)+'</span>'+etiquetaMovido(day)+'</summary>'+
-      '<div class="herobody">'+
-      moverHtml+
-      '<p class="herolede">'+escMd(day.rationale)+'</p>'+
-      renderBookend(day.warmup, 'Calentamiento', 'warmup')+
-      exHtml+
-      (day.cardio ? '<div class="herocardio">Cardio de cierre: '+esc(day.cardio)+'</div>' : '')+
-      renderBookend(day.stretch, 'Estiramiento de cierre', 'stretch')+
-      '</div></details>';
+      '<div class="session'+(esDescanso(day) ? ' rest' : '')+'">'+
+      '<div class="s-head"><span class="tag">'+esc(day.day)+(isToday ? ' · hoy' : ' · próxima')+'</span>'+
+        (day.tag === 'opcional' ? '<span class="s-opc">opcional</span>' : '')+etiquetaMovido(day)+'</div>'+
+      '<h2 class="s-title">'+esc(day.focus)+'</h2>'+
+      (series ? '<div class="s-meta"><span>'+day.exercises.length+' ejercicios · '+series+' series</span><span class="s-cuenta"></span></div>'+
+        '<div class="s-bar"><i></i></div>' : '')+
+      botonera(dias, day)+
+      (isToday && ayer && tramo(dias, ayer.date, 1) ? '<button type="button" class="ayerlink" data-ayer="'+escA(ayer.date)+'">Ayer no entrené → +1 desde ayer</button>' : '')+
+      (day.rationale ? '<p class="herolede">'+escMd(day.rationale)+'</p>' : '')+
+      renderFold(day.warmup, 'Calentamiento', 'warmup')+
+      day.exercises.map(function(e, i){ return renderExerciseBlock(e, i+1); }).join('')+
+      (day.cardio ? '<div class="herocardio"><b>Cardio</b>'+esc(day.cardio)+'</div>' : '')+
+      renderFold(day.stretch, 'Estiramiento de cierre', 'stretch')+
+      (sig ? '<button type="button" class="s-next" data-fecha="'+escA(sig.date)+'"><span class="s-lbl">Después</span>'+
+        '<b>'+esc(sig.day)+' · '+esc(sig.focus)+'</b><span class="s-arrow">→</span></button>' : '')+
+      '</div>';
+
     cableaMover(el, dias);
     var al = el.querySelector('.ayerlink');
     if(al) al.addEventListener('click', function(){ registra({desde:al.dataset.ayer, dir:1}); });
+    var nx = el.querySelector('.s-next');
+    if(nx) nx.addEventListener('click', function(){ irADia(nx.dataset.fecha); });
+
+    var hechos = hechosDe(day.date);
+    el.querySelectorAll('tr[data-k]').forEach(function(tr){
+      if(hechos[tr.dataset.k]) tr.classList.add('done');
+      tr.addEventListener('click', function(){
+        var h = hechosDe(day.date), k = tr.dataset.k;
+        if(h[k]) delete h[k]; else h[k] = 1;
+        guardaHechos(day.date, h);
+        tr.classList.toggle('done', !!h[k]);
+        var quedan = cuentaSeries(el);
+        if(h[k] && quedan) empiezaDescanso(tr.dataset.rest);
+        if(!quedan) paraDescanso();
+      });
+    });
+    cuentaSeries(el);
+  }
+
+  // actualiza la barra de avance; devuelve cuantas series faltan
+  function cuentaSeries(el){
+    var filas = el.querySelectorAll('tr[data-k]').length, n = el.querySelectorAll('tr[data-k].done').length;
+    var c = el.querySelector('.s-cuenta'), b = el.querySelector('.s-bar i');
+    if(c) c.textContent = filas && n === filas ? 'sesión completa ✓' : n+' de '+filas+' hechas';
+    if(b) b.style.width = (filas ? n / filas * 100 : 0)+'%';
+    return filas - n;
+  }
+
+  function irADia(fecha){
+    document.querySelector('#tabNav button[data-tab="semana"]').click();
+    var c = document.querySelector('#weekCards details.daycard[data-fecha="'+fecha+'"]');
+    if(!c) return;
+    c.open = true;
+    window.scrollTo(0, c.getBoundingClientRect().top + window.scrollY - 64);
+  }
+
+  // ---------------- cronometro de descanso ----------------
+  // Cuenta contra la hora del reloj, no por intervalos sumados: si el telefono bloquea la
+  // pantalla entre series, al volver muestra lo que de verdad falta.
+  var descanso = {fin:0, tick:null};
+  function segundos(txt){
+    var s = String(txt || ''), m;
+    if(/sin/i.test(s)) return 0;
+    if((m = s.match(/(\d+):(\d{2})/))) return +m[1]*60 + +m[2];
+    if((m = s.match(/(\d+)(?:\s*-\s*\d+)?\s*min/))) return +m[1]*60;
+    if((m = s.match(/(\d+)\s*s/))) return +m[1];
+    return 0;
+  }
+  function barraDescanso(){
+    var el = document.getElementById('restBar');
+    if(el) return el;
+    el = document.createElement('div');
+    el.id = 'restBar'; el.className = 'restbar'; el.style.display = 'none';
+    el.innerHTML = '<span class="rb-l">Descanso</span><b class="rb-t">0:00</b>'+
+      '<button type="button" data-a="mas">+30 s</button><button type="button" data-a="x" aria-label="Cerrar">✕</button>';
+    el.querySelector('[data-a="mas"]').addEventListener('click', function(){
+      descanso.fin = Math.max(descanso.fin, Date.now()) + 30000;
+      if(!descanso.tick) descanso.tick = setInterval(pintaDescanso, 250);
+      pintaDescanso();
+    });
+    el.querySelector('[data-a="x"]').addEventListener('click', paraDescanso);
+    document.body.appendChild(el);
+    return el;
+  }
+  function empiezaDescanso(txt){
+    var seg = segundos(txt);
+    if(!seg) return;
+    descanso.fin = Date.now() + seg*1000;
+    clearInterval(descanso.tick);
+    descanso.tick = setInterval(pintaDescanso, 250);
+    pintaDescanso();
+  }
+  function paraDescanso(){
+    clearInterval(descanso.tick); descanso.tick = null;
+    var el = document.getElementById('restBar');
+    if(el) el.style.display = 'none';
+  }
+  function pintaDescanso(){
+    var el = barraDescanso(), r = Math.ceil((descanso.fin - Date.now()) / 1000);
+    el.style.display = '';
+    if(r <= 0){
+      clearInterval(descanso.tick); descanso.tick = null;
+      el.classList.add('fin');
+      el.querySelector('.rb-l').textContent = '¡A la serie!';
+      el.querySelector('.rb-t').textContent = '0:00';
+      try{ if(navigator.vibrate) navigator.vibrate([200, 100, 200]); }catch(e){}
+      setTimeout(function(){ if(!descanso.tick) el.style.display = 'none'; }, 5000);
+      return;
+    }
+    el.classList.remove('fin');
+    el.querySelector('.rb-l').textContent = 'Descanso';
+    el.querySelector('.rb-t').textContent = Math.floor(r/60)+':'+String(r%60).padStart(2,'0');
   }
 
   // ---------------- week day cards (collapsible) ----------------
@@ -1189,19 +1401,19 @@ details.callout[open]>summary.herosum::after{ content:'▴'; }
       var det = document.createElement('details');
       var isToday = d.date === t;
       det.className = 'daycard' + (d.exercises.length === 0 ? ' rest' : '') + (d.date < t ? ' past' : '');
-      det.open = isToday;
+      det.dataset.fecha = d.date;
       var tagHtml = (isToday ? '<span class="dtag">hoy</span>' : '') + etiquetaMovido(d);
-      var exHtml = d.exercises.map(renderExerciseBlock).join('');
+      var exHtml = d.exercises.map(function(e, i){ return renderExerciseBlock(e, i+1); }).join('');
       var cardioHtml = d.cardio ? '<div class="dcardio">Cardio: '+esc(d.cardio)+'</div>' : '';
       det.innerHTML =
         '<summary><div class="dwhen"><span class="dday">'+esc(d.day)+'</span>'+tagHtml+'</div><h4>'+esc(d.focus)+'</h4></summary>'+
         '<div class="dbody">'+
         (d.date >= ayer ? botonera(dias, d) : '')+
         '<p class="drationale">'+escMd(d.rationale)+'</p>'+
-        renderBookend(d.warmup, 'Calentamiento', 'warmup')+
+        renderFold(d.warmup, 'Calentamiento', 'warmup')+
         exHtml+
         cardioHtml+
-        renderBookend(d.stretch, 'Estiramiento de cierre', 'stretch')+
+        renderFold(d.stretch, 'Estiramiento de cierre', 'stretch')+
         '</div>';
       cableaMover(det, dias);
       return det;
@@ -1889,7 +2101,7 @@ details.callout[open]>summary.herosum::after{ content:'▴'; }
   function renderProfile(key){
     var profile = PROFILES[key];
     perfilActual = key;
-    document.getElementById('pageTitle').textContent = 'Sistema de entrenamiento de ' + profile.displayName;
+    document.getElementById('pageTitle').textContent = 'Entreno';
     document.title = 'Sistema de entrenamiento — ' + profile.displayName;
     renderSwitch(key);
     renderCycle(profile);
@@ -1918,7 +2130,7 @@ details.callout[open]>summary.herosum::after{ content:'▴'; }
   // ---------------- ¿estoy viendo una copia vieja? ----------------
   // La app instalada puede servir una copia guardada sin avisar. Se compara la version
   // horneada en este archivo contra la publicada; si no calzan, se recarga una sola vez.
-  var VERSION = '0e2fae260520';
+  var VERSION = '2c9c2ce94a55';
   (function(){
     var YA = 'recarga-' + VERSION;
     fetch('version.json?t=' + Date.now(), {cache:'no-store'})
@@ -1951,12 +2163,13 @@ details.callout[open]>summary.herosum::after{ content:'▴'; }
     var btn=document.getElementById('btnTema');
     if(!btn) return;
     var ORDEN=['auto','dark','light'];
-    var ETIQUETA={auto:'◐ Automático', dark:'● Oscuro', light:'○ Claro'};
+    var ETIQUETA={auto:'◐', dark:'●', light:'○'};
+    var NOMBRE={auto:'Tema automático', dark:'Tema oscuro', light:'Tema claro'};
     function leer(){ try{ return localStorage.getItem('tema') || 'auto'; }catch(e){ return 'auto'; } }
     function aplicar(v){
       if(v==='auto') delete document.documentElement.dataset.theme;
       else document.documentElement.dataset.theme=v;
-      btn.textContent=ETIQUETA[v];
+      btn.textContent=ETIQUETA[v]; btn.title=NOMBRE[v]+' (tocar para cambiar)';
       var oscuro = v==='dark' || (v==='auto' && window.matchMedia('(prefers-color-scheme: dark)').matches);
       var meta=document.querySelector('meta[name="theme-color"]');
       if(meta) meta.setAttribute('content', oscuro ? '#1B2024' : '#FAF9F5');
