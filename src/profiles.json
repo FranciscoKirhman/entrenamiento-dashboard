@@ -7455,9 +7455,21 @@
    {
     "day": "Sáb 26",
     "date": "2026-09-26",
+    "focus": "Descanso",
+    "tag": "descanso",
+    "rationale": "**Descanso.** El opcional se hizo el domingo 27.",
+    "cardio": "",
+    "warmup": [],
+    "stretch": [],
+    "exercises": [],
+    "prioridad": null
+   },
+   {
+    "day": "Dom 27",
+    "date": "2026-09-27",
     "focus": "Opcional — femoral, glúteo medio y tríceps",
     "tag": "opcional",
-    "rationale": "**Opcional, media hora.** Recoge lo que salió del viernes: el femoral en su dosis liviana y la abducción, más el tríceps, que esta semana solo tiene la extensión en polea del martes. Nada de bíceps ni face pull — el domingo y el viernes ya los llevan. Si la semana salió con los cinco días, esto suma; si no vienes, no se recupera.",
+    "rationale": "**Opcional, corrido del sábado.** Pushdown 32,5 × 13/15/12, abducción 75 × 15, curl sentado 66 × 12 y búlgaro 20 × 10, que agregaste tú.",
     "cardio": "Escaleras 20 min, RPE 5, junto a Mipi si coincide.",
     "warmup": [
      {
@@ -7581,18 +7593,8 @@
       ],
       "cue": "**Sube a 32,5.** El 8 de septiembre las tres a 30 salieron a RPE 7, 7 y 7,5: se había quedado corto.\n\n**Cómo te pones:** codos pegados al costado, torso ligeramente inclinado adelante.\n\n**Qué haces:** estira el codo del todo abajo y vuelve solo hasta 90°. Los codos no se mueven de su sitio.\n\n**Cómo sabes que está bien:** si los codos se van hacia adelante o atrás, el dorsal está ayudando y el tríceps trabaja menos."
      }
-    ]
-   },
-   {
-    "day": "Dom 27",
-    "date": "2026-09-27",
-    "focus": "Descanso",
-    "tag": "descanso",
-    "rationale": "**Descanso.**",
-    "cardio": "",
-    "warmup": [],
-    "stretch": [],
-    "exercises": []
+    ],
+    "prioridad": null
    },
    {
     "day": "Lun 28",
@@ -27951,9 +27953,21 @@
    {
     "day": "Sáb 26",
     "date": "2026-09-26",
+    "focus": "Descanso",
+    "tag": "descanso",
+    "rationale": "**Día 7 — folicular (proyectado).** **No entrenaste.** El Inferior B se hizo el domingo 27.",
+    "cardio": "",
+    "warmup": [],
+    "stretch": [],
+    "exercises": [],
+    "prioridad": null
+   },
+   {
+    "day": "Dom 27",
+    "date": "2026-09-27",
     "focus": "Inferior B — cuádriceps y glúteo",
     "tag": "entreno",
-    "rationale": "**Día 7 — folicular (proyectado).** **Inferior B — cuádriceps y glúteo.** Tercer día seguido y último firme de la semana. Va a dos días del jueves, no a tres como quedará de la semana 2 en adelante: si llegas cansada, corta el búlgaro y deja la sentadilla, la prensa y el kickback, que son los que miden.\n\nLa sentadilla con barra vuelve para técnica, a 25 kg. No es carga: es recuperar el patrón antes de subir.",
+    "rationale": "**Día 8 — folicular (proyectado).** **Inferior B, corrido del sábado.** Sentadilla 25 × 10, búlgaro 10 × 10 y prensa 110 × 10 a RPE 8-8,5; el kickback, la aducción y el dead bug quedaron fuera.",
     "cardio": "Escaladora 10 min: 2 min a RPE 3 · 6 min a RPE 4 · 2 min a RPE 3. RPE 3 = hablas normal · RPE 4 = hablas pero se nota el esfuerzo · RPE 5 = solo frases cortas.",
     "warmup": [
      {
@@ -28203,127 +28217,8 @@
       ],
       "cue": "**Más lento, no más repeticiones:** 3 segundos para estirar brazo y pierna y 3 para volver. Con 20 rápidas llegabas a RPE 7-8; así 12 cuestan más y trabajan lo que te protege la zona lumbar en la sentadilla.\n\n**Cómo te pones:** boca arriba, brazos al techo, rodillas en 90°.\n\n**Qué haces:** baja un brazo y la pierna contraria, lento, y vuelve.\n\n**Cómo sabes que está bien:** la zona lumbar pegada al suelo todo el rato. Es el que mejor te sale del core."
      }
-    ]
-   },
-   {
-    "day": "Dom 27",
-    "date": "2026-09-27",
-    "focus": "Opcional — core, banda y escaladora",
-    "tag": "opcional",
-    "rationale": "**Día 8 — folicular (proyectado).** **Opcional: suave.** Cuarto día seguido, así que hoy no va nada de carga: el Step Up sale porque ayer ya fue cuádriceps y glúteo. Queda el puente con marcha, el core en el suelo y la escaladora. Si el sábado salió pesado, esto es caminar y nada más.",
-    "cardio": "Escaladora 20 min, la que te gusta: 3 min a RPE 3 · 14 min a RPE 5 · 3 min a RPE 3. Si el pulso pasa de 175, baja a RPE 4. RPE 3 = hablas normal · RPE 4 = hablas pero se nota el esfuerzo · RPE 5 = solo frases cortas.",
-    "warmup": [
-     {
-      "name": "Bici o caminadora, 5-6 min a RPE 2-3",
-      "how": "Solo para subir temperatura y pulso. RPE 2-3: hablas frases completas todo el rato. Si terminas sin aliento, ibas muy fuerte."
-     },
-     {
-      "name": "Movilidad de tobillo contra pared, 10 por lado",
-      "how": "De pie frente a la pared, pie a un palmo. Lleva la rodilla a tocar la pared sin despegar el talón. Si llega fácil, aleja más el pie."
-     },
-     {
-      "name": "Círculos de cadera de pie, 8 por lado",
-      "how": "Apóyate en algo, levanta una rodilla a la altura de la cadera y dibuja círculos grandes hacia afuera. Que se mueva la cadera, no la espalda."
-     },
-     {
-      "name": "90/90 de cadera, 6 cambios por lado",
-      "how": "Sentado en el suelo, una pierna adelante y otra al lado, ambas en 90°. Gira las dos rodillas al otro lado sin usar las manos."
-     },
-     {
-      "name": "Puente de glúteo, 12 con pausa de 1 s",
-      "how": "Acostado, pies al ancho de cadera. Sube apretando el glúteo hasta alinear rodilla-cadera-hombro y aguanta 1 s arriba. Sin arquear la lumbar."
-     },
-     {
-      "name": "Abducción con banda sentado, 15 repeticiones",
-      "how": "Banda sobre las rodillas. Abre las rodillas contra la banda y vuelve lento. Debes sentirlo al lado del glúteo, no en el muslo."
-     },
-     {
-      "name": "Series de aproximación del primer ejercicio",
-      "how": "Las que están en la tabla, marcadas como Aprox. Suben la carga de a poco hasta el peso de trabajo. No cuentan como series efectivas."
-     }
     ],
-    "stretch": [
-     {
-      "name": "Flexor de cadera en estocada, 30 s por lado",
-      "how": "Rodilla atrás en el suelo, mete la pelvis adelante como escondiendo la cola y aprieta el glúteo de atrás."
-     },
-     {
-      "name": "Glúteo figura-4 acostado, 30 s por lado",
-      "how": "Cruza el tobillo sobre la rodilla contraria y tira de la pierna de abajo al pecho."
-     },
-     {
-      "name": "Isquiotibiales acostado con banda, 30 s por lado",
-      "how": "Banda en el pie, sube la pierna estirada hasta sentir tensión detrás del muslo."
-     },
-     {
-      "name": "Aductor en mariposa, 30 s",
-      "how": "Plantas juntas, deja caer las rodillas. Empuja suave con los codos, sin rebotar."
-     },
-     {
-      "name": "Cuádriceps de pie, 30 s por lado",
-      "how": "Talón al glúteo, rodillas juntas y pelvis metida."
-     },
-     {
-      "name": "Pantorrilla en pared, 30 s por lado",
-      "how": "Pierna atrás estirada, talón pegado al suelo."
-     }
-    ],
-    "exercises": [
-     {
-      "name": "Puente Gluteo Con Marcha",
-      "sets": [
-       {
-        "serie": "Trabajo 1",
-        "carga": "Banda 5 kg",
-        "reps": "10 por lado",
-        "rir": "objetivo 3",
-        "descanso": "60s"
-       },
-       {
-        "serie": "Trabajo 2",
-        "carga": "Banda 5 kg",
-        "reps": "10 por lado",
-        "rir": "objetivo 3",
-        "descanso": "60s"
-       },
-       {
-        "serie": "Trabajo 3",
-        "carga": "Banda 5 kg",
-        "reps": "10 por lado",
-        "rir": "objetivo 3",
-        "descanso": "60s"
-       }
-      ],
-      "cue": "**Con la banda sobre las rodillas, como anotaste el 13:** 10 por lado sin nada ya no te costaba. Empuja las rodillas hacia afuera contra la banda toda la serie.\n\n**Cómo te pones:** acostada, **talones bien cerca de la cola** — casi tocándola. Ese detalle es el que evita los calambres en el isquio que anotaste: con el pie lejos, el isquio hace el trabajo que le toca al glúteo.\n\n**Qué haces:** sube a puente empujando el suelo **con los talones**, no con la punta. Arriba, despega un pie unos centímetros del suelo y vuélvelo. Después el otro.\n\n**Cómo sabes que está bien:** la cadera **no se cae** del lado del pie que levantas, y lo sientes en el glúteo, no atrás del muslo. Si acalambra, acerca más los talones."
-     },
-     {
-      "name": "Lying Leg Raise",
-      "sets": [
-       {
-        "serie": "Trabajo 1",
-        "carga": "Peso corporal",
-        "reps": "12",
-        "rir": "objetivo 3",
-        "descanso": "60s"
-       },
-       {
-        "serie": "Trabajo 2",
-        "carga": "Peso corporal",
-        "reps": "12",
-        "rir": "objetivo 3",
-        "descanso": "60s"
-       },
-       {
-        "serie": "Trabajo 3",
-        "carga": "Peso corporal",
-        "reps": "12",
-        "rir": "objetivo 3",
-        "descanso": "60s"
-       }
-      ],
-      "cue": "**En el suelo, como pediste para el core.** El 27 de agosto hiciste 15 a RPE 8-9: se parte en 12 bien controladas.\n\n**Cómo te pones:** Acostada boca arriba, manos bajo la cola y zona lumbar pegada al suelo.\n\n**Qué haces:** sube las piernas estiradas hasta 90° y bájalas en 3 segundos hasta donde la lumbar siga pegada.\n\n**Cómo sabes que está bien:** la espalda baja no se despega. Si se despega antes de llegar abajo, dobla un poco las rodillas o baja menos."
-     }
-    ]
+    "prioridad": null
    },
    {
     "day": "Lun 28",
