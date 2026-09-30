@@ -109,7 +109,8 @@ def filtra(ws, texto):
     ultima = max(d for d, _ in ses) if ses else dt.date.min
     ultima_de_hevy = all("<!-- hevy:" in b for d, b in ses if d == ultima)
     vistos = set(re.findall(r"<!-- hevy:([\w-]+) -->", texto))
-    out = [w for w in ws if w["id"] not in vistos and not (
+    ya = H.registradas(texto)                 # la misma sesión pudo entrar antes por la web de Hevy
+    out = [w for w in ws if w["id"] not in vistos and H.clave_sesion(w) not in ya and not (
         H.local(w["start_time"]).date() < ultima
         or (H.local(w["start_time"]).date() == ultima and not ultima_de_hevy))]
     return sorted(out, key=lambda w: w["start_time"])

@@ -3155,7 +3155,7 @@ No hubo sesión de gimnasio este día (la pierna B se corrió al jueves 27). Sí
 <!-- hevy:csv-202609251230 -->
 **Hora:** 12:30 PM  
 **Duración:** 2h 4m  
-**Volumen Hevy:** 4,059 kg  
+**Volumen Hevy:** 5,259 kg  
 
 | Orden | Ejercicio | Serie | Carga | Reps/tiempo | RPE |
 |---:|---|---:|---:|---|---:|

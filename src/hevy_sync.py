@@ -89,8 +89,9 @@ def bloque(w):
     ini, fin = local(w["start_time"]), local(w["end_time"])
     mins = round((fin - ini).total_seconds() / 60)
     dur = f"{mins // 60}h {mins % 60}m" if mins >= 60 else f"{mins}m"
-    vol = sum((s.get("weight_kg") or 0) * (s.get("reps") or 0)
-              for e in w["exercises"] for s in e["sets"])
+    # como Hevy: peso × reps, y peso × metros en lo que va por distancia (farmer walk)
+    vol = sum((s.get("weight_kg") or 0) * ((s.get("reps") or 0) + (s.get("distance_meters") or 0))
+              for e in w["exercises"] for s in e["sets"] if (s.get("weight_kg") or 0) > 0)
     hora = ini.strftime("%I:%M %p").lstrip("0")
     L = [f"## {ini.day} {MESES_EN[ini.month - 1]} {ini.year} — {w['title'].strip()}", "",
          f"<!-- hevy:{w['id']} -->", f"**Hora:** {hora}  ", f"**Duración:** {dur}  ",
@@ -106,6 +107,22 @@ def bloque(w):
     if notas:
         L += ["", "**Notas por ejercicio:**"] + [f"- **{t}:** {n}" for t, n in notas]
     return "\n".join(L) + "\n"
+
+
+def registradas(texto):
+    """{(fecha, hora, título)} de las sesiones del markdown: la misma sesión puede llegar por la API, la
+    exportación CSV o la web de Hevy con ids distintos, y esto es lo que las reconoce como una."""
+    out = set()
+    for d, b in fechas_registradas(texto):
+        titulo = b.split("\n", 1)[0].split(" — ", 1)[-1].strip()
+        h = re.search(r"\*\*Hora:\*\*\s*([^\n]+?)\s*$", b, re.M)
+        out.add((d, h.group(1).strip() if h else "", titulo))
+    return out
+
+
+def clave_sesion(w):
+    ini = local(w["start_time"])
+    return (ini.date(), ini.strftime("%I:%M %p").lstrip("0"), w["title"].strip())
 
 
 def fechas_registradas(texto):

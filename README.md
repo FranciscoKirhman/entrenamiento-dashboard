@@ -20,6 +20,7 @@ de una sesión, basta con clonar este repo.
 | `src/graficos.py` | Recalcula los gráficos de carga y el volumen por músculo desde el historial. `build.py` falla si quedaron atrasados. |
 | `src/hevy_sync.py` | Trae las sesiones nuevas desde la API de Hevy para los perfiles con Pro (clave en `~/.config/hevy/<perfil>.key`, fuera del repo). |
 | `src/hevy_csv.py` | Lo mismo para quien no tiene Pro: importa la exportación CSV de Hevy que quede en `~/Downloads` o en `~/Documents/Entrenamiento/hevy_csv`. Reconoce de quién es por las sesiones ya registradas. |
+| `src/hevy_web.py` | Registra sesiones leídas de la web de Hevy (el texto de `hevy.com/workout/<id>`). Lo usa el agente que revisa el Hevy de Mipi en Chrome. |
 | `src/publish.py` | Sincroniza los `.md` de `~/Documents/Entrenamiento`, recalcula los gráficos, reconstruye, commitea y sube — todo en un paso. |
 | `src/musclemap_convert.py` | Convierte los trazados de MuscleMap (Swift) a `src/bodypaths.json`. |
 | `src/bodypaths.json` | **Generado** — geometría del diagrama anatómico. |
@@ -37,6 +38,22 @@ La API de Hevy es solo para Pro, así que las sesiones de Mipi entran por la exp
 
 El archivo trae el historial completo; solo entra lo posterior a la última sesión registrada, así
 que se puede volver a exportar e importar sin duplicar nada.
+
+## Sesiones de Mipi desde la web de Hevy (agente en Chrome)
+
+Mipi no tiene Hevy Pro, así que su cuenta no tiene API. Una tarea programada de Claude en el Mac de
+Francisco (`revisar-hevy-mipi`, a las 15:00 y a las 22:00) hace esto:
+
+1. Abre `hevy.com/profile` en el Chrome del Mac, donde Mipi tiene la sesión iniciada.
+2. Compara sus entrenamientos con la última sesión registrada (`python3 src/hevy_web.py mipi --ultima`).
+3. Abre cada entrenamiento nuevo, guarda el texto de la página y corre
+   `python3 src/hevy_web.py mipi <archivos>`, que valida el volumen contra el oficial y no duplica.
+4. Publica con `publish.py`.
+
+Solo lee: no da me gusta, no comenta y no cambia nada en Hevy. Necesita el Mac encendido con la app de
+Claude abierta y Chrome con la extensión. Si Hevy pide iniciar sesión, avisa y no hace nada.
+La exportación CSV sigue sirviendo como respaldo; las tres vías (API, CSV y web) se reconocen entre
+sí por fecha, hora y título, así que una sesión no entra dos veces.
 
 ## El plan se ajusta solo con Hevy
 
