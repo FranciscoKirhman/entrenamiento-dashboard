@@ -746,6 +746,61 @@ details.hh-det[open]>summary::after{ content:'▴'; }
 .hh-list li b{ font-weight:600; }
 .hh-list li span{ font-family:'IBM Plex Mono'; font-size:11.5px; color:var(--ink-muted); text-align:right; }
 .dreg{ font-family:'IBM Plex Mono'; font-size:9.5px; font-weight:600; letter-spacing:.05em; text-transform:uppercase; color:var(--good); }
+
+/* =========================================================================
+   Días sin registro, pendientes y cambios al plan (guardados en la nube)
+   ========================================================================= */
+.resolver{ margin-bottom:14px; padding:14px 16px 16px; border-radius:16px; background:var(--surface);
+  border:1px solid color-mix(in srgb, var(--warning) 45%, var(--border)); box-shadow:var(--shadow); }
+.rs-h{ margin:0 0 8px; font-family:'IBM Plex Mono',monospace; font-size:10.5px; font-weight:600; letter-spacing:.06em;
+  text-transform:uppercase; color:var(--warning); }
+.rs-card + .rs-h{ margin-top:16px; }
+.rs-card{ padding:12px 0 0; }
+.rs-card + .rs-card{ margin-top:12px; border-top:1px solid var(--line); }
+.rs-top{ display:flex; flex-wrap:wrap; align-items:baseline; gap:2px 10px; }
+.rs-dia{ font-family:'Oswald'; font-weight:600; font-size:15px; color:var(--ink); }
+.rs-top b{ font-size:14px; font-weight:600; }
+.rs-q{ margin:4px 0 0; font-size:13px; color:var(--ink-muted); }
+.rs-acc{ display:flex; flex-wrap:wrap; gap:8px; margin-top:10px; }
+.rs-acc button, .rs-acc select{ font:inherit; font-size:13px; font-weight:600; padding:9px 13px; border-radius:10px;
+  border:1px solid var(--border); background:var(--surface-2); color:var(--ink); cursor:pointer; }
+.rs-acc select{ font-weight:500; max-width:100%; }
+.rs-acc button.pri{ background:var(--accent); border-color:var(--accent); color:var(--accent-ink); }
+.rs-nota{ margin:8px 0 0; font-size:12.5px; line-height:1.5; color:var(--ink-muted); }
+
+.semtop{ display:flex; flex-direction:column; gap:12px; margin-bottom:18px; }
+.cambios, .opcsem{ padding:14px 16px; border-radius:14px; background:var(--surface); border:1px solid var(--border); }
+.cambios .rs-h, .opcsem .rs-h{ color:var(--ink-muted); }
+.cb-head{ display:flex; align-items:baseline; justify-content:space-between; gap:10px; }
+.cb-head .rs-h{ margin:0; }
+.cambios ul{ list-style:none; margin:10px 0 0; padding:0; }
+.cambios li{ display:flex; align-items:center; gap:10px; padding:8px 0; border-top:1px solid var(--line); font-size:13px; line-height:1.45; }
+.cambios li span{ flex:1; }
+.cambios li button{ flex:none; font:inherit; font-size:12px; font-weight:600; padding:5px 10px; border-radius:100px;
+  border:1px solid var(--border); background:transparent; color:var(--ink-muted); cursor:pointer; }
+.cb-vacio{ margin:8px 0 0; font-size:12.5px; color:var(--ink-faint); }
+.opcsem .op-head{ margin:0 0 4px; }
+
+.dno{ font-family:'IBM Plex Mono'; font-size:9.5px; font-weight:600; letter-spacing:.05em; text-transform:uppercase; color:var(--warning); }
+
+/* indicador de la nube */
+[data-nube]{ font:inherit; font-size:11.5px; font-weight:600; padding:4px 11px; border-radius:100px; cursor:pointer; white-space:nowrap;
+  border:1px solid var(--border); background:transparent; color:var(--ink-muted); }
+.cb-nube{ padding:2px 9px; font-size:11px; }
+[data-nube].n-ok{ color:var(--good); border-color:color-mix(in srgb, var(--good) 45%, transparent); }
+[data-nube].n-subiendo{ color:var(--secondary); border-color:color-mix(in srgb, var(--secondary) 45%, transparent); }
+[data-nube].n-local, [data-nube].n-offline{ color:var(--warning); border-color:color-mix(in srgb, var(--warning) 45%, transparent); }
+[data-nube].n-error{ color:var(--critical); border-color:var(--critical); }
+.nube-p{ margin:0 0 10px; font-size:13.5px; line-height:1.55; color:var(--ink-muted); }
+.nube-estado{ margin:0 0 12px; padding:9px 12px; border-radius:10px; background:var(--surface-2); font-size:13px; color:var(--ink); }
+#nubeForm ol{ font-size:13.5px; line-height:1.7; margin-bottom:12px; }
+#nubeForm a{ color:var(--secondary); }
+#nubeToken{ width:100%; font:13px 'IBM Plex Mono'; padding:10px 12px; border-radius:10px; border:1px solid var(--border);
+  background:var(--surface-2); color:var(--ink); }
+.nube-ok{ margin-top:10px; width:100%; font:inherit; font-size:14px; font-weight:600; padding:11px; border-radius:10px; border:none;
+  background:var(--accent); color:var(--accent-ink); cursor:pointer; }
+.nube-msg{ margin:8px 0 0; font-size:12.5px; color:var(--critical); min-height:1em; }
+#nubeSheet .isheet-card{ max-height:calc(100vh - 40px); overflow:auto; }
 </style>
 
 <div class="wrap">
@@ -763,6 +818,7 @@ details.hh-det[open]>summary::after{ content:'▴'; }
         <p class="weektodo" id="weekTodo"></p>
       </details>
       <button id="btnInstalar" class="installbtn" hidden>Instalar como app</button>
+      <button type="button" class="nubechip" data-nube>☁</button>
     </div>
   </header>
 
@@ -773,6 +829,29 @@ details.hh-det[open]>summary::after{ content:'▴'; }
     <button data-tab="historial">Historial</button>
     <button data-tab="guia">Guía</button>
   </nav>
+
+  <div id="nubeSheet" class="isheet" style="display:none">
+    <div class="isheet-card">
+      <button class="isheet-x" id="nubeX" aria-label="Cerrar">✕</button>
+      <h3>Guardar en la nube</h3>
+      <p class="nube-p">Los cambios al plan (días que no hiciste, sesiones que recuperas, opcionales) se guardan en el repositorio del tablero en GitHub. Así los ven todos los teléfonos y también Claude cuando actualiza el plan.</p>
+      <p class="nube-estado" id="nubeEstado"></p>
+      <div id="nubeForm">
+        <ol>
+          <li>Abre <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">github.com → nuevo token</a> (con la cuenta de Francisco).</li>
+          <li>Nombre: <b>Tablero entreno</b>. Vencimiento: <b>1 año</b>.</li>
+          <li>Repository access: <b>Only select repositories</b> → <b>entrenamiento-dashboard</b>.</li>
+          <li>Permissions → Repository → <b>Contents: Read and write</b>.</li>
+          <li><b>Generate token</b>, cópialo y pégalo acá.</li>
+        </ol>
+        <input type="password" id="nubeToken" autocomplete="off" placeholder="github_pat_…">
+        <button class="nube-ok" id="nubeConectar" type="button">Conectar</button>
+        <p class="nube-msg" id="nubeMsg"></p>
+      </div>
+      <button class="isheet-later" id="nubeSalir" type="button">Desconectar este teléfono</button>
+      <p class="isheet-note">El token queda guardado solo en este teléfono y solo sirve para este repositorio. Cada teléfono que quiera guardar cambios necesita el suyo.</p>
+    </div>
+  </div>
 
   <div id="installSheet" class="isheet" hidden>
     <div class="isheet-card">
@@ -1216,20 +1295,20 @@ details.hh-det[open]>summary::after{ content:'▴'; }
     return 0;
   }
 
-  // ---------------- mover el plan ----------------
-  // Tres controles por dia. +1 corre las rutinas desde ese dia hasta el siguiente descanso,
-  // que se ocupa (lunes perdido: el lunes pasa a descanso y el domingo se entrena). -1 las
-  // adelanta: la rutina de ese dia pasa al anterior y lo que quedaba ahi va al final del tramo.
-  // Opcionales decide cuales opcionales de la semana se hacen y en que dia: saltar uno lo
-  // vuelve descanso, y ese descanso es el que absorbe el siguiente +1.
-  // Los movimientos quedan en este dispositivo, se aplican en orden sobre el plan publicado
-  // y se pueden deshacer; el plan publicado no se toca.
+  // ---------------- ajustes al plan ----------------
+  // El plan publicado no se toca: encima se aplican, en orden, los ajustes que la persona marca
+  // desde el telefono. El caso que resuelven: un dia de entrenamiento paso y no hay sesion en
+  // Hevy. O se hizo (falta subirla) o no se hizo; si no, esa sesion queda pendiente hasta que se
+  // recupere otro dia (lo que venia ese dia y los siguientes se corre uno, hasta el proximo
+  // descanso, que se ocupa) o se descarte.
+  // Los ajustes se guardan en data/ajustes.json del repositorio (ver "nube" mas abajo): los ven
+  // todos los telefonos y quien actualice el plan, que puede consolidarlos en profiles.json.
   var perfilActual = null;
-  var CONTENIDO = ['focus','tag','rationale','cardio','warmup','stretch','exercises','prioridad','saltado','origen'];
+  var CONTENIDO = ['focus','tag','rationale','cardio','warmup','stretch','exercises','prioridad','saltado','origen','recuperada'];
+  var VACIO = {cardio:'', warmup:[], stretch:[], exercises:[], prioridad:null, saltado:null, recuperada:null};
+  var VENTANA = 6;   // dias hacia atras en que se pregunta por una sesion sin registro
   function esDescanso(d){ return d.tag ? d.tag === 'descanso' : !(d.exercises || []).length; }
   function esOpcional(d){ return d.tag === 'opcional' || !!d.saltado; }
-  function movsDe(key){ try{ return JSON.parse(localStorage.getItem('movs-'+key)) || []; }catch(e){ return []; } }
-  function guardaMovs(key, l){ try{ localStorage.setItem('movs-'+key, JSON.stringify(l)); }catch(e){} }
   function isoMenos(iso, n){
     var a = iso.split('-'), d = new Date(Date.UTC(+a[0], +a[1]-1, +a[2] - n));
     return d.toISOString().slice(0,10);
@@ -1241,107 +1320,186 @@ details.hh-det[open]>summary::after{ content:'▴'; }
     return c;
   }
   function idx(dias, iso){ return dias.findIndex(function(d){ return d.date === iso; }); }
-  // ultimo dia antes del siguiente descanso, buscando desde i
+  // el primer descanso desde i (incluido): es el que absorbe un corrimiento que parte en i
   function finDeTramo(dias, i){ while(i < dias.length && !esDescanso(dias[i])) i++; return i; }
+  function sinOpcional(f){ return limpiaFoco(f).replace(/^Opcional\s*—\s*/, ''); }
 
-  // Tramo [a..b] que mueve un +1 o un -1 pedido en el dia iso. null si no se puede.
-  // alTocar: se esta decidiendo si mostrar el boton, y ahi solo cuentan ayer en adelante.
-  // Un movimiento ya guardado se sigue aplicando aunque su fecha haya pasado: si no, el
-  // "+1 desde el lunes" desapareceria el miercoles y el plan volveria a su forma original.
-  function tramo(dias, iso, dir, alTocar){
-    var i = idx(dias, iso), t = alTocar ? todayISO() : '';
-    if(i < 0) return null;
-    if(dir > 0){
-      if(esDescanso(dias[i]) || (alTocar && iso < isoMenos(t, 1))) return null;
-      var r = finDeTramo(dias, i + 1);
-      return r < dias.length ? {a:i, b:r} : null;          // sin descanso adelante, una rutina se caeria del plan
-    }
-    var a = esDescanso(dias[i]) ? i : i - 1;               // en un descanso, se trae la rutina siguiente
-    if(a < 0 || a + 1 >= dias.length || (alTocar && dias[a].date < t) || esDescanso(dias[a+1])) return null;
-    var b = finDeTramo(dias, a + 1) - 1;
-    return b > a ? {a:a, b:b} : null;
-  }
+  // Aplica un ajuste; null si ya no calza con el plan (el plan cambio por debajo, o ya lo trae).
   function aplica(dias, m){
-    var out = dias.slice(), i, j, c;
-    if(m.op === 'saltar' || m.op === 'hacer'){
-      i = idx(dias, m.fecha);
-      if(i < 0) return null;
-      if(m.op === 'saltar'){
-        if(dias[i].tag !== 'opcional') return null;
-        c = contenido(dias[i]);
-        out[i] = Object.assign({}, dias[i], {focus:'Descanso — opcional saltado', tag:'descanso', cardio:'', warmup:[], stretch:[], exercises:[],
-          rationale:'**Opcional saltado:** '+dias[i].focus.replace(/^Opcional\s*—\s*/,'')+'. Queda como descanso.',
-          prioridad:null, saltado:c, origen:c.origen});
-      } else {
-        if(!dias[i].saltado) return null;
-        out[i] = Object.assign({}, dias[i], dias[i].saltado, {saltado:null});
-      }
-      return out;
+    var i = idx(dias, m.fecha), out = dias.slice(), d = dias[i], j, k, r, c;
+    if(i < 0) return null;
+    switch(m.op){
+      case 'hecho':          // se hizo y falta subirla a Hevy
+        if(esDescanso(d) || d.hechoManual) return null;
+        out[i] = Object.assign({}, d, {hechoManual:true});
+        return out;
+      case 'noHecho':        // no se hizo: el dia queda como descanso y su sesion, pendiente
+        if(esDescanso(d)) return null;
+        c = contenido(d);
+        out[i] = Object.assign({}, d, VACIO, {tag:'descanso', focus:'No realizada — '+sinOpcional(c.focus),
+          rationale:'', pendiente:c, pendienteFin:null});
+        return out;
+      case 'descartar':
+        if(!d.pendiente || d.pendienteFin) return null;
+        out[i] = Object.assign({}, d, {pendienteFin:{descartada:true}});
+        return out;
+      case 'recuperar':      // la pendiente de 'fecha' se hace el dia 'en'; desde ahi se corre todo un dia
+        j = idx(dias, m.en);
+        if(!d.pendiente || d.pendienteFin || j <= i) return null;
+        r = finDeTramo(dias, j);
+        if(r >= dias.length) return null;              // sin descanso adelante, una sesion se caeria del plan
+        for(k = r; k > j; k--) out[k] = Object.assign({}, dias[k], contenido(dias[k-1]));
+        out[j] = Object.assign({}, dias[j], d.pendiente, {recuperada:true});
+        out[i] = Object.assign({}, d, {pendienteFin:{en:dias[j].day, fecha:dias[j].date}});
+        return out;
+      case 'opcSaltar':
+        if(d.tag !== 'opcional') return null;
+        c = contenido(d);
+        out[i] = Object.assign({}, d, VACIO, {focus:'Descanso — opcional saltado', tag:'descanso',
+          rationale:'**Opcional saltado:** '+sinOpcional(d.focus)+'. Queda como descanso.', saltado:c, origen:c.origen});
+        return out;
+      case 'opcVolver':
+        if(!d.saltado) return null;
+        out[i] = Object.assign({}, d, d.saltado, {saltado:null});
+        return out;
+      case 'opcMover':       // el opcional pasa a un descanso de la misma semana
+        j = idx(dias, m.a);
+        if(j < 0 || d.tag !== 'opcional' || !esDescanso(dias[j])) return null;
+        out[i] = Object.assign({}, d, contenido(dias[j]));
+        out[j] = Object.assign({}, dias[j], contenido(d));
+        return out;
     }
-    if(m.op === 'cambio'){
-      i = idx(dias, m.a); j = idx(dias, m.b);
-      if(i < 0 || j < 0) return null;
-      out[i] = Object.assign({}, dias[i], contenido(dias[j]));
-      out[j] = Object.assign({}, dias[j], contenido(dias[i]));
-      return out;
-    }
-    var r = tramo(dias, m.desde, m.dir);
-    if(!r) return null;
-    var seg = dias.slice(r.a, r.b+1).map(contenido);
-    seg = m.dir > 0 ? [seg[seg.length-1]].concat(seg.slice(0,-1)) : seg.slice(1).concat([seg[0]]);
-    for(var k = r.a; k <= r.b; k++) out[k] = Object.assign({}, dias[k], seg[k - r.a]);
-    return out;
+    return null;
   }
-  // Un movimiento que ya no calza con el plan publicado (porque el plan ya trae ese cambio,
-  // o cambio por debajo) se descarta: si no, el aviso diria "plan movido" sin mover nada.
-  function planDe(profile){
-    var dias = profile.WEEKDAYS, movs = movsDe(perfilActual), vigentes = [];
-    movs.forEach(function(m){
+
+  // Plan con los ajustes aplicados, y los ajustes que efectivamente aplicaron
+  function planYAjustes(profile){
+    var dias = profile.WEEKDAYS, vigentes = [];
+    ajustesDe(perfilActual).forEach(function(m){
       var r = aplica(dias, m);
       if(r){ dias = r; vigentes.push(m); }
     });
-    if(vigentes.length !== movs.length) guardaMovs(perfilActual, vigentes);
-    return dias;
+    return {dias:dias, vigentes:vigentes};
   }
-  function registra(m){
-    var l = movsDe(perfilActual); l.push(m); guardaMovs(perfilActual, l);
-    rerenderPlan();
-    avisa(describeMov(m, nombresDe(PROFILES[perfilActual])));
+  function planDe(profile){ return planYAjustes(profile).dias; }
+
+  function registradasDe(profile){
+    var reg = {};
+    (profile.SESSIONS_FULL || []).forEach(function(s){ reg[s.date] = 1; });
+    return reg;
   }
-  function nombresDe(profile){
-    var n = {}; profile.WEEKDAYS.forEach(function(d){ n[d.date] = d.day; }); return n;
+  // dias de entrenamiento recientes sin sesion en Hevy, y sesiones que quedaron pendientes
+  function porResolver(profile, dias){
+    var t = todayISO(), desde = isoMenos(t, VENTANA), reg = registradasDe(profile);
+    return {
+      sinRegistro: dias.filter(function(d){
+        return d.date >= desde && d.date < t && !esDescanso(d) && d.tag !== 'opcional' && !reg[d.date] && !d.hechoManual;
+      }),
+      pendientes: dias.filter(function(d){ return d.pendiente && !d.pendienteFin; })
+    };
   }
-  // aviso abajo con Deshacer: el aviso fijo del plan puede quedar fuera de la pantalla
-  var toastTimer = null;
-  function avisa(texto){
-    var el = document.getElementById('toastMov');
-    if(!el){ el = document.createElement('div'); el.id = 'toastMov'; el.className = 'toast'; document.body.appendChild(el); }
-    el.innerHTML = '<span>'+esc(texto.charAt(0).toUpperCase()+texto.slice(1))+'</span><button type="button">Deshacer</button>';
-    el.style.display = '';
-    el.querySelector('button').addEventListener('click', function(){
-      guardaMovs(perfilActual, movsDe(perfilActual).slice(0, -1));
-      el.style.display = 'none';
-      rerenderPlan();
-    });
-    clearTimeout(toastTimer);
-    toastTimer = setTimeout(function(){ el.style.display = 'none'; }, 7000);
-  }
-  function rerenderPlan(){
-    var p = PROFILES[perfilActual];
-    renderHero(p); renderWeekCards(p);
+  // el dia en que se entrena "ahora": hoy, o mañana si hoy ya quedo registrado
+  function diaObjetivo(profile){
+    var t = todayISO();
+    return registradasDe(profile)[t] ? isoMenos(t, -1) : t;
   }
 
-  // Botonera del dia d: -1 · Opcionales · +1, con el panel de opcionales plegado debajo.
-  function botonera(dias, d){
-    var menos = tramo(dias, d.date, -1, true), mas = tramo(dias, d.date, 1, true);
-    var tMenos = menos ? 'Adelanta las rutinas un día; el '+dias[menos.b].day+' queda con '+(esDescanso(dias[menos.a]) ? 'el descanso' : dias[menos.a].focus) : 'No hay nada que adelantar a partir de este día';
-    var tMas = mas ? 'Corre las rutinas un día; el '+dias[mas.b].day+' deja de ser descanso' : 'Un descanso no se corre';
-    return '<div class="mover" data-fecha="'+esc(d.date)+'">'+
-      '<button type="button" data-op="izq"'+(menos ? '' : ' disabled')+' title="'+esc(tMenos)+'">← −1 día</button>'+
-      '<button type="button" data-op="opc" class="mid">Opcionales</button>'+
-      '<button type="button" data-op="der"'+(mas ? '' : ' disabled')+' title="'+esc(tMas)+'">+1 día →</button>'+
-      '</div><div class="opcpanel" style="display:none"></div>';
+  // Que pasa si la sesion se hace el dia 'en': se explica antes de tocar el boton
+  function efectoRecuperar(dias, en, foco){
+    var j = idx(dias, en);
+    if(j < 0) return null;
+    var r = finDeTramo(dias, j), hoy = en === todayISO();
+    if(r >= dias.length) return null;
+    var txt = r === j ? (hoy ? 'Hoy' : 'El '+dias[j].day)+' era descanso: la haces en su lugar.'
+      : sinOpcional(dias[j].focus)+' pasa al '+dias[j+1].day+
+        (r > j + 1 ? ' y lo demás se corre un día hasta el '+dias[r].day : '')+', que deja de ser descanso.';
+    // si la misma sesion ya viene en los proximos dias, hacerla dos veces en una semana puede sobrar
+    if(foco){
+      for(var m = j; m < Math.min(j + 7, dias.length); m++){
+        if(esDescanso(dias[m]) || sinOpcional(dias[m].focus) !== sinOpcional(foco)) continue;
+        var cae = m < r ? dias[m + 1] : dias[m];          // con el corrimiento, esa sesion cae un dia despues
+        txt += ' Ojo: esta misma sesión ya viene el '+cae.day+'; quizás conviene descartarla.';
+        break;
+      }
+    }
+    return txt;
   }
+  // los dias en que se puede recuperar: desde el objetivo, una semana, con descanso adelante
+  function opcionesRecuperar(dias, objetivo){
+    var out = [];
+    for(var k = 1; k < 8; k++){                 // el dia objetivo ya tiene su propio boton
+      var iso = isoMenos(objetivo, -k), j = idx(dias, iso);
+      if(j < 0 || finDeTramo(dias, j) >= dias.length) continue;
+      out.push({iso:iso, txt:dias[j].day+' · '+(esDescanso(dias[j]) ? 'descanso' : sinOpcional(dias[j].focus)+' (se corre)')});
+    }
+    return out;
+  }
+
+  // Bloque de Hoy: lo que falta resolver antes de entrenar
+  function renderPorResolver(profile, dias){
+    var pr = porResolver(profile, dias), obj = diaObjetivo(profile);
+    if(!pr.sinRegistro.length && !pr.pendientes.length) return '';
+    var cuando = obj === todayISO() ? 'hoy' : 'mañana';
+    var html = '<div class="resolver">';
+    if(pr.sinRegistro.length){
+      html += '<p class="rs-h">Sin registro en Hevy</p>'+pr.sinRegistro.map(function(d){
+        var efecto = efectoRecuperar(dias, obj, d.focus);
+        return '<div class="rs-card" data-fecha="'+escA(d.date)+'">'+
+          '<div class="rs-top"><span class="rs-dia">'+esc(d.day)+'</span><b>'+esc(sinOpcional(d.focus))+'</b></div>'+
+          '<p class="rs-q">¿La hiciste?</p>'+
+          '<div class="rs-acc">'+
+            '<button type="button" data-a="hecho">Sí, falta subirla</button>'+
+            (efecto ? '<button type="button" data-a="hoy" class="pri">No · la hago '+cuando+'</button>' : '')+
+            '<button type="button" data-a="despues">No · otro día</button>'+
+          '</div>'+
+          (efecto ? '<p class="rs-nota">Si la haces '+cuando+': '+esc(efecto)+'</p>' : '')+
+          '</div>';
+      }).join('');
+    }
+    if(pr.pendientes.length){
+      var opciones = opcionesRecuperar(dias, obj);
+      html += '<p class="rs-h">Pendientes</p>'+pr.pendientes.map(function(d){
+        var efecto = efectoRecuperar(dias, obj, d.pendiente.focus);
+        return '<div class="rs-card pend" data-fecha="'+escA(d.date)+'">'+
+          '<div class="rs-top"><span class="rs-dia">del '+esc(d.day)+'</span><b>'+esc(sinOpcional(d.pendiente.focus))+'</b></div>'+
+          '<div class="rs-acc">'+
+            (efecto ? '<button type="button" data-a="recuperar" class="pri">Hacerla '+cuando+'</button>' : '')+
+            (opciones.length ? '<select data-a="en"><option value="">Otro día…</option>'+opciones.map(function(o){
+              return '<option value="'+escA(o.iso)+'">'+esc(o.txt)+'</option>';
+            }).join('')+'</select>' : '')+
+            '<button type="button" data-a="descartar">Descartar</button>'+
+          '</div>'+
+          (efecto ? '<p class="rs-nota">Si la haces '+cuando+': '+esc(efecto)+'</p>' : '')+
+          '</div>';
+      }).join('');
+    }
+    return html+'</div>';
+  }
+  function cableaPorResolver(root, profile, dias){
+    var obj = diaObjetivo(profile);
+    root.querySelectorAll('.rs-card').forEach(function(card){
+      var f = card.dataset.fecha, j = idx(dias, f), d = dias[j];
+      var nombre = d.day+' ('+sinOpcional(d.pendiente ? d.pendiente.focus : d.focus)+')';
+      var diaObj = (dias[idx(dias, obj)] || {}).day || obj;
+      card.querySelectorAll('button').forEach(function(b){
+        b.addEventListener('click', function(){
+          var a = b.dataset.a;
+          if(a === 'hecho')     return nuevoAjuste([{op:'hecho', fecha:f}], nombre+': hecha, falta subirla a Hevy');
+          if(a === 'despues')   return nuevoAjuste([{op:'noHecho', fecha:f}], nombre+': no se hizo, queda pendiente');
+          if(a === 'hoy')       return nuevoAjuste([{op:'noHecho', fecha:f}, {op:'recuperar', fecha:f, en:obj}], nombre+': no se hizo, se hace el '+diaObj);
+          if(a === 'recuperar') return nuevoAjuste([{op:'recuperar', fecha:f, en:obj}], nombre+': se hace el '+diaObj);
+          if(a === 'descartar') return nuevoAjuste([{op:'descartar', fecha:f}], nombre+': descartada');
+        });
+      });
+      var sel = card.querySelector('select');
+      if(sel) sel.addEventListener('change', function(){
+        if(!sel.value) return;
+        var dj = dias[idx(dias, sel.value)];
+        nuevoAjuste([{op:'recuperar', fecha:f, en:sel.value}], nombre+': se hace el '+(dj ? dj.day : sel.value));
+      });
+    });
+  }
+
   function semanaDe(dias, iso){
     var d = new Date(iso+'T12:00:00'); d.setDate(d.getDate() - (d.getDay()+6)%7);
     var lun = d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0');
@@ -1353,56 +1511,290 @@ details.hh-det[open]>summary::after{ content:'▴'; }
     var opc = sem.filter(esOpcional).sort(function(a, b){
       return ((a.prioridad || a.saltado && a.saltado.prioridad || {}).n || 9) - ((b.prioridad || b.saltado && b.saltado.prioridad || {}).n || 9);
     });
-    var libres = sem.filter(function(x){ return esDescanso(x) && !x.saltado && x.date >= t; });
+    if(!opc.length) return '';
+    var libres = sem.filter(function(x){ return esDescanso(x) && !x.saltado && !x.pendiente && x.date >= t; });
     var base = sem.filter(function(x){ return !esDescanso(x) && x.tag !== 'opcional'; }).length;
     var hechos = opc.filter(function(x){ return !x.saltado; }).length;
-    if(!opc.length) return '<p class="op-vacio">Esta semana no tiene días opcionales.</p>';
-    return '<p class="op-head">'+base+' días base · '+hechos+' de '+opc.length+(opc.length === 1 ? ' opcional' : ' opcionales')+' en el plan</p>'+
+    return '<div class="opcsem"><p class="rs-h">Opcionales de esta semana</p>'+
+      '<p class="op-head">'+base+' días base · '+hechos+' de '+opc.length+(opc.length === 1 ? ' opcional' : ' opcionales')+' en el plan</p>'+
       opc.map(function(x){
         var saltado = !!x.saltado, info = saltado ? x.saltado : x, p = info.prioridad || {};
         var pasado = x.date < t;
         var sel = '';
         if(!saltado && !pasado && libres.length){
-          sel = '<select data-a="'+esc(x.date)+'"><option value="">Pasar a otro día…</option>'+
-            libres.map(function(l){ return '<option value="'+esc(l.date)+'">'+esc(l.day)+' (descanso)</option>'; }).join('')+'</select>';
+          sel = '<select data-a="'+escA(x.date)+'"><option value="">Pasar a otro día…</option>'+
+            libres.map(function(l){ return '<option value="'+escA(l.date)+'">'+esc(l.day)+' (descanso)</option>'; }).join('')+'</select>';
         }
         return '<div class="op-row'+(saltado ? ' off' : '')+'">'+
           '<div class="op-top"><span class="op-dia">'+esc(x.day)+'</span>'+
           (p.n ? '<span class="op-prio">prioridad '+p.n+'</span>' : '')+
-          '<b>'+esc((info.focus || '').replace(/^Opcional\s*—\s*/,''))+'</b></div>'+
+          '<b>'+esc(sinOpcional(info.focus || ''))+'</b></div>'+
           (p.porque ? '<p class="op-porque">'+escMd(p.porque)+'</p>' : '')+
           (pasado ? '' : '<div class="op-acc"><span class="op-seg">'+
-            '<button type="button" data-hacer="'+esc(x.date)+'" class="'+(saltado ? '' : 'on')+'">Hacer</button>'+
-            '<button type="button" data-saltar="'+esc(x.date)+'" class="'+(saltado ? 'on' : '')+'">Saltar</button></span>'+sel+'</div>')+
+            '<button type="button" data-hacer="'+escA(x.date)+'" class="'+(saltado ? '' : 'on')+'">Hacer</button>'+
+            '<button type="button" data-saltar="'+escA(x.date)+'" class="'+(saltado ? 'on' : '')+'">Saltar</button></span>'+sel+'</div>')+
           '</div>';
-      }).join('');
+      }).join('')+'</div>';
   }
-  function cableaMover(root, dias){
-    root.querySelectorAll('.mover').forEach(function(row){
-      var iso = row.dataset.fecha, panel = row.nextElementSibling;
-      row.querySelectorAll('button').forEach(function(b){
-        b.addEventListener('click', function(ev){
-          ev.preventDefault();
-          if(b.dataset.op === 'izq') return registra({desde:iso, dir:-1});
-          if(b.dataset.op === 'der') return registra({desde:iso, dir:1});
-          var abrir = panel.style.display === 'none';
-          b.classList.toggle('on', abrir);
-          panel.style.display = abrir ? '' : 'none';
-          if(!abrir) return;
-          panel.innerHTML = panelOpcionales(dias, iso);
-          panel.querySelectorAll('[data-hacer]').forEach(function(x){
-            x.addEventListener('click', function(){ if(!x.classList.contains('on')) registra({op:'hacer', fecha:x.dataset.hacer}); });
-          });
-          panel.querySelectorAll('[data-saltar]').forEach(function(x){
-            x.addEventListener('click', function(){ if(!x.classList.contains('on')) registra({op:'saltar', fecha:x.dataset.saltar}); });
-          });
-          panel.querySelectorAll('select').forEach(function(s){
-            s.addEventListener('change', function(){ if(s.value) registra({op:'cambio', a:s.dataset.a, b:s.value}); });
-          });
-        });
+  function cableaOpcionales(root, dias){
+    var nombre = function(f){ var d = dias[idx(dias, f)]; return d ? d.day : f; };
+    root.querySelectorAll('[data-hacer]').forEach(function(x){
+      x.addEventListener('click', function(){
+        if(x.classList.contains('on')) return;
+        // si el salto lo marco alguien desde el tablero, volver es quitar ese ajuste, no sumar otro encima
+        var salto = ajustesDe(perfilActual).filter(function(m){ return m.op === 'opcSaltar' && m.fecha === x.dataset.hacer; }).pop();
+        if(salto) muta({perfil:perfilActual, quita:salto.grupo});
+        else nuevoAjuste([{op:'opcVolver', fecha:x.dataset.hacer}], 'Opcional del '+nombre(x.dataset.hacer)+': vuelve');
+      });
+    });
+    root.querySelectorAll('[data-saltar]').forEach(function(x){
+      x.addEventListener('click', function(){
+        if(!x.classList.contains('on')) nuevoAjuste([{op:'opcSaltar', fecha:x.dataset.saltar}], 'Opcional del '+nombre(x.dataset.saltar)+': saltado');
+      });
+    });
+    root.querySelectorAll('.opcsem select').forEach(function(s){
+      s.addEventListener('change', function(){
+        if(s.value) nuevoAjuste([{op:'opcMover', fecha:s.dataset.a, a:s.value}], 'Opcional del '+nombre(s.dataset.a)+' pasa al '+nombre(s.value));
       });
     });
   }
+
+  // Un ajuste nuevo: uno o mas pasos que se guardan y se deshacen juntos
+  function nuevoAjuste(ops, txt){
+    var grupo = Date.now().toString(36)+Math.random().toString(36).slice(2, 6), ts = new Date().toISOString();
+    ops.forEach(function(o, k){ o.id = grupo+'-'+k; o.grupo = grupo; o.ts = ts; o.txt = txt; });
+    muta({perfil:perfilActual, add:ops});
+    avisa(txt, grupo);
+  }
+  // aviso abajo con Deshacer: la lista de cambios puede quedar fuera de la pantalla
+  var toastTimer = null;
+  function avisa(texto, grupo){
+    var el = document.getElementById('toastMov');
+    if(!el){ el = document.createElement('div'); el.id = 'toastMov'; el.className = 'toast'; document.body.appendChild(el); }
+    el.innerHTML = '<span>'+esc(texto)+'</span><button type="button">Deshacer</button>';
+    el.style.display = '';
+    el.querySelector('button').addEventListener('click', function(){
+      muta({perfil:perfilActual, quita:grupo});
+      el.style.display = 'none';
+    });
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function(){ el.style.display = 'none'; }, 7000);
+  }
+  function rerenderPlan(){
+    var p = PROFILES[perfilActual];
+    renderHero(p); renderWeekCards(p);
+  }
+
+  // Quitar "no se hizo" deja sin sentido lo que se decidio despues con esa sesion (recuperarla
+  // o descartarla): se quita junto, para que no quede guardado un ajuste muerto.
+  function conDependientes(grupo){
+    var todos = ajustesDe(perfilActual), grupos = [grupo];
+    todos.forEach(function(m){
+      if(m.grupo !== grupo || m.op !== 'noHecho') return;
+      todos.forEach(function(x){
+        if(x.fecha === m.fecha && (x.op === 'recuperar' || x.op === 'descartar') && grupos.indexOf(x.grupo) < 0) grupos.push(x.grupo);
+      });
+    });
+    return grupos;
+  }
+  // Lista de cambios vigentes, agrupados, con forma de quitarlos
+  function renderCambios(vigentes){
+    var grupos = [], por = {};
+    vigentes.forEach(function(m){
+      var g = m.grupo || m.id;
+      if(!por[g]){ por[g] = m; grupos.push(g); }
+    });
+    return '<div class="cambios"><div class="cb-head"><p class="rs-h">Cambios al plan</p><span class="cb-nube" data-nube></span></div>'+
+      (grupos.length ? '<ul>'+grupos.map(function(g){
+        return '<li><span>'+esc(por[g].txt || por[g].op)+'</span><button type="button" data-quita="'+escA(g)+'">Quitar</button></li>';
+      }).join('')+'</ul>' : '<p class="cb-vacio">Sin cambios: el plan va tal como se publicó.</p>')+'</div>';
+  }
+
+  // ---------------- nube: data/ajustes.json en el repositorio ----------------
+  // Los ajustes se guardan como un archivo del repositorio, via la API de GitHub. Cada telefono
+  // con token puede escribir; los demas leen la copia publicada. Lo que se marca sin conexion (o
+  // sin token) queda en cola en el telefono y se sube en cuanto se pueda.
+  // Formato: {"version":1, "mopo":[ajuste...], "mipi":[...]}; cada ajuste trae op, fecha, id,
+  // grupo, ts y txt (la descripcion en castellano, para quien lea el archivo).
+  var NUBE = {
+    api: 'https://api.github.com/repos/FranciscoKirhman/entrenamiento-dashboard/contents/data/ajustes.json',
+    pagina: 'data/ajustes.json'
+  };
+  function leeLS(k, def){ try{ var v = JSON.parse(localStorage.getItem(k)); return v == null ? def : v; }catch(e){ return def; } }
+  function escLS(k, v){ try{ localStorage.setItem(k, JSON.stringify(v)); }catch(e){} }
+  function tokenGH(){ try{ return localStorage.getItem('gh-token') || ''; }catch(e){ return ''; } }
+  var aj = {base:leeLS('ajustes-base', {}), cola:leeLS('ajustes-cola', []), estado:'', error:'', subiendo:false, bajada:0};
+
+  function limpiaEstado(j){
+    var s = {};
+    if(j && typeof j === 'object') Object.keys(j).forEach(function(k){ if(Array.isArray(j[k])) s[k] = j[k]; });
+    return s;
+  }
+  // la cola son mutaciones: {perfil, add:[ajustes]} o {perfil, quita:grupo}
+  function conCola(base, cola){
+    var s = JSON.parse(JSON.stringify(base || {}));
+    cola.forEach(function(m){
+      var l = s[m.perfil] = s[m.perfil] || [];
+      if(m.add) m.add.forEach(function(op){ if(!l.some(function(x){ return x.id === op.id; })) l.push(op); });
+      if(m.quita){ var qs = [].concat(m.quita); s[m.perfil] = l.filter(function(x){ return qs.indexOf(x.grupo) < 0; }); }
+    });
+    return s;
+  }
+  function ajustesDe(perfil){ return conCola(aj.base, aj.cola)[perfil] || []; }
+  function firma(){ return JSON.stringify(ajustesDe(perfilActual)); }
+  function muta(m){
+    aj.cola.push(m); escLS('ajustes-cola', aj.cola);
+    rerenderPlan();
+    subeNube();
+  }
+
+  function b64(s){ return btoa(unescape(encodeURIComponent(s))); }
+  function deb64(s){ return decodeURIComponent(escape(atob(String(s).replace(/\s/g, '')))); }
+  function cabeceras(){
+    return {'Accept':'application/vnd.github+json', 'Authorization':'Bearer '+tokenGH(), 'X-GitHub-Api-Version':'2022-11-28'};
+  }
+  function bajaNube(){
+    if(tokenGH()){
+      return fetch(NUBE.api+'?ref=main', {headers:cabeceras(), cache:'no-store'}).then(function(r){
+        if(r.status === 401) throw new Error('el token no es válido o venció');
+        if(r.status === 404) throw new Error('el token no tiene acceso al repositorio');
+        if(!r.ok) throw new Error('GitHub respondió '+r.status);
+        return r.json().then(function(j){ return {json:JSON.parse(deb64(j.content) || '{}'), sha:j.sha}; });
+      });
+    }
+    return fetch(NUBE.pagina, {cache:'no-store'}).then(function(r){
+      if(r.status === 404) return {json:{}, sha:null};
+      if(!r.ok) throw new Error('la página respondió '+r.status);
+      return r.json().then(function(j){ return {json:j, sha:null}; });
+    });
+  }
+  // el mensaje cuenta solo lo que queda en pie: lo marcado y deshecho en el camino no se nombra
+  function mensajeCommit(cola){
+    var quitados = [], t = [];
+    cola.forEach(function(m){ if(m.quita) quitados = quitados.concat(m.quita); });
+    cola.forEach(function(m){
+      if(!m.add || !m.add[0] || quitados.indexOf(m.add[0].grupo) >= 0) return;
+      t.push(((PROFILES[m.perfil] || {}).displayName || m.perfil)+': '+m.add[0].txt);
+    });
+    return 'Ajustes desde el tablero — '+(t.length ? t.join('; ') : 'quita ajustes');
+  }
+  // Trae lo que haya en la nube (otro telefono pudo cambiar algo) y sube la cola si hay
+  function sincroniza(){
+    var antes = firma();
+    return bajaNube().then(function(x){
+      aj.base = limpiaEstado(x.json); escLS('ajustes-base', aj.base);
+      aj.bajada = Date.now();
+      if(firma() !== antes) rerenderPlan();
+      if(aj.cola.length) return subeNube();
+      pintaNube(tokenGH() ? 'ok' : '');
+    }).catch(falloNube);
+  }
+  function subeNube(){
+    if(!aj.cola.length){ pintaNube(tokenGH() ? 'ok' : ''); return Promise.resolve(); }
+    if(!tokenGH()){ pintaNube('local'); return Promise.resolve(); }
+    if(aj.subiendo) return Promise.resolve();
+    aj.subiendo = true; pintaNube('subiendo');
+    var enviada = aj.cola.slice(), antes = firma();
+    function intento(n){
+      return bajaNube().then(function(x){
+        var nuevo = conCola(limpiaEstado(x.json), enviada);
+        var cuerpo = {message:mensajeCommit(enviada), branch:'main',
+          content:b64(JSON.stringify(Object.assign({version:1}, nuevo), null, 1)+'\n')};
+        if(x.sha) cuerpo.sha = x.sha;
+        return fetch(NUBE.api, {method:'PUT', headers:Object.assign({'Content-Type':'application/json'}, cabeceras()),
+          body:JSON.stringify(cuerpo)}).then(function(r){
+          // 409/422: otro telefono guardo justo antes; se vuelve a leer y se reintenta encima
+          if((r.status === 409 || r.status === 422) && n < 3) return intento(n + 1);
+          if(r.status === 403 || r.status === 401) throw new Error('el token no tiene permiso de escritura');
+          if(!r.ok) throw new Error('GitHub respondió '+r.status);
+          aj.base = nuevo;
+          aj.cola = aj.cola.slice(enviada.length);       // lo marcado mientras subia queda para la proxima
+          escLS('ajustes-base', aj.base); escLS('ajustes-cola', aj.cola);
+        });
+      });
+    }
+    return intento(0).then(function(){
+      aj.subiendo = false;
+      if(firma() !== antes) rerenderPlan();
+      if(aj.cola.length) return subeNube();
+      pintaNube('ok');
+    }).catch(function(e){ aj.subiendo = false; falloNube(e); });
+  }
+
+  var reintento = null;
+  function falloNube(e){
+    var sinSenal = navigator.onLine === false || e instanceof TypeError;
+    pintaNube(sinSenal ? 'offline' : 'error', e.message);
+    clearTimeout(reintento);
+    if(aj.cola.length) reintento = setTimeout(subeNube, 30000);
+  }
+
+  var NUBE_TXT = {
+    ok:       ['☁ guardado', 'Los cambios al plan están en la nube'],
+    subiendo: ['☁ guardando…', 'Subiendo los cambios'],
+    local:    ['☁ solo en este teléfono', 'Conecta la nube para que los cambios lleguen a todos'],
+    offline:  ['☁ sin señal', 'Se sube en cuanto vuelva la conexión'],
+    error:    ['☁ no se pudo guardar', ''],
+    '':       ['☁ conectar', 'Conecta la nube para guardar los cambios al plan']
+  };
+  function pintaNube(estado, error){
+    if(estado != null) aj.estado = estado;
+    if(error != null) aj.error = error;
+    var t = NUBE_TXT[aj.estado] || NUBE_TXT[''];
+    var titulo = aj.estado === 'error' ? 'No se pudo guardar: '+aj.error+'. Toca para revisar.' : t[1];
+    document.querySelectorAll('[data-nube]').forEach(function(el){
+      el.textContent = t[0];
+      el.title = titulo;
+      el.className = el.className.replace(/\bn-\w+/g, '').trim()+' n-'+(aj.estado || 'nada');
+    });
+  }
+
+  // hoja para conectar: el token se crea en GitHub y se pega aca; queda solo en este telefono
+  function abreNube(){
+    var s = document.getElementById('nubeSheet'), conectado = !!tokenGH();
+    s.querySelector('#nubeEstado').textContent = conectado
+      ? (aj.estado === 'error' ? 'Conectado, pero el último guardado falló: '+aj.error+'.' : 'Conectado: este teléfono guarda los cambios en la nube.')
+      : 'Sin conectar: lo que marques queda solo en este teléfono'+(aj.cola.length ? ' ('+aj.cola.length+' por subir)' : '')+'.';
+    s.querySelector('#nubeForm').style.display = conectado ? 'none' : '';
+    s.querySelector('#nubeSalir').style.display = conectado ? '' : 'none';
+    s.style.display = 'flex';
+  }
+  (function(){
+    var s = document.getElementById('nubeSheet');
+    if(!s) return;
+    function cierra(){ s.style.display = 'none'; }
+    s.querySelector('#nubeX').addEventListener('click', cierra);
+    s.addEventListener('click', function(e){ if(e.target === s) cierra(); });
+    document.addEventListener('keydown', function(e){ if(e.key === 'Escape') cierra(); });
+    document.addEventListener('click', function(e){
+      if(e.target.closest && e.target.closest('[data-nube]')){ e.preventDefault(); abreNube(); }
+    });
+    s.querySelector('#nubeConectar').addEventListener('click', function(){
+      var campo = s.querySelector('#nubeToken'), tk = campo.value.trim(), msg = s.querySelector('#nubeMsg');
+      if(!tk){ msg.textContent = 'Pega el token primero.'; return; }
+      try{ localStorage.setItem('gh-token', tk); }catch(e){}
+      msg.textContent = 'Probando…';
+      bajaNube().then(function(){
+        campo.value = ''; msg.textContent = '';
+        cierra();
+        sincroniza();
+      }).catch(function(e){
+        try{ localStorage.removeItem('gh-token'); }catch(x){}
+        msg.textContent = 'No funcionó: '+e.message+'.';
+      });
+    });
+    s.querySelector('#nubeSalir').addEventListener('click', function(){
+      try{ localStorage.removeItem('gh-token'); }catch(e){}
+      pintaNube(aj.cola.length ? 'local' : '');
+      cierra();
+    });
+  })();
+  window.addEventListener('online', function(){ subeNube(); });
+  document.addEventListener('visibilitychange', function(){
+    // al volver a la app se revisa si otro telefono cambio algo (como mucho una vez por minuto)
+    if(document.visibilityState === 'visible' && Date.now() - aj.bajada > 60000 && perfilActual) sincroniza();
+  });
+
   // el plan a veces marca a mano un dia hecho ("✓ Posterior (hecho)"); con el registro a la vista sobra
   function limpiaFoco(f){ return String(f || '').replace(/^✓\s*/, '').replace(/\s*\(hecho\)\s*$/, ''); }
   function volKg(v){
@@ -1438,14 +1830,19 @@ details.hh-det[open]>summary::after{ content:'▴'; }
   }
 
   function etiquetaMovido(d){
-    return d.origen && d.origen !== d.day ? '<span class="dmoved">movido del '+esc(d.origen)+'</span>' : '';
+    if(d.recuperada) return '<span class="dmoved">recuperada del '+esc(d.origen)+'</span>';
+    return d.origen && d.origen !== d.day ? '<span class="dmoved">movida del '+esc(d.origen)+'</span>' : '';
   }
-  function describeMov(m, nombre){
-    var n = function(iso){ return nombre[iso] || iso; };
-    if(m.op === 'saltar') return 'saltado el opcional del '+n(m.fecha);
-    if(m.op === 'hacer')  return 'vuelve el opcional del '+n(m.fecha);
-    if(m.op === 'cambio') return 'opcional del '+n(m.a)+' pasa al '+n(m.b);
-    return (m.dir > 0 ? '+1' : '−1')+' desde el '+n(m.desde);
+  // como quedo un dia que ya paso: registrado, hecho sin subir, o no realizado (y que paso con esa sesion)
+  function etiquetaEstado(d, reg){
+    if(reg[d.date]) return '<span class="dreg">registrada ✓</span>';
+    if(d.hechoManual) return '<span class="dreg">hecha · falta subirla</span>';
+    if(d.pendiente){
+      var f = d.pendienteFin;
+      return '<span class="dno">'+(!f ? 'pendiente' : f.descartada ? 'descartada' :
+        (f.fecha > todayISO() ? 'se hace el ' : f.fecha === todayISO() ? 'se hace hoy, ' : 'se hizo el ')+esc(f.en))+'</span>';
+    }
+    return '';
   }
 
   // ---------------- sesion de hoy ----------------
@@ -1473,14 +1870,13 @@ details.hh-det[open]>summary::after{ content:'▴'; }
     }
     var day = dias[heroIdx];
     var isToday = day.date === t;
-    var ayer = dias.find(function(d){ return d.date === isoMenos(t, 1); });
     var sig = dias.slice(heroIdx + 1).find(function(d){ return !esDescanso(d); });
     var series = 0;
     day.exercises.forEach(function(e){ series += e.sets.length; });
     var hechos = hechosDe(day.date);
     var algunaSerie = Object.keys(hechos).some(function(k){ return !/^(cal|est)\|/.test(k); });
 
-    el.innerHTML = resumenHoy +
+    el.innerHTML = resumenHoy + renderPorResolver(profile, dias) +
       '<div class="session'+(esDescanso(day) ? ' rest' : '')+'">'+
       '<div class="s-head"><span class="tag">'+esc(day.day)+(isToday ? ' · hoy' : ' · próxima')+'</span>'+
         (day.tag === 'opcional' ? '<span class="s-opc">opcional</span>' : '')+etiquetaMovido(day)+'</div>'+
@@ -1488,8 +1884,6 @@ details.hh-det[open]>summary::after{ content:'▴'; }
       (series ? '<div class="s-meta"><span>'+day.exercises.length+' ejercicios · '+series+' series</span><span class="s-cuenta"></span></div>'+
         '<div class="s-bar"><i></i></div>' : '')+
       (day.rationale ? '<p class="herolede">'+escMd(day.rationale)+'</p>' : '')+
-      botonera(dias, day)+
-      (isToday && ayer && tramo(dias, ayer.date, 1, true) ? '<button type="button" class="ayerlink" data-ayer="'+escA(ayer.date)+'">Ayer no entrené → +1 desde ayer</button>' : '')+
       renderPasos(day.warmup, 'Calentamiento', 'warmup')+
       (series && !algunaSerie ? '<p class="s-hint">Toca cada serie al terminarla: queda marcada y parte el descanso. '+
         '<b>RIR</b> son las repeticiones que te quedan en reserva: RIR 2 es parar cuando todavía salían dos más.</p>' : '')+
@@ -1500,9 +1894,7 @@ details.hh-det[open]>summary::after{ content:'▴'; }
         '<b>'+esc(sig.day)+' · '+esc(sig.focus)+'</b><span class="s-arrow">→</span></button>' : '')+
       '</div>';
 
-    cableaMover(el, dias);
-    var al = el.querySelector('.ayerlink');
-    if(al) al.addEventListener('click', function(){ registra({desde:al.dataset.ayer, dir:1}); });
+    cableaPorResolver(el, profile, dias);
     var nx = el.querySelector('.s-next');
     if(nx) nx.addEventListener('click', function(){ irADia(nx.dataset.fecha); });
 
@@ -1662,51 +2054,36 @@ details.hh-det[open]>summary::after{ content:'▴'; }
       wrap.innerHTML = '<div class="empty"><b>Rutina de '+esc(profile.displayName)+' pendiente</b>Todavía no se ha subido un plan semanal para este usuario. Pásame el registro y lo armo igual que el de Mopo'+(profile.note ? ' — '+esc(profile.note) : '')+'.</div>';
       return;
     }
-    var t = todayISO(), ayer = isoMenos(t, 1);
-    var dias = planDe(profile);
-    var registradas = {};
-    (profile.SESSIONS_FULL || []).forEach(function(s){ registradas[s.date] = 1; });
+    var t = todayISO();
+    var py = planYAjustes(profile), dias = py.dias;
+    var registradas = registradasDe(profile);
 
-    // movimientos guardados en este dispositivo, con forma de deshacerlos
-    var movs = movsDe(perfilActual);
-    if(movs.length){
-      var nombre = {};
-      profile.WEEKDAYS.forEach(function(d){ nombre[d.date] = d.day; });
-      var bar = document.createElement('div');
-      bar.className = 'movbar';
-      bar.innerHTML = '<span class="mb-txt"><b>Plan movido en este dispositivo:</b> '+
-        movs.map(function(m){ return esc(describeMov(m, nombre)); }).join(' · ')+
-        '</span><button type="button" data-a="uno">Deshacer último</button>'+
-        (movs.length > 1 ? '<button type="button" data-a="todo">Volver al plan original</button>' : '');
-      bar.querySelectorAll('button').forEach(function(b){
-        b.addEventListener('click', function(){
-          guardaMovs(perfilActual, b.dataset.a === 'todo' ? [] : movs.slice(0, -1));
-          rerenderPlan();
-        });
-      });
-      wrap.appendChild(bar);
-    }
+    var arriba = document.createElement('div');
+    arriba.className = 'semtop';
+    arriba.innerHTML = renderCambios(py.vigentes) + panelOpcionales(dias, t);
+    arriba.querySelectorAll('[data-quita]').forEach(function(b){
+      b.addEventListener('click', function(){ muta({perfil:perfilActual, quita:conDependientes(b.dataset.quita)}); });
+    });
+    cableaOpcionales(arriba, dias);
+    wrap.appendChild(arriba);
 
     function makeCard(d){
       var det = document.createElement('details');
       var isToday = d.date === t;
       det.className = 'daycard' + (d.exercises.length === 0 ? ' rest' : '') + (d.date < t ? ' past' : '');
       det.dataset.fecha = d.date;
-      var tagHtml = (isToday ? '<span class="dtag">hoy</span>' : '') + etiquetaMovido(d) +
-        (registradas[d.date] ? '<span class="dreg">registrada ✓</span>' : '');
+      var tagHtml = (isToday ? '<span class="dtag">hoy</span>' : '') + etiquetaMovido(d) + etiquetaEstado(d, registradas);
       var exHtml = d.exercises.map(function(e, i){ return renderExerciseBlock(e, i+1); }).join('');
       var cardioHtml = renderCardio(d.cardio);
       det.innerHTML =
         '<summary><div class="dwhen"><span class="dday">'+esc(d.day)+'</span>'+tagHtml+'</div><h4>'+esc(registradas[d.date] ? limpiaFoco(d.focus) : d.focus)+'</h4></summary>'+
         '<div class="dbody">'+
-        (d.date >= ayer ? botonera(dias, d) : '')+
-        '<p class="drationale">'+escMd(d.rationale)+'</p>'+
+        (d.rationale ? '<p class="drationale">'+escMd(d.rationale)+'</p>' : '')+
         renderFold(d.warmup, 'Calentamiento', 'warmup')+
         exHtml+
         cardioHtml+
         renderFold(d.stretch, 'Estiramiento de cierre', 'stretch')+
         '</div>';
-      cableaMover(det, dias);
       return det;
     }
 
@@ -1777,6 +2154,7 @@ details.hh-det[open]>summary::after{ content:'▴'; }
       box.appendChild(inner);
       wrap.appendChild(box);
     });
+    pintaNube();
   }
 
 
@@ -2547,6 +2925,10 @@ details.hh-det[open]>summary::after{ content:'▴'; }
   })();
 
   var vt=document.getElementById('verTag'); if(vt) vt.textContent=VERSION;
+  // los movimientos de la version anterior vivian solo en el telefono y usaban otro formato
+  try{ Object.keys(localStorage).forEach(function(k){ if(/^movs-/.test(k)) localStorage.removeItem(k); }); }catch(e){}
   renderProfile('mopo');
+  pintaNube(tokenGH() ? '' : (aj.cola.length ? 'local' : ''));
+  sincroniza();
 })();
 </script>

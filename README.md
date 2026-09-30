@@ -25,6 +25,7 @@ de una sesión, basta con clonar este repo.
 | `src/bodypaths.json` | **Generado** — geometría del diagrama anatómico. |
 | `src/vendor/musclemap/` | Copia de los datos de MuscleMap y su licencia MIT. |
 | `data/*.md` | Registros históricos y documentos de perfil, en markdown. |
+| `data/ajustes.json` | **Lo escribe el tablero** desde el teléfono: días sin registro, sesiones pendientes o recuperadas, opcionales saltados. Ver abajo. |
 
 ## Sesiones de Mipi (sin Hevy Pro)
 
@@ -36,6 +37,32 @@ La API de Hevy es solo para Pro, así que las sesiones de Mipi entran por la exp
 
 El archivo trae el historial completo; solo entra lo posterior a la última sesión registrada, así
 que se puede volver a exportar e importar sin duplicar nada.
+
+## Ajustes desde el teléfono (`data/ajustes.json`)
+
+El plan de `profiles.json` no se toca desde el teléfono. Encima se aplican, en orden, los ajustes
+que la persona marca en el tablero, y se guardan en `data/ajustes.json` con la API de GitHub:
+
+- **Sin registro en Hevy**: un día de entrenamiento de los últimos 6 días que no tiene sesión. Se
+  responde *Sí, falta subirla* (`hecho`), *No · la hago hoy* (`noHecho` + `recuperar`) o *No · otro
+  día* (`noHecho`: la sesión queda pendiente).
+- **Pendientes**: *Hacerla hoy*, *Otro día…* (`recuperar`) o *Descartar* (`descartar`).
+  Recuperar una sesión el día X la pone en X y corre un día lo que venía desde X hasta el próximo
+  descanso, que se ocupa.
+- **Opcionales de la semana**: `opcSaltar`, `opcVolver`, `opcMover`.
+
+Formato: `{"version": 1, "mopo": [...], "mipi": [...]}`. Cada ajuste trae `op`, `fecha`
+(y `en` o `a` según el caso), `id`, `grupo`, `ts` y `txt`, la descripción en castellano. Un ajuste
+que ya no calza con el plan (porque el plan lo incorporó o cambió por debajo) se ignora.
+
+**Para actualizar el plan:** leer `data/ajustes.json` y aplicar esos cambios en `WEEKDAYS`. Después,
+quitar del archivo los ajustes que quedaron incorporados, en el mismo commit. `publish.py` hace
+`pull --rebase` antes de subir, porque el tablero pudo guardar commits entretanto.
+
+**Conectar un teléfono:** el indicador ☁ de la barra superior abre las instrucciones. Se necesita
+un token *fine-grained* de GitHub, con acceso solo a este repositorio y permiso *Contents: Read
+and write*. Queda guardado solo en ese teléfono. Sin token, el tablero lee los ajustes de la
+copia publicada y lo que se marque queda en ese teléfono hasta conectarlo.
 
 ## Cómo reconstruir y publicar
 

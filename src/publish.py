@@ -9,7 +9,7 @@ Hace, en orden:
   1. copia los .md de ~/Documents/Entrenamiento al repo (data/)
   2. recalcula los gráficos desde el historial (src/graficos.py)
   3. regenera index.html desde src/
-  4. commit + push a GitHub
+  4. commit, trae los ajustes que el tablero haya guardado (pull --rebase) y push a GitHub
 """
 import glob, json, os, shutil, subprocess, sys
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -53,6 +53,9 @@ def main():
     run("git", "add", "-A")
     run("git", "-c", "user.name=Francisco Kirhman",
         "-c", "user.email=francisco.osorio@ug.uchile.cl", "commit", "-m", msg)
+    # el tablero guarda los ajustes que se marcan desde el telefono como commits a data/ajustes.json:
+    # hay que traerlos antes de subir, o el push se rechaza por venir atrasado
+    run("git", "pull", "--rebase", "origin", "main")
     run("git", "push", "origin", "HEAD")
     print("publicado:", run("git", "log", "--oneline", "-1"))
 
