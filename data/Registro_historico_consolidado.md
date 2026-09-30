@@ -1,4 +1,4 @@
-# Historial de entrenamiento por fecha — 29 de mayo de 2026 al 29 de septiembre de 2026 (85 sesiones)
+# Historial de entrenamiento por fecha — 29 de mayo de 2026 al 30 de septiembre de 2026 (86 sesiones)
 
 Registro cronológico consolidado. Cada fila corresponde a una serie real copiada desde Hevy. Los volúmenes oficiales se conservan sin reemplazarlos por cálculos derivados.
 
@@ -2455,3 +2455,32 @@ Sesión de boulder por la tarde, después del entrenamiento de pierna de la mañ
 | 5 | Crunch (Machine) | 2 | 27,5 kg | 15 | 8 |
 | 5 | Crunch (Machine) | 3 | 27,5 kg | 15 | 8 |
 | 6 | Stair Machine (Floors) | 1 | Peso corporal (isométrico) | 720 s | — |
+
+## 30 Sep 2026 — Afternoon workout 💪
+
+<!-- hevy:31ffd6c2-090f-409e-900f-688e4a56ff33 -->
+**Hora:** 3:02 PM  
+**Duración:** 1h 14m  
+**Volumen Hevy:** 15,814 kg  
+
+| Orden | Ejercicio | Serie | Carga | Reps/tiempo | RPE |
+|---:|---|---:|---:|---|---:|
+| 1 | Squat (Barbell) | 1 | 20 kg | 12 | 6 |
+| 1 | Squat (Barbell) | 2 | 60 kg | 6 | 6 |
+| 1 | Squat (Barbell) | 3 | 90 kg | 6 | 8 |
+| 1 | Squat (Barbell) | 4 | 90 kg | 6 | 8 |
+| 1 | Squat (Barbell) | 5 | 90 kg | 6 | 8 |
+| 2 | Leg Press (Machine) | 1 | 100 kg | 10 | 6 |
+| 2 | Leg Press (Machine) | 2 | 180 kg | 12 | 8 |
+| 2 | Leg Press (Machine) | 3 | 180 kg | 11 | 8 |
+| 2 | Leg Press (Machine) | 4 | 180 kg | 11 | 8 |
+| 3 | Leg Extension (Machine) | 1 | 66 kg | 12 | 8 |
+| 3 | Leg Extension (Machine) | 2 | 66 kg | 12 | 8,5 |
+| 3 | Leg Extension (Machine) | 3 | 66 kg | 10 | 9 |
+| 4 | Hip Adduction (Machine) | 1 | 94 kg | 15 | 7 |
+| 4 | Hip Adduction (Machine) | 2 | 94 kg | 15 | 7 |
+| 4 | Hip Adduction (Machine) | 3 | 94 kg | 15 | 8 |
+| 5 | Reverse Crunch | 1 | Peso corporal | 15 | 8 |
+| 5 | Reverse Crunch | 2 | Peso corporal | 15 | 8 |
+| 5 | Reverse Crunch | 3 | Peso corporal | 11 | 10 |
+| 6 | Stair Machine (Floors) | 1 | Peso corporal (isométrico) | 600 s | — |

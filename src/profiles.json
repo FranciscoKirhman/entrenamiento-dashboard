@@ -6,7 +6,7 @@
    {
     "name": "Femoral",
     "recent": 8.2,
-    "hist": 4.6,
+    "hist": 4.5,
     "lo": 6,
     "hi": 10,
     "tier": "good",
@@ -17,7 +17,7 @@
    {
     "name": "Tríceps",
     "recent": 3.5,
-    "hist": 5.4,
+    "hist": 5.3,
     "lo": 6,
     "hi": 10,
     "tier": "warning",
@@ -39,7 +39,7 @@
    {
     "name": "Espalda",
     "recent": 7.0,
-    "hist": 9.8,
+    "hist": 9.7,
     "lo": 12,
     "hi": 16,
     "tier": "warning",
@@ -50,7 +50,7 @@
    {
     "name": "Bíceps",
     "recent": 1.8,
-    "hist": 6.1,
+    "hist": 6.0,
     "lo": 6,
     "hi": 10,
     "tier": "critical",
@@ -61,7 +61,7 @@
    {
     "name": "Pecho",
     "recent": 6.4,
-    "hist": 9.7,
+    "hist": 9.6,
     "lo": 10,
     "hi": 14,
     "tier": "warning",
@@ -72,7 +72,7 @@
    {
     "name": "Hombro (empuje)",
     "recent": 6.4,
-    "hist": 11.1,
+    "hist": 11.0,
     "lo": 8,
     "hi": 12,
     "tier": "warning",
@@ -82,34 +82,34 @@
    },
    {
     "name": "Cuádriceps",
-    "recent": 5.2,
-    "hist": 7.8,
+    "recent": 10.5,
+    "hist": 8.3,
     "lo": 10,
     "hi": 14,
-    "tier": "warning",
-    "trend": 0.0,
+    "tier": "good",
+    "trend": 5.2,
     "note": "Sentadilla a 90 × 8 las tres y prensa a 180 × 12 el 9. Al borde de la banda con un solo día de cuádriceps.",
     "ex": "Squat, Leg Press, Leg Extension"
    },
    {
     "name": "Aductor / abductor",
-    "recent": 3.5,
-    "hist": 3.6,
+    "recent": 5.2,
+    "hist": 3.7,
     "lo": 4,
     "hi": 8,
-    "tier": "warning",
-    "trend": 0.0,
+    "tier": "good",
+    "trend": 1.8,
     "note": "Aducción a 89 × 15 el 9 y el 13, siempre a RPE 7: en banda, pero con la carga corta. Sube a 94 el 23.",
     "ex": "Hip Adduction, Hip Abduction"
    },
    {
     "name": "Core",
-    "recent": 8.8,
-    "hist": 6.9,
+    "recent": 10.5,
+    "hist": 7.0,
     "lo": 12,
     "hi": 22,
     "tier": "warning",
-    "trend": -2.3,
+    "trend": -0.6,
     "note": "Pallof, crunch inverso, elevación de rodillas y plancha lateral: dentro de banda.",
     "ex": "Cable Crunch, Pallof Press, Reverse Crunch, Side Plank"
    }
@@ -11185,6 +11185,10 @@
      {
       "d": "23 sep",
       "w": 90.0
+     },
+     {
+      "d": "30 sep",
+      "w": 90.0
      }
     ],
     "pattern": "meseta_oscilante",
@@ -11539,6 +11543,10 @@
      {
       "d": "23 sep",
       "w": 180.0
+     },
+     {
+      "d": "30 sep",
+      "w": 180.0
      }
     ],
     "pattern": "meseta_oscilante",
@@ -11607,6 +11615,132 @@
    }
   ],
   "SESSIONS_FULL": [
+   {
+    "date": "2026-09-30",
+    "dlabel": "30 sep",
+    "title": "Afternoon workout 💪",
+    "hora": "3:02 PM",
+    "dur": "1h 14m",
+    "vol": "15,814",
+    "com": null,
+    "rec": null,
+    "exercises": [
+     {
+      "ej": "Squat (Barbell)",
+      "carga": "20",
+      "reps": "12",
+      "rpe": "6"
+     },
+     {
+      "ej": "Squat (Barbell)",
+      "carga": "60",
+      "reps": "6",
+      "rpe": "6"
+     },
+     {
+      "ej": "Squat (Barbell)",
+      "carga": "90",
+      "reps": "6",
+      "rpe": "8"
+     },
+     {
+      "ej": "Squat (Barbell)",
+      "carga": "90",
+      "reps": "6",
+      "rpe": "8"
+     },
+     {
+      "ej": "Squat (Barbell)",
+      "carga": "90",
+      "reps": "6",
+      "rpe": "8"
+     },
+     {
+      "ej": "Leg Press (Machine)",
+      "carga": "100",
+      "reps": "10",
+      "rpe": "6"
+     },
+     {
+      "ej": "Leg Press (Machine)",
+      "carga": "180",
+      "reps": "12",
+      "rpe": "8"
+     },
+     {
+      "ej": "Leg Press (Machine)",
+      "carga": "180",
+      "reps": "11",
+      "rpe": "8"
+     },
+     {
+      "ej": "Leg Press (Machine)",
+      "carga": "180",
+      "reps": "11",
+      "rpe": "8"
+     },
+     {
+      "ej": "Leg Extension (Machine)",
+      "carga": "66",
+      "reps": "12",
+      "rpe": "8"
+     },
+     {
+      "ej": "Leg Extension (Machine)",
+      "carga": "66",
+      "reps": "12",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Leg Extension (Machine)",
+      "carga": "66",
+      "reps": "10",
+      "rpe": "9"
+     },
+     {
+      "ej": "Hip Adduction (Machine)",
+      "carga": "94",
+      "reps": "15",
+      "rpe": "7"
+     },
+     {
+      "ej": "Hip Adduction (Machine)",
+      "carga": "94",
+      "reps": "15",
+      "rpe": "7"
+     },
+     {
+      "ej": "Hip Adduction (Machine)",
+      "carga": "94",
+      "reps": "15",
+      "rpe": "8"
+     },
+     {
+      "ej": "Reverse Crunch",
+      "carga": "Peso corporal",
+      "reps": "15",
+      "rpe": "8"
+     },
+     {
+      "ej": "Reverse Crunch",
+      "carga": "Peso corporal",
+      "reps": "15",
+      "rpe": "8"
+     },
+     {
+      "ej": "Reverse Crunch",
+      "carga": "Peso corporal",
+      "reps": "11",
+      "rpe": "10"
+     },
+     {
+      "ej": "Stair Machine (Floors)",
+      "carga": "Peso corporal (isométrico)",
+      "reps": "600 s",
+      "rpe": "—"
+     }
+    ]
+   },
    {
     "date": "2026-09-29",
     "dlabel": "29 sep",
