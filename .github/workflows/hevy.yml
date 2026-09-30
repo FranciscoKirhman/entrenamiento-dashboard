@@ -1,0 +1,59 @@
+# Trae solas las sesiones nuevas de Hevy y republica el tablero, sin esperar a que alguien corra
+# publish.py. El tablero deduce de ahí qué sesión se hizo cada día y corre el plan (ver "el plan
+# según Hevy" en src/dashboard.template.html).
+#
+# La clave de Hevy va como secreto del repositorio (Settings → Secrets → Actions), nunca en el código:
+#   gh secret set HEVY_API_KEY_MOPO --repo FranciscoKirhman/entrenamiento-dashboard < ~/.config/hevy/mopo.key
+name: Sesiones de Hevy
+
+on:
+  schedule:
+    - cron: '*/15 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: hevy
+  cancel-in-progress: false
+
+jobs:
+  sincroniza:
+    runs-on: ubuntu-latest
+    env:
+      TZ: America/Santiago
+      HEVY_API_KEY_MOPO: ${{ secrets.HEVY_API_KEY_MOPO }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Trae sesiones nuevas
+        run: |
+          # sin clave la corrida tiene que fallar: el tablero cuenta como "al día" solo las corridas
+          # exitosas, y con una falsa daría por no hechas sesiones que solo no se trajeron
+          if [ -z "$HEVY_API_KEY_MOPO" ]; then
+            echo "::error::Falta el secreto HEVY_API_KEY_MOPO: no se puede leer Hevy"
+            exit 1
+          fi
+          python3 src/hevy_sync.py
+
+      - name: Republica si hubo algo nuevo
+        run: |
+          if [ -z "$(git status --porcelain -- src/profiles.json data)" ]; then
+            echo "Sin sesiones nuevas"
+            exit 0
+          fi
+          python3 src/graficos.py
+          # si el plan tiene un problema, build.py falla: las sesiones se guardan igual y el tablero
+          # se regenera en la próxima publicación que pase las verificaciones
+          python3 src/build.py || echo "::warning::build.py falló; se guardan las sesiones sin regenerar el tablero"
+          git config user.name "Francisco Kirhman"
+          git config user.email "francisco.osorio@ug.uchile.cl"
+          git add -A
+          git commit -m "Sesiones nuevas desde Hevy (automático)"
+          git pull --rebase origin main
+          git push

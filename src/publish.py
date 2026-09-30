@@ -9,7 +9,7 @@ Hace, en orden:
   1. copia los .md de ~/Documents/Entrenamiento al repo (data/)
   2. recalcula los gráficos desde el historial (src/graficos.py)
   3. regenera index.html desde src/
-  4. commit, trae los ajustes que el tablero haya guardado (pull --rebase) y push a GitHub
+  4. commit y push a GitHub (antes y después trae lo que GitHub haya subido solo: ver hevy.yml)
 """
 import glob, json, os, shutil, subprocess, sys
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -22,6 +22,10 @@ def run(*a, **k):
 
 def main():
     msg = sys.argv[1] if len(sys.argv) > 1 else "actualiza tablero"
+    # GitHub trae sesiones de Hevy solo (.github/workflows/hevy.yml) y republica: antes de tocar nada
+    # se trae eso. index.html y version.json se regeneran igual, así que se descartan para no chocar.
+    run("git", "checkout", "--", "index.html", "version.json")
+    run("git", "pull", "--rebase", "--autostash", "origin", "main")
     sys.path.insert(0, os.path.join(ROOT, "src"))
     import hevy_sync
     try:
@@ -53,8 +57,7 @@ def main():
     run("git", "add", "-A")
     run("git", "-c", "user.name=Francisco Kirhman",
         "-c", "user.email=francisco.osorio@ug.uchile.cl", "commit", "-m", msg)
-    # el tablero guarda los ajustes que se marcan desde el telefono como commits a data/ajustes.json:
-    # hay que traerlos antes de subir, o el push se rechaza por venir atrasado
+    # si GitHub subió algo mientras tanto, se trae antes de subir o el push se rechaza por atrasado
     run("git", "pull", "--rebase", "origin", "main")
     run("git", "push", "origin", "HEAD")
     print("publicado:", run("git", "log", "--oneline", "-1"))

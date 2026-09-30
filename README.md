@@ -25,7 +25,7 @@ de una sesión, basta con clonar este repo.
 | `src/bodypaths.json` | **Generado** — geometría del diagrama anatómico. |
 | `src/vendor/musclemap/` | Copia de los datos de MuscleMap y su licencia MIT. |
 | `data/*.md` | Registros históricos y documentos de perfil, en markdown. |
-| `data/ajustes.json` | **Lo escribe el tablero** desde el teléfono: días sin registro, sesiones pendientes o recuperadas, opcionales saltados. Ver abajo. |
+| `.github/workflows/hevy.yml` | Cada 15 minutos trae de Hevy las sesiones nuevas y republica el tablero. Ver abajo. |
 
 ## Sesiones de Mipi (sin Hevy Pro)
 
@@ -38,31 +38,42 @@ La API de Hevy es solo para Pro, así que las sesiones de Mipi entran por la exp
 El archivo trae el historial completo; solo entra lo posterior a la última sesión registrada, así
 que se puede volver a exportar e importar sin duplicar nada.
 
-## Ajustes desde el teléfono (`data/ajustes.json`)
+## El plan se ajusta solo con Hevy
 
-El plan de `profiles.json` no se toca desde el teléfono. Encima se aplican, en orden, los ajustes
-que la persona marca en el tablero, y se guardan en `data/ajustes.json` con la API de GitHub:
+No hay botones para mover el plan: lo registrado en Hevy decide.
 
-- **Sin registro en Hevy**: un día de entrenamiento de los últimos 6 días que no tiene sesión. Se
-  responde *Sí, falta subirla* (`hecho`), *No · la hago hoy* (`noHecho` + `recuperar`) o *No · otro
-  día* (`noHecho`: la sesión queda pendiente).
-- **Pendientes**: *Hacerla hoy*, *Otro día…* (`recuperar`) o *Descartar* (`descartar`).
-  Recuperar una sesión el día X la pone en X y corre un día lo que venía desde X hasta el próximo
-  descanso, que se ocupa.
-- **Opcionales de la semana**: `opcSaltar`, `opcVolver`, `opcMover`.
+- **Qué sesión se hizo.** Cada sesión registrada se asigna a la del plan que más se le parece por
+  ejercicios, entre una semana antes y tres días después de su fecha. Así se reconoce una sesión
+  recuperada (la del lunes hecha el miércoles) o adelantada.
+- **Qué queda pendiente.** Una sesión del plan que pasó sin registro queda pendiente y va primero:
+  desde hoy, lo que venía se corre un día por cada pendiente, hasta que un descanso la absorbe.
+  Una pendiente se deja de arrastrar al pasar una semana, o si la misma sesión ya se hizo después o
+  toca hoy o mañana. Los opcionales que no se hicieron no quedan pendientes.
+- **Qué se sabe.** Solo cuenta como no hecho lo que se sabe:
+  - **Mopo:** GitHub trae sus sesiones cada 15 minutos (`hevy.yml`). El tablero consulta la última
+    corrida exitosa del workflow y, si tiene menos de 2 horas, da por sabidos todos los días hasta ayer.
+  - **Mipi:** sus sesiones entran con la exportación CSV, así que después de su último registro no se
+    da nada por perdido.
+- **Cuando hay una pendiente**, Hoy muestra las dos opciones (la pendiente y la del día) y qué pasa
+  con cada una. Se hace cualquiera, se registra en Hevy y el plan se recalcula.
 
-Formato: `{"version": 1, "mopo": [...], "mipi": [...]}`. Cada ajuste trae `op`, `fecha`
-(y `en` o `a` según el caso), `id`, `grupo`, `ts` y `txt`, la descripción en castellano. Un ajuste
-que ya no calza con el plan (porque el plan lo incorporó o cambió por debajo) se ignora.
+El plan de `profiles.json` sigue siendo la base: ajustarlo a mano (por ejemplo, reordenar una semana)
+funciona igual, y lo registrado en Hevy se sigue asignando encima.
 
-**Para actualizar el plan:** leer `data/ajustes.json` y aplicar esos cambios en `WEEKDAYS`. Después,
-quitar del archivo los ajustes que quedaron incorporados, en el mismo commit. `publish.py` hace
-`pull --rebase` antes de subir, porque el tablero pudo guardar commits entretanto.
+### Sincronización automática (`.github/workflows/hevy.yml`)
 
-**Conectar un teléfono:** el indicador ☁ de la barra superior abre las instrucciones. Se necesita
-un token *fine-grained* de GitHub, con acceso solo a este repositorio y permiso *Contents: Read
-and write*. Queda guardado solo en ese teléfono. Sin token, el tablero lee los ajustes de la
-copia publicada y lo que se marque queda en ese teléfono hasta conectarlo.
+Corre `src/hevy_sync.py` cada 15 minutos. Si hay algo nuevo, lo agrega a `data/` y a `profiles.json`,
+recalcula los gráficos, reconstruye y sube. La clave de Hevy va como secreto del repositorio, nunca
+en el código:
+
+```bash
+gh secret set HEVY_API_KEY_MOPO --repo FranciscoKirhman/entrenamiento-dashboard < ~/.config/hevy/mopo.key
+```
+
+Sin el secreto, la corrida falla a propósito: el tablero cuenta como "al día" solo las corridas
+exitosas. `publish.py` trae lo que haya subido GitHub antes de tocar nada, y `hevy_sync.py` en el Mac
+copia al registro canónico (`~/Documents/Entrenamiento`) los bloques que la nube ya trajo, sin
+duplicarlos en `SESSIONS_FULL`.
 
 ## Cómo reconstruir y publicar
 

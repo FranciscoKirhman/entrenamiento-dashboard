@@ -12,12 +12,19 @@ posterior a la última sesión registrada. Si coincide con esa última fecha sol
 ese día también vinieron de Hevy (llevan `<!-- hevy:id -->`); así no se duplica una sesión que se
 anotó a mano, como la del 20 sep de Mopo. Lo que entra se agrega al final del markdown (canónico) y
 se antepone a SESSIONS_FULL usando parse_log, igual que se venía haciendo a mano.
+
+También corre en GitHub (.github/workflows/hevy.yml), donde no existe ~/Documents/Entrenamiento: ahí
+el registro que se completa es la copia del repo (data/). Cuando después corre en el Mac, primero trae
+al markdown canónico los bloques que la nube ya agregó, y no vuelve a anteponer a SESSIONS_FULL una
+sesión que ya está (misma fecha, hora y título).
 """
 import datetime as dt, json, os, re, sys, urllib.error, urllib.request
 from zoneinfo import ZoneInfo
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-DOCS = os.path.expanduser("~/Documents/Entrenamiento")
+DOCS_MAC = os.path.expanduser("~/Documents/Entrenamiento")
+DATA = os.path.join(ROOT, "data")
+DOCS = DOCS_MAC if os.path.isdir(DOCS_MAC) else DATA      # en GitHub no hay carpeta de Documentos
 PROFILES = os.path.join(ROOT, "src", "profiles.json")
 REGISTROS = {"mopo": "Registro_historico_consolidado.md", "mipi": "Registro_historico_Mipi.md"}
 API = "https://api.hevyapp.com/v1/workouts"
@@ -140,6 +147,23 @@ def cabecera(texto):
                   f"al {u.day} de {MESES_ES[u.month - 1]} de {u.year} ({len(ses)} sesiones)", texto, count=1)
 
 
+def trae_de_repo(archivo, texto):
+    """Bloques de Hevy que la nube agregó a data/ y que el markdown canónico del Mac todavía no tiene."""
+    if DOCS == DATA:
+        return texto, 0
+    ruta_repo = os.path.join(DATA, archivo)
+    if not os.path.exists(ruta_repo):
+        return texto, 0
+    vistos = set(re.findall(r"<!-- hevy:([\w-]+) -->", texto))
+    faltan = [(d, b) for d, b in fechas_registradas(open(ruta_repo, encoding="utf-8").read())
+              if (m := re.search(r"<!-- hevy:([\w-]+) -->", b)) and m.group(1) not in vistos]
+    if not faltan:
+        return texto, 0
+    faltan.sort(key=lambda x: x[0])
+    texto = texto.rstrip("\n") + "\n\n" + "\n".join(b.rstrip("\n") + "\n" for _, b in faltan)
+    return cabecera(texto), len(faltan)
+
+
 def sincroniza(dry=False):
     sys.path.insert(0, os.path.join(ROOT, "src"))
     import parse_log
@@ -151,6 +175,10 @@ def sincroniza(dry=False):
             continue
         ruta = os.path.join(DOCS, archivo)
         texto = open(ruta, encoding="utf-8").read()
+        texto, traidas = trae_de_repo(archivo, texto)
+        if traidas and not dry:
+            open(ruta, "w", encoding="utf-8").write(texto)
+            print(f"hevy {perfil}: {traidas} sesiones que la nube ya había traído, copiadas al registro del Mac")
         ws = nuevas(key, texto)
         if not ws:
             print(f"hevy {perfil}: sin sesiones nuevas")
@@ -163,8 +191,13 @@ def sincroniza(dry=False):
         open(ruta, "w", encoding="utf-8").write(texto)
         # SESSIONS_FULL va de la más nueva a la más antigua: se anteponen las recién agregadas
         nuevas_json = parse_log.parse(ruta)[-len(ws):]
-        perfiles[perfil]["SESSIONS_FULL"] = nuevas_json[::-1] + perfiles[perfil]["SESSIONS_FULL"]
-        agregadas.append(f"{perfil} +{len(ws)}")
+        previas = perfiles[perfil]["SESSIONS_FULL"]
+        ya = {(x.get("date"), x.get("hora"), x.get("title")) for x in previas}
+        nuevas_json = [x for x in nuevas_json if (x.get("date"), x.get("hora"), x.get("title")) not in ya]
+        if not nuevas_json:
+            continue
+        perfiles[perfil]["SESSIONS_FULL"] = nuevas_json[::-1] + previas
+        agregadas.append(f"{perfil} +{len(nuevas_json)}")
     if agregadas:
         json.dump(perfiles, open(PROFILES, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     return agregadas
