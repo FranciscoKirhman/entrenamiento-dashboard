@@ -9,6 +9,10 @@ Cada archivo es el texto de la página de un entrenamiento (https://hevy.com/wor
 lo devuelve get_page_text de Claude in Chrome, con la línea "URL: ..." incluida. Lo usa el agente que
 revisa el Hevy de Mipi en Chrome: abre cada entrenamiento nuevo, guarda su texto y corre esto.
 
+Fechas: Hevy muestra "Sep 27, 2026, 12:53 PM", pero para lo reciente usa "Today at 6:02 PM",
+"Yesterday at 6:02 PM", el día de la semana ("Monday at …") o "3 hours ago". Esas se resuelven contra el
+momento en que se guardó el archivo (su fecha de modificación), que es cuando se leyó la página.
+
 Qué valida antes de registrar: que el volumen calculado con lo leído (peso × reps + peso × metros,
 calentamiento incluido, como lo cuenta Hevy) calce con el volumen oficial que muestra la página. Si no
 calza, la sesión no entra: probablemente la página cambió de formato y hay que revisar el parser.
@@ -23,7 +27,10 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import hevy_sync as H
 
 MESES = {m: i + 1 for i, m in enumerate(H.MESES_EN)}
-FECHA = re.compile(r"^([A-Z][a-z]{2}) (\d{1,2}), (\d{4}), (\d{1,2}):(\d{2}) ([AP]M)$")
+FECHA = re.compile(r"^([A-Z][a-z]{2}) (\d{1,2})(?:, (\d{4}))?(?:,| at) (\d{1,2}):(\d{2}) ([AP]M)$")
+RELATIVA = re.compile(r"^(Today|Yesterday|Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday) at (\d{1,2}):(\d{2}) ([AP]M)$")
+HACE = re.compile(r"^(\d+|an?) (minute|hour)s? ago$|^just now$", re.I)
+DIAS_EN = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
 MARCA = re.compile(r"^(W|D|F|\d+)$")
 VALOR = re.compile(r"\d.*(kg|lbs|reps?|km|mi|\d\s*m\b|\d\s*s\b|\d\s*h\b)", re.I)
 RPE = re.compile(r"^@\s*([\d.]+)\s*rpe$", re.I)
@@ -65,18 +72,44 @@ def serie(valor, tipo):
     return s
 
 
-def lee_texto(texto):
+def fecha_de(linea, ahora):
+    """Línea de fecha de Hevy → datetime local; None si la línea no es una fecha."""
+    if (m := FECHA.match(linea)):
+        mes, dia, anio, hh, mm, ampm = m.groups()
+        dia_ = dt.date(int(anio or ahora.year), MESES[mes], int(dia))
+        if not anio and dia_ > ahora.date():          # sin año y "en el futuro": era el año pasado
+            dia_ = dia_.replace(year=dia_.year - 1)
+    elif (m := RELATIVA.match(linea)):
+        cual, hh, mm, ampm = m.groups()
+        if cual == "Today":
+            dia_ = ahora.date()
+        elif cual == "Yesterday":
+            dia_ = ahora.date() - dt.timedelta(days=1)
+        else:                                          # el último día con ese nombre, sin contar hoy
+            atras = (ahora.weekday() - DIAS_EN.index(cual)) % 7 or 7
+            dia_ = ahora.date() - dt.timedelta(days=atras)
+    elif (m := HACE.match(linea)):
+        if linea.lower() == "just now":
+            return ahora.replace(second=0, microsecond=0)
+        n = 1 if m.group(1).lower() in ("a", "an") else int(m.group(1))
+        return (ahora - dt.timedelta(**{m.group(2).lower() + "s": n})).replace(second=0, microsecond=0)
+    else:
+        return None
+    hora = int(hh) % 12 + (12 if ampm == "PM" else 0)
+    return dt.datetime(dia_.year, dia_.month, dia_.day, hora, int(mm), tzinfo=H.TZ)
+
+
+def lee_texto(texto, ahora=None):
     """Texto de la página de un entrenamiento → sesión con la forma de la API de Hevy + volumen oficial."""
     url = re.search(r"hevy\.com/workout/([\w-]+)", texto)
     if not url:
         raise ValueError("falta la línea URL: https://hevy.com/workout/<id>")
     L = [l.strip() for l in texto.splitlines() if l.strip()]
-    i = next((k for k, l in enumerate(L) if FECHA.match(l)), None)
+    ahora = ahora or dt.datetime.now(H.TZ)
+    i = next((k for k, l in enumerate(L) if fecha_de(l, ahora)), None)
     if i is None:
         raise ValueError("no encuentro la fecha del entrenamiento")
-    mes, dia, anio, hh, mm, ampm = FECHA.match(L[i]).groups()
-    hora = int(hh) % 12 + (12 if ampm == "PM" else 0)
-    ini = dt.datetime(int(anio), MESES[mes], int(dia), hora, int(mm), tzinfo=H.TZ)
+    ini = fecha_de(L[i], ahora)
     titulo = L[i + 1]
     k = L.index("Duration", i)
     descripcion = " ".join(L[i + 2:k])
@@ -133,7 +166,8 @@ def agrega(perfil, rutas, dry=False):
     ya, vistos = registradas(texto), set(re.findall(r"<!-- hevy:([\w-]+) -->", texto))
     nuevas = []
     for ruta in rutas:
-        w = lee_texto(open(ruta, encoding="utf-8").read())
+        leido = dt.datetime.fromtimestamp(os.path.getmtime(ruta), H.TZ)   # cuando se guardó la página
+        w = lee_texto(open(ruta, encoding="utf-8").read(), leido)
         nombre = f"{H.local(w['start_time']):%Y-%m-%d %H:%M} — {w['title']}"
         oficial = float(re.sub(r"[^\d.]", "", w["volumen_oficial"].replace(",", "")) or 0)
         calc = volumen(w)

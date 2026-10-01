@@ -1,4 +1,4 @@
-# Historial de entrenamiento de Paloma (Mipi) — 16 de enero al 27 de septiembre de 2026 (105 sesiones)
+# Historial de entrenamiento de Paloma (Mipi) — 16 de enero al 30 de septiembre de 2026 (106 sesiones)
 
 Registro cronológico consolidado, mismo formato que el de Mopo. Cada fila corresponde a una serie real copiada desde Hevy. Los volúmenes oficiales se conservan sin reemplazarlos por cálculos derivados (excepto en sesiones con ejercicios asistidos o de solo-peso-corporal, donde Hevy suma un componente de peso corporal que no aparece en el texto copiado — el volumen mostrado sigue siendo el oficial de la app).
 
@@ -3208,3 +3208,40 @@ No hubo sesión de gimnasio este día (la pierna B se corrió al jueves 27). Sí
 
 **Notas por ejercicio:**
 - **Bulgarian Split Squat (Dumbbell):** +30 descanso entre piernas
+
+## 30 Sep 2026 — Poto 🍑
+
+<!-- hevy:web-EkEE02LIM6l -->
+**Hora:** 6:02 PM  
+**Duración:** 1h 26m  
+**Volumen Hevy:** 9,330 kg  
+**Comentario:** Resfriada pero cool ft coco 🥥  
+
+| Orden | Ejercicio | Serie | Carga | Reps/tiempo | RPE |
+|---:|---|---:|---:|---|---:|
+| 1 | Hip Thrust (Barbell) | 1 | 60 kg | 8 | 7 |
+| 1 | Hip Thrust (Barbell) | 2 | 80 kg | 5 | 6 |
+| 1 | Hip Thrust (Barbell) | 3 | 105 kg | 8 | 8 |
+| 1 | Hip Thrust (Barbell) | 4 | 105 kg | 9 | 7,5 |
+| 1 | Hip Thrust (Barbell) | 5 | 105 kg | 9 | 8 |
+| 2 | Deadlift (Smith Machine) | 1 | 10 kg | 10 | 6 |
+| 2 | Deadlift (Smith Machine) | 2 | 40 kg | 10 | 7 |
+| 2 | Deadlift (Smith Machine) | 3 | 40 kg | 10 | 8,5 |
+| 2 | Deadlift (Smith Machine) | 4 | 40 kg | 10 | 8 |
+| 3 | Hip Abduction (Machine) | 1 | 54 kg | 12 | 6 |
+| 3 | Hip Abduction (Machine) | 2 | 82,5 kg | 12 | 7,5 |
+| 3 | Hip Abduction (Machine) | 3 | 82,5 kg | 11 | 8,5 |
+| 3 | Hip Abduction (Machine) | 4 | 82,5 kg | 12 | 9 |
+| 4 | Lying Leg Curl (Machine) | 1 | 13,61 kg | 10 | 6 |
+| 4 | Lying Leg Curl (Machine) | 2 | 24,95 kg | 10 | 7 |
+| 4 | Lying Leg Curl (Machine) | 3 | 24,95 kg | 10 | 8 |
+| 4 | Lying Leg Curl (Machine) | 4 | 24,95 kg | 10 | 8,5 |
+| 5 | Side Plank | 1 | Peso corporal (isométrico) | 40 s | — |
+| 5 | Side Plank | 2 | Peso corporal (isométrico) | 40 s | — |
+| 5 | Side Plank | 3 | Peso corporal (isométrico) | 40 s | — |
+| 6 | Walking | 1 | Peso corporal (isométrico) | 735 s | — |
+
+**Notas por ejercicio:**
+- **Hip Thrust (Barbell):** En smith, no hay normal en rancagua, primera serie dolor en pubis, mejoró la 2da serie con doble cojin
+- **Deadlift (Smith Machine):** Hoy sin straps (los tiene el mopo en stgo), cuesta más el agarre que el peso, en segunda serie ya empezó a cagar el agarre
+- **Lying Leg Curl (Machine):** Justo esta está en libras.... después calculame cuanto sería en libras y kilos

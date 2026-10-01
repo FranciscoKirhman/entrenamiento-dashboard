@@ -21563,19 +21563,19 @@
   "MUSCLES": [
    {
     "name": "Glúteo / cadera",
-    "recent": 4.7,
-    "hist": 5.5,
+    "recent": 7.0,
+    "hist": 5.6,
     "lo": 10,
     "hi": 16,
-    "tier": "critical",
-    "trend": -0.6,
+    "tier": "warning",
+    "trend": 1.8,
     "note": "Hip thrust del 8, y kickback y máquina de glúteo del 13. Sube desde 1,8 pero va a la mitad de la banda: desde el 21 hay glúteo el lunes, el miércoles y el sábado opcional.",
     "ex": "Hip Thrust, Glute Kickback, máquina de glúteo"
    },
    {
     "name": "Cuádriceps",
     "recent": 5.8,
-    "hist": 8.1,
+    "hist": 8.0,
     "lo": 8,
     "hi": 14,
     "tier": "warning",
@@ -21585,41 +21585,41 @@
    },
    {
     "name": "Femoral",
-    "recent": 1.8,
+    "recent": 3.5,
     "hist": 2.4,
     "lo": 6,
     "hi": 10,
-    "tier": "critical",
-    "trend": -1.8,
+    "tier": "warning",
+    "trend": 0.0,
     "note": "Curl sentado del 8 y curl acostado del 13. Desde el 21 el lunes suma el peso muerto rumano en Smith.",
     "ex": "Lying/Seated Leg Curl, RDL"
    },
    {
     "name": "Aductor / abductor",
-    "recent": 0.0,
-    "hist": 2.6,
+    "recent": 1.8,
+    "hist": 2.7,
     "lo": 6,
     "hi": 12,
     "tier": "critical",
-    "trend": -1.8,
+    "trend": 0.0,
     "note": "Abducción del 8; la aducción no aparece desde el 2. Desde el 21 la aducción va el miércoles.",
     "ex": "Hip Abduction, Hip Adduction"
    },
    {
     "name": "Core",
-    "recent": 5.2,
+    "recent": 7.0,
     "hist": 5.9,
     "lo": 12,
     "hi": 24,
-    "tier": "critical",
-    "trend": -14.0,
+    "tier": "warning",
+    "trend": -1.8,
     "note": "Sobre la banda: plancha lateral, crunch inverso y dead bug casi todos los días. Por eso el viernes no lleva core.",
     "ex": "Side Plank, Reverse Crunch, Dead Bug"
    },
    {
     "name": "Espalda",
     "recent": 3.5,
-    "hist": 4.6,
+    "hist": 4.5,
     "lo": 8,
     "hi": 14,
     "tier": "critical",
@@ -21641,7 +21641,7 @@
    {
     "name": "Hombro",
     "recent": 7.0,
-    "hist": 3.7,
+    "hist": 3.6,
     "lo": 4,
     "hi": 10,
     "tier": "good",
@@ -21656,18 +21656,18 @@
     "lo": 3,
     "hi": 8,
     "tier": "warning",
-    "trend": -0.6,
+    "trend": 1.2,
     "note": "Curl con mancuernas del 4 y del 11, sin molestias de codo.",
     "ex": "Bicep Curl"
    },
    {
     "name": "Tríceps",
     "recent": 2.9,
-    "hist": 1.6,
+    "hist": 1.5,
     "lo": 3,
     "hi": 8,
     "tier": "warning",
-    "trend": 0.6,
+    "trend": 1.8,
     "note": "Extensión sobre la cabeza del 3 y del 11: ya entró, sin molestias de codo.",
     "ex": "Overhead Extension"
    }
@@ -31323,6 +31323,10 @@
      {
       "d": "24 sep",
       "w": 105.0
+     },
+     {
+      "d": "30 sep",
+      "w": 105.0
      }
     ],
     "change": "105 kg × 8 el 31 de agosto y el 8 de septiembre; la última serie del 8 llegó a RPE 10. Desde el 21 sube de a una repetición: 8, 9 y 10.",
@@ -31495,6 +31499,10 @@
      {
       "d": "08 sep",
       "w": 82.0
+     },
+     {
+      "d": "30 sep",
+      "w": 82.5
      }
     ],
     "change": "82 kg desde el 24 de agosto. El 8 de septiembre la segunda serie llegó a RPE 10 y la tercera bajó a 75: el bloque del 21 parte en 75 × 15.",
@@ -31615,6 +31623,10 @@
      {
       "d": "24 sep",
       "w": 25.0
+     },
+     {
+      "d": "30 sep",
+      "w": 24.95
      }
     ],
     "change": "25 kg × 12 las tres el 13 de septiembre, a RPE 7-8,5. Es su curl de primera opción; el sentado queda si la máquina está ocupada.",
@@ -31796,6 +31808,144 @@
    }
   ],
   "SESSIONS_FULL": [
+   {
+    "date": "2026-09-30",
+    "dlabel": "30 sep",
+    "title": "Poto 🍑",
+    "hora": "6:02 PM",
+    "dur": "1h 26m",
+    "vol": "9,330",
+    "com": "Resfriada pero cool ft coco 🥥",
+    "rec": null,
+    "exercises": [
+     {
+      "ej": "Hip Thrust (Barbell)",
+      "carga": "60",
+      "reps": "8",
+      "rpe": "7"
+     },
+     {
+      "ej": "Hip Thrust (Barbell)",
+      "carga": "80",
+      "reps": "5",
+      "rpe": "6"
+     },
+     {
+      "ej": "Hip Thrust (Barbell)",
+      "carga": "105",
+      "reps": "8",
+      "rpe": "8"
+     },
+     {
+      "ej": "Hip Thrust (Barbell)",
+      "carga": "105",
+      "reps": "9",
+      "rpe": "7,5"
+     },
+     {
+      "ej": "Hip Thrust (Barbell)",
+      "carga": "105",
+      "reps": "9",
+      "rpe": "8"
+     },
+     {
+      "ej": "Deadlift (Smith Machine)",
+      "carga": "10",
+      "reps": "10",
+      "rpe": "6"
+     },
+     {
+      "ej": "Deadlift (Smith Machine)",
+      "carga": "40",
+      "reps": "10",
+      "rpe": "7"
+     },
+     {
+      "ej": "Deadlift (Smith Machine)",
+      "carga": "40",
+      "reps": "10",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Deadlift (Smith Machine)",
+      "carga": "40",
+      "reps": "10",
+      "rpe": "8"
+     },
+     {
+      "ej": "Hip Abduction (Machine)",
+      "carga": "54",
+      "reps": "12",
+      "rpe": "6"
+     },
+     {
+      "ej": "Hip Abduction (Machine)",
+      "carga": "82,5",
+      "reps": "12",
+      "rpe": "7,5"
+     },
+     {
+      "ej": "Hip Abduction (Machine)",
+      "carga": "82,5",
+      "reps": "11",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Hip Abduction (Machine)",
+      "carga": "82,5",
+      "reps": "12",
+      "rpe": "9"
+     },
+     {
+      "ej": "Lying Leg Curl (Machine)",
+      "carga": "13,61",
+      "reps": "10",
+      "rpe": "6"
+     },
+     {
+      "ej": "Lying Leg Curl (Machine)",
+      "carga": "24,95",
+      "reps": "10",
+      "rpe": "7"
+     },
+     {
+      "ej": "Lying Leg Curl (Machine)",
+      "carga": "24,95",
+      "reps": "10",
+      "rpe": "8"
+     },
+     {
+      "ej": "Lying Leg Curl (Machine)",
+      "carga": "24,95",
+      "reps": "10",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Side Plank",
+      "carga": "Peso corporal (isométrico)",
+      "reps": "40 s",
+      "rpe": "—"
+     },
+     {
+      "ej": "Side Plank",
+      "carga": "Peso corporal (isométrico)",
+      "reps": "40 s",
+      "rpe": "—"
+     },
+     {
+      "ej": "Side Plank",
+      "carga": "Peso corporal (isométrico)",
+      "reps": "40 s",
+      "rpe": "—"
+     },
+     {
+      "ej": "Walking",
+      "carga": "Peso corporal (isométrico)",
+      "reps": "735 s",
+      "rpe": "—"
+     }
+    ]
+   },
    {
     "date": "2026-09-27",
     "dlabel": "27 sep",
