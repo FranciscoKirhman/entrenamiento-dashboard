@@ -10,29 +10,29 @@
     "lo": 6,
     "hi": 10,
     "tier": "good",
-    "trend": 3.5,
+    "trend": 6.4,
     "note": "Curl acostado del domingo 13 y peso muerto rumano del 7. Sube desde 2,9, pero sigue bajo la banda: desde el 21 va dos días por semana, lunes y viernes.",
     "ex": "Romanian Deadlift, Lying/Seated Leg Curl"
    },
    {
     "name": "Tríceps",
-    "recent": 3.5,
-    "hist": 5.3,
+    "recent": 5.2,
+    "hist": 5.4,
     "lo": 6,
     "hi": 10,
     "tier": "warning",
-    "trend": 0.0,
+    "trend": 1.8,
     "note": "Pushdown del 8 y extensión sobre la cabeza del 11. Justo bajo la banda; desde el 21 va el martes y el sábado.",
     "ex": "Triceps Pushdown, Overhead Extension"
    },
    {
     "name": "Glúteo / cadera",
     "recent": 7.0,
-    "hist": 3.8,
+    "hist": 3.7,
     "lo": 8,
     "hi": 12,
     "tier": "warning",
-    "trend": 3.5,
+    "trend": 5.2,
     "note": "Hip thrust del 7 y máquina de glúteo del 13. La máquina de erector espinal del 7 ya no cuenta como glúteo, por eso queda en 3,5. Desde el 21 hay glúteo el lunes y el viernes, con la abducción.",
     "ex": "Hip Thrust, máquina de glúteo"
    },
@@ -60,30 +60,30 @@
    },
    {
     "name": "Pecho",
-    "recent": 6.4,
-    "hist": 9.6,
+    "recent": 9.9,
+    "hist": 9.9,
     "lo": 10,
     "hi": 14,
     "tier": "warning",
-    "trend": -0.6,
+    "trend": 2.9,
     "note": "Dentro de banda con la banca del 8 y el inclinado a 65 × 10 del domingo 13, sin molestias de hombro.",
     "ex": "Bench Press, Incline Bench, Cable Fly, Chest Fly"
    },
    {
     "name": "Hombro (empuje)",
-    "recent": 6.4,
-    "hist": 11.0,
+    "recent": 9.9,
+    "hist": 11.2,
     "lo": 8,
     "hi": 12,
-    "tier": "warning",
-    "trend": -1.8,
+    "tier": "good",
+    "trend": 1.8,
     "note": "Sobre la banda con press, elevación lateral, Rear Delt y Face Pull. Desde el 21 el press militar descansa y el Rear Delt sale del plan.",
     "ex": "Shoulder Press, Lateral Raise, Face Pull"
    },
    {
     "name": "Cuádriceps",
     "recent": 10.5,
-    "hist": 8.3,
+    "hist": 8.2,
     "lo": 10,
     "hi": 14,
     "tier": "good",
@@ -104,12 +104,12 @@
    },
    {
     "name": "Core",
-    "recent": 10.5,
-    "hist": 7.0,
+    "recent": 12.2,
+    "hist": 7.1,
     "lo": 12,
     "hi": 22,
-    "tier": "warning",
-    "trend": -0.6,
+    "tier": "good",
+    "trend": 2.9,
     "note": "Pallof, crunch inverso, elevación de rodillas y plancha lateral: dentro de banda.",
     "ex": "Cable Crunch, Pallof Press, Reverse Crunch, Side Plank"
    }
@@ -11131,6 +11131,10 @@
      {
       "d": "22 sep",
       "w": 85.0
+     },
+     {
+      "d": "01 oct",
+      "w": 85.0
      }
     ],
     "pattern": "ascendente_claro",
@@ -11605,6 +11609,10 @@
      {
       "d": "22 sep",
       "w": 40.0
+     },
+     {
+      "d": "01 oct",
+      "w": 40.0
      }
     ],
     "pattern": "meseta_oscilante",
@@ -11615,6 +11623,150 @@
    }
   ],
   "SESSIONS_FULL": [
+   {
+    "date": "2026-10-01",
+    "dlabel": "01 oct",
+    "title": "Afternoon workout 💪",
+    "hora": "3:03 PM",
+    "dur": "1h 36m",
+    "vol": "7,266",
+    "com": null,
+    "rec": null,
+    "exercises": [
+     {
+      "ej": "Bench Press (Barbell)",
+      "carga": "40",
+      "reps": "10",
+      "rpe": "6"
+     },
+     {
+      "ej": "Bench Press (Barbell)",
+      "carga": "65",
+      "reps": "5",
+      "rpe": "6"
+     },
+     {
+      "ej": "Bench Press (Barbell)",
+      "carga": "85",
+      "reps": "9",
+      "rpe": "7,5"
+     },
+     {
+      "ej": "Bench Press (Barbell)",
+      "carga": "85",
+      "reps": "9",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Bench Press (Barbell)",
+      "carga": "85",
+      "reps": "9",
+      "rpe": "9"
+     },
+     {
+      "ej": "Shoulder Press (Dumbbell)",
+      "carga": "24",
+      "reps": "10",
+      "rpe": "6"
+     },
+     {
+      "ej": "Shoulder Press (Dumbbell)",
+      "carga": "40",
+      "reps": "9",
+      "rpe": "7,5"
+     },
+     {
+      "ej": "Shoulder Press (Dumbbell)",
+      "carga": "40",
+      "reps": "9",
+      "rpe": "8"
+     },
+     {
+      "ej": "Shoulder Press (Dumbbell)",
+      "carga": "40",
+      "reps": "8",
+      "rpe": "10"
+     },
+     {
+      "ej": "Incline Bench Press (Dumbbell)",
+      "carga": "40",
+      "reps": "12",
+      "rpe": "7,5"
+     },
+     {
+      "ej": "Incline Bench Press (Dumbbell)",
+      "carga": "40",
+      "reps": "12",
+      "rpe": "8"
+     },
+     {
+      "ej": "Incline Bench Press (Dumbbell)",
+      "carga": "40",
+      "reps": "12",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Single Arm Lateral Raise (Cable)",
+      "carga": "8,75",
+      "reps": "12",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Single Arm Lateral Raise (Cable)",
+      "carga": "8,75",
+      "reps": "15",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Single Arm Lateral Raise (Cable)",
+      "carga": "8,75",
+      "reps": "12",
+      "rpe": "9"
+     },
+     {
+      "ej": "Overhead Triceps Extension (Cable)",
+      "carga": "20",
+      "reps": "12",
+      "rpe": "7,5"
+     },
+     {
+      "ej": "Overhead Triceps Extension (Cable)",
+      "carga": "20",
+      "reps": "10",
+      "rpe": "9,5"
+     },
+     {
+      "ej": "Overhead Triceps Extension (Cable)",
+      "carga": "20",
+      "reps": "8",
+      "rpe": "9,5"
+     },
+     {
+      "ej": "Cable Core Pallof Press",
+      "carga": "16,25",
+      "reps": "12",
+      "rpe": "7"
+     },
+     {
+      "ej": "Cable Core Pallof Press",
+      "carga": "16,25",
+      "reps": "12",
+      "rpe": "7,5"
+     },
+     {
+      "ej": "Cable Core Pallof Press",
+      "carga": "16,25",
+      "reps": "12",
+      "rpe": "7,5"
+     },
+     {
+      "ej": "Stair Machine (Floors)",
+      "carga": "Peso corporal (isométrico)",
+      "reps": "900 s",
+      "rpe": "—"
+     }
+    ]
+   },
    {
     "date": "2026-09-30",
     "dlabel": "30 sep",

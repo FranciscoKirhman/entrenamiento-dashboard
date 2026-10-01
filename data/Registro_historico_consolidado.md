@@ -1,4 +1,4 @@
-# Historial de entrenamiento por fecha — 29 de mayo de 2026 al 30 de septiembre de 2026 (86 sesiones)
+# Historial de entrenamiento por fecha — 29 de mayo de 2026 al 1 de octubre de 2026 (87 sesiones)
 
 Registro cronológico consolidado. Cada fila corresponde a una serie real copiada desde Hevy. Los volúmenes oficiales se conservan sin reemplazarlos por cálculos derivados.
 
@@ -2484,3 +2484,35 @@ Sesión de boulder por la tarde, después del entrenamiento de pierna de la mañ
 | 5 | Reverse Crunch | 2 | Peso corporal | 15 | 8 |
 | 5 | Reverse Crunch | 3 | Peso corporal | 11 | 10 |
 | 6 | Stair Machine (Floors) | 1 | Peso corporal (isométrico) | 600 s | — |
+
+## 1 Oct 2026 — Afternoon workout 💪
+
+<!-- hevy:3991f9cd-3570-44a0-981d-88592153a1e8 -->
+**Hora:** 3:03 PM  
+**Duración:** 1h 36m  
+**Volumen Hevy:** 7,266 kg  
+
+| Orden | Ejercicio | Serie | Carga | Reps/tiempo | RPE |
+|---:|---|---:|---:|---|---:|
+| 1 | Bench Press (Barbell) | 1 | 40 kg | 10 | 6 |
+| 1 | Bench Press (Barbell) | 2 | 65 kg | 5 | 6 |
+| 1 | Bench Press (Barbell) | 3 | 85 kg | 9 | 7,5 |
+| 1 | Bench Press (Barbell) | 4 | 85 kg | 9 | 8,5 |
+| 1 | Bench Press (Barbell) | 5 | 85 kg | 9 | 9 |
+| 2 | Shoulder Press (Dumbbell) | 1 | 24 kg | 10 | 6 |
+| 2 | Shoulder Press (Dumbbell) | 2 | 40 kg | 9 | 7,5 |
+| 2 | Shoulder Press (Dumbbell) | 3 | 40 kg | 9 | 8 |
+| 2 | Shoulder Press (Dumbbell) | 4 | 40 kg | 8 | 10 |
+| 3 | Incline Bench Press (Dumbbell) | 1 | 40 kg | 12 | 7,5 |
+| 3 | Incline Bench Press (Dumbbell) | 2 | 40 kg | 12 | 8 |
+| 3 | Incline Bench Press (Dumbbell) | 3 | 40 kg | 12 | 8,5 |
+| 4 | Single Arm Lateral Raise (Cable) | 1 | 8,75 kg | 12 | 8,5 |
+| 4 | Single Arm Lateral Raise (Cable) | 2 | 8,75 kg | 15 | 8,5 |
+| 4 | Single Arm Lateral Raise (Cable) | 3 | 8,75 kg | 12 | 9 |
+| 5 | Overhead Triceps Extension (Cable) | 1 | 20 kg | 12 | 7,5 |
+| 5 | Overhead Triceps Extension (Cable) | 2 | 20 kg | 10 | 9,5 |
+| 5 | Overhead Triceps Extension (Cable) | 3 | 20 kg | 8 | 9,5 |
+| 6 | Cable Core Pallof Press | 1 | 16,25 kg | 12 | 7 |
+| 6 | Cable Core Pallof Press | 2 | 16,25 kg | 12 | 7,5 |
+| 6 | Cable Core Pallof Press | 3 | 16,25 kg | 12 | 7,5 |
+| 7 | Stair Machine (Floors) | 1 | Peso corporal (isométrico) | 900 s | — |
