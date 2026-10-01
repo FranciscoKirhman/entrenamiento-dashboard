@@ -1338,7 +1338,8 @@ details.hh-det[open]>summary::after{ content:'▴'; }
       return {ok:false, txt:(hevyEstado.revisado ? 'Hevy sin revisar '+hace(Date.now() - hevyEstado.revisado) : 'Hevy todavía no se revisa solo')+
         (ultima ? ' · último registro el '+nombreDia(ultima) : '')};
     }
-    return {ok:false, txt:'Registro de '+profile.displayName+' hasta el '+(ultima ? nombreDia(ultima) : '—')+' · sus sesiones entran con la exportación de Hevy'};
+    // las de Mipi las trae el agente que revisa su Hevy en Chrome (tarea revisar-hevy-mipi, 15:00 y 22:00)
+    return {ok:true, txt:'Registro de '+profile.displayName+' hasta el '+(ultima ? nombreDia(ultima) : '—')+' · su Hevy se revisa a las 15:00 y a las 22:00'};
   }
   function pintaHevy(){
     var p = PROFILES[perfilActual];
