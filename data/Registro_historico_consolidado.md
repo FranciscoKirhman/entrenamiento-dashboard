@@ -1,4 +1,4 @@
-# Historial de entrenamiento por fecha — 29 de mayo de 2026 al 1 de octubre de 2026 (87 sesiones)
+# Historial de entrenamiento por fecha — 29 de mayo de 2026 al 2 de octubre de 2026 (88 sesiones)
 
 Registro cronológico consolidado. Cada fila corresponde a una serie real copiada desde Hevy. Los volúmenes oficiales se conservan sin reemplazarlos por cálculos derivados.
 
@@ -2516,3 +2516,30 @@ Sesión de boulder por la tarde, después del entrenamiento de pierna de la mañ
 | 6 | Cable Core Pallof Press | 2 | 16,25 kg | 12 | 7,5 |
 | 6 | Cable Core Pallof Press | 3 | 16,25 kg | 12 | 7,5 |
 | 7 | Stair Machine (Floors) | 1 | Peso corporal (isométrico) | 900 s | — |
+
+## 2 Oct 2026 — Afternoon workout 💪
+
+<!-- hevy:2d2e5bb1-c2ce-4522-8e5b-568e8b8de6a9 -->
+**Hora:** 1:09 PM  
+**Duración:** 1h 23m  
+**Volumen Hevy:** 7,917 kg  
+
+| Orden | Ejercicio | Serie | Carga | Reps/tiempo | RPE |
+|---:|---|---:|---:|---|---:|
+| 1 | Lat Pulldown (Cable) | 1 | 61 kg | 12 | 6 |
+| 1 | Lat Pulldown (Cable) | 2 | 84,5 kg | 10 | 8 |
+| 1 | Lat Pulldown (Cable) | 3 | 84,5 kg | 10 | 8,5 |
+| 1 | Lat Pulldown (Cable) | 4 | 84,5 kg | 10 | 8,5 |
+| 2 | Face Pull | 1 | 30 kg | 15 | 7 |
+| 2 | Face Pull | 2 | 30 kg | 15 | 8 |
+| 2 | Face Pull | 3 | 30 kg | 15 | 8 |
+| 3 | Pull Up | 1 | Peso corporal | 11 | 7,5 |
+| 3 | Pull Up | 2 | Peso corporal | 11 | 8,5 |
+| 3 | Pull Up | 3 | Peso corporal | 11 | 9 |
+| 4 | Iso-Lateral Row (Machine) | 1 | 75 kg | 12 | 7,5 |
+| 4 | Iso-Lateral Row (Machine) | 2 | 75 kg | 12 | 8 |
+| 4 | Iso-Lateral Row (Machine) | 3 | 70 kg | 12 | 8 |
+| 5 | Seated Incline Curl (Dumbbell) | 1 | 20 kg | 12 | 7 |
+| 5 | Seated Incline Curl (Dumbbell) | 2 | 20 kg | 12 | 8,5 |
+| 5 | Seated Incline Curl (Dumbbell) | 3 | 20 kg | 9 | 10 |
+| 6 | Treadmill | 1 | Peso corporal (isométrico) | 1200 s | — |
