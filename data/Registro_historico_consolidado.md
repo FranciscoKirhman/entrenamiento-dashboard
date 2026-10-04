@@ -1,4 +1,4 @@
-# Historial de entrenamiento por fecha — 29 de mayo de 2026 al 2 de octubre de 2026 (88 sesiones)
+# Historial de entrenamiento por fecha — 29 de mayo de 2026 al 4 de octubre de 2026 (89 sesiones)
 
 Registro cronológico consolidado. Cada fila corresponde a una serie real copiada desde Hevy. Los volúmenes oficiales se conservan sin reemplazarlos por cálculos derivados.
 
@@ -2543,3 +2543,29 @@ Sesión de boulder por la tarde, después del entrenamiento de pierna de la mañ
 | 5 | Seated Incline Curl (Dumbbell) | 2 | 20 kg | 12 | 8,5 |
 | 5 | Seated Incline Curl (Dumbbell) | 3 | 20 kg | 9 | 10 |
 | 6 | Treadmill | 1 | Peso corporal (isométrico) | 1200 s | — |
+
+## 4 Oct 2026 — Afternoon workout 💪
+
+<!-- hevy:c3a0f0cc-4424-42a3-ae1b-0d15ba8d5ab9 -->
+**Hora:** 2:18 PM  
+**Duración:** 1h 12m  
+**Volumen Hevy:** 8,192 kg  
+
+| Orden | Ejercicio | Serie | Carga | Reps/tiempo | RPE |
+|---:|---|---:|---:|---|---:|
+| 1 | Cable Fly Crossovers | 1 | 12,5 kg | 12 | 7 |
+| 1 | Cable Fly Crossovers | 2 | 12,5 kg | 15 | 7,5 |
+| 1 | Cable Fly Crossovers | 3 | 12,5 kg | 15 | 8,5 |
+| 2 | Incline Bench Press (Barbell) | 1 | 65 kg | 9 | 8 |
+| 2 | Incline Bench Press (Barbell) | 2 | 65 kg | 9 | 8 |
+| 2 | Incline Bench Press (Barbell) | 3 | 65 kg | 9 | 8,5 |
+| 3 | Lateral Raise (Dumbbell) | 1 | 24 kg | 12 | 8 |
+| 3 | Lateral Raise (Dumbbell) | 2 | 24 kg | 12 | 8 |
+| 3 | Lateral Raise (Dumbbell) | 3 | 24 kg | 12 | 8,5 |
+| 4 | Triceps Pushdown | 1 | 32,5 kg | 15 | 8 |
+| 4 | Triceps Pushdown | 2 | 32,5 kg | 15 | 8 |
+| 4 | Triceps Pushdown | 3 | 32,5 kg | 15 | 8 |
+| 5 | Hip Abduction (Machine) | 1 | 75 kg | 15 | 7,5 |
+| 5 | Hip Abduction (Machine) | 2 | 82 kg | 15 | 8 |
+| 5 | Hip Abduction (Machine) | 3 | 82 kg | 15 | 8,5 |
+| 6 | Stair Machine (Floors) | 1 | Peso corporal (isométrico) | 900 s | — |
