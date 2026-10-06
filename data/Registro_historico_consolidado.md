@@ -1,4 +1,4 @@
-# Historial de entrenamiento por fecha — 29 de mayo de 2026 al 4 de octubre de 2026 (89 sesiones)
+# Historial de entrenamiento por fecha — 29 de mayo de 2026 al 6 de octubre de 2026 (90 sesiones)
 
 Registro cronológico consolidado. Cada fila corresponde a una serie real copiada desde Hevy. Los volúmenes oficiales se conservan sin reemplazarlos por cálculos derivados.
 
@@ -2569,3 +2569,31 @@ Sesión de boulder por la tarde, después del entrenamiento de pierna de la mañ
 | 5 | Hip Abduction (Machine) | 2 | 82 kg | 15 | 8 |
 | 5 | Hip Abduction (Machine) | 3 | 82 kg | 15 | 8,5 |
 | 6 | Stair Machine (Floors) | 1 | Peso corporal (isométrico) | 900 s | — |
+
+## 6 Oct 2026 — Afternoon workout 💪
+
+<!-- hevy:b286202f-c18c-48db-b7a1-7037179fb775 -->
+**Hora:** 2:35 PM  
+**Duración:** 2h 43m  
+**Volumen Hevy:** 10,611 kg  
+
+| Orden | Ejercicio | Serie | Carga | Reps/tiempo | RPE |
+|---:|---|---:|---:|---|---:|
+| 1 | Hip Thrust (Barbell) | 1 | 60 kg | 10 | — |
+| 1 | Hip Thrust (Barbell) | 2 | 105 kg | 12 | 8 |
+| 1 | Hip Thrust (Barbell) | 3 | 105 kg | 12 | 8,5 |
+| 1 | Hip Thrust (Barbell) | 4 | 105 kg | 11 | 9 |
+| 2 | Romanian Deadlift (Smith Machine) | 1 | 20 kg | 12 | — |
+| 2 | Romanian Deadlift (Smith Machine) | 2 | 55 kg | 12 | 8,5 |
+| 2 | Romanian Deadlift (Smith Machine) | 3 | 55 kg | 12 | 8,5 |
+| 2 | Romanian Deadlift (Smith Machine) | 4 | 55 kg | 12 | 8,5 |
+| 3 | Back Extension (Weighted Hyperextension) | 1 | 60 kg | 10 | 9 |
+| 3 | Back Extension (Weighted Hyperextension) | 2 | 60 kg | 8 | 9 |
+| 3 | Back Extension (Weighted Hyperextension) | 3 | 60 kg | 8 | 9,5 |
+| 4 | Lying Leg Curl (Machine) | 1 | 46 kg | 12 | 9 |
+| 4 | Lying Leg Curl (Machine) | 2 | 46 kg | 9 | 9,5 |
+| 4 | Lying Leg Curl (Machine) | 3 | 44 kg | 8 | 10 |
+| 5 | Crunch (Machine) | 1 | 27,5 kg | 15 | 8 |
+| 5 | Crunch (Machine) | 2 | 27,5 kg | 15 | 8 |
+| 5 | Crunch (Machine) | 3 | 27,5 kg | 15 | 8 |
+| 6 | Treadmill | 1 | Peso corporal (isométrico) | 720 s | — |
