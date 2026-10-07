@@ -1,4 +1,4 @@
-# Historial de entrenamiento por fecha — 29 de mayo de 2026 al 6 de octubre de 2026 (90 sesiones)
+# Historial de entrenamiento por fecha — 29 de mayo de 2026 al 7 de octubre de 2026 (91 sesiones)
 
 Registro cronológico consolidado. Cada fila corresponde a una serie real copiada desde Hevy. Los volúmenes oficiales se conservan sin reemplazarlos por cálculos derivados.
 
@@ -2597,3 +2597,35 @@ Sesión de boulder por la tarde, después del entrenamiento de pierna de la mañ
 | 5 | Crunch (Machine) | 2 | 27,5 kg | 15 | 8 |
 | 5 | Crunch (Machine) | 3 | 27,5 kg | 15 | 8 |
 | 6 | Treadmill | 1 | Peso corporal (isométrico) | 720 s | — |
+
+## 7 Oct 2026 — Afternoon workout 💪
+
+<!-- hevy:aa532ff5-f150-48a6-b26f-71d2a2e8ad86 -->
+**Hora:** 4:23 PM  
+**Duración:** 1h 33m  
+**Volumen Hevy:** 7,657 kg  
+**Comentario:** Me duele la rodilla  
+
+| Orden | Ejercicio | Serie | Carga | Reps/tiempo | RPE |
+|---:|---|---:|---:|---|---:|
+| 1 | Bench Press (Barbell) | 1 | 40 kg | 10 | — |
+| 1 | Bench Press (Barbell) | 2 | 65 kg | 5 | — |
+| 1 | Bench Press (Barbell) | 3 | 85 kg | 10 | 8,5 |
+| 1 | Bench Press (Barbell) | 4 | 85 kg | 8 | 9 |
+| 1 | Bench Press (Barbell) | 5 | 80 kg | 10 | 8 |
+| 2 | Shoulder Press (Dumbbell) | 1 | 24 kg | 10 | — |
+| 2 | Shoulder Press (Dumbbell) | 2 | 40 kg | 10 | 8 |
+| 2 | Shoulder Press (Dumbbell) | 3 | 40 kg | 10 | 8,5 |
+| 2 | Shoulder Press (Dumbbell) | 4 | 40 kg | 10 | 9 |
+| 3 | Incline Bench Press (Dumbbell) | 1 | 44 kg | 10 | 8,5 |
+| 3 | Incline Bench Press (Dumbbell) | 2 | 44 kg | 10 | 8,5 |
+| 3 | Incline Bench Press (Dumbbell) | 3 | 44 kg | 9 | 10 |
+| 4 | Overhead Triceps Extension (Cable) | 1 | 21,25 kg | 11 | 9 |
+| 4 | Overhead Triceps Extension (Cable) | 2 | 21,25 kg | 10 | 9 |
+| 4 | Overhead Triceps Extension (Cable) | 3 | 21,25 kg | 9 | 9,5 |
+| 5 | Single Arm Lateral Raise (Cable) | 1 | 9,35 kg | 12 | 8 |
+| 5 | Single Arm Lateral Raise (Cable) | 2 | 9,35 kg | 12 | 8,5 |
+| 5 | Single Arm Lateral Raise (Cable) | 3 | 9,35 kg | 12 | 9,5 |
+| 6 | Hammer Curl (Dumbbell) | 1 | 24 kg | 12 | 8 |
+| 6 | Hammer Curl (Dumbbell) | 2 | 24 kg | 12 | 8 |
+| 6 | Hammer Curl (Dumbbell) | 3 | 28 kg | 12 | 8,5 |
