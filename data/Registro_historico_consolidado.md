@@ -1,4 +1,4 @@
-# Historial de entrenamiento por fecha — 29 de mayo de 2026 al 7 de octubre de 2026 (91 sesiones)
+# Historial de entrenamiento por fecha — 29 de mayo de 2026 al 8 de octubre de 2026 (92 sesiones)
 
 Registro cronológico consolidado. Cada fila corresponde a una serie real copiada desde Hevy. Los volúmenes oficiales se conservan sin reemplazarlos por cálculos derivados.
 
@@ -2629,3 +2629,35 @@ Sesión de boulder por la tarde, después del entrenamiento de pierna de la mañ
 | 6 | Hammer Curl (Dumbbell) | 1 | 24 kg | 12 | 8 |
 | 6 | Hammer Curl (Dumbbell) | 2 | 24 kg | 12 | 8 |
 | 6 | Hammer Curl (Dumbbell) | 3 | 28 kg | 12 | 8,5 |
+
+## 8 Oct 2026 — Afternoon workout 💪
+
+<!-- hevy:69593421-f815-4ca3-b21d-45308125629b -->
+**Hora:** 1:52 PM  
+**Duración:** 1h 30m  
+**Volumen Hevy:** 18,461 kg  
+
+| Orden | Ejercicio | Serie | Carga | Reps/tiempo | RPE |
+|---:|---|---:|---:|---|---:|
+| 1 | Squat (Barbell) | 1 | 20 kg | 12 | — |
+| 1 | Squat (Barbell) | 2 | 60 kg | 6 | — |
+| 1 | Squat (Barbell) | 3 | 95 kg | 8 | — |
+| 1 | Squat (Barbell) | 4 | 95 kg | 8 | — |
+| 1 | Squat (Barbell) | 5 | 92 kg | 8 | — |
+| 2 | Leg Press (Machine) | 1 | 100 kg | 10 | — |
+| 2 | Leg Press (Machine) | 2 | 180 kg | 12 | — |
+| 2 | Leg Press (Machine) | 3 | 180 kg | 12 | — |
+| 2 | Leg Press (Machine) | 4 | 180 kg | 12 | — |
+| 3 | Leg Extension (Machine) | 1 | 66 kg | 12 | 10 |
+| 3 | Leg Extension (Machine) | 2 | 63,5 kg | 12 | 10 |
+| 3 | Leg Extension (Machine) | 3 | 61 kg | 12 | 10 |
+| 4 | Hip Adduction (Machine) | 1 | 96 kg | 15 | — |
+| 4 | Hip Adduction (Machine) | 2 | 96 kg | 15 | — |
+| 4 | Hip Adduction (Machine) | 3 | 96 kg | 15 | — |
+| 5 | Reverse Crunch | 1 | Peso corporal | 17 | — |
+| 5 | Reverse Crunch | 2 | Peso corporal | 17 | — |
+| 5 | Reverse Crunch | 3 | Peso corporal | 10 | — |
+| 6 | Triceps Pushdown | 1 | 33,75 kg | 15 | — |
+| 6 | Triceps Pushdown | 2 | 33,75 kg | 15 | — |
+| 6 | Triceps Pushdown | 3 | 33,75 kg | 15 | — |
+| 7 | Stair Machine (Floors) | 1 | Peso corporal (isométrico) | 600 s | — |
