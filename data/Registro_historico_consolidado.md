@@ -1,4 +1,4 @@
-# Historial de entrenamiento por fecha — 29 de mayo de 2026 al 8 de octubre de 2026 (92 sesiones)
+# Historial de entrenamiento por fecha — 29 de mayo de 2026 al 9 de octubre de 2026 (93 sesiones)
 
 Registro cronológico consolidado. Cada fila corresponde a una serie real copiada desde Hevy. Los volúmenes oficiales se conservan sin reemplazarlos por cálculos derivados.
 
@@ -2661,3 +2661,28 @@ Sesión de boulder por la tarde, después del entrenamiento de pierna de la mañ
 | 6 | Triceps Pushdown | 2 | 33,75 kg | 15 | — |
 | 6 | Triceps Pushdown | 3 | 33,75 kg | 15 | — |
 | 7 | Stair Machine (Floors) | 1 | Peso corporal (isométrico) | 600 s | — |
+
+## 9 Oct 2026 — Afternoon workout 💪
+
+<!-- hevy:002d27f6-6ba4-4ec1-8522-c51a8d146e93 -->
+**Hora:** 4:24 PM  
+**Duración:** 58m  
+**Volumen Hevy:** 6,991 kg  
+
+| Orden | Ejercicio | Serie | Carga | Reps/tiempo | RPE |
+|---:|---|---:|---:|---|---:|
+| 1 | Lat Pulldown (Cable) | 1 | 84,5 kg | 12 | 8,5 |
+| 1 | Lat Pulldown (Cable) | 2 | 84,5 kg | 10 | 9 |
+| 1 | Lat Pulldown (Cable) | 3 | 84,5 kg | 8 | 9,5 |
+| 2 | Pull Up | 1 | Peso corporal | 8 | 9 |
+| 2 | Pull Up | 2 | Peso corporal | 8 | 9 |
+| 2 | Pull Up | 3 | Peso corporal | 9 | 9,5 |
+| 3 | Iso-Lateral Row (Machine) | 1 | 80 kg | 8 | 9,5 |
+| 3 | Iso-Lateral Row (Machine) | 2 | 80 kg | 10 | 9 |
+| 3 | Iso-Lateral Row (Machine) | 3 | 80 kg | 10 | 9,5 |
+| 4 | Face Pull | 1 | 31,25 kg | 15 | 8 |
+| 4 | Face Pull | 2 | 31,25 kg | 15 | 8 |
+| 4 | Face Pull | 3 | 31,25 kg | 15 | 8 |
+| 5 | Behind the Back Curl (Cable) | 1 | 35 kg | 6 | 9 |
+| 5 | Behind the Back Curl (Cable) | 2 | 25 kg | 12 | 9 |
+| 5 | Behind the Back Curl (Cable) | 3 | 25 kg | 12 | 9 |

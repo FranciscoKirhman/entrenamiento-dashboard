@@ -5,23 +5,23 @@
   "MUSCLES": [
    {
     "name": "Femoral",
-    "recent": 8.2,
-    "hist": 4.6,
+    "recent": 7.0,
+    "hist": 4.5,
     "lo": 6,
     "hi": 10,
     "tier": "good",
-    "trend": 4.7,
+    "trend": 2.3,
     "note": "Curl acostado del domingo 13 y peso muerto rumano del 7. Sube desde 2,9, pero sigue bajo la banda: desde el 21 va dos días por semana, lunes y viernes.",
     "ex": "Romanian Deadlift, Lying/Seated Leg Curl"
    },
    {
     "name": "Tríceps",
-    "recent": 7.0,
-    "hist": 5.5,
+    "recent": 5.2,
+    "hist": 5.4,
     "lo": 6,
     "hi": 10,
-    "tier": "good",
-    "trend": 5.2,
+    "tier": "warning",
+    "trend": 1.8,
     "note": "Pushdown del 8 y extensión sobre la cabeza del 11. Justo bajo la banda; desde el 21 va el martes y el sábado.",
     "ex": "Triceps Pushdown, Overhead Extension"
    },
@@ -38,30 +38,30 @@
    },
    {
     "name": "Espalda",
-    "recent": 5.2,
-    "hist": 9.6,
+    "recent": 10.5,
+    "hist": 10.0,
     "lo": 12,
     "hi": 16,
-    "tier": "critical",
-    "trend": -1.8,
+    "tier": "warning",
+    "trend": 3.5,
     "note": "Jalón, remo y dominadas del 11, con jalón a 82 × 12 las tres. Con un solo día por semana no llega a la banda: desde el 21 el remo sentado pasa al viernes.",
     "ex": "Lat Pulldown, Seated Row, Iso-Lateral Row, Pull Up"
    },
    {
     "name": "Bíceps",
-    "recent": 3.5,
-    "hist": 6.0,
+    "recent": 5.2,
+    "hist": 6.1,
     "lo": 6,
     "hi": 10,
     "tier": "warning",
-    "trend": 1.8,
+    "trend": 3.5,
     "note": "Solo el Preacher del 11 cae en la ventana. Desde el 21: curl inclinado el jueves y martillo el sábado, además de lo que trabajan los remos.",
     "ex": "Incline Curl, Hammer Curl, Preacher Curl"
    },
    {
     "name": "Pecho",
     "recent": 10.5,
-    "hist": 10.0,
+    "hist": 9.9,
     "lo": 10,
     "hi": 14,
     "tier": "good",
@@ -71,12 +71,12 @@
    },
    {
     "name": "Hombro (empuje)",
-    "recent": 10.5,
+    "recent": 12.2,
     "hist": 11.3,
     "lo": 8,
     "hi": 12,
     "tier": "good",
-    "trend": 4.1,
+    "trend": 5.8,
     "note": "Sobre la banda con press, elevación lateral, Rear Delt y Face Pull. Desde el 21 el press militar descansa y el Rear Delt sale del plan.",
     "ex": "Shoulder Press, Lateral Raise, Face Pull"
    },
@@ -93,19 +93,19 @@
    },
    {
     "name": "Aductor / abductor",
-    "recent": 5.2,
+    "recent": 3.5,
     "hist": 3.6,
     "lo": 4,
     "hi": 8,
-    "tier": "good",
-    "trend": 3.5,
+    "tier": "warning",
+    "trend": 0.0,
     "note": "Aducción a 89 × 15 el 9 y el 13, siempre a RPE 7: en banda, pero con la carga corta. Sube a 94 el 23.",
     "ex": "Hip Adduction, Hip Abduction"
    },
    {
     "name": "Core",
     "recent": 8.8,
-    "hist": 7.1,
+    "hist": 7.0,
     "lo": 12,
     "hi": 22,
     "tier": "warning",
@@ -11373,6 +11373,10 @@
      {
       "d": "02 oct",
       "w": 84.5
+     },
+     {
+      "d": "09 oct",
+      "w": 84.5
      }
     ],
     "pattern": "meseta_oscilante",
@@ -11651,6 +11655,108 @@
    }
   ],
   "SESSIONS_FULL": [
+   {
+    "date": "2026-10-09",
+    "dlabel": "09 oct",
+    "title": "Afternoon workout 💪",
+    "hora": "4:24 PM",
+    "dur": "58m",
+    "vol": "6,991",
+    "com": null,
+    "rec": null,
+    "exercises": [
+     {
+      "ej": "Lat Pulldown (Cable)",
+      "carga": "84,5",
+      "reps": "12",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Lat Pulldown (Cable)",
+      "carga": "84,5",
+      "reps": "10",
+      "rpe": "9"
+     },
+     {
+      "ej": "Lat Pulldown (Cable)",
+      "carga": "84,5",
+      "reps": "8",
+      "rpe": "9,5"
+     },
+     {
+      "ej": "Pull Up",
+      "carga": "Peso corporal",
+      "reps": "8",
+      "rpe": "9"
+     },
+     {
+      "ej": "Pull Up",
+      "carga": "Peso corporal",
+      "reps": "8",
+      "rpe": "9"
+     },
+     {
+      "ej": "Pull Up",
+      "carga": "Peso corporal",
+      "reps": "9",
+      "rpe": "9,5"
+     },
+     {
+      "ej": "Iso-Lateral Row (Machine)",
+      "carga": "80",
+      "reps": "8",
+      "rpe": "9,5"
+     },
+     {
+      "ej": "Iso-Lateral Row (Machine)",
+      "carga": "80",
+      "reps": "10",
+      "rpe": "9"
+     },
+     {
+      "ej": "Iso-Lateral Row (Machine)",
+      "carga": "80",
+      "reps": "10",
+      "rpe": "9,5"
+     },
+     {
+      "ej": "Face Pull",
+      "carga": "31,25",
+      "reps": "15",
+      "rpe": "8"
+     },
+     {
+      "ej": "Face Pull",
+      "carga": "31,25",
+      "reps": "15",
+      "rpe": "8"
+     },
+     {
+      "ej": "Face Pull",
+      "carga": "31,25",
+      "reps": "15",
+      "rpe": "8"
+     },
+     {
+      "ej": "Behind the Back Curl (Cable)",
+      "carga": "35",
+      "reps": "6",
+      "rpe": "9"
+     },
+     {
+      "ej": "Behind the Back Curl (Cable)",
+      "carga": "25",
+      "reps": "12",
+      "rpe": "9"
+     },
+     {
+      "ej": "Behind the Back Curl (Cable)",
+      "carga": "25",
+      "reps": "12",
+      "rpe": "9"
+     }
+    ]
+   },
    {
     "date": "2026-10-08",
     "dlabel": "08 oct",
