@@ -1,4 +1,4 @@
-# Historial de entrenamiento por fecha — 29 de mayo de 2026 al 9 de octubre de 2026 (93 sesiones)
+# Historial de entrenamiento por fecha — 29 de mayo de 2026 al 13 de octubre de 2026 (94 sesiones)
 
 Registro cronológico consolidado. Cada fila corresponde a una serie real copiada desde Hevy. Los volúmenes oficiales se conservan sin reemplazarlos por cálculos derivados.
 
@@ -2686,3 +2686,30 @@ Sesión de boulder por la tarde, después del entrenamiento de pierna de la mañ
 | 5 | Behind the Back Curl (Cable) | 1 | 35 kg | 6 | 9 |
 | 5 | Behind the Back Curl (Cable) | 2 | 25 kg | 12 | 9 |
 | 5 | Behind the Back Curl (Cable) | 3 | 25 kg | 12 | 9 |
+
+## 13 Oct 2026 — Afternoon workout 💪
+
+<!-- hevy:f64515f6-8260-4d66-bc7b-72a22f4ddfcd -->
+**Hora:** 4:41 PM  
+**Duración:** 1h 18m  
+**Volumen Hevy:** 4,145 kg  
+**Comentario:** Se cae el cielo  
+
+| Orden | Ejercicio | Serie | Carga | Reps/tiempo | RPE |
+|---:|---|---:|---:|---|---:|
+| 1 | Shoulder Press (Dumbbell) | 1 | 24 kg | 10 | 6 |
+| 1 | Shoulder Press (Dumbbell) | 2 | 32 kg | 8 | 6 |
+| 1 | Shoulder Press (Dumbbell) | 3 | 32 kg | 8 | 6 |
+| 2 | Bench Press (Barbell) | 1 | 40 kg | 10 | 6 |
+| 2 | Bench Press (Barbell) | 2 | 70 kg | 8 | 6 |
+| 2 | Bench Press (Barbell) | 3 | 70 kg | 8 | 6 |
+| 3 | Incline Bench Press (Dumbbell) | 1 | 28 kg | 10 | 6 |
+| 3 | Incline Bench Press (Dumbbell) | 2 | 32 kg | 10 | 6 |
+| 3 | Incline Bench Press (Dumbbell) | 3 | 32 kg | 10 | 6 |
+| 4 | Single Arm Lateral Raise (Cable) | 1 | 7,5 kg | 12 | 7 |
+| 4 | Single Arm Lateral Raise (Cable) | 2 | 7,5 kg | 12 | 7 |
+| 5 | Overhead Triceps Extension (Cable) | 1 | 17,5 kg | 12 | 6 |
+| 5 | Overhead Triceps Extension (Cable) | 2 | 17,5 kg | 12 | 6 |
+| 6 | Cable Core Pallof Press | 1 | 12,5 kg | 15 | 6 |
+| 6 | Cable Core Pallof Press | 2 | 13,75 kg | 12 | 6 |
+| 7 | Stair Machine (Floors) | 1 | Peso corporal (isométrico) | 900 s | — |
