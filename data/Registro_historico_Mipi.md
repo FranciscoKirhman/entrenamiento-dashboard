@@ -1,4 +1,4 @@
-# Historial de entrenamiento de Paloma (Mipi) — 16 de enero al 30 de septiembre de 2026 (106 sesiones)
+# Historial de entrenamiento de Paloma (Mipi) — 16 de enero al 7 de octubre de 2026 (108 sesiones)
 
 Registro cronológico consolidado, mismo formato que el de Mopo. Cada fila corresponde a una serie real copiada desde Hevy. Los volúmenes oficiales se conservan sin reemplazarlos por cálculos derivados (excepto en sesiones con ejercicios asistidos o de solo-peso-corporal, donde Hevy suma un componente de peso corporal que no aparece en el texto copiado — el volumen mostrado sigue siendo el oficial de la app).
 
@@ -3245,3 +3245,65 @@ No hubo sesión de gimnasio este día (la pierna B se corrió al jueves 27). Sí
 - **Hip Thrust (Barbell):** En smith, no hay normal en rancagua, primera serie dolor en pubis, mejoró la 2da serie con doble cojin
 - **Deadlift (Smith Machine):** Hoy sin straps (los tiene el mopo en stgo), cuesta más el agarre que el peso, en segunda serie ya empezó a cagar el agarre
 - **Lying Leg Curl (Machine):** Justo esta está en libras.... después calculame cuanto sería en libras y kilos
+
+## 6 Oct 2026 — Piernas 🍗
+
+<!-- hevy:web-IXLWc8PU04V -->
+**Hora:** 7:58 PM  
+**Duración:** 1h 24m  
+**Volumen Hevy:** 9,165 kg  
+**Comentario:** Se hizo lo que se pudo, te odio smartfit de rancagua  
+
+| Orden | Ejercicio | Serie | Carga | Reps/tiempo | RPE |
+|---:|---|---:|---:|---|---:|
+| 1 | Leg Press (Machine) | 1 | 40 kg | 12 | 6 |
+| 1 | Leg Press (Machine) | 2 | 80 kg | 8 | 7 |
+| 1 | Leg Press (Machine) | 3 | 110 kg | 11 | 8 |
+| 1 | Leg Press (Machine) | 4 | 110 kg | 10 | 8 |
+| 1 | Leg Press (Machine) | 5 | 110 kg | 12 | 8,5 |
+| 2 | Squat (Barbell) | 1 | Peso corporal | 12 | 6 |
+| 2 | Squat (Barbell) | 2 | 30 kg | 10 | 7 |
+| 2 | Squat (Barbell) | 3 | 30 kg | 10 | 8 |
+| 2 | Squat (Barbell) | 4 | 30 kg | 10 | 8 |
+| 3 | Standing Cable Glute Kickbacks | 1 | 20 kg | 15 | 7 |
+| 3 | Standing Cable Glute Kickbacks | 2 | 25 kg | 15 | 7 |
+| 3 | Standing Cable Glute Kickbacks | 3 | 25 kg | 15 | 8 |
+| 4 | Hip Adduction (Machine) | 1 | 65 kg | 15 | 8 |
+| 4 | Hip Adduction (Machine) | 2 | 65 kg | 10 | 8 |
+| 4 | Hip Adduction (Machine) | 3 | 60 kg | 14 | 9,5 |
+
+**Notas por ejercicio:**
+- **Squat (Barbell):** Dolor lumbar! A
+- **Standing Cable Glute Kickbacks:** No habia, reemplacé por máquina de patadas, que pesa menos, se siente más cuad, pero si me agacho y abduzco el pie kind off funciona😭 cuando calcules
+
+## 7 Oct 2026 — 🚂 🔝
+
+<!-- hevy:web-hJtOYHhz25r -->
+**Hora:** 8:42 PM  
+**Duración:** 58m  
+**Volumen Hevy:** 2,783 kg  
+
+| Orden | Ejercicio | Serie | Carga | Reps/tiempo | RPE |
+|---:|---|---:|---:|---|---:|
+| 1 | Seated Row (Machine) | 1 | 15 kg | 12 | 6 |
+| 1 | Seated Row (Machine) | 2 | 32,5 kg | 10 | 8 |
+| 1 | Seated Row (Machine) | 3 | 32,5 kg | 10 | 8 |
+| 1 | Seated Row (Machine) | 4 | 32,5 kg | 9 | 8 |
+| 2 | Bench Press (Barbell) | 1 | 20 kg | 9 | 7 |
+| 2 | Bench Press (Barbell) | 2 | 25 kg | 6 | 7 |
+| 2 | Bench Press (Barbell) | 3 | 25 kg | 7 | 9 |
+| 2 | Bench Press (Barbell) | 4 | 20 kg | 10 | 8,5 |
+| 3 | Shoulder Press (Dumbbell) | 1 | 2 kg | 10 | 6 |
+| 3 | Shoulder Press (Dumbbell) | 2 | 6 kg | 10 | 7 |
+| 3 | Shoulder Press (Dumbbell) | 3 | 6 kg | 9 | 7 |
+| 3 | Shoulder Press (Dumbbell) | 4 | 6 kg | 10 | 8 |
+| 4 | Bicep Curl (Dumbbell) | 1 | 6 kg | 8 | 8 |
+| 4 | Bicep Curl (Dumbbell) | 2 | 5 kg | 10 | 8,5 |
+| 4 | Bicep Curl (Dumbbell) | 3 | 5 kg | 10 | 8,5 |
+| 5 | Face Pull | 1 | 16,8 kg | 12 | 7 |
+| 5 | Face Pull | 2 | 16,8 kg | 12 | 7,5 |
+| 5 | Face Pull | 3 | 17,5 kg | 12 | 8,5 |
+
+**Notas por ejercicio:**
+- **Shoulder Press (Dumbbell):** 6 por ladoo
+- **Bicep Curl (Dumbbell):** Banquito inclinado

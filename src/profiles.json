@@ -22473,111 +22473,111 @@
   "MUSCLES": [
    {
     "name": "Glúteo / cadera",
-    "recent": 7.0,
-    "hist": 5.6,
+    "recent": 4.1,
+    "hist": 5.5,
     "lo": 10,
     "hi": 16,
-    "tier": "warning",
-    "trend": 1.8,
+    "tier": "critical",
+    "trend": -0.6,
     "note": "Hip thrust del 8, y kickback y máquina de glúteo del 13. Sube desde 1,8 pero va a la mitad de la banda: desde el 21 hay glúteo el lunes, el miércoles y el sábado opcional.",
     "ex": "Hip Thrust, Glute Kickback, máquina de glúteo"
    },
    {
     "name": "Cuádriceps",
-    "recent": 5.8,
+    "recent": 9.9,
     "hist": 8.0,
     "lo": 8,
     "hi": 14,
-    "tier": "warning",
-    "trend": 0.6,
+    "tier": "good",
+    "trend": 9.9,
     "note": "Prensa a 105 × 12 las tres el 2 y el 13, y búlgaro el 8. Dentro de banda sin la Leg Extension.",
     "ex": "Leg Press, Bulgarian Split Squat, Squat"
    },
    {
     "name": "Femoral",
-    "recent": 3.5,
+    "recent": 1.8,
     "hist": 2.4,
     "lo": 6,
     "hi": 10,
-    "tier": "warning",
+    "tier": "critical",
     "trend": 0.0,
     "note": "Curl sentado del 8 y curl acostado del 13. Desde el 21 el lunes suma el peso muerto rumano en Smith.",
     "ex": "Lying/Seated Leg Curl, RDL"
    },
    {
     "name": "Aductor / abductor",
-    "recent": 1.8,
+    "recent": 3.5,
     "hist": 2.7,
     "lo": 6,
     "hi": 12,
-    "tier": "critical",
-    "trend": 0.0,
+    "tier": "warning",
+    "trend": 3.5,
     "note": "Abducción del 8; la aducción no aparece desde el 2. Desde el 21 la aducción va el miércoles.",
     "ex": "Hip Abduction, Hip Adduction"
    },
    {
     "name": "Core",
-    "recent": 7.0,
-    "hist": 5.9,
+    "recent": 1.8,
+    "hist": 5.8,
     "lo": 12,
     "hi": 24,
-    "tier": "warning",
-    "trend": -1.8,
+    "tier": "critical",
+    "trend": -3.5,
     "note": "Sobre la banda: plancha lateral, crunch inverso y dead bug casi todos los días. Por eso el viernes no lleva core.",
     "ex": "Side Plank, Reverse Crunch, Dead Bug"
    },
    {
     "name": "Espalda",
-    "recent": 3.5,
+    "recent": 1.8,
     "hist": 4.5,
     "lo": 8,
     "hi": 14,
     "tier": "critical",
-    "trend": 0.0,
+    "trend": -1.8,
     "note": "Jalón y remo a 28,5 kg el 11, sin molestias de codo. Casi en banda con un solo día de tren superior.",
     "ex": "Lat Pulldown, Seated Row"
    },
    {
     "name": "Pecho",
-    "recent": 2.9,
-    "hist": 2.3,
+    "recent": 2.3,
+    "hist": 2.4,
     "lo": 4,
     "hi": 10,
     "tier": "warning",
-    "trend": 1.2,
+    "trend": -0.6,
     "note": "Press banca con barra a 17,5 kg el 11. Desde el 21 se suma el Chest Fly del jueves opcional.",
     "ex": "Bench Press, Chest Fly"
    },
    {
     "name": "Hombro",
-    "recent": 7.0,
-    "hist": 3.6,
+    "recent": 3.5,
+    "hist": 3.7,
     "lo": 4,
     "hi": 10,
-    "tier": "good",
-    "trend": 4.1,
+    "tier": "warning",
+    "trend": -3.5,
     "note": "Press con mancuernas y elevación lateral del 11. Dentro de banda.",
     "ex": "Shoulder Press, Lateral Raise, Face Pull"
    },
    {
     "name": "Bíceps",
     "recent": 1.8,
-    "hist": 1.6,
+    "hist": 1.7,
     "lo": 3,
     "hi": 8,
     "tier": "warning",
-    "trend": 1.2,
+    "trend": 0.0,
     "note": "Curl con mancuernas del 4 y del 11, sin molestias de codo.",
     "ex": "Bicep Curl"
    },
    {
     "name": "Tríceps",
-    "recent": 2.9,
+    "recent": 0.0,
     "hist": 1.5,
     "lo": 3,
     "hi": 8,
-    "tier": "warning",
-    "trend": 1.8,
+    "tier": "critical",
+    "trend": -2.9,
     "note": "Extensión sobre la cabeza del 3 y del 11: ya entró, sin molestias de codo.",
     "ex": "Overhead Extension"
    }
@@ -32323,6 +32323,10 @@
      {
       "d": "27 sep",
       "w": 110.0
+     },
+     {
+      "d": "06 oct",
+      "w": 110.0
      }
     ],
     "change": "Bajó a 105 kg por el tirón en la inserción del cuádriceps. El 13 de septiembre, 105 × 12 las tres a RPE 7,5-8, más fácil que el 2. Sube a 110 el 23.",
@@ -32475,6 +32479,10 @@
      {
       "d": "13 sep",
       "w": 23.0
+     },
+     {
+      "d": "06 oct",
+      "w": 25.0
      }
     ],
     "change": "Bajó a 23 kg a propósito por la compensación de espalda a 27. El 13 de septiembre, 23 × 12 las tres con el pie de apoyo a 45°.",
@@ -32661,6 +32669,10 @@
      {
       "d": "27 sep",
       "w": 25.0
+     },
+     {
+      "d": "06 oct",
+      "w": 30.0
      }
     ],
     "change": "Vuelve desde la técnica: 25 kg × 12 el 31 de agosto y el 8 de septiembre. Lo que progresa es la profundidad con la espalda neutra.",
@@ -32711,6 +32723,10 @@
      {
       "d": "02 sep",
       "w": 63.5
+     },
+     {
+      "d": "06 oct",
+      "w": 65.0
      }
     ],
     "change": "63,5 kg × 15 el 29 de agosto y el 2 de septiembre, a RPE 7,5-8. Vuelve el miércoles 23.",
@@ -32718,6 +32734,228 @@
    }
   ],
   "SESSIONS_FULL": [
+   {
+    "date": "2026-10-07",
+    "dlabel": "07 oct",
+    "title": "🚂 🔝",
+    "hora": "8:42 PM",
+    "dur": "58m",
+    "vol": "2,783",
+    "com": null,
+    "rec": null,
+    "exercises": [
+     {
+      "ej": "Seated Row (Machine)",
+      "carga": "15",
+      "reps": "12",
+      "rpe": "6"
+     },
+     {
+      "ej": "Seated Row (Machine)",
+      "carga": "32,5",
+      "reps": "10",
+      "rpe": "8"
+     },
+     {
+      "ej": "Seated Row (Machine)",
+      "carga": "32,5",
+      "reps": "10",
+      "rpe": "8"
+     },
+     {
+      "ej": "Seated Row (Machine)",
+      "carga": "32,5",
+      "reps": "9",
+      "rpe": "8"
+     },
+     {
+      "ej": "Bench Press (Barbell)",
+      "carga": "20",
+      "reps": "9",
+      "rpe": "7"
+     },
+     {
+      "ej": "Bench Press (Barbell)",
+      "carga": "25",
+      "reps": "6",
+      "rpe": "7"
+     },
+     {
+      "ej": "Bench Press (Barbell)",
+      "carga": "25",
+      "reps": "7",
+      "rpe": "9"
+     },
+     {
+      "ej": "Bench Press (Barbell)",
+      "carga": "20",
+      "reps": "10",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Shoulder Press (Dumbbell)",
+      "carga": "2",
+      "reps": "10",
+      "rpe": "6"
+     },
+     {
+      "ej": "Shoulder Press (Dumbbell)",
+      "carga": "6",
+      "reps": "10",
+      "rpe": "7"
+     },
+     {
+      "ej": "Shoulder Press (Dumbbell)",
+      "carga": "6",
+      "reps": "9",
+      "rpe": "7"
+     },
+     {
+      "ej": "Shoulder Press (Dumbbell)",
+      "carga": "6",
+      "reps": "10",
+      "rpe": "8"
+     },
+     {
+      "ej": "Bicep Curl (Dumbbell)",
+      "carga": "6",
+      "reps": "8",
+      "rpe": "8"
+     },
+     {
+      "ej": "Bicep Curl (Dumbbell)",
+      "carga": "5",
+      "reps": "10",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Bicep Curl (Dumbbell)",
+      "carga": "5",
+      "reps": "10",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Face Pull",
+      "carga": "16,8",
+      "reps": "12",
+      "rpe": "7"
+     },
+     {
+      "ej": "Face Pull",
+      "carga": "16,8",
+      "reps": "12",
+      "rpe": "7,5"
+     },
+     {
+      "ej": "Face Pull",
+      "carga": "17,5",
+      "reps": "12",
+      "rpe": "8,5"
+     }
+    ]
+   },
+   {
+    "date": "2026-10-06",
+    "dlabel": "06 oct",
+    "title": "Piernas 🍗",
+    "hora": "7:58 PM",
+    "dur": "1h 24m",
+    "vol": "9,165",
+    "com": "Se hizo lo que se pudo, te odio smartfit de rancagua",
+    "rec": null,
+    "exercises": [
+     {
+      "ej": "Leg Press (Machine)",
+      "carga": "40",
+      "reps": "12",
+      "rpe": "6"
+     },
+     {
+      "ej": "Leg Press (Machine)",
+      "carga": "80",
+      "reps": "8",
+      "rpe": "7"
+     },
+     {
+      "ej": "Leg Press (Machine)",
+      "carga": "110",
+      "reps": "11",
+      "rpe": "8"
+     },
+     {
+      "ej": "Leg Press (Machine)",
+      "carga": "110",
+      "reps": "10",
+      "rpe": "8"
+     },
+     {
+      "ej": "Leg Press (Machine)",
+      "carga": "110",
+      "reps": "12",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Squat (Barbell)",
+      "carga": "Peso corporal",
+      "reps": "12",
+      "rpe": "6"
+     },
+     {
+      "ej": "Squat (Barbell)",
+      "carga": "30",
+      "reps": "10",
+      "rpe": "7"
+     },
+     {
+      "ej": "Squat (Barbell)",
+      "carga": "30",
+      "reps": "10",
+      "rpe": "8"
+     },
+     {
+      "ej": "Squat (Barbell)",
+      "carga": "30",
+      "reps": "10",
+      "rpe": "8"
+     },
+     {
+      "ej": "Standing Cable Glute Kickbacks",
+      "carga": "20",
+      "reps": "15",
+      "rpe": "7"
+     },
+     {
+      "ej": "Standing Cable Glute Kickbacks",
+      "carga": "25",
+      "reps": "15",
+      "rpe": "7"
+     },
+     {
+      "ej": "Standing Cable Glute Kickbacks",
+      "carga": "25",
+      "reps": "15",
+      "rpe": "8"
+     },
+     {
+      "ej": "Hip Adduction (Machine)",
+      "carga": "65",
+      "reps": "15",
+      "rpe": "8"
+     },
+     {
+      "ej": "Hip Adduction (Machine)",
+      "carga": "65",
+      "reps": "10",
+      "rpe": "8"
+     },
+     {
+      "ej": "Hip Adduction (Machine)",
+      "carga": "60",
+      "reps": "14",
+      "rpe": "9,5"
+     }
+    ]
+   },
    {
     "date": "2026-09-30",
     "dlabel": "30 sep",
