@@ -1,4 +1,4 @@
-# Historial de entrenamiento por fecha — 29 de mayo de 2026 al 13 de octubre de 2026 (94 sesiones)
+# Historial de entrenamiento por fecha — 29 de mayo de 2026 al 14 de octubre de 2026 (95 sesiones)
 
 Registro cronológico consolidado. Cada fila corresponde a una serie real copiada desde Hevy. Los volúmenes oficiales se conservan sin reemplazarlos por cálculos derivados.
 
@@ -2713,3 +2713,26 @@ Sesión de boulder por la tarde, después del entrenamiento de pierna de la mañ
 | 6 | Cable Core Pallof Press | 1 | 12,5 kg | 15 | 6 |
 | 6 | Cable Core Pallof Press | 2 | 13,75 kg | 12 | 6 |
 | 7 | Stair Machine (Floors) | 1 | Peso corporal (isométrico) | 900 s | — |
+
+## 14 Oct 2026 — Afternoon workout 💪
+
+<!-- hevy:52478595-f54b-4bd3-994a-7d0774aba352 -->
+**Hora:** 1:56 PM  
+**Duración:** 1h 35m  
+**Volumen Hevy:** 9,022 kg  
+**Comentario:** Sunny day  
+
+| Orden | Ejercicio | Serie | Carga | Reps/tiempo | RPE |
+|---:|---|---:|---:|---|---:|
+| 1 | Squat (Barbell) | 1 | 20 kg | 12 | 6 |
+| 1 | Squat (Barbell) | 2 | 60 kg | 6 | 6 |
+| 1 | Squat (Barbell) | 3 | 75 kg | 6 | 6 |
+| 1 | Squat (Barbell) | 4 | 75 kg | 6 | 6 |
+| 2 | Leg Extension (Machine) | 1 | 54 kg | 12 | 8 |
+| 2 | Leg Extension (Machine) | 2 | 52 kg | 12 | 7,5 |
+| 3 | Hip Adduction (Machine) | 1 | 75 kg | 15 | 6 |
+| 3 | Hip Adduction (Machine) | 2 | 75 kg | 15 | 7,5 |
+| 4 | Leg Press (Machine) | 1 | 100 kg | 10 | — |
+| 4 | Leg Press (Machine) | 2 | 150 kg | 10 | 6 |
+| 4 | Leg Press (Machine) | 3 | 150 kg | 10 | 6 |
+| 5 | Stair Machine (Floors) | 1 | Peso corporal (isométrico) | 996 s | — |

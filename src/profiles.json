@@ -17,7 +17,7 @@
    {
     "name": "Tríceps",
     "recent": 3.5,
-    "hist": 5.3,
+    "hist": 5.2,
     "lo": 6,
     "hi": 10,
     "tier": "warning",
@@ -38,23 +38,23 @@
    },
    {
     "name": "Espalda",
-    "recent": 10.5,
+    "recent": 5.2,
     "hist": 9.7,
     "lo": 12,
     "hi": 16,
-    "tier": "warning",
-    "trend": 3.5,
+    "tier": "critical",
+    "trend": -7.0,
     "note": "Jalón, remo y dominadas del 11, con jalón a 82 × 12 las tres. Con un solo día por semana no llega a la banda: desde el 21 el remo sentado pasa al viernes.",
     "ex": "Lat Pulldown, Seated Row, Iso-Lateral Row, Pull Up"
    },
    {
     "name": "Bíceps",
-    "recent": 5.2,
+    "recent": 3.5,
     "hist": 5.9,
     "lo": 6,
     "hi": 10,
     "tier": "warning",
-    "trend": 3.5,
+    "trend": 0.0,
     "note": "Solo el Preacher del 11 cae en la ventana. Desde el 21: curl inclinado el jueves y martillo el sábado, además de lo que trabajan los remos.",
     "ex": "Incline Curl, Hammer Curl, Preacher Curl"
    },
@@ -71,41 +71,41 @@
    },
    {
     "name": "Hombro (empuje)",
-    "recent": 9.9,
-    "hist": 11.1,
+    "recent": 8.2,
+    "hist": 11.0,
     "lo": 8,
     "hi": 12,
     "tier": "good",
-    "trend": 0.0,
+    "trend": -3.5,
     "note": "Sobre la banda con press, elevación lateral, Rear Delt y Face Pull. Desde el 21 el press militar descansa y el Rear Delt sale del plan.",
     "ex": "Shoulder Press, Lateral Raise, Face Pull"
    },
    {
     "name": "Cuádriceps",
-    "recent": 1.8,
+    "recent": 2.9,
     "hist": 7.7,
     "lo": 10,
     "hi": 14,
     "tier": "critical",
-    "trend": -8.8,
+    "trend": -7.6,
     "note": "Sentadilla a 90 × 8 las tres y prensa a 180 × 12 el 9. Al borde de la banda con un solo día de cuádriceps.",
     "ex": "Squat, Leg Press, Leg Extension"
    },
    {
     "name": "Aductor / abductor",
-    "recent": 1.8,
+    "recent": 2.3,
     "hist": 3.5,
     "lo": 4,
     "hi": 8,
-    "tier": "critical",
-    "trend": -3.5,
+    "tier": "warning",
+    "trend": -2.9,
     "note": "Aducción a 89 × 15 el 9 y el 13, siempre a RPE 7: en banda, pero con la carga corta. Sube a 94 el 23.",
     "ex": "Hip Adduction, Hip Abduction"
    },
    {
     "name": "Core",
     "recent": 3.5,
-    "hist": 6.8,
+    "hist": 6.7,
     "lo": 12,
     "hi": 22,
     "tier": "critical",
@@ -11205,6 +11205,10 @@
      {
       "d": "08 oct",
       "w": 95.0
+     },
+     {
+      "d": "14 oct",
+      "w": 75.0
      }
     ],
     "pattern": "meseta_oscilante",
@@ -11583,6 +11587,10 @@
      {
       "d": "08 oct",
       "w": 180.0
+     },
+     {
+      "d": "14 oct",
+      "w": 150.0
      }
     ],
     "pattern": "meseta_oscilante",
@@ -11663,6 +11671,90 @@
    }
   ],
   "SESSIONS_FULL": [
+   {
+    "date": "2026-10-14",
+    "dlabel": "14 oct",
+    "title": "Afternoon workout 💪",
+    "hora": "1:56 PM",
+    "dur": "1h 35m",
+    "vol": "9,022",
+    "com": "Sunny day",
+    "rec": null,
+    "exercises": [
+     {
+      "ej": "Squat (Barbell)",
+      "carga": "20",
+      "reps": "12",
+      "rpe": "6"
+     },
+     {
+      "ej": "Squat (Barbell)",
+      "carga": "60",
+      "reps": "6",
+      "rpe": "6"
+     },
+     {
+      "ej": "Squat (Barbell)",
+      "carga": "75",
+      "reps": "6",
+      "rpe": "6"
+     },
+     {
+      "ej": "Squat (Barbell)",
+      "carga": "75",
+      "reps": "6",
+      "rpe": "6"
+     },
+     {
+      "ej": "Leg Extension (Machine)",
+      "carga": "54",
+      "reps": "12",
+      "rpe": "8"
+     },
+     {
+      "ej": "Leg Extension (Machine)",
+      "carga": "52",
+      "reps": "12",
+      "rpe": "7,5"
+     },
+     {
+      "ej": "Hip Adduction (Machine)",
+      "carga": "75",
+      "reps": "15",
+      "rpe": "6"
+     },
+     {
+      "ej": "Hip Adduction (Machine)",
+      "carga": "75",
+      "reps": "15",
+      "rpe": "7,5"
+     },
+     {
+      "ej": "Leg Press (Machine)",
+      "carga": "100",
+      "reps": "10",
+      "rpe": "—"
+     },
+     {
+      "ej": "Leg Press (Machine)",
+      "carga": "150",
+      "reps": "10",
+      "rpe": "6"
+     },
+     {
+      "ej": "Leg Press (Machine)",
+      "carga": "150",
+      "reps": "10",
+      "rpe": "6"
+     },
+     {
+      "ej": "Stair Machine (Floors)",
+      "carga": "Peso corporal (isométrico)",
+      "reps": "996 s",
+      "rpe": "—"
+     }
+    ]
+   },
    {
     "date": "2026-10-13",
     "dlabel": "13 oct",
