@@ -120,19 +120,19 @@ Registro cronológico consolidado. Cada fila corresponde a una serie real copiad
 | 3 | Seated Incline Curl (Dumbbell) | 1 | 24 kg | 10 | 9,5 |
 | 3 | Seated Incline Curl (Dumbbell) | 2 | 24 kg | 11 | 9,5 |
 | 3 | Seated Incline Curl (Dumbbell) | 3 | 24 kg | 9 | 10 |
-| 3 | Seated Incline Curl (Dumbbell) | 4 | 61 kg | 12 | 8,5 |
-| 3 | Seated Incline Curl (Dumbbell) | 5 | 68 kg | 12 | 9,5 |
-| 3 | Seated Incline Curl (Dumbbell) | 6 | 68 kg | 12 | 9,5 |
-| 4 | Lat Pulldown - Close Grip (Cable) | 1 | 70.5 kg | 12 | 8,5 |
-| 4 | Lat Pulldown - Close Grip (Cable) | 2 | 73 kg | 12 | 9 |
-| 4 | Lat Pulldown - Close Grip (Cable) | 3 | 73 kg | 12 | 9 |
-| 5 | Shrug (Dumbbell) | 1 | 60 kg | 15 | 8 |
-| 5 | Shrug (Dumbbell) | 2 | 60 kg | 15 | 8 |
-| 5 | Shrug (Dumbbell) | 3 | 60 kg | 15 | 8 |
-| 6 | Back Extension (Machine) | 1 | 68 kg | 13 | 9 |
-| 6 | Back Extension (Machine) | 2 | 68 kg | 12 | 9,5 |
-| 6 | Back Extension (Machine) | 3 | 68 kg | 9 | 10 |
-| 7 | Stair Machine (Floors) | 1 | — | 30 pisos / 10m 0s | — |
+| 4 | Iso-Lateral Low Row | 1 | 61 kg | 12 | 8,5 |
+| 4 | Iso-Lateral Low Row | 2 | 68 kg | 12 | 9,5 |
+| 4 | Iso-Lateral Low Row | 3 | 68 kg | 12 | 9,5 |
+| 5 | Lat Pulldown - Close Grip (Cable) | 1 | 70.5 kg | 12 | 8,5 |
+| 5 | Lat Pulldown - Close Grip (Cable) | 2 | 73 kg | 12 | 9 |
+| 5 | Lat Pulldown - Close Grip (Cable) | 3 | 73 kg | 12 | 9 |
+| 6 | Shrug (Dumbbell) | 1 | 60 kg | 15 | 8 |
+| 6 | Shrug (Dumbbell) | 2 | 60 kg | 15 | 8 |
+| 6 | Shrug (Dumbbell) | 3 | 60 kg | 15 | 8 |
+| 7 | Back Extension (Machine) | 1 | 68 kg | 13 | 9 |
+| 7 | Back Extension (Machine) | 2 | 68 kg | 12 | 9,5 |
+| 7 | Back Extension (Machine) | 3 | 68 kg | 9 | 10 |
+| 8 | Stair Machine (Floors) | 1 | — | 30 pisos / 10m 0s | — |
 
 ## 5 Jun 2026 — Upper
 
@@ -298,6 +298,7 @@ Registro cronológico consolidado. Cada fila corresponde a una serie real copiad
 | 5 | Chest Fly (Machine) | 1 | 63.5 kg | 9 | 9,5 |
 | 5 | Chest Fly (Machine) | 2 | 54 kg | 11 | 9 |
 | 5 | Chest Fly (Machine) | 3 | 54 kg | 9 | 10 |
+| 6 | Treadmill | 1 | Peso corporal (isométrico) | 900 s | — |
 
 ## 17 Jun 2026 — Pull
 
@@ -556,8 +557,10 @@ Registro cronológico consolidado. Cada fila corresponde a una serie real copiad
 | 6 | Face Pull | 1 | 22.5 kg | 15 | 9 |
 | 6 | Face Pull | 2 | 22.5 kg | 15 | 9 |
 | 6 | Face Pull | 3 | 22.5 kg | 15 | 9 |
-| 7 | Lying Leg Raise | 1 | Peso corporal | 15 | 9 |
-| 7 | Lying Leg Raise | 2 | Peso corporal | 15 | 9,5 |
+| 7 | Plank | 1 | Peso corporal (isométrico) | 1 min 15 s | — |
+| 7 | Plank | 2 | Peso corporal (isométrico) | 1 min 8 s | — |
+| 8 | Lying Leg Raise | 1 | Peso corporal | 15 | 9 |
+| 8 | Lying Leg Raise | 2 | Peso corporal | 15 | 9,5 |
 
 ## 30 Jun 2026 — Afternoon workout 💪
 
@@ -996,10 +999,10 @@ Registro cronológico consolidado. Cada fila corresponde a una serie real copiad
 | 6 | Bicep Curl (Dumbbell) | 1 | 32 kg | 12 | 9 |
 | 6 | Bicep Curl (Dumbbell) | 2 | 32 kg | 12 | 9 |
 | 6 | Bicep Curl (Dumbbell) | 3 | 32 kg | 13 | 9 |
-| 6 | Bicep Curl (Dumbbell) | 4 | 24 kg | 15 | 9 |
-| 6 | Bicep Curl (Dumbbell) | 5 | 24 kg | 15 | 9 |
-| 6 | Bicep Curl (Dumbbell) | 6 | 32 kg | 6 | 9 |
-| 6 | Bicep Curl (Dumbbell) | 7 | 32 kg | 8 | 10 |
+| 7 | Seated Palms Up Wrist Curl | 1 | 24 kg | 15 | 9 |
+| 7 | Seated Palms Up Wrist Curl | 2 | 24 kg | 15 | 9 |
+| 7 | Seated Palms Up Wrist Curl | 3 | 32 kg | 6 | 9 |
+| 7 | Seated Palms Up Wrist Curl | 4 | 32 kg | 8 | 10 |
 
 ## 25 Jul 2026 — Push
 
@@ -1164,6 +1167,7 @@ Registro cronológico consolidado. Cada fila corresponde a una serie real copiad
 
 ## 1 Aug 2026 — Legs
 
+**Hora:** 1:10 PM  
 **Duración:** 2h 33m  
 **Volumen Hevy:** 11,234 kg  
 

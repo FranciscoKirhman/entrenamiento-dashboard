@@ -50,7 +50,7 @@
    {
     "name": "Bíceps",
     "recent": 3.5,
-    "hist": 5.8,
+    "hist": 5.5,
     "lo": 6,
     "hi": 10,
     "tier": "warning",
@@ -105,7 +105,7 @@
    {
     "name": "Core",
     "recent": 3.5,
-    "hist": 6.7,
+    "hist": 6.8,
     "lo": 12,
     "hi": 22,
     "tier": "critical",
@@ -17630,7 +17630,7 @@
     "date": "2026-08-01",
     "dlabel": "01 ago",
     "title": "Legs",
-    "hora": null,
+    "hora": "1:10 PM",
     "dur": "2h 33m",
     "vol": "11,234",
     "com": null,
@@ -18543,25 +18543,25 @@
       "rpe": "9"
      },
      {
-      "ej": "Bicep Curl (Dumbbell)",
+      "ej": "Seated Palms Up Wrist Curl",
       "carga": "24",
       "reps": "15",
       "rpe": "9"
      },
      {
-      "ej": "Bicep Curl (Dumbbell)",
+      "ej": "Seated Palms Up Wrist Curl",
       "carga": "24",
       "reps": "15",
       "rpe": "9"
      },
      {
-      "ej": "Bicep Curl (Dumbbell)",
+      "ej": "Seated Palms Up Wrist Curl",
       "carga": "32",
       "reps": "6",
       "rpe": "9"
      },
      {
-      "ej": "Bicep Curl (Dumbbell)",
+      "ej": "Seated Palms Up Wrist Curl",
       "carga": "32",
       "reps": "8",
       "rpe": "10"
@@ -20499,6 +20499,18 @@
       "rpe": "9"
      },
      {
+      "ej": "Plank",
+      "carga": "Peso corporal (isométrico)",
+      "reps": "1 min 15 s",
+      "rpe": "—"
+     },
+     {
+      "ej": "Plank",
+      "carga": "Peso corporal (isométrico)",
+      "reps": "1 min 8 s",
+      "rpe": "—"
+     },
+     {
       "ej": "Lying Leg Raise",
       "carga": "Peso corporal",
       "reps": "15",
@@ -21583,6 +21595,12 @@
       "carga": "54",
       "reps": "9",
       "rpe": "10"
+     },
+     {
+      "ej": "Treadmill",
+      "carga": "Peso corporal (isométrico)",
+      "reps": "900 s",
+      "rpe": "—"
      }
     ]
    },
@@ -22227,19 +22245,19 @@
       "rpe": "10"
      },
      {
-      "ej": "Seated Incline Curl (Dumbbell)",
+      "ej": "Iso-Lateral Low Row",
       "carga": "61",
       "reps": "12",
       "rpe": "8,5"
      },
      {
-      "ej": "Seated Incline Curl (Dumbbell)",
+      "ej": "Iso-Lateral Low Row",
       "carga": "68",
       "reps": "12",
       "rpe": "9,5"
      },
      {
-      "ej": "Seated Incline Curl (Dumbbell)",
+      "ej": "Iso-Lateral Low Row",
       "carga": "68",
       "reps": "12",
       "rpe": "9,5"
