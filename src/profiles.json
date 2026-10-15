@@ -6,7 +6,7 @@
    {
     "name": "Femoral",
     "recent": 3.5,
-    "hist": 4.4,
+    "hist": 4.3,
     "lo": 6,
     "hi": 10,
     "tier": "warning",
@@ -28,7 +28,7 @@
    {
     "name": "Glúteo / cadera",
     "recent": 3.5,
-    "hist": 3.7,
+    "hist": 3.6,
     "lo": 8,
     "hi": 12,
     "tier": "critical",
@@ -38,19 +38,19 @@
    },
    {
     "name": "Espalda",
-    "recent": 5.2,
-    "hist": 9.7,
+    "recent": 8.8,
+    "hist": 9.9,
     "lo": 12,
     "hi": 16,
-    "tier": "critical",
-    "trend": -7.0,
+    "tier": "warning",
+    "trend": 1.8,
     "note": "Jalón, remo y dominadas del 11, con jalón a 82 × 12 las tres. Con un solo día por semana no llega a la banda: desde el 21 el remo sentado pasa al viernes.",
     "ex": "Lat Pulldown, Seated Row, Iso-Lateral Row, Pull Up"
    },
    {
     "name": "Bíceps",
     "recent": 3.5,
-    "hist": 5.9,
+    "hist": 5.8,
     "lo": 6,
     "hi": 10,
     "tier": "warning",
@@ -61,7 +61,7 @@
    {
     "name": "Pecho",
     "recent": 7.0,
-    "hist": 9.6,
+    "hist": 9.5,
     "lo": 10,
     "hi": 14,
     "tier": "warning",
@@ -72,7 +72,7 @@
    {
     "name": "Hombro (empuje)",
     "recent": 8.2,
-    "hist": 11.0,
+    "hist": 10.9,
     "lo": 8,
     "hi": 12,
     "tier": "good",
@@ -109,7 +109,7 @@
     "lo": 12,
     "hi": 22,
     "tier": "critical",
-    "trend": -8.8,
+    "trend": -5.2,
     "note": "Pallof, crunch inverso, elevación de rodillas y plancha lateral: dentro de banda.",
     "ex": "Cable Crunch, Pallof Press, Reverse Crunch, Side Plank"
    }
@@ -11385,6 +11385,10 @@
      {
       "d": "09 oct",
       "w": 84.5
+     },
+     {
+      "d": "15 oct",
+      "w": 70.5
      }
     ],
     "pattern": "meseta_oscilante",
@@ -11671,6 +11675,90 @@
    }
   ],
   "SESSIONS_FULL": [
+   {
+    "date": "2026-10-15",
+    "dlabel": "15 oct",
+    "title": "Morning workout ☀️",
+    "hora": "11:13 AM",
+    "dur": "1h 2m",
+    "vol": "4,821",
+    "com": "TE VAS A COMER TODO ESO????!!!",
+    "rec": null,
+    "exercises": [
+     {
+      "ej": "Lat Pulldown (Cable)",
+      "carga": "61",
+      "reps": "12",
+      "rpe": "6"
+     },
+     {
+      "ej": "Lat Pulldown (Cable)",
+      "carga": "70,5",
+      "reps": "12",
+      "rpe": "7,5"
+     },
+     {
+      "ej": "Lat Pulldown (Cable)",
+      "carga": "70,5",
+      "reps": "12",
+      "rpe": "8"
+     },
+     {
+      "ej": "Pull Up",
+      "carga": "Peso corporal",
+      "reps": "8",
+      "rpe": "8"
+     },
+     {
+      "ej": "Pull Up",
+      "carga": "Peso corporal",
+      "reps": "8",
+      "rpe": "7,5"
+     },
+     {
+      "ej": "Iso-Lateral Row (Machine)",
+      "carga": "60",
+      "reps": "10",
+      "rpe": "7"
+     },
+     {
+      "ej": "Iso-Lateral Row (Machine)",
+      "carga": "60",
+      "reps": "10",
+      "rpe": "7,5"
+     },
+     {
+      "ej": "Face Pull",
+      "carga": "22,5",
+      "reps": "15",
+      "rpe": "6"
+     },
+     {
+      "ej": "Face Pull",
+      "carga": "23,75",
+      "reps": "20",
+      "rpe": "6"
+     },
+     {
+      "ej": "Seated Incline Curl (Dumbbell)",
+      "carga": "16",
+      "reps": "12",
+      "rpe": "6"
+     },
+     {
+      "ej": "Seated Incline Curl (Dumbbell)",
+      "carga": "16",
+      "reps": "12",
+      "rpe": "6"
+     },
+     {
+      "ej": "Stair Machine (Floors)",
+      "carga": "Peso corporal (isométrico)",
+      "reps": "600 s",
+      "rpe": "—"
+     }
+    ]
+   },
    {
     "date": "2026-10-14",
     "dlabel": "14 oct",

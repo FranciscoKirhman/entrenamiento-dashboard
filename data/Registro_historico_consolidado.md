@@ -1,4 +1,4 @@
-# Historial de entrenamiento por fecha — 29 de mayo de 2026 al 14 de octubre de 2026 (95 sesiones)
+# Historial de entrenamiento por fecha — 29 de mayo de 2026 al 15 de octubre de 2026 (96 sesiones)
 
 Registro cronológico consolidado. Cada fila corresponde a una serie real copiada desde Hevy. Los volúmenes oficiales se conservan sin reemplazarlos por cálculos derivados.
 
@@ -2736,3 +2736,26 @@ Sesión de boulder por la tarde, después del entrenamiento de pierna de la mañ
 | 4 | Leg Press (Machine) | 2 | 150 kg | 10 | 6 |
 | 4 | Leg Press (Machine) | 3 | 150 kg | 10 | 6 |
 | 5 | Stair Machine (Floors) | 1 | Peso corporal (isométrico) | 996 s | — |
+
+## 15 Oct 2026 — Morning workout ☀️
+
+<!-- hevy:aa365bc7-7133-4091-9bca-9d1bb552b0f4 -->
+**Hora:** 11:13 AM  
+**Duración:** 1h 2m  
+**Volumen Hevy:** 4,821 kg  
+**Comentario:** TE VAS A COMER TODO ESO????!!!  
+
+| Orden | Ejercicio | Serie | Carga | Reps/tiempo | RPE |
+|---:|---|---:|---:|---|---:|
+| 1 | Lat Pulldown (Cable) | 1 | 61 kg | 12 | 6 |
+| 1 | Lat Pulldown (Cable) | 2 | 70,5 kg | 12 | 7,5 |
+| 1 | Lat Pulldown (Cable) | 3 | 70,5 kg | 12 | 8 |
+| 2 | Pull Up | 1 | Peso corporal | 8 | 8 |
+| 2 | Pull Up | 2 | Peso corporal | 8 | 7,5 |
+| 3 | Iso-Lateral Row (Machine) | 1 | 60 kg | 10 | 7 |
+| 3 | Iso-Lateral Row (Machine) | 2 | 60 kg | 10 | 7,5 |
+| 4 | Face Pull | 1 | 22,5 kg | 15 | 6 |
+| 4 | Face Pull | 2 | 23,75 kg | 20 | 6 |
+| 5 | Seated Incline Curl (Dumbbell) | 1 | 16 kg | 12 | 6 |
+| 5 | Seated Incline Curl (Dumbbell) | 2 | 16 kg | 12 | 6 |
+| 6 | Stair Machine (Floors) | 1 | Peso corporal (isométrico) | 600 s | — |
