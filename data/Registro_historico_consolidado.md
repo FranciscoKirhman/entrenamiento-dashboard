@@ -1,4 +1,4 @@
-# Historial de entrenamiento por fecha — 29 de mayo de 2026 al 15 de octubre de 2026 (96 sesiones)
+# Historial de entrenamiento por fecha — 29 de mayo de 2026 al 16 de octubre de 2026 (97 sesiones)
 
 Registro cronológico consolidado. Cada fila corresponde a una serie real copiada desde Hevy. Los volúmenes oficiales se conservan sin reemplazarlos por cálculos derivados.
 
@@ -2763,3 +2763,28 @@ Sesión de boulder por la tarde, después del entrenamiento de pierna de la mañ
 | 5 | Seated Incline Curl (Dumbbell) | 1 | 16 kg | 12 | 6 |
 | 5 | Seated Incline Curl (Dumbbell) | 2 | 16 kg | 12 | 6 |
 | 6 | Stair Machine (Floors) | 1 | Peso corporal (isométrico) | 600 s | — |
+
+## 16 Oct 2026 — Afternoon workout 💪
+
+<!-- hevy:413c5026-577d-4894-afee-6d9d4c044e0b -->
+**Hora:** 3:50 PM  
+**Duración:** 46m  
+**Volumen Hevy:** 7,500 kg  
+**Comentario:** Estaba llenisimo el gym  
+
+| Orden | Ejercicio | Serie | Carga | Reps/tiempo | RPE |
+|---:|---|---:|---:|---|---:|
+| 1 | Hip Abduction (Machine) | 1 | 75 kg | 12 | 6 |
+| 1 | Hip Abduction (Machine) | 2 | 75 kg | 12 | 6 |
+| 2 | Incline Bench Press (Barbell) | 1 | 40 kg | 8 | — |
+| 2 | Incline Bench Press (Barbell) | 2 | 55 kg | 8 | — |
+| 2 | Incline Bench Press (Barbell) | 3 | 55 kg | 8 | — |
+| 3 | Lateral Raise (Dumbbell) | 1 | 16 kg | 15 | 6 |
+| 3 | Lateral Raise (Dumbbell) | 2 | 16 kg | 15 | 6 |
+| 4 | Seated Leg Curl (Machine) | 1 | 45 kg | 12 | — |
+| 4 | Seated Leg Curl (Machine) | 2 | 61 kg | 12 | 9 |
+| 4 | Seated Leg Curl (Machine) | 3 | 59 kg | 12 | 8,5 |
+| 5 | Seated Row (Machine) | 1 | 61 kg | 12 | 6 |
+| 5 | Seated Row (Machine) | 2 | 61 kg | 12 | 6 |
+| 6 | Shoulder Press (Dumbbell) | 1 | 36 kg | 8 | 6 |
+| 6 | Shoulder Press (Dumbbell) | 2 | 36 kg | 8 | 6 |
