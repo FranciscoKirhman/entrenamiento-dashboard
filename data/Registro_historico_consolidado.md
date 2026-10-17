@@ -1,4 +1,4 @@
-# Historial de entrenamiento por fecha — 29 de mayo de 2026 al 16 de octubre de 2026 (97 sesiones)
+# Historial de entrenamiento por fecha — 29 de mayo de 2026 al 17 de octubre de 2026 (98 sesiones)
 
 Registro cronológico consolidado. Cada fila corresponde a una serie real copiada desde Hevy. Los volúmenes oficiales se conservan sin reemplazarlos por cálculos derivados.
 
@@ -2788,3 +2788,28 @@ Sesión de boulder por la tarde, después del entrenamiento de pierna de la mañ
 | 5 | Seated Row (Machine) | 2 | 61 kg | 12 | 6 |
 | 6 | Shoulder Press (Dumbbell) | 1 | 36 kg | 8 | 6 |
 | 6 | Shoulder Press (Dumbbell) | 2 | 36 kg | 8 | 6 |
+
+## 17 Oct 2026 — Afternoon workout 💪
+
+<!-- hevy:e55ced50-8783-4c6e-bae0-8e833ee3f8f8 -->
+**Hora:** 2:21 PM  
+**Duración:** 1h 3m  
+**Volumen Hevy:** 3,893 kg  
+
+| Orden | Ejercicio | Serie | Carga | Reps/tiempo | RPE |
+|---:|---|---:|---:|---|---:|
+| 1 | Hip Thrust (Machine) | 1 | Peso corporal | 10 | 6 |
+| 1 | Hip Thrust (Machine) | 2 | 20 kg | 10 | 7 |
+| 1 | Hip Thrust (Machine) | 3 | 20 kg | 10 | 6 |
+| 2 | Back Extension (Weighted Hyperextension) | 1 | 50 kg | 10 | 6 |
+| 2 | Back Extension (Weighted Hyperextension) | 2 | 60 kg | 8 | 7,5 |
+| 3 | Bulgarian Split Squat (Dumbbell) | 1 | 10 kg | 10 | — |
+| 4 | Abductor Maquina | 1 | 43 kg | 15 | 6 |
+| 4 | Abductor Maquina | 2 | 50 kg | 15 | 7 |
+| 5 | Hanging Knee Raise | 1 | Peso corporal | 15 | 7 |
+| 5 | Hanging Knee Raise | 2 | Peso corporal | 15 | 7,5 |
+| 6 | Crunch (Machine) | 1 | 27,5 kg | 15 | 6 |
+| 6 | Crunch (Machine) | 2 | 27,5 kg | 22 | 7 |
+| 7 | Dead Bug | 1 | Peso corporal | 10 | 6 |
+| 7 | Dead Bug | 2 | Peso corporal | 10 | 6 |
+| 7 | Dead Bug | 3 | Peso corporal | 10 | 6 |

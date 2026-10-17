@@ -17,7 +17,7 @@
    {
     "name": "Tríceps",
     "recent": 1.8,
-    "hist": 5.2,
+    "hist": 5.1,
     "lo": 6,
     "hi": 10,
     "tier": "critical",
@@ -27,12 +27,12 @@
    },
    {
     "name": "Glúteo / cadera",
-    "recent": 3.5,
-    "hist": 3.6,
+    "recent": 4.7,
+    "hist": 3.7,
     "lo": 8,
     "hi": 12,
-    "tier": "critical",
-    "trend": -3.5,
+    "tier": "warning",
+    "trend": -2.3,
     "note": "Hip thrust del 7 y máquina de glúteo del 13. La máquina de erector espinal del 7 ya no cuenta como glúteo, por eso queda en 3,5. Desde el 21 hay glúteo el lunes y el viernes, con la abducción.",
     "ex": "Hip Thrust, máquina de glúteo"
    },
@@ -50,7 +50,7 @@
    {
     "name": "Bíceps",
     "recent": 3.5,
-    "hist": 5.5,
+    "hist": 5.4,
     "lo": 6,
     "hi": 10,
     "tier": "warning",
@@ -72,7 +72,7 @@
    {
     "name": "Hombro (empuje)",
     "recent": 6.4,
-    "hist": 10.9,
+    "hist": 10.8,
     "lo": 8,
     "hi": 12,
     "tier": "warning",
@@ -83,33 +83,33 @@
    {
     "name": "Cuádriceps",
     "recent": 2.9,
-    "hist": 7.6,
+    "hist": 7.5,
     "lo": 10,
     "hi": 14,
     "tier": "critical",
-    "trend": -7.6,
+    "trend": -2.3,
     "note": "Sentadilla a 90 × 8 las tres y prensa a 180 × 12 el 9. Al borde de la banda con un solo día de cuádriceps.",
     "ex": "Squat, Leg Press, Leg Extension"
    },
    {
     "name": "Aductor / abductor",
-    "recent": 0.6,
+    "recent": 1.2,
     "hist": 3.5,
     "lo": 4,
     "hi": 8,
     "tier": "critical",
-    "trend": -6.4,
+    "trend": -4.1,
     "note": "Aducción a 89 × 15 el 9 y el 13, siempre a RPE 7: en banda, pero con la carga corta. Sube a 94 el 23.",
     "ex": "Hip Adduction, Hip Abduction"
    },
    {
     "name": "Core",
-    "recent": 3.5,
-    "hist": 6.8,
+    "recent": 5.2,
+    "hist": 6.9,
     "lo": 12,
     "hi": 22,
     "tier": "critical",
-    "trend": -3.5,
+    "trend": 0.0,
     "note": "Pallof, crunch inverso, elevación de rodillas y plancha lateral: dentro de banda.",
     "ex": "Cable Crunch, Pallof Press, Reverse Crunch, Side Plank"
    }
@@ -11683,6 +11683,108 @@
    }
   ],
   "SESSIONS_FULL": [
+   {
+    "date": "2026-10-17",
+    "dlabel": "17 oct",
+    "title": "Afternoon workout 💪",
+    "hora": "2:21 PM",
+    "dur": "1h 3m",
+    "vol": "3,893",
+    "com": null,
+    "rec": null,
+    "exercises": [
+     {
+      "ej": "Hip Thrust (Machine)",
+      "carga": "Peso corporal",
+      "reps": "10",
+      "rpe": "6"
+     },
+     {
+      "ej": "Hip Thrust (Machine)",
+      "carga": "20",
+      "reps": "10",
+      "rpe": "7"
+     },
+     {
+      "ej": "Hip Thrust (Machine)",
+      "carga": "20",
+      "reps": "10",
+      "rpe": "6"
+     },
+     {
+      "ej": "Back Extension (Weighted Hyperextension)",
+      "carga": "50",
+      "reps": "10",
+      "rpe": "6"
+     },
+     {
+      "ej": "Back Extension (Weighted Hyperextension)",
+      "carga": "60",
+      "reps": "8",
+      "rpe": "7,5"
+     },
+     {
+      "ej": "Bulgarian Split Squat (Dumbbell)",
+      "carga": "10",
+      "reps": "10",
+      "rpe": "—"
+     },
+     {
+      "ej": "Abductor Maquina",
+      "carga": "43",
+      "reps": "15",
+      "rpe": "6"
+     },
+     {
+      "ej": "Abductor Maquina",
+      "carga": "50",
+      "reps": "15",
+      "rpe": "7"
+     },
+     {
+      "ej": "Hanging Knee Raise",
+      "carga": "Peso corporal",
+      "reps": "15",
+      "rpe": "7"
+     },
+     {
+      "ej": "Hanging Knee Raise",
+      "carga": "Peso corporal",
+      "reps": "15",
+      "rpe": "7,5"
+     },
+     {
+      "ej": "Crunch (Machine)",
+      "carga": "27,5",
+      "reps": "15",
+      "rpe": "6"
+     },
+     {
+      "ej": "Crunch (Machine)",
+      "carga": "27,5",
+      "reps": "22",
+      "rpe": "7"
+     },
+     {
+      "ej": "Dead Bug",
+      "carga": "Peso corporal",
+      "reps": "10",
+      "rpe": "6"
+     },
+     {
+      "ej": "Dead Bug",
+      "carga": "Peso corporal",
+      "reps": "10",
+      "rpe": "6"
+     },
+     {
+      "ej": "Dead Bug",
+      "carga": "Peso corporal",
+      "reps": "10",
+      "rpe": "6"
+     }
+    ]
+   },
    {
     "date": "2026-10-16",
     "dlabel": "16 oct",
