@@ -45634,7 +45634,7 @@
   "note": "Cable Crunch fuera: no le gusta. Alternativas válidas: rodillas al pecho, reverse crunch o plancha lateral con elevación. Nada de core en barras paralelas ni colgada: el 4 de septiembre todo lo de esa posición salió a RPE 8,5-10 por falta de estabilidad, y ella lo descartó. El core va en el suelo. Echa de menos el RDL en Smith y el Face Pull, y quiere trabajo de postura en el tren superior.",
   "fuente": "Registro_historico_Mipi.md",
   "weekNote": "**Actualización del 17 de octubre.** Registrada la sesión Poto 🍑 del miércoles 14, 17:47: 1h 15m y 5.452 kg según el texto aportado de Hevy. Hip thrust anotado como Barbell, pero realizado en Smith: 60 × 8 @6 y 85 × 8 @7 y @6. En deadlift Smith reportaste «Sin straps, facil, pero leve dolor lumbar». Se conserva como observación, sin asumir que sigue hoy. No hay registros aportados del 8 al 13 ni posteriores al 14; eso no confirma descansos. **Hoy podés comparar el plan original con una alternativa suave de hip thrust y patada.**",
-  "weekTodo": "**Elegí en Hoy:** caminata original o glúteos suave. La alternativa tiene dos series de trabajo por ejercicio, a RIR 4 o más. Elegirla no registra un entrenamiento: anotá lo que realmente hagas en Hevy. El plan de este bloque termina el domingo 18.",
+  "weekTodo": "**Hoy, opción ampliada:** cinco ejercicios y dos series fáciles por ejercicio. Comparala con la caminata original desde Hoy. La extensión de espalda en máquina no es la hiperextensión de glúteo y se omite si aumenta la molestia lumbar. Anotá en Hevy solo lo que realmente hagas; el bloque termina el domingo 18.",
   "opcionesHoy": {
    "date": "2026-10-17",
    "original": {
@@ -45655,9 +45655,9 @@
    "alternativa": {
     "day": "Sáb 17",
     "date": "2026-10-17",
-    "focus": "Glúteos suave — hip thrust y patada",
+    "focus": "Glúteos y core suave, cinco ejercicios",
     "tag": "opcional",
-    "rationale": "**Si hoy tenés ganas de pesas:** esta es una alternativa propuesta, no una sesión realizada. Seguís en descarga: 4 series de trabajo, lejos del fallo, sin buscar récords. El 14 hiciste hip thrust en Smith a 85 × 8 (RPE 7 y 6); hoy repetí solo si la aproximación sale cómoda. **Si sigue la molestia lumbar, elegí la caminata o descansá. Si un ejercicio aumenta el dolor, frená y consultá si persiste.** La fase del ciclo es una proyección, no una confirmación de cómo te sentís hoy.",
+    "rationale": "**Opción ampliada para hoy:** hip thrust en Smith, patada en polea, extensión de espalda en máquina, abductora y dead bug. Son cinco ejercicios y diez series de trabajo, dos por ejercicio, con cuatro repeticiones en reserva. Seguís en descarga: elegí cargas fáciles y no busques récords. **La extensión de espalda es condicional:** si la molestia lumbar del 14 sigue o aumenta al probarla, omitila. Podés quitar cualquier accesorio si ya estás cansada. La fase del ciclo sigue siendo una proyección, no una confirmación de cómo te sentís hoy.",
     "cardio": "Opcional: caminata 10-15 min a ritmo conversable, solo si te sentís cómoda.",
     "warmup": [
      {
@@ -45745,6 +45745,66 @@
        }
       ],
       "cue": "**Polea: elegí una carga con al menos cuatro repeticiones en reserva.** Los 18 kg son el techo propuesto de descarga de tu plan, no una obligación. El 13 de septiembre registraste 23 × 12 en polea; los 25 kg del 6 de octubre fueron en una máquina distinta y no sirven para elegir el pin acá. Si cambiás de equipo, partí liviano sin copiar kilos. Apoyá las manos, mantené la pelvis quieta y llevá la pierna atrás con recorrido corto, sin girar ni arquear la lumbar. Si molesta, omití el ejercicio."
+     },
+     {
+      "name": "Back Extension (Machine)",
+      "sets": [
+       {
+        "serie": "Trabajo 1",
+        "carga": "Pin liviano",
+        "reps": "12",
+        "rir": "4 o más",
+        "descanso": "90s"
+       },
+       {
+        "serie": "Trabajo 2",
+        "carga": "Pin liviano",
+        "reps": "12",
+        "rir": "4 o más",
+        "descanso": "90s"
+       }
+      ],
+      "cue": "**Extensión de espalda en máquina sentada, para el erector espinal.** Es distinta de Back Extension (Weighted Hyperextension), la hiperextensión de glúteo que registraste el 14. No copies los kilos de una a la otra. Probá primero el recorrido con el pin más liviano. Si hoy no molesta, hacé dos series fáciles de 12, con cuatro repeticiones en reserva. Movete lento y sin pasar de una posición cómoda del tronco. El 14 reportaste leve dolor lumbar en deadlift: si la molestia sigue o este ejercicio la aumenta, omitilo."
+     },
+     {
+      "name": "Hip Abduction (Machine)",
+      "sets": [
+       {
+        "serie": "Trabajo 1",
+        "carga": "55 kg o menos",
+        "reps": "12 a 15",
+        "rir": "4 o más",
+        "descanso": "90s"
+       },
+       {
+        "serie": "Trabajo 2",
+        "carga": "55 kg o menos",
+        "reps": "12 a 15",
+        "rir": "4 o más",
+        "descanso": "90s"
+       }
+      ],
+      "cue": "Dos series fáciles, con cuatro repeticiones en reserva. El 14 registraste 55 kg a RPE 6; usá esa carga solo si es la misma máquina y hoy sigue fácil. En otro equipo partí con un pin liviano. Pelvis y espalda apoyadas, sin rebotes."
+     },
+     {
+      "name": "Dead Bug",
+      "sets": [
+       {
+        "serie": "Trabajo 1",
+        "carga": "Peso corporal",
+        "reps": "8 por lado",
+        "rir": "4 o más",
+        "descanso": "90s"
+       },
+       {
+        "serie": "Trabajo 2",
+        "carga": "Peso corporal",
+        "reps": "8 por lado",
+        "rir": "4 o más",
+        "descanso": "90s"
+       }
+      ],
+      "cue": "Ocho repeticiones por lado, lento y con la zona lumbar apoyada. Exhalá al extender el brazo y la pierna opuesta. Recortá el recorrido si necesitás arquearte o si aparece molestia."
      }
     ]
    }
