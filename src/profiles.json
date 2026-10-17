@@ -22891,63 +22891,63 @@
   "MUSCLES": [
    {
     "name": "Glúteo / cadera",
-    "recent": 4.1,
-    "hist": 5.5,
+    "recent": 2.3,
+    "hist": 5.4,
     "lo": 10,
     "hi": 16,
     "tier": "critical",
-    "trend": -0.6,
+    "trend": -3.5,
     "note": "Hip thrust del 8, y kickback y máquina de glúteo del 13. Sube desde 1,8 pero va a la mitad de la banda: desde el 21 hay glúteo el lunes, el miércoles y el sábado opcional.",
     "ex": "Hip Thrust, Glute Kickback, máquina de glúteo"
    },
    {
     "name": "Cuádriceps",
-    "recent": 9.9,
-    "hist": 8.0,
+    "recent": 4.1,
+    "hist": 7.8,
     "lo": 8,
     "hi": 14,
-    "tier": "good",
-    "trend": 9.9,
+    "tier": "warning",
+    "trend": -1.8,
     "note": "Prensa a 105 × 12 las tres el 2 y el 13, y búlgaro el 8. Dentro de banda sin la Leg Extension.",
     "ex": "Leg Press, Bulgarian Split Squat, Squat"
    },
    {
     "name": "Femoral",
-    "recent": 1.8,
-    "hist": 2.4,
+    "recent": 1.2,
+    "hist": 2.3,
     "lo": 6,
     "hi": 10,
     "tier": "critical",
-    "trend": 0.0,
+    "trend": -2.3,
     "note": "Curl sentado del 8 y curl acostado del 13. Desde el 21 el lunes suma el peso muerto rumano en Smith.",
     "ex": "Lying/Seated Leg Curl, RDL"
    },
    {
     "name": "Aductor / abductor",
-    "recent": 3.5,
-    "hist": 2.7,
+    "recent": 1.8,
+    "hist": 2.6,
     "lo": 6,
     "hi": 12,
-    "tier": "warning",
-    "trend": 3.5,
+    "tier": "critical",
+    "trend": 0.0,
     "note": "Abducción del 8; la aducción no aparece desde el 2. Desde el 21 la aducción va el miércoles.",
     "ex": "Hip Abduction, Hip Adduction"
    },
    {
     "name": "Core",
-    "recent": 1.8,
-    "hist": 5.8,
+    "recent": 1.2,
+    "hist": 5.7,
     "lo": 12,
     "hi": 24,
     "tier": "critical",
-    "trend": -3.5,
+    "trend": -4.1,
     "note": "Sobre la banda: plancha lateral, crunch inverso y dead bug casi todos los días. Por eso el viernes no lleva core.",
     "ex": "Side Plank, Reverse Crunch, Dead Bug"
    },
    {
     "name": "Espalda",
     "recent": 1.8,
-    "hist": 4.5,
+    "hist": 4.3,
     "lo": 8,
     "hi": 14,
     "tier": "critical",
@@ -22958,7 +22958,7 @@
    {
     "name": "Pecho",
     "recent": 2.3,
-    "hist": 2.4,
+    "hist": 2.3,
     "lo": 4,
     "hi": 10,
     "tier": "warning",
@@ -22969,18 +22969,18 @@
    {
     "name": "Hombro",
     "recent": 3.5,
-    "hist": 3.7,
+    "hist": 3.6,
     "lo": 4,
     "hi": 10,
     "tier": "warning",
-    "trend": -3.5,
+    "trend": -2.9,
     "note": "Press con mancuernas y elevación lateral del 11. Dentro de banda.",
     "ex": "Shoulder Press, Lateral Raise, Face Pull"
    },
    {
     "name": "Bíceps",
     "recent": 1.8,
-    "hist": 1.7,
+    "hist": 1.6,
     "lo": 3,
     "hi": 8,
     "tier": "warning",
@@ -22995,7 +22995,7 @@
     "lo": 3,
     "hi": 8,
     "tier": "critical",
-    "trend": -2.9,
+    "trend": -1.8,
     "note": "Extensión sobre la cabeza del 3 y del 11: ya entró, sin molestias de codo.",
     "ex": "Overhead Extension"
    }
@@ -32655,6 +32655,10 @@
      {
       "d": "30 sep",
       "w": 105.0
+     },
+     {
+      "d": "14 oct",
+      "w": 85.0
      }
     ],
     "change": "105 kg × 8 el 31 de agosto y el 8 de septiembre; la última serie del 8 llegó a RPE 10. Desde el 21 sube de a una repetición: 8, 9 y 10.",
@@ -32835,6 +32839,10 @@
      {
       "d": "30 sep",
       "w": 82.5
+     },
+     {
+      "d": "14 oct",
+      "w": 55.0
      }
     ],
     "change": "82 kg desde el 24 de agosto. El 8 de septiembre la segunda serie llegó a RPE 10 y la tercera bajó a 75: el bloque del 21 parte en 75 × 15.",
@@ -32963,6 +32971,10 @@
      {
       "d": "30 sep",
       "w": 24.95
+     },
+     {
+      "d": "14 oct",
+      "w": 18.14
      }
     ],
     "change": "25 kg × 12 las tres el 13 de septiembre, a RPE 7-8,5. Es su curl de primera opción; el sentado queda si la máquina está ocupada.",
@@ -33152,6 +33164,138 @@
    }
   ],
   "SESSIONS_FULL": [
+   {
+    "date": "2026-10-14",
+    "dlabel": "14 oct",
+    "title": "Poto 🍑",
+    "hora": "5:47 PM",
+    "dur": "1h 15m",
+    "vol": "5,452",
+    "com": null,
+    "rec": null,
+    "exercises": [
+     {
+      "ej": "Hip Thrust (Barbell)",
+      "carga": "60",
+      "reps": "8",
+      "rpe": "6"
+     },
+     {
+      "ej": "Hip Thrust (Barbell)",
+      "carga": "85",
+      "reps": "8",
+      "rpe": "7"
+     },
+     {
+      "ej": "Hip Thrust (Barbell)",
+      "carga": "85",
+      "reps": "8",
+      "rpe": "6"
+     },
+     {
+      "ej": "Deadlift (Smith Machine)",
+      "carga": "10",
+      "reps": "10",
+      "rpe": "6"
+     },
+     {
+      "ej": "Deadlift (Smith Machine)",
+      "carga": "30",
+      "reps": "10",
+      "rpe": "6"
+     },
+     {
+      "ej": "Deadlift (Smith Machine)",
+      "carga": "30",
+      "reps": "11",
+      "rpe": "6"
+     },
+     {
+      "ej": "Lying Leg Curl (Machine)",
+      "carga": "11,34",
+      "reps": "12",
+      "rpe": "6"
+     },
+     {
+      "ej": "Lying Leg Curl (Machine)",
+      "carga": "18,14",
+      "reps": "12",
+      "rpe": "7"
+     },
+     {
+      "ej": "Lying Leg Curl (Machine)",
+      "carga": "18,14",
+      "reps": "12",
+      "rpe": "7"
+     },
+     {
+      "ej": "Hip Abduction (Machine)",
+      "carga": "55",
+      "reps": "12",
+      "rpe": "6"
+     },
+     {
+      "ej": "Hip Abduction (Machine)",
+      "carga": "55",
+      "reps": "15",
+      "rpe": "6"
+     },
+     {
+      "ej": "Hip Abduction (Machine)",
+      "carga": "55",
+      "reps": "15",
+      "rpe": "6"
+     },
+     {
+      "ej": "Back Extension (Weighted Hyperextension)",
+      "carga": "0",
+      "reps": "15",
+      "rpe": "—"
+     },
+     {
+      "ej": "Back Extension (Weighted Hyperextension)",
+      "carga": "0",
+      "reps": "15",
+      "rpe": "—"
+     },
+     {
+      "ej": "Side Plank",
+      "carga": "Peso corporal (isométrico)",
+      "reps": "30 s",
+      "rpe": "—"
+     },
+     {
+      "ej": "Side Plank",
+      "carga": "Peso corporal (isométrico)",
+      "reps": "30 s",
+      "rpe": "—"
+     },
+     {
+      "ej": "Walking",
+      "carga": "Peso corporal",
+      "reps": "600 s · 0,6 km",
+      "rpe": "—"
+     }
+    ],
+    "notes": [
+     {
+      "name": "Hip Thrust (Barbell)",
+      "text": "En smith, mejorando posicicion, truco poner la barra mas abajo del pubis"
+     },
+     {
+      "name": "Deadlift (Smith Machine)",
+      "text": "Sin straps, facil, pero leve dolor lumbar"
+     },
+     {
+      "name": "Walking",
+      "text": "Inclinada 15"
+     }
+    ],
+    "source": {
+     "url": "https://hevy.com/user/paloma_larrain",
+     "label": "Texto de Hevy aportado el 17 oct; enlace al perfil, sin URL individual"
+    }
+   },
    {
     "date": "2026-10-07",
     "dlabel": "07 oct",
@@ -45489,7 +45633,121 @@
   },
   "note": "Cable Crunch fuera: no le gusta. Alternativas válidas: rodillas al pecho, reverse crunch o plancha lateral con elevación. Nada de core en barras paralelas ni colgada: el 4 de septiembre todo lo de esa posición salió a RPE 8,5-10 por falta de estabilidad, y ella lo descartó. El core va en el suelo. Echa de menos el RDL en Smith y el Face Pull, y quiere trabajo de postura en el tren superior.",
   "fuente": "Registro_historico_Mipi.md",
-  "weekNote": "**Mipi — semana 1 cumplida, y el hip thrust volvió.** Cuatro sesiones: martes 22, jueves 24, viernes 25 y domingo 27. El hip thrust salió **105 × 8 en las tres a RPE 7,5-8**, cuando el 20 fueron 90 × 8 a RPE 9: 105 queda consolidado. Tren superior completo el 25, con jalón y remo a 28,5 × 12 y una prueba de banca a 20 × 12. **Lo que se repite:** en los dos días de pierna quedaron sin hacer los dos o tres últimos ejercicios (abducción y plancha; kickback, aducción y dead bug). Por eso se reordenaron: lo importante va primero. El lunes 28 no entrenaste.",
-  "weekTodo": "**Día 10 del ciclo, folicular (proyectado).** Hoy descanso. **La semana se reordena:** mañana miércoles Inferior A (el del lunes), el jueves el opcional de postura, el viernes tren superior con Mopo y **el sábado Inferior B, que pasa a firme.** Dos cosas de tus notas: **usa straps en el peso muerto rumano** (la ficha explica por qué), y si la back extension te marea, la ficha trae qué hacer y una alternativa."
+  "weekNote": "**Actualización del 17 de octubre.** Registrada la sesión Poto 🍑 del miércoles 14, 17:47: 1h 15m y 5.452 kg según el texto aportado de Hevy. Hip thrust anotado como Barbell, pero realizado en Smith: 60 × 8 @6 y 85 × 8 @7 y @6. En deadlift Smith reportaste «Sin straps, facil, pero leve dolor lumbar». Se conserva como observación, sin asumir que sigue hoy. No hay registros aportados del 8 al 13 ni posteriores al 14; eso no confirma descansos. **Hoy podés comparar el plan original con una alternativa suave de hip thrust y patada.**",
+  "weekTodo": "**Elegí en Hoy:** caminata original o glúteos suave. La alternativa tiene dos series de trabajo por ejercicio, a RIR 4 o más. Elegirla no registra un entrenamiento: anotá lo que realmente hagas en Hevy. El plan de este bloque termina el domingo 18.",
+  "opcionesHoy": {
+   "date": "2026-10-17",
+   "original": {
+    "day": "Sáb 17",
+    "date": "2026-10-17",
+    "focus": "Opcional — caminata",
+    "tag": "opcional",
+    "rationale": "**Día 1 — regla (proyectado).** Semana de descarga: sin pesas hoy. Si hay ganas, camina.",
+    "cardio": "Caminata 30 min a RPE 3, sin agitarte. RPE 3 = hablas normal · RPE 4 = hablas pero se nota el esfuerzo · RPE 5 = solo frases cortas.",
+    "warmup": [],
+    "stretch": [],
+    "exercises": [],
+    "prioridad": {
+     "n": 2,
+     "porque": "Caminata en el día 1 de regla (proyectado). Solo si hay ganas. Es lo primero que se va si hay que correr un día."
+    }
+   },
+   "alternativa": {
+    "day": "Sáb 17",
+    "date": "2026-10-17",
+    "focus": "Glúteos suave — hip thrust y patada",
+    "tag": "opcional",
+    "rationale": "**Si hoy tenés ganas de pesas:** esta es una alternativa propuesta, no una sesión realizada. Seguís en descarga: 4 series de trabajo, lejos del fallo, sin buscar récords. El 14 hiciste hip thrust en Smith a 85 × 8 (RPE 7 y 6); hoy repetí solo si la aproximación sale cómoda. **Si sigue la molestia lumbar, elegí la caminata o descansá. Si un ejercicio aumenta el dolor, frená y consultá si persiste.** La fase del ciclo es una proyección, no una confirmación de cómo te sentís hoy.",
+    "cardio": "Opcional: caminata 10-15 min a ritmo conversable, solo si te sentís cómoda.",
+    "warmup": [
+     {
+      "name": "Bici o caminadora, 5-6 min a RPE 2-3",
+      "how": "Solo para subir temperatura y pulso. RPE 2-3: hablas frases completas todo el rato. Si terminas sin aliento, ibas muy fuerte."
+     },
+     {
+      "name": "Movilidad de tobillo contra pared, 10 por lado",
+      "how": "De pie frente a la pared, pie a un palmo. Lleva la rodilla a tocar la pared sin despegar el talón. Si llega fácil, aleja más el pie."
+     },
+     {
+      "name": "Círculos de cadera de pie, 8 por lado",
+      "how": "Apóyate en algo, levanta una rodilla a la altura de la cadera y dibuja círculos grandes hacia afuera. Que se mueva la cadera, no la espalda."
+     },
+     {
+      "name": "Puente de glúteo sin carga, 8 repeticiones",
+      "how": "Probá un recorrido cómodo, sin arquear la espalda. Si aparece o aumenta la molestia lumbar, no avances a las series con peso."
+     }
+    ],
+    "stretch": [
+     {
+      "name": "Flexor de cadera en estocada, 30 s por lado",
+      "how": "Rodilla atrás en el suelo, mete la pelvis adelante como escondiendo la cola y aprieta el glúteo de atrás. Suave, sin forzar y solo si resulta cómodo."
+     },
+     {
+      "name": "Glúteo figura-4 acostado, 30 s por lado",
+      "how": "Cruza el tobillo sobre la rodilla contraria y tira de la pierna de abajo al pecho. Suave, sin forzar y solo si resulta cómodo."
+     },
+     {
+      "name": "Isquiotibiales acostado con banda, 30 s por lado",
+      "how": "Banda en el pie, sube la pierna estirada hasta sentir tensión detrás del muslo. Suave, sin forzar y solo si resulta cómodo."
+     }
+    ],
+    "exercises": [
+     {
+      "name": "Hip Thrust (Smith Machine)",
+      "sets": [
+       {
+        "serie": "Aprox.",
+        "carga": "60 kg",
+        "reps": "8",
+        "rir": "4 o más",
+        "descanso": "90s"
+       },
+       {
+        "serie": "Trabajo 1",
+        "carga": "85 kg",
+        "reps": "8",
+        "rir": "4 o más",
+        "descanso": "2 min"
+       },
+       {
+        "serie": "Trabajo 2",
+        "carga": "85 kg",
+        "reps": "8",
+        "rir": "4 o más",
+        "descanso": "2 min"
+       }
+      ],
+      "cue": "**Misma Smith y mismo modo de anotar la carga del 14 de octubre.** 60 × 8 para probar y hasta 85 × 8 en dos series si sigue fácil; podés bajar la carga. Dejá al menos cuatro repeticiones en reserva. Usá acolchado y una posición cómoda de la barra sobre la cadera, sin presión dolorosa en el pubis. Terminá al alinear cadera y tronco, sin arquear la espalda. Los 85 kg de esta Smith no se trasladan a una barra libre ni a otra máquina."
+     },
+     {
+      "name": "Standing Cable Glute Kickbacks",
+      "sets": [
+       {
+        "serie": "Aprox.",
+        "carga": "Pin liviano",
+        "reps": "12 por lado",
+        "rir": "4 o más",
+        "descanso": "45s"
+       },
+       {
+        "serie": "Trabajo 1",
+        "carga": "18 kg o menos",
+        "reps": "12 por lado",
+        "rir": "4 o más",
+        "descanso": "75s"
+       },
+       {
+        "serie": "Trabajo 2",
+        "carga": "18 kg o menos",
+        "reps": "12 por lado",
+        "rir": "4 o más",
+        "descanso": "75s"
+       }
+      ],
+      "cue": "**Polea: elegí una carga con al menos cuatro repeticiones en reserva.** Los 18 kg son el techo propuesto de descarga de tu plan, no una obligación. El 13 de septiembre registraste 23 × 12 en polea; los 25 kg del 6 de octubre fueron en una máquina distinta y no sirven para elegir el pin acá. Si cambiás de equipo, partí liviano sin copiar kilos. Apoyá las manos, mantené la pelvis quieta y llevá la pierna atrás con recorrido corto, sin girar ni arquear la lumbar. Si molesta, omití el ejercicio."
+     }
+    ]
+   }
+  }
  }
 }

@@ -3307,3 +3307,37 @@ No hubo sesión de gimnasio este día (la pierna B se corrió al jueves 27). Sí
 **Notas por ejercicio:**
 - **Shoulder Press (Dumbbell):** 6 por ladoo
 - **Bicep Curl (Dumbbell):** Banquito inclinado
+
+## 14 Oct 2026 — Poto 🍑
+
+<!-- fuente:usuario-2026-10-17-mipi-2026-10-14 -->
+**Hora:** 5:47 PM
+**Duración:** 1h 15m
+**Volumen Hevy:** 5,452 kg
+**Fuente:** Texto de Hevy aportado por Francisco el 17 Oct 2026; perfil https://hevy.com/user/paloma_larrain (sin URL individual del entrenamiento).
+**Validación de volumen:** 5.451,44 kg calculados con las cargas redondeadas del texto; diferencia de 0,56 kg respecto al total mostrado por Hevy.
+
+| Orden | Ejercicio | Serie | Carga | Reps/tiempo | RPE |
+|---:|---|---:|---:|---|---:|
+| 1 | Hip Thrust (Barbell) | 1 | 60 kg | 8 | 6 |
+| 1 | Hip Thrust (Barbell) | 2 | 85 kg | 8 | 7 |
+| 1 | Hip Thrust (Barbell) | 3 | 85 kg | 8 | 6 |
+| 2 | Deadlift (Smith Machine) | 1 | 10 kg | 10 | 6 |
+| 2 | Deadlift (Smith Machine) | 2 | 30 kg | 10 | 6 |
+| 2 | Deadlift (Smith Machine) | 3 | 30 kg | 11 | 6 |
+| 3 | Lying Leg Curl (Machine) | 1 | 11,34 kg | 12 | 6 |
+| 3 | Lying Leg Curl (Machine) | 2 | 18,14 kg | 12 | 7 |
+| 3 | Lying Leg Curl (Machine) | 3 | 18,14 kg | 12 | 7 |
+| 4 | Hip Abduction (Machine) | 1 | 55 kg | 12 | 6 |
+| 4 | Hip Abduction (Machine) | 2 | 55 kg | 15 | 6 |
+| 4 | Hip Abduction (Machine) | 3 | 55 kg | 15 | 6 |
+| 5 | Back Extension (Weighted Hyperextension) | 1 | 0 kg | 15 | — |
+| 5 | Back Extension (Weighted Hyperextension) | 2 | 0 kg | 15 | — |
+| 6 | Side Plank | 1 | Peso corporal (isométrico) | 30 s | — |
+| 6 | Side Plank | 2 | Peso corporal (isométrico) | 30 s | — |
+| 7 | Walking | 1 | Peso corporal | 600 s · 0,6 km | — |
+
+**Notas por ejercicio:**
+- **Hip Thrust (Barbell):** En smith, mejorando posicicion, truco poner la barra mas abajo del pubis
+- **Deadlift (Smith Machine):** Sin straps, facil, pero leve dolor lumbar
+- **Walking:** Inclinada 15

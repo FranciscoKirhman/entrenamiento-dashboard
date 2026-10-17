@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Reconstruye index.html desde src/. Ejecutar desde la raiz del repo:  python3 src/build.py"""
-import hashlib, json, os, re, sys, time
+import copy, hashlib, json, os, re, sys, time
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SRC  = os.path.join(ROOT, "src")
 
@@ -183,11 +183,19 @@ def build():
         b64 = open(os.path.join(SRC,"fonts",slug+".b64"), encoding="utf-8").read().strip()
         tpl = tpl.replace("{{"+key+"}}", b64)
     profiles = json.load(open(os.path.join(SRC,"profiles.json"), encoding="utf-8"))
-    verifica_campos(profiles)
-    verifica_calentamientos(profiles)
-    verifica_cargas(profiles)
-    verifica_duplicados(profiles)
-    verifica_discos(profiles)
+    # Mopo conserva su historial en la fuente, pero ya no se publica como perfil.
+    profiles = {"mipi": profiles["mipi"]}
+    validables = copy.deepcopy(profiles)
+    for datos in validables.values():
+        opciones = datos.get("opcionesHoy") or {}
+        for opcion in ("original", "alternativa"):
+            if opciones.get(opcion):
+                datos["WEEKDAYS"].append(opciones[opcion])
+    verifica_campos(validables)
+    verifica_calentamientos(validables)
+    verifica_cargas(validables)
+    verifica_duplicados(validables)
+    verifica_discos(validables)
     verifica_graficos(profiles)
     tpl = tpl.replace("__PROFILES_JSON__", json.dumps(profiles, ensure_ascii=False))
     cuerpos = json.load(open(os.path.join(SRC,"bodypaths.json"), encoding="utf-8"))

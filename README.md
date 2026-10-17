@@ -1,6 +1,8 @@
-# Tablero de entrenamiento — Mopo y Mipi
+# Tablero de entrenamiento — Mipi
 
 Publicado en **https://franciscokirhman.github.io/entrenamiento-dashboard/**
+
+Desde el 17 de octubre de 2026 el tablero publicado muestra solo Mipi. El historial de Mopo se conserva en las fuentes y los registros, pero `build.py` lo excluye del HTML público. `mipi.opcionesHoy` permite comparar el plan original con una alternativa para su fecha indicada; elegir una no crea una sesión ni modifica el calendario. Ambas opciones pasan las mismas verificaciones del plan antes de publicar.
 
 Todo lo necesario para reconstruir el tablero vive en este repositorio. No hay
 nada indispensable fuera de acá: si se pierde la máquina o el directorio temporal

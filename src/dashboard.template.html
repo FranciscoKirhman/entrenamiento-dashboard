@@ -1339,7 +1339,7 @@ details.hh-det[open]>summary::after{ content:'▴'; }
         (ultima ? ' · último registro el '+nombreDia(ultima) : '')};
     }
     // las de Mipi las trae el agente que revisa su Hevy en Chrome (tarea revisar-hevy-mipi, 15:00 y 22:00)
-    return {ok:true, txt:'Registro de '+profile.displayName+' hasta el '+(ultima ? nombreDia(ultima) : '—')+' · su Hevy se revisa a las 15:00 y a las 22:00'};
+    return {ok:false, txt:'Última sesión registrada: '+(ultima ? nombreDia(ultima) : '—')+' · los días sin registro no confirman descanso'};
   }
   function pintaHevy(){
     var p = PROFILES[perfilActual];
@@ -1552,10 +1552,22 @@ details.hh-det[open]>summary::after{ content:'▴'; }
           : 'Si haces esta, '+sinOpcional(alternativa.focus)+' pasa al día siguiente'+(absorbe ? ' y lo demás se corre hasta el '+absorbe.day+', que deja de ser descanso' : '')+'.')+'</p></div>';
       if(verAlt) day = Object.assign({}, alternativa);
     }
+    var opcionesHoy = profile.opcionesHoy;
+    if(opcionesHoy && opcionesHoy.date === t && !sesHoy.length){
+      var verPropuesta = heroAlt[perfilActual+'-propuesta'] !== false;
+      day = Object.assign({}, verPropuesta ? opcionesHoy.alternativa : opcionesHoy.original);
+      elegir = '<div class="elegir"><p class="el-q"><b>¿Qué querés hacer hoy?</b> Compará lo planificado con una opción suave de glúteos.</p>'+
+        '<div class="el-seg"><button type="button" data-opcion-hoy="original" aria-pressed="'+(!verPropuesta)+'" class="'+(!verPropuesta ? 'on' : '')+'"><b>Lo planificado</b><span>Caminata opcional · 30 min</span></button>'+
+        '<button type="button" data-opcion-hoy="alternativa" aria-pressed="'+verPropuesta+'" class="'+(verPropuesta ? 'on' : '')+'"><b>Quiero glúteos</b><span>Hip thrust + patada · suave</span></button></div>'+
+        '<p class="el-nota">Es una elección para hoy. No cuenta como entrenamiento realizado ni cambia los demás días del calendario.</p></div>';
+    }
     var isToday = day.date === t;
     var sig = dias.slice(heroIdx + 1).find(function(d){ return !esDescanso(d); });
-    var series = 0;
-    day.exercises.forEach(function(e){ series += e.sets.length; });
+    var series = 0, aproximaciones = 0;
+    day.exercises.forEach(function(e){
+      series += e.sets.length;
+      e.sets.forEach(function(s){ if(/^(aprox|calent)/i.test(String(s.serie))) aproximaciones++; });
+    });
     var hechos = hechosDe(day.date);
     var algunaSerie = Object.keys(hechos).some(function(k){ return !/^(cal|est)\|/.test(k); });
 
@@ -1564,7 +1576,7 @@ details.hh-det[open]>summary::after{ content:'▴'; }
       '<div class="s-head"><span class="tag">'+esc(day.day)+(isToday ? ' · hoy' : ' · próxima')+'</span>'+
         (day.tag === 'opcional' ? '<span class="s-opc">opcional</span>' : '')+etiquetaMovido(day)+'</div>'+
       '<h2 class="s-title">'+esc(limpiaFoco(day.focus))+'</h2>'+
-      (series ? '<div class="s-meta"><span>'+day.exercises.length+' ejercicios · '+series+' series</span><span class="s-cuenta"></span></div>'+
+      (series ? '<div class="s-meta"><span>'+day.exercises.length+' ejercicios · '+(series-aproximaciones)+' series de trabajo'+(aproximaciones ? ' + '+aproximaciones+' de aproximación' : '')+'</span><span class="s-cuenta"></span></div>'+
         '<div class="s-bar"><i></i></div>' : '')+
       (day.rationale ? '<p class="herolede">'+escMd(day.rationale)+'</p>' : '')+
       renderPasos(day.warmup, 'Calentamiento', 'warmup')+
@@ -1579,6 +1591,9 @@ details.hh-det[open]>summary::after{ content:'▴'; }
 
     el.querySelectorAll('[data-alt]').forEach(function(b){
       b.addEventListener('click', function(){ heroAlt[perfilActual] = b.dataset.alt === '1'; renderHero(profile); });
+    });
+    el.querySelectorAll('[data-opcion-hoy]').forEach(function(b){
+      b.addEventListener('click', function(){ heroAlt[perfilActual+'-propuesta'] = b.dataset.opcionHoy === 'alternativa'; renderHero(profile); });
     });
     pintaHevy();
     var nx = el.querySelector('.s-next');
@@ -2418,7 +2433,7 @@ details.hh-det[open]>summary::after{ content:'▴'; }
       if(s.vol) metaBits.push(s.vol+' kg');
 
       var rowsHtml = s.exercises.map(function(e){
-        var cargaTxt = (e.carga==='—' || e.carga==='Peso corporal') ? e.carga : e.carga+' kg';
+        var cargaTxt = (e.carga==='—' || /^Peso corporal/.test(e.carga)) ? e.carga : e.carga+' kg';
         return '<tr><td>'+e.ej+'</td><td class="num">'+cargaTxt+'</td><td class="num">'+e.reps+'</td><td class="num">'+e.rpe+'</td></tr>';
       }).join('');
 
@@ -2428,6 +2443,8 @@ details.hh-det[open]>summary::after{ content:'▴'; }
         '<div class="hbody">'+
         (s.com ? '<p class="hcom">"'+s.com+'"</p>' : '')+
         (s.rec ? '<p class="hcom" style="color:var(--accent);font-style:normal">'+s.rec+'</p>' : '')+
+        (s.notes || []).map(function(n){ return '<p class="hcom"><b>'+esc(n.name)+':</b> '+esc(n.text)+'</p>'; }).join('')+
+        (s.source && /^https:\/\/hevy\.com\/(user|workout)\/[\w-]+$/.test(s.source.url) ? '<p class="hcom"><a href="'+escA(s.source.url)+'" target="_blank" rel="noopener">'+esc(s.source.label)+'</a></p>' : '')+
         '<div class="tblwrap"><table class="plain histtable"><thead><tr><th>Ejercicio</th><th class="num">Carga</th><th class="num">Reps/tiempo</th><th class="num">RPE</th></tr></thead><tbody>'+rowsHtml+'</tbody></table></div>'+
         '</div>';
       container.appendChild(det);
@@ -2610,8 +2627,7 @@ details.hh-det[open]>summary::after{ content:'▴'; }
   var vt=document.getElementById('verTag'); if(vt) vt.textContent=VERSION;
   // lo que guardaban las versiones anteriores (movimientos, ajustes, token) ya no se usa
   try{ Object.keys(localStorage).forEach(function(k){ if(/^(movs-|ajustes-|gh-token)/.test(k)) localStorage.removeItem(k); }); }catch(e){}
-  renderProfile('mopo');
-  revisaHevy();
-  document.addEventListener('visibilitychange', function(){ if(document.visibilityState === 'visible'){ revisaHevy(); rerenderPlan(); } });
+  renderProfile('mipi');
+  document.addEventListener('visibilitychange', function(){ if(document.visibilityState === 'visible'){ rerenderPlan(); } });
 })();
 </script>
