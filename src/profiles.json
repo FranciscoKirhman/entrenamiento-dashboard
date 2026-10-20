@@ -5,52 +5,52 @@
   "MUSCLES": [
    {
     "name": "Femoral",
-    "recent": 4.7,
-    "hist": 4.4,
+    "recent": 1.2,
+    "hist": 4.3,
     "lo": 6,
     "hi": 10,
-    "tier": "warning",
-    "trend": -3.5,
+    "tier": "critical",
+    "trend": -7.0,
     "note": "Curl acostado del domingo 13 y peso muerto rumano del 7. Sube desde 2,9, pero sigue bajo la banda: desde el 21 va dos días por semana, lunes y viernes.",
     "ex": "Romanian Deadlift, Lying/Seated Leg Curl"
    },
    {
     "name": "Tríceps",
-    "recent": 1.8,
-    "hist": 5.1,
+    "recent": 0.0,
+    "hist": 5.0,
     "lo": 6,
     "hi": 10,
     "tier": "critical",
-    "trend": -3.5,
+    "trend": -7.0,
     "note": "Pushdown del 8 y extensión sobre la cabeza del 11. Justo bajo la banda; desde el 21 va el martes y el sábado.",
     "ex": "Triceps Pushdown, Overhead Extension"
    },
    {
     "name": "Glúteo / cadera",
-    "recent": 4.7,
-    "hist": 3.7,
+    "recent": 1.2,
+    "hist": 3.6,
     "lo": 8,
     "hi": 12,
-    "tier": "warning",
-    "trend": -2.3,
+    "tier": "critical",
+    "trend": -5.8,
     "note": "Hip thrust del 7 y máquina de glúteo del 13. La máquina de erector espinal del 7 ya no cuenta como glúteo, por eso queda en 3,5. Desde el 21 hay glúteo el lunes y el viernes, con la abducción.",
     "ex": "Hip Thrust, máquina de glúteo"
    },
    {
     "name": "Espalda",
-    "recent": 8.8,
-    "hist": 9.8,
+    "recent": 12.8,
+    "hist": 9.9,
     "lo": 12,
     "hi": 16,
-    "tier": "warning",
-    "trend": 1.8,
+    "tier": "good",
+    "trend": 7.6,
     "note": "Jalón, remo y dominadas del 11, con jalón a 82 × 12 las tres. Con un solo día por semana no llega a la banda: desde el 21 el remo sentado pasa al viernes.",
     "ex": "Lat Pulldown, Seated Row, Iso-Lateral Row, Pull Up"
    },
    {
     "name": "Bíceps",
     "recent": 3.5,
-    "hist": 5.4,
+    "hist": 5.5,
     "lo": 6,
     "hi": 10,
     "tier": "warning",
@@ -60,41 +60,41 @@
    },
    {
     "name": "Pecho",
-    "recent": 3.5,
-    "hist": 9.4,
+    "recent": 0.0,
+    "hist": 9.2,
     "lo": 10,
     "hi": 14,
     "tier": "critical",
-    "trend": -7.0,
+    "trend": -10.5,
     "note": "Dentro de banda con la banca del 8 y el inclinado a 65 × 10 del domingo 13, sin molestias de hombro.",
     "ex": "Bench Press, Incline Bench, Cable Fly, Chest Fly"
    },
    {
     "name": "Hombro (empuje)",
-    "recent": 6.4,
-    "hist": 10.8,
+    "recent": 4.7,
+    "hist": 10.7,
     "lo": 8,
     "hi": 12,
     "tier": "warning",
-    "trend": -3.5,
+    "trend": -5.8,
     "note": "Sobre la banda con press, elevación lateral, Rear Delt y Face Pull. Desde el 21 el press militar descansa y el Rear Delt sale del plan.",
     "ex": "Shoulder Press, Lateral Raise, Face Pull"
    },
    {
     "name": "Cuádriceps",
-    "recent": 2.9,
-    "hist": 7.5,
+    "recent": 1.2,
+    "hist": 7.4,
     "lo": 10,
     "hi": 14,
     "tier": "critical",
-    "trend": -2.3,
+    "trend": -5.8,
     "note": "Sentadilla a 90 × 8 las tres y prensa a 180 × 12 el 9. Al borde de la banda con un solo día de cuádriceps.",
     "ex": "Squat, Leg Press, Leg Extension"
    },
    {
     "name": "Aductor / abductor",
     "recent": 1.2,
-    "hist": 3.5,
+    "hist": 3.4,
     "lo": 4,
     "hi": 8,
     "tier": "critical",
@@ -104,12 +104,12 @@
    },
    {
     "name": "Core",
-    "recent": 5.2,
-    "hist": 6.9,
+    "recent": 2.9,
+    "hist": 6.8,
     "lo": 12,
     "hi": 22,
     "tier": "critical",
-    "trend": 0.0,
+    "trend": -5.8,
     "note": "Pallof, crunch inverso, elevación de rodillas y plancha lateral: dentro de banda.",
     "ex": "Cable Crunch, Pallof Press, Reverse Crunch, Side Plank"
    }
@@ -11415,6 +11415,10 @@
      {
       "d": "28 jul",
       "w": 65.0
+     },
+     {
+      "d": "20 oct",
+      "w": 70.0
      }
     ],
     "pattern": "meseta_oscilante",
@@ -11683,6 +11687,126 @@
    }
   ],
   "SESSIONS_FULL": [
+   {
+    "date": "2026-10-20",
+    "dlabel": "20 oct",
+    "title": "Afternoon workout 💪",
+    "hora": "2:47 PM",
+    "dur": "56m",
+    "vol": "6,224",
+    "com": "Gracias polo apoquindo",
+    "rec": null,
+    "exercises": [
+     {
+      "ej": "Pull Up",
+      "carga": "Peso corporal",
+      "reps": "10",
+      "rpe": "8"
+     },
+     {
+      "ej": "Pull Up",
+      "carga": "Peso corporal",
+      "reps": "10",
+      "rpe": "8"
+     },
+     {
+      "ej": "Pull Up",
+      "carga": "Peso corporal",
+      "reps": "10",
+      "rpe": "8"
+     },
+     {
+      "ej": "Pull Up",
+      "carga": "Peso corporal",
+      "reps": "10",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Bicep Curl (Machine)",
+      "carga": "51",
+      "reps": "13",
+      "rpe": "9,5"
+     },
+     {
+      "ej": "Bicep Curl (Machine)",
+      "carga": "51",
+      "reps": "9",
+      "rpe": "10"
+     },
+     {
+      "ej": "Bicep Curl (Machine)",
+      "carga": "51",
+      "reps": "8",
+      "rpe": "10"
+     },
+     {
+      "ej": "Face Pull",
+      "carga": "32,5",
+      "reps": "15",
+      "rpe": "8"
+     },
+     {
+      "ej": "Face Pull",
+      "carga": "32,5",
+      "reps": "15",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Face Pull",
+      "carga": "31,25",
+      "reps": "15",
+      "rpe": "8"
+     },
+     {
+      "ej": "Bent Over Row (Barbell)",
+      "carga": "32,5",
+      "reps": "8",
+      "rpe": "—"
+     },
+     {
+      "ej": "Bent Over Row (Barbell)",
+      "carga": "55",
+      "reps": "5",
+      "rpe": "—"
+     },
+     {
+      "ej": "Bent Over Row (Barbell)",
+      "carga": "60",
+      "reps": "5",
+      "rpe": "—"
+     },
+     {
+      "ej": "Bent Over Row (Barbell)",
+      "carga": "70",
+      "reps": "8",
+      "rpe": "9,5"
+     },
+     {
+      "ej": "Bent Over Row (Barbell)",
+      "carga": "70",
+      "reps": "10",
+      "rpe": "9,5"
+     },
+     {
+      "ej": "Bent Over Row (Barbell)",
+      "carga": "70",
+      "reps": "9",
+      "rpe": "10"
+     },
+     {
+      "ej": "Cable Core Pallof Press",
+      "carga": "17,5",
+      "reps": "15",
+      "rpe": "9"
+     },
+     {
+      "ej": "Cable Core Pallof Press",
+      "carga": "17,5",
+      "reps": "15",
+      "rpe": "9"
+     }
+    ]
+   },
    {
     "date": "2026-10-17",
     "dlabel": "17 oct",

@@ -1,4 +1,4 @@
-# Historial de entrenamiento por fecha — 29 de mayo de 2026 al 17 de octubre de 2026 (98 sesiones)
+# Historial de entrenamiento por fecha — 29 de mayo de 2026 al 20 de octubre de 2026 (99 sesiones)
 
 Registro cronológico consolidado. Cada fila corresponde a una serie real copiada desde Hevy. Los volúmenes oficiales se conservan sin reemplazarlos por cálculos derivados.
 
@@ -2813,3 +2813,32 @@ Sesión de boulder por la tarde, después del entrenamiento de pierna de la mañ
 | 7 | Dead Bug | 1 | Peso corporal | 10 | 6 |
 | 7 | Dead Bug | 2 | Peso corporal | 10 | 6 |
 | 7 | Dead Bug | 3 | Peso corporal | 10 | 6 |
+
+## 20 Oct 2026 — Afternoon workout 💪
+
+<!-- hevy:eae5e19e-96d3-43ac-a104-85ef0e923ae5 -->
+**Hora:** 2:47 PM  
+**Duración:** 56m  
+**Volumen Hevy:** 6,224 kg  
+**Comentario:** Gracias polo apoquindo  
+
+| Orden | Ejercicio | Serie | Carga | Reps/tiempo | RPE |
+|---:|---|---:|---:|---|---:|
+| 1 | Pull Up | 1 | Peso corporal | 10 | 8 |
+| 1 | Pull Up | 2 | Peso corporal | 10 | 8 |
+| 1 | Pull Up | 3 | Peso corporal | 10 | 8 |
+| 1 | Pull Up | 4 | Peso corporal | 10 | 8,5 |
+| 2 | Bicep Curl (Machine) | 1 | 51 kg | 13 | 9,5 |
+| 2 | Bicep Curl (Machine) | 2 | 51 kg | 9 | 10 |
+| 2 | Bicep Curl (Machine) | 3 | 51 kg | 8 | 10 |
+| 3 | Face Pull | 1 | 32,5 kg | 15 | 8 |
+| 3 | Face Pull | 2 | 32,5 kg | 15 | 8,5 |
+| 3 | Face Pull | 3 | 31,25 kg | 15 | 8 |
+| 4 | Bent Over Row (Barbell) | 1 | 32,5 kg | 8 | — |
+| 4 | Bent Over Row (Barbell) | 2 | 55 kg | 5 | — |
+| 4 | Bent Over Row (Barbell) | 3 | 60 kg | 5 | — |
+| 4 | Bent Over Row (Barbell) | 4 | 70 kg | 8 | 9,5 |
+| 4 | Bent Over Row (Barbell) | 5 | 70 kg | 10 | 9,5 |
+| 4 | Bent Over Row (Barbell) | 6 | 70 kg | 9 | 10 |
+| 5 | Cable Core Pallof Press | 1 | 17,5 kg | 15 | 9 |
+| 5 | Cable Core Pallof Press | 2 | 17,5 kg | 15 | 9 |
