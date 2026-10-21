@@ -1,4 +1,4 @@
-# Historial de entrenamiento por fecha — 29 de mayo de 2026 al 20 de octubre de 2026 (99 sesiones)
+# Historial de entrenamiento por fecha — 29 de mayo de 2026 al 21 de octubre de 2026 (100 sesiones)
 
 Registro cronológico consolidado. Cada fila corresponde a una serie real copiada desde Hevy. Los volúmenes oficiales se conservan sin reemplazarlos por cálculos derivados.
 
@@ -2842,3 +2842,37 @@ Sesión de boulder por la tarde, después del entrenamiento de pierna de la mañ
 | 4 | Bent Over Row (Barbell) | 6 | 70 kg | 9 | 10 |
 | 5 | Cable Core Pallof Press | 1 | 17,5 kg | 15 | 9 |
 | 5 | Cable Core Pallof Press | 2 | 17,5 kg | 15 | 9 |
+
+## 21 Oct 2026 — Afternoon workout 💪
+
+<!-- hevy:51d0725e-1dc2-4092-a3c0-5593365feab8 -->
+**Hora:** 3:45 PM  
+**Duración:** 1h 35m  
+**Volumen Hevy:** 10,260 kg  
+
+| Orden | Ejercicio | Serie | Carga | Reps/tiempo | RPE |
+|---:|---|---:|---:|---|---:|
+| 1 | Incline Bench Press (Dumbbell) | 1 | 20 kg | 10 | 6 |
+| 1 | Incline Bench Press (Dumbbell) | 2 | 30 kg | 5 | 6 |
+| 1 | Incline Bench Press (Dumbbell) | 3 | 40 kg | 12 | 8 |
+| 1 | Incline Bench Press (Dumbbell) | 4 | 40 kg | 12 | 8,5 |
+| 1 | Incline Bench Press (Dumbbell) | 5 | 40 kg | 12 | 9 |
+| 1 | Incline Bench Press (Dumbbell) | 6 | 40 kg | 11 | 10 |
+| 2 | Bench Press (Barbell) | 1 | 60 kg | 5 | — |
+| 2 | Bench Press (Barbell) | 2 | 80 kg | 2 | — |
+| 2 | Bench Press (Barbell) | 3 | 90 kg | 8 | 8 |
+| 2 | Bench Press (Barbell) | 4 | 90 kg | 8 | 9 |
+| 2 | Bench Press (Barbell) | 5 | 90 kg | 7 | 9 |
+| 2 | Bench Press (Barbell) | 6 | 85 kg | 6 | 9 |
+| 3 | Chest Press (Machine) | 1 | 75 kg | 6 | 10 |
+| 3 | Chest Press (Machine) | 2 | 66 kg | 7 | 10 |
+| 3 | Chest Press (Machine) | 3 | 56,5 kg | 11 | 10 |
+| 4 | Rear Delt Reverse Fly (Machine) | 1 | 54 kg | 12 | 8 |
+| 4 | Rear Delt Reverse Fly (Machine) | 2 | 54 kg | 12 | 8 |
+| 5 | Triceps Pushdown | 1 | 35 kg | 15 | 8,5 |
+| 5 | Triceps Pushdown | 2 | 35 kg | 10 | 9,5 |
+| 5 | Triceps Pushdown | 3 | 35 kg | 11 | 10 |
+| 6 | Behind the Back Curl (Cable) | 1 | 25 kg | 12 | 9 |
+| 6 | Behind the Back Curl (Cable) | 2 | 25 kg | 12 | 9 |
+| 6 | Behind the Back Curl (Cable) | 3 | 25 kg | 12 | 9,5 |
+| 7 | Treadmill | 1 | Peso corporal (isométrico) | 992 s | — |

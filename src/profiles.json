@@ -10,18 +10,18 @@
     "lo": 6,
     "hi": 10,
     "tier": "critical",
-    "trend": -7.0,
+    "trend": -5.8,
     "note": "Curl acostado del domingo 13 y peso muerto rumano del 7. Sube desde 2,9, pero sigue bajo la banda: desde el 21 va dos días por semana, lunes y viernes.",
     "ex": "Romanian Deadlift, Lying/Seated Leg Curl"
    },
    {
     "name": "Tríceps",
-    "recent": 0.0,
-    "hist": 5.0,
+    "recent": 1.8,
+    "hist": 5.1,
     "lo": 6,
     "hi": 10,
     "tier": "critical",
-    "trend": -7.0,
+    "trend": -3.5,
     "note": "Pushdown del 8 y extensión sobre la cabeza del 11. Justo bajo la banda; desde el 21 va el martes y el sábado.",
     "ex": "Triceps Pushdown, Overhead Extension"
    },
@@ -38,52 +38,52 @@
    },
    {
     "name": "Espalda",
-    "recent": 12.8,
-    "hist": 9.9,
+    "recent": 7.6,
+    "hist": 9.8,
     "lo": 12,
     "hi": 16,
-    "tier": "good",
-    "trend": 7.6,
+    "tier": "warning",
+    "trend": -2.9,
     "note": "Jalón, remo y dominadas del 11, con jalón a 82 × 12 las tres. Con un solo día por semana no llega a la banda: desde el 21 el remo sentado pasa al viernes.",
     "ex": "Lat Pulldown, Seated Row, Iso-Lateral Row, Pull Up"
    },
    {
     "name": "Bíceps",
     "recent": 3.5,
-    "hist": 5.5,
+    "hist": 5.6,
     "lo": 6,
     "hi": 10,
     "tier": "warning",
-    "trend": 0.0,
+    "trend": -1.8,
     "note": "Solo el Preacher del 11 cae en la ventana. Desde el 21: curl inclinado el jueves y martillo el sábado, además de lo que trabajan los remos.",
     "ex": "Incline Curl, Hammer Curl, Preacher Curl"
    },
    {
     "name": "Pecho",
-    "recent": 0.0,
-    "hist": 9.2,
+    "recent": 6.4,
+    "hist": 9.6,
     "lo": 10,
     "hi": 14,
-    "tier": "critical",
-    "trend": -10.5,
+    "tier": "warning",
+    "trend": -4.1,
     "note": "Dentro de banda con la banca del 8 y el inclinado a 65 × 10 del domingo 13, sin molestias de hombro.",
     "ex": "Bench Press, Incline Bench, Cable Fly, Chest Fly"
    },
    {
     "name": "Hombro (empuje)",
-    "recent": 4.7,
+    "recent": 4.1,
     "hist": 10.7,
     "lo": 8,
     "hi": 12,
     "tier": "warning",
-    "trend": -5.8,
+    "trend": -8.2,
     "note": "Sobre la banda con press, elevación lateral, Rear Delt y Face Pull. Desde el 21 el press militar descansa y el Rear Delt sale del plan.",
     "ex": "Shoulder Press, Lateral Raise, Face Pull"
    },
    {
     "name": "Cuádriceps",
     "recent": 1.2,
-    "hist": 7.4,
+    "hist": 7.3,
     "lo": 10,
     "hi": 14,
     "tier": "critical",
@@ -98,7 +98,7 @@
     "lo": 4,
     "hi": 8,
     "tier": "critical",
-    "trend": -4.1,
+    "trend": -2.3,
     "note": "Aducción a 89 × 15 el 9 y el 13, siempre a RPE 7: en banda, pero con la carga corta. Sube a 94 el 23.",
     "ex": "Hip Adduction, Hip Abduction"
    },
@@ -11143,6 +11143,10 @@
      {
       "d": "13 oct",
       "w": 70.0
+     },
+     {
+      "d": "21 oct",
+      "w": 90.0
      }
     ],
     "pattern": "ascendente_claro",
@@ -11687,6 +11691,162 @@
    }
   ],
   "SESSIONS_FULL": [
+   {
+    "date": "2026-10-21",
+    "dlabel": "21 oct",
+    "title": "Afternoon workout 💪",
+    "hora": "3:45 PM",
+    "dur": "1h 35m",
+    "vol": "10,260",
+    "com": null,
+    "rec": null,
+    "exercises": [
+     {
+      "ej": "Incline Bench Press (Dumbbell)",
+      "carga": "20",
+      "reps": "10",
+      "rpe": "6"
+     },
+     {
+      "ej": "Incline Bench Press (Dumbbell)",
+      "carga": "30",
+      "reps": "5",
+      "rpe": "6"
+     },
+     {
+      "ej": "Incline Bench Press (Dumbbell)",
+      "carga": "40",
+      "reps": "12",
+      "rpe": "8"
+     },
+     {
+      "ej": "Incline Bench Press (Dumbbell)",
+      "carga": "40",
+      "reps": "12",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Incline Bench Press (Dumbbell)",
+      "carga": "40",
+      "reps": "12",
+      "rpe": "9"
+     },
+     {
+      "ej": "Incline Bench Press (Dumbbell)",
+      "carga": "40",
+      "reps": "11",
+      "rpe": "10"
+     },
+     {
+      "ej": "Bench Press (Barbell)",
+      "carga": "60",
+      "reps": "5",
+      "rpe": "—"
+     },
+     {
+      "ej": "Bench Press (Barbell)",
+      "carga": "80",
+      "reps": "2",
+      "rpe": "—"
+     },
+     {
+      "ej": "Bench Press (Barbell)",
+      "carga": "90",
+      "reps": "8",
+      "rpe": "8"
+     },
+     {
+      "ej": "Bench Press (Barbell)",
+      "carga": "90",
+      "reps": "8",
+      "rpe": "9"
+     },
+     {
+      "ej": "Bench Press (Barbell)",
+      "carga": "90",
+      "reps": "7",
+      "rpe": "9"
+     },
+     {
+      "ej": "Bench Press (Barbell)",
+      "carga": "85",
+      "reps": "6",
+      "rpe": "9"
+     },
+     {
+      "ej": "Chest Press (Machine)",
+      "carga": "75",
+      "reps": "6",
+      "rpe": "10"
+     },
+     {
+      "ej": "Chest Press (Machine)",
+      "carga": "66",
+      "reps": "7",
+      "rpe": "10"
+     },
+     {
+      "ej": "Chest Press (Machine)",
+      "carga": "56,5",
+      "reps": "11",
+      "rpe": "10"
+     },
+     {
+      "ej": "Rear Delt Reverse Fly (Machine)",
+      "carga": "54",
+      "reps": "12",
+      "rpe": "8"
+     },
+     {
+      "ej": "Rear Delt Reverse Fly (Machine)",
+      "carga": "54",
+      "reps": "12",
+      "rpe": "8"
+     },
+     {
+      "ej": "Triceps Pushdown",
+      "carga": "35",
+      "reps": "15",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Triceps Pushdown",
+      "carga": "35",
+      "reps": "10",
+      "rpe": "9,5"
+     },
+     {
+      "ej": "Triceps Pushdown",
+      "carga": "35",
+      "reps": "11",
+      "rpe": "10"
+     },
+     {
+      "ej": "Behind the Back Curl (Cable)",
+      "carga": "25",
+      "reps": "12",
+      "rpe": "9"
+     },
+     {
+      "ej": "Behind the Back Curl (Cable)",
+      "carga": "25",
+      "reps": "12",
+      "rpe": "9"
+     },
+     {
+      "ej": "Behind the Back Curl (Cable)",
+      "carga": "25",
+      "reps": "12",
+      "rpe": "9,5"
+     },
+     {
+      "ej": "Treadmill",
+      "carga": "Peso corporal (isométrico)",
+      "reps": "992 s",
+      "rpe": "—"
+     }
+    ]
+   },
    {
     "date": "2026-10-20",
     "dlabel": "20 oct",
