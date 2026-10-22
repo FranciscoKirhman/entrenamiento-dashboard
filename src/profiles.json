@@ -5,12 +5,12 @@
   "MUSCLES": [
    {
     "name": "Femoral",
-    "recent": 1.2,
-    "hist": 4.3,
+    "recent": 4.7,
+    "hist": 4.5,
     "lo": 6,
     "hi": 10,
-    "tier": "critical",
-    "trend": -5.8,
+    "tier": "warning",
+    "trend": -2.3,
     "note": "Curl acostado del domingo 13 y peso muerto rumano del 7. Sube desde 2,9, pero sigue bajo la banda: desde el 21 va dos días por semana, lunes y viernes.",
     "ex": "Romanian Deadlift, Lying/Seated Leg Curl"
    },
@@ -27,12 +27,12 @@
    },
    {
     "name": "Glúteo / cadera",
-    "recent": 1.2,
-    "hist": 3.6,
+    "recent": 3.5,
+    "hist": 3.8,
     "lo": 8,
     "hi": 12,
     "tier": "critical",
-    "trend": -5.8,
+    "trend": -3.5,
     "note": "Hip thrust del 7 y máquina de glúteo del 13. La máquina de erector espinal del 7 ya no cuenta como glúteo, por eso queda en 3,5. Desde el 21 hay glúteo el lunes y el viernes, con la abducción.",
     "ex": "Hip Thrust, máquina de glúteo"
    },
@@ -50,7 +50,7 @@
    {
     "name": "Bíceps",
     "recent": 3.5,
-    "hist": 5.6,
+    "hist": 5.5,
     "lo": 6,
     "hi": 10,
     "tier": "warning",
@@ -82,30 +82,30 @@
    },
    {
     "name": "Cuádriceps",
-    "recent": 1.2,
-    "hist": 7.3,
+    "recent": 2.9,
+    "hist": 7.4,
     "lo": 10,
     "hi": 14,
     "tier": "critical",
-    "trend": -5.8,
+    "trend": -4.1,
     "note": "Sentadilla a 90 × 8 las tres y prensa a 180 × 12 el 9. Al borde de la banda con un solo día de cuádriceps.",
     "ex": "Squat, Leg Press, Leg Extension"
    },
    {
     "name": "Aductor / abductor",
-    "recent": 1.2,
-    "hist": 3.4,
+    "recent": 2.9,
+    "hist": 3.5,
     "lo": 4,
     "hi": 8,
-    "tier": "critical",
-    "trend": -2.3,
+    "tier": "warning",
+    "trend": -0.6,
     "note": "Aducción a 89 × 15 el 9 y el 13, siempre a RPE 7: en banda, pero con la carga corta. Sube a 94 el 23.",
     "ex": "Hip Adduction, Hip Abduction"
    },
    {
     "name": "Core",
     "recent": 2.9,
-    "hist": 6.8,
+    "hist": 6.7,
     "lo": 12,
     "hi": 22,
     "tier": "critical",
@@ -11291,6 +11291,10 @@
      {
       "d": "06 oct",
       "w": 105.0
+     },
+     {
+      "d": "22 oct",
+      "w": 120.0
      }
     ],
     "pattern": "meseta_oscilante",
@@ -11607,6 +11611,10 @@
      {
       "d": "14 oct",
       "w": 150.0
+     },
+     {
+      "d": "22 oct",
+      "w": 180.0
      }
     ],
     "pattern": "meseta_oscilante",
@@ -11691,6 +11699,144 @@
    }
   ],
   "SESSIONS_FULL": [
+   {
+    "date": "2026-10-22",
+    "dlabel": "22 oct",
+    "title": "Afternoon workout 💪",
+    "hora": "1:07 PM",
+    "dur": "1h 21m",
+    "vol": "20,262",
+    "com": "Ass",
+    "rec": null,
+    "exercises": [
+     {
+      "ej": "Hip Thrust (Barbell)",
+      "carga": "60",
+      "reps": "8",
+      "rpe": "6"
+     },
+     {
+      "ej": "Hip Thrust (Barbell)",
+      "carga": "90",
+      "reps": "5",
+      "rpe": "6"
+     },
+     {
+      "ej": "Hip Thrust (Barbell)",
+      "carga": "100",
+      "reps": "2",
+      "rpe": "6"
+     },
+     {
+      "ej": "Hip Thrust (Barbell)",
+      "carga": "120",
+      "reps": "8",
+      "rpe": "8"
+     },
+     {
+      "ej": "Hip Thrust (Barbell)",
+      "carga": "120",
+      "reps": "8",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Hip Thrust (Barbell)",
+      "carga": "120",
+      "reps": "8",
+      "rpe": "9"
+     },
+     {
+      "ej": "Hip Thrust (Barbell)",
+      "carga": "120",
+      "reps": "8",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Romanian Deadlift (Smith Machine)",
+      "carga": "20",
+      "reps": "10",
+      "rpe": "—"
+     },
+     {
+      "ej": "Romanian Deadlift (Smith Machine)",
+      "carga": "60",
+      "reps": "2",
+      "rpe": "—"
+     },
+     {
+      "ej": "Romanian Deadlift (Smith Machine)",
+      "carga": "70",
+      "reps": "10",
+      "rpe": "8"
+     },
+     {
+      "ej": "Romanian Deadlift (Smith Machine)",
+      "carga": "70",
+      "reps": "10",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Romanian Deadlift (Smith Machine)",
+      "carga": "70",
+      "reps": "10",
+      "rpe": "9,5"
+     },
+     {
+      "ej": "Leg Press (Machine)",
+      "carga": "180",
+      "reps": "12",
+      "rpe": "8"
+     },
+     {
+      "ej": "Leg Press (Machine)",
+      "carga": "180",
+      "reps": "12",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Leg Press (Machine)",
+      "carga": "180",
+      "reps": "12",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Hip Abduction (Machine)",
+      "carga": "82",
+      "reps": "15",
+      "rpe": "8"
+     },
+     {
+      "ej": "Hip Abduction (Machine)",
+      "carga": "82",
+      "reps": "15",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Hip Abduction (Machine)",
+      "carga": "82",
+      "reps": "15",
+      "rpe": "9"
+     },
+     {
+      "ej": "Seated Leg Curl (Machine)",
+      "carga": "66",
+      "reps": "14",
+      "rpe": "9,5"
+     },
+     {
+      "ej": "Seated Leg Curl (Machine)",
+      "carga": "66",
+      "reps": "14",
+      "rpe": "9,5"
+     },
+     {
+      "ej": "Seated Leg Curl (Machine)",
+      "carga": "61",
+      "reps": "14",
+      "rpe": "9"
+     }
+    ]
+   },
    {
     "date": "2026-10-21",
     "dlabel": "21 oct",

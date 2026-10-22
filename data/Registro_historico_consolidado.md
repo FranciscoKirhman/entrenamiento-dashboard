@@ -1,4 +1,4 @@
-# Historial de entrenamiento por fecha — 29 de mayo de 2026 al 21 de octubre de 2026 (100 sesiones)
+# Historial de entrenamiento por fecha — 29 de mayo de 2026 al 22 de octubre de 2026 (101 sesiones)
 
 Registro cronológico consolidado. Cada fila corresponde a una serie real copiada desde Hevy. Los volúmenes oficiales se conservan sin reemplazarlos por cálculos derivados.
 
@@ -2876,3 +2876,35 @@ Sesión de boulder por la tarde, después del entrenamiento de pierna de la mañ
 | 6 | Behind the Back Curl (Cable) | 2 | 25 kg | 12 | 9 |
 | 6 | Behind the Back Curl (Cable) | 3 | 25 kg | 12 | 9,5 |
 | 7 | Treadmill | 1 | Peso corporal (isométrico) | 992 s | — |
+
+## 22 Oct 2026 — Afternoon workout 💪
+
+<!-- hevy:b9747b5b-5c72-4cde-8152-499123b1d0bf -->
+**Hora:** 1:07 PM  
+**Duración:** 1h 21m  
+**Volumen Hevy:** 20,262 kg  
+**Comentario:** Ass  
+
+| Orden | Ejercicio | Serie | Carga | Reps/tiempo | RPE |
+|---:|---|---:|---:|---|---:|
+| 1 | Hip Thrust (Barbell) | 1 | 60 kg | 8 | 6 |
+| 1 | Hip Thrust (Barbell) | 2 | 90 kg | 5 | 6 |
+| 1 | Hip Thrust (Barbell) | 3 | 100 kg | 2 | 6 |
+| 1 | Hip Thrust (Barbell) | 4 | 120 kg | 8 | 8 |
+| 1 | Hip Thrust (Barbell) | 5 | 120 kg | 8 | 8,5 |
+| 1 | Hip Thrust (Barbell) | 6 | 120 kg | 8 | 9 |
+| 1 | Hip Thrust (Barbell) | 7 | 120 kg | 8 | 8,5 |
+| 2 | Romanian Deadlift (Smith Machine) | 1 | 20 kg | 10 | — |
+| 2 | Romanian Deadlift (Smith Machine) | 2 | 60 kg | 2 | — |
+| 2 | Romanian Deadlift (Smith Machine) | 3 | 70 kg | 10 | 8 |
+| 2 | Romanian Deadlift (Smith Machine) | 4 | 70 kg | 10 | 8,5 |
+| 2 | Romanian Deadlift (Smith Machine) | 5 | 70 kg | 10 | 9,5 |
+| 3 | Leg Press (Machine) | 1 | 180 kg | 12 | 8 |
+| 3 | Leg Press (Machine) | 2 | 180 kg | 12 | 8,5 |
+| 3 | Leg Press (Machine) | 3 | 180 kg | 12 | 8,5 |
+| 4 | Hip Abduction (Machine) | 1 | 82 kg | 15 | 8 |
+| 4 | Hip Abduction (Machine) | 2 | 82 kg | 15 | 8,5 |
+| 4 | Hip Abduction (Machine) | 3 | 82 kg | 15 | 9 |
+| 5 | Seated Leg Curl (Machine) | 1 | 66 kg | 14 | 9,5 |
+| 5 | Seated Leg Curl (Machine) | 2 | 66 kg | 14 | 9,5 |
+| 5 | Seated Leg Curl (Machine) | 3 | 61 kg | 14 | 9 |
