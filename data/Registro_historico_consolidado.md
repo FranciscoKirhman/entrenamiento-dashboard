@@ -1,4 +1,4 @@
-# Historial de entrenamiento por fecha — 29 de mayo de 2026 al 22 de octubre de 2026 (101 sesiones)
+# Historial de entrenamiento por fecha — 29 de mayo de 2026 al 24 de octubre de 2026 (102 sesiones)
 
 Registro cronológico consolidado. Cada fila corresponde a una serie real copiada desde Hevy. Los volúmenes oficiales se conservan sin reemplazarlos por cálculos derivados.
 
@@ -2908,3 +2908,25 @@ Sesión de boulder por la tarde, después del entrenamiento de pierna de la mañ
 | 5 | Seated Leg Curl (Machine) | 1 | 66 kg | 14 | 9,5 |
 | 5 | Seated Leg Curl (Machine) | 2 | 66 kg | 14 | 9,5 |
 | 5 | Seated Leg Curl (Machine) | 3 | 61 kg | 14 | 9 |
+
+## 24 Oct 2026 — Afternoon workout 💪
+
+<!-- hevy:38cd1e62-5475-41aa-a4f0-4291a6dc85e8 -->
+**Hora:** 3:17 PM  
+**Duración:** 38m  
+**Volumen Hevy:** 5,226 kg  
+
+| Orden | Ejercicio | Serie | Carga | Reps/tiempo | RPE |
+|---:|---|---:|---:|---|---:|
+| 1 | Bulgarian Split Squat (Dumbbell) | 1 | 20 kg | 10 | — |
+| 1 | Bulgarian Split Squat (Dumbbell) | 2 | 40 kg | 2 | 9 |
+| 1 | Bulgarian Split Squat (Dumbbell) | 3 | 40 kg | 11 | 8,5 |
+| 1 | Bulgarian Split Squat (Dumbbell) | 4 | 20 kg | 11 | 10 |
+| 2 | Leg Extension (Machine) | 1 | 56,5 kg | 12 | 9 |
+| 2 | Leg Extension (Machine) | 2 | 56,5 kg | 12 | 9 |
+| 2 | Leg Extension (Machine) | 3 | 52,5 kg | 12 | 8 |
+| 3 | Romanian Deadlift (Smith Machine) | 1 | 30 kg | 10 | — |
+| 3 | Romanian Deadlift (Smith Machine) | 2 | 40 kg | 5 | — |
+| 3 | Romanian Deadlift (Smith Machine) | 3 | 50 kg | 12 | 8 |
+| 3 | Romanian Deadlift (Smith Machine) | 4 | 50 kg | 12 | 8,5 |
+| 3 | Romanian Deadlift (Smith Machine) | 5 | 50 kg | 12 | 8 |

@@ -5,19 +5,19 @@
   "MUSCLES": [
    {
     "name": "Femoral",
-    "recent": 4.7,
-    "hist": 4.5,
+    "recent": 6.4,
+    "hist": 4.6,
     "lo": 6,
     "hi": 10,
-    "tier": "warning",
-    "trend": -2.3,
+    "tier": "good",
+    "trend": 2.9,
     "note": "Curl acostado del domingo 13 y peso muerto rumano del 7. Sube desde 2,9, pero sigue bajo la banda: desde el 21 va dos días por semana, lunes y viernes.",
     "ex": "Romanian Deadlift, Lying/Seated Leg Curl"
    },
    {
     "name": "Tríceps",
     "recent": 1.8,
-    "hist": 5.1,
+    "hist": 5.0,
     "lo": 6,
     "hi": 10,
     "tier": "critical",
@@ -28,18 +28,18 @@
    {
     "name": "Glúteo / cadera",
     "recent": 3.5,
-    "hist": 3.8,
+    "hist": 3.7,
     "lo": 8,
     "hi": 12,
     "tier": "critical",
-    "trend": -3.5,
+    "trend": 0.0,
     "note": "Hip thrust del 7 y máquina de glúteo del 13. La máquina de erector espinal del 7 ya no cuenta como glúteo, por eso queda en 3,5. Desde el 21 hay glúteo el lunes y el viernes, con la abducción.",
     "ex": "Hip Thrust, máquina de glúteo"
    },
    {
     "name": "Espalda",
     "recent": 7.6,
-    "hist": 9.8,
+    "hist": 9.6,
     "lo": 12,
     "hi": 16,
     "tier": "warning",
@@ -50,7 +50,7 @@
    {
     "name": "Bíceps",
     "recent": 3.5,
-    "hist": 5.5,
+    "hist": 5.4,
     "lo": 6,
     "hi": 10,
     "tier": "warning",
@@ -61,7 +61,7 @@
    {
     "name": "Pecho",
     "recent": 6.4,
-    "hist": 9.6,
+    "hist": 9.4,
     "lo": 10,
     "hi": 14,
     "tier": "warning",
@@ -72,7 +72,7 @@
    {
     "name": "Hombro (empuje)",
     "recent": 4.1,
-    "hist": 10.7,
+    "hist": 10.5,
     "lo": 8,
     "hi": 12,
     "tier": "warning",
@@ -82,12 +82,12 @@
    },
    {
     "name": "Cuádriceps",
-    "recent": 2.9,
-    "hist": 7.4,
+    "recent": 6.4,
+    "hist": 7.6,
     "lo": 10,
     "hi": 14,
-    "tier": "critical",
-    "trend": -4.1,
+    "tier": "warning",
+    "trend": 4.7,
     "note": "Sentadilla a 90 × 8 las tres y prensa a 180 × 12 el 9. Al borde de la banda con un solo día de cuádriceps.",
     "ex": "Squat, Leg Press, Leg Extension"
    },
@@ -98,18 +98,18 @@
     "lo": 4,
     "hi": 8,
     "tier": "warning",
-    "trend": -0.6,
+    "trend": 1.2,
     "note": "Aducción a 89 × 15 el 9 y el 13, siempre a RPE 7: en banda, pero con la carga corta. Sube a 94 el 23.",
     "ex": "Hip Adduction, Hip Abduction"
    },
    {
     "name": "Core",
     "recent": 2.9,
-    "hist": 6.7,
+    "hist": 6.6,
     "lo": 12,
     "hi": 22,
     "tier": "critical",
-    "trend": -5.8,
+    "trend": -2.3,
     "note": "Pallof, crunch inverso, elevación de rodillas y plancha lateral: dentro de banda.",
     "ex": "Cable Crunch, Pallof Press, Reverse Crunch, Side Plank"
    }
@@ -11699,6 +11699,90 @@
    }
   ],
   "SESSIONS_FULL": [
+   {
+    "date": "2026-10-24",
+    "dlabel": "24 oct",
+    "title": "Afternoon workout 💪",
+    "hora": "3:17 PM",
+    "dur": "38m",
+    "vol": "5,226",
+    "com": null,
+    "rec": null,
+    "exercises": [
+     {
+      "ej": "Bulgarian Split Squat (Dumbbell)",
+      "carga": "20",
+      "reps": "10",
+      "rpe": "—"
+     },
+     {
+      "ej": "Bulgarian Split Squat (Dumbbell)",
+      "carga": "40",
+      "reps": "2",
+      "rpe": "9"
+     },
+     {
+      "ej": "Bulgarian Split Squat (Dumbbell)",
+      "carga": "40",
+      "reps": "11",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Bulgarian Split Squat (Dumbbell)",
+      "carga": "20",
+      "reps": "11",
+      "rpe": "10"
+     },
+     {
+      "ej": "Leg Extension (Machine)",
+      "carga": "56,5",
+      "reps": "12",
+      "rpe": "9"
+     },
+     {
+      "ej": "Leg Extension (Machine)",
+      "carga": "56,5",
+      "reps": "12",
+      "rpe": "9"
+     },
+     {
+      "ej": "Leg Extension (Machine)",
+      "carga": "52,5",
+      "reps": "12",
+      "rpe": "8"
+     },
+     {
+      "ej": "Romanian Deadlift (Smith Machine)",
+      "carga": "30",
+      "reps": "10",
+      "rpe": "—"
+     },
+     {
+      "ej": "Romanian Deadlift (Smith Machine)",
+      "carga": "40",
+      "reps": "5",
+      "rpe": "—"
+     },
+     {
+      "ej": "Romanian Deadlift (Smith Machine)",
+      "carga": "50",
+      "reps": "12",
+      "rpe": "8"
+     },
+     {
+      "ej": "Romanian Deadlift (Smith Machine)",
+      "carga": "50",
+      "reps": "12",
+      "rpe": "8,5"
+     },
+     {
+      "ej": "Romanian Deadlift (Smith Machine)",
+      "carga": "50",
+      "reps": "12",
+      "rpe": "8"
+     }
+    ]
+   },
    {
     "date": "2026-10-22",
     "dlabel": "22 oct",
