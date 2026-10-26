@@ -1,4 +1,4 @@
-# Historial de entrenamiento de Paloma (Mipi) — 16 de enero al 7 de octubre de 2026 (108 sesiones)
+# Historial de entrenamiento de Paloma (Mipi) — 16 de enero al 21 de octubre de 2026 (112 sesiones)
 
 Registro cronológico consolidado, mismo formato que el de Mopo. Cada fila corresponde a una serie real copiada desde Hevy. Los volúmenes oficiales se conservan sin reemplazarlos por cálculos derivados (excepto en sesiones con ejercicios asistidos o de solo-peso-corporal, donde Hevy suma un componente de peso corporal que no aparece en el texto copiado — el volumen mostrado sigue siendo el oficial de la app).
 
@@ -3341,3 +3341,97 @@ No hubo sesión de gimnasio este día (la pierna B se corrió al jueves 27). Sí
 - **Hip Thrust (Barbell):** En smith, mejorando posicicion, truco poner la barra mas abajo del pubis
 - **Deadlift (Smith Machine):** Sin straps, facil, pero leve dolor lumbar
 - **Walking:** Inclinada 15
+
+## 17 Oct 2026 — Poto 🍑
+
+<!-- hevy:web-uPxQWxo2IQ9 -->
+**Hora:** 2:20 PM  
+**Duración:** 1h 4m  
+**Volumen Hevy:** 3,329 kg  
+**Comentario:** Livianito y al fin con mi mou  
+
+| Orden | Ejercicio | Serie | Carga | Reps/tiempo | RPE |
+|---:|---|---:|---:|---|---:|
+| 1 | Hip Thrust (Machine) | 1 | 22 kg | 10 | 6 |
+| 1 | Hip Thrust (Machine) | 2 | 42 kg | 8 | 7 |
+| 1 | Hip Thrust (Machine) | 3 | 42 kg | 9 | 7 |
+| 2 | Back Extension (Weighted Hyperextension) | 1 | 23 kg | 11 | 6 |
+| 2 | Back Extension (Weighted Hyperextension) | 2 | 27 kg | 12 | 7 |
+| 3 | Reverse Lunge | 1 | Peso corporal | 8 | 6 |
+| 3 | Reverse Lunge | 2 | Peso corporal | 8 | 8 |
+| 4 | Hip Abduction (Machine) | 1 | 50 kg | 12 | 7 |
+| 4 | Hip Abduction (Machine) | 2 | 50 kg | 15 | 6 |
+| 5 | Standing Cable Glute Kickbacks | 1 | 9 kg | 12 | 6 |
+| 5 | Standing Cable Glute Kickbacks | 2 | 18 kg | 10 | 6 |
+| 5 | Standing Cable Glute Kickbacks | 3 | 18 kg | 10 | 7 |
+| 6 | Dead Bug | 1 | Peso corporal | 20 | 6 |
+| 6 | Dead Bug | 2 | Peso corporal | 20 | 6 |
+| 6 | Dead Bug | 3 | Peso corporal | 20 | 6 |
+
+**Notas por ejercicio:**
+- **Reverse Lunge:** Con 10 k
+- **Standing Cable Glute Kickbacks:** Hoy la correcta, liviano
+
+## 1 Oct 2026 — 🚂 🔝
+
+<!-- hevy:web-Esmnwjygfqy -->
+**Hora:** 7:36 PM  
+**Duración:** 1h 53m  
+**Volumen Hevy:** 6,316 kg  
+**Comentario:** Dolor de codo izquierdo a la hiperextensión en remo y bench press. Tirame más calentamiento de codo para la prox Colgarse 8 seg, después 4 elevaciones de escápula  
+
+| Orden | Ejercicio | Serie | Carga | Reps/tiempo | RPE |
+|---:|---|---:|---:|---|---:|
+| 1 | Lat Pulldown (Cable) | 1 | 19 kg | 12 | 6 |
+| 1 | Lat Pulldown (Cable) | 2 | 33 kg | 10 | 8 |
+| 1 | Lat Pulldown (Cable) | 3 | 33 kg | 10 | 8 |
+| 1 | Lat Pulldown (Cable) | 4 | 33 kg | 10 | 8,5 |
+| 2 | Seated Row (Machine) | 1 | 15 kg | 12 | 6 |
+| 2 | Seated Row (Machine) | 2 | 32,5 kg | 9 | 8 |
+| 2 | Seated Row (Machine) | 3 | 32,5 kg | 10 | 8 |
+| 2 | Seated Row (Machine) | 4 | 32,5 kg | 10 | 8 |
+| 3 | Bench Press (Barbell) | 1 | 12,5 kg | 12 | 6 |
+| 3 | Bench Press (Barbell) | 2 | 20 kg | 12 | 9 |
+| 3 | Bench Press (Barbell) | 3 | 20 kg | 12 | 8 |
+| 3 | Bench Press (Barbell) | 4 | 20 kg | 12 | 9 |
+| 4 | Shoulder Press (Dumbbell) | 1 | 5 kg | 15 | 9 |
+| 4 | Shoulder Press (Dumbbell) | 2 | 5 kg | 12 | 9 |
+| 4 | Shoulder Press (Dumbbell) | 3 | 5 kg | 12 | 9 |
+| 5 | Face Pull | 1 | 15 kg | 15 | 7 |
+| 5 | Face Pull | 2 | 17,5 kg | 15 | 8 |
+| 5 | Face Pull | 3 | 17,5 kg | 15 | 8,5 |
+| 6 | Farmers Walk | 1 | 24 kg | 30 m | — |
+| 6 | Farmers Walk | 2 | 24 kg | 30 m | — |
+| 6 | Farmers Walk | 3 | 24 kg | 30 m | — |
+| 7 | Reverse Crunch | 1 | Peso corporal | 15 | 7 |
+| 7 | Reverse Crunch | 2 | Peso corporal | 15 | 7 |
+| 7 | Reverse Crunch | 3 | Peso corporal | 15 | 8 |
+| 8 | Jackknife Sit Up | 1 | Peso corporal | 12 | 8 |
+| 8 | Jackknife Sit Up | 2 | Peso corporal | 12 | 9 |
+| 8 | Jackknife Sit Up | 3 | Peso corporal | 12 | 10 |
+| 9 | Stair Machine (Floors) | 1 | — | 42 pisos / 12m 0s | — |
+
+**Notas por ejercicio:**
+- **Stair Machine (Floors):** Fc max 187, L4-L8-L4
+
+## 21 Oct 2026 — Abs
+
+<!-- hevy:web-dRc9bZnAqhL -->
+**Hora:** 6:11 PM  
+**Duración:** 1h 30m  
+**Volumen Hevy:** 3,488 kg  
+**Comentario:** El biceps de la coco?????? Insano🥵  
+
+| Orden | Ejercicio | Serie | Carga | Reps/tiempo | RPE |
+|---:|---|---:|---:|---|---:|
+| 1 | Clase Abs | 1 | Peso corporal (isométrico) | 2400 s | — |
+| 2 | Hip Thrust (Barbell) | 1 | 50 kg | 8 | 6 |
+| 2 | Hip Thrust (Barbell) | 2 | 90 kg | 10 | 7 |
+| 2 | Hip Thrust (Barbell) | 3 | 90 kg | 10 | 8 |
+| 2 | Hip Thrust (Barbell) | 4 | 90 kg | 10 | 7,5 |
+| 3 | Bicep Curl (Dumbbell) | 1 | 6 kg | 10 | 8 |
+| 3 | Bicep Curl (Dumbbell) | 2 | 6 kg | 8 | 9,5 |
+| 3 | Bicep Curl (Dumbbell) | 3 | 5 kg | 11 | 10 |
+| 4 | Triceps Extension (Dumbbell) | 1 | 5 kg | 15 | 8,5 |
+| 4 | Triceps Extension (Dumbbell) | 2 | 5 kg | 15 | 9 |
+| 4 | Triceps Extension (Dumbbell) | 3 | 5 kg | 15 | 9 |

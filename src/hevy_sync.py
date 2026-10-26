@@ -73,7 +73,9 @@ def miles(x):
 
 def fila(orden, ej, serie, s):
     kg, reps, seg, dist = s.get("weight_kg"), s.get("reps"), s.get("duration_seconds"), s.get("distance_meters")
-    if reps is not None:
+    if s.get("floors") is not None:                 # escaladora leída de la web: como la escribe la exportación CSV
+        carga, rt = "—", f"{s['floors']} pisos" + (f" / {seg // 60}m {seg % 60}s" if seg else "")
+    elif reps is not None:
         carga, rt = (f"{num(kg)} kg" if kg else "Peso corporal"), str(reps)
     elif seg:
         carga, rt = (f"{num(kg)} kg" if kg else "Peso corporal (isométrico)"), f"{seg} s"

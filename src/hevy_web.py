@@ -35,6 +35,10 @@ MARCA = re.compile(r"^(W|D|F|\d+)$")
 VALOR = re.compile(r"\d.*(kg|lbs|reps?|km|mi|\d\s*m\b|\d\s*s\b|\d\s*h\b)", re.I)
 RPE = re.compile(r"^@\s*([\d.]+)\s*rpe$", re.I)
 TIPOS = {"WEIGHT", "REPS", "DISTANCE", "TIME", "DURATION"}
+# Cuando hubo récords, Hevy pone "Records" y su número después del volumen, y etiquetas como "Best Weight",
+# "Best Volume" o "Best 1 Rep Max" entre las series. Antes cortaban la lectura: se perdían las series que venían
+# después y el volumen no calzaba (Mipi, 1 y 21 de octubre de 2026).
+RECORD = re.compile(r"^Best (weight|volume|1 rep max|reps|set volume|distance|duration|time|pace)$", re.I)
 
 
 def segundos(t):
@@ -49,7 +53,7 @@ def segundos(t):
 
 
 def serie(valor, tipo):
-    """'20kg x 12 reps', '20kg - 30m', '0.8km - 12m 0s', '12 reps', '40s' → campos de una serie."""
+    """'20kg x 12 reps', '20kg - 30m', '0.8km - 12m 0s', '42 floors - 12m 0s', '12 reps', '40s' → campos de una serie."""
     s = {"weight_kg": None, "reps": None, "duration_seconds": None, "distance_meters": None}
     partes = [p.strip() for p in re.split(r"\s+[x×-]\s+", valor)]
     campos = [c for c in re.split(r"\s*&\s*", tipo.upper()) if c in TIPOS]
@@ -60,6 +64,8 @@ def serie(valor, tipo):
             s["weight_kg"] = kg
         elif (m := re.fullmatch(r"(\d+)\s*reps?", p, re.I)):
             s["reps"] = int(m.group(1))
+        elif (m := re.fullmatch(r"(\d+)\s*floors?", p, re.I)):   # escaladora: "42 floors - 12m 0s"
+            s["floors"] = int(m.group(1))
         elif campo == "DISTANCE" or re.fullmatch(r"[\d.]+\s*(km|mi)", p, re.I):
             m = re.fullmatch(r"([\d.]+)\s*(km|mi|m)", p, re.I)
             if not m:
@@ -117,6 +123,8 @@ def lee_texto(texto, ahora=None):
     kv = L.index("Volume", k)
     volumen = L[kv + 1]
     j = kv + 2
+    if j + 1 < len(L) and L[j] == "Records" and L[j + 1].isdigit():   # cuántos récords hubo
+        j += 2
     while j < len(L) and L[j].isdigit():          # me gusta y comentarios
         j += 1
     ejercicios = []
@@ -125,11 +133,15 @@ def lee_texto(texto, ahora=None):
             s = L.index("SETS", j)
         except ValueError:
             break
-        cab = [c for c in L[j:s] if not re.fullmatch(r"superset( \d+)?", c, re.I)]
+        cab = [c for c in L[j:s] if not re.fullmatch(r"superset( \d+)?", c, re.I) and not RECORD.match(c)]
         if not cab:
             raise ValueError(f"ejercicio sin nombre antes de la línea {s}")
         tipo, j, sets = L[s + 1], s + 2, []
-        while j + 1 < len(L) and MARCA.match(L[j]) and VALOR.search(L[j + 1]):
+        while True:
+            while j < len(L) and RECORD.match(L[j]):
+                j += 1
+            if not (j + 1 < len(L) and MARCA.match(L[j]) and VALOR.search(L[j + 1])):
+                break
             st = serie(L[j + 1], tipo)
             j += 2
             st["rpe"] = None

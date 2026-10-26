@@ -1512,10 +1512,17 @@ details.hh-det[open]>summary::after{ content:'▴'; }
   function hechosDe(fecha){ try{ return JSON.parse(localStorage.getItem('hecho-'+perfilActual+'-'+fecha)) || {}; }catch(e){ return {}; } }
   function guardaHechos(fecha, h){ try{ localStorage.setItem('hecho-'+perfilActual+'-'+fecha, JSON.stringify(h)); }catch(e){} }
 
+  // El plan de este perfil vive en la app Entreno (profiles.json: planEnApp): aquí queda el historial y los gráficos.
+  function planEnAppHtml(profile){
+    var p = profile.planEnApp;
+    return '<div class="empty"><b>Tu plan ahora está en Entreno</b>Desde el '+esc(p.desde)+' lo de cada día, los pesos y los ajustes están en la app; este tablero queda con tu historial y tus gráficos. <a href="'+esc(p.url)+'" target="_blank" rel="noopener">Abrir Entreno</a></div>';
+  }
+
   var heroAlt = {};   // que opcion se esta mirando cuando hoy hay dos (solo en pantalla, no se guarda)
   function renderHero(profile){
     var el = document.getElementById('heroCallout');
     el.innerHTML = '';
+    if(profile.planEnApp){ el.innerHTML = planEnAppHtml(profile); return; }
     if(!profile.hasData || !profile.WEEKDAYS.length){
       el.innerHTML = '<div class="empty"><b>Sin rutina cargada todavía</b>Cuando subas el registro de '+esc(profile.displayName)+', esta sección va a mostrar la próxima sesión sugerida'+(profile.note ? ' — '+esc(profile.note) : '')+'.</div>';
       return;
@@ -1751,6 +1758,7 @@ details.hh-det[open]>summary::after{ content:'▴'; }
   function renderWeekCards(profile){
     var wrap = document.getElementById('weekCards');
     wrap.innerHTML = '';
+    if(profile.planEnApp){ wrap.innerHTML = planEnAppHtml(profile); return; }
     if(!profile.hasData || !profile.WEEKDAYS.length){
       wrap.innerHTML = '<div class="empty"><b>Rutina de '+esc(profile.displayName)+' pendiente</b>Todavía no se ha subido un plan semanal para este usuario. Pásame el registro y lo armo igual que el de Mopo'+(profile.note ? ' — '+esc(profile.note) : '')+'.</div>';
       return;
