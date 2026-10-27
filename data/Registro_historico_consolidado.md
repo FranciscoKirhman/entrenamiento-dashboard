@@ -1,4 +1,4 @@
-# Historial de entrenamiento por fecha — 29 de mayo de 2026 al 24 de octubre de 2026 (102 sesiones)
+# Historial de entrenamiento por fecha — 29 de mayo de 2026 al 26 de octubre de 2026 (103 sesiones)
 
 Registro cronológico consolidado. Cada fila corresponde a una serie real copiada desde Hevy. Los volúmenes oficiales se conservan sin reemplazarlos por cálculos derivados.
 
@@ -2930,3 +2930,38 @@ Sesión de boulder por la tarde, después del entrenamiento de pierna de la mañ
 | 3 | Romanian Deadlift (Smith Machine) | 3 | 50 kg | 12 | 8 |
 | 3 | Romanian Deadlift (Smith Machine) | 4 | 50 kg | 12 | 8,5 |
 | 3 | Romanian Deadlift (Smith Machine) | 5 | 50 kg | 12 | 8 |
+
+## 26 Oct 2026 — Evening workout 🏋️
+
+<!-- hevy:ee71ac49-f453-4346-9098-3d4843d6d04b -->
+**Hora:** 7:11 PM  
+**Duración:** 20m  
+**Volumen Hevy:** 11,136 kg  
+
+| Orden | Ejercicio | Serie | Carga | Reps/tiempo | RPE |
+|---:|---|---:|---:|---|---:|
+| 1 | Lat Pulldown (Cable) | 1 | 42,5 kg | 8 | — |
+| 1 | Lat Pulldown (Cable) | 2 | 70,5 kg | 5 | — |
+| 1 | Lat Pulldown (Cable) | 3 | 72,5 kg | 2 | — |
+| 1 | Lat Pulldown (Cable) | 4 | 89 kg | 6 | 10 |
+| 1 | Lat Pulldown (Cable) | 5 | 84,5 kg | 6 | 10 |
+| 1 | Lat Pulldown (Cable) | 6 | 75 kg | 7 | 9,5 |
+| 2 | Incline Bench Press (Dumbbell) | 1 | 40 kg | 8 | 8 |
+| 2 | Incline Bench Press (Dumbbell) | 2 | 44 kg | 12 | 8 |
+| 2 | Incline Bench Press (Dumbbell) | 3 | 44 kg | 12 | 9 |
+| 3 | Bench Press (Barbell) | 1 | 45 kg | 8 | — |
+| 3 | Bench Press (Barbell) | 2 | 65 kg | 5 | — |
+| 3 | Bench Press (Barbell) | 3 | 75 kg | 2 | — |
+| 3 | Bench Press (Barbell) | 4 | 85 kg | 8 | 8 |
+| 3 | Bench Press (Barbell) | 5 | 90 kg | 8 | 9,5 |
+| 3 | Bench Press (Barbell) | 6 | 90 kg | 6 | 10 |
+| 4 | Seated Row (Machine) | 1 | 75 kg | 9 | 8 |
+| 4 | Seated Row (Machine) | 2 | 75 kg | 9 | 8 |
+| 4 | Seated Row (Machine) | 3 | 75 kg | 9 | 8 |
+| 5 | Preacher Curl (Machine) | 1 | 51 kg | 12 | 9 |
+| 5 | Preacher Curl (Machine) | 2 | 51 kg | 12 | 9 |
+| 5 | Preacher Curl (Machine) | 3 | 51 kg | 12 | 9 |
+| 6 | Lateral Raise (Dumbbell) | 1 | 20 kg | 12 | 9 |
+| 6 | Lateral Raise (Dumbbell) | 2 | 20 kg | 12 | 9 |
+| 6 | Lateral Raise (Dumbbell) | 3 | 20 kg | 12 | 9 |
+| 7 | Treadmill | 1 | Peso corporal (isométrico) | 900 s | — |

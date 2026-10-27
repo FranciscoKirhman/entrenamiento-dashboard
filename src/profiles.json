@@ -6,7 +6,7 @@
    {
     "name": "Femoral",
     "recent": 6.4,
-    "hist": 4.6,
+    "hist": 4.5,
     "lo": 6,
     "hi": 10,
     "tier": "good",
@@ -21,7 +21,7 @@
     "lo": 6,
     "hi": 10,
     "tier": "critical",
-    "trend": -3.5,
+    "trend": -1.8,
     "note": "Pushdown del 8 y extensión sobre la cabeza del 11. Justo bajo la banda; desde el 21 va el martes y el sábado.",
     "ex": "Triceps Pushdown, Overhead Extension"
    },
@@ -38,78 +38,78 @@
    },
    {
     "name": "Espalda",
-    "recent": 7.6,
-    "hist": 9.6,
+    "recent": 11.1,
+    "hist": 9.8,
     "lo": 12,
     "hi": 16,
     "tier": "warning",
-    "trend": -2.9,
+    "trend": 5.8,
     "note": "Jalón, remo y dominadas del 11, con jalón a 82 × 12 las tres. Con un solo día por semana no llega a la banda: desde el 21 el remo sentado pasa al viernes.",
     "ex": "Lat Pulldown, Seated Row, Iso-Lateral Row, Pull Up"
    },
    {
     "name": "Bíceps",
-    "recent": 3.5,
-    "hist": 5.4,
+    "recent": 5.2,
+    "hist": 5.5,
     "lo": 6,
     "hi": 10,
     "tier": "warning",
-    "trend": -1.8,
+    "trend": 1.8,
     "note": "Solo el Preacher del 11 cae en la ventana. Desde el 21: curl inclinado el jueves y martillo el sábado, además de lo que trabajan los remos.",
     "ex": "Incline Curl, Hammer Curl, Preacher Curl"
    },
    {
     "name": "Pecho",
-    "recent": 6.4,
-    "hist": 9.4,
+    "recent": 9.9,
+    "hist": 9.6,
     "lo": 10,
     "hi": 14,
     "tier": "warning",
-    "trend": -4.1,
+    "trend": 2.9,
     "note": "Dentro de banda con la banca del 8 y el inclinado a 65 × 10 del domingo 13, sin molestias de hombro.",
     "ex": "Bench Press, Incline Bench, Cable Fly, Chest Fly"
    },
    {
     "name": "Hombro (empuje)",
-    "recent": 4.1,
+    "recent": 4.7,
     "hist": 10.5,
     "lo": 8,
     "hi": 12,
     "tier": "warning",
-    "trend": -8.2,
+    "trend": -3.5,
     "note": "Sobre la banda con press, elevación lateral, Rear Delt y Face Pull. Desde el 21 el press militar descansa y el Rear Delt sale del plan.",
     "ex": "Shoulder Press, Lateral Raise, Face Pull"
    },
    {
     "name": "Cuádriceps",
-    "recent": 6.4,
-    "hist": 7.6,
+    "recent": 5.2,
+    "hist": 7.5,
     "lo": 10,
     "hi": 14,
     "tier": "warning",
-    "trend": 4.7,
+    "trend": 2.3,
     "note": "Sentadilla a 90 × 8 las tres y prensa a 180 × 12 el 9. Al borde de la banda con un solo día de cuádriceps.",
     "ex": "Squat, Leg Press, Leg Extension"
    },
    {
     "name": "Aductor / abductor",
-    "recent": 2.9,
-    "hist": 3.5,
+    "recent": 2.3,
+    "hist": 3.4,
     "lo": 4,
     "hi": 8,
     "tier": "warning",
-    "trend": 1.2,
+    "trend": 0.0,
     "note": "Aducción a 89 × 15 el 9 y el 13, siempre a RPE 7: en banda, pero con la carga corta. Sube a 94 el 23.",
     "ex": "Hip Adduction, Hip Abduction"
    },
    {
     "name": "Core",
     "recent": 2.9,
-    "hist": 6.6,
+    "hist": 6.5,
     "lo": 12,
     "hi": 22,
     "tier": "critical",
-    "trend": -2.3,
+    "trend": -0.6,
     "note": "Pallof, crunch inverso, elevación de rodillas y plancha lateral: dentro de banda.",
     "ex": "Cable Crunch, Pallof Press, Reverse Crunch, Side Plank"
    }
@@ -11147,6 +11147,10 @@
      {
       "d": "21 oct",
       "w": 90.0
+     },
+     {
+      "d": "26 oct",
+      "w": 90.0
      }
     ],
     "pattern": "ascendente_claro",
@@ -11397,6 +11401,10 @@
      {
       "d": "15 oct",
       "w": 70.5
+     },
+     {
+      "d": "26 oct",
+      "w": 89.0
      }
     ],
     "pattern": "meseta_oscilante",
@@ -11537,6 +11545,10 @@
      {
       "d": "16 oct",
       "w": 16.0
+     },
+     {
+      "d": "26 oct",
+      "w": 20.0
      }
     ],
     "pattern": "meseta_oscilante",
@@ -11699,6 +11711,168 @@
    }
   ],
   "SESSIONS_FULL": [
+   {
+    "date": "2026-10-26",
+    "dlabel": "26 oct",
+    "title": "Evening workout 🏋️",
+    "hora": "7:11 PM",
+    "dur": "20m",
+    "vol": "11,136",
+    "com": null,
+    "rec": null,
+    "exercises": [
+     {
+      "ej": "Lat Pulldown (Cable)",
+      "carga": "42,5",
+      "reps": "8",
+      "rpe": "—"
+     },
+     {
+      "ej": "Lat Pulldown (Cable)",
+      "carga": "70,5",
+      "reps": "5",
+      "rpe": "—"
+     },
+     {
+      "ej": "Lat Pulldown (Cable)",
+      "carga": "72,5",
+      "reps": "2",
+      "rpe": "—"
+     },
+     {
+      "ej": "Lat Pulldown (Cable)",
+      "carga": "89",
+      "reps": "6",
+      "rpe": "10"
+     },
+     {
+      "ej": "Lat Pulldown (Cable)",
+      "carga": "84,5",
+      "reps": "6",
+      "rpe": "10"
+     },
+     {
+      "ej": "Lat Pulldown (Cable)",
+      "carga": "75",
+      "reps": "7",
+      "rpe": "9,5"
+     },
+     {
+      "ej": "Incline Bench Press (Dumbbell)",
+      "carga": "40",
+      "reps": "8",
+      "rpe": "8"
+     },
+     {
+      "ej": "Incline Bench Press (Dumbbell)",
+      "carga": "44",
+      "reps": "12",
+      "rpe": "8"
+     },
+     {
+      "ej": "Incline Bench Press (Dumbbell)",
+      "carga": "44",
+      "reps": "12",
+      "rpe": "9"
+     },
+     {
+      "ej": "Bench Press (Barbell)",
+      "carga": "45",
+      "reps": "8",
+      "rpe": "—"
+     },
+     {
+      "ej": "Bench Press (Barbell)",
+      "carga": "65",
+      "reps": "5",
+      "rpe": "—"
+     },
+     {
+      "ej": "Bench Press (Barbell)",
+      "carga": "75",
+      "reps": "2",
+      "rpe": "—"
+     },
+     {
+      "ej": "Bench Press (Barbell)",
+      "carga": "85",
+      "reps": "8",
+      "rpe": "8"
+     },
+     {
+      "ej": "Bench Press (Barbell)",
+      "carga": "90",
+      "reps": "8",
+      "rpe": "9,5"
+     },
+     {
+      "ej": "Bench Press (Barbell)",
+      "carga": "90",
+      "reps": "6",
+      "rpe": "10"
+     },
+     {
+      "ej": "Seated Row (Machine)",
+      "carga": "75",
+      "reps": "9",
+      "rpe": "8"
+     },
+     {
+      "ej": "Seated Row (Machine)",
+      "carga": "75",
+      "reps": "9",
+      "rpe": "8"
+     },
+     {
+      "ej": "Seated Row (Machine)",
+      "carga": "75",
+      "reps": "9",
+      "rpe": "8"
+     },
+     {
+      "ej": "Preacher Curl (Machine)",
+      "carga": "51",
+      "reps": "12",
+      "rpe": "9"
+     },
+     {
+      "ej": "Preacher Curl (Machine)",
+      "carga": "51",
+      "reps": "12",
+      "rpe": "9"
+     },
+     {
+      "ej": "Preacher Curl (Machine)",
+      "carga": "51",
+      "reps": "12",
+      "rpe": "9"
+     },
+     {
+      "ej": "Lateral Raise (Dumbbell)",
+      "carga": "20",
+      "reps": "12",
+      "rpe": "9"
+     },
+     {
+      "ej": "Lateral Raise (Dumbbell)",
+      "carga": "20",
+      "reps": "12",
+      "rpe": "9"
+     },
+     {
+      "ej": "Lateral Raise (Dumbbell)",
+      "carga": "20",
+      "reps": "12",
+      "rpe": "9"
+     },
+     {
+      "ej": "Treadmill",
+      "carga": "Peso corporal (isométrico)",
+      "reps": "900 s",
+      "rpe": "—"
+     }
+    ]
+   },
    {
     "date": "2026-10-24",
     "dlabel": "24 oct",
