@@ -1,4 +1,4 @@
-# Historial de entrenamiento por fecha — 29 de mayo de 2026 al 26 de octubre de 2026 (103 sesiones)
+# Historial de entrenamiento por fecha — 29 de mayo de 2026 al 28 de octubre de 2026 (104 sesiones)
 
 Registro cronológico consolidado. Cada fila corresponde a una serie real copiada desde Hevy. Los volúmenes oficiales se conservan sin reemplazarlos por cálculos derivados.
 
@@ -2965,3 +2965,35 @@ Sesión de boulder por la tarde, después del entrenamiento de pierna de la mañ
 | 6 | Lateral Raise (Dumbbell) | 2 | 20 kg | 12 | 9 |
 | 6 | Lateral Raise (Dumbbell) | 3 | 20 kg | 12 | 9 |
 | 7 | Treadmill | 1 | Peso corporal (isométrico) | 900 s | — |
+
+## 28 Oct 2026 — Afternoon workout 💪
+
+<!-- hevy:88cd2176-40bf-4e03-81c0-607f3b5392b5 -->
+**Hora:** 3:46 PM  
+**Duración:** 1h 40m  
+**Volumen Hevy:** 8,165 kg  
+**Comentario:** Aca lorado  
+
+| Orden | Ejercicio | Serie | Carga | Reps/tiempo | RPE |
+|---:|---|---:|---:|---|---:|
+| 1 | Pull Up | 1 | Peso corporal | 12 | 9 |
+| 1 | Pull Up | 2 | Peso corporal | 11 | 8 |
+| 1 | Pull Up | 3 | Peso corporal | 8 | 10 |
+| 1 | Pull Up | 4 | Peso corporal | 8 | 9 |
+| 2 | Iso-Lateral Row (Machine) | 1 | 40 kg | 8 | — |
+| 2 | Iso-Lateral Row (Machine) | 2 | 70 kg | 2 | — |
+| 2 | Iso-Lateral Row (Machine) | 3 | 80 kg | 8 | 8 |
+| 2 | Iso-Lateral Row (Machine) | 4 | 80 kg | 8 | 8,5 |
+| 3 | Preacher Curl (Barbell) | 1 | 28 kg | 12 | 8 |
+| 3 | Preacher Curl (Barbell) | 2 | 28 kg | 15 | 8 |
+| 3 | Preacher Curl (Barbell) | 3 | 33 kg | 10 | 9 |
+| 4 | Triceps Pushdown | 1 | 35 kg | 15 | 8 |
+| 4 | Triceps Pushdown | 2 | 35 kg | 12 | 9 |
+| 4 | Triceps Pushdown | 3 | 32,5 kg | 15 | 9 |
+| 5 | Chest Press (Machine) | 1 | 75 kg | 8 | 8 |
+| 5 | Chest Press (Machine) | 2 | 75 kg | 8 | 7,5 |
+| 5 | Chest Press (Machine) | 3 | 75 kg | 8 | 8 |
+| 6 | Chest Fly (Machine) | 1 | 54 kg | 15 | 7,5 |
+| 6 | Chest Fly (Machine) | 2 | 54 kg | 15 | 7,5 |
+| 6 | Chest Fly (Machine) | 3 | 54 kg | 9 | 10 |
+| 7 | Stair Machine (Floors) | 1 | Peso corporal (isométrico) | 720 s | — |
