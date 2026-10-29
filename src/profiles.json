@@ -5,12 +5,12 @@
   "MUSCLES": [
    {
     "name": "Femoral",
-    "recent": 5.2,
-    "hist": 4.5,
+    "recent": 7.0,
+    "hist": 4.6,
     "lo": 6,
     "hi": 10,
-    "tier": "warning",
-    "trend": 0.6,
+    "tier": "good",
+    "trend": 2.3,
     "note": "Curl acostado del domingo 13 y peso muerto rumano del 7. Sube desde 2,9, pero sigue bajo la banda: desde el 21 va dos días por semana, lunes y viernes.",
     "ex": "Romanian Deadlift, Lying/Seated Leg Curl"
    },
@@ -27,12 +27,12 @@
    },
    {
     "name": "Glúteo / cadera",
-    "recent": 3.5,
+    "recent": 2.3,
     "hist": 3.6,
     "lo": 8,
     "hi": 12,
     "tier": "critical",
-    "trend": 0.0,
+    "trend": -2.3,
     "note": "Hip thrust del 7 y máquina de glúteo del 13. La máquina de erector espinal del 7 ya no cuenta como glúteo, por eso queda en 3,5. Desde el 21 hay glúteo el lunes y el viernes, con la abducción.",
     "ex": "Hip Thrust, máquina de glúteo"
    },
@@ -50,7 +50,7 @@
    {
     "name": "Bíceps",
     "recent": 7.0,
-    "hist": 5.6,
+    "hist": 5.5,
     "lo": 6,
     "hi": 10,
     "tier": "good",
@@ -72,7 +72,7 @@
    {
     "name": "Hombro (empuje)",
     "recent": 4.7,
-    "hist": 10.4,
+    "hist": 10.3,
     "lo": 8,
     "hi": 12,
     "tier": "warning",
@@ -82,34 +82,34 @@
    },
    {
     "name": "Cuádriceps",
-    "recent": 5.2,
-    "hist": 7.4,
+    "recent": 7.0,
+    "hist": 7.5,
     "lo": 10,
     "hi": 14,
     "tier": "warning",
-    "trend": 2.3,
+    "trend": 4.1,
     "note": "Sentadilla a 90 × 8 las tres y prensa a 180 × 12 el 9. Al borde de la banda con un solo día de cuádriceps.",
     "ex": "Squat, Leg Press, Leg Extension"
    },
    {
     "name": "Aductor / abductor",
-    "recent": 2.3,
+    "recent": 1.8,
     "hist": 3.4,
     "lo": 4,
     "hi": 8,
-    "tier": "warning",
-    "trend": 1.8,
+    "tier": "critical",
+    "trend": 0.6,
     "note": "Aducción a 89 × 15 el 9 y el 13, siempre a RPE 7: en banda, pero con la carga corta. Sube a 94 el 23.",
     "ex": "Hip Adduction, Hip Abduction"
    },
    {
     "name": "Core",
-    "recent": 2.9,
-    "hist": 6.5,
+    "recent": 1.2,
+    "hist": 6.4,
     "lo": 12,
     "hi": 22,
     "tier": "critical",
-    "trend": -0.6,
+    "trend": -4.1,
     "note": "Pallof, crunch inverso, elevación de rodillas y plancha lateral: dentro de banda.",
     "ex": "Cable Crunch, Pallof Press, Reverse Crunch, Side Plank"
    }
@@ -11711,6 +11711,66 @@
    }
   ],
   "SESSIONS_FULL": [
+   {
+    "date": "2026-10-29",
+    "dlabel": "29 oct",
+    "title": "Afternoon workout 💪",
+    "hora": "2:39 PM",
+    "dur": "26m",
+    "vol": "3,308",
+    "com": null,
+    "rec": null,
+    "exercises": [
+     {
+      "ej": "Bulgarian Split Squat (Dumbbell)",
+      "carga": "20",
+      "reps": "10",
+      "rpe": "—"
+     },
+     {
+      "ej": "Bulgarian Split Squat (Dumbbell)",
+      "carga": "32",
+      "reps": "5",
+      "rpe": "—"
+     },
+     {
+      "ej": "Bulgarian Split Squat (Dumbbell)",
+      "carga": "44",
+      "reps": "11",
+      "rpe": "8"
+     },
+     {
+      "ej": "Bulgarian Split Squat (Dumbbell)",
+      "carga": "44",
+      "reps": "8",
+      "rpe": "8"
+     },
+     {
+      "ej": "Bulgarian Split Squat (Dumbbell)",
+      "carga": "44",
+      "reps": "10",
+      "rpe": "8"
+     },
+     {
+      "ej": "Lying Leg Curl (Machine)",
+      "carga": "44",
+      "reps": "14",
+      "rpe": "9"
+     },
+     {
+      "ej": "Lying Leg Curl (Machine)",
+      "carga": "44",
+      "reps": "14",
+      "rpe": "9"
+     },
+     {
+      "ej": "Lying Leg Curl (Machine)",
+      "carga": "44",
+      "reps": "10",
+      "rpe": "10"
+     }
+    ]
+   },
    {
     "date": "2026-10-28",
     "dlabel": "28 oct",

@@ -1,4 +1,4 @@
-# Historial de entrenamiento por fecha — 29 de mayo de 2026 al 28 de octubre de 2026 (104 sesiones)
+# Historial de entrenamiento por fecha — 29 de mayo de 2026 al 29 de octubre de 2026 (105 sesiones)
 
 Registro cronológico consolidado. Cada fila corresponde a una serie real copiada desde Hevy. Los volúmenes oficiales se conservan sin reemplazarlos por cálculos derivados.
 
@@ -2997,3 +2997,21 @@ Sesión de boulder por la tarde, después del entrenamiento de pierna de la mañ
 | 6 | Chest Fly (Machine) | 2 | 54 kg | 15 | 7,5 |
 | 6 | Chest Fly (Machine) | 3 | 54 kg | 9 | 10 |
 | 7 | Stair Machine (Floors) | 1 | Peso corporal (isométrico) | 720 s | — |
+
+## 29 Oct 2026 — Afternoon workout 💪
+
+<!-- hevy:fd8cce6a-029e-4f73-9ec7-c4167a2191e4 -->
+**Hora:** 2:39 PM  
+**Duración:** 26m  
+**Volumen Hevy:** 3,308 kg  
+
+| Orden | Ejercicio | Serie | Carga | Reps/tiempo | RPE |
+|---:|---|---:|---:|---|---:|
+| 1 | Bulgarian Split Squat (Dumbbell) | 1 | 20 kg | 10 | — |
+| 1 | Bulgarian Split Squat (Dumbbell) | 2 | 32 kg | 5 | — |
+| 1 | Bulgarian Split Squat (Dumbbell) | 3 | 44 kg | 11 | 8 |
+| 1 | Bulgarian Split Squat (Dumbbell) | 4 | 44 kg | 8 | 8 |
+| 1 | Bulgarian Split Squat (Dumbbell) | 5 | 44 kg | 10 | 8 |
+| 2 | Lying Leg Curl (Machine) | 1 | 44 kg | 14 | 9 |
+| 2 | Lying Leg Curl (Machine) | 2 | 44 kg | 14 | 9 |
+| 2 | Lying Leg Curl (Machine) | 3 | 44 kg | 10 | 10 |
